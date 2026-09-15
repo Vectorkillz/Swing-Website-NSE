@@ -7,6 +7,56 @@
         "candidates_long": 1,
         "candidates_short": 37,
         "data_unavailable": 251,
+        "fundamentals_missing": 767,
+        "grade_a": 28,
+        "grade_ap": 9,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 1,
+        "multibagger_strong": 59,
+        "multibagger_watch": 17,
+        "no_setup": 242,
+        "ranked_long": 1,
+        "ranked_short": 10,
+        "rejected_gate": 1009,
+        "scanned": 2307,
+        "swing_suitable": 864,
+        "universe": 2307,
+        "usable": 2056,
+        "warnings": [
+          "degraded:coverage 89.1% < 90%"
+        ]
+      },
+      "duration_s": 40.7,
+      "finished_at": "2026-09-15T15:40:34+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-15_v003_5ebe7baf",
+      "started_at": "2026-09-15T15:39:53+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "bars_added": 0,
+        "failed": 1,
+        "ok": 2306,
+        "symbols": 2307
+      },
+      "duration_s": 645.7,
+      "finished_at": "2026-09-15T15:39:53+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-15T15:29:07+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
+        "candidates_long": 1,
+        "candidates_short": 37,
+        "data_unavailable": 251,
         "fundamentals_missing": 1126,
         "grade_a": 28,
         "grade_ap": 9,
