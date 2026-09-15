@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33472.0,
+  "debt_equity": 1.19455,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:01+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1097.559552,
+  "name": "Ice Make Refrigeration Limited",
+  "revenue_growth": 60.4,
+  "roe": 9.004221111003996,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,5 +1,5 @@
 {
-  "config_hash": "7d01656356e496378481898ca988772a0900a633a86d93a2482b92193ae7f8f8",
+  "config_hash": "425a9ab014f9f94908ed9d02ccec37790af9df51beced5cedbebf9a9e153c314",
   "values": {
     "allow_shorts_in_bull_high_vix": false,
     "band_a_min": 85.0,
@@ -11,6 +11,13 @@
     "double_top_tolerance_pct": 3.0,
     "ema_support_tolerance_pct": 1.0,
     "extended_target_r": 3.0,
+    "grade_a_min": 65.0,
+    "grade_ap_min": 75.0,
+    "grade_app_min": 85.0,
+    "grade_bp_min": 50.0,
+    "grade_fund_eps_growth_min": 25.0,
+    "grade_fund_revenue_growth_min": 20.0,
+    "grade_fund_roe_min": 20.0,
     "keep_runs": 60,
     "largecap_min_cr": 100000.0,
     "leg_lookback_bars": 42,

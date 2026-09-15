@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10882.0,
+  "debt_equity": 0.12679,
+  "eps_growth": -32.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:01+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 16738.7496448,
+  "name": "AstraZeneca Pharma India Limited",
+  "revenue_growth": 29.7,
+  "roe": 19.434227431570022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

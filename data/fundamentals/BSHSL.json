@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6388.0,
+  "debt_equity": 0.82638,
+  "eps_growth": 16.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:28+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 896.374272,
+  "name": "Bombay Super Hybrid Seeds Limited",
+  "revenue_growth": 19.400000000000002,
+  "roe": 21.918999482232174,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

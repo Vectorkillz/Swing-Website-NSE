@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2014233.0,
+  "debt_equity": 3.93194,
+  "eps_growth": 71.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:19+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 29692.493824,
+  "name": "ACME Solar Holdings Limited",
+  "revenue_growth": 46.800000000000004,
+  "roe": 10.224180750954105,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

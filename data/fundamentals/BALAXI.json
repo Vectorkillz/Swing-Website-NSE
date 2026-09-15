@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37638.0,
+  "debt_equity": 0.23145,
+  "eps_growth": -92.9,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:03:18+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 127.639744,
+  "name": "Balaxi Pharmaceuticals Limited",
+  "revenue_growth": -7.3,
+  "roe": 0.5889999699999999,
+  "roe_source": "returnOnEquity",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6906.0,
+  "debt_equity": 1.15257,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:10+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 58.9066816,
+  "name": "Handson Global Management (HGM) Limited",
+  "revenue_growth": -20.599999999999998,
+  "roe": -33.52482082403762,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

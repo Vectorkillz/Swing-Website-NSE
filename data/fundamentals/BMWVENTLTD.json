@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68445.0,
+  "debt_equity": 0.58379,
+  "eps_growth": -3.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:01+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 447.536128,
+  "name": "BMW Ventures Limited",
+  "revenue_growth": 25.7,
+  "roe": 9.067219640617688,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

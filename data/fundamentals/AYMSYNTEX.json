@@ -1,0 +1,15 @@
+{
+  "avg_volume": 101781.0,
+  "debt_equity": 0.31914000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:53+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 1581.9820032,
+  "name": "AYM Syntex Limited",
+  "revenue_growth": 7.5,
+  "roe": 3.1797659845847788,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

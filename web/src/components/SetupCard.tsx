@@ -1,6 +1,6 @@
 import type { Candidate } from "../lib/types";
 import { fmtInr, fmtPct } from "../lib/format";
-import { BandBadge, CapBadge, Level, MultibaggerBadge, SideBadge } from "./ui";
+import { CapBadge, FnoBadge, GradeBadge, Level, MultibaggerBadge, SideBadge } from "./ui";
 
 export default function SetupCard({ cand, selected, onOpen }: { cand: Candidate; selected: boolean; onOpen: () => void }) {
   const p = cand.plan;
@@ -18,6 +18,7 @@ export default function SetupCard({ cand, selected, onOpen }: { cand: Candidate;
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-lg font-bold tracking-tight">{cand.symbol}</span>
             <SideBadge side={cand.side} />
+            {cand.grade && <GradeBadge grade={cand.grade.grade} reasons={cand.grade.reasons} />}
             {cand.rank != null && <span className="badge bg-white/10 text-muted">#{cand.rank}</span>}
           </div>
           <div className="mt-0.5 truncate text-xs text-muted">{cand.name ?? ""}{cand.sector ? ` · ${cand.sector}` : ""}</div>
@@ -40,8 +41,8 @@ export default function SetupCard({ cand, selected, onOpen }: { cand: Candidate;
 
       <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
         <span className="mono font-semibold">{cand.score.raw.toFixed(0)} pts</span>
-        <BandBadge band={cand.score.band} />
         <CapBadge bucket={cand.cap_bucket} />
+        {cand.side === "long" && <FnoBadge eligible={cand.fno_eligible} />}
         {cand.multibagger && <MultibaggerBadge level={cand.multibagger.level} />}
         {cand.rs_vs_nifty != null && <span className={`badge ${cand.rs_vs_nifty >= 0 ? "bg-long/10 text-long" : "bg-white/5 text-muted"}`} title="Relative strength vs Nifty over 20 bars (percentage points)">RS {cand.rs_vs_nifty >= 0 ? "+" : ""}{cand.rs_vs_nifty.toFixed(1)}</span>}
         {cand.warnings.length > 0 && <span className="badge bg-warn/20 text-warn" title={cand.warnings.join("; ")}>⚠</span>}

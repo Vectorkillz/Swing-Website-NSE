@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23989.0,
+  "debt_equity": 1.00269,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:41+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 792.8945152,
+  "name": "Deccan Cements Limited",
+  "revenue_growth": 45.7,
+  "roe": 0.7777795014338502,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

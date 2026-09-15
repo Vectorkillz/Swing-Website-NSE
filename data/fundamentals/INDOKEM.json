@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3922.0,
+  "debt_equity": 0.41575,
+  "eps_growth": 52.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:57+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1705.924608,
+  "name": "Indokem Limited",
+  "revenue_growth": 12.2,
+  "roe": 3.3536764389193645,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

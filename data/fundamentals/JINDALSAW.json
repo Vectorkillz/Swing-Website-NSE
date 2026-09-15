@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2252504.0,
+  "debt_equity": 0.38189999999999996,
+  "eps_growth": -75.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:48+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 18427.2502784,
+  "name": "Jindal Saw Limited",
+  "revenue_growth": 9.0,
+  "roe": 5.193740322922505,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

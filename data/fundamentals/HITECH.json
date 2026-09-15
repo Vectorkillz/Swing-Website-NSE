@@ -1,0 +1,15 @@
+{
+  "avg_volume": 775764.0,
+  "debt_equity": 0.20061,
+  "eps_growth": -4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:32+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 1492.1500672,
+  "name": "Hi-Tech Pipes Limited",
+  "revenue_growth": 78.5,
+  "roe": 5.506734950863268,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

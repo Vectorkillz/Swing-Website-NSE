@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1398649.0,
+  "debt_equity": 0.26985,
+  "eps_growth": 200.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:37+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1319.9332352,
+  "name": "DCW Limited",
+  "revenue_growth": 14.000000000000002,
+  "roe": 6.664457855513034,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

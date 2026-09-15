@@ -1,0 +1,15 @@
+{
+  "avg_volume": 76561.0,
+  "debt_equity": 0.05395,
+  "eps_growth": 12.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:28+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 5101.0134016,
+  "name": "Fiem Industries Limited",
+  "revenue_growth": 18.5,
+  "roe": 21.64157902537307,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

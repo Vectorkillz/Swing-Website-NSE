@@ -1,0 +1,15 @@
+{
+  "avg_volume": 232119.0,
+  "debt_equity": 0.09603999999999999,
+  "eps_growth": 303.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:36+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 43338.1801984,
+  "name": "Aditya Infotech Limited",
+  "revenue_growth": 89.5,
+  "roe": 25.32197283709976,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

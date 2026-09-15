@@ -1,0 +1,15 @@
+{
+  "avg_volume": 191615.0,
+  "debt_equity": 0.30217,
+  "eps_growth": 192.70000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:15+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 473.1404288,
+  "name": "KD Green Industries Limited",
+  "revenue_growth": null,
+  "roe": 4.6544692304316015,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

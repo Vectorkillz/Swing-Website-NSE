@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1194009.0,
+  "debt_equity": 0.83392,
+  "eps_growth": 258.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:45+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 17001.0001408,
+  "name": "Aarti Industries Limited",
+  "revenue_growth": 42.5,
+  "roe": 8.886143348309005,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

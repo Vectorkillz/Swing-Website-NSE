@@ -1,0 +1,15 @@
+{
+  "avg_volume": 842892.0,
+  "debt_equity": 0.01076,
+  "eps_growth": 3.6999999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:52+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 2811.183104,
+  "name": "BLS E-Services Limited",
+  "revenue_growth": 24.6,
+  "roe": 11.163700842936858,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1291793.0,
+  "debt_equity": 0.03021,
+  "eps_growth": -23.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:45+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 19962.1951488,
+  "name": "HBL Engineering Limited",
+  "revenue_growth": 6.0,
+  "roe": 34.951532489271564,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

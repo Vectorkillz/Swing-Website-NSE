@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6327.0,
+  "debt_equity": 0.48943,
+  "eps_growth": 47.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:09+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": null,
+  "name": "Empire Industries Limited",
+  "revenue_growth": 10.100000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

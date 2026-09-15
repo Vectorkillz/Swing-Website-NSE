@@ -1,0 +1,15 @@
+{
+  "avg_volume": 143086.0,
+  "debt_equity": 2.24816,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:50+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 5260.4030976,
+  "name": "Kalpataru Limited",
+  "revenue_growth": 6.5,
+  "roe": 2.832590535449694,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32945.0,
+  "debt_equity": 0.02758,
+  "eps_growth": 15.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:43+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 17712.128,
+  "name": "Bayer CropScience Limited",
+  "revenue_growth": -4.2,
+  "roe": 24.685557455061215,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

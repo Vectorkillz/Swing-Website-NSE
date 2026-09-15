@@ -1,0 +1,15 @@
+{
+  "avg_volume": 200291.0,
+  "debt_equity": 2.43944,
+  "eps_growth": 32.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:39+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 12288.8740864,
+  "name": "Home First Finance Company India Limited",
+  "revenue_growth": 29.7,
+  "roe": 13.31460735600854,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

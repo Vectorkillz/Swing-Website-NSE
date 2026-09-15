@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20979.0,
+  "debt_equity": 0.27129000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:51+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 80.87056,
+  "name": "Cinevista Limited",
+  "revenue_growth": 61.8,
+  "roe": 10.78559767639756,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

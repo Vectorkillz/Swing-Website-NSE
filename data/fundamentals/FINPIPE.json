@@ -1,0 +1,15 @@
+{
+  "avg_volume": 737531.0,
+  "debt_equity": 0.07171,
+  "eps_growth": 16.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:40+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 9356.9449984,
+  "name": "Finolex Industries Limited",
+  "revenue_growth": -15.299999999999999,
+  "roe": 9.891215367388853,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

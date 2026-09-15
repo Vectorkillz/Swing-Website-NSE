@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18859143.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:08+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 89191.1733248,
+  "name": "IDBI Bank Limited",
+  "revenue_growth": null,
+  "roe": 13.874,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 521124.0,
+  "debt_equity": 0.09165,
+  "eps_growth": 28.499999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:09+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 52131.987456,
+  "name": "Berger Paints India Limited",
+  "revenue_growth": 12.0,
+  "roe": 17.590433313565086,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

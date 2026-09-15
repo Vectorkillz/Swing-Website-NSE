@@ -1,0 +1,15 @@
+{
+  "avg_volume": 706430.0,
+  "debt_equity": 0.27261,
+  "eps_growth": 28.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:20+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 6218.143744,
+  "name": "Jeena Sikho Lifecare Limited",
+  "revenue_growth": 28.799999999999997,
+  "roe": 50.64643979017196,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

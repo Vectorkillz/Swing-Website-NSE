@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5291.0,
+  "debt_equity": 0.05493000000000001,
+  "eps_growth": 36.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:21+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 206.710144,
+  "name": "AuSom Enterprise Limited",
+  "revenue_growth": 489.1,
+  "roe": 15.37199665520702,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

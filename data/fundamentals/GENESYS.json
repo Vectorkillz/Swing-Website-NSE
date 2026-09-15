@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1291742.0,
+  "debt_equity": 0.24515,
+  "eps_growth": -27.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:49+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 1909.051392,
+  "name": "Genesys International Corporation Limited",
+  "revenue_growth": 14.799999999999999,
+  "roe": 2.6615198409224012,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

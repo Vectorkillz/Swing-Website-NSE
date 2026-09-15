@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2564679.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:57+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 525.4759424,
+  "name": "Aqylon Nexus Limited",
+  "revenue_growth": 24294.8,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

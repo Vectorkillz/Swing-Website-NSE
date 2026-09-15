@@ -1,0 +1,15 @@
+{
+  "avg_volume": 121137.0,
+  "debt_equity": 10.115779999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:50+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 4227.868672,
+  "name": "IndiQube Spaces Limited",
+  "revenue_growth": 36.7,
+  "roe": -18.15808337618892,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

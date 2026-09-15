@@ -1,0 +1,15 @@
+{
+  "avg_volume": 186987.0,
+  "debt_equity": 0.034780000000000005,
+  "eps_growth": -8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:17+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 3758.7136512,
+  "name": "Aurionpro Solutions Limited",
+  "revenue_growth": 6.3,
+  "roe": 11.89381137746461,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

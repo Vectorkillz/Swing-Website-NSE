@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1773500.0,
+  "debt_equity": 0.10288,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:43+00:00",
+  "industry": "Gold",
+  "market_cap_cr": 4478.029824,
+  "name": "Deccan Gold Mines Limited",
+  "revenue_growth": -6.800000000000001,
+  "roe": -5.9576908884064705,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 756747.0,
+  "debt_equity": 0.09102,
+  "eps_growth": -8.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:04+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 3567.9735808,
+  "name": "CMS Info Systems Limited",
+  "revenue_growth": 1.2,
+  "roe": 12.390812271539112,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

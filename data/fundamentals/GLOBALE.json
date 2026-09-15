@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5153.0,
+  "debt_equity": 1.07499,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:29+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 12.4257216,
+  "name": "Globale Tessile Limited",
+  "revenue_growth": 888.3,
+  "roe": -12.109204295551582,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

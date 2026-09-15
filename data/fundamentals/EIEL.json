@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2596036.0,
+  "debt_equity": 0.34127,
+  "eps_growth": -5.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:24+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 3456.3612672,
+  "name": "Enviro Infra Engineers Limited",
+  "revenue_growth": 49.1,
+  "roe": 14.663657630529489,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

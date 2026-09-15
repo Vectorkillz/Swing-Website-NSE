@@ -1,0 +1,15 @@
+{
+  "avg_volume": 299640.0,
+  "debt_equity": 0.0027900000000000004,
+  "eps_growth": 182.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:34+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 3383.3893888,
+  "name": "Divgi TorqTransfer Systems Limited",
+  "revenue_growth": 91.3,
+  "roe": 9.955330970361185,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

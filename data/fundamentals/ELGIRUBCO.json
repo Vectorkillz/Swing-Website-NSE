@@ -1,0 +1,15 @@
+{
+  "avg_volume": 103903.0,
+  "debt_equity": 4.13219,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:48+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 279.4291712,
+  "name": "Elgi Rubber Company Limited",
+  "revenue_growth": -18.099999999999998,
+  "roe": -261.41077330498115,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

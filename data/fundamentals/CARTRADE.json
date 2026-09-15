@@ -1,0 +1,15 @@
+{
+  "avg_volume": 738994.0,
+  "debt_equity": 0.053630000000000004,
+  "eps_growth": 22.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:56+00:00",
+  "industry": "Auto & Truck Dealerships",
+  "market_cap_cr": 14636.5661184,
+  "name": "CarTrade Tech Limited",
+  "revenue_growth": 16.3,
+  "roe": 9.190865134996438,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

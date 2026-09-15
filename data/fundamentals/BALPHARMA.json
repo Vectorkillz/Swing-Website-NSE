@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68963.0,
+  "debt_equity": 1.9393500000000001,
+  "eps_growth": 446.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:24+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 171.0538496,
+  "name": "Bal Pharma Limited",
+  "revenue_growth": 34.5,
+  "roe": 8.75284845269263,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

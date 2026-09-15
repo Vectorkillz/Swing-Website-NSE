@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18430.0,
+  "debt_equity": 0.6707299999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:00+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 188.3496064,
+  "name": "Affordable Robotic & Automation Limited",
+  "revenue_growth": -41.199999999999996,
+  "roe": 5.042865191643844,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

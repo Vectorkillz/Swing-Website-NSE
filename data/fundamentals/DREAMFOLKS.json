@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58727.0,
+  "debt_equity": 0.038650000000000004,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:55+00:00",
+  "industry": "Airports & Air Services",
+  "market_cap_cr": 355.6296192,
+  "name": "Dreamfolks Services Limited",
+  "revenue_growth": -88.8,
+  "roe": -7.442162748701368,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1717865.0,
+  "debt_equity": 0.29762,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:42+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 8323.2595968,
+  "name": "Brainbees Solutions Limited",
+  "revenue_growth": 13.100000000000001,
+  "roe": -2.5676064144185364,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

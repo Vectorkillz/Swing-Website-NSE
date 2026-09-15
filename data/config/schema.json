@@ -87,6 +87,62 @@
       "x-group": "plan",
       "x-unit": "R"
     },
+    "grade_a_min": {
+      "default": 65.0,
+      "description": "A requires raw score at or above this, regardless of regime alignment.",
+      "title": "Grade A Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "points (raw)"
+    },
+    "grade_ap_min": {
+      "default": 75.0,
+      "description": "A+ requires raw score at or above this and at least partial regime alignment.",
+      "title": "Grade Ap Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "points (raw)"
+    },
+    "grade_app_min": {
+      "default": 85.0,
+      "description": "A++ requires raw score at or above this, full regime alignment, and (for longs) strong fundamentals.",
+      "title": "Grade App Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "points (raw)"
+    },
+    "grade_bp_min": {
+      "default": 50.0,
+      "description": "B+ requires raw score at or above this. Below it, the grade is B.",
+      "title": "Grade Bp Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "points (raw)"
+    },
+    "grade_fund_eps_growth_min": {
+      "default": 25.0,
+      "description": "'Strong fundamentals' (for A++) requires EPS growth at or above this.",
+      "title": "Grade Fund Eps Growth Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "pct YoY"
+    },
+    "grade_fund_revenue_growth_min": {
+      "default": 20.0,
+      "description": "'Strong fundamentals' (for A++) requires revenue growth at or above this.",
+      "title": "Grade Fund Revenue Growth Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "pct YoY"
+    },
+    "grade_fund_roe_min": {
+      "default": 20.0,
+      "description": "'Strong fundamentals' (for A++) requires ROE at or above this.",
+      "title": "Grade Fund Roe Min",
+      "type": "number",
+      "x-group": "grade",
+      "x-unit": "pct"
+    },
     "keep_runs": {
       "default": 60,
       "description": "Run directories kept in the repo.",

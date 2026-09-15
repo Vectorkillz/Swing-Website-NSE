@@ -1,0 +1,15 @@
+{
+  "avg_volume": 964410.0,
+  "debt_equity": 2.27507,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:06+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 3043.1778816,
+  "name": "Fusion Finance Limited",
+  "revenue_growth": 128.1,
+  "roe": 6.868306251852541,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

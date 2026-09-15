@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39736.0,
+  "debt_equity": 1.37666,
+  "eps_growth": 3.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:54+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 484.3129344,
+  "name": "CSL Finance Limited",
+  "revenue_growth": 15.9,
+  "roe": 14.17453174509135,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

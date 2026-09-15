@@ -72,6 +72,23 @@ class Band(str, Enum):
     C = "C"
 
 
+class Grade(str, Enum):
+    """Deterministic quality grade: raw score + regime alignment + (for longs) fundamentals
+    strength. No modelled likelihood figure is ever computed or displayed (see engine/grading.py)."""
+
+    A_PLUS_PLUS = "A++"
+    A_PLUS = "A+"
+    A = "A"
+    B_PLUS = "B+"
+    B = "B"
+
+
+class RegimeAlignment(str, Enum):
+    FULL = "full"        # long in BULL, short in BEAR
+    PARTIAL = "partial"  # long/short in NEUTRAL or BULL_HIGH_VIX (if shorts allowed there)
+    NONE = "none"        # side not allowed in this regime (should not normally reach grading)
+
+
 @dataclass(frozen=True)
 class Fundamentals:
     """Provider-normalised fundamentals. None means MISSING.
@@ -213,6 +230,14 @@ class ScoreBreakdown:
 
 
 @dataclass(frozen=True)
+class GradeResult:
+    grade: Grade
+    alignment: RegimeAlignment
+    fundamentals_strong: Optional[bool]  # None for shorts (not evaluated)
+    reasons: tuple[str, ...]
+
+
+@dataclass(frozen=True)
 class TradePlan:
     """Price levels only. No quantities, no capital."""
 
@@ -279,6 +304,8 @@ class Candidate:
     last_bar_date: str
     score: ScoreBreakdown
     plan: Optional[TradePlan]
+    grade: Optional[GradeResult] = None
+    fno_eligible: bool = True
     cap_bucket: CapBucket = CapBucket.UNKNOWN
     market_cap_cr: Optional[float] = None
     multibagger: Optional[MultibaggerTag] = None
@@ -308,6 +335,7 @@ class UniverseRow:
     sector: Optional[str]
     cap_bucket: CapBucket
     market_cap_cr: Optional[float]
+    fno_eligible: bool
     close: Optional[float]
     last_bar_date: Optional[str]
     outcome: SymbolOutcome
@@ -337,6 +365,10 @@ class SymbolInput:
     fundamentals: Optional[Fundamentals]
     sector: Optional[str] = None
     name: Optional[str] = None
+    fno_eligible: bool = True
+    """Whether this symbol may be shorted (NSE F&O list membership). Cash-only equities can only
+    generate long setups; the short detectors are skipped for them (defect-free: shorting outside
+    F&O is not how retail short-selling works on NSE)."""
 
 
 @dataclass(frozen=True)

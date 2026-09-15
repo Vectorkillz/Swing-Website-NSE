@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48973.0,
+  "debt_equity": 0.1766,
+  "eps_growth": -97.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:38+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 3237.2852736,
+  "name": "The Anup Engineering Limited",
+  "revenue_growth": -28.499999999999996,
+  "roe": 12.257697000958798,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

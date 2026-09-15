@@ -1,0 +1,15 @@
+{
+  "avg_volume": 30708.0,
+  "debt_equity": null,
+  "eps_growth": -75.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:43+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 1204.6418944,
+  "name": "Electrotherm (India) Limited",
+  "revenue_growth": 9.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

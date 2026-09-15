@@ -1,0 +1,15 @@
+{
+  "avg_volume": 103398.0,
+  "debt_equity": 0.0151,
+  "eps_growth": -54.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:21+00:00",
+  "industry": "Business Equipment & Supplies",
+  "market_cap_cr": 919.3473024,
+  "name": "Control Print Limited",
+  "revenue_growth": 3.8,
+  "roe": 8.602476913265148,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1398955.0,
+  "debt_equity": 0.09523999999999999,
+  "eps_growth": 88.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:27+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 6047.7448192,
+  "name": "Balu Forge Industries Limited",
+  "revenue_growth": 28.999999999999996,
+  "roe": 14.330794598129653,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

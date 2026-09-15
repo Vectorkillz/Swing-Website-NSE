@@ -1,0 +1,15 @@
+{
+  "avg_volume": 868734.0,
+  "debt_equity": 1.23113,
+  "eps_growth": -54.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:18+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 818.8338176,
+  "name": "Himatsingka Seide Limited",
+  "revenue_growth": -5.4,
+  "roe": 2.6735203665541616,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

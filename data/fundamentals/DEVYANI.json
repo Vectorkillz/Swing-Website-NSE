@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4719559.0,
+  "debt_equity": 2.03327,
+  "eps_growth": 300.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:05+00:00",
+  "industry": "Restaurants",
+  "market_cap_cr": 16795.1056896,
+  "name": "Devyani International Limited",
+  "revenue_growth": 16.5,
+  "roe": -1.8073783170991704,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

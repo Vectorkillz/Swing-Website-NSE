@@ -1,0 +1,15 @@
+{
+  "avg_volume": 21759076.0,
+  "debt_equity": 0.0435,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:08+00:00",
+  "industry": "Travel Services",
+  "market_cap_cr": 2303.1277568,
+  "name": "Easy Trip Planners Limited",
+  "revenue_growth": 18.4,
+  "roe": -5.547772628308592,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

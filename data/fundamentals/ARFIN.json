@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1788109.0,
+  "debt_equity": 0.75884,
+  "eps_growth": 300.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:09+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 1395.6723712,
+  "name": "Arfin India Limited",
+  "revenue_growth": 95.5,
+  "roe": 10.948457220505277,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

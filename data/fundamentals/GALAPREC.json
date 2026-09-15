@@ -1,0 +1,15 @@
+{
+  "avg_volume": 64195.0,
+  "debt_equity": 0.1304,
+  "eps_growth": 24.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:14+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1271.495168,
+  "name": "Gala Precision Engineering Limited",
+  "revenue_growth": 19.5,
+  "roe": 12.662082511133926,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

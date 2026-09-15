@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32849.0,
+  "debt_equity": 0.00487,
+  "eps_growth": 600.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:56+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 457.9213312,
+  "name": "Azad India Mobility Limited",
+  "revenue_growth": 113.79999999999998,
+  "roe": 2.298697423073389,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

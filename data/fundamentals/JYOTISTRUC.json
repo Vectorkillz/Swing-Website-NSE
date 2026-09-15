@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5019817.0,
+  "debt_equity": 4.39045,
+  "eps_growth": 74.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:42+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1099.360768,
+  "name": "Jyoti Structures Limited",
+  "revenue_growth": 61.0,
+  "roe": 13.55459470360004,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

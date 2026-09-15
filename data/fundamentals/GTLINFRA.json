@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39884802.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:06+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 1447.4635264,
+  "name": "GTL Infrastructure Limited",
+  "revenue_growth": -2.1999999999999997,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

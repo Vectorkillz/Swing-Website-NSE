@@ -1,0 +1,15 @@
+{
+  "avg_volume": 636234.0,
+  "debt_equity": 0.18873,
+  "eps_growth": 74.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:54+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 5004.6230528,
+  "name": "Ellenbarrie Industrial Gases Limited",
+  "revenue_growth": 18.0,
+  "roe": 12.347324945366424,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

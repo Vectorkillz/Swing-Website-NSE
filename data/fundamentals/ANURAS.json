@@ -1,0 +1,15 @@
+{
+  "avg_volume": 299984.0,
+  "debt_equity": 0.41317,
+  "eps_growth": -9.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:40+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 13324.9859584,
+  "name": "Anupam Rasayan India Ltd",
+  "revenue_growth": 34.8,
+  "roe": 5.23569895411432,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

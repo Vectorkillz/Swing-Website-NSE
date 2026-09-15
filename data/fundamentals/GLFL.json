@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4883.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:26+00:00",
+  "industry": "Shell Companies",
+  "market_cap_cr": 14.2681552,
+  "name": "Gujarat Lease Financing Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

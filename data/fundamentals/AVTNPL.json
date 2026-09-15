@@ -1,0 +1,15 @@
+{
+  "avg_volume": 235962.0,
+  "debt_equity": 0.20311,
+  "eps_growth": 155.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:40+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1313.2972032,
+  "name": "AVT Natural Products Limited",
+  "revenue_growth": 82.19999999999999,
+  "roe": 14.980782523452302,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

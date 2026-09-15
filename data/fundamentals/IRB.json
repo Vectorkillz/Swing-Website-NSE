@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12494346.0,
+  "debt_equity": 0.956,
+  "eps_growth": 47.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:45+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 23165.6046592,
+  "name": "IRB Infrastructure Developers Limited",
+  "revenue_growth": -8.9,
+  "roe": 4.468765956381757,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

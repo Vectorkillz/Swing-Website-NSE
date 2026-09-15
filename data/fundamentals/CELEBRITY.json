@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26182.0,
+  "debt_equity": 6.0519799999999995,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:10+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 43.2473888,
+  "name": "Celebrity Fashions Limited",
+  "revenue_growth": -35.0,
+  "roe": -95.59593484462437,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

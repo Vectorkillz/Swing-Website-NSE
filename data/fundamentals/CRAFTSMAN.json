@@ -1,0 +1,15 @@
+{
+  "avg_volume": 66670.0,
+  "debt_equity": 1.11011,
+  "eps_growth": 113.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:37+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 29028.8041984,
+  "name": "Craftsman Automation Limited",
+  "revenue_growth": 36.3,
+  "roe": 12.992226637636433,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

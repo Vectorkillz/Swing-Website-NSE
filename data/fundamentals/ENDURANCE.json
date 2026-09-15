@@ -1,0 +1,15 @@
+{
+  "avg_volume": 133273.0,
+  "debt_equity": 0.19393000000000002,
+  "eps_growth": 8.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:16+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 36777.7087488,
+  "name": "Endurance Technologies Limited",
+  "revenue_growth": 30.0,
+  "roe": 14.177844173712051,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

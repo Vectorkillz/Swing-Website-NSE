@@ -1,0 +1,15 @@
+{
+  "avg_volume": 38890.0,
+  "debt_equity": 0.13476000000000002,
+  "eps_growth": 23.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:32+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 255.0954752,
+  "name": "CP Capital Limited",
+  "revenue_growth": 13.200000000000001,
+  "roe": 7.877801397576167,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

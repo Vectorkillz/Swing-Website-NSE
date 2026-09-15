@@ -1,0 +1,15 @@
+{
+  "avg_volume": 51778.0,
+  "debt_equity": 0.0199,
+  "eps_growth": -0.7000000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:31+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 2832.4927488,
+  "name": "Interarch Building Solutions Limited",
+  "revenue_growth": 20.7,
+  "roe": 15.213874011485965,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

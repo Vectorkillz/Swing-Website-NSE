@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1194.0,
+  "debt_equity": 0.029769999999999998,
+  "eps_growth": 544.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:50+00:00",
+  "industry": "Waste Management",
+  "market_cap_cr": 59.434336,
+  "name": "Hariyana Ship Breakers Limited",
+  "revenue_growth": 8.7,
+  "roe": 2.801943282684908,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

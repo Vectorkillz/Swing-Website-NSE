@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1230273.0,
+  "debt_equity": 0.11971,
+  "eps_growth": 42.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:21+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 1424.5627904,
+  "name": "Andhra Paper Limited",
+  "revenue_growth": 0.1,
+  "roe": 1.4245523496179024,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

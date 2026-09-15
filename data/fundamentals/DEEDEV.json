@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170441.0,
+  "debt_equity": 0.8660800000000001,
+  "eps_growth": 22.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:45+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 4570.0435968,
+  "name": "DEE Development Engineers Limited",
+  "revenue_growth": 31.6,
+  "roe": 8.393500106588691,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 655294.0,
+  "debt_equity": 0.44543999999999995,
+  "eps_growth": 49.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:03+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 7290.8275712,
+  "name": "JK Paper Limited",
+  "revenue_growth": 12.7,
+  "roe": 5.742518513883918,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

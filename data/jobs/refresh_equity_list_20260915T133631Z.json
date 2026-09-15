@@ -1,0 +1,13 @@
+{
+  "counters": {
+    "n_symbols": 2306,
+    "source": "live"
+  },
+  "duration_s": 1.3,
+  "errors": [],
+  "finished_at": "2026-09-15T13:36:32+00:00",
+  "job": "refresh_equity_list",
+  "n_errors": 0,
+  "started_at": "2026-09-15T13:36:31+00:00",
+  "status": "ok"
+}

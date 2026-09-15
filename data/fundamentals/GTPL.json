@@ -1,0 +1,15 @@
+{
+  "avg_volume": 80031.0,
+  "debt_equity": 0.39615,
+  "eps_growth": -77.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:08+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 650.3737856,
+  "name": "GTPL Hathway Limited",
+  "revenue_growth": 12.4,
+  "roe": 0.6535295824784142,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

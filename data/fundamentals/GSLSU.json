@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170964.0,
+  "debt_equity": 0.7890600000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:59+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 118.6690816,
+  "name": "Global Surfaces Limited",
+  "revenue_growth": -12.2,
+  "roe": -11.024973266418714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12546.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:59+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 350.9685504,
+  "name": "Emami Realty Limited",
+  "revenue_growth": -5.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

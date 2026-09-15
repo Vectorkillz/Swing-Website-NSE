@@ -1,0 +1,15 @@
+{
+  "avg_volume": 969307.0,
+  "debt_equity": 0.08932999999999999,
+  "eps_growth": 192.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:03+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 1143.3971712,
+  "name": "GHCL Textiles Limited",
+  "revenue_growth": 52.7,
+  "roe": 6.402688424275732,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

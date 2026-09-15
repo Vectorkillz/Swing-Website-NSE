@@ -1,0 +1,15 @@
+{
+  "avg_volume": 119525.0,
+  "debt_equity": 0.00526,
+  "eps_growth": 48.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:27+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 311.4436352,
+  "name": "Industrial Investment Trust Limited",
+  "revenue_growth": 72.89999999999999,
+  "roe": -1.8493355145776305,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

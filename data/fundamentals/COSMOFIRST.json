@@ -1,0 +1,15 @@
+{
+  "avg_volume": 129725.0,
+  "debt_equity": 1.03944,
+  "eps_growth": 25.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:30+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 2235.9056384,
+  "name": "Cosmo First Limited",
+  "revenue_growth": 45.7,
+  "roe": 10.437464864727811,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

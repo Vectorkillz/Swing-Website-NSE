@@ -1,0 +1,15 @@
+{
+  "avg_volume": 139692.0,
+  "debt_equity": 0.55403,
+  "eps_growth": 102.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:25+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 457.966592,
+  "name": "Cords Cable Industries Limited",
+  "revenue_growth": 9.5,
+  "roe": 12.211934605137808,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

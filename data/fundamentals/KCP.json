@@ -1,0 +1,15 @@
+{
+  "avg_volume": 181086.0,
+  "debt_equity": 0.29379,
+  "eps_growth": 126.0,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:22:12+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 2051.7801984,
+  "name": "The KCP Limited",
+  "revenue_growth": 7.7,
+  "roe": 13.093,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

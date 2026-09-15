@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3646490.0,
+  "debt_equity": null,
+  "eps_growth": 45.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:36+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 62352.8443904,
+  "name": "Indian Overseas Bank",
+  "revenue_growth": 48.1,
+  "roe": 16.525999,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

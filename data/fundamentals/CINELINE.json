@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33230.0,
+  "debt_equity": 0.77936,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:49+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 349.9116544,
+  "name": "Cineline India Limited",
+  "revenue_growth": 30.9,
+  "roe": 7.159716914242012,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

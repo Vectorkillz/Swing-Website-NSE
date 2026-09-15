@@ -1,0 +1,15 @@
+{
+  "avg_volume": 304424.0,
+  "debt_equity": 0.13974,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:10+00:00",
+  "industry": "Computer Hardware",
+  "market_cap_cr": 3500.7213568,
+  "name": "ideaForge Technology Limited",
+  "revenue_growth": 436.7,
+  "roe": 0.5723129941456971,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

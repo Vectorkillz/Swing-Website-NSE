@@ -1,0 +1,37 @@
+{
+  "counters": {
+    "banned": 0,
+    "below_min_score": 0,
+    "candidates_long": 1,
+    "candidates_short": 37,
+    "data_unavailable": 251,
+    "fundamentals_missing": 1126,
+    "grade_a": 28,
+    "grade_ap": 9,
+    "grade_app": 0,
+    "grade_b": 0,
+    "grade_bp": 1,
+    "multibagger_strong": 43,
+    "multibagger_watch": 12,
+    "no_setup": 188,
+    "ranked_long": 1,
+    "ranked_short": 10,
+    "rejected_gate": 704,
+    "scanned": 2307,
+    "swing_suitable": 864,
+    "universe": 2307,
+    "usable": 2056,
+    "warnings": [
+      "degraded:coverage 89.1% < 90%"
+    ]
+  },
+  "duration_s": 96.6,
+  "errors": [],
+  "finished_at": "2026-09-15T14:20:02+00:00",
+  "job": "run_scan",
+  "n_errors": 0,
+  "run_id": "2026-09-15_v003_0883865b",
+  "session_date": "2026-09-15",
+  "started_at": "2026-09-15T14:18:26+00:00",
+  "status": "degraded"
+}

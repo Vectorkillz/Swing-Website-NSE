@@ -1,0 +1,15 @@
+{
+  "avg_volume": 801874.0,
+  "debt_equity": 1.39323,
+  "eps_growth": 75.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:59+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 91.4040704,
+  "name": "Ducon Infratechnologies Limited",
+  "revenue_growth": 590.2,
+  "roe": 10.106,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

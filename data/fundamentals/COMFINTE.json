@@ -1,0 +1,15 @@
+{
+  "avg_volume": 148288.0,
+  "debt_equity": 0.10439,
+  "eps_growth": -6.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:12+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 189.4033408,
+  "name": "Comfort Intech Limited",
+  "revenue_growth": 56.3,
+  "roe": -1.976791608054139,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

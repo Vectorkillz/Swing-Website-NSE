@@ -1,0 +1,15 @@
+{
+  "avg_volume": 547772.0,
+  "debt_equity": 0.32621,
+  "eps_growth": -37.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:04+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 3654.770688,
+  "name": "Heritage Foods Limited",
+  "revenue_growth": 17.7,
+  "roe": 12.196226817728046,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

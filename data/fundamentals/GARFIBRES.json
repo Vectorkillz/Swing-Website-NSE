@@ -1,0 +1,15 @@
+{
+  "avg_volume": 147344.0,
+  "debt_equity": 0.03161,
+  "eps_growth": 22.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:32+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 7670.2777344,
+  "name": "Garware Technical Fibres Limited",
+  "revenue_growth": 31.4,
+  "roe": 15.765785409600683,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

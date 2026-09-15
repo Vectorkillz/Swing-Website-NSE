@@ -1,0 +1,15 @@
+{
+  "avg_volume": 82974.0,
+  "debt_equity": 0.37078000000000005,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:41+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 396.4692992,
+  "name": "Batliboi Limited",
+  "revenue_growth": 80.2,
+  "roe": 4.026944964503059,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

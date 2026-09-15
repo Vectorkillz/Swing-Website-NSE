@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67092736.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:14+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 20732.747776,
+  "name": "IFCI Limited",
+  "revenue_growth": null,
+  "roe": -7.592196625354059,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

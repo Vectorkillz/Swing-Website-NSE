@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3897.0,
+  "debt_equity": 0.37945999999999996,
+  "eps_growth": 293.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:30+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 62.0242816,
+  "name": "Ansal Buildwell Limited",
+  "revenue_growth": 77.7,
+  "roe": 3.5250724236244064,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

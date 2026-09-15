@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26796.0,
+  "debt_equity": 3.4396199999999997,
+  "eps_growth": 84.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:34+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 710.48704,
+  "name": "Automotive Stampings and Assemblies Limited",
+  "revenue_growth": 46.400000000000006,
+  "roe": 82.47710845851212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

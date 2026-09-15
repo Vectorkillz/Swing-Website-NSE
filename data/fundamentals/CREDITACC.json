@@ -1,0 +1,15 @@
+{
+  "avg_volume": 360008.0,
+  "debt_equity": 3.0287200000000003,
+  "eps_growth": 715.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:43+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 22590.1838336,
+  "name": "CreditAccess Grameen Limited",
+  "revenue_growth": 149.5,
+  "roe": 16.364999,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

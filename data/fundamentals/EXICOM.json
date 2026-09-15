@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2972181.0,
+  "debt_equity": 1.09474,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:03+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 2342.5206272,
+  "name": "Exicom Tele-Systems Limited",
+  "revenue_growth": 61.199999999999996,
+  "roe": -38.720437513658275,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1209080.0,
+  "debt_equity": 0.15606,
+  "eps_growth": -3.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:31+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 2226.5616384,
+  "name": "EPack Prefab Technologies Limited",
+  "revenue_growth": 23.9,
+  "roe": 12.881355873797808,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

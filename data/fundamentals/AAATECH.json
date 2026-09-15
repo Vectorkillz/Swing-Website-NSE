@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20479.0,
+  "debt_equity": null,
+  "eps_growth": 6.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:37+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 117.9809152,
+  "name": "AAA Technologies Limited",
+  "revenue_growth": -11.4,
+  "roe": 7.032650461214572,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

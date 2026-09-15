@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10837.0,
+  "debt_equity": null,
+  "eps_growth": 46.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:07+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 10.5552568,
+  "name": "Rajdarshan Industries Limited",
+  "revenue_growth": -1.6,
+  "roe": -0.3069904620560744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

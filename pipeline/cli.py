@@ -60,7 +60,8 @@ def load_local_inputs(data_dir: Path, session: date) -> tuple[ScanInputs, dict, 
         fund = _read_fundamentals(data_dir / "fundamentals" / f"{sym}.json")
         sector = row["sector"] if "sector" in universe.columns and pd.notna(row.get("sector")) else None
         name = row["name"] if "name" in universe.columns and pd.notna(row.get("name")) else None
-        symbols.append(SymbolInput(sym, daily, fund, sector=sector, name=name))
+        fno_eligible = bool(row["fno_eligible"]) if "fno_eligible" in universe.columns and pd.notna(row.get("fno_eligible")) else True
+        symbols.append(SymbolInput(sym, daily, fund, sector=sector, name=name, fno_eligible=fno_eligible))
     nifty = _read_ohlcv(data_dir / "ohlcv" / "index" / "NIFTY.csv")
     vix_df = _read_ohlcv(data_dir / "ohlcv" / "index" / "INDIAVIX.csv")
     vix = float(vix_df["close"].iloc[-1]) if vix_df is not None and len(vix_df) else None
@@ -133,11 +134,22 @@ def ingest(
 
 @app.command("refresh-universe")
 def refresh_universe(live: bool = typer.Option(True, help="Attempt nseindia.com; fall back to the committed CSV.")) -> None:
-    """Refresh data/universe/fno_universe.csv from nseindia.com, keeping the CSV when live fails."""
+    """Refresh data/universe/fno_universe.csv (the ~211-symbol F&O / short-eligible list)."""
     from pipeline.jobs import job_refresh_universe
 
     status = job_refresh_universe(live)
     typer.echo(f"refresh_universe: {status}")
+    if status == "failed":
+        raise typer.Exit(1)
+
+
+@app.command("refresh-equity-list")
+def refresh_equity_list(live: bool = typer.Option(True, help="Attempt nseindia.com; fall back to the committed CSV.")) -> None:
+    """Refresh data/universe/nse_equity_list.csv (the ~2,000-symbol full cash-equity, long-only universe)."""
+    from pipeline.jobs import job_refresh_equity_list
+
+    status = job_refresh_equity_list(live)
+    typer.echo(f"refresh_equity_list: {status}")
     if status == "failed":
         raise typer.Exit(1)
 

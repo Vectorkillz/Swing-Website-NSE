@@ -1,0 +1,15 @@
+{
+  "avg_volume": 119282.0,
+  "debt_equity": 0.00974,
+  "eps_growth": 11.899999999999999,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:18:43+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 99806.8125696,
+  "name": "IndiaMART InterMESH Limited",
+  "revenue_growth": 11.4,
+  "roe": 23.146,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

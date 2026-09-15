@@ -1,0 +1,15 @@
+{
+  "avg_volume": 446814.0,
+  "debt_equity": 0.00135,
+  "eps_growth": 4.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:53+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 8718.4859136,
+  "name": "Clean Science and Technology Limited",
+  "revenue_growth": 10.5,
+  "roe": 14.715165649549933,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

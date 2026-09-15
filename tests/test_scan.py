@@ -10,7 +10,7 @@ from engine.scan import scan_universe
 from engine.types import Fundamentals, RankStatus, Regime, ScanInputs, Side, SymbolInput, SymbolOutcome
 from tests.conftest import ROOT, SESSION, load_fixture
 
-GOLDEN = ROOT / "tests" / "golden" / "scan_output_v002.json"
+GOLDEN = ROOT / "tests" / "golden" / "scan_output_v003.json"
 
 
 def build_inputs(fx, good, *, nifty="index_nifty_bull", vix=15.0, ban=frozenset(), symbols=None):
@@ -27,13 +27,17 @@ def build_inputs(fx, good, *, nifty="index_nifty_bull", vix=15.0, ban=frozenset(
         "MISSDE": ("long_vcp_ok", missing),
         "SHORTDT": ("short_stage4_downtrend", good),
         "SHORTDB": ("short_double_top", good),
+        "NOFNOSHORT": ("short_double_top", good),  # would qualify as a short but is cash-only
         "ZERO": ("edge_zero_price", good),
         "GAP": ("edge_gap_sessions", good),
         "STALEBAR": ("edge_stale_last_bar", good),
         "FEW": ("edge_too_few_bars", good),
     }
     names = symbols or list(table)
-    syms = tuple(SymbolInput(s, fx(table[s][0]), table[s][1], sector=("Pharma" if s.startswith("SHORT") else "Tech")) for s in names)
+    syms = tuple(
+        SymbolInput(s, fx(table[s][0]), table[s][1], sector=("Pharma" if s.startswith("SHORT") else "Tech"), fno_eligible=(s != "NOFNOSHORT"))
+        for s in names
+    )
     return ScanInputs(SESSION, syms, fx(nifty), vix, fx("index_smallcap"), ban, universe_size=len(syms))
 
 
@@ -43,14 +47,18 @@ def test_universe_scan_bull(fx, good_fundamentals, cfg):
     st = {s.symbol: s for s in res.symbol_status}
     assert st["LONGOK"].outcome is SymbolOutcome.CANDIDATE
     assert st["WEAKROE"].outcome is SymbolOutcome.REJECTED_GATE
-    assert st["MISSDE"].outcome is SymbolOutcome.REJECTED_GATE and "missing:debt_equity" in st["MISSDE"].reasons[0]
+    # v003 policy is treat_missing_fundamental_as=exclude: missing data is excluded, not rejected
+    assert st["MISSDE"].outcome is SymbolOutcome.FUNDAMENTALS_MISSING and "missing:debt_equity" in st["MISSDE"].reasons[0]
+    # a would-be short setup on a cash-only (non-F&O) symbol never even attempts the short path
+    assert st["NOFNOSHORT"].outcome is SymbolOutcome.NO_SETUP
+    assert all(not r.startswith("short:") for r in st["NOFNOSHORT"].reasons)
     for s in ("ZERO", "GAP", "STALEBAR", "FEW"):
         assert st[s].outcome is SymbolOutcome.DATA_UNAVAILABLE, s
     assert st["NOPULL"].outcome is SymbolOutcome.NO_SETUP
     longs = [c for c in res.candidates if c.side is Side.LONG]
     shorts = [c for c in res.candidates if c.side is Side.SHORT]
     assert {c.symbol for c in longs} >= {"LONGOK", "COLOUR", "TINY", "MOTHER"}
-    assert {c.symbol for c in shorts} == {"SHORTDT", "SHORTDB"}
+    assert {c.symbol for c in shorts} == {"SHORTDT", "SHORTDB"}  # NOFNOSHORT excluded: fno_eligible=False
     assert all(c.plan is not None for c in res.candidates)
     tiny = next(c for c in longs if c.symbol == "TINY")
     assert tiny.plan.floor_applied
@@ -58,6 +66,7 @@ def test_universe_scan_bull(fx, good_fundamentals, cfg):
     for c in res.candidates:
         assert c.plan.reward_risk >= cfg.target_min_rr - 1e-9
         assert c.cap_bucket.value == "small"  # good_fundamentals market cap is 12,000 Cr
+        assert c.grade is not None and c.grade.grade.value in ("A++", "A+", "A", "B+", "B")
     rows = {r.symbol: r for r in res.universe}
     assert len(rows) == len(res.symbol_status)
     assert rows["LONGOK"].stage == "stage2" and rows["LONGOK"].setup_side is Side.LONG

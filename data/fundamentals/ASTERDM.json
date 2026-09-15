@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2299610.0,
+  "debt_equity": 0.45921,
+  "eps_growth": -81.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:58+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 64612.7222784,
+  "name": "Aster DM Quality Care Limited",
+  "revenue_growth": 21.6,
+  "roe": 4.117304623063864,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

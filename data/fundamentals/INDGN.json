@@ -1,0 +1,15 @@
+{
+  "avg_volume": 517708.0,
+  "debt_equity": 0.05043,
+  "eps_growth": -0.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:40+00:00",
+  "industry": "Health Information Services",
+  "market_cap_cr": 13762.174976,
+  "name": "Indegene Limited",
+  "revenue_growth": 39.7,
+  "roe": 12.777742133541489,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

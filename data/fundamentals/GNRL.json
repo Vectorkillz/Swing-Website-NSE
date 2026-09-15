@@ -1,0 +1,15 @@
+{
+  "avg_volume": 293549.0,
+  "debt_equity": 0.06377,
+  "eps_growth": 393.29999999999995,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:51+00:00",
+  "industry": "Oil & Gas E&P",
+  "market_cap_cr": 1316.6405632,
+  "name": "Gujarat Natural Resources Limited",
+  "revenue_growth": 70.6,
+  "roe": 10.836320736372427,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

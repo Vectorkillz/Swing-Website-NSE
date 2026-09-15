@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9351731.0,
+  "debt_equity": 0.16169,
+  "eps_growth": 24.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:52+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 32153.9899392,
+  "name": "Himadri Speciality Chemical Limited",
+  "revenue_growth": 28.000000000000004,
+  "roe": 16.97836850939177,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

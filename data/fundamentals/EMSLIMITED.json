@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1243909.0,
+  "debt_equity": 0.14575,
+  "eps_growth": -59.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:12+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 2076.57472,
+  "name": "EMS Limited",
+  "revenue_growth": -34.2,
+  "roe": 6.455156335458612,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

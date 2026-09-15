@@ -1,0 +1,15 @@
+{
+  "avg_volume": 308.0,
+  "debt_equity": 0.0003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:54+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 53.9721792,
+  "name": "Apoorva Leasing Finance and Investment Company Limited",
+  "revenue_growth": -41.099999999999994,
+  "roe": 0.21379806485514607,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

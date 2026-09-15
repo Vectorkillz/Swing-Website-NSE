@@ -1,0 +1,15 @@
+{
+  "avg_volume": 95584.0,
+  "debt_equity": 0.0048,
+  "eps_growth": -47.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:16+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1414.9479424,
+  "name": "Amrutanjan Health Care Limited",
+  "revenue_growth": 9.5,
+  "roe": 14.585777978540722,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

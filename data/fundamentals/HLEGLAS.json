@@ -1,0 +1,15 @@
+{
+  "avg_volume": 380058.0,
+  "debt_equity": 0.56224,
+  "eps_growth": -84.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:33+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 2746.2402048,
+  "name": "HLE Glascoat Limited",
+  "revenue_growth": 5.8999999999999995,
+  "roe": 6.62205242558538,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

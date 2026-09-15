@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1549.0,
+  "debt_equity": 2.7289,
+  "eps_growth": 17.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:33+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1131.305984,
+  "name": "A. K. Capital Services Limited",
+  "revenue_growth": 3.9,
+  "roe": 10.937240801380492,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 443556.0,
+  "debt_equity": 0.04961,
+  "eps_growth": 8.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:29+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 9303.535616,
+  "name": "Intellect Design Arena Limited",
+  "revenue_growth": 20.4,
+  "roe": 11.007178449107784,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

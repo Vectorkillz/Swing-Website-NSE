@@ -1,0 +1,15 @@
+{
+  "avg_volume": 61572.0,
+  "debt_equity": 0.17291,
+  "eps_growth": 127.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:33+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 484.99072,
+  "name": "International Conveyors Limited",
+  "revenue_growth": -0.4,
+  "roe": 32.08126721128182,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 123325.0,
+  "debt_equity": 0.14384,
+  "eps_growth": 43.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:12+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 4529.027072,
+  "name": "Datamatics Global Services Limited",
+  "revenue_growth": 9.9,
+  "roe": 13.999505812334348,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1076905.0,
+  "debt_equity": 0.1328,
+  "eps_growth": -13.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:34+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 95.5500032,
+  "name": "Inventure Growth & Securities Limited",
+  "revenue_growth": -9.8,
+  "roe": 1.1381946326917864,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 399308.0,
+  "debt_equity": 0.34017000000000003,
+  "eps_growth": -5.800000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:00+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 2197.3133312,
+  "name": "GSP Crop Science Limited",
+  "revenue_growth": 2.4,
+  "roe": 11.297303230249684,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

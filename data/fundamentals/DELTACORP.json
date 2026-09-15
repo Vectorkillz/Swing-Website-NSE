@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1449760.0,
+  "debt_equity": 0.02175,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:54+00:00",
+  "industry": "Resorts & Casinos",
+  "market_cap_cr": 1440.3407872,
+  "name": "Delta Corp Limited",
+  "revenue_growth": -8.5,
+  "roe": -7.00373109785258,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

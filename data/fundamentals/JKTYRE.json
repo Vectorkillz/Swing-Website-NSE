@@ -1,0 +1,15 @@
+{
+  "avg_volume": 916565.0,
+  "debt_equity": 0.8055100000000001,
+  "eps_growth": -74.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:05+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 9953.1948032,
+  "name": "JK Tyre & Industries Limited",
+  "revenue_growth": 2.0,
+  "roe": 10.83466238928261,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

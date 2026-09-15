@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12408.0,
+  "debt_equity": 1.9289599999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:48+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 461.3388288,
+  "name": "B&B Triplewall Containers Limited",
+  "revenue_growth": 18.5,
+  "roe": 25.19693713775973,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 376761.0,
+  "debt_equity": 0.4607,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:23+00:00",
+  "industry": "Biotechnology",
+  "market_cap_cr": 2558.072832,
+  "name": "Dishman Carbogen Amcis Limited",
+  "revenue_growth": -4.3,
+  "roe": 0.24144148796011788,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

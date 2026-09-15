@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20412655.0,
+  "debt_equity": 1.20732,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:52+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 1737.4230528,
+  "name": "Allcargo Logistics Limited",
+  "revenue_growth": -85.7,
+  "roe": 5.368443941796857,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15423962.0,
+  "debt_equity": 0.38792000000000004,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:20+00:00",
+  "industry": "Coking Coal",
+  "market_cap_cr": null,
+  "name": "Bharat Coking Coal Limited",
+  "revenue_growth": -3.5999999999999996,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

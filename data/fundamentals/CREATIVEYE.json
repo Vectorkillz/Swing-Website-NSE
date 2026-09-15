@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23001.0,
+  "debt_equity": 0.45360999999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:41+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 11.5134352,
+  "name": "Creative Eye Limited",
+  "revenue_growth": null,
+  "roe": -30.21372665903659,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

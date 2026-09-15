@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18726.0,
+  "debt_equity": null,
+  "eps_growth": 61.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:10+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 904.321024,
+  "name": "Ambika Cotton Mills Limited",
+  "revenue_growth": 34.300000000000004,
+  "roe": 8.523435937127484,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

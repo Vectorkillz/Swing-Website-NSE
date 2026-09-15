@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1315870.0,
+  "debt_equity": 0.25483,
+  "eps_growth": 268.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:45+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1802.6688512,
+  "name": "Algoquant Fintech Limited",
+  "revenue_growth": 42.9,
+  "roe": 33.65503021418665,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 332495.0,
+  "debt_equity": 0.19067,
+  "eps_growth": -41.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:31+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1108.6118912,
+  "name": "Everest Kanto Cylinder Limited",
+  "revenue_growth": -10.5,
+  "roe": 8.951268536726932,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

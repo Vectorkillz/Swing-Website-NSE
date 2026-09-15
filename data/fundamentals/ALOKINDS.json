@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13461150.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:58+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 3664.3475456,
+  "name": "Alok Industries Limited",
+  "revenue_growth": 6.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

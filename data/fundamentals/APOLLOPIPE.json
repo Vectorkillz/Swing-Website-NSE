@@ -1,0 +1,15 @@
+{
+  "avg_volume": 294568.0,
+  "debt_equity": 0.13871,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:50+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 2284.6849024,
+  "name": "Apollo Pipes Limited",
+  "revenue_growth": 7.3999999999999995,
+  "roe": -1.128795944160145,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

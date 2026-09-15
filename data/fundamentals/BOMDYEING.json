@@ -1,0 +1,15 @@
+{
+  "avg_volume": 749656.0,
+  "debt_equity": 0.0013900000000000002,
+  "eps_growth": -49.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:07+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 2221.9024384,
+  "name": "The Bombay Dyeing and Manufacturing Company Limited",
+  "revenue_growth": 8.7,
+  "roe": 0.8828255006471707,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

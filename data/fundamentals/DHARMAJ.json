@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53425.0,
+  "debt_equity": 0.29375,
+  "eps_growth": 17.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:12+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 906.6124288,
+  "name": "Dharmaj Crop Guard Limited",
+  "revenue_growth": 4.1000000000000005,
+  "roe": 13.445895175985584,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

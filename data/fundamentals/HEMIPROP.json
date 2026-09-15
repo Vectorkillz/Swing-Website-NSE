@@ -1,0 +1,15 @@
+{
+  "avg_volume": 376257.0,
+  "debt_equity": 0.20143999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:01+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 3341.0916352,
+  "name": "Hemisphere Properties India Limited",
+  "revenue_growth": -38.800000000000004,
+  "roe": -2.7379391775676605,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

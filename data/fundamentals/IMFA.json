@@ -1,0 +1,15 @@
+{
+  "avg_volume": 143047.0,
+  "debt_equity": 0.35121,
+  "eps_growth": 108.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:32+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 6586.7173888,
+  "name": "Indian Metals and Ferro Alloys Limited",
+  "revenue_growth": 49.7,
+  "roe": 19.29441086074454,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

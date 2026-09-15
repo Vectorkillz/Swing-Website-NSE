@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28862.0,
+  "debt_equity": 0.12869,
+  "eps_growth": -24.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:26+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 1730.7392,
+  "name": "Insecticides (India) Limited",
+  "revenue_growth": -11.5,
+  "roe": 10.257186053607303,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

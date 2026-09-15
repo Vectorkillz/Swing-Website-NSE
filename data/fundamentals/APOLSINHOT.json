@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2233.0,
+  "debt_equity": 0.57786,
+  "eps_growth": -55.50000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:53+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 315.8185728,
+  "name": "Apollo Sindoori Hotels Limited",
+  "revenue_growth": 28.9,
+  "roe": 5.289963789539176,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

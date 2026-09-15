@@ -1,0 +1,15 @@
+{
+  "avg_volume": 488086.0,
+  "debt_equity": 0.26874,
+  "eps_growth": 4.3999999999999995,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:55+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 653.8381312,
+  "name": "Indo Farm Equipment Limited",
+  "revenue_growth": 14.499999999999998,
+  "roe": 4.488491124526081,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

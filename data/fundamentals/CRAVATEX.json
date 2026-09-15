@@ -1,0 +1,15 @@
+{
+  "avg_volume": 383.0,
+  "debt_equity": 0.015229999999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:40+00:00",
+  "industry": "Leisure",
+  "market_cap_cr": null,
+  "name": "Cravatex Limited",
+  "revenue_growth": 29.299999999999997,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

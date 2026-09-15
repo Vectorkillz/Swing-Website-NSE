@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1163174.0,
+  "debt_equity": 5.49816,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:46+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 7056.4929536,
+  "name": "GMR Power And Urban Infra Limited",
+  "revenue_growth": 3.4000000000000004,
+  "roe": 29.80499569462049,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

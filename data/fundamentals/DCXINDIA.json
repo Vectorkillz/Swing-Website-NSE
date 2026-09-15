@@ -1,0 +1,15 @@
+{
+  "avg_volume": 750121.0,
+  "debt_equity": 0.00193,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:38+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 1800.2274304,
+  "name": "DCX Systems Limited",
+  "revenue_growth": -53.6,
+  "roe": -1.220150311785605,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

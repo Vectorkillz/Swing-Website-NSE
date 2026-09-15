@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4045376.0,
+  "debt_equity": 1.10033,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:58+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 12658.479104,
+  "name": "BlueStone Jewellery and Lifestyle Limited",
+  "revenue_growth": 49.6,
+  "roe": 3.1163028564996975,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 940279.0,
+  "debt_equity": 0.21986999999999998,
+  "eps_growth": 2660.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:52+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 25695.453184,
+  "name": "Apollo Tyres Limited",
+  "revenue_growth": 12.8,
+  "roe": 10.220734138113022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

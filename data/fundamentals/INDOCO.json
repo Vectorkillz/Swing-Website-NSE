@@ -1,0 +1,15 @@
+{
+  "avg_volume": 724797.0,
+  "debt_equity": 1.1691200000000002,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:54+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2224.980992,
+  "name": "Indoco Remedies Limited",
+  "revenue_growth": 6.800000000000001,
+  "roe": 0.5475600765768904,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

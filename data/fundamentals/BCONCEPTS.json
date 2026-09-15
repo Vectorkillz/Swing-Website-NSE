@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17285.0,
+  "debt_equity": 2.19532,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:53+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 192.5204736,
+  "name": "Brand Concepts Limited",
+  "revenue_growth": 11.0,
+  "roe": 1.1712987016651402,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

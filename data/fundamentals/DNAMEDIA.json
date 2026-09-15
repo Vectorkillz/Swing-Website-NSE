@@ -1,0 +1,15 @@
+{
+  "avg_volume": 47246.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:40+00:00",
+  "industry": "Publishing",
+  "market_cap_cr": 29.4270048,
+  "name": "Diligent Media Corporation Limited",
+  "revenue_growth": 118.39999999999999,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

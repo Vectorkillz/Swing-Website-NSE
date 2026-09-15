@@ -1,0 +1,15 @@
+{
+  "avg_volume": 517384.0,
+  "debt_equity": 0.26194,
+  "eps_growth": -97.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:09+00:00",
+  "industry": "Restaurants",
+  "market_cap_cr": 641.5714816,
+  "name": "Coffee Day Enterprises Limited",
+  "revenue_growth": 7.6,
+  "roe": 6.291131880365142,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

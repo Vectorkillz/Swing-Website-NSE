@@ -1,0 +1,15 @@
+{
+  "avg_volume": 223015.0,
+  "debt_equity": 0.00622,
+  "eps_growth": 9.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:19+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 5693.468672,
+  "name": "FDC Limited",
+  "revenue_growth": 3.0,
+  "roe": 11.773938047423666,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

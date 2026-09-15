@@ -1,0 +1,15 @@
+{
+  "avg_volume": 137550.0,
+  "debt_equity": 0.64742,
+  "eps_growth": -96.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:06+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 13277.7426944,
+  "name": "CEAT Limited",
+  "revenue_growth": 22.3,
+  "roe": 10.028325301786662,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

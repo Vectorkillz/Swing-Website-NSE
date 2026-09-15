@@ -1,0 +1,15 @@
+{
+  "avg_volume": 832947.0,
+  "debt_equity": 0.01874,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:48+00:00",
+  "industry": "Travel Services",
+  "market_cap_cr": 36683.9988224,
+  "name": "Indian Railway Catering & Tourism Corporation Limited",
+  "revenue_growth": 18.099999999999998,
+  "roe": 32.32890179549548,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

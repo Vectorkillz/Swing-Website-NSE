@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7565.0,
+  "debt_equity": 0.032959999999999996,
+  "eps_growth": 926.6999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:26+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 185.7972096,
+  "name": "Arvee Laboratories (India) Ltd.",
+  "revenue_growth": 130.29999999999998,
+  "roe": 12.042833522696906,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

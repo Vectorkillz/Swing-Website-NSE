@@ -1,0 +1,15 @@
+{
+  "avg_volume": 71328.0,
+  "debt_equity": 1.48258,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:08+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 299.4310144,
+  "name": "Atlantaa Limited",
+  "revenue_growth": 26.200000000000003,
+  "roe": -2.383841512860885,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

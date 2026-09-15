@@ -1,0 +1,15 @@
+{
+  "avg_volume": 279036.0,
+  "debt_equity": 0.8372499999999999,
+  "eps_growth": 39.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:05+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 1604.6818304,
+  "name": "Creative Newtech Limited",
+  "revenue_growth": 20.8,
+  "roe": 22.375361221563807,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -111,6 +111,33 @@ These were confirmed with the owner before implementation.
   swing-tradability (volume and ATR range) and the multibagger tag.
 * UI reduced to three pages: Scanner, Universe, Data. Config schema is v2 (`config/profiles/v002.json`).
 
+## v3 changes (2026-09-16, owner request)
+
+* **Fixed the missing-data policy.** Diagnosed the long-side shortage: on a quiet, low-momentum
+  session, 110 of 211 F&O stocks were rejected before pattern detection even ran, 23 of them
+  purely because debt/equity data was *missing* (not bad). `treat_missing_fundamental_as` default
+  changed from `reject` to `exclude` (profile `v003`) — a stock with incomplete fundamentals is now
+  reported separately as `fundamentals_missing`, not counted as a failed gate. The deeper cause on
+  that date was that zero stocks in the 211-name F&O universe had both a momentum leg *and* a valid
+  VCP pullback simultaneously — a genuine "no long setups today" outcome, not a bug.
+* **Long-side universe expanded** to the full ~2,300-symbol NSE cash-equity list (`data/universe/nse_equity_list.csv`,
+  refreshed weekly by a new `Refresh equity list` workflow from the official NSE archive). The
+  ~211-symbol F&O list is unchanged and still the *only* universe shorts are generated from — cash
+  equities can't be shorted on NSE the way F&O names can. Every `SymbolInput` and `UniverseRow`
+  carries an `fno_eligible` flag; the short path is skipped entirely for `fno_eligible=False` rows.
+* **Deterministic quality grade** (A++ / A+ / A / B+ / B) replaces nothing that existed before, but
+  explicitly does *not* use the score→percentage formula the original notebook used (`score*0.6 +
+  regime bonus, clamped 20–88%, labelled "probability"`) — that pattern has no empirical backing and
+  was the one thing this project's build document banned from the start. The grade is instead a
+  transparent function of raw score, regime alignment, and (for longs only) fundamentals strength;
+  see `engine/grading.py`. Every grade a user sees comes with a `reasons` list.
+* **Track record page**: pick a lookback window (this week / 2 weeks / month) and see every past
+  session's published setups checked against what the price actually did since — stopped out,
+  target hit, on track, or not yet triggered. Computed entirely client-side from already-published
+  run and price data; no new backend, no fabricated history.
+* Raw daily OHLCV CSVs are now also copied into the deployed site (`data/ohlcv/`) so the browser can
+  do this kind of after-the-fact price-history check without a new API.
+
 ## Deviations from the build document
 
 * **Stack.** FastAPI, PostgreSQL, Celery and Docker are replaced by GitHub Actions + committed JSON

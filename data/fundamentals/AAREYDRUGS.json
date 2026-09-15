@@ -1,0 +1,15 @@
+{
+  "avg_volume": 108679.0,
+  "debt_equity": 0.40385,
+  "eps_growth": -25.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:41+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 329.6072192,
+  "name": "Aarey Drugs & Pharmaceuticals Limited",
+  "revenue_growth": -56.3,
+  "roe": 2.0529977069495615,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

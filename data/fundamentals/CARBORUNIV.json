@@ -1,0 +1,15 @@
+{
+  "avg_volume": 271282.0,
+  "debt_equity": 0.10292,
+  "eps_growth": 23.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:51+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 19656.3451904,
+  "name": "Carborundum Universal Limited",
+  "revenue_growth": 19.400000000000002,
+  "roe": 5.364859588793696,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

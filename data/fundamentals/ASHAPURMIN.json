@@ -1,0 +1,15 @@
+{
+  "avg_volume": 457713.0,
+  "debt_equity": 0.87774,
+  "eps_growth": 5.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:37+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 4952.0730112,
+  "name": "Ashapura Minechem Limited",
+  "revenue_growth": 19.2,
+  "roe": 24.67127054265231,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

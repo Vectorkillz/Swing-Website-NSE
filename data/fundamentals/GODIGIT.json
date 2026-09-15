@@ -1,0 +1,15 @@
+{
+  "avg_volume": 687635.0,
+  "debt_equity": 0.07469,
+  "eps_growth": -37.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:01+00:00",
+  "industry": "Insurance - Property & Casualty",
+  "market_cap_cr": 23251.1504384,
+  "name": "Go Digit General Insurance Limited",
+  "revenue_growth": 8.6,
+  "roe": 10.508298309706271,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

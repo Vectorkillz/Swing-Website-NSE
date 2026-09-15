@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12189.0,
+  "debt_equity": 0.10853,
+  "eps_growth": -85.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:03+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 1956.2409984,
+  "name": "BN Agrochem Limited",
+  "revenue_growth": 26.700000000000003,
+  "roe": 3.7237923099249617,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

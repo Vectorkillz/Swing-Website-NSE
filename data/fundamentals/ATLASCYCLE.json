@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26948.0,
+  "debt_equity": 0.02371,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:11+00:00",
+  "industry": "Leisure",
+  "market_cap_cr": 59.1979328,
+  "name": "Atlas Cycles (Haryana) Limited",
+  "revenue_growth": -22.5,
+  "roe": -2.2061454301530485,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

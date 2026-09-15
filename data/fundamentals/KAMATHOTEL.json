@@ -1,0 +1,15 @@
+{
+  "avg_volume": 76482.0,
+  "debt_equity": 0.70111,
+  "eps_growth": 124.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:54+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 612.0062976,
+  "name": "Kamat Hotels (India) Limited",
+  "revenue_growth": 9.5,
+  "roe": 18.516649004409867,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

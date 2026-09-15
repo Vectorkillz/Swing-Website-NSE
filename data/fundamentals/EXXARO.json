@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1244358.0,
+  "debt_equity": 0.33348999999999995,
+  "eps_growth": 150.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:08+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 284.1057792,
+  "name": "Exxaro Tiles Limited",
+  "revenue_growth": 31.3,
+  "roe": 1.5437832135108263,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

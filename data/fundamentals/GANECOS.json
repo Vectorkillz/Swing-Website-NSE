@@ -1,0 +1,15 @@
+{
+  "avg_volume": 165470.0,
+  "debt_equity": 0.38850999999999997,
+  "eps_growth": 161.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:23+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 2692.4556288,
+  "name": "Ganesha Ecosphere Limited",
+  "revenue_growth": 25.7,
+  "roe": 4.429259339437088,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

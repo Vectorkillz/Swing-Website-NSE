@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27259.0,
+  "debt_equity": 0.01391,
+  "eps_growth": 34.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:03+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 3586.5862144,
+  "name": "Indo Tech Transformers Limited",
+  "revenue_growth": 39.0,
+  "roe": 74.70663539370172,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

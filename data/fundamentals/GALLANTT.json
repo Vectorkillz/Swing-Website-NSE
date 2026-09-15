@@ -1,0 +1,15 @@
+{
+  "avg_volume": 125045.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:18+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 12900.0865792,
+  "name": "Gallantt Ispat Limited",
+  "revenue_growth": null,
+  "roe": 14.40622892322018,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

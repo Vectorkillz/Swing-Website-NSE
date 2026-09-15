@@ -2,12 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useCandidates, useLatestRun, useRunIndex } from "../lib/dataClient";
 import { fmtDateTime, fmtNum, fmtPct } from "../lib/format";
-import type { Candidate, CapBucket, Side } from "../lib/types";
+import type { Candidate, CapBucket, Grade, Side } from "../lib/types";
 import SetupCard from "../components/SetupCard";
 import SetupDetail from "../components/SetupDetail";
 import { CAP_LABEL, Empty, Notice, RegimeBadge, Skeleton } from "../components/ui";
 
 const CAPS: CapBucket[] = ["large", "mid", "small", "micro"];
+const GRADES: Grade[] = ["A++", "A+", "A", "B+", "B"];
+const GRADE_RANK: Record<Grade, number> = { "A++": 0, "A+": 1, A: 2, "B+": 3, B: 4 };
 
 function Pill({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) {
   return <button type="button" className="pill" aria-pressed={on} onClick={onClick}>{children}</button>;
@@ -21,6 +23,7 @@ export default function Scanner() {
 
   const [side, setSide] = useState<Side | "all">("all");
   const [caps, setCaps] = useState<Set<CapBucket>>(new Set());
+  const [grades, setGrades] = useState<Set<Grade>>(new Set());
   const [sectors, setSectors] = useState<Set<string>>(new Set());
   const [mbOnly, setMbOnly] = useState(false);
   const [rankedOnly, setRankedOnly] = useState(true);
@@ -34,12 +37,18 @@ export default function Scanner() {
     const f = all.filter((c) =>
       (side === "all" || c.side === side) &&
       (caps.size === 0 || caps.has(c.cap_bucket)) &&
+      (grades.size === 0 || (c.grade && grades.has(c.grade.grade))) &&
       (sectors.size === 0 || sectors.has(c.sector ?? "Unknown")) &&
       (!mbOnly || (c.multibagger && c.multibagger.level !== "none")) &&
       (!rankedOnly || c.rank_status === "ranked"),
     );
-    return f.sort((a, b) => (a.side === b.side ? (a.rank ?? 999) - (b.rank ?? 999) || b.score.raw - a.score.raw : a.side === "long" ? -1 : 1));
-  }, [all, side, caps, sectors, mbOnly, rankedOnly]);
+    return f.sort((a, b) => {
+      const g = (a.grade ? GRADE_RANK[a.grade.grade] : 9) - (b.grade ? GRADE_RANK[b.grade.grade] : 9);
+      if (a.side !== b.side) return a.side === "long" ? -1 : 1;
+      if (g !== 0) return g;
+      return (a.rank ?? 999) - (b.rank ?? 999) || b.score.raw - a.score.raw;
+    });
+  }, [all, side, caps, grades, sectors, mbOnly, rankedOnly]);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -93,6 +102,8 @@ export default function Scanner() {
       <section className="space-y-2">
         <div className="flex flex-wrap gap-2">
           {(["all", "long", "short"] as const).map((s) => <Pill key={s} on={side === s} onClick={() => setSide(s)}>{s === "all" ? "All" : s === "long" ? "Long" : "Short"}</Pill>)}
+          <span className="mx-1 self-center text-white/10">|</span>
+          {GRADES.map((g) => <Pill key={g} on={grades.has(g)} onClick={() => toggle(grades, g, setGrades)}>{g}</Pill>)}
           <span className="mx-1 self-center text-white/10">|</span>
           {CAPS.map((c) => <Pill key={c} on={caps.has(c)} onClick={() => toggle(caps, c, setCaps)}>{CAP_LABEL[c]}</Pill>)}
           <span className="mx-1 self-center text-white/10">|</span>

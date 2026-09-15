@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44031.0,
+  "debt_equity": 0.71789,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:53+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 1516.1657344,
+  "name": "Jain Irrigation Systems Limited",
+  "revenue_growth": -2.4,
+  "roe": -34.76621097274983,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

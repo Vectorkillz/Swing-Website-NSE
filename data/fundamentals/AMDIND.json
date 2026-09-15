@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40465.0,
+  "debt_equity": 0.51225,
+  "eps_growth": 502.50000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:11+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 133.4772352,
+  "name": "AMD Industries Limited",
+  "revenue_growth": 40.8,
+  "roe": 2.133696538390607,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

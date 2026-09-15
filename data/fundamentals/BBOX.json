@@ -1,0 +1,15 @@
+{
+  "avg_volume": 422866.0,
+  "debt_equity": 0.89594,
+  "eps_growth": 12.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:45+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 13245.3482496,
+  "name": "Black Box Limited",
+  "revenue_growth": 23.9,
+  "roe": 17.551922368677378,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

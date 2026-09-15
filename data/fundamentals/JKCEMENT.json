@@ -1,0 +1,15 @@
+{
+  "avg_volume": 62860.0,
+  "debt_equity": 0.8752200000000001,
+  "eps_growth": -14.499999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:58+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 36408.8000512,
+  "name": "J.K. Cement Limited",
+  "revenue_growth": 28.000000000000004,
+  "roe": 13.436209908355096,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

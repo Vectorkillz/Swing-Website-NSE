@@ -1,0 +1,15 @@
+{
+  "avg_volume": 56530.0,
+  "debt_equity": 0.032010000000000004,
+  "eps_growth": 45.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:41+00:00",
+  "industry": "Beverages - Wineries & Distilleries",
+  "market_cap_cr": 2069.245952,
+  "name": "G.M. Breweries Limited",
+  "revenue_growth": 25.8,
+  "roe": 15.646695476002751,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

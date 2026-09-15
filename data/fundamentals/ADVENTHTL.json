@@ -1,0 +1,15 @@
+{
+  "avg_volume": 333382.0,
+  "debt_equity": 0.78145,
+  "eps_growth": -79.80000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:35+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 681.9459584,
+  "name": "Advent Hotels International Limited",
+  "revenue_growth": 0.0,
+  "roe": 4.074477956831498,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

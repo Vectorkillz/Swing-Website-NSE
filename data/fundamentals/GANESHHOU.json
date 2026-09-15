@@ -1,0 +1,15 @@
+{
+  "avg_volume": 84468.0,
+  "debt_equity": 0.13079000000000002,
+  "eps_growth": -54.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:27+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 6213.1716096,
+  "name": "Ganesh Housing Limited",
+  "revenue_growth": 85.6,
+  "roe": 11.372184479863808,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

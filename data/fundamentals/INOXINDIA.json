@@ -1,0 +1,15 @@
+{
+  "avg_volume": 379712.0,
+  "debt_equity": 0.07251,
+  "eps_growth": -4.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:24+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 18119.0279168,
+  "name": "INOX India Limited",
+  "revenue_growth": 9.2,
+  "roe": 22.762643128064934,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

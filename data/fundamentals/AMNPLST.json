@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11321.0,
+  "debt_equity": 0.09312,
+  "eps_growth": 27.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:14+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 910.6910208,
+  "name": "Amines & Plasticizers Limited",
+  "revenue_growth": 7.3,
+  "roe": 13.197182702982918,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3275.0,
+  "debt_equity": 0.27144999999999997,
+  "eps_growth": 151.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:17+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 596.5784064,
+  "name": "Dhunseri Investments Limited",
+  "revenue_growth": 38.7,
+  "roe": 3.4946564273908174,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

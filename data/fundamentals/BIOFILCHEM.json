@@ -1,0 +1,15 @@
+{
+  "avg_volume": 45283.0,
+  "debt_equity": 0.14005,
+  "eps_growth": -95.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:34+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 54.7613376,
+  "name": "Biofil Chemicals and Pharmaceuticals Limited",
+  "revenue_growth": 34.0,
+  "roe": 2.251699418855683,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

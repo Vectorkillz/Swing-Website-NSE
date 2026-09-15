@@ -1,0 +1,15 @@
+{
+  "avg_volume": 262252.0,
+  "debt_equity": 0.40987,
+  "eps_growth": -52.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:07+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 31677.3597184,
+  "name": "Dalmia Bharat Limited",
+  "revenue_growth": 7.000000000000001,
+  "roe": 5.2005105895452175,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

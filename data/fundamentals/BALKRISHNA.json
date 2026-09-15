@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17866.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:20+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 53.9032768,
+  "name": "Balkrishna Paper Mills Limited",
+  "revenue_growth": 57.599999999999994,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

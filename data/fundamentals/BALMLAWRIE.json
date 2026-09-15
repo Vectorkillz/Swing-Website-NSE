@@ -1,0 +1,15 @@
+{
+  "avg_volume": 140600.0,
+  "debt_equity": 0.10544,
+  "eps_growth": 3.6999999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:23+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 2808.5671936,
+  "name": "Balmer Lawrie & Co. Ltd.",
+  "revenue_growth": 10.0,
+  "roe": 13.468575164025662,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

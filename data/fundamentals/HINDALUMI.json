@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4293.0,
+  "debt_equity": 0.08555,
+  "eps_growth": -51.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:21+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": null,
+  "name": "Hind Aluminium Industries Limited",
+  "revenue_growth": 405.70000000000005,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

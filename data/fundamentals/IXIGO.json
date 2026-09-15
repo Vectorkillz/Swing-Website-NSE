@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1350100.0,
+  "debt_equity": 0.0215,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:10+00:00",
+  "industry": "Travel Services",
+  "market_cap_cr": 7101.6947712,
+  "name": "Le Travenues Technology Limited",
+  "revenue_growth": 13.4,
+  "roe": 4.207188423442353,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

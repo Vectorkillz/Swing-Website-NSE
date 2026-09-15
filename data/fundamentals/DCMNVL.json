@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16436.0,
+  "debt_equity": 0.98359,
+  "eps_growth": 1662.3999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:31+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 322.3779328,
+  "name": "DCM Nouvelle Limited",
+  "revenue_growth": 13.8,
+  "roe": 8.929612165538215,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

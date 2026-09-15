@@ -1,0 +1,15 @@
+{
+  "avg_volume": 94174.0,
+  "debt_equity": 0.46569000000000005,
+  "eps_growth": 6.800000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:34+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": null,
+  "name": "Captain Polyplast Limited",
+  "revenue_growth": 16.400000000000002,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4214.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:34+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1345.0944512,
+  "name": "India Motor Parts & Accessories Limited",
+  "revenue_growth": null,
+  "roe": 3.7700866508189588,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

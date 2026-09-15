@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5370.0,
+  "debt_equity": 0.0078000000000000005,
+  "eps_growth": 37.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:39+00:00",
+  "industry": "Tools & Accessories",
+  "market_cap_cr": 8852.5258752,
+  "name": "ESAB India Limited",
+  "revenue_growth": 19.6,
+  "roe": 51.67676384669711,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

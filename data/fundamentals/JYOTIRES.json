@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10013.0,
+  "debt_equity": null,
+  "eps_growth": -28.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:41+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1012.2000384,
+  "name": "Jyoti Resins and Adhesives Limited",
+  "revenue_growth": 16.8,
+  "roe": 21.93538731722216,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

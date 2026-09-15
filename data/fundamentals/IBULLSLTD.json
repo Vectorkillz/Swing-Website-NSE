@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10342763.0,
+  "debt_equity": 0.14753,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:59+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 6149.8589184,
+  "name": "Indiabulls Limited",
+  "revenue_growth": 1922000.0,
+  "roe": 14.096077468945836,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

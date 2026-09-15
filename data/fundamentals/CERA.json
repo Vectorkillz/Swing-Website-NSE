@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10986.0,
+  "debt_equity": 0.03172,
+  "eps_growth": -2.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:24+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 7185.08032,
+  "name": "Cera Sanitaryware Limited",
+  "revenue_growth": 15.1,
+  "roe": 13.787754559912347,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

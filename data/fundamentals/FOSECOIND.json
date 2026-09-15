@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8540.0,
+  "debt_equity": null,
+  "eps_growth": -1.0999999999999999,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:12:57+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 4714.0814848,
+  "name": "Foseco India Limited",
+  "revenue_growth": 1.2,
+  "roe": 13.254,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

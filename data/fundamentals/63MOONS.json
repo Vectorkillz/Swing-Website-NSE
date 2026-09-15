@@ -1,0 +1,15 @@
+{
+  "avg_volume": 775426.0,
+  "debt_equity": 0.00149,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:34+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 3981.1854336,
+  "name": "63 moons technologies limited",
+  "revenue_growth": 350.5,
+  "roe": -1.8333877200121635,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

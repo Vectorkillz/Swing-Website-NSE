@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28714.0,
+  "debt_equity": 1.08961,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:56+00:00",
+  "industry": "Education & Training Services",
+  "market_cap_cr": 310.2299136,
+  "name": "CL Educate Limited",
+  "revenue_growth": -12.5,
+  "roe": -7.8170669379499,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

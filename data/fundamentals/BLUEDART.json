@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22240.0,
+  "debt_equity": null,
+  "eps_growth": 189.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:56+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 11492.6247936,
+  "name": "Blue Dart Express Limited",
+  "revenue_growth": 8.0,
+  "roe": 16.153249153804534,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

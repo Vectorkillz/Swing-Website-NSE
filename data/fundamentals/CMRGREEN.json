@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1464097.0,
+  "debt_equity": 0.82682,
+  "eps_growth": 15.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:02+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": null,
+  "name": "CMR Green Technologies Limited",
+  "revenue_growth": 64.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

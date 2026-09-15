@@ -1,0 +1,15 @@
+{
+  "avg_volume": 87495.0,
+  "debt_equity": 0.48027000000000003,
+  "eps_growth": 75.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:51+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 3053.2343808,
+  "name": "D. P. Abhushan Limited",
+  "revenue_growth": 57.99999999999999,
+  "roe": 37.842394617949886,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

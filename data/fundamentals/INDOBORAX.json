@@ -1,0 +1,15 @@
+{
+  "avg_volume": 635898.0,
+  "debt_equity": 0.0037,
+  "eps_growth": 42.0,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:18:53+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1478.7072,
+  "name": "Indo Borax & Chemicals Limited",
+  "revenue_growth": 25.2,
+  "roe": 13.925,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

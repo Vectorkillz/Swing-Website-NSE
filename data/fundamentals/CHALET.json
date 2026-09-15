@@ -1,0 +1,15 @@
+{
+  "avg_volume": 160991.0,
+  "debt_equity": 0.6404099999999999,
+  "eps_growth": -57.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:32+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 18508.2888192,
+  "name": "Chalet Hotels Limited",
+  "revenue_growth": -42.699999999999996,
+  "roe": 14.27068028696707,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

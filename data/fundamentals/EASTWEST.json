@@ -1,0 +1,15 @@
+{
+  "avg_volume": 42907.0,
+  "debt_equity": 1.10929,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:11+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": null,
+  "name": "East West Freight Carriers Limited",
+  "revenue_growth": -19.400000000000002,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

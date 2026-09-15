@@ -1,0 +1,15 @@
+{
+  "avg_volume": 63770.0,
+  "debt_equity": null,
+  "eps_growth": 12.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:38+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 118.5341696,
+  "name": "Indbank Merchant Banking Services Limited",
+  "revenue_growth": 4.2,
+  "roe": 7.441130611841795,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 984699.0,
+  "debt_equity": 0.7695000000000001,
+  "eps_growth": -48.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:29+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 1710.8368384,
+  "name": "EPACK Durable Limited",
+  "revenue_growth": 33.800000000000004,
+  "roe": -0.681813169266611,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

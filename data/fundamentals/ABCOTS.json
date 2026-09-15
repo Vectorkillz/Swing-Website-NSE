@@ -1,0 +1,15 @@
+{
+  "avg_volume": 46878.0,
+  "debt_equity": 0.95828,
+  "eps_growth": 21.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:57+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 452.5384192,
+  "name": "A B Cotspin India Limited",
+  "revenue_growth": 51.4,
+  "roe": 9.112105081607695,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

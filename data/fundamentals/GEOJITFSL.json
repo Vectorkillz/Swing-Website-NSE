@@ -1,0 +1,15 @@
+{
+  "avg_volume": 383194.0,
+  "debt_equity": 0.09473000000000001,
+  "eps_growth": -28.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:55+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 2156.776448,
+  "name": "Geojit Financial Services Limited",
+  "revenue_growth": 4.9,
+  "roe": 6.038167221175953,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

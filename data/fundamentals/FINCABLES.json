@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1105362.0,
+  "debt_equity": 0.00314,
+  "eps_growth": 53.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:33+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 20492.3437056,
+  "name": "Finolex Cables Limited",
+  "revenue_growth": 44.3,
+  "roe": 13.15147078864413,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

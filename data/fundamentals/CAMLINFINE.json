@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1073291.0,
+  "debt_equity": 0.71951,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:38+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1905.7410048,
+  "name": "Camlin Fine Sciences Limited",
+  "revenue_growth": 22.7,
+  "roe": -5.2737725147329435,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

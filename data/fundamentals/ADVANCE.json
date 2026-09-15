@@ -1,0 +1,15 @@
+{
+  "avg_volume": 380444.0,
+  "debt_equity": 0.31588,
+  "eps_growth": 75.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:32+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 732.5357568,
+  "name": "Advance Agrolife Limited",
+  "revenue_growth": 96.0,
+  "roe": 17.43727213007426,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

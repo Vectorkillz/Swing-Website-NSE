@@ -1,0 +1,15 @@
+{
+  "avg_volume": 250966.0,
+  "debt_equity": 0.29934,
+  "eps_growth": 14.000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:36+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 11937.9697664,
+  "name": "Gravita India Limited",
+  "revenue_growth": 41.8,
+  "roe": 15.98042680124649,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

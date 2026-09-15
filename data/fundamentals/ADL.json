@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1074.0,
+  "debt_equity": 0.37408,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:25+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 39.6094368,
+  "name": "Archidply Decor Limited",
+  "revenue_growth": -0.1,
+  "roe": -0.17962631668962067,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

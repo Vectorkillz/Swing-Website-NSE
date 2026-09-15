@@ -1,0 +1,15 @@
+{
+  "avg_volume": 84352.0,
+  "debt_equity": 0.16319,
+  "eps_growth": 48.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:15+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 4533.8079232,
+  "name": "Bosch Home Comfort India Limited",
+  "revenue_growth": 28.499999999999996,
+  "roe": 0.9369638308444367,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

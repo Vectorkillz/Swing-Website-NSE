@@ -1,0 +1,15 @@
+{
+  "avg_volume": 76059.0,
+  "debt_equity": 0.0025800000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:23+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 1371.9488512,
+  "name": "Gyftr Limited",
+  "revenue_growth": null,
+  "roe": 5.242999999999999,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

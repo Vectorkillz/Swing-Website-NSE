@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37025.0,
+  "debt_equity": 0.66475,
+  "eps_growth": -34.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:14+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 203.600832,
+  "name": "Shree Tirupati Balajee Agro Trading Company Limited",
+  "revenue_growth": 11.3,
+  "roe": 3.0191299415279245,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

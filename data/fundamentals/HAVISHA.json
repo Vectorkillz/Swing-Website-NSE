@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67297.0,
+  "debt_equity": 2.37227,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:39+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 39.7377728,
+  "name": "Sri Havisha Hospitality and Infrastructure Limited",
+  "revenue_growth": 3.3000000000000003,
+  "roe": -21.710601879936128,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

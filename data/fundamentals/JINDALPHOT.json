@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8241.0,
+  "debt_equity": null,
+  "eps_growth": -99.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:45+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 1132.3092992,
+  "name": "Jindal Photo Limited",
+  "revenue_growth": -96.39999999999999,
+  "roe": -0.29786331109356734,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20736.0,
+  "debt_equity": 0.07896,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:03+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 199.1000576,
+  "name": "Country Club Hospitality & Holidays Limited",
+  "revenue_growth": -37.6,
+  "roe": -5.8601294019367725,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

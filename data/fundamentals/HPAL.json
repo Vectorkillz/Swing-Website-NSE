@@ -1,0 +1,15 @@
+{
+  "avg_volume": 83621.0,
+  "debt_equity": 0.02255,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:46+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 325.3284352,
+  "name": "HP Adhesives Limited",
+  "revenue_growth": -4.1000000000000005,
+  "roe": 0.9934190429059906,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

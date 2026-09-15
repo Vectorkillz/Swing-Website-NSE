@@ -1,0 +1,15 @@
+{
+  "avg_volume": 626719.0,
+  "debt_equity": 0.37359000000000003,
+  "eps_growth": 53.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:47+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 7158.718464,
+  "name": "Aarti Pharmalabs Limited",
+  "revenue_growth": 38.7,
+  "roe": 9.641262023451807,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

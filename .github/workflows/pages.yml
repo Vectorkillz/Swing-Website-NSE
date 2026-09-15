@@ -35,8 +35,7 @@ jobs:
         run: |
           rm -rf web/public/data
           mkdir -p web/public/data
-          cp -r data/runs data/charts data/config data/jobs data/universe data/ban_list data/calendar web/public/data/ 2>/dev/null || true
-          cp data/test_vectors -r web/public/data/ 2>/dev/null || true
+          cp -r data/runs data/charts data/config data/jobs data/universe data/ban_list data/calendar data/ohlcv web/public/data/ 2>/dev/null || true
       - run: npm run build
         working-directory: web
         env:

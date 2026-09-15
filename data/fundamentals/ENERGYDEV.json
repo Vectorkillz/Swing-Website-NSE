@@ -1,0 +1,15 @@
+{
+  "avg_volume": 34885.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:18+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 67.7825024,
+  "name": "Energy Development Company Limited",
+  "revenue_growth": -38.4,
+  "roe": -94.55544200306592,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

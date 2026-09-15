@@ -1,0 +1,15 @@
+{
+  "avg_volume": 46196.0,
+  "debt_equity": 0.02907,
+  "eps_growth": 92.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:13+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 17905.0037248,
+  "name": "Atul Ltd",
+  "revenue_growth": 25.0,
+  "roe": 12.784232132611429,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

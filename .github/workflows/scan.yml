@@ -30,7 +30,9 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # The long-side universe is the full ~2,000-symbol NSE cash-equity list plus the ~211 F&O
+    # names; a full delta ingest of that size over yfinance is the slow part of this job.
+    timeout-minutes: 150
     outputs:
       trading_day: ${{ steps.cal.outputs.trading_day }}
     steps:

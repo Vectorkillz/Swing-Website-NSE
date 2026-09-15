@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23777.0,
+  "debt_equity": 0.42353999999999997,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T13:59:13+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 47.5833504,
+  "name": "Agro Phos (India) Limited",
+  "revenue_growth": -22.6,
+  "roe": 10.389,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

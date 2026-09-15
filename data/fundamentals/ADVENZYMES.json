@@ -1,0 +1,15 @@
+{
+  "avg_volume": 335192.0,
+  "debt_equity": 0.01902,
+  "eps_growth": -7.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:37+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 3187.3708032,
+  "name": "Advanced Enzyme Technologies Limited",
+  "revenue_growth": 2.1,
+  "roe": 10.269070522591402,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

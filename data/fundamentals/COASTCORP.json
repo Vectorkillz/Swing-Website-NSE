@@ -1,0 +1,15 @@
+{
+  "avg_volume": 136063.0,
+  "debt_equity": 1.69519,
+  "eps_growth": 101.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:06+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 249.95904,
+  "name": "Coastal Corporation Limited",
+  "revenue_growth": 38.2,
+  "roe": 11.430649333349074,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 261858.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:39+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 45.0545568,
+  "name": "Gayatri Highways Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

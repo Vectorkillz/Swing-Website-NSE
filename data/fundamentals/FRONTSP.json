@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15238.0,
+  "debt_equity": 0.05888,
+  "eps_growth": -23.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:02+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 1449.2932096,
+  "name": "Frontier Springs Limited",
+  "revenue_growth": 4.1000000000000005,
+  "roe": 31.92842540006447,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

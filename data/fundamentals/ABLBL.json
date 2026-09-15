@@ -1,0 +1,15 @@
+{
+  "avg_volume": 853631.0,
+  "debt_equity": 2.13719,
+  "eps_growth": 20.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:02+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 10075.4235392,
+  "name": "Aditya Birla Lifestyle Brands Limited",
+  "revenue_growth": 11.1,
+  "roe": 12.524403349570775,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

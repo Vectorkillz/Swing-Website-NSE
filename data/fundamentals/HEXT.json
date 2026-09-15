@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1010457.0,
+  "debt_equity": 0.1018,
+  "eps_growth": -12.5,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:17:08+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 31556.7374336,
+  "name": "Hexaware Technologies Limited",
+  "revenue_growth": 17.9,
+  "roe": 21.473,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

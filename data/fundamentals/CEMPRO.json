@@ -1,0 +1,15 @@
+{
+  "avg_volume": 509269.0,
+  "debt_equity": 0.37711,
+  "eps_growth": 2.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:13+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 20736.4784128,
+  "name": "Cemindia Projects Limited",
+  "revenue_growth": 7.000000000000001,
+  "roe": 25.059618340213785,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

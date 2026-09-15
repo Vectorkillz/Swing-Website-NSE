@@ -1,0 +1,15 @@
+{
+  "avg_volume": 85556.0,
+  "debt_equity": null,
+  "eps_growth": 28.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:00+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 163.3889408,
+  "name": "Baid Finserv Limited",
+  "revenue_growth": 59.699999999999996,
+  "roe": 6.281385748150598,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

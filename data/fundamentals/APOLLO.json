@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9111484.0,
+  "debt_equity": 0.41527000000000003,
+  "eps_growth": 38.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:49+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 14366.0384256,
+  "name": "Apollo Micro Systems Limited",
+  "revenue_growth": 88.1,
+  "roe": 8.581317893394843,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

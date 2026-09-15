@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16870.0,
+  "debt_equity": null,
+  "eps_growth": 42.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:08+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 203.1940096,
+  "name": "Jullundur Motor Agency (Delhi) Limited",
+  "revenue_growth": 15.4,
+  "roe": 11.659351097147336,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

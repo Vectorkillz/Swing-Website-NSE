@@ -1,0 +1,15 @@
+{
+  "avg_volume": 877230.0,
+  "debt_equity": 0.84316,
+  "eps_growth": 33.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:21+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 19969.2910592,
+  "name": "Brigade Enterprises Limited",
+  "revenue_growth": -12.9,
+  "roe": 101.87898261655319,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

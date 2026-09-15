@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2797.0,
+  "debt_equity": 0.02963,
+  "eps_growth": -31.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:31+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 72.8794368,
+  "name": "CG-VAK Software and Exports Limited",
+  "revenue_growth": -2.4,
+  "roe": 9.269676744934022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48815.0,
+  "debt_equity": 0.02054,
+  "eps_growth": 38.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:35+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 1037.460992,
+  "name": "Butterfly Gandhimathi Appliances Limited",
+  "revenue_growth": 14.099999999999998,
+  "roe": 12.918929572862217,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

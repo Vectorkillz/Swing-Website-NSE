@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6301.0,
+  "debt_equity": 1.07575,
+  "eps_growth": 24.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:10+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 932.8712704,
+  "name": "Arihant Foundations & Housing Limited",
+  "revenue_growth": 62.6,
+  "roe": 16.4800680620764,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

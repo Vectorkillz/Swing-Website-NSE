@@ -1,0 +1,15 @@
+{
+  "avg_volume": 119669.0,
+  "debt_equity": 0.00017,
+  "eps_growth": 37.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:36+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 905.3234176,
+  "name": "Anuh Pharma Limited",
+  "revenue_growth": 3.9,
+  "roe": 12.54014317739327,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

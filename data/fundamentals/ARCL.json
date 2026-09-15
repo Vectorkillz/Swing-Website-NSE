@@ -1,0 +1,15 @@
+{
+  "avg_volume": 684.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:03+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 209.9120128,
+  "name": "ARCL Organics Ltd.",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

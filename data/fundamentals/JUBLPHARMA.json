@@ -1,0 +1,15 @@
+{
+  "avg_volume": 241945.0,
+  "debt_equity": 0.5094299999999999,
+  "eps_growth": -45.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:33+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 16027.9904256,
+  "name": "Jubilant Pharmova Limited",
+  "revenue_growth": 17.299999999999997,
+  "roe": 4.9641895588896565,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

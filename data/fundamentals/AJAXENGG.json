@@ -1,0 +1,15 @@
+{
+  "avg_volume": 69187.0,
+  "debt_equity": 0.00132,
+  "eps_growth": 5.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:27+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 6654.1617152,
+  "name": "Ajax Engineering Limited",
+  "revenue_growth": 1.7000000000000002,
+  "roe": 16.367866518773948,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

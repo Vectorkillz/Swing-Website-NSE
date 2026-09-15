@@ -1,0 +1,15 @@
+{
+  "avg_volume": 69829.0,
+  "debt_equity": 0.57496,
+  "eps_growth": 30.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:47+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 2604.4981248,
+  "name": "Dolphin Offshore Enterprises (India) Limited",
+  "revenue_growth": 160.60000000000002,
+  "roe": 20.380130504037876,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

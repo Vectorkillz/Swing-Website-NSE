@@ -1,0 +1,15 @@
+{
+  "avg_volume": 46187.0,
+  "debt_equity": 0.08579,
+  "eps_growth": 108.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:16+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 7542.2892032,
+  "name": "Galaxy Surfactants Limited",
+  "revenue_growth": 39.4,
+  "roe": 12.890056530634626,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

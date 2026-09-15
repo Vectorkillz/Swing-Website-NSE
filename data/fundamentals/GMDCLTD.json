@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1181208.0,
+  "debt_equity": 0.04475,
+  "eps_growth": -0.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:42+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 17599.7108224,
+  "name": "Gujarat Mineral Development Corporation Limited",
+  "revenue_growth": 23.799999999999997,
+  "roe": 13.529027760106041,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

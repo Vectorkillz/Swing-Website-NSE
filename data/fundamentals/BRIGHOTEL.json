@@ -1,0 +1,15 @@
+{
+  "avg_volume": 122898.0,
+  "debt_equity": 0.31381,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:22+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 2132.4361728,
+  "name": "Brigade Hotel Ventures Limited",
+  "revenue_growth": 2.3,
+  "roe": 7.122097241135367,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

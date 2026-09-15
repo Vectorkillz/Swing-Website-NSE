@@ -1,0 +1,15 @@
+{
+  "avg_volume": 310051.0,
+  "debt_equity": 0.5623,
+  "eps_growth": 22.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:18+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 5602.3801856,
+  "name": "Gujarat Themis Biosyn Limited",
+  "revenue_growth": 22.1,
+  "roe": 14.16470761317384,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

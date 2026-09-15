@@ -1,0 +1,15 @@
+{
+  "avg_volume": 241287.0,
+  "debt_equity": 0.41603,
+  "eps_growth": 272.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:34+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 4780.2413056,
+  "name": "Juniper Hotels Limited",
+  "revenue_growth": 13.0,
+  "roe": 5.782454654212629,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

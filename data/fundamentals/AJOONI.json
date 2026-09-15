@@ -1,0 +1,15 @@
+{
+  "avg_volume": 373334.0,
+  "debt_equity": 0.29370999999999997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:30+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 59.0795584,
+  "name": "Ajooni Biotech Limited",
+  "revenue_growth": 99.8,
+  "roe": 4.401999999999999,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 916851.0,
+  "debt_equity": 0.00032,
+  "eps_growth": 94.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:23+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1282.9780992,
+  "name": "The Andhra Sugars Limited",
+  "revenue_growth": 4.6,
+  "roe": 6.171795959186311,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 505695.0,
+  "debt_equity": 0.00393,
+  "eps_growth": 22.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:12+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 13475.1469568,
+  "name": "Action Construction Equipment Limited",
+  "revenue_growth": 20.5,
+  "roe": 21.718893418513144,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 432122.0,
+  "debt_equity": 1.72783,
+  "eps_growth": 3.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:21+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 2702.0886016,
+  "name": "EFC (I) Limited",
+  "revenue_growth": 28.799999999999997,
+  "roe": 29.5295494896403,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

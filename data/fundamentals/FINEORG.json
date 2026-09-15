@@ -1,0 +1,15 @@
+{
+  "avg_volume": 25053.0,
+  "debt_equity": 0.03464,
+  "eps_growth": 18.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:35+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 15800.6181888,
+  "name": "Fine Organic Industries Limited",
+  "revenue_growth": 18.0,
+  "roe": 16.44286352397259,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

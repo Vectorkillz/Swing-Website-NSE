@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1191971.0,
+  "debt_equity": 0.25361999999999996,
+  "eps_growth": -18.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:36+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 2622.6305024,
+  "name": "Gateway Distriparks Limited",
+  "revenue_growth": -0.2,
+  "roe": 10.588303807759612,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

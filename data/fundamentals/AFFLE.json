@@ -1,0 +1,15 @@
+{
+  "avg_volume": 378706.0,
+  "debt_equity": 0.004050000000000001,
+  "eps_growth": 20.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:58+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 21623.3623552,
+  "name": "Affle 3i Limited",
+  "revenue_growth": 20.4,
+  "roe": 13.054229457623434,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

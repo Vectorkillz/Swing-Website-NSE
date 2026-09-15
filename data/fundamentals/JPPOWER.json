@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53132564.0,
+  "debt_equity": 0.26634,
+  "eps_growth": 67.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:16+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 10718.810112,
+  "name": "Jaiprakash Power Ventures Limited",
+  "revenue_growth": 12.2,
+  "roe": 7.164742054358854,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

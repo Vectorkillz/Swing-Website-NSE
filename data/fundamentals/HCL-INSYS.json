@@ -1,0 +1,15 @@
+{
+  "avg_volume": 213401.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:53+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 329.5391488,
+  "name": "HCL Infosystems Limited",
+  "revenue_growth": -40.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

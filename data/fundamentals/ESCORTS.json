@@ -1,0 +1,15 @@
+{
+  "avg_volume": 106963.0,
+  "debt_equity": 0.01309,
+  "eps_growth": -72.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:41+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 31201.5683584,
+  "name": "Escorts Kubota Limited",
+  "revenue_growth": 28.299999999999997,
+  "roe": 11.365039763083052,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

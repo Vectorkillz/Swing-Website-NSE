@@ -1,0 +1,15 @@
+{
+  "avg_volume": 654039.0,
+  "debt_equity": 0.56784,
+  "eps_growth": -8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:49+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 1161.2343296,
+  "name": "B.L. Kashyap and Sons Limited",
+  "revenue_growth": 2.6,
+  "roe": 0.13188696603570788,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

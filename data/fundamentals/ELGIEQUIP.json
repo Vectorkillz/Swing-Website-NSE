@@ -1,0 +1,15 @@
+{
+  "avg_volume": 513977.0,
+  "debt_equity": 0.23885,
+  "eps_growth": 21.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:46+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 19294.3538176,
+  "name": "Elgi Equipments Limited",
+  "revenue_growth": 22.6,
+  "roe": 20.06801680087339,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

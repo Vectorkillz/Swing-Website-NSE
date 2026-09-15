@@ -1,0 +1,15 @@
+{
+  "avg_volume": 66582.0,
+  "debt_equity": 0.42441,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:18+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 84.6405376,
+  "name": "Goyal Aluminiums Limited",
+  "revenue_growth": 9.1,
+  "roe": 13.95962256332258,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

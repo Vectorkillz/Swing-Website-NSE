@@ -1,0 +1,15 @@
+{
+  "avg_volume": 969848.0,
+  "debt_equity": null,
+  "eps_growth": 52.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:17+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 5167.597568,
+  "name": "Jana Small Finance Bank Limited",
+  "revenue_growth": 25.1,
+  "roe": 8.457227793884089,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

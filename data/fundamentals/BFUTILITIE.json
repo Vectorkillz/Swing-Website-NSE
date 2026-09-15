@@ -1,0 +1,15 @@
+{
+  "avg_volume": 233440.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:15+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 1989.6041472,
+  "name": "BF Utilities Limited",
+  "revenue_growth": 2.0,
+  "roe": 38.903999999999996,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

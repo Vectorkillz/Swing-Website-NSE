@@ -1,0 +1,15 @@
+{
+  "avg_volume": 146590.0,
+  "debt_equity": 0.058019999999999995,
+  "eps_growth": -0.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:48+00:00",
+  "industry": "Business Equipment & Supplies",
+  "market_cap_cr": 2463.40608,
+  "name": "Flair Writing Industries Limited",
+  "revenue_growth": 10.6,
+  "roe": 12.237583962417537,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 642354.0,
+  "debt_equity": 0.37523,
+  "eps_growth": 7.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:19+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 59616.886784,
+  "name": "Jindal Stainless Limited",
+  "revenue_growth": 10.5,
+  "roe": 72.17633292659454,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

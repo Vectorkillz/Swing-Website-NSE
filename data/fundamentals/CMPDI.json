@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3193362.0,
+  "debt_equity": 0.00064,
+  "eps_growth": 53.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:01+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": null,
+  "name": "Central Mine Planning & Design Institute Limited",
+  "revenue_growth": 17.599999999999998,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15452.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:07:46+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 16.389136,
+  "name": "Cresto Techno Limited",
+  "revenue_growth": -21.6,
+  "roe": -20.266001,
+  "roe_source": "returnOnEquity",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

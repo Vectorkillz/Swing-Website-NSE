@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1479072.0,
+  "debt_equity": null,
+  "eps_growth": 83.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:17+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 242.7565312,
+  "name": "FCS Software Solutions Limited",
+  "revenue_growth": 120.10000000000001,
+  "roe": 0.676305812409074,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1445567.0,
+  "debt_equity": 0.26059,
+  "eps_growth": 19.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:39+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 6507.9209984,
+  "name": "Campus Activewear Limited",
+  "revenue_growth": 12.2,
+  "roe": 16.991853998981288,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

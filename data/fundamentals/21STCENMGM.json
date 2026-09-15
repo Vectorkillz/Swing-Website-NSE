@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6536.0,
+  "debt_equity": null,
+  "eps_growth": 295.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:28+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 40.95,
+  "name": "Twentyfirst Century Management Services Limited",
+  "revenue_growth": 190.2,
+  "roe": -52.10915036535213,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

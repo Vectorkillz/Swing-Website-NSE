@@ -1,0 +1,15 @@
+{
+  "avg_volume": 140352.0,
+  "debt_equity": 2.44293,
+  "eps_growth": 55.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:37+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 1018.5664512,
+  "name": "Finkurve Financial Services Limited",
+  "revenue_growth": 73.5,
+  "roe": 8.427099618840195,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

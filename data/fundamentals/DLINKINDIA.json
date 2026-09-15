@@ -1,0 +1,15 @@
+{
+  "avg_volume": 211051.0,
+  "debt_equity": 0.02928,
+  "eps_growth": 13.200000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:37+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 1480.7296,
+  "name": "D-Link (India) Limited",
+  "revenue_growth": 30.5,
+  "roe": 21.21662985217754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

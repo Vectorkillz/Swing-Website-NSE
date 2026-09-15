@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1193232.0,
+  "debt_equity": 0.05119,
+  "eps_growth": -28.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:50+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 1734.9537792,
+  "name": "Jindal Drilling & Industries Limited",
+  "revenue_growth": 8.4,
+  "roe": 10.526764250003879,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

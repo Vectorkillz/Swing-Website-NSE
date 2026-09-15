@@ -1,0 +1,15 @@
+{
+  "avg_volume": 443941.0,
+  "debt_equity": 0.29503,
+  "eps_growth": 145.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:28+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 14451.2581632,
+  "name": "Avalon Technologies Limited",
+  "revenue_growth": 49.8,
+  "roe": 18.49004839170472,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

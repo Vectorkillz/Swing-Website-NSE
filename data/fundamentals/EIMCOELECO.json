@@ -1,0 +1,15 @@
+{
+  "avg_volume": 62427.0,
+  "debt_equity": 0.009300000000000001,
+  "eps_growth": 6.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:29+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 1293.387264,
+  "name": "Eimco Elecon (India) Limited",
+  "revenue_growth": 14.7,
+  "roe": 8.472432224526658,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

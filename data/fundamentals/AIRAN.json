@@ -1,0 +1,15 @@
+{
+  "avg_volume": 78236.0,
+  "debt_equity": 0.00621,
+  "eps_growth": 108.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:23+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 205.6579072,
+  "name": "Airan Limited",
+  "revenue_growth": 3.3000000000000003,
+  "roe": 11.699675712650189,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

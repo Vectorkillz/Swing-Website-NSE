@@ -1,0 +1,15 @@
+{
+  "avg_volume": 310453.0,
+  "debt_equity": 0.045259999999999995,
+  "eps_growth": 4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:03+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 14803.0767104,
+  "name": "Kansai Nerolac Paints Limited",
+  "revenue_growth": 9.8,
+  "roe": 8.93756388502732,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

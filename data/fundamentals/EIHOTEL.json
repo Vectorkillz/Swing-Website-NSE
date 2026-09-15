@@ -1,0 +1,15 @@
+{
+  "avg_volume": 238081.0,
+  "debt_equity": 0.04666000000000001,
+  "eps_growth": 246.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:28+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 17747.8336512,
+  "name": "EIH Limited",
+  "revenue_growth": 14.499999999999998,
+  "roe": 13.521967203332613,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

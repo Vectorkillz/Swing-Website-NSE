@@ -1,0 +1,15 @@
+{
+  "avg_volume": 244318.0,
+  "debt_equity": 0.12888,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:41+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 15618.8000256,
+  "name": "The India Cements Limited",
+  "revenue_growth": -0.5,
+  "roe": 0.9137435119999893,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

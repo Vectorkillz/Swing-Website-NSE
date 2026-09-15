@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10423596.0,
+  "debt_equity": 0.11196999999999999,
+  "eps_growth": 1200.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:11+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 276.984064,
+  "name": "Empower India Limited",
+  "revenue_growth": 38.3,
+  "roe": 5.987355347416422,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7871.0,
+  "debt_equity": 0.00032,
+  "eps_growth": 29.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:21+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 983.0534144,
+  "name": "Gandhi Special Tubes Limited",
+  "revenue_growth": 18.9,
+  "roe": 25.45946932164872,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 201171.0,
+  "debt_equity": 0.07636,
+  "eps_growth": 93.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:56+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 2457.9100672,
+  "name": "Euro Pratik Sales Limited",
+  "revenue_growth": 60.099999999999994,
+  "roe": 27.864574755549736,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

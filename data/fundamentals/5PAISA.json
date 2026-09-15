@@ -1,0 +1,15 @@
+{
+  "avg_volume": 71809.0,
+  "debt_equity": 0.5831000000000001,
+  "eps_growth": -29.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:33+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1468.258304,
+  "name": "5paisa Capital Limited",
+  "revenue_growth": 13.4,
+  "roe": 4.543779681356512,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

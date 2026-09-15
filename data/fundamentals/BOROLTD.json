@@ -1,0 +1,15 @@
+{
+  "avg_volume": 480925.0,
+  "debt_equity": 0.16696000000000003,
+  "eps_growth": -26.700000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:11+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 2969.7196032,
+  "name": "Borosil Limited",
+  "revenue_growth": 9.0,
+  "roe": 7.858341081111899,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 65524.0,
+  "debt_equity": 0.03552,
+  "eps_growth": -79.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:19+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 3924.4660736,
+  "name": "Ahluwalia Contracts (India) Limited",
+  "revenue_growth": 12.0,
+  "roe": 10.933922481773587,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

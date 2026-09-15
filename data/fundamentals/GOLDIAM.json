@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1187937.0,
+  "debt_equity": 0.06931,
+  "eps_growth": 107.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:11+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 4880.3090432,
+  "name": "Goldiam International Limited",
+  "revenue_growth": 41.9,
+  "roe": 19.07299874984735,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

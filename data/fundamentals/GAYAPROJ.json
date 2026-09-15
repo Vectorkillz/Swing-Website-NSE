@@ -1,0 +1,15 @@
+{
+  "avg_volume": 638053.0,
+  "debt_equity": 0.51304,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:41+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 1214.1418496,
+  "name": "Gayatri Projects Limited",
+  "revenue_growth": 208.70000000000002,
+  "roe": 138.16637438357168,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

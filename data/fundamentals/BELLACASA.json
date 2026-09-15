@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13842.0,
+  "debt_equity": 0.47054,
+  "eps_growth": -46.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:01+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 338.2619648,
+  "name": "Bella Casa Fashion & Retail Limited",
+  "revenue_growth": 33.4,
+  "roe": 10.47330708796689,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

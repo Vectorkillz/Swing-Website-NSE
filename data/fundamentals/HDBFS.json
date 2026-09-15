@@ -1,0 +1,15 @@
+{
+  "avg_volume": 728817.0,
+  "debt_equity": 4.8431299999999995,
+  "eps_growth": 32.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:54+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 55067.377664,
+  "name": "HDB Financial Services Limited",
+  "revenue_growth": 21.0,
+  "roe": 13.393190135026305,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 97746.0,
+  "debt_equity": null,
+  "eps_growth": -10.6,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:14:27+00:00",
+  "industry": "Education & Training Services",
+  "market_cap_cr": 642.5296384,
+  "name": "Global Education Limited",
+  "revenue_growth": -5.3,
+  "roe": 20.906,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

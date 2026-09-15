@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14410492.0,
+  "debt_equity": 0.6022,
+  "eps_growth": -95.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:15+00:00",
+  "industry": "Confectioners",
+  "market_cap_cr": 379.8806528,
+  "name": "Davangere Sugar Company Limited",
+  "revenue_growth": 44.2,
+  "roe": 1.8541115988571562,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

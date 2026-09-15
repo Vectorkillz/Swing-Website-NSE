@@ -1,0 +1,15 @@
+{
+  "avg_volume": 157172.0,
+  "debt_equity": 0.01704,
+  "eps_growth": 31.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:48+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 16547.1371264,
+  "name": "Alivus Life Sciences Limited",
+  "revenue_growth": 6.4,
+  "roe": 18.123374493213895,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

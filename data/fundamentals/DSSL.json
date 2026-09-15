@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40560.0,
+  "debt_equity": 0.75024,
+  "eps_growth": 0.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:58+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1317.5235584,
+  "name": "Dynacons Systems & Solutions Limited",
+  "revenue_growth": -4.6,
+  "roe": 26.81154355188792,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

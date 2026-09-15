@@ -1,0 +1,15 @@
+{
+  "avg_volume": 339753.0,
+  "debt_equity": 0.75969,
+  "eps_growth": 101.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:50+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 16235.4184192,
+  "name": "Deepak Fertilisers And Petrochemicals Corporation Limited",
+  "revenue_growth": 22.5,
+  "roe": 14.380538441227609,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 398938.0,
+  "debt_equity": 0.25432,
+  "eps_growth": -33.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:09+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 982.040576,
+  "name": "DAM Capital Advisors Limited",
+  "revenue_growth": -3.2,
+  "roe": 19.342803508545277,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

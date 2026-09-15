@@ -1,0 +1,15 @@
+{
+  "avg_volume": 31049.0,
+  "debt_equity": 1.3024,
+  "eps_growth": 21.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:53+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 60.6875264,
+  "name": "Future Market Networks Limited",
+  "revenue_growth": 1.0,
+  "roe": 6.73249398945137,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

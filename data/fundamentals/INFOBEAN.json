@@ -1,0 +1,15 @@
+{
+  "avg_volume": 586399.0,
+  "debt_equity": 0.03547,
+  "eps_growth": -6.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:15+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 1484.7399936,
+  "name": "InfoBeans Technologies Limited",
+  "revenue_growth": 36.6,
+  "roe": 20.543999919580802,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

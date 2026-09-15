@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1846788.0,
+  "debt_equity": 0.84438,
+  "eps_growth": 30.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:43+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 33461.3446656,
+  "name": "Aegis Vopak Terminals Limited",
+  "revenue_growth": 42.5,
+  "roe": 7.1208681417233635,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

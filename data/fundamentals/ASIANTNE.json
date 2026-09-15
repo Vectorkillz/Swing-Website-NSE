@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13885.0,
+  "debt_equity": 0.20350000000000001,
+  "eps_growth": -85.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:50+00:00",
+  "industry": "Food Distribution",
+  "market_cap_cr": 21.6744224,
+  "name": "Asian Tea & Exports Limited",
+  "revenue_growth": -22.0,
+  "roe": 0.4856757118294507,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 197769.0,
+  "debt_equity": 0.26873,
+  "eps_growth": 27.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:29+00:00",
+  "industry": "Health Information Services",
+  "market_cap_cr": 29911.154688,
+  "name": "Inventurus Knowledge Solutions Limited",
+  "revenue_growth": 20.7,
+  "roe": 27.203109429760563,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

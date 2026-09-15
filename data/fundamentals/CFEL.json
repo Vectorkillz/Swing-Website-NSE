@@ -1,0 +1,15 @@
+{
+  "avg_volume": 110248.0,
+  "debt_equity": 0.81792,
+  "eps_growth": 318.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:28+00:00",
+  "industry": "Utilities - Regulated Gas",
+  "market_cap_cr": 118.6198144,
+  "name": "Confidence Futuristic Energetech Limited",
+  "revenue_growth": -12.5,
+  "roe": 5.616434929609951,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

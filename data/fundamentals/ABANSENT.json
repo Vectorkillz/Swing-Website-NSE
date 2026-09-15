@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9623.0,
+  "debt_equity": 0.74518,
+  "eps_growth": 600.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:53+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 194.1111296,
+  "name": "ABans Enterprises Limited",
+  "revenue_growth": 39.300000000000004,
+  "roe": 14.772519567239314,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

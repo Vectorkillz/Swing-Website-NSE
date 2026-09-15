@@ -1,0 +1,15 @@
+{
+  "avg_volume": 229592.0,
+  "debt_equity": 0.0002,
+  "eps_growth": -96.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:55+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 2159.6254208,
+  "name": "GOCL Corporation Limited",
+  "revenue_growth": 26.3,
+  "roe": 8.5816164578943,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

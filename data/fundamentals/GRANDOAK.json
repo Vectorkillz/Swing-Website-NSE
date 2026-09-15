@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5405.0,
+  "debt_equity": 3.1197199999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:28+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 1810.3846912,
+  "name": "Grand Oak Canyons Distillery Limited",
+  "revenue_growth": null,
+  "roe": -0.5760923863426609,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

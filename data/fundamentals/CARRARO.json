@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170129.0,
+  "debt_equity": 0.27433,
+  "eps_growth": 7.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:54+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 2961.965056,
+  "name": "Carraro India Limited",
+  "revenue_growth": 10.5,
+  "roe": 23.52616551871601,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

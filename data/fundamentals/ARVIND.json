@@ -1,0 +1,15 @@
+{
+  "avg_volume": 815347.0,
+  "debt_equity": 0.40070999999999996,
+  "eps_growth": 0.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:27+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 14433.4077952,
+  "name": "Arvind Limited",
+  "revenue_growth": 24.7,
+  "roe": 10.239632335521478,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

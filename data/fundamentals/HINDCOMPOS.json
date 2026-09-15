@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9376.0,
+  "debt_equity": 0.00147,
+  "eps_growth": 16.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:22+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 560.4097024,
+  "name": "Hindustan Composites Limited",
+  "revenue_growth": -77.0,
+  "roe": 2.7510155189077006,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 182123.0,
+  "debt_equity": 1.65862,
+  "eps_growth": 4.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:27+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 86.9079104,
+  "name": "Anmol India Limited",
+  "revenue_growth": -21.099999999999998,
+  "roe": 9.756609791415057,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

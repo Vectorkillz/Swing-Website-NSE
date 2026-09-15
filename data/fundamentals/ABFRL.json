@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5748310.0,
+  "debt_equity": 0.98822,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:00+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 5964.6418944,
+  "name": "Aditya Birla Fashion and Retail Limited",
+  "revenue_growth": 10.6,
+  "roe": -13.345957605684278,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

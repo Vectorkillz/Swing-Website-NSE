@@ -1,0 +1,15 @@
+{
+  "avg_volume": 253631.0,
+  "debt_equity": 2.31875,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:54+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 15497.3847552,
+  "name": "Clean Max Enviro Energy Solutions Limited",
+  "revenue_growth": 109.2,
+  "roe": 3.3760714005510803,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

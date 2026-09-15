@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10130.0,
+  "debt_equity": 0.38201,
+  "eps_growth": 81.2,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:05:08+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 63.1742336,
+  "name": "Bonlon Industries Limited",
+  "revenue_growth": -31.1,
+  "roe": 2.8959999,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

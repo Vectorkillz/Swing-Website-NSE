@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6791621.0,
+  "debt_equity": 1.46839,
+  "eps_growth": -34.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:24+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 8132.0787968,
+  "name": "Waterways Leisure Tourism Limited",
+  "revenue_growth": 7.8,
+  "roe": 45.05054317383518,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

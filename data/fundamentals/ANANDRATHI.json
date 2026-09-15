@@ -1,0 +1,15 @@
+{
+  "avg_volume": 363987.0,
+  "debt_equity": 0.0825,
+  "eps_growth": 71.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:18+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 36261.7503744,
+  "name": "Anand Rathi Wealth Limited",
+  "revenue_growth": 52.1,
+  "roe": 46.56997694166165,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

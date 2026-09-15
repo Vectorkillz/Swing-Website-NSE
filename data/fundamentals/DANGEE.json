@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53268.0,
+  "debt_equity": 1.57724,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:11+00:00",
+  "industry": "Restaurants",
+  "market_cap_cr": 42.8050528,
+  "name": "Dangee Dums Limited",
+  "revenue_growth": 12.3,
+  "roe": -9.603208627180624,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

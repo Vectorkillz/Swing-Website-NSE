@@ -1,0 +1,15 @@
+{
+  "avg_volume": 31152.0,
+  "debt_equity": 0.34110999999999997,
+  "eps_growth": -25.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:28+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 60.309888,
+  "name": "Adroit Infotech Limited",
+  "revenue_growth": 52.7,
+  "roe": 3.9447203917391547,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

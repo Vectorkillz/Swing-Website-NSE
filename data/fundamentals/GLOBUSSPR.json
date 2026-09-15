@@ -1,0 +1,15 @@
+{
+  "avg_volume": 116875.0,
+  "debt_equity": 0.48422,
+  "eps_growth": 48.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:36+00:00",
+  "industry": "Beverages - Wineries & Distilleries",
+  "market_cap_cr": 2581.556224,
+  "name": "Globus Spirits Limited",
+  "revenue_growth": 12.7,
+  "roe": 8.376642209668772,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

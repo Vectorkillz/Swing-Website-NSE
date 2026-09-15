@@ -24,10 +24,14 @@ def _opt(row, col) -> Optional[str]:
     return str(row[col])
 
 
-class CsvUniverseProvider:
+class _CsvUniverseProviderBase:
+    filename = "fno_universe.csv"
+    status_filename = "status.json"
+    default_fno_eligible = True
+
     def __init__(self, universe_dir: Path):
-        self.csv = universe_dir / "fno_universe.csv"
-        self.status = universe_dir / "status.json"
+        self.csv = universe_dir / self.filename
+        self.status = universe_dir / self.status_filename
 
     def fetch(self) -> Optional[UniverseSnapshot]:
         if not self.csv.exists():
@@ -44,6 +48,7 @@ class CsvUniverseProvider:
                 symbol=str(r["symbol"]).strip().upper(),
                 name=_opt(r, "name"), sector=_opt(r, "sector"), industry=_opt(r, "industry"), isin=_opt(r, "isin"),
                 lot_size=int(r["lot_size"]) if "lot_size" in df.columns and pd.notna(r.get("lot_size")) else None,
+                fno_eligible=bool(r["fno_eligible"]) if "fno_eligible" in df.columns and pd.notna(r.get("fno_eligible")) else self.default_fno_eligible,
             )
             for _, r in df.iterrows()
         )
@@ -51,7 +56,7 @@ class CsvUniverseProvider:
 
     def save(self, snap: UniverseSnapshot, live_error: Optional[str] = None) -> None:
         self.csv.parent.mkdir(parents=True, exist_ok=True)
-        cols = ["symbol", "name", "sector", "industry", "isin", "lot_size"]
+        cols = ["symbol", "name", "sector", "industry", "isin", "lot_size", "fno_eligible"]
         df = pd.DataFrame([r.__dict__ for r in snap.rows]).reindex(columns=cols).sort_values("symbol")
         df["lot_size"] = df["lot_size"].astype("Int64")
         df.to_csv(self.csv, index=False, lineterminator="\n")
@@ -65,8 +70,25 @@ class CsvUniverseProvider:
         rows = []
         for r in snap.rows:
             sec, ind = sectors.get(r.symbol, (None, None))
-            rows.append(UniverseRow(r.symbol, r.name, r.sector or sec, r.industry or ind, r.isin, r.lot_size))
+            rows.append(UniverseRow(r.symbol, r.name, r.sector or sec, r.industry or ind, r.isin, r.lot_size, r.fno_eligible))
         return UniverseSnapshot(tuple(rows), snap.as_of, snap.source)
+
+
+class CsvUniverseProvider(_CsvUniverseProviderBase):
+    """F&O universe: data/universe/fno_universe.csv (status.json). Every row is short-eligible."""
+
+    filename = "fno_universe.csv"
+    status_filename = "status.json"
+    default_fno_eligible = True
+
+
+class CsvEquityUniverseProvider(_CsvUniverseProviderBase):
+    """Full cash-equity list: data/universe/nse_equity_list.csv (equity_status.json).
+    Long-only (fno_eligible=False unless a row happens to carry the flag, which this source never sets)."""
+
+    filename = "nse_equity_list.csv"
+    status_filename = "equity_status.json"
+    default_fno_eligible = False
 
 
 def applicable(snap: BanListSnapshot, for_date: date) -> bool:

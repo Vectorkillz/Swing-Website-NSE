@@ -1,0 +1,15 @@
+{
+  "avg_volume": 368581.0,
+  "debt_equity": null,
+  "eps_growth": 100.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:06+00:00",
+  "industry": "Financial Conglomerates",
+  "market_cap_cr": 248.7139328,
+  "name": "IL&FS Investment Managers Limited",
+  "revenue_growth": 14.099999999999998,
+  "roe": 2.6041915084567937,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

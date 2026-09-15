@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53616.0,
+  "debt_equity": 0.22072,
+  "eps_growth": 30.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:29+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": null,
+  "name": "CORONA Remedies Limited",
+  "revenue_growth": 21.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 38334.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:56+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 718.0330496,
+  "name": "JITF Infralogistics Limited",
+  "revenue_growth": 20.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

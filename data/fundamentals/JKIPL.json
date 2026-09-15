@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39805.0,
+  "debt_equity": 0.4972,
+  "eps_growth": -68.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:00+00:00",
+  "industry": "Industrial Distribution",
+  "market_cap_cr": 365.357952,
+  "name": "Jinkushal Industries Limited",
+  "revenue_growth": 15.9,
+  "roe": 4.407521086603964,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

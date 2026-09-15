@@ -1,0 +1,15 @@
+{
+  "avg_volume": 29342.0,
+  "debt_equity": 0.005580000000000001,
+  "eps_growth": -40.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:34+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 443.5198976,
+  "name": "Advani Hotels & Resorts (India) Limited",
+  "revenue_growth": 5.5,
+  "roe": 4.434148039186325,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

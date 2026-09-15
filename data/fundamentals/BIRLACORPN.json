@@ -1,0 +1,15 @@
+{
+  "avg_volume": 88338.0,
+  "debt_equity": 0.4604,
+  "eps_growth": 48.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:37+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 6239.3581568,
+  "name": "Birla Corporation Limited",
+  "revenue_growth": 7.8,
+  "roe": 7.5189769120761,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5213.0,
+  "debt_equity": 0.82297,
+  "eps_growth": -33.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:27+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 323.9867648,
+  "name": "Inspirisys Solutions Limited",
+  "revenue_growth": 26.400000000000002,
+  "roe": 36.812369980864986,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

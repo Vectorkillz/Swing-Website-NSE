@@ -1,0 +1,15 @@
+{
+  "avg_volume": 937127.0,
+  "debt_equity": 0.0030399999999999997,
+  "eps_growth": -13.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:14+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 24402.2902784,
+  "name": "Data Patterns (India) Limited",
+  "revenue_growth": 16.8,
+  "roe": 15.434043426199754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

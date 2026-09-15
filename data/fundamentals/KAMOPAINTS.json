@@ -1,0 +1,15 @@
+{
+  "avg_volume": 259981.0,
+  "debt_equity": 0.19079000000000002,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:55+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 138.8379904,
+  "name": "Kamdhenu Ventures Limited",
+  "revenue_growth": -7.9,
+  "roe": -2.7189316141507436,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

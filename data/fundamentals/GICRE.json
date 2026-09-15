@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1369343.0,
+  "debt_equity": null,
+  "eps_growth": -31.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:08+00:00",
+  "industry": "Insurance - Reinsurance",
+  "market_cap_cr": 59333.8105856,
+  "name": "General Insurance Corporation of India",
+  "revenue_growth": -0.8,
+  "roe": 9.1079995,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

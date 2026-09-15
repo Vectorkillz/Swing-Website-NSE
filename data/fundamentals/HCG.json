@@ -1,0 +1,15 @@
+{
+  "avg_volume": 197533.0,
+  "debt_equity": 1.23057,
+  "eps_growth": 170.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:51+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 10127.1683072,
+  "name": "HealthCare Global Enterprises Limited",
+  "revenue_growth": 13.4,
+  "roe": 1.6571427714949345,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

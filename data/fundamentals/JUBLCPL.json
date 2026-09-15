@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17303.0,
+  "debt_equity": 0.11135,
+  "eps_growth": 4.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:30+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 3154.7490304,
+  "name": "Jubilant Agri and Consumer Products Limited",
+  "revenue_growth": 18.4,
+  "roe": 28.233288965043084,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1003.0,
+  "debt_equity": 0.007850000000000001,
+  "eps_growth": 156.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:47+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 64.5746176,
+  "name": "HB Portfolio Limited",
+  "revenue_growth": 36.4,
+  "roe": 1.4396958552501766,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -7,8 +7,9 @@ import pytest
 
 from engine.types import Fundamentals
 from ingestion.calendar import IST, NseCalendar
-from ingestion.csv_providers import CsvBanListProvider, CsvUniverseProvider
-from ingestion.protocols import BanListSnapshot, UniverseRow, UniverseSnapshot
+from ingestion.csv_providers import CsvBanListProvider, CsvEquityUniverseProvider, CsvUniverseProvider
+from ingestion.equity_universe import parse_equity_list
+from ingestion.protocols import BanListSnapshot, UniverseRow, UniverseSnapshot, merge_universes
 from ingestion.store import FundamentalsStore, OhlcvStore
 from ingestion.symbols import nse_to_yf, yf_to_nse
 
@@ -93,6 +94,50 @@ def test_csv_ban_list_exact_date_only(tmp_path):
     prov.save(BanListSnapshot(frozenset({"ABC"}), date(2026, 9, 10), "live", "ok"))
     assert prov.fetch(date(2026, 9, 10)).symbols == frozenset({"ABC"})
     assert prov.fetch(date(2026, 9, 11)) is None  # yesterday's list is not authoritative for today
+
+
+def test_csv_equity_universe_defaults_to_not_fno_eligible(tmp_path):
+    prov = CsvEquityUniverseProvider(tmp_path)
+    prov.save(UniverseSnapshot((UniverseRow("ZOMATO", "Eternal Ltd", fno_eligible=False),), date(2026, 9, 1), "live"))
+    back = prov.fetch()
+    assert back.rows[0].fno_eligible is False
+    assert (tmp_path / "equity_status.json").exists()
+    assert (tmp_path / "nse_equity_list.csv").exists()
+
+
+def test_fno_and_equity_status_files_dont_collide(tmp_path):
+    """The two providers must not overwrite each other's status file."""
+    CsvUniverseProvider(tmp_path).save(UniverseSnapshot((UniverseRow("RELIANCE"),), date(2026, 9, 1), "live"))
+    CsvEquityUniverseProvider(tmp_path).save(UniverseSnapshot((UniverseRow("ZOMATO", fno_eligible=False),), date(2026, 9, 2), "live"))
+    assert CsvUniverseProvider(tmp_path).fetch().as_of == date(2026, 9, 1)
+    assert CsvEquityUniverseProvider(tmp_path).fetch().as_of == date(2026, 9, 2)
+
+
+def test_parse_equity_list_keeps_only_eq_series():
+    csv_text = (
+        "SYMBOL,NAME OF COMPANY,SERIES,DATE OF LISTING,PAID UP VALUE,MARKET LOT,ISIN NUMBER,FACE VALUE\n"
+        "RELIANCE,Reliance Industries Limited,EQ,1995-11-29,10,1,INE002A01018,10\n"
+        "SOMEBOND,Some Trust,BE,2020-01-01,10,1,INE000000000,10\n"
+    )
+    rows = parse_equity_list(csv_text)
+    assert [r.symbol for r in rows] == ["RELIANCE"]
+    assert rows[0].fno_eligible is False and rows[0].isin == "INE002A01018"
+
+
+def test_merge_universes_fno_wins_eligibility_and_fills_gaps():
+    equity = UniverseSnapshot((UniverseRow("RELIANCE", "Reliance Ind", sector=None, fno_eligible=False), UniverseRow("ZOMATO", "Eternal", fno_eligible=False)), date(2026, 9, 1), "live")
+    fno = UniverseSnapshot((UniverseRow("RELIANCE", None, sector="Energy", lot_size=500, fno_eligible=True),), date(2026, 9, 2), "live")
+    merged = merge_universes(fno, equity)
+    by = {r.symbol: r for r in merged}
+    assert by["RELIANCE"].fno_eligible is True and by["RELIANCE"].name == "Reliance Ind" and by["RELIANCE"].sector == "Energy" and by["RELIANCE"].lot_size == 500
+    assert by["ZOMATO"].fno_eligible is False
+    assert len(merged) == 2
+
+
+def test_merge_universes_with_no_equity_list():
+    fno = UniverseSnapshot((UniverseRow("RELIANCE", fno_eligible=True),), date(2026, 9, 2), "live")
+    merged = merge_universes(fno, None)
+    assert len(merged) == 1 and merged[0].fno_eligible is True
 
 
 def test_symbol_mapping():

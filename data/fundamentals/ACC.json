@@ -1,0 +1,15 @@
+{
+  "avg_volume": 155697.0,
+  "debt_equity": 0.02085,
+  "eps_growth": -60.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:08+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 23007.6940288,
+  "name": "ACC Limited",
+  "revenue_growth": -3.8,
+  "roe": 9.289635877488154,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

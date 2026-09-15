@@ -1,0 +1,15 @@
+{
+  "avg_volume": 316841.0,
+  "debt_equity": 0.82304,
+  "eps_growth": 56.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:16+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 159.84,
+  "name": "Century Extrusions Limited",
+  "revenue_growth": 32.800000000000004,
+  "roe": 14.932934478432886,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

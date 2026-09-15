@@ -1,0 +1,15 @@
+{
+  "avg_volume": 388223.0,
+  "debt_equity": 0.18646000000000001,
+  "eps_growth": 34.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:55+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 21012.1457664,
+  "name": "Aether Industries Limited",
+  "revenue_growth": 27.500000000000004,
+  "roe": 9.57314335449866,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

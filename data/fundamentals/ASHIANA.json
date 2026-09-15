@@ -1,0 +1,15 @@
+{
+  "avg_volume": 177838.0,
+  "debt_equity": 0.35119,
+  "eps_growth": 3.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:39+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 3436.9445888,
+  "name": "Ashiana Housing Limited",
+  "revenue_growth": -63.3,
+  "roe": 14.333999,
+  "roe_source": "returnOnEquity",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

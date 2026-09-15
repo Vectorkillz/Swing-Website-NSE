@@ -1,0 +1,15 @@
+{
+  "avg_volume": 268067.0,
+  "debt_equity": 0.83205,
+  "eps_growth": 39.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:34+00:00",
+  "industry": "Specialty Retail",
+  "market_cap_cr": 7892.9174528,
+  "name": "Aditya Vision Limited",
+  "revenue_growth": 26.900000000000002,
+  "roe": 20.101094082193562,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6261.0,
+  "debt_equity": 3.6634800000000003,
+  "eps_growth": 271.09999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:29+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 122.8370176,
+  "name": "BSL Limited",
+  "revenue_growth": 7.3999999999999995,
+  "roe": 3.030024222535327,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

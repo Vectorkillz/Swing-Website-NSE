@@ -1,0 +1,15 @@
+{
+  "avg_volume": 104059.0,
+  "debt_equity": 0.1114,
+  "eps_growth": 41.4,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:05:34+00:00",
+  "industry": "Home Improvement Retail",
+  "market_cap_cr": 3111.18848,
+  "name": "Shankara Buildpro Limited",
+  "revenue_growth": 27.900000000000002,
+  "roe": 25.518998999999997,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

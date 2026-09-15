@@ -1,0 +1,15 @@
+{
+  "avg_volume": 492853.0,
+  "debt_equity": 0.00357,
+  "eps_growth": -42.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:33+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 10517.4818816,
+  "name": "Avanti Feeds Limited",
+  "revenue_growth": 18.3,
+  "roe": 16.135733421495456,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

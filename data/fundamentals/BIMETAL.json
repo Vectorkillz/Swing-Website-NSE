@@ -1,0 +1,15 @@
+{
+  "avg_volume": 908.0,
+  "debt_equity": 0.016040000000000002,
+  "eps_growth": -7.000000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:32+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 244.8,
+  "name": "Bimetal Bearings Limited",
+  "revenue_growth": 11.0,
+  "roe": 4.984832556248165,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

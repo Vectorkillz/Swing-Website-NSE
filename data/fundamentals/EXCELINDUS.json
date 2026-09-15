@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27223.0,
+  "debt_equity": 0.0046300000000000004,
+  "eps_growth": -12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:59+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1213.9516928,
+  "name": "Excel Industries Limited",
+  "revenue_growth": -5.1,
+  "roe": 4.190563966476596,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

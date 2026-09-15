@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4191.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:00+00:00",
+  "industry": "Steel",
+  "market_cap_cr": null,
+  "name": "Beekay Steel Industries Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

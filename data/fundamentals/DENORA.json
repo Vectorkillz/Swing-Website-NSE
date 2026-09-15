@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9934.0,
+  "debt_equity": null,
+  "eps_growth": 96.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:58+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 431.5654144,
+  "name": "De Nora India Limited",
+  "revenue_growth": -16.0,
+  "roe": 9.436027303456898,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

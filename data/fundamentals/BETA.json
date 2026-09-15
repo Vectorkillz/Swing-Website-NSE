@@ -1,0 +1,15 @@
+{
+  "avg_volume": 45195.0,
+  "debt_equity": 0.6038600000000001,
+  "eps_growth": 27.500000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:12+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2125.105152,
+  "name": "Beta Drugs Limited",
+  "revenue_growth": 25.3,
+  "roe": 18.695182228803635,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

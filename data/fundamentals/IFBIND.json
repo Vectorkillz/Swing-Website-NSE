@@ -1,0 +1,15 @@
+{
+  "avg_volume": 77142.0,
+  "debt_equity": 0.15671,
+  "eps_growth": 64.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:12+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 5153.990656,
+  "name": "IFB Industries Limited",
+  "revenue_growth": 18.4,
+  "roe": 16.127929522830204,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

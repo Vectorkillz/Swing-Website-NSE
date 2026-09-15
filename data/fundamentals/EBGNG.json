@@ -1,0 +1,15 @@
+{
+  "avg_volume": 818741.0,
+  "debt_equity": 0.58541,
+  "eps_growth": 25.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:13+00:00",
+  "industry": "Computer Hardware",
+  "market_cap_cr": 7655.3035776,
+  "name": "GNG Electronics Limited",
+  "revenue_growth": 32.1,
+  "roe": 18.778838064419432,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

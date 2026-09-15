@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11601603.0,
+  "debt_equity": 1.1783700000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:45+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 15449.4763008,
+  "name": "Horizon Industrial Parks Limited",
+  "revenue_growth": 55.900000000000006,
+  "roe": -2.154921411643433,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

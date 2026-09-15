@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32682759.0,
+  "debt_equity": 0.12506,
+  "eps_growth": 190.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:01+00:00",
+  "industry": "Household & Personal Products",
+  "market_cap_cr": 38242.1499904,
+  "name": "Cupid Limited",
+  "revenue_growth": 158.7,
+  "roe": 30.432854244975303,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

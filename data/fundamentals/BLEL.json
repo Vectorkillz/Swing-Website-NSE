@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5511127.0,
+  "debt_equity": 0.05808,
+  "eps_growth": 24.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:46+00:00",
+  "industry": "Steel",
+  "market_cap_cr": null,
+  "name": "Behari Lal Engineering Limited",
+  "revenue_growth": 18.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

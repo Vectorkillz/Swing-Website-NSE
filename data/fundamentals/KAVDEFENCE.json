@@ -1,0 +1,15 @@
+{
+  "avg_volume": 223441.0,
+  "debt_equity": 0.03943,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:11+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 451.9540736,
+  "name": "Kavveri Defence & Wireless Technologies Limited",
+  "revenue_growth": -63.1,
+  "roe": -0.5518250621425217,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

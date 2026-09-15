@@ -1,0 +1,15 @@
+{
+  "avg_volume": 610510.0,
+  "debt_equity": 0.18455,
+  "eps_growth": 20.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:17+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 5678.7652608,
+  "name": "Jai Balaji Industries Limited",
+  "revenue_growth": 24.0,
+  "roe": 6.524891814333744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

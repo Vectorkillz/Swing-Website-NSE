@@ -1,0 +1,15 @@
+{
+  "avg_volume": 349837.0,
+  "debt_equity": 0.27805,
+  "eps_growth": 46.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:23+00:00",
+  "industry": "",
+  "market_cap_cr": null,
+  "name": "Artemis Medicare Services Limited",
+  "revenue_growth": 12.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "",
+  "source": "yfinance.Ticker.info"
+}

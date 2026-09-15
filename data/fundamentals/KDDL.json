@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48105.0,
+  "debt_equity": 0.26688,
+  "eps_growth": 43.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:13+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 4620.224512,
+  "name": "KDDL Limited",
+  "revenue_growth": 36.3,
+  "roe": 8.981663368235573,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

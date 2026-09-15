@@ -1,0 +1,15 @@
+{
+  "avg_volume": 251360.0,
+  "debt_equity": 0.04926,
+  "eps_growth": 185.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:35+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 389.1327488,
+  "name": "Avonmore Capital & Management Services Limited",
+  "revenue_growth": 36.0,
+  "roe": 7.078343910164999,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

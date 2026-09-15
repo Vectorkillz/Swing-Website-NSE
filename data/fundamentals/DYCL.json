@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1502981.0,
+  "debt_equity": 0.09423999999999999,
+  "eps_growth": 37.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:04+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 2096.3207168,
+  "name": "Dynamic Cables Limited",
+  "revenue_growth": 33.2,
+  "roe": 19.94181789995321,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

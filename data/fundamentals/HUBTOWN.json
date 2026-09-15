@@ -1,0 +1,15 @@
+{
+  "avg_volume": 595371.0,
+  "debt_equity": 0.4493,
+  "eps_growth": -69.69999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:55+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 2460.8991232,
+  "name": "Hubtown Limited",
+  "revenue_growth": -17.0,
+  "roe": 3.571601274561102,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

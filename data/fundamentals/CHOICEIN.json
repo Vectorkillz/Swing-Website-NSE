@@ -1,0 +1,15 @@
+{
+  "avg_volume": 799143.0,
+  "debt_equity": 0.49768,
+  "eps_growth": 15.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:44+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 16494.3724544,
+  "name": "Choice International Limited",
+  "revenue_growth": 34.4,
+  "roe": 12.10375051955093,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 182974.0,
+  "debt_equity": 0.8882899999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:56+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 2783.2000512,
+  "name": "Dredging Corporation of India Limited",
+  "revenue_growth": 46.7,
+  "roe": 3.1889997,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

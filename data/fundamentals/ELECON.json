@@ -1,0 +1,15 @@
+{
+  "avg_volume": 591735.0,
+  "debt_equity": 0.11824,
+  "eps_growth": -59.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:39+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 9278.9374976,
+  "name": "Elecon Engineering Company Limited",
+  "revenue_growth": 6.1,
+  "roe": 10.237466824186379,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

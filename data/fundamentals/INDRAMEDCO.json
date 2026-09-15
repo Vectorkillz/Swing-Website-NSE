@@ -1,0 +1,15 @@
+{
+  "avg_volume": 298409.0,
+  "debt_equity": 0.04979,
+  "eps_growth": 8.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:10+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 3250.266112,
+  "name": "Indraprastha Medical Corporation Limited",
+  "revenue_growth": 11.3,
+  "roe": 25.387161442745192,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

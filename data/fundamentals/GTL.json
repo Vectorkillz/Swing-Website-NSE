@@ -1,0 +1,15 @@
+{
+  "avg_volume": 257052.0,
+  "debt_equity": null,
+  "eps_growth": 1968.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:05+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 111.3661184,
+  "name": "GTL Limited",
+  "revenue_growth": 7.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

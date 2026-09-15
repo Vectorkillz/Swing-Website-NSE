@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6380.0,
+  "debt_equity": 0.03739,
+  "eps_growth": -28.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:07+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 43.144224,
+  "name": "Karma Energy Limited",
+  "revenue_growth": 4.8,
+  "roe": 2.1599185968280232,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4051466.0,
+  "debt_equity": 0.59002,
+  "eps_growth": -10.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:26+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 75439.5512832,
+  "name": "JSW Infrastructure Limited",
+  "revenue_growth": 18.099999999999998,
+  "roe": 12.297974926209656,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

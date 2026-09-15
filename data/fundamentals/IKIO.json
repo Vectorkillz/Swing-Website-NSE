@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1901704.0,
+  "debt_equity": 0.11438000000000001,
+  "eps_growth": 363.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:28+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 1631.0864896,
+  "name": "IKIO Technologies Limited",
+  "revenue_growth": 40.9,
+  "roe": 7.722318670083202,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

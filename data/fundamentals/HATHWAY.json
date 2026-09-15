@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2392956.0,
+  "debt_equity": 0.00212,
+  "eps_growth": -22.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:37+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 1761.2539904,
+  "name": "Hathway Cable and Datacom Limited",
+  "revenue_growth": 6.5,
+  "roe": 1.810497833801376,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

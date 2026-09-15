@@ -1,0 +1,15 @@
+{
+  "avg_volume": 45776.0,
+  "debt_equity": null,
+  "eps_growth": 28.499999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:48+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 1226.1960704,
+  "name": "Capital Small Finance Bank Limited",
+  "revenue_growth": 21.4,
+  "roe": 10.520999999999999,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

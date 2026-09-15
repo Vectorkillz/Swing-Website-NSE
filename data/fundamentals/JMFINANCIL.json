@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2989769.0,
+  "debt_equity": 1.02435,
+  "eps_growth": -35.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:09+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 11599.3116672,
+  "name": "JM Financial Limited",
+  "revenue_growth": -10.299999999999999,
+  "roe": 9.753207498667367,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

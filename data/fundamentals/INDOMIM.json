@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6121050.0,
+  "debt_equity": 0.48517000000000005,
+  "eps_growth": 31.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:58+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 48244.0282112,
+  "name": "INDO-MIM Limited",
+  "revenue_growth": 9.4,
+  "roe": 20.53176553820123,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 29283.0,
+  "debt_equity": 0.67512,
+  "eps_growth": 2.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:58+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 127.3808896,
+  "name": "HEC Infra Projects Limited",
+  "revenue_growth": 11.5,
+  "roe": 19.217427721881673,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

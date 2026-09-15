@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68438.0,
+  "debt_equity": 1.3772900000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:28+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 554.1274624,
+  "name": "Bigbloc Construction Limited",
+  "revenue_growth": 40.400000000000006,
+  "roe": 1.1531120407782078,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3134114.0,
+  "debt_equity": null,
+  "eps_growth": 25.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:57+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 22369.9943424,
+  "name": "City Union Bank Limited",
+  "revenue_growth": 23.3,
+  "roe": 13.278029468252841,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

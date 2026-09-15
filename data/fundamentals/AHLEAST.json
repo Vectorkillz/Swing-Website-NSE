@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3485.0,
+  "debt_equity": 2.35025,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:17+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 230.9478912,
+  "name": "Asian Hotels (East) Limited",
+  "revenue_growth": 7.6,
+  "roe": -26.08375576349066,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23196.0,
+  "debt_equity": 0.40024,
+  "eps_growth": -35.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:06+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 156.9871104,
+  "name": "Indo Us Bio-Tech Limited",
+  "revenue_growth": 7.199999999999999,
+  "roe": 12.424102794553606,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

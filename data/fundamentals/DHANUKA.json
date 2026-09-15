@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33801.0,
+  "debt_equity": 0.01822,
+  "eps_growth": -34.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:10+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 4263.9167488,
+  "name": "Dhanuka Agritech Limited",
+  "revenue_growth": -12.6,
+  "roe": 16.115463558831692,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 205809.0,
+  "debt_equity": 0.37221,
+  "eps_growth": -6.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:44+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 3891.2966656,
+  "name": "Aarti Drugs Limited",
+  "revenue_growth": 19.0,
+  "roe": 12.336939320295556,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

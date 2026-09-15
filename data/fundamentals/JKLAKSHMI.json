@@ -1,0 +1,15 @@
+{
+  "avg_volume": 204693.0,
+  "debt_equity": 0.6659,
+  "eps_growth": -28.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:02+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 6268.0518656,
+  "name": "JK Lakshmi Cement Limited",
+  "revenue_growth": 9.4,
+  "roe": 9.519683052125458,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

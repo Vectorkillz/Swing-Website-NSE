@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2018721.0,
+  "debt_equity": 0.17679999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:41+00:00",
+  "industry": "Oil & Gas Refining & Marketing",
+  "market_cap_cr": 21916.7801344,
+  "name": "Chennai Petroleum Corporation Limited",
+  "revenue_growth": 84.8,
+  "roe": 37.57494650255151,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 280163.0,
+  "debt_equity": 0.07302,
+  "eps_growth": 55.400000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:45+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 19070.8809728,
+  "name": "Kajaria Ceramics Limited",
+  "revenue_growth": 20.4,
+  "roe": 18.074309717279952,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

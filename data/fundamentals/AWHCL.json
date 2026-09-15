@@ -1,0 +1,15 @@
+{
+  "avg_volume": 113024.0,
+  "debt_equity": 0.50103,
+  "eps_growth": -95.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:44+00:00",
+  "industry": "Waste Management",
+  "market_cap_cr": 1004.6411776,
+  "name": "Antony Waste Handling Cell Limited",
+  "revenue_growth": 5.5,
+  "roe": 7.907936370699349,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

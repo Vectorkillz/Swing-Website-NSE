@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { Band, CapBucket, MultibaggerLevel, Regime, Side } from "../lib/types";
+import type { Band, CapBucket, Grade, MultibaggerLevel, Regime, Side } from "../lib/types";
 
 export function Card({ title, children, className = "", right, hover = false }: { title?: ReactNode; children: ReactNode; className?: string; right?: ReactNode; hover?: boolean }) {
   return (
@@ -51,6 +51,21 @@ export function SideBadge({ side }: { side: Side }) {
 export function BandBadge({ band }: { band: Band }) {
   const cls = band === "A" ? "bg-long/20 text-long" : band === "B" ? "bg-blue/20 text-blue" : "bg-white/10 text-muted";
   return <span className={`badge ${cls}`} title="Ordinal band from raw score thresholds. A label, not a likelihood estimate.">Band {band}</span>;
+}
+
+const GRADE_CLS: Record<Grade, string> = {
+  "A++": "bg-long/30 text-long", "A+": "bg-long/20 text-long", "A": "bg-blue/20 text-blue", "B+": "bg-white/10 text-text", "B": "bg-white/5 text-muted",
+};
+export function GradeBadge({ grade, reasons }: { grade: Grade; reasons?: string[] }) {
+  return (
+    <span className={`badge font-bold ${GRADE_CLS[grade]}`} title={reasons ? reasons.join(" · ") : "Deterministic grade from raw score, regime alignment and (for longs) fundamentals strength. Not a likelihood estimate."}>
+      {grade}
+    </span>
+  );
+}
+
+export function FnoBadge({ eligible }: { eligible: boolean }) {
+  return eligible ? <span className="badge bg-white/10 text-muted" title="Eligible for short setups (NSE F&O list)">F&amp;O</span> : <span className="badge bg-white/5 text-muted" title="Cash-equity only: long setups only, cannot be shorted on NSE">Cash only</span>;
 }
 
 export const CAP_LABEL: Record<CapBucket, string> = { large: "Large cap", mid: "Mid cap", small: "Small cap", micro: "Micro cap", unknown: "Cap unknown" };

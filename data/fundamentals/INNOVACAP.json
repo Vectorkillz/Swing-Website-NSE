@@ -1,0 +1,15 @@
+{
+  "avg_volume": 72813.0,
+  "debt_equity": 0.31507999999999997,
+  "eps_growth": 42.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:19+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 6524.2140672,
+  "name": "Innova Captab Limited",
+  "revenue_growth": 33.900000000000006,
+  "roe": 14.120736807118003,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

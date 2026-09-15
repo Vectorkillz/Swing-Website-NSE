@@ -1,0 +1,15 @@
+{
+  "avg_volume": 139776.0,
+  "debt_equity": 0.49544,
+  "eps_growth": -20.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:04+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 629.7229312,
+  "name": "Agarwal Industrial Corporation Limited",
+  "revenue_growth": -27.0,
+  "roe": 5.932855705230947,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

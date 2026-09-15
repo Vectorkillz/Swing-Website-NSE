@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3638.0,
+  "debt_equity": null,
+  "eps_growth": 80.4,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:10:34+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 10687.307776,
+  "name": "ELANTAS Beck India Limited",
+  "revenue_growth": 35.0,
+  "roe": 17.434,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

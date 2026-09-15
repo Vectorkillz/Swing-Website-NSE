@@ -1,0 +1,15 @@
+{
+  "avg_volume": 61236.0,
+  "debt_equity": 0.37984,
+  "eps_growth": 1718.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:21+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 5920.4542464,
+  "name": "Centum Electronics Limited",
+  "revenue_growth": -25.3,
+  "roe": 28.89396130944169,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

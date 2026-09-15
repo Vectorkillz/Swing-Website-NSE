@@ -1,0 +1,15 @@
+{
+  "avg_volume": 343889.0,
+  "debt_equity": 1.0075,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T13:58:38+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": null,
+  "name": "Advik Capital Limited",
+  "revenue_growth": null,
+  "roe": -14.338000000000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

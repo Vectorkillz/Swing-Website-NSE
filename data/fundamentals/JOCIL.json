@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5232.0,
+  "debt_equity": null,
+  "eps_growth": -2.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:13+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 126.458688,
+  "name": "Jocil Limited",
+  "revenue_growth": -6.3,
+  "roe": 3.874129904061132,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

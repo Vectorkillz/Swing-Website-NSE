@@ -1,0 +1,15 @@
+{
+  "avg_volume": 512949.0,
+  "debt_equity": 0.02956,
+  "eps_growth": 25.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:15+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1489.5164416,
+  "name": "Jagsonpal Pharmaceuticals Limited",
+  "revenue_growth": 8.799999999999999,
+  "roe": 17.499812658898744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

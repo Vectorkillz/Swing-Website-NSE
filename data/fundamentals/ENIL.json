@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39658.0,
+  "debt_equity": 0.22502,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:22+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 478.6109952,
+  "name": "Entertainment Network (India) Limited",
+  "revenue_growth": -2.8000000000000003,
+  "roe": -1.0930665288456423,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

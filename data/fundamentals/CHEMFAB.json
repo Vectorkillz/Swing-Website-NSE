@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3586.0,
+  "debt_equity": 0.33498,
+  "eps_growth": 125.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:38+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 534.9173248,
+  "name": "Chemfab Alkalis Limited",
+  "revenue_growth": -20.1,
+  "roe": -0.06437085224748902,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

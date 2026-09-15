@@ -1,0 +1,15 @@
+{
+  "avg_volume": 230937.0,
+  "debt_equity": 0.29281,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:27+00:00",
+  "industry": "Utilities - Regulated Water",
+  "market_cap_cr": 571.5264512,
+  "name": "Concord Enviro Systems Limited",
+  "revenue_growth": -16.6,
+  "roe": 0.09166968565903094,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

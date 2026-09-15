@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15727.0,
+  "debt_equity": 0.80387,
+  "eps_growth": 93.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:05+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 8197.9506688,
+  "name": "Dynamatic Technologies Limited",
+  "revenue_growth": 14.499999999999998,
+  "roe": 5.345288378335076,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

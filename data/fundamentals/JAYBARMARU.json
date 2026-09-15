@@ -1,0 +1,15 @@
+{
+  "avg_volume": 754356.0,
+  "debt_equity": 0.7631,
+  "eps_growth": -6.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:29+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1216.0804864,
+  "name": "Jay Bharat Maruti Limited",
+  "revenue_growth": 12.6,
+  "roe": 19.857827050787556,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

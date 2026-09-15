@@ -1,0 +1,15 @@
+{
+  "avg_volume": 155242.0,
+  "debt_equity": 0.39864,
+  "eps_growth": -52.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:18+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 414.6861568,
+  "name": "Indogulf Cropsciences Limited",
+  "revenue_growth": -11.0,
+  "roe": 6.705902710860803,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

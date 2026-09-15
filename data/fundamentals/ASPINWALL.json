@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2929.0,
+  "debt_equity": 0.39552,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:52+00:00",
+  "industry": "Farm Products",
+  "market_cap_cr": 196.1217536,
+  "name": "Aspinwall and Company Limited",
+  "revenue_growth": 25.8,
+  "roe": 7.829754668416202,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 393280.0,
+  "debt_equity": 0.84783,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:04+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 3790.512128,
+  "name": "Bajaj Electricals Limited",
+  "revenue_growth": -18.5,
+  "roe": 2.2402992629995655,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

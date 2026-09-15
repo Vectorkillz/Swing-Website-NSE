@@ -1,0 +1,15 @@
+{
+  "avg_volume": 292249.0,
+  "debt_equity": 0.15522,
+  "eps_growth": 311.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:44+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 2989.8989568,
+  "name": "Apcotex Industries Limited",
+  "revenue_growth": 39.900000000000006,
+  "roe": 25.957192047133397,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

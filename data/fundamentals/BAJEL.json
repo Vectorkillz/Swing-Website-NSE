@@ -1,0 +1,15 @@
+{
+  "avg_volume": 284044.0,
+  "debt_equity": 0.49067,
+  "eps_growth": 41.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:13+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 1953.7741824,
+  "name": "Bajel Projects Limited",
+  "revenue_growth": -6.7,
+  "roe": 2.9501548514056664,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

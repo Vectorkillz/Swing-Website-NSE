@@ -1,0 +1,15 @@
+{
+  "avg_volume": 126.0,
+  "debt_equity": 0.01839,
+  "eps_growth": 8.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:05+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 1430.1299712,
+  "name": "Benares Hotels Limited",
+  "revenue_growth": 35.5,
+  "roe": 20.649078854508744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6851918.0,
+  "debt_equity": 0.37713,
+  "eps_growth": 17.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:14+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 31825.6349184,
+  "name": "Dhoot Transmission Limited",
+  "revenue_growth": 49.7,
+  "roe": 16.388978964996124,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -23,8 +23,11 @@ Site URL: `https://<github-user>.github.io/<repo-name>/`
 |---|---|
 | Scan a specific session | `python -m pipeline.cli run-scan --date YYYY-MM-DD` |
 | Re-run with another config | commit `config/profiles/vNNN.json`, set `config/active.json`, then `run-scan` (or dispatch the workflow) |
-| Full OHLCV refetch | `python -m pipeline.cli ingest --full` |
-| Upload universe manually | edit `data/universe/fno_universe.csv` (symbol,name,sector,industry,isin,lot_size) and `status.json` (`as_of`, `source: manual_csv`) |
+| Full OHLCV refetch (combined universe) | `python -m pipeline.cli ingest --full` |
+| Refresh the F&O list (~211, short-eligible) | `python -m pipeline.cli refresh-universe` |
+| Refresh the full cash-equity list (~2,300, long-only) | `python -m pipeline.cli refresh-equity-list` |
+| Upload F&O universe manually | edit `data/universe/fno_universe.csv` (symbol,name,sector,industry,isin,lot_size,fno_eligible) and `status.json` |
+| Upload equity list manually | edit `data/universe/nse_equity_list.csv` (same columns, `fno_eligible=false`) and `equity_status.json` |
 | Upload ban list manually | `data/ban_list/YYYY-MM-DD.csv` with a `symbol` column, dated by the trade date it applies to |
 | Add holidays | append to `data/calendar/nse_holidays_YYYY.csv` |
 | Regenerate config schema for the site | `python -m pipeline.cli export-schema` |
@@ -36,6 +39,7 @@ Site URL: `https://<github-user>.github.io/<repo-name>/`
 | Symptom | Behaviour |
 |---|---|
 | yfinance returns nothing for a symbol | symbol recorded `data_unavailable`, run continues; below 90% coverage the run is `degraded` |
+| A cash-equity stock has no fundamentals yet | recorded `fundamentals_missing`, excluded from longs (never silently passed or defaulted); `refresh-fundamentals` will pick it up on its next scheduled shard |
 | VIX missing | regime `UNKNOWN`, no scan, run status `no_scan_regime_unknown` |
 | nseindia.com blocked | universe stays on the committed CSV (stale warning after 7 days); ban list falls back to `data/ban_list/`; if none applies, no short plans (`require_ban_list`) |
 | Split or bonus changes history | overlap check detects >0.5% divergence, full refetch for that symbol, logged in the job |

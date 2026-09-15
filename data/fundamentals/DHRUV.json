@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8121.0,
+  "debt_equity": 0.38854999999999995,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:16+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 41.9919808,
+  "name": "Dhruv Consultancy Services Limited",
+  "revenue_growth": -26.1,
+  "roe": -51.81376081975599,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

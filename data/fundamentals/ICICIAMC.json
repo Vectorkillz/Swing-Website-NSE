@@ -1,0 +1,15 @@
+{
+  "avg_volume": 554026.0,
+  "debt_equity": 0.04066,
+  "eps_growth": 23.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:03+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 151490.2388736,
+  "name": "ICICI Prudential Asset Management Company Limited",
+  "revenue_growth": 18.099999999999998,
+  "roe": 83.41232136404463,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

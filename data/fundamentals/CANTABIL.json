@@ -1,0 +1,15 @@
+{
+  "avg_volume": 292492.0,
+  "debt_equity": 1.1382599999999998,
+  "eps_growth": 11.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:44+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 2009.822208,
+  "name": "Cantabil Retail India Limited",
+  "revenue_growth": 12.7,
+  "roe": 20.35056126144113,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

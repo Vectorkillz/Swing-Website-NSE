@@ -1,0 +1,15 @@
+{
+  "avg_volume": 909159.0,
+  "debt_equity": 0.01763,
+  "eps_growth": 645.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:04+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 12318.3398912,
+  "name": "Amagi Media Labs Limited",
+  "revenue_growth": 32.4,
+  "roe": 5.949753667306201,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

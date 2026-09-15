@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1611589.0,
+  "debt_equity": 0.81887,
+  "eps_growth": 14.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:19+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 9479.507968,
+  "name": "Jain Resource Recycling Limited",
+  "revenue_growth": 75.9,
+  "roe": 22.175896984704487,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

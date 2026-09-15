@@ -1,0 +1,15 @@
+{
+  "avg_volume": 527790.0,
+  "debt_equity": 0.23646999999999999,
+  "eps_growth": -42.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:23+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 12505.8367488,
+  "name": "E.I.D.- Parry (India) Limited",
+  "revenue_growth": 3.4000000000000004,
+  "roe": 5.2849594007603065,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

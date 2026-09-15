@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7573939.0,
+  "debt_equity": 0.17132999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:14+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1072.5972992,
+  "name": "Anlon Healthcare Limited",
+  "revenue_growth": 163.0,
+  "roe": 11.645255292752967,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

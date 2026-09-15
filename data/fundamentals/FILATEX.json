@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4911456.0,
+  "debt_equity": 0.09978999999999999,
+  "eps_growth": 17.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:30+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 3659.485184,
+  "name": "Filatex India Limited",
+  "revenue_growth": -1.7999999999999998,
+  "roe": 19.154984187894325,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

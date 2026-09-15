@@ -1,0 +1,15 @@
+{
+  "avg_volume": 168896.0,
+  "debt_equity": 0.32395,
+  "eps_growth": 22.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:57+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 2447.7435904,
+  "name": "Eveready Industries India Limited",
+  "revenue_growth": 9.0,
+  "roe": 28.616216261149408,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

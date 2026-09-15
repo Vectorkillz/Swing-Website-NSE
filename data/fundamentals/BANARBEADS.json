@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7962.0,
+  "debt_equity": 0.35612,
+  "eps_growth": 17.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:29+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 73.179712,
+  "name": "Banaras Beads Limited",
+  "revenue_growth": 45.9,
+  "roe": 3.269061835580208,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

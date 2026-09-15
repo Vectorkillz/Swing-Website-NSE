@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1662424.0,
+  "debt_equity": 0.88318,
+  "eps_growth": 4950.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:36+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 1172.3020288,
+  "name": "HMA Agro Industries Limited",
+  "revenue_growth": 86.1,
+  "roe": 22.681453267634463,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

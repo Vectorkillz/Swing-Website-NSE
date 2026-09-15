@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2584.0,
+  "debt_equity": 0.60183,
+  "eps_growth": 733.3000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:47+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 136.82656,
+  "name": "Hindprakash Industries Limited",
+  "revenue_growth": -11.899999999999999,
+  "roe": 6.433667169116982,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

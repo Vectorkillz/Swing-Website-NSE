@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24517.0,
+  "debt_equity": 0.00957,
+  "eps_growth": 151.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:20+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 1265.1990016,
+  "name": "Arrow Greentech Limited",
+  "revenue_growth": 111.20000000000002,
+  "roe": 27.25787938656865,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

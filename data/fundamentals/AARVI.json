@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44358.0,
+  "debt_equity": 0.18792,
+  "eps_growth": 42.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:49+00:00",
+  "industry": "Staffing & Employment Services",
+  "market_cap_cr": 209.4084864,
+  "name": "Aarvi Encon Limited",
+  "revenue_growth": 14.099999999999998,
+  "roe": 13.669796556642982,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

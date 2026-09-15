@@ -1,0 +1,15 @@
+{
+  "avg_volume": 123733.0,
+  "debt_equity": 0.80889,
+  "eps_growth": 4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:26+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 434.1080064,
+  "name": "DC Infotech and Communication Limited",
+  "revenue_growth": 12.9,
+  "roe": 19.744491826840115,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

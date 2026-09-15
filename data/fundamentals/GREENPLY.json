@@ -1,0 +1,15 @@
+{
+  "avg_volume": 204847.0,
+  "debt_equity": 0.5750500000000001,
+  "eps_growth": 32.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:43+00:00",
+  "industry": "Lumber & Wood Production",
+  "market_cap_cr": 3498.50624,
+  "name": "Greenply Industries Limited",
+  "revenue_growth": 20.7,
+  "roe": 10.933235781308284,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

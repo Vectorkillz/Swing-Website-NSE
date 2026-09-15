@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1078125.0,
+  "debt_equity": 0.33365,
+  "eps_growth": -14.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:37+00:00",
+  "industry": "Railroads",
+  "market_cap_cr": 9879.5216896,
+  "name": "Jupiter Wagons Limited",
+  "revenue_growth": 46.0,
+  "roe": 5.632499856579925,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

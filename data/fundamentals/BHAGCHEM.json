@@ -1,0 +1,15 @@
+{
+  "avg_volume": 196734.0,
+  "debt_equity": 0.33579000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:16+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 3241.726976,
+  "name": "Bhagiradha Chemicals & Industries Limited",
+  "revenue_growth": 57.599999999999994,
+  "roe": 3.9413599184666652,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

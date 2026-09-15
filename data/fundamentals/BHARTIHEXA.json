@@ -1,0 +1,15 @@
+{
+  "avg_volume": 200363.0,
+  "debt_equity": 0.85654,
+  "eps_growth": 23.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:26+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 75274.9969408,
+  "name": "Bharti Hexacom Limited",
+  "revenue_growth": 10.9,
+  "roe": 25.456372466923465,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

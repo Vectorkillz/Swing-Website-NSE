@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6416.0,
+  "debt_equity": 0.21824000000000002,
+  "eps_growth": 8.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:37+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 156.4715136,
+  "name": "Incredible Industries Limited",
+  "revenue_growth": -3.1,
+  "roe": 7.096738733479521,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

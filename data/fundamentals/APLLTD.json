@@ -1,0 +1,15 @@
+{
+  "avg_volume": 129515.0,
+  "debt_equity": 0.25224,
+  "eps_growth": 12.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:46+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 16211.5436544,
+  "name": "Alembic Pharmaceuticals Limited",
+  "revenue_growth": 25.7,
+  "roe": 12.219954503445276,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

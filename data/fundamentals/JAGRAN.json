@@ -1,0 +1,15 @@
+{
+  "avg_volume": 211130.0,
+  "debt_equity": 0.051559999999999995,
+  "eps_growth": -12.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:14+00:00",
+  "industry": "Publishing",
+  "market_cap_cr": 1343.3621504,
+  "name": "Jagran Prakashan Limited",
+  "revenue_growth": 8.5,
+  "roe": 9.358411541875364,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

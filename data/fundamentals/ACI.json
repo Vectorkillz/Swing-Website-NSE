@@ -1,0 +1,15 @@
+{
+  "avg_volume": 338785.0,
+  "debt_equity": 0.24128,
+  "eps_growth": -23.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:16+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 5620.443136,
+  "name": "Archean Chemical Industries Limited",
+  "revenue_growth": 11.899999999999999,
+  "roe": 5.032399133080177,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

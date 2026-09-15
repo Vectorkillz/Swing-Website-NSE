@@ -1,0 +1,15 @@
+{
+  "avg_volume": 510676.0,
+  "debt_equity": 0.32051,
+  "eps_growth": 102.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:45+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 2357.8966016,
+  "name": "Asian Energy Services Limited",
+  "revenue_growth": 135.1,
+  "roe": 10.730186627892655,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

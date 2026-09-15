@@ -1,0 +1,15 @@
+{
+  "avg_volume": 858828.0,
+  "debt_equity": 0.05015,
+  "eps_growth": 15.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:06+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 14633.7923072,
+  "name": "Amara Raja Energy & Mobility Limited",
+  "revenue_growth": 23.9,
+  "roe": 11.383060594344869,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

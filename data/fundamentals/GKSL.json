@@ -1,0 +1,15 @@
+{
+  "avg_volume": 503916.0,
+  "debt_equity": 0.11427,
+  "eps_growth": -22.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:18+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 1368.712192,
+  "name": "Gujarat Kidney And Super Speciality Limited",
+  "revenue_growth": 124.70000000000002,
+  "roe": 4.950446533848212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

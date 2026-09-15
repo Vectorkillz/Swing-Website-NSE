@@ -1,0 +1,15 @@
+{
+  "avg_volume": 130178.0,
+  "debt_equity": 0.010369999999999999,
+  "eps_growth": -36.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:59+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 3308.1372672,
+  "name": "HeidelbergCement India Limited",
+  "revenue_growth": 5.1,
+  "roe": 8.455795879751834,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

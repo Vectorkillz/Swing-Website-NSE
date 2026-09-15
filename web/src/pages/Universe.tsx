@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { useLatestRun, useUniverse } from "../lib/dataClient";
 import { fmtInr, fmtNum, fmtPct } from "../lib/format";
 import type { CapBucket, UniverseRow } from "../lib/types";
-import { CAP_LABEL, Empty, MultibaggerBadge, Skeleton } from "../components/ui";
+import { CAP_LABEL, Empty, FnoBadge, MultibaggerBadge, Skeleton } from "../components/ui";
 
 type SortKey = "symbol" | "rs" | "mcap" | "atr" | "from_high" | "roc";
 const CAPS: CapBucket[] = ["large", "mid", "small", "micro"];
@@ -19,6 +19,7 @@ export default function Universe() {
   const [stage, setStage] = useState<"all" | "stage2" | "stage4">("all");
   const [suitableOnly, setSuitableOnly] = useState(true);
   const [mbOnly, setMbOnly] = useState(false);
+  const [fnoOnly, setFnoOnly] = useState(false);
   const [sort, setSort] = useState<SortKey>("rs");
   const [sector, setSector] = useState("all");
 
@@ -31,6 +32,7 @@ export default function Universe() {
       (stage === "all" || r.stage === stage) &&
       (!suitableOnly || r.swing_suitable) &&
       (!mbOnly || (r.multibagger && r.multibagger.level !== "none")) &&
+      (!fnoOnly || r.fno_eligible) &&
       (sector === "all" || (r.sector ?? "Unknown") === sector),
     );
     const num = (x: number | null | undefined) => (x == null ? -Infinity : x);
@@ -43,7 +45,7 @@ export default function Universe() {
       roc: (a, b) => num(b.context?.roc_20) - num(a.context?.roc_20),
     };
     return [...f].sort(s[sort]);
-  }, [rows, q, caps, stage, suitableOnly, mbOnly, sort, sector]);
+  }, [rows, q, caps, stage, suitableOnly, mbOnly, fnoOnly, sort, sector]);
 
   function toggleCap(c: CapBucket) { const n = new Set(caps); n.has(c) ? n.delete(c) : n.add(c); setCaps(n); }
 
@@ -53,8 +55,8 @@ export default function Universe() {
   return (
     <div className="space-y-4">
       <div className="fade-in">
-        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">F&amp;O universe</h1>
-        <p className="mt-1 text-sm text-muted">{counts.universe} stocks in the NSE F&amp;O list · {counts.swing_suitable} pass the swing tradability screen (liquidity and ATR range) · {counts.multibagger_strong} strong and {counts.multibagger_watch} watch multibagger tags · session {run.data.session_date}</p>
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">NSE universe</h1>
+        <p className="mt-1 text-sm text-muted">{counts.universe} listed stocks scanned (long setups across the full cash-equity list; short setups restricted to the ~211 F&amp;O-eligible names) · {counts.swing_suitable} pass the swing tradability screen · {counts.multibagger_strong} strong and {counts.multibagger_watch} watch multibagger tags · session {run.data.session_date}</p>
       </div>
       <div className="flex flex-wrap items-center gap-2">
         <input className="input w-44" placeholder="Search symbol" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Search symbol" />
@@ -64,6 +66,7 @@ export default function Universe() {
         <span className="mx-1 text-white/10">|</span>
         <Pill on={suitableOnly} onClick={() => setSuitableOnly(!suitableOnly)}>Swing-tradable</Pill>
         <Pill on={mbOnly} onClick={() => setMbOnly(!mbOnly)}>✦ Multibagger</Pill>
+        <Pill on={fnoOnly} onClick={() => setFnoOnly(!fnoOnly)}>F&amp;O only</Pill>
         <select className="input" value={sector} onChange={(e) => setSector(e.target.value)} aria-label="Sector"><option value="all">All sectors</option>{sectors.map((s) => <option key={s} value={s}>{s}</option>)}</select>
         <select className="input" value={sort} onChange={(e) => setSort(e.target.value as SortKey)} aria-label="Sort"><option value="rs">Sort: RS vs Nifty</option><option value="roc">Sort: 20-bar change</option><option value="from_high">Sort: near 52w high</option><option value="atr">Sort: ATR %</option><option value="mcap">Sort: market cap</option><option value="symbol">Sort: symbol</option></select>
         <span className="ml-auto text-xs text-muted">{list.length} shown</span>
@@ -86,6 +89,7 @@ export default function Universe() {
                   <td className="mono text-right hidden md:table-cell">{fmtNum(r.context?.avg_volume_20)}</td>
                   <td className="space-x-1">
                     {r.setup_side && <span className={`badge ${r.setup_side === "long" ? "bg-long/20 text-long" : "bg-short/20 text-short"}`}>{r.setup_side} setup</span>}
+                    <FnoBadge eligible={r.fno_eligible} />
                     {r.multibagger && <MultibaggerBadge level={r.multibagger.level} />}
                     {r.swing_suitable === false && <span className="badge bg-white/5 text-muted" title={r.swing_notes.join("; ")}>not swing-tradable</span>}
                   </td>

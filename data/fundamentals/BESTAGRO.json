@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2304957.0,
+  "debt_equity": 0.57549,
+  "eps_growth": 104.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:11+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 652.240128,
+  "name": "Best Agrolife Limited",
+  "revenue_growth": 3.9,
+  "roe": 3.8502308265592777,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

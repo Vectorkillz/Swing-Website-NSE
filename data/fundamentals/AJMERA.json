@@ -1,0 +1,15 @@
+{
+  "avg_volume": 468740.0,
+  "debt_equity": 0.46832,
+  "eps_growth": 12.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:29+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 2250.7517952,
+  "name": "Ajmera Realty & Infra India Limited",
+  "revenue_growth": 22.6,
+  "roe": 11.034321116192446,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

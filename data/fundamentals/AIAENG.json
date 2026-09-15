@@ -1,0 +1,15 @@
+{
+  "avg_volume": 73275.0,
+  "debt_equity": 0.00128,
+  "eps_growth": -1.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:20+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 36388.4118016,
+  "name": "AIA Engineering Limited",
+  "revenue_growth": 12.4,
+  "roe": 15.775261435167968,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

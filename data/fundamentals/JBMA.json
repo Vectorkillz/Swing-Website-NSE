@@ -1,0 +1,15 @@
+{
+  "avg_volume": 696544.0,
+  "debt_equity": 1.9028200000000002,
+  "eps_growth": 14.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:36+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 14281.8902016,
+  "name": "JBM Auto Limited",
+  "revenue_growth": 15.0,
+  "roe": 19.63482208233714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

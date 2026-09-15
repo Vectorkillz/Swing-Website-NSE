@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1590828.0,
+  "debt_equity": 0.09586,
+  "eps_growth": 119.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:40+00:00",
+  "industry": "Household & Personal Products",
+  "market_cap_cr": 14907.457536,
+  "name": "Honasa Consumer Limited",
+  "revenue_growth": 27.0,
+  "roe": 17.56350635014522,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

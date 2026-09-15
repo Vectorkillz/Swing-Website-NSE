@@ -1,0 +1,15 @@
+{
+  "avg_volume": 184369.0,
+  "debt_equity": 0.37837000000000004,
+  "eps_growth": -13.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:06+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 9033.3585408,
+  "name": "Jupiter Life Line Hospitals Limited",
+  "revenue_growth": 18.2,
+  "roe": 12.15001977234897,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

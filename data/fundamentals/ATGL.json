@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1422087.0,
+  "debt_equity": 0.5865,
+  "eps_growth": -14.000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:05+00:00",
+  "industry": "Utilities - Regulated Gas",
+  "market_cap_cr": 63805.4825984,
+  "name": "Adani Total Gas Limited",
+  "revenue_growth": 27.200000000000003,
+  "roe": 12.995422104137125,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

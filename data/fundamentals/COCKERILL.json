@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10943.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:07:08+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": null,
+  "name": "John Cockerill India Limited",
+  "revenue_growth": 263.6,
+  "roe": 7.953,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

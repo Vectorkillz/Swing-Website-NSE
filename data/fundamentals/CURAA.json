@@ -1,0 +1,15 @@
+{
+  "avg_volume": 810.0,
+  "debt_equity": 0.95089,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:02+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 74.7449984,
+  "name": "Cura Technologies Limited",
+  "revenue_growth": -65.8,
+  "roe": -27.46559749817079,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

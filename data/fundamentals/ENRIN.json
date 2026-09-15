@@ -1,0 +1,15 @@
+{
+  "avg_volume": 564985.0,
+  "debt_equity": 0.044829999999999995,
+  "eps_growth": 67.80000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:26+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 107858.2181888,
+  "name": "Siemens Energy India Limited",
+  "revenue_growth": 39.300000000000004,
+  "roe": 30.924020792833495,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

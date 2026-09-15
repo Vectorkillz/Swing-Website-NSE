@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1237496.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:33+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 482.4091136,
+  "name": "Dish TV India Limited",
+  "revenue_growth": -19.3,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

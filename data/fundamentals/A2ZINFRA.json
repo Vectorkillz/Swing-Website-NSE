@@ -1,0 +1,15 @@
+{
+  "avg_volume": 361607.0,
+  "debt_equity": 3.0180599999999997,
+  "eps_growth": -75.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:36+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 268.2362624,
+  "name": "A2Z Infra Engineering Limited",
+  "revenue_growth": -24.4,
+  "roe": 7.363429949130539,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

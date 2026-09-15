@@ -1,0 +1,15 @@
+{
+  "avg_volume": 312749.0,
+  "debt_equity": 0.01577,
+  "eps_growth": 11.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:07+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 30032.5175296,
+  "name": "Aditya Birla Sun Life AMC Limited",
+  "revenue_growth": 10.6,
+  "roe": 24.87900347607516,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

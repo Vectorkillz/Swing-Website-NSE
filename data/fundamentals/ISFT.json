@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53509.0,
+  "debt_equity": 0.06493,
+  "eps_growth": 11.200000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:54+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 124.931136,
+  "name": "IntraSoft Technologies Limited",
+  "revenue_growth": 8.3,
+  "roe": 5.154448156708362,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

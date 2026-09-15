@@ -1,0 +1,15 @@
+{
+  "avg_volume": 112890.0,
+  "debt_equity": 0.01831,
+  "eps_growth": 60.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:48+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 5068.7287296,
+  "name": "Indigo Paints Limited",
+  "revenue_growth": 19.7,
+  "roe": 13.921622839159333,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

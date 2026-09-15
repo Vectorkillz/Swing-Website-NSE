@@ -1,11 +1,13 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import Scanner from "./pages/Scanner";
 import Universe from "./pages/Universe";
+import TrackRecord from "./pages/TrackRecord";
 import DataPage from "./pages/Data";
 
 const NAV = [
   ["/", "Scanner", "◎"],
   ["/universe", "Universe", "▤"],
+  ["/track-record", "Track record", "✓"],
   ["/data", "Data", "⟳"],
 ] as const;
 
@@ -35,6 +37,7 @@ export default function App() {
             <Route path="/" element={<Scanner />} />
             <Route path="/run/:runId" element={<Scanner />} />
             <Route path="/universe" element={<Universe />} />
+            <Route path="/track-record" element={<TrackRecord />} />
             <Route path="/data" element={<DataPage />} />
           </Routes>
         </main>

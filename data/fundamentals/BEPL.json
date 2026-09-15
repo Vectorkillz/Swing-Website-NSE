@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4761564.0,
+  "debt_equity": null,
+  "eps_growth": 43.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:08+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 3003.472896,
+  "name": "Bhansali Engineering Polymers Limited",
+  "revenue_growth": 53.300000000000004,
+  "roe": 18.451040035225656,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

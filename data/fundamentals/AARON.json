@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27952.0,
+  "debt_equity": 0.57079,
+  "eps_growth": 141.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:43+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 258.0187136,
+  "name": "Aaron Industries Limited",
+  "revenue_growth": 27.0,
+  "roe": 17.075001884666655,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

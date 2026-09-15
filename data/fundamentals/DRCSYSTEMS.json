@@ -1,0 +1,15 @@
+{
+  "avg_volume": 51020.0,
+  "debt_equity": 0.0037099999999999998,
+  "eps_growth": 15.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:53+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 183.7036928,
+  "name": "DRC Systems India Limited",
+  "revenue_growth": 27.800000000000004,
+  "roe": 18.18966546122837,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

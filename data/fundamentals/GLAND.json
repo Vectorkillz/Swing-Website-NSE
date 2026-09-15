@@ -1,0 +1,15 @@
+{
+  "avg_volume": 745752.0,
+  "debt_equity": 0.02738,
+  "eps_growth": 46.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:22+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 47766.093824,
+  "name": "Gland Pharma Limited",
+  "revenue_growth": 19.6,
+  "roe": 10.883946565227848,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

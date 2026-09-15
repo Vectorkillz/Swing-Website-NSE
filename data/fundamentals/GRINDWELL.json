@@ -1,0 +1,15 @@
+{
+  "avg_volume": 70805.0,
+  "debt_equity": 0.023809999999999998,
+  "eps_growth": 22.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:45+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 20216.365056,
+  "name": "Grindwell Norton Limited",
+  "revenue_growth": 14.2,
+  "roe": 17.229299159617316,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

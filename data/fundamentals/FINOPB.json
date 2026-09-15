@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3168028.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:38+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 1146.1669888,
+  "name": "Fino Payments Bank Limited",
+  "revenue_growth": -36.1,
+  "roe": 2.615279371879949,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

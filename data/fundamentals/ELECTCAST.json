@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1824902.0,
+  "debt_equity": 0.2635,
+  "eps_growth": -45.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:42+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 4650.6029056,
+  "name": "Electrosteel Castings Limited",
+  "revenue_growth": -8.5,
+  "roe": 2.0377437467272093,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

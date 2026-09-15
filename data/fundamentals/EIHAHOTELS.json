@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17164.0,
+  "debt_equity": 0.00712,
+  "eps_growth": 11.899999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:26+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 1714.1379072,
+  "name": "EIH Associated Hotels Limited",
+  "revenue_growth": -4.0,
+  "roe": 14.590210407842639,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

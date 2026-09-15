@@ -1,0 +1,15 @@
+{
+  "avg_volume": 105424.0,
+  "debt_equity": 0.50258,
+  "eps_growth": 55.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:59+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 94.794368,
+  "name": "B.A.G. Films and Media Limited",
+  "revenue_growth": 22.6,
+  "roe": 2.6105406952056387,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 163035.0,
+  "debt_equity": 1.64641,
+  "eps_growth": 266.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:25+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 358.9647872,
+  "name": "Autoline Industries Limited",
+  "revenue_growth": 74.7,
+  "roe": 20.23186554766857,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 288124.0,
+  "debt_equity": 1.15111,
+  "eps_growth": -23.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:29+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 5728.9162752,
+  "name": "Arvind Fashions Limited",
+  "revenue_growth": 15.5,
+  "roe": 12.791655306121877,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

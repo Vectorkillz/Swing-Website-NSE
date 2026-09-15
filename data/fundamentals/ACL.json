@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15490.0,
+  "debt_equity": 13.959249999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:18+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 392.1924608,
+  "name": "Andhra Cements Limited",
+  "revenue_growth": 42.8,
+  "roe": -90.99264340251476,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1871727.0,
+  "debt_equity": 0.03422,
+  "eps_growth": 50.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:31+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 8010.489856,
+  "name": "Birlasoft Limited",
+  "revenue_growth": 7.3999999999999995,
+  "roe": 13.922227246297192,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

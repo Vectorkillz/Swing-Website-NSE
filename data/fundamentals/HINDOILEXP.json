@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1310785.0,
+  "debt_equity": 0.03594,
+  "eps_growth": -85.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:26+00:00",
+  "industry": "Oil & Gas E&P",
+  "market_cap_cr": 2323.7791744,
+  "name": "Hindustan Oil Exploration Company Limited",
+  "revenue_growth": 45.2,
+  "roe": 1.8052552290134205,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

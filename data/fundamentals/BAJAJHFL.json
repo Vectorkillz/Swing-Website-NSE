@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3997895.0,
+  "debt_equity": 4.6074,
+  "eps_growth": 22.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:07+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 69960.761344,
+  "name": "Bajaj Housing Finance Limited",
+  "revenue_growth": 19.6,
+  "roe": 12.679000000000002,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

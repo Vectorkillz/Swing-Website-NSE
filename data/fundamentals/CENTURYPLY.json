@@ -1,0 +1,15 @@
+{
+  "avg_volume": 64860.0,
+  "debt_equity": 0.67105,
+  "eps_growth": 54.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:22+00:00",
+  "industry": "Lumber & Wood Production",
+  "market_cap_cr": 15797.6100864,
+  "name": "Century Plyboards (India) Limited",
+  "revenue_growth": 33.5,
+  "roe": 11.168596472997894,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

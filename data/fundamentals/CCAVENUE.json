@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18818991.0,
+  "debt_equity": 0.0863,
+  "eps_growth": 14.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:00+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 5461.7198592,
+  "name": "AvenuesAI Limited",
+  "revenue_growth": 109.4,
+  "roe": 5.055545339710431,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

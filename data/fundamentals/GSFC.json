@@ -1,0 +1,15 @@
+{
+  "avg_volume": 786209.0,
+  "debt_equity": 0.00217,
+  "eps_growth": 14.399999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:58+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 6038.92736,
+  "name": "Gujarat State Fertilizers & Chemicals Limited",
+  "revenue_growth": 64.0,
+  "roe": 5.680073487196159,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

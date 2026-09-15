@@ -1,0 +1,15 @@
+{
+  "avg_volume": 831149.0,
+  "debt_equity": 1.11239,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:39+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 2610.7052032,
+  "name": "Chemplast Sanmar Limited",
+  "revenue_growth": 2.3,
+  "roe": -22.295212212704534,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

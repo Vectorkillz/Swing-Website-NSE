@@ -1,0 +1,15 @@
+{
+  "avg_volume": 487.0,
+  "debt_equity": null,
+  "eps_growth": 3.5999999999999996,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:09:31+00:00",
+  "industry": "",
+  "market_cap_cr": null,
+  "name": "DISA India Limited",
+  "revenue_growth": -16.2,
+  "roe": 18.755,
+  "roe_source": "returnOnEquity",
+  "sector": "",
+  "source": "yfinance.Ticker.info"
+}

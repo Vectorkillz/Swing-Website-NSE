@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5295544.0,
+  "debt_equity": 0.07529,
+  "eps_growth": 89.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:37+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 5269.4061056,
+  "name": "IOL Chemicals and Pharmaceuticals Limited",
+  "revenue_growth": 37.1,
+  "roe": 9.346919744570501,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

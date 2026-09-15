@@ -1,0 +1,15 @@
+{
+  "avg_volume": 291742.0,
+  "debt_equity": 0.84461,
+  "eps_growth": 114.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:44+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 6060.2339328,
+  "name": "GMM Pfaudler Limited",
+  "revenue_growth": 16.400000000000002,
+  "roe": 5.858869915495394,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

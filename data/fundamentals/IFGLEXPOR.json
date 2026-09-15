@@ -1,0 +1,15 @@
+{
+  "avg_volume": 143546.0,
+  "debt_equity": 0.17764,
+  "eps_growth": 57.99999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:15+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 1443.951104,
+  "name": "IFGL Refractories Limited",
+  "revenue_growth": 12.9,
+  "roe": 3.484946452739108,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

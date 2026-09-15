@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3661012.0,
+  "debt_equity": 0.49394,
+  "eps_growth": 204.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:19+00:00",
+  "industry": "Oil & Gas Refining & Marketing",
+  "market_cap_cr": 2860.5954048,
+  "name": "Confidence Petroleum India Limited",
+  "revenue_growth": 116.6,
+  "roe": 9.527364249078364,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

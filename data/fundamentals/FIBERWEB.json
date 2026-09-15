@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26532.0,
+  "debt_equity": 0.0645,
+  "eps_growth": -94.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:27+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 73.793152,
+  "name": "Fiberweb (India) Limited",
+  "revenue_growth": -65.9,
+  "roe": 2.797751403854473,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

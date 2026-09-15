@@ -1,0 +1,15 @@
+{
+  "avg_volume": 80390.0,
+  "debt_equity": 0.60545,
+  "eps_growth": 18.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:38+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 18155.8001664,
+  "name": "Eris Lifesciences Limited",
+  "revenue_growth": 12.6,
+  "roe": 16.275739525079324,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

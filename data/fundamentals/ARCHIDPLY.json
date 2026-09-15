@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33515.0,
+  "debt_equity": 1.63098,
+  "eps_growth": 875.9000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:59+00:00",
+  "industry": "Lumber & Wood Production",
+  "market_cap_cr": 200.4497408,
+  "name": "Archidply Industries Limited",
+  "revenue_growth": 27.800000000000004,
+  "roe": 11.606237885962475,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

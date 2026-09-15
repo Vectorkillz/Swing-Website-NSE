@@ -1,0 +1,15 @@
+{
+  "avg_volume": 62905.0,
+  "debt_equity": 0.1023,
+  "eps_growth": 26.200000000000003,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:07:47+00:00",
+  "industry": "Financial Data & Stock Exchanges",
+  "market_cap_cr": 33617.1368448,
+  "name": "CRISIL Limited",
+  "revenue_growth": 27.6,
+  "roe": 29.052,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

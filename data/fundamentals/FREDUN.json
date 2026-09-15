@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26816.0,
+  "debt_equity": 0.87071,
+  "eps_growth": 281.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:01+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": null,
+  "name": "Fredun Pharmaceuticals Limited",
+  "revenue_growth": 90.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

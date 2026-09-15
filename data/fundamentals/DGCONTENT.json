@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27811.0,
+  "debt_equity": 2.65556,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:06+00:00",
+  "industry": "Internet Content & Information",
+  "market_cap_cr": 137.7452288,
+  "name": "Digicontent Limited",
+  "revenue_growth": 11.600000000000001,
+  "roe": 3.3881409347569584,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

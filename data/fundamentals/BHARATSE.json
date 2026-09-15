@@ -1,0 +1,15 @@
+{
+  "avg_volume": 969496.0,
+  "debt_equity": 0.4794,
+  "eps_growth": 16.3,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:04:23+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1310.1335552,
+  "name": "Bharat Seats Limited",
+  "revenue_growth": 46.2,
+  "roe": 19.91,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

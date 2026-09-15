@@ -4,7 +4,7 @@ import { fmtInr, fmtNum, fmtPct } from "../lib/format";
 import type { Candidate } from "../lib/types";
 import PriceChart from "./PriceChart";
 import ScoreBars from "./ScoreBars";
-import { CapBadge, Empty, Level, MultibaggerBadge, Notice, SideBadge, Skeleton } from "./ui";
+import { CapBadge, Empty, FnoBadge, GradeBadge, Level, MultibaggerBadge, Notice, SideBadge, Skeleton } from "./ui";
 
 function Row({ k, v, rule }: { k: string; v: string; rule?: string }) {
   return (
@@ -30,7 +30,9 @@ export default function SetupDetail({ cand, onClose }: { cand: Candidate; onClos
       <div className="flex flex-wrap items-center gap-3">
         <h2 className="text-2xl font-bold tracking-tight">{cand.symbol}</h2>
         <SideBadge side={cand.side} />
+        {cand.grade && <GradeBadge grade={cand.grade.grade} reasons={cand.grade.reasons} />}
         <CapBadge bucket={cand.cap_bucket} />
+        {cand.side === "long" && <FnoBadge eligible={cand.fno_eligible} />}
         {cand.multibagger && <MultibaggerBadge level={cand.multibagger.level} met={cand.multibagger.technical_met} total={cand.multibagger.technical_total} />}
         <span className="text-sm text-muted">{cand.name ?? ""}{cand.sector ? ` · ${cand.sector}` : ""}</span>
         <button className="btn ml-auto" onClick={onClose} aria-label="Close detail">Close ✕</button>
@@ -67,6 +69,12 @@ export default function SetupDetail({ cand, onClose }: { cand: Candidate; onClos
           <h3 className="mb-2 text-sm font-semibold">Why it matched</h3>
           <p className="mb-3 text-sm text-muted">{cand.reason_text}</p>
           <ScoreBars score={cand.score} />
+          {cand.grade && (
+            <div className="mt-3 border-t border-white/5 pt-3 text-xs text-muted">
+              <span className="mr-1 font-semibold text-text">Grade {cand.grade.grade}:</span>
+              {cand.grade.reasons.join(" · ")}
+            </div>
+          )}
         </div>
       </div>
 

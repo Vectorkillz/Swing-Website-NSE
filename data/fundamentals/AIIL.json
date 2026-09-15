@@ -1,0 +1,15 @@
+{
+  "avg_volume": 540037.0,
+  "debt_equity": 0.2459,
+  "eps_growth": 17.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:21+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 44996.2082304,
+  "name": "Authum Investment & Infrastructure Limited",
+  "revenue_growth": 14.099999999999998,
+  "roe": 14.249317739881292,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

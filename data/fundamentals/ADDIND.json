@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1212.0,
+  "debt_equity": null,
+  "eps_growth": 6.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:22+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 85.2929344,
+  "name": "Addi Industries Limited",
+  "revenue_growth": null,
+  "roe": 2.9145913976940845,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

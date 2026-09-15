@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1959354.0,
+  "debt_equity": null,
+  "eps_growth": 32.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:25+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 7148.8290816,
+  "name": "DCB Bank Limited",
+  "revenue_growth": 17.4,
+  "roe": 12.04010830442106,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 907100.0,
+  "debt_equity": 0.35975999999999997,
+  "eps_growth": -91.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:39+00:00",
+  "industry": "Pollution & Treatment Controls",
+  "market_cap_cr": 5310.5954816,
+  "name": "Ion Exchange (India) Limited",
+  "revenue_growth": 20.1,
+  "roe": 7.064616382040283,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

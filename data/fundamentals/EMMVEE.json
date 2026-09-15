@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2589532.0,
+  "debt_equity": 0.09745,
+  "eps_growth": 73.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:07+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 22746.9950976,
+  "name": "Emmvee Photovoltaic Power Limited",
+  "revenue_growth": 51.300000000000004,
+  "roe": 34.46821963570778,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

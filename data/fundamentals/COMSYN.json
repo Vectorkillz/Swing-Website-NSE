@@ -1,0 +1,15 @@
+{
+  "avg_volume": 967366.0,
+  "debt_equity": 0.7240000000000001,
+  "eps_growth": 61.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:16+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 1169.0299392,
+  "name": "Commercial Syn Bags Limited",
+  "revenue_growth": 20.599999999999998,
+  "roe": 16.546503039277937,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

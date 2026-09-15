@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40000.0,
+  "debt_equity": 0.06454,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:09:20+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 2650.003456,
+  "name": "Prataap Snacks Limited",
+  "revenue_growth": 4.9,
+  "roe": 1.398,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

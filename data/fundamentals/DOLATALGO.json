@@ -1,0 +1,15 @@
+{
+  "avg_volume": 136433.0,
+  "debt_equity": 0.25082,
+  "eps_growth": 39.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:43+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1201.2000256,
+  "name": "Dolat Algotech Limited",
+  "revenue_growth": 28.799999999999997,
+  "roe": 12.753962456757218,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

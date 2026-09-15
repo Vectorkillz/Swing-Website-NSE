@@ -1,0 +1,15 @@
+{
+  "avg_volume": 29362.0,
+  "debt_equity": 0.06944,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:27+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 185.8457728,
+  "name": "Brooks Laboratories Limited",
+  "revenue_growth": -10.0,
+  "roe": 10.771334889749507,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

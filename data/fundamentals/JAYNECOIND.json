@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5325914.0,
+  "debt_equity": 0.74729,
+  "eps_growth": 108.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:32+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 8605.9573248,
+  "name": "Jayaswal Neco Industries Limited",
+  "revenue_growth": 27.700000000000003,
+  "roe": 19.849496731208003,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

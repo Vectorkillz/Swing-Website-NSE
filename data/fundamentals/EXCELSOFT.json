@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1119723.0,
+  "debt_equity": 0.01137,
+  "eps_growth": 33.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:01+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 893.3983232,
+  "name": "Excelsoft Technologies Limited",
+  "revenue_growth": 44.1,
+  "roe": 8.081325902641082,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

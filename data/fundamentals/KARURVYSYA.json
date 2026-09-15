@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3659937.0,
+  "debt_equity": null,
+  "eps_growth": 45.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:09+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 31363.5209216,
+  "name": "The Karur Vysya Bank Limited",
+  "revenue_growth": 26.0,
+  "roe": 19.453778183528918,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

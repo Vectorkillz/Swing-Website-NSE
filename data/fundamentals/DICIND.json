@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9781.0,
+  "debt_equity": 0.00736,
+  "eps_growth": 227.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:22+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 544.4510208,
+  "name": "DIC India Limited",
+  "revenue_growth": 25.4,
+  "roe": 6.514087993947888,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

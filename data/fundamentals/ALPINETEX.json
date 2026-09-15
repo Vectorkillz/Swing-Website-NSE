@@ -1,0 +1,15 @@
+{
+  "avg_volume": 309762.0,
+  "debt_equity": 2.3743700000000003,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:00:01+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 209.134592,
+  "name": "Alpine Texworld Limited",
+  "revenue_growth": null,
+  "roe": 33.85,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

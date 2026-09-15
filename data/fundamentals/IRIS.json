@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44643.0,
+  "debt_equity": 0.00827,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:49+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 489.0718208,
+  "name": "IRIS RegTech Solutions Limited",
+  "revenue_growth": 9.700000000000001,
+  "roe": 6.367171408713451,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

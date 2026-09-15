@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1426504.0,
+  "debt_equity": 1.1864,
+  "eps_growth": 32.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:15+00:00",
+  "industry": "Utilities - Regulated Gas",
+  "market_cap_cr": 22851.5495936,
+  "name": "Gujarat Energy Limited",
+  "revenue_growth": 21.099999999999998,
+  "roe": 13.154632477635635,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

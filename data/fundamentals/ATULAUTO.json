@@ -1,0 +1,15 @@
+{
+  "avg_volume": 226168.0,
+  "debt_equity": null,
+  "eps_growth": 56.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:14+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 1216.7548928,
+  "name": "Atul Auto Limited",
+  "revenue_growth": 25.3,
+  "roe": 17.607367823019977,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

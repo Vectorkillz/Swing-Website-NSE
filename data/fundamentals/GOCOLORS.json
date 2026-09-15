@@ -1,0 +1,15 @@
+{
+  "avg_volume": 556293.0,
+  "debt_equity": 0.77141,
+  "eps_growth": -23.799999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:57+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 1603.6514816,
+  "name": "Go Fashion (India) Limited",
+  "revenue_growth": 0.0,
+  "roe": 7.898415910021274,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

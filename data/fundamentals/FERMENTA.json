@@ -1,0 +1,15 @@
+{
+  "avg_volume": 97911.0,
+  "debt_equity": 0.28294,
+  "eps_growth": -55.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:25+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1350.3894528,
+  "name": "Fermenta Biotech Limited",
+  "revenue_growth": -10.6,
+  "roe": 14.688899375376677,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

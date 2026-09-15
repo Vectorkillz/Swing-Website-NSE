@@ -1,0 +1,15 @@
+{
+  "avg_volume": 71500.0,
+  "debt_equity": 0.84545,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:05:17+00:00",
+  "industry": "Consumer Electronics",
+  "market_cap_cr": 228.1290496,
+  "name": "BPL Limited",
+  "revenue_growth": 9.8,
+  "roe": -3.9100002000000003,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

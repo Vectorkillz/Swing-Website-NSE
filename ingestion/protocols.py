@@ -19,6 +19,9 @@ class UniverseRow:
     industry: Optional[str] = None
     isin: Optional[str] = None
     lot_size: Optional[int] = None
+    fno_eligible: bool = True
+    """False for a row sourced from the full cash-equity list that is not also in the F&O list.
+    Short setups are only generated for fno_eligible symbols."""
 
 
 @dataclass(frozen=True)
@@ -30,6 +33,9 @@ class UniverseSnapshot:
     @property
     def symbols(self) -> list[str]:
         return sorted({r.symbol for r in self.rows})
+
+    def by_symbol(self) -> dict[str, "UniverseRow"]:
+        return {r.symbol: r for r in self.rows}
 
 
 @dataclass(frozen=True)
@@ -53,6 +59,28 @@ class FundamentalsProvider(Protocol):
 
 class UniverseProvider(Protocol):
     def fetch(self) -> Optional[UniverseSnapshot]: ...
+
+
+def merge_universes(fno: UniverseSnapshot, equity: Optional[UniverseSnapshot]) -> list[UniverseRow]:
+    """Union of the full cash-equity list and the F&O list, deduplicated on symbol.
+    Every F&O row is marked fno_eligible=True regardless of what the equity list says;
+    everything else keeps the equity list's flag (normally False)."""
+    by_symbol: dict[str, UniverseRow] = {}
+    if equity is not None:
+        for r in equity.rows:
+            by_symbol[r.symbol] = r
+    for r in fno.rows:
+        prior = by_symbol.get(r.symbol)
+        by_symbol[r.symbol] = UniverseRow(
+            symbol=r.symbol,
+            name=r.name or (prior.name if prior else None),
+            sector=r.sector or (prior.sector if prior else None),
+            industry=r.industry or (prior.industry if prior else None),
+            isin=r.isin or (prior.isin if prior else None),
+            lot_size=r.lot_size,
+            fno_eligible=True,
+        )
+    return sorted(by_symbol.values(), key=lambda r: r.symbol)
 
 
 class BanListProvider(Protocol):

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 463326.0,
+  "debt_equity": 2.55574,
+  "eps_growth": 18.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:38+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 19646.9981184,
+  "name": "Aadhar Housing Finance Limited",
+  "revenue_growth": 19.6,
+  "roe": 15.043870188323538,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

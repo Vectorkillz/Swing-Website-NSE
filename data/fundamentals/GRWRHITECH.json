@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68848.0,
+  "debt_equity": 0.0059,
+  "eps_growth": 59.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:56+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 15341.510656,
+  "name": "Garware Hi-Tech Films Limited",
+  "revenue_growth": 27.900000000000002,
+  "roe": 14.601403701686328,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

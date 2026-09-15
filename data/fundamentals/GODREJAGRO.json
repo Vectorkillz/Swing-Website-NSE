@@ -1,0 +1,15 @@
+{
+  "avg_volume": 430752.0,
+  "debt_equity": 0.7275100000000001,
+  "eps_growth": -16.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:02+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 12416.3072,
+  "name": "Godrej Agrovet Limited",
+  "revenue_growth": 9.6,
+  "roe": 21.97603448929282,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

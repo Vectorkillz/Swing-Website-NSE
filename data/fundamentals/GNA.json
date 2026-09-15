@@ -1,0 +1,15 @@
+{
+  "avg_volume": 647537.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:14:48+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 2286.4943104,
+  "name": "G N A Axles Limited",
+  "revenue_growth": null,
+  "roe": 12.285,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 425001.0,
+  "debt_equity": 0.00033,
+  "eps_growth": -72.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:18+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1625.8782208,
+  "name": "Jai Corp Limited",
+  "revenue_growth": -25.5,
+  "roe": 6.223371383111733,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

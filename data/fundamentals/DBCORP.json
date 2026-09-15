@@ -1,0 +1,15 @@
+{
+  "avg_volume": 413997.0,
+  "debt_equity": 0.10796,
+  "eps_growth": 24.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:17+00:00",
+  "industry": "Publishing",
+  "market_cap_cr": 3292.8985088,
+  "name": "D. B. Corp Limited",
+  "revenue_growth": 7.9,
+  "roe": 14.483441932433486,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

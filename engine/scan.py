@@ -10,6 +10,7 @@ from .config import ScanConfig
 from .context import cap_bucket, multibagger_tag, price_context, stage_label, swing_suitability
 from .detectors import colour_change, detect_bar_pattern, momentum_leg, rs_vs_index, short_signals, vcp
 from .gates import long_gate, short_gate
+from .grading import grade_candidate
 from .indicators import add_indicators, last
 from .portfolio import rank_candidates
 from .quality import check_daily
@@ -85,14 +86,14 @@ def _universe_row(inp: SymbolInput, df: pd.DataFrame | None, outcome: SymbolOutc
     sector = inp.sector or (f.sector if f else None)
     name = inp.name or (f.name if f else None)
     if df is None:
-        return UniverseRow(inp.symbol, name, sector, bucket, mcap, None, None, outcome, None, None, None, None, None, None, None, ("data unavailable",), side)
+        return UniverseRow(inp.symbol, name, sector, bucket, mcap, inp.fno_eligible, None, None, outcome, None, None, None, None, None, None, None, ("data unavailable",), side)
     ctx = price_context(df)
     rs = rs_vs_index(df["close"], nifty_close, cfg.rs_lookback_bars)
     close = float(df["close"].iloc[-1])
     e50, e200 = last(df, "ema50"), last(df, "ema200")
     ok, notes = swing_suitability(ctx, f, cfg)
     return UniverseRow(
-        symbol=inp.symbol, name=name, sector=sector, cap_bucket=bucket, market_cap_cr=mcap, close=close,
+        symbol=inp.symbol, name=name, sector=sector, cap_bucket=bucket, market_cap_cr=mcap, fno_eligible=inp.fno_eligible, close=close,
         last_bar_date=pd.Timestamp(df.index[-1]).date().isoformat(), outcome=outcome, stage=stage_label(df),
         above_ema50=(close > e50) if e50 is not None else None, above_ema200=(close > e200) if e200 is not None else None,
         rs_vs_nifty=rs, context=ctx, multibagger=multibagger_tag(df, ctx, rs, f, bucket, cfg), swing_suitable=ok, swing_notes=notes, setup_side=side,
@@ -160,13 +161,15 @@ def scan_symbol(
                         stage = "plan"
                         plan = plan_long(close, float(df["low"].iloc[-2]), atr, regime, cfg, leg_high=leg.leg_high, daily_for_weekly=inp.daily) if atr is not None else None
                         warnings = [] if plan else ["no_plan:risk per share not positive or ATR unavailable"]
+                        grade = grade_candidate(sc.raw, Side.LONG, regime.regime, f, cfg)
                         out.append(Candidate(
                             symbol=sym, side=Side.LONG, sector=sector, name=name, close=close, last_bar_date=last_date, score=sc, plan=plan,
-                            cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g, leg=leg, vcp=v, bar_pattern=bp,
-                            colour_change=cc, rs_vs_nifty=rs, fundamentals=f, indicators=ind, warnings=tuple(warnings), reason_text=_long_reason(leg, v, bp, cc, f),
+                            grade=grade, fno_eligible=inp.fno_eligible, cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g,
+                            leg=leg, vcp=v, bar_pattern=bp, colour_change=cc, rs_vs_nifty=rs, fundamentals=f, indicators=ind, warnings=tuple(warnings),
+                            reason_text=_long_reason(leg, v, bp, cc, f),
                         ))
 
-    if regime.shorts_allowed:
+    if regime.shorts_allowed and inp.fno_eligible:
         g = short_gate(f, cfg)
         if not g.passed:
             reasons.append(f"short:{g.reason}")
@@ -191,10 +194,11 @@ def scan_symbol(
                     plan = plan_short(close, atr, regime, cfg, recent_low=recent_low) if atr is not None else None
                     if plan is None:
                         warnings.append("no_plan:risk per share not positive or ATR unavailable")
+                    grade = grade_candidate(sc.raw, Side.SHORT, regime.regime, None, cfg)
                     out.append(Candidate(
                         symbol=sym, side=Side.SHORT, sector=sector, name=name, close=close, last_bar_date=last_date, score=sc, plan=plan,
-                        cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g, short_signals=s, rs_vs_nifty=rs, fundamentals=f,
-                        indicators=ind, warnings=tuple(warnings), reason_text=_short_reason(s),
+                        grade=grade, fno_eligible=inp.fno_eligible, cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g,
+                        short_signals=s, rs_vs_nifty=rs, fundamentals=f, indicators=ind, warnings=tuple(warnings), reason_text=_short_reason(s),
                     ))
 
     if out:
@@ -259,5 +263,10 @@ def scan_universe(inputs: ScanInputs, cfg: ScanConfig) -> ScanResult:
         "swing_suitable": sum(1 for r in rows if r.swing_suitable),
         "multibagger_strong": sum(1 for r in rows if r.multibagger and r.multibagger.level.value == "strong"),
         "multibagger_watch": sum(1 for r in rows if r.multibagger and r.multibagger.level.value == "watch"),
+        "grade_app": sum(1 for c in final if c.grade and c.grade.grade.value == "A++"),
+        "grade_ap": sum(1 for c in final if c.grade and c.grade.grade.value == "A+"),
+        "grade_a": sum(1 for c in final if c.grade and c.grade.grade.value == "A"),
+        "grade_bp": sum(1 for c in final if c.grade and c.grade.grade.value == "B+"),
+        "grade_b": sum(1 for c in final if c.grade and c.grade.grade.value == "B"),
     }
     return ScanResult(session, regime, tuple(final), tuple(statuses), tuple(rows), counts, tuple(warnings), ban_available, True)

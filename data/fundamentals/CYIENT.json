@@ -1,0 +1,15 @@
+{
+  "avg_volume": 871879.0,
+  "debt_equity": 0.07528,
+  "eps_growth": -32.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:04+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 11231.5260928,
+  "name": "Cyient Limited",
+  "revenue_growth": 21.3,
+  "roe": 7.06372749896714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

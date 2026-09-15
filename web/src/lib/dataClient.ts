@@ -1,4 +1,5 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQueries, useQuery } from "@tanstack/react-query";
+import { parseOhlcvCsv, type OhlcvBar } from "./csv";
 import type { Candidate, ChartPayload, ConfigProfile, ConfigSchema, JobRecord, Run, RunSummary, SymbolStatusRow, UniverseRow } from "./types";
 
 const BASE = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + "/";
@@ -48,8 +49,42 @@ export function useConfigProfile(version: string | undefined) {
 export function useJobs() {
   return useQuery({ queryKey: ["jobs"], queryFn: () => getJson<{ jobs: JobRecord[] }>("jobs/index.json"), staleTime: STALE, retry: false });
 }
+interface UniverseStatus {
+  as_of: string;
+  source: string;
+  n_symbols: number;
+  live_error: string | null;
+}
+
 export function useUniverseStatus() {
-  return useQuery({ queryKey: ["universe", "status"], queryFn: () => getJson<{ as_of: string; source: string; n_symbols: number; live_error: string | null }>("universe/status.json"), staleTime: STALE, retry: false });
+  return useQuery({ queryKey: ["universe", "status"], queryFn: () => getJson<UniverseStatus>("universe/status.json"), staleTime: STALE, retry: false });
+}
+
+export function useEquityUniverseStatus() {
+  return useQuery({ queryKey: ["universe", "equity_status"], queryFn: () => getJson<UniverseStatus>("universe/equity_status.json"), staleTime: STALE, retry: false });
+}
+
+async function getOhlcv(symbol: string): Promise<OhlcvBar[]> {
+  const res = await fetch(dataUrl(`ohlcv/daily/${symbol}.csv`), { cache: "no-cache" });
+  if (!res.ok) throw new Error(`ohlcv/${symbol}: HTTP ${res.status}`);
+  return parseOhlcvCsv(await res.text());
+}
+
+export function useOhlcv(symbol: string | undefined) {
+  return useQuery({ queryKey: ["ohlcv", symbol], queryFn: () => getOhlcv(symbol!), enabled: !!symbol, staleTime: STALE });
+}
+
+/** Batched fetch for the outcome tracker, which needs many symbols' bars at once. */
+export function useOhlcvBatch(symbols: string[]) {
+  return useQueries({
+    queries: symbols.map((s) => ({ queryKey: ["ohlcv", s], queryFn: () => getOhlcv(s), staleTime: STALE, retry: false })),
+  });
+}
+
+export function useRunCandidates(runIds: string[]) {
+  return useQueries({
+    queries: runIds.map((id) => ({ queryKey: ["candidates", id], queryFn: () => getJson<{ candidates: Candidate[] }>(`runs/${id}/candidates.json`), staleTime: STALE, retry: false })),
+  });
 }
 
 export function useLatestRun(runIdOverride?: string) {

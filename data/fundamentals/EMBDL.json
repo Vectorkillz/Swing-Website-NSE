@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2793736.0,
+  "debt_equity": 0.5341400000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:01+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 7646.5733632,
+  "name": "Embassy Developments Limited",
+  "revenue_growth": -68.2,
+  "roe": -9.533978467924923,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

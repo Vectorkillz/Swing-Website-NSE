@@ -1,0 +1,15 @@
+{
+  "avg_volume": 49274.0,
+  "debt_equity": 0.89715,
+  "eps_growth": 38.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:37+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 376.655616,
+  "name": "Banswara Syntex Limited",
+  "revenue_growth": 0.3,
+  "roe": 4.373476713010449,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

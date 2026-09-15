@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2287375.0,
+  "debt_equity": 0.08366,
+  "eps_growth": 18.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:04+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 503.1543296,
+  "name": "Indo Thai Securities Limited",
+  "revenue_growth": 43.1,
+  "roe": 24.119534765223573,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

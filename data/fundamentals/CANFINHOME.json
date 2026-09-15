@@ -1,0 +1,15 @@
+{
+  "avg_volume": 269628.0,
+  "debt_equity": 6.36585,
+  "eps_growth": 19.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:41+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 10449.9724288,
+  "name": "Can Fin Homes Limited",
+  "revenue_growth": 22.5,
+  "roe": 18.889959583786105,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 120123.0,
+  "debt_equity": 0.15489,
+  "eps_growth": 39.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:30+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 19581.6292352,
+  "name": "Happy Forgings Limited",
+  "revenue_growth": 27.0,
+  "roe": 15.376277491372276,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

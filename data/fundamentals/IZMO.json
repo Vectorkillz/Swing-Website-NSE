@@ -1,0 +1,15 @@
+{
+  "avg_volume": 127997.0,
+  "debt_equity": 0.040549999999999996,
+  "eps_growth": 102.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:11+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 1342.3116288,
+  "name": "IZMO Limited",
+  "revenue_growth": 15.7,
+  "roe": 13.128109918210203,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

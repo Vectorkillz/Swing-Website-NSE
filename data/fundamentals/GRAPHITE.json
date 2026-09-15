@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2011090.0,
+  "debt_equity": 0.06295,
+  "eps_growth": 28.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:32+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 15268.6034944,
+  "name": "Graphite India Limited",
+  "revenue_growth": 26.6,
+  "roe": 3.6410397813104165,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

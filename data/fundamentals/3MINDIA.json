@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3925.0,
+  "debt_equity": 0.096,
+  "eps_growth": 31.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:30+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 35586.3560192,
+  "name": "3M India Limited",
+  "revenue_growth": 19.0,
+  "roe": 32.672574104536295,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

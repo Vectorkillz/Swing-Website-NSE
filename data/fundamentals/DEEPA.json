@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18399661.0,
+  "debt_equity": 0.49052,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:08:48+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1625.8463744,
+  "name": "DEEPA JEWELLERS LIMITED",
+  "revenue_growth": null,
+  "roe": 56.447,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

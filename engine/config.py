@@ -117,6 +117,15 @@ class ScanConfig(BaseModel):
     band_a_min: float = F(85.0, unit="points (raw)", group="scoring", description="Raw score at or above this is band A.")
     band_b_min: float = F(70.0, unit="points (raw)", group="scoring", description="Raw score at or above this (below A) is band B.")
 
+    # ---- quality grade (deterministic: score + regime alignment + fundamentals) ----------
+    grade_app_min: float = F(85.0, unit="points (raw)", group="grade", description="A++ requires raw score at or above this, full regime alignment, and (for longs) strong fundamentals.")
+    grade_ap_min: float = F(75.0, unit="points (raw)", group="grade", description="A+ requires raw score at or above this and at least partial regime alignment.")
+    grade_a_min: float = F(65.0, unit="points (raw)", group="grade", description="A requires raw score at or above this, regardless of regime alignment.")
+    grade_bp_min: float = F(50.0, unit="points (raw)", group="grade", description="B+ requires raw score at or above this. Below it, the grade is B.")
+    grade_fund_revenue_growth_min: float = F(20.0, unit="pct YoY", group="grade", description="'Strong fundamentals' (for A++) requires revenue growth at or above this.")
+    grade_fund_eps_growth_min: float = F(25.0, unit="pct YoY", group="grade", description="'Strong fundamentals' (for A++) requires EPS growth at or above this.")
+    grade_fund_roe_min: float = F(20.0, unit="pct", group="grade", description="'Strong fundamentals' (for A++) requires ROE at or above this.")
+
     # ---- ranking -------------------------------------------------------------
     top_n_longs: int = F(10, unit="count", group="ranking", description="Long setups kept after sorting by raw score.", ge=0)
     top_n_shorts: int = F(10, unit="count", group="ranking", description="Short setups kept after sorting by raw score.", ge=0)
@@ -134,6 +143,8 @@ class ScanConfig(BaseModel):
             raise ValueError("roc_bull_min must be < roc_bull_max")
         if self.band_b_min >= self.band_a_min:
             raise ValueError("band_b_min must be < band_a_min")
+        if not (self.grade_bp_min < self.grade_a_min < self.grade_ap_min < self.grade_app_min):
+            raise ValueError("grade thresholds must satisfy grade_bp_min < grade_a_min < grade_ap_min < grade_app_min")
         if self.regime_ema_fast >= self.regime_ema_slow:
             raise ValueError("regime_ema_fast must be < regime_ema_slow")
         if self.leg_window_bars >= self.leg_lookback_bars:

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16086.0,
+  "debt_equity": 0.29637,
+  "eps_growth": 8.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:06+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 283.2926464,
+  "name": "Dynemic Products Limited",
+  "revenue_growth": -8.5,
+  "roe": 8.30487646882475,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170109.0,
+  "debt_equity": 0.30567,
+  "eps_growth": 41.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:03+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 37809.3305856,
+  "name": "Emcure Pharmaceuticals Limited",
+  "revenue_growth": 22.8,
+  "roe": 20.41640650433079,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

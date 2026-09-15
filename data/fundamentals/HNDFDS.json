@@ -1,0 +1,15 @@
+{
+  "avg_volume": 100652.0,
+  "debt_equity": 0.9340600000000001,
+  "eps_growth": 31.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:38+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 7247.347712,
+  "name": "Hindustan Foods Limited",
+  "revenue_growth": 20.7,
+  "roe": 13.693966814621502,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

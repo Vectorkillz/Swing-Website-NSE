@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1733193.0,
+  "debt_equity": 0.01544,
+  "eps_growth": 41.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:22+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 7795.0803968,
+  "name": "Gujarat Pipavav Port Limited",
+  "revenue_growth": 32.5,
+  "roe": 23.727832309968207,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

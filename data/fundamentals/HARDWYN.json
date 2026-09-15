@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4955103.0,
+  "debt_equity": 0.015629999999999998,
+  "eps_growth": 20.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:31+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 619.5297792,
+  "name": "Hardwyn India Limited",
+  "revenue_growth": -19.400000000000002,
+  "roe": 3.0543809211925472,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

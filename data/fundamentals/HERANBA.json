@@ -1,0 +1,15 @@
+{
+  "avg_volume": 42618.0,
+  "debt_equity": 0.7483299999999999,
+  "eps_growth": 16.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:02+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 664.0235008,
+  "name": "Heranba Industries Limited",
+  "revenue_growth": -15.299999999999999,
+  "roe": -9.896124001905756,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

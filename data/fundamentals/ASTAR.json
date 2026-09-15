@@ -1,0 +1,15 @@
+{
+  "avg_volume": 77.0,
+  "debt_equity": 0.29759,
+  "eps_growth": -37.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:55+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 900.3825152,
+  "name": "Asian Star Company Limited",
+  "revenue_growth": -9.6,
+  "roe": 1.9946925601123007,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

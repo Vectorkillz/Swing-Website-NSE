@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2867418.0,
+  "debt_equity": 0.28585,
+  "eps_growth": -9.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:24+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 720.453376,
+  "name": "Kellton Tech Solutions Limited",
+  "revenue_growth": 6.800000000000001,
+  "roe": 12.30371135972172,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

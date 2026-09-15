@@ -1,0 +1,15 @@
+{
+  "avg_volume": 127370.0,
+  "debt_equity": null,
+  "eps_growth": -3.5000000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:51+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 9082.0263936,
+  "name": "Alkyl Amines Chemicals Limited",
+  "revenue_growth": -4.6,
+  "roe": 11.781035313394199,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

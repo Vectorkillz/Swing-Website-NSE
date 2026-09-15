@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170867.0,
+  "debt_equity": 1.18871,
+  "eps_growth": -26.700000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:29+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 4141.5114752,
+  "name": "Hirect Limited",
+  "revenue_growth": 20.3,
+  "roe": 19.973472000281177,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

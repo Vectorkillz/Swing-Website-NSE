@@ -1,0 +1,15 @@
+{
+  "avg_volume": 266196.0,
+  "debt_equity": 0.2027,
+  "eps_growth": -4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:30+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 549.6241664,
+  "name": "Allied Digital Services Limited",
+  "revenue_growth": 18.9,
+  "roe": 4.205821907335545,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

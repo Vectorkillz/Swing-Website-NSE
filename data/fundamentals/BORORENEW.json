@@ -1,0 +1,15 @@
+{
+  "avg_volume": 633608.0,
+  "debt_equity": 0.1074,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:12+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 6789.5844864,
+  "name": "Borosil Renewables Limited",
+  "revenue_growth": 17.1,
+  "roe": 24.103790929096167,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

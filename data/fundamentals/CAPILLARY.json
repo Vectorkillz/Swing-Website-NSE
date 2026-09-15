@@ -1,0 +1,15 @@
+{
+  "avg_volume": 624231.0,
+  "debt_equity": 0.05238,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:47+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 3752.667136,
+  "name": "Capillary Technologies India Limited",
+  "revenue_growth": 42.699999999999996,
+  "roe": 4.109124008818015,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

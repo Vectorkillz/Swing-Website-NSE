@@ -1,0 +1,15 @@
+{
+  "avg_volume": 246199.0,
+  "debt_equity": 0.03153,
+  "eps_growth": 29.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:15+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 4863.9504384,
+  "name": "eMudhra Limited",
+  "revenue_growth": 29.5,
+  "roe": 12.627555162792708,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

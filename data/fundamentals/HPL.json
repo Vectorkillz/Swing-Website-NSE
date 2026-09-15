@@ -1,0 +1,15 @@
+{
+  "avg_volume": 133242.0,
+  "debt_equity": 0.7531699999999999,
+  "eps_growth": 1.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:49+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 1820.9898496,
+  "name": "HPL Electric & Power Limited",
+  "revenue_growth": 34.5,
+  "roe": 9.122739828665036,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

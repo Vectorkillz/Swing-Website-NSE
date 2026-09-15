@@ -1,0 +1,15 @@
+{
+  "avg_volume": 109104.0,
+  "debt_equity": 1.99506,
+  "eps_growth": 700.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:03+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 315.1244032,
+  "name": "Dev Accelerator Limited",
+  "revenue_growth": -3.3000000000000003,
+  "roe": 6.267637152130451,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

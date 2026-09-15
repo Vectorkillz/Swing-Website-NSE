@@ -1,0 +1,15 @@
+{
+  "avg_volume": 147532.0,
+  "debt_equity": 0.41927,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:40+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 89.4037504,
+  "name": "Aakash Exploration Services Limited",
+  "revenue_growth": 16.900000000000002,
+  "roe": 5.334495999510456,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

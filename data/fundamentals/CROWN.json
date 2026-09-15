@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11688.0,
+  "debt_equity": 0.7487,
+  "eps_growth": 9.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:07:50+00:00",
+  "industry": "Rental & Leasing Services",
+  "market_cap_cr": 123.8159744,
+  "name": "Crown Lifters Limited",
+  "revenue_growth": 29.299999999999997,
+  "roe": 11.516457759996744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

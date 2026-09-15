@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1144536.0,
+  "debt_equity": 0.00435,
+  "eps_growth": 5.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:42+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 2580.914176,
+  "name": "Alembic Limited",
+  "revenue_growth": -2.0,
+  "roe": 13.113249557505895,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

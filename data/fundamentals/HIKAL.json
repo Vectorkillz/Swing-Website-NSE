@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1596003.0,
+  "debt_equity": null,
+  "eps_growth": 68.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:14+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2616.68864,
+  "name": "Hikal Limited",
+  "revenue_growth": 37.3,
+  "roe": 6.174404615460501,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

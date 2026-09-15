@@ -1,0 +1,15 @@
+{
+  "avg_volume": 901951.0,
+  "debt_equity": 0.06226,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:36+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 32.286208,
+  "name": "Akshar Spintex Limited",
+  "revenue_growth": 14.299999999999999,
+  "roe": -6.795879994969808,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

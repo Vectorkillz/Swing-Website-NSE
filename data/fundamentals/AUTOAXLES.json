@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9395.0,
+  "debt_equity": 0.0128,
+  "eps_growth": 27.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:24+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 2511.005696,
+  "name": "Automotive Axles Limited",
+  "revenue_growth": 5.6000000000000005,
+  "roe": 15.858633771720337,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

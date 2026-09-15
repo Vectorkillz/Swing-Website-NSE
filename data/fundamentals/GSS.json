@@ -1,0 +1,15 @@
+{
+  "avg_volume": 42022.0,
+  "debt_equity": 0.48025,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:02+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 26.3745952,
+  "name": "GSS Infotech Limited",
+  "revenue_growth": -2.4,
+  "roe": -16.35763218567083,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

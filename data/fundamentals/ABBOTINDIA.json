@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10696.0,
+  "debt_equity": 0.036019999999999996,
+  "eps_growth": 17.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:55+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 55513.8023424,
+  "name": "Abbott India Limited",
+  "revenue_growth": 4.3,
+  "roe": 33.821031050245445,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

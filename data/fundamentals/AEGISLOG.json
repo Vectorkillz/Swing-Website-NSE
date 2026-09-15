@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1801210.0,
+  "debt_equity": 0.47243,
+  "eps_growth": 269.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:41+00:00",
+  "industry": "Oil & Gas Refining & Marketing",
+  "market_cap_cr": 46454.849536,
+  "name": "Aegis Logistics Limited",
+  "revenue_growth": 37.1,
+  "roe": 20.66502833313416,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

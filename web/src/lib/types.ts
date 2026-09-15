@@ -6,6 +6,15 @@ export type Band = "A" | "B" | "C";
 export type RankStatus = "ranked" | "not_in_top_n";
 export type CapBucket = "large" | "mid" | "small" | "micro" | "unknown";
 export type MultibaggerLevel = "strong" | "watch" | "none";
+export type Grade = "A++" | "A+" | "A" | "B+" | "B";
+export type RegimeAlignment = "full" | "partial" | "none";
+
+export interface GradeResult {
+  grade: Grade;
+  alignment: RegimeAlignment;
+  fundamentals_strong: boolean | null;
+  reasons: string[];
+}
 
 export interface RegimeResult {
   regime: Regime;
@@ -146,6 +155,8 @@ export interface Candidate {
   last_bar_date: string;
   score: ScoreBreakdown;
   plan: TradePlan | null;
+  grade: GradeResult | null;
+  fno_eligible: boolean;
   cap_bucket: CapBucket;
   market_cap_cr: number | null;
   multibagger: MultibaggerTag | null;
@@ -170,6 +181,7 @@ export interface UniverseRow {
   sector: string | null;
   cap_bucket: CapBucket;
   market_cap_cr: number | null;
+  fno_eligible: boolean;
   close: number | null;
   last_bar_date: string | null;
   outcome: string;

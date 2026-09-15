@@ -1,0 +1,15 @@
+{
+  "avg_volume": 52003.0,
+  "debt_equity": 13.61379,
+  "eps_growth": -14.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:30+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 130.0,
+  "name": "Digjam Limited",
+  "revenue_growth": 88.7,
+  "roe": 88.27231121281464,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

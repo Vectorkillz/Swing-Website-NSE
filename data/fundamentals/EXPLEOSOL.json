@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170909.0,
+  "debt_equity": 0.01011,
+  "eps_growth": 67.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:06+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1338.7326464,
+  "name": "Expleo Solutions Limited",
+  "revenue_growth": 12.3,
+  "roe": 17.742495333274967,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1782.0,
+  "debt_equity": 0.066,
+  "eps_growth": 17.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:16:41+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 4431.9821824,
+  "name": "Hawkins Cookers Limited",
+  "revenue_growth": 33.1,
+  "roe": 30.46145401162755,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

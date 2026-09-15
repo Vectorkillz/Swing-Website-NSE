@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6805.0,
+  "debt_equity": 1.08169,
+  "eps_growth": 10.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:32+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 41.414384,
+  "name": "Akash Infra-Projects Limited",
+  "revenue_growth": 84.5,
+  "roe": 0.8113848246079226,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

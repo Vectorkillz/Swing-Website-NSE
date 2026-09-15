@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1651992.0,
+  "debt_equity": null,
+  "eps_growth": 103.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:09+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 1175.8078976,
+  "name": "Dhanlaxmi Bank Limited",
+  "revenue_growth": 25.0,
+  "roe": 7.915,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

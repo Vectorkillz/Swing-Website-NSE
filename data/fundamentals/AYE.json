@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1704964.0,
+  "debt_equity": 1.99987,
+  "eps_growth": 91.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:52+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 4334.8475904,
+  "name": "Aye Finance Limited",
+  "revenue_growth": 36.7,
+  "roe": 8.469498416528067,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4364.0,
+  "debt_equity": 0.95839,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:34+00:00",
+  "industry": "Pollution & Treatment Controls",
+  "market_cap_cr": 85.0420544,
+  "name": "Banka BioLoo Limited",
+  "revenue_growth": -5.3,
+  "roe": 0.9005674303459082,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

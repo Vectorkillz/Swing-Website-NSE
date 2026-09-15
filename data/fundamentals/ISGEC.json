@@ -1,0 +1,15 @@
+{
+  "avg_volume": 54072.0,
+  "debt_equity": 0.3293,
+  "eps_growth": -82.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:55+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 5690.08128,
+  "name": "Isgec Heavy Engineering Limited",
+  "revenue_growth": 47.699999999999996,
+  "roe": 4.054029875190126,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

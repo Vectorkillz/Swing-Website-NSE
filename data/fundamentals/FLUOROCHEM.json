@@ -1,0 +1,15 @@
+{
+  "avg_volume": 194260.0,
+  "debt_equity": 0.2894,
+  "eps_growth": 20.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:50+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 50545.278976,
+  "name": "Gujarat Fluorochemicals Limited",
+  "revenue_growth": 24.0,
+  "roe": 8.061900117078588,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

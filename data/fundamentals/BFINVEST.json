@@ -1,0 +1,15 @@
+{
+  "avg_volume": 158827.0,
+  "debt_equity": 1e-05,
+  "eps_growth": 280.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:14+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 1640.4251648,
+  "name": "BF Investment Limited",
+  "revenue_growth": 19.7,
+  "roe": 4.562375096605098,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

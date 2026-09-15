@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33259.0,
+  "debt_equity": 0.56406,
+  "eps_growth": 23.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:46+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 1139.0045184,
+  "name": "Alicon Castalloy Limited",
+  "revenue_growth": 38.3,
+  "roe": 5.820418541861524,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

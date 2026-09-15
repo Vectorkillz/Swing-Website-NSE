@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11236.0,
+  "debt_equity": 0.71382,
+  "eps_growth": 147.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:54+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 114.1722752,
+  "name": "BCPL Railway Infrastructure Limited",
+  "revenue_growth": 12.2,
+  "roe": 8.476251680273919,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

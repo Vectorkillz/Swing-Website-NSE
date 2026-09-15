@@ -1,0 +1,15 @@
+{
+  "avg_volume": 700683.0,
+  "debt_equity": 0.23151,
+  "eps_growth": 34.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:17+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 2506.2129664,
+  "name": "GK Energy Limited",
+  "revenue_growth": 55.50000000000001,
+  "roe": 25.54510652764183,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

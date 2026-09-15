@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const ROUTES = ["/", "/universe", "/data"];
+const ROUTES = ["/", "/universe", "/track-record", "/data"];
 
 function collectErrors(page: Page): string[] {
   const errors: string[] = [];

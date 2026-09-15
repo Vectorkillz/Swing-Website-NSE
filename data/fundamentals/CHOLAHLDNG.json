@@ -1,0 +1,15 @@
+{
+  "avg_volume": 162390.0,
+  "debt_equity": 6.231559999999999,
+  "eps_growth": 39.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:45+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 28369.420288,
+  "name": "Cholamandalam Financial Holdings Limited",
+  "revenue_growth": 13.900000000000002,
+  "roe": 17.268833965485296,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

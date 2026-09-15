@@ -1,0 +1,15 @@
+{
+  "avg_volume": 36083.0,
+  "debt_equity": 0.00125,
+  "eps_growth": -30.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:30+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 181.6189952,
+  "name": "Intense Technologies Limited",
+  "revenue_growth": -1.3,
+  "roe": -12.803590137358576,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 275589.0,
+  "debt_equity": null,
+  "eps_growth": 743.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:45+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 327.6260096,
+  "name": "Essar Shipping Limited",
+  "revenue_growth": -97.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

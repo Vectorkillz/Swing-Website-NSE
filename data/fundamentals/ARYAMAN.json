@@ -1,0 +1,15 @@
+{
+  "avg_volume": 245.0,
+  "debt_equity": null,
+  "eps_growth": 6.6000000000000005,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:31+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 774.0104192,
+  "name": "Aryaman Financial Services Limited",
+  "revenue_growth": -30.2,
+  "roe": 14.729624734131324,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

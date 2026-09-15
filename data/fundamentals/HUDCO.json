@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2287792.0,
+  "debt_equity": 6.45775,
+  "eps_growth": 34.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:56+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 33816.0943104,
+  "name": "Housing and Urban Development Corporation Limited",
+  "revenue_growth": 9.8,
+  "roe": 19.358004515263342,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

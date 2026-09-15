@@ -1,0 +1,15 @@
+{
+  "avg_volume": 447226.0,
+  "debt_equity": 0.09628,
+  "eps_growth": 13.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:24+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 2870.7354624,
+  "name": "ADF Foods Limited",
+  "revenue_growth": 25.900000000000002,
+  "roe": 16.079736404110854,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

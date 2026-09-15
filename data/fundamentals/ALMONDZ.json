@@ -1,0 +1,15 @@
+{
+  "avg_volume": 230386.0,
+  "debt_equity": 0.16821999999999998,
+  "eps_growth": 70.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:56+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 294.5312,
+  "name": "Almondz Global Securities Limited",
+  "revenue_growth": 42.699999999999996,
+  "roe": 12.66269782609031,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

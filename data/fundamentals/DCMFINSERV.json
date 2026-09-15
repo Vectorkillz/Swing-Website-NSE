@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10942.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:29+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 11.0625272,
+  "name": "DCM Financial Services Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

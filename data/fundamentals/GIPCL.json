@@ -1,0 +1,15 @@
+{
+  "avg_volume": 657406.0,
+  "debt_equity": 0.93592,
+  "eps_growth": 174.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:14+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 2922.8711936,
+  "name": "Gujarat Industries Power Company Limited",
+  "revenue_growth": 34.4,
+  "roe": 11.124515394464554,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

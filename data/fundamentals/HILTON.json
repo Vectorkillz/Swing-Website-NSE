@@ -1,0 +1,15 @@
+{
+  "avg_volume": 113788.0,
+  "debt_equity": 0.37021,
+  "eps_growth": 483.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:17+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 88.9856704,
+  "name": "Hilton Metal Forging Limited",
+  "revenue_growth": 167.4,
+  "roe": 2.3077449390610534,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

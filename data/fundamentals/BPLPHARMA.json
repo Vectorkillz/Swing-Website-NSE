@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2161.0,
+  "debt_equity": 0.46893999999999997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:18+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": null,
+  "name": "Bharat Parenterals Limited",
+  "revenue_growth": -19.2,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9760989.0,
+  "debt_equity": null,
+  "eps_growth": 2.8000000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:18+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 27570.5659392,
+  "name": "Central Bank of India",
+  "revenue_growth": -3.2,
+  "roe": 11.560000500000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

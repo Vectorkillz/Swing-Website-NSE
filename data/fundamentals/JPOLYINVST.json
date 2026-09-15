@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14061.0,
+  "debt_equity": 0.01462,
+  "eps_growth": -77.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:15+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 1016.556032,
+  "name": "Jindal Poly Investment and Finance Company Limited",
+  "revenue_growth": 5.7,
+  "roe": 50.380666988883945,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

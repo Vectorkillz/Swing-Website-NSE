@@ -1,0 +1,15 @@
+{
+  "avg_volume": 372412.0,
+  "debt_equity": 0.13131,
+  "eps_growth": 77.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:59+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 12864.7102464,
+  "name": "Fractal Analytics Limited",
+  "revenue_growth": 20.0,
+  "roe": 10.005844743324948,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

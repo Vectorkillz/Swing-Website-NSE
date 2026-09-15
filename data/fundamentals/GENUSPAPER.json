@@ -1,0 +1,15 @@
+{
+  "avg_volume": 112113.0,
+  "debt_equity": 0.87426,
+  "eps_growth": -12.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:13:50+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 292.6093056,
+  "name": "Genus Paper & Boards Limited",
+  "revenue_growth": -14.399999999999999,
+  "roe": 3.0763275576794054,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

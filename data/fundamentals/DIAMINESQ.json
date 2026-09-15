@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11729.0,
+  "debt_equity": 0.05197,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:19+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 253.1979776,
+  "name": "Diamines and Chemicals Limited",
+  "revenue_growth": 17.299999999999997,
+  "roe": -6.401017550940131,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

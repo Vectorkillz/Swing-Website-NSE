@@ -1,0 +1,15 @@
+{
+  "avg_volume": 757420.0,
+  "debt_equity": 0.51789,
+  "eps_growth": 28.999999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:51+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 11921.2130304,
+  "name": "ASK Automotive Limited",
+  "revenue_growth": 52.400000000000006,
+  "roe": 24.13017726900114,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

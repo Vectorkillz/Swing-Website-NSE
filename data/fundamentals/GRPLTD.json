@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2359.0,
+  "debt_equity": 1.16333,
+  "eps_growth": 139.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:53+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1091.3063936,
+  "name": "GRP Limited",
+  "revenue_growth": 26.700000000000003,
+  "roe": 3.1793846981078637,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 832410.0,
+  "debt_equity": 0.8203199999999999,
+  "eps_growth": 81.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:53+00:00",
+  "industry": "Farm Products",
+  "market_cap_cr": 2068.1316352,
+  "name": "Amir Chand Jagdish Kumar (Exports) Limited",
+  "revenue_growth": 55.1,
+  "roe": 10.943868540267033,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

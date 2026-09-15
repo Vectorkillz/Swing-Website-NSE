@@ -1,0 +1,15 @@
+{
+  "avg_volume": 115587.0,
+  "debt_equity": 0.45990000000000003,
+  "eps_growth": 37.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:57+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 3204.9129472,
+  "name": "Carysil Limited",
+  "revenue_growth": 15.5,
+  "roe": 17.5683221201173,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

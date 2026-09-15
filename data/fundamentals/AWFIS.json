@@ -1,0 +1,15 @@
+{
+  "avg_volume": 631256.0,
+  "debt_equity": 2.7173200000000004,
+  "eps_growth": 138.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:42+00:00",
+  "industry": "Rental & Leasing Services",
+  "market_cap_cr": 1969.060864,
+  "name": "Awfis Space Solutions Limited",
+  "revenue_growth": 27.0,
+  "roe": 15.350585956532381,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

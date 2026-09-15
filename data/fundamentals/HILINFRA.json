@@ -1,0 +1,15 @@
+{
+  "avg_volume": 54249.0,
+  "debt_equity": 0.45425,
+  "eps_growth": -87.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:17:15+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 312.701952,
+  "name": "Highway Infrastructure Limited",
+  "revenue_growth": 170.9,
+  "roe": 10.638971145308842,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

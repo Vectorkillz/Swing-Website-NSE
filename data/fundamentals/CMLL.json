@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2770088.0,
+  "debt_equity": 1.73037,
+  "eps_growth": -21.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:59+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 3103.3884672,
+  "name": "Caliber Mining and Logistics Limited",
+  "revenue_growth": 67.10000000000001,
+  "roe": 18.854554542566664,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

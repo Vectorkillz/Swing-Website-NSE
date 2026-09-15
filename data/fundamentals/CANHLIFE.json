@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1978672.0,
+  "debt_equity": 0.15304,
+  "eps_growth": 20.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:05:42+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 14380.9265664,
+  "name": "Canara HSBC Life Insurance Company Limited",
+  "revenue_growth": 18.3,
+  "roe": 8.276,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

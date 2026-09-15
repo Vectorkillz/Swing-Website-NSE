@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57956.0,
+  "debt_equity": 0.004,
+  "eps_growth": 73.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:27+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 2694.3039488,
+  "name": "Ador Welding Limited",
+  "revenue_growth": 5.2,
+  "roe": 11.880237858323744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

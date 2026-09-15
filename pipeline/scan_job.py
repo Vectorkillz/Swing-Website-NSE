@@ -69,6 +69,9 @@ def build_inputs_from_repo(
     index_store: OhlcvStore,
     fundamentals: FundamentalsStore,
 ) -> tuple[ScanInputs, list[dict[str, Any]]]:
+    """`universe` should already be the combined (F&O + full equity) snapshot; see
+    pipeline.jobs.load_combined_universe. Each row's fno_eligible flag controls whether
+    short setups are attempted for it."""
     failures: list[dict[str, Any]] = []
     symbols = []
     for row in sorted(universe.rows, key=lambda r: r.symbol):
@@ -77,7 +80,7 @@ def build_inputs_from_repo(
         except (ValueError, KeyError, OSError) as exc:
             failures.append({"symbol": row.symbol, "stage": "load_ohlcv", "error": f"{type(exc).__name__}: {exc}"})
             daily = None
-        symbols.append(SymbolInput(row.symbol, daily, fundamentals.load(row.symbol), sector=row.sector, name=row.name))
+        symbols.append(SymbolInput(row.symbol, daily, fundamentals.load(row.symbol), sector=row.sector, name=row.name, fno_eligible=row.fno_eligible))
     nifty = index_store.load("NIFTY")
     vix_df = index_store.load("INDIAVIX")
     vix = None

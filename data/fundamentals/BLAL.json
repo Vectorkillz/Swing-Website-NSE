@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20425.0,
+  "debt_equity": 10.625,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:43+00:00",
+  "industry": "Shell Companies",
+  "market_cap_cr": 670.5180672,
+  "name": "BEML Land Assets Limited",
+  "revenue_growth": null,
+  "roe": 205.25076644145472,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

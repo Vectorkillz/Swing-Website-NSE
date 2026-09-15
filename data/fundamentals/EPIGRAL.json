@@ -1,0 +1,15 @@
+{
+  "avg_volume": 89838.0,
+  "debt_equity": 0.25751,
+  "eps_growth": -37.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:11:33+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 4711.8966784,
+  "name": "Epigral Limited",
+  "revenue_growth": 16.3,
+  "roe": 12.200252630853566,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 893127.0,
+  "debt_equity": 0.014110000000000001,
+  "eps_growth": -1.7999999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:11+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 7235.0892032,
+  "name": "Cello World Limited",
+  "revenue_growth": -0.3,
+  "roe": 12.005373220324524,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

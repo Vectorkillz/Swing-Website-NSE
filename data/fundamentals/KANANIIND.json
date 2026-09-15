@@ -1,0 +1,15 @@
+{
+  "avg_volume": 129219.0,
+  "debt_equity": 0.006919999999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:57+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 28.492992,
+  "name": "Kanani Industries Limited",
+  "revenue_growth": -23.200000000000003,
+  "roe": 2.9956464494206108,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

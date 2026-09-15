@@ -1,0 +1,15 @@
+{
+  "avg_volume": 447178.0,
+  "debt_equity": 0.1597,
+  "eps_growth": 925.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:10+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 2322.3672832,
+  "name": "JNK India Limited",
+  "revenue_growth": 81.5,
+  "roe": 13.252855127371005,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

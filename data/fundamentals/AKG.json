@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40027.0,
+  "debt_equity": 0.1082,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:34+00:00",
+  "industry": "Industrial Distribution",
+  "market_cap_cr": 33.3018496,
+  "name": "AKG Exim Limited",
+  "revenue_growth": -27.400000000000002,
+  "roe": 0.7631494115947599,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

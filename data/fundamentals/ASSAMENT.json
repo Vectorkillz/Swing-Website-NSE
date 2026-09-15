@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14.0,
+  "debt_equity": 0.02863,
+  "eps_growth": -18.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:54+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": null,
+  "name": "Assam Entrade Limited",
+  "revenue_growth": 100.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

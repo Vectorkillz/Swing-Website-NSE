@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1216041.0,
+  "debt_equity": 0.00542,
+  "eps_growth": 158.9,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:00:31+00:00",
+  "industry": "Oil & Gas E&P",
+  "market_cap_cr": 3719.4747904,
+  "name": "Antelopus Selan Energy Limited",
+  "revenue_growth": 65.3,
+  "roe": 14.704999999999998,
+  "roe_source": "returnOnEquity",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

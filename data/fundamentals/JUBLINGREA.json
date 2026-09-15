@@ -1,0 +1,15 @@
+{
+  "avg_volume": 411272.0,
+  "debt_equity": 0.25328,
+  "eps_growth": 40.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:32+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 9944.0279552,
+  "name": "Jubilant Ingrevia Limited",
+  "revenue_growth": 25.3,
+  "roe": 9.891649259447947,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -16,12 +16,19 @@ NaN is never emitted (missing values are `null`). Keys are sorted.
   * `coverage_pct`, `ban_list {available, source, as_of, n}`, `universe {source, as_of, n_symbols, stale}`
   * `open_positions_applied` (always 0 from the pipeline), `budget` (`PortfolioBudget`), `warnings[]`, `failures[{symbol, stage, error}]`
   * `config_version`, `config_hash`, `input_hash`, `engine_version`, `generated_at`
-* `data/runs/{run_id}/candidates.json` — `{candidates: Candidate[]}`. Each candidate carries `score` (raw, max_possible, normalised, display, band, components[]), `plan` (`TradePlan`: entry, entry_max, stop, stop_rule, floor_applied, stop_candidates, stop_distance_pct, risk_per_share, sizing_price, qty_raw, qty_after_regime, qty, caps_applied, position_value, risk_amount, exits, weekly trails), detector outputs (`leg`, `vcp`, `bar_pattern`, `colour_change`, `rs_vs_nifty`, `short_signals`), `gate` checks, `fundamentals`, `indicators`, `rank`, `rank_status`, `rank_reason`, `warnings`, `reason_text`.
+* `data/runs/{run_id}/candidates.json` — `{candidates: Candidate[]}`. Each candidate carries `score` (raw, max_possible, normalised, display, band, components[]), `grade` (`GradeResult`: A++/A+/A/B+/B, regime alignment, fundamentals-strong flag for longs, `reasons[]` — deterministic, no modelled likelihood figure), `plan` (`TradePlan`: entry, entry_max, stop, stop_rule, floor_applied, stop_candidates, target, target_rule, reward_risk, extended_target, weekly trails — price levels only, no sizing), `fno_eligible`, `cap_bucket`, `market_cap_cr`, `multibagger` tag, `context` (52-week range, ATR%, RS), detector outputs (`leg`, `vcp`, `bar_pattern`, `colour_change`, `rs_vs_nifty`, `short_signals`), `gate` checks, `fundamentals`, `rank`, `rank_status`, `rank_reason`, `warnings`, `reason_text`.
 * `data/runs/{run_id}/symbol_status.json` — `{statuses: [{symbol, stage_reached, outcome, reasons[]}]}`.
 
 ## Charts
 
 `data/charts/{SYMBOL}.json` — `{symbol, as_of, daily: [{d,o,h,l,c,v,ema10,ema20,ema50,ema200,sma150,atr14,vol20}], weekly: [{d,c,ema,sma}], annotations: {leg{start,end,high,mean_volume}, vcp_depth_pct, recent_mean_volume, trigger, trigger_kind, entry, entry_max, stop}}`. Written for every candidate symbol of the latest run.
+
+## Universe
+
+* `data/universe/fno_universe.csv` + `status.json` — the ~211-symbol F&O list. Every row is short-eligible.
+* `data/universe/nse_equity_list.csv` + `equity_status.json` — the ~2,300-symbol full NSE cash-equity list. Long-only (`fno_eligible=false`).
+* `runs/{id}/universe.json` — `{rows: UniverseRow[]}`, one row per scanned symbol: cap bucket, `fno_eligible`, trend stage, relative strength, 52-week context, multibagger tag, swing-tradability, and which side (if any) produced a setup that session. Powers the Universe page.
+* `data/ohlcv/daily/{SYMBOL}.csv` — deployed as static files (`date,open,high,low,close,volume`) so the browser can look up price history for any symbol directly, without a new endpoint. Used by the Track Record page.
 
 ## Config
 

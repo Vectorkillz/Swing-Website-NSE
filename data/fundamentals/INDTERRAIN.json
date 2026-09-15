@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35097.0,
+  "debt_equity": 0.55334,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:13+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 141.919296,
+  "name": "Indian Terrain Fashions Limited",
+  "revenue_growth": 18.8,
+  "roe": 0.2414488958408254,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1857653.0,
+  "debt_equity": 0.27313,
+  "eps_growth": 34.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:18:31+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 2853.7022464,
+  "name": "Imagicaaworld Entertainment Limited",
+  "revenue_growth": 19.900000000000002,
+  "roe": 0.7773659271486463,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

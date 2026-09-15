@@ -1,0 +1,15 @@
+{
+  "avg_volume": 192975.0,
+  "debt_equity": 2.22411,
+  "eps_growth": -18.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:04+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 37188.354048,
+  "name": "Godrej Industries Limited",
+  "revenue_growth": -4.7,
+  "roe": 10.517683200649994,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

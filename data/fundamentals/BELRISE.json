@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4402956.0,
+  "debt_equity": 0.29100000000000004,
+  "eps_growth": -8.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:02+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 21921.4659584,
+  "name": "Belrise Industries Limited",
+  "revenue_growth": 12.6,
+  "roe": 8.923231515160625,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 45845.0,
+  "debt_equity": 1.90256,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:18+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 2012.1901056,
+  "name": "Arman Financial Services Limited",
+  "revenue_growth": 265.7,
+  "roe": 12.478594501171624,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

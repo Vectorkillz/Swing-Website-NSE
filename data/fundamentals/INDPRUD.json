@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58.0,
+  "debt_equity": null,
+  "eps_growth": -20.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:19:08+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": null,
+  "name": "Industrial And Prudential Investment Company Limited",
+  "revenue_growth": -6.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

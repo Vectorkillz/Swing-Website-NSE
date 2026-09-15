@@ -23,7 +23,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def cfg() -> ScanConfig:
-    return load_profile(ROOT / "config" / "profiles" / "v002.json")[1]
+    return load_profile(ROOT / "config" / "profiles" / "v003.json")[1]
 
 
 def load_fixture(name: str) -> pd.DataFrame:

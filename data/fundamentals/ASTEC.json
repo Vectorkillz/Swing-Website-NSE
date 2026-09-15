@@ -1,0 +1,15 @@
+{
+  "avg_volume": 150028.0,
+  "debt_equity": 1.1484,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:56+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 1501.1544064,
+  "name": "Astec LifeSciences Limited",
+  "revenue_growth": -8.3,
+  "roe": -17.049713120274102,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

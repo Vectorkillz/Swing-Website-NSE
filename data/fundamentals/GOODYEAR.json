@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12944.0,
+  "debt_equity": 0.04446,
+  "eps_growth": -53.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:15+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1644.5266944,
+  "name": "Goodyear India Limited",
+  "revenue_growth": 18.0,
+  "roe": 8.891600020610532,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

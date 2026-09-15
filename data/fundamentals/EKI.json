@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13046.0,
+  "debt_equity": 0.01414,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:33+00:00",
+  "industry": "Consulting Services",
+  "market_cap_cr": null,
+  "name": "EKI Energy Services Limited",
+  "revenue_growth": -30.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

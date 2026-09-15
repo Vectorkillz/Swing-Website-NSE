@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10526.0,
+  "debt_equity": 1.06303,
+  "eps_growth": -93.30000000000001,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T13:59:25+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 126.33184,
+  "name": "Airo Lam Limited",
+  "revenue_growth": 9.2,
+  "roe": 7.005,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

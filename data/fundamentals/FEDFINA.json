@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1544604.0,
+  "debt_equity": 4.6734100000000005,
+  "eps_growth": 50.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:23+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 5758.152704,
+  "name": "Fedbank Financial Services Limited",
+  "revenue_growth": 32.4,
+  "roe": 13.056875390417439,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

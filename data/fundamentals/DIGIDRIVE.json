@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20232.0,
+  "debt_equity": 0.0032,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:25+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 67.7918144,
+  "name": "Digidrive Distributors Limited",
+  "revenue_growth": 6.800000000000001,
+  "roe": 2.1400921094374734,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

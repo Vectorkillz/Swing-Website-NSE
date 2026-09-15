@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12.0,
+  "debt_equity": null,
+  "eps_growth": -18.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:36+00:00",
+  "industry": "",
+  "market_cap_cr": null,
+  "name": "Elcid Investments Limited",
+  "revenue_growth": -20.200000000000003,
+  "roe": null,
+  "roe_source": null,
+  "sector": "",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 112941.0,
+  "debt_equity": 0.44214,
+  "eps_growth": -80.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:03:33+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 43.7852416,
+  "name": "Bang Overseas Limited",
+  "revenue_growth": 17.8,
+  "roe": 6.564122993919874,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

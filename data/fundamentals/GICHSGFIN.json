@@ -1,0 +1,15 @@
+{
+  "avg_volume": 125753.0,
+  "debt_equity": 4.32907,
+  "eps_growth": 35.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:05+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 726.3969792,
+  "name": "GIC Housing Finance Limited",
+  "revenue_growth": 386.7,
+  "roe": 7.476260681715452,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

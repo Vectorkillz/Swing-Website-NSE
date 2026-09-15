@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10174.0,
+  "debt_equity": 0.07554999999999999,
+  "eps_growth": 303.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:59:40+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 486.193152,
+  "name": "Albert David Limited",
+  "revenue_growth": 43.6,
+  "roe": 5.763320951952877,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

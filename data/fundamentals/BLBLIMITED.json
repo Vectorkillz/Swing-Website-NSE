@@ -1,0 +1,15 @@
+{
+  "avg_volume": 111184.0,
+  "debt_equity": 0.01655,
+  "eps_growth": -51.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:44+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 85.1130624,
+  "name": "BLB Limited",
+  "revenue_growth": 60.6,
+  "roe": 20.995380458947235,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

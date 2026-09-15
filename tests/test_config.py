@@ -26,7 +26,7 @@ def test_active_points_at_existing_profile():
 def test_profile_is_explicit_about_every_field():
     """The committed profile must spell out every field so a default change in code never
     silently changes a versioned profile."""
-    raw = json.loads((ROOT / "config" / "profiles" / "v002.json").read_text())
+    raw = json.loads((ROOT / "config" / "profiles" / "v003.json").read_text())
     assert set(raw) == set(ScanConfig.model_fields)
 
 

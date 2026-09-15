@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1160005.0,
+  "debt_equity": 0.29735,
+  "eps_growth": 53.400000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:30+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 21622.759424,
+  "name": "Granules India Limited",
+  "revenue_growth": 22.0,
+  "roe": 13.025548588900001,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

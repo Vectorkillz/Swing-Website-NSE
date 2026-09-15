@@ -1,0 +1,15 @@
+{
+  "avg_volume": 852175.0,
+  "debt_equity": 0.03102,
+  "eps_growth": -14.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:57+00:00",
+  "industry": "Biotechnology",
+  "market_cap_cr": 9551.8736384,
+  "name": "Blue Jet Healthcare Limited",
+  "revenue_growth": -17.4,
+  "roe": 17.27384993285714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

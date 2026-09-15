@@ -1,0 +1,15 @@
+{
+  "avg_volume": 139042.0,
+  "debt_equity": 0.98417,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:15:39+00:00",
+  "industry": "Lumber & Wood Production",
+  "market_cap_cr": 5780.881408,
+  "name": "Greenlam Industries Limited",
+  "revenue_growth": 18.2,
+  "roe": 7.880317509624558,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

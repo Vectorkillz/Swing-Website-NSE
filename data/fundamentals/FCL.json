@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15847007.0,
+  "debt_equity": 0.00872,
+  "eps_growth": 88.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:12:15+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 6274.330624,
+  "name": "Fineotex Chemical Limited",
+  "revenue_growth": 174.8,
+  "roe": 9.902631797283627,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

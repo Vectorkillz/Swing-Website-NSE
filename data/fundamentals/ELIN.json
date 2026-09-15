@@ -1,0 +1,15 @@
+{
+  "avg_volume": 338111.0,
+  "debt_equity": 0.029689999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:10:50+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 433.2158464,
+  "name": "Elin Electronics Limited",
+  "revenue_growth": 22.8,
+  "roe": -1.4161554488034298,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

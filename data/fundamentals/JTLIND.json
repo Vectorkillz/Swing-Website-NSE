@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3369255.0,
+  "debt_equity": 0.16038,
+  "eps_growth": 143.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:29+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 3241.7441792,
+  "name": "JTL Industries Limited",
+  "revenue_growth": 32.7,
+  "roe": 7.036068832849651,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

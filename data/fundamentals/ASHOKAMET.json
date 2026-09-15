@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39301.0,
+  "debt_equity": 0.43156999999999995,
+  "eps_growth": 186.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:44+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 37.8439456,
+  "name": "Ashoka Metcast Limited",
+  "revenue_growth": -25.4,
+  "roe": 7.557584345212831,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

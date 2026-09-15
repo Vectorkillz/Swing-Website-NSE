@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20301.0,
+  "debt_equity": 0.20446999999999999,
+  "eps_growth": 24.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:27+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 682.1700096,
+  "name": "Jayant Agro-Organics Limited",
+  "revenue_growth": 18.5,
+  "roe": 8.91157561470939,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

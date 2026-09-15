@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15287.0,
+  "debt_equity": 0.34564999999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:01:00+00:00",
+  "industry": "Specialty Retail",
+  "market_cap_cr": 41.5156192,
+  "name": "Archies Limited",
+  "revenue_growth": -41.9,
+  "roe": -4.793024634203632,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

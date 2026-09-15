@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3828.0,
+  "debt_equity": 0.8810800000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:14:38+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 629.3468672,
+  "name": "Gloster Limited",
+  "revenue_growth": 39.800000000000004,
+  "roe": 1.1756499429523388,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

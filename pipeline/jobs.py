@@ -10,8 +10,8 @@ from typing import Optional
 
 from engine.config import ScanConfig, load_profile
 from ingestion.calendar import NseCalendar
-from ingestion.csv_providers import CsvBanListProvider, CsvUniverseProvider
-from ingestion.protocols import BanListSnapshot, UniverseSnapshot
+from ingestion.csv_providers import CsvBanListProvider, CsvEquityUniverseProvider, CsvUniverseProvider
+from ingestion.protocols import BanListSnapshot, UniverseSnapshot, merge_universes
 from ingestion.store import FundamentalsStore, OhlcvStore
 from pipeline import paths
 from pipeline.ingest_job import ingest
@@ -31,7 +31,26 @@ def _stores(cfg: ScanConfig) -> tuple[OhlcvStore, OhlcvStore, FundamentalsStore]
 
 
 def load_universe() -> Optional[UniverseSnapshot]:
+    """F&O universe only (~211 symbols). Used for short eligibility and the ban list."""
     return CsvUniverseProvider(paths.UNIVERSE).fetch()
+
+
+def load_equity_universe() -> Optional[UniverseSnapshot]:
+    """Full NSE cash-equity list (~2,000 symbols). Long-only."""
+    return CsvEquityUniverseProvider(paths.UNIVERSE).fetch()
+
+
+def load_combined_universe() -> Optional[UniverseSnapshot]:
+    """Union used for ingestion and scanning: every equity list row plus every F&O row,
+    deduplicated, with fno_eligible=True wherever the F&O list says so."""
+    fno = load_universe()
+    if fno is None:
+        return None
+    equity = load_equity_universe()
+    rows = merge_universes(fno, equity)
+    as_of = fno.as_of if equity is None else min(fno.as_of, equity.as_of)
+    source = fno.source if equity is None else "combined"
+    return UniverseSnapshot(tuple(rows), as_of, source)
 
 
 def _live(live_enabled: bool):
@@ -74,6 +93,35 @@ def job_refresh_universe(live_enabled: bool = True) -> str:
     return _finish(job, "failed")
 
 
+def job_refresh_equity_list(live_enabled: bool = True) -> str:
+    """Full NSE cash-equity list (~2,000 symbols), the long-side scanning universe."""
+    job = JobLog(paths.JOBS, "refresh_equity_list")
+    csv = CsvEquityUniverseProvider(paths.UNIVERSE)
+    snap = None
+    err = "live_disabled"
+    if live_enabled:
+        from ingestion.equity_universe import NseEquityListProvider
+
+        live = NseEquityListProvider()
+        snap = live.fetch()
+        err = live.last_error
+    if snap is not None:
+        csv.save(snap, live_error=None)
+        job.counters["n_symbols"] = len(snap.symbols)
+        job.counters["source"] = "live"
+        return _finish(job, "ok")
+    existing = csv.fetch()
+    if existing is not None:
+        csv.save(existing, live_error=err)
+        job.counters["n_symbols"] = len(existing.symbols)
+        job.counters["source"] = existing.source
+        job.error(stage="live_fetch", error=err)
+        return _finish(job, "fallback_csv")
+    job.error(stage="live_fetch", error=err)
+    job.error(stage="fallback", error="no committed equity list CSV; upload data/universe/nse_equity_list.csv")
+    return _finish(job, "failed")
+
+
 def job_refresh_ban_list(session: date, live_enabled: bool = True) -> tuple[Optional[BanListSnapshot], Optional[str]]:
     from ingestion.csv_providers import applicable
 
@@ -95,7 +143,7 @@ def job_ingest(as_of: Optional[date] = None, full: bool = False, profile: Option
     cal = NseCalendar(paths.CALENDAR)
     as_of = as_of or cal.expected_last_session()
     job.extra["as_of"] = as_of.isoformat()
-    uni = load_universe()
+    uni = load_combined_universe()
     if uni is None and not symbols:
         job.error(stage="universe", error="no universe snapshot")
         return _finish(job, "failed")
@@ -111,7 +159,7 @@ def job_refresh_fundamentals(shard: str = "0/1", profile: Optional[str] = None, 
     version, cfg = active_profile(profile)
     job = JobLog(paths.JOBS, "refresh_fundamentals")
     k, n = (int(x) for x in shard.split("/"))
-    uni = load_universe()
+    uni = load_combined_universe()
     if uni is None:
         job.error(stage="universe", error="no universe snapshot")
         return _finish(job, "failed")
@@ -145,7 +193,7 @@ def job_scan(session: Optional[date] = None, profile: Optional[str] = None, live
     if not cal.is_trading_day(session):
         job.error(stage="calendar", error=f"{session} is not a trading day")
         return _finish(job, "skipped_holiday")
-    uni = load_universe()
+    uni = load_combined_universe()
     if uni is None:
         job.error(stage="universe", error="no universe snapshot; upload data/universe/fno_universe.csv")
         return _finish(job, "failed")

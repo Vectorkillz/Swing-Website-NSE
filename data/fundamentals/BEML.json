@@ -1,0 +1,15 @@
+{
+  "avg_volume": 392437.0,
+  "debt_equity": 0.10529,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:04:04+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 16152.2368512,
+  "name": "BEML Limited",
+  "revenue_growth": 29.299999999999997,
+  "roe": 6.082851109466263,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

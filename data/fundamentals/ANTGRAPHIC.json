@@ -1,0 +1,15 @@
+{
+  "avg_volume": 200010.0,
+  "debt_equity": null,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:33+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 11.4707104,
+  "name": "Antarctica Limited",
+  "revenue_growth": 710.5,
+  "roe": 12.187000000000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

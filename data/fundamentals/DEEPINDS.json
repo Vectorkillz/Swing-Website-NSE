@@ -1,0 +1,15 @@
+{
+  "avg_volume": 545845.0,
+  "debt_equity": 0.09609999999999999,
+  "eps_growth": 45.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:53+00:00",
+  "industry": "Oil & Gas E&P",
+  "market_cap_cr": 4674.56,
+  "name": "Deep Industries Limited",
+  "revenue_growth": 39.800000000000004,
+  "roe": 10.344435074533544,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

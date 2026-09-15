@@ -1,0 +1,15 @@
+{
+  "avg_volume": 319143.0,
+  "debt_equity": 0.32043,
+  "eps_growth": 5.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:57:26+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 710.2820352,
+  "name": "20 Microns Limited",
+  "revenue_growth": -1.0,
+  "roe": 14.008378195362022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

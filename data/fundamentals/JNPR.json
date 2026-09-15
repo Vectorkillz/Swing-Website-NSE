@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4814232.0,
+  "debt_equity": 4.01898,
+  "eps_growth": 54.50000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:12+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 15050.0098048,
+  "name": "Juniper Green Energy Limited",
+  "revenue_growth": 81.2,
+  "roe": 1.3109270163470466,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

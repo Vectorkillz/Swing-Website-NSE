@@ -1,0 +1,15 @@
+{
+  "avg_volume": 338456.0,
+  "debt_equity": 0.27903,
+  "eps_growth": 207.39999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:08:51+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 21295.046656,
+  "name": "Deepak Nitrite Limited",
+  "revenue_growth": 36.4,
+  "roe": 13.42081012646458,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

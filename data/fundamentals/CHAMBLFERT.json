@@ -1,0 +1,15 @@
+{
+  "avg_volume": 573057.0,
+  "debt_equity": 0.10274,
+  "eps_growth": -4.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:06:33+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 16693.1775488,
+  "name": "Chambal Fertilisers and Chemicals Limited",
+  "revenue_growth": -11.799999999999999,
+  "roe": 18.50104976507342,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1822676.0,
+  "debt_equity": 0.01655,
+  "eps_growth": 4.1000000000000005,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:21:36+00:00",
+  "industry": "Internet Content & Information",
+  "market_cap_cr": 5628.9697792,
+  "name": "Just Dial Limited",
+  "revenue_growth": 9.9,
+  "roe": 9.861274203060304,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

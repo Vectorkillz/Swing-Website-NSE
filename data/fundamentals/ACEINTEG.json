@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10152.0,
+  "debt_equity": 0.00479,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T13:58:14+00:00",
+  "industry": "Staffing & Employment Services",
+  "market_cap_cr": 18.105,
+  "name": "Ace Integrated Solutions Limited",
+  "revenue_growth": -70.5,
+  "roe": -7.07353648530119,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,15 +1,26 @@
 {
   "runs": [
     {
-      "config_version": "v002",
-      "coverage_pct": 99.05,
-      "generated_at": "2026-09-15T11:34:57+00:00",
+      "config_version": "v003",
+      "coverage_pct": 89.12,
+      "generated_at": "2026-09-15T14:20:00+00:00",
+      "n_longs": 1,
+      "n_shorts": 10,
+      "regime": "NEUTRAL",
+      "run_id": "2026-09-15_v003_0883865b",
+      "session_date": "2026-09-15",
+      "status": "degraded"
+    },
+    {
+      "config_version": "v003",
+      "coverage_pct": 9.06,
+      "generated_at": "2026-09-15T13:37:00+00:00",
       "n_longs": 0,
       "n_shorts": 10,
       "regime": "NEUTRAL",
-      "run_id": "2026-09-11_v002_3e02a4a9",
+      "run_id": "2026-09-11_v003_0d8159a1",
       "session_date": "2026-09-11",
-      "status": "ok"
+      "status": "degraded"
     }
   ],
   "schema_version": 2

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2613953.0,
+  "debt_equity": 0.11703,
+  "eps_growth": 13.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:00:19+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 21085.1905536,
+  "name": "Anant Raj Limited",
+  "revenue_growth": 6.6000000000000005,
+  "roe": 10.032982518784987,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

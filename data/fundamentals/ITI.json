@@ -1,0 +1,15 @@
+{
+  "avg_volume": 436570.0,
+  "debt_equity": 0.40143999999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:20:02+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 24591.2387584,
+  "name": "ITI Limited",
+  "revenue_growth": -14.7,
+  "roe": 17.000639179274494,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1847405.0,
+  "debt_equity": 0.5794400000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:09:28+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 1268.9235968,
+  "name": "Digitide Solutions Limited",
+  "revenue_growth": 5.3,
+  "roe": -2.8638912920206536,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

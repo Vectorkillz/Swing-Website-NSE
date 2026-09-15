@@ -1,0 +1,15 @@
+{
+  "avg_volume": 304310.0,
+  "debt_equity": 0.44065,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:02:18+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 1698.6323968,
+  "name": "Aurum PropTech Limited",
+  "revenue_growth": 63.5,
+  "roe": -0.15146952138590053,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}
