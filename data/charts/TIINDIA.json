@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 2600.8879,
     "entry_max": null,
-    "stop": 2671.252602
+    "extended_target": 2389.793792,
+    "stop": 2671.252602,
+    "target": 2460.158494
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 447150.4
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "TIINDIA",
   "weekly": [
     {

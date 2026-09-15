@@ -95,6 +95,22 @@ These were confirmed with the owner before implementation.
 8. **entry_max (7.12):** enforced as a do-not-chase limit. Long sizing uses `entry_max` as the
    worst-case fill so risk never exceeds the budget; the journal will warn on fills above it.
 
+## v2 changes (2026-09-15, owner request)
+
+* **Price levels only.** Position sizing, capital, portfolio caps and the journal were removed
+  from the engine and the UI. A plan is: entry zone (with a do-not-chase upper bound), stop
+  loss, target and an extended target. Stop-distance floor and level ordering invariants remain.
+* **Target rule.** Structure-based with a 1R floor: long target = momentum-leg high, short target
+  = lowest low of the last 20 bars; if that level is inside 1R or on the wrong side of entry the
+  target is 2R. The card shows the resulting reward:risk.
+* **Market-cap buckets** (Large / Mid / Small / Micro) from editable thresholds in config.
+* **Multibagger potential tag** (heuristic, not backtested): Stage 2, above SMA150, 30%+ above
+  the 52-week low, within 25% of the 52-week high, positive relative strength, not large cap;
+  "strong" additionally needs revenue growth ≥ 20% or EPS growth ≥ 25%.
+* **Universe screen**: every F&O stock with trend stage, RS, ATR%, distance from 52-week high,
+  swing-tradability (volume and ATR range) and the multibagger tag.
+* UI reduced to three pages: Scanner, Universe, Data. Config schema is v2 (`config/profiles/v002.json`).
+
 ## Deviations from the build document
 
 * **Stack.** FastAPI, PostgreSQL, Celery and Docker are replaced by GitHub Actions + committed JSON

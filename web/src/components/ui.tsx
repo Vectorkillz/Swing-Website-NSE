@@ -1,9 +1,9 @@
 import type { ReactNode } from "react";
-import type { Band, Regime, RankStatus, Side } from "../lib/types";
+import type { Band, CapBucket, MultibaggerLevel, Regime, Side } from "../lib/types";
 
-export function Card({ title, children, className = "", right }: { title?: ReactNode; children: ReactNode; className?: string; right?: ReactNode }) {
+export function Card({ title, children, className = "", right, hover = false }: { title?: ReactNode; children: ReactNode; className?: string; right?: ReactNode; hover?: boolean }) {
   return (
-    <section className={`card ${className}`}>
+    <section className={`card ${hover ? "card-hover" : ""} ${className}`}>
       {(title || right) && (
         <div className="mb-3 flex items-center justify-between gap-2">
           {title && <h2 className="text-sm font-semibold">{title}</h2>}
@@ -15,61 +15,57 @@ export function Card({ title, children, className = "", right }: { title?: React
   );
 }
 
-/** A value with its unit and a tooltip naming the rule that produced it. */
-export function Stat({ label, value, unit, rule }: { label: string; value: ReactNode; unit?: string; rule?: string }) {
+export function Level({ label, value, tone = "", rule, big = false }: { label: string; value: ReactNode; tone?: string; rule?: string; big?: boolean }) {
   return (
-    <div className="min-w-[7rem]">
-      <div className="label">{label}</div>
-      <div className="mono text-base">
-        {rule ? <span className="tip" data-tip={rule} tabIndex={0}>{value}</span> : value}
-        {unit && <span className="ml-1 text-xs text-muted">{unit}</span>}
-      </div>
+    <div className="min-w-0">
+      <div className="label">{rule ? <span className="tip" data-tip={rule} tabIndex={0}>{label}</span> : label}</div>
+      <div className={`mono ${big ? "text-xl md:text-2xl" : "text-base"} ${tone}`}>{value}</div>
     </div>
   );
 }
 
-export function Warn({ children, level = "warn" }: { children: ReactNode; level?: "warn" | "error" | "info" }) {
-  const cls = level === "error" ? "border-short/60 bg-short/10" : level === "info" ? "border-accent/60 bg-accent/10" : "border-warn/60 bg-warn/10";
-  return <div className={`rounded-md border px-3 py-2 text-sm ${cls}`} role={level === "error" ? "alert" : "status"}>{children}</div>;
+export function Notice({ children, level = "warn" }: { children: ReactNode; level?: "warn" | "error" | "info" }) {
+  const cls = level === "error" ? "bg-short/10 text-short" : level === "info" ? "bg-blue/10 text-blue" : "bg-warn/10 text-warn";
+  return <div className={`rounded-xl px-3 py-2 text-sm ${cls}`} role={level === "error" ? "alert" : "status"}>{children}</div>;
 }
 
 export function Empty({ children }: { children: ReactNode }) {
-  return <div className="rounded-md border border-dashed border-line p-6 text-center text-sm text-muted">{children}</div>;
+  return <div className="rounded-2xl border border-dashed border-white/10 p-8 text-center text-sm text-muted">{children}</div>;
 }
 
-export function Loading({ what }: { what: string }) {
-  return <div className="text-sm text-muted" aria-busy="true">Loading {what}…</div>;
+export function Skeleton({ h = 80 }: { h?: number }) {
+  return <div className="skeleton w-full" style={{ height: h }} aria-busy="true" />;
 }
 
 const REGIME_CLS: Record<Regime, string> = {
-  BULL: "bg-long/20 text-long",
-  BULL_HIGH_VIX: "bg-warn/20 text-warn",
-  NEUTRAL: "bg-muted/20 text-text",
-  BEAR: "bg-short/20 text-short",
-  UNKNOWN: "bg-line text-muted",
+  BULL: "bg-long/20 text-long", BULL_HIGH_VIX: "bg-warn/20 text-warn", NEUTRAL: "bg-white/10 text-text", BEAR: "bg-short/20 text-short", UNKNOWN: "bg-white/5 text-muted",
 };
-
 export function RegimeBadge({ regime }: { regime: Regime }) {
   return <span className={`badge ${REGIME_CLS[regime]}`}>{regime.replace("_", " ")}</span>;
 }
 
 export function SideBadge({ side }: { side: Side }) {
-  return <span className={`badge ${side === "long" ? "bg-long/20 text-long" : "bg-short/20 text-short"}`}>{side.toUpperCase()}</span>;
+  return <span className={`badge ${side === "long" ? "bg-long/20 text-long" : "bg-short/20 text-short"}`}>{side === "long" ? "LONG SETUP" : "SHORT SETUP"}</span>;
 }
 
 export function BandBadge({ band }: { band: Band }) {
-  const cls = band === "A" ? "bg-long/20 text-long" : band === "B" ? "bg-accent/20 text-accent" : "bg-muted/20 text-muted";
-  return <span className={`badge ${cls}`} title="Ordinal band from raw score thresholds (band_a_min / band_b_min). An ordinal label, not a likelihood estimate.">Band {band}</span>;
+  const cls = band === "A" ? "bg-long/20 text-long" : band === "B" ? "bg-blue/20 text-blue" : "bg-white/10 text-muted";
+  return <span className={`badge ${cls}`} title="Ordinal band from raw score thresholds. A label, not a likelihood estimate.">Band {band}</span>;
 }
 
-export function RankBadge({ status, reason }: { status: RankStatus | null; reason: string | null }) {
-  if (!status) return <span className="badge bg-line text-muted" title={reason ?? undefined}>unranked</span>;
-  if (status === "ranked") return <span className="badge bg-long/20 text-long">ranked</span>;
-  const cls = status === "not_in_top_n" ? "bg-line text-muted" : "bg-warn/20 text-warn";
-  return <span className={`badge ${cls}`} title={reason ?? undefined}>{status.replace(/_/g, " ")}</span>;
+export const CAP_LABEL: Record<CapBucket, string> = { large: "Large cap", mid: "Mid cap", small: "Small cap", micro: "Micro cap", unknown: "Cap unknown" };
+export function CapBadge({ bucket }: { bucket: CapBucket }) {
+  return <span className="badge bg-white/10 text-muted">{CAP_LABEL[bucket]}</span>;
+}
+
+export function MultibaggerBadge({ level, met, total }: { level: MultibaggerLevel; met?: number; total?: number }) {
+  if (level === "none") return null;
+  const cls = level === "strong" ? "bg-accent/25 text-long" : "bg-warn/20 text-warn";
+  const title = "Heuristic trend-template tag: Stage 2, above SMA150, 30%+ off the 52-week low, within 25% of the 52-week high, relative strength > 0, not large cap. 'strong' also needs revenue or EPS growth. Not backtested.";
+  return <span className={`badge ${cls}`} title={title}>✦ {level === "strong" ? "Multibagger: strong" : "Multibagger: watch"}{met != null && total != null ? ` ${met}/${total}` : ""}</span>;
 }
 
 export function StatusBadge({ status }: { status: string }) {
-  const cls = status === "ok" ? "bg-long/20 text-long" : status.startsWith("degraded") || status.includes("unavailable") || status === "partial" ? "bg-warn/20 text-warn" : status === "failed" ? "bg-short/20 text-short" : "bg-line text-muted";
+  const cls = status === "ok" ? "bg-long/20 text-long" : status === "failed" ? "bg-short/20 text-short" : status.includes("degraded") || status.includes("unavailable") || status === "partial" ? "bg-warn/20 text-warn" : "bg-white/10 text-muted";
   return <span className={`badge ${cls}`}>{status}</span>;
 }

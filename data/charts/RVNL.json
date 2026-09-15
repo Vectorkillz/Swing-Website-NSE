@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 204.4902,
     "entry_max": null,
-    "stop": 210.0225
+    "extended_target": 187.8933,
+    "stop": 210.0225,
+    "target": 193.4256
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 3929795.6
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "RVNL",
   "weekly": [
     {

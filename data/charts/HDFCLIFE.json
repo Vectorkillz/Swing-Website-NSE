@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 528.94,
     "entry_max": null,
-    "stop": 543.25
+    "extended_target": 486.01,
+    "stop": 543.25,
+    "target": 508.7
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 3095219.45
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "HDFCLIFE",
   "weekly": [
     {

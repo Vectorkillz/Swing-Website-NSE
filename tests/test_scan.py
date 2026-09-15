@@ -10,7 +10,7 @@ from engine.scan import scan_universe
 from engine.types import Fundamentals, RankStatus, Regime, ScanInputs, Side, SymbolInput, SymbolOutcome
 from tests.conftest import ROOT, SESSION, load_fixture
 
-GOLDEN = ROOT / "tests" / "golden" / "scan_output_v001.json"
+GOLDEN = ROOT / "tests" / "golden" / "scan_output_v002.json"
 
 
 def build_inputs(fx, good, *, nifty="index_nifty_bull", vix=15.0, ban=frozenset(), symbols=None):
@@ -55,7 +55,13 @@ def test_universe_scan_bull(fx, good_fundamentals, cfg):
     tiny = next(c for c in longs if c.symbol == "TINY")
     assert tiny.plan.floor_applied
     assert res.counts["data_unavailable"] == 4
-    assert res.budget is not None and res.budget.accepted_risk_amount <= cfg.capital * cfg.max_portfolio_risk_pct / 100
+    for c in res.candidates:
+        assert c.plan.reward_risk >= cfg.target_min_rr - 1e-9
+        assert c.cap_bucket.value == "small"  # good_fundamentals market cap is 12,000 Cr
+    rows = {r.symbol: r for r in res.universe}
+    assert len(rows) == len(res.symbol_status)
+    assert rows["LONGOK"].stage == "stage2" and rows["LONGOK"].setup_side is Side.LONG
+    assert rows["ZERO"].close is None and rows["ZERO"].swing_suitable is None
 
 
 def test_no_scan_when_regime_unknown(fx, good_fundamentals, cfg):

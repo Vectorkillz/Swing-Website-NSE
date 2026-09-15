@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 1363.268,
     "entry_max": null,
-    "stop": 1397.364848
+    "extended_target": 1260.977457,
+    "stop": 1397.364848,
+    "target": 1295.074304
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 791711.6
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "CIPLA",
   "weekly": [
     {

@@ -13,6 +13,10 @@ on:
         description: "Refetch full history"
         type: boolean
         default: false
+      skip_ingest:
+        description: "Skip the yfinance download and scan the committed CSVs as they are (use after uploading your own data)"
+        type: boolean
+        default: false
 
 concurrency:
   group: data-writer
@@ -49,7 +53,7 @@ jobs:
           if [ "$code" != "0" ]; then exit $code; fi
           echo "trading_day=true" >> "$GITHUB_OUTPUT"
       - name: Ingest OHLCV (delta)
-        if: steps.cal.outputs.trading_day == 'true'
+        if: steps.cal.outputs.trading_day == 'true' && inputs.skip_ingest != true
         run: |
           python -m pipeline.cli ingest ${{ inputs.full_ingest == true && '--full' || '' }} ${{ inputs.session_date && format('--as-of {0}', inputs.session_date) || '' }}
       - name: Run scan

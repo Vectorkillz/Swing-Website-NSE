@@ -7,18 +7,18 @@ from datetime import date
 import pandas as pd
 
 from .config import ScanConfig
+from .context import cap_bucket, multibagger_tag, price_context, stage_label, swing_suitability
 from .detectors import colour_change, detect_bar_pattern, momentum_leg, rs_vs_index, short_signals, vcp
 from .gates import long_gate, short_gate
 from .indicators import add_indicators, last
-from .portfolio import apply_portfolio_constraints, rank_candidates
+from .portfolio import rank_candidates
 from .quality import check_daily
 from .regime import classify_regime
 from .risk import plan_long, plan_short
 from .scoring import LongFeatures, score_long, score_short
 from .types import (
     Candidate,
-    OpenPosition,
-    PortfolioBudget,
+    CapBucket,
     Regime,
     RegimeResult,
     ScanInputs,
@@ -27,6 +27,7 @@ from .types import (
     SymbolInput,
     SymbolOutcome,
     SymbolStatus,
+    UniverseRow,
 )
 
 INDICATOR_COLS = ("ema10", "ema20", "ema50", "ema200", "sma150", "atr14", "vol20")
@@ -77,18 +78,35 @@ def _short_reason(s) -> str:
     return " | ".join(parts) if parts else "Setup matched"
 
 
+def _universe_row(inp: SymbolInput, df: pd.DataFrame | None, outcome: SymbolOutcome, nifty_close, cfg: ScanConfig, side: Side | None) -> UniverseRow:
+    f = inp.fundamentals
+    mcap = f.market_cap_cr if f else None
+    bucket = cap_bucket(mcap, cfg)
+    sector = inp.sector or (f.sector if f else None)
+    name = inp.name or (f.name if f else None)
+    if df is None:
+        return UniverseRow(inp.symbol, name, sector, bucket, mcap, None, None, outcome, None, None, None, None, None, None, None, ("data unavailable",), side)
+    ctx = price_context(df)
+    rs = rs_vs_index(df["close"], nifty_close, cfg.rs_lookback_bars)
+    close = float(df["close"].iloc[-1])
+    e50, e200 = last(df, "ema50"), last(df, "ema200")
+    ok, notes = swing_suitability(ctx, f, cfg)
+    return UniverseRow(
+        symbol=inp.symbol, name=name, sector=sector, cap_bucket=bucket, market_cap_cr=mcap, close=close,
+        last_bar_date=pd.Timestamp(df.index[-1]).date().isoformat(), outcome=outcome, stage=stage_label(df),
+        above_ema50=(close > e50) if e50 is not None else None, above_ema200=(close > e200) if e200 is not None else None,
+        rs_vs_nifty=rs, context=ctx, multibagger=multibagger_tag(df, ctx, rs, f, bucket, cfg), swing_suitable=ok, swing_notes=notes, setup_side=side,
+    )
+
+
 def scan_symbol(
-    inp: SymbolInput,
-    regime: RegimeResult,
-    nifty_close: pd.Series | None,
-    ban_list: frozenset[str] | None,
-    session_date: date,
-    cfg: ScanConfig,
-) -> tuple[list[Candidate], SymbolStatus]:
+    inp: SymbolInput, regime: RegimeResult, nifty_close: pd.Series | None, ban_list: frozenset[str] | None, session_date: date, cfg: ScanConfig
+) -> tuple[list[Candidate], SymbolStatus, UniverseRow]:
     sym = inp.symbol
     problems = check_daily(inp.daily, session_date, cfg)
     if problems:
-        return [], SymbolStatus(sym, "quality", SymbolOutcome.DATA_UNAVAILABLE, tuple(problems))
+        st = SymbolStatus(sym, "quality", SymbolOutcome.DATA_UNAVAILABLE, tuple(problems))
+        return [], st, _universe_row(inp, None, st.outcome, nifty_close, cfg, None)
     assert inp.daily is not None
     df = add_indicators(inp.daily)
     close = float(df["close"].iloc[-1])
@@ -98,13 +116,18 @@ def scan_symbol(
     f = inp.fundamentals
     sector = inp.sector or (f.sector if f else None)
     name = inp.name or (f.name if f else None)
+    mcap = f.market_cap_cr if f else None
+    bucket = cap_bucket(mcap, cfg)
+    ctx = price_context(df)
+    rs = rs_vs_index(df["close"], nifty_close, cfg.rs_lookback_bars)
+    mb = multibagger_tag(df, ctx, rs, f, bucket, cfg)
 
     out: list[Candidate] = []
     reasons: list[str] = []
     stage = "gates"
     excluded = False
+    banned_short = False
 
-    # ---------------- long path ----------------
     if regime.longs_allowed:
         g = long_gate(f, cfg)
         if not g.passed:
@@ -129,30 +152,20 @@ def scan_symbol(
                 else:
                     bp = detect_bar_pattern(df, cfg)
                     cc = colour_change(df)
-                    rs = rs_vs_index(df["close"], nifty_close, cfg.rs_lookback_bars)
-                    feats = LongFeatures(leg, v, bp, cc, rs, f)
-                    sc = score_long(feats, cfg)
+                    sc = score_long(LongFeatures(leg, v, bp, cc, rs, f), cfg)
                     stage = "scoring"
                     if sc.raw < cfg.min_score_long:
                         reasons.append(f"long:score {sc.raw:g} < {cfg.min_score_long:g}")
                     else:
                         stage = "plan"
-                        plan = None
-                        if atr is not None:
-                            plan = plan_long(close, float(df["low"].iloc[-2]), atr, regime, cfg, inp.daily)
-                        warnings = []
-                        if plan is None:
-                            warnings.append("no_plan:risk_per_share<=0 or ATR unavailable")
-                        out.append(
-                            Candidate(
-                                symbol=sym, side=Side.LONG, sector=sector, name=name, close=close, last_bar_date=last_date,
-                                score=sc, plan=plan, gate=g, leg=leg, vcp=v, bar_pattern=bp, colour_change=cc,
-                                rs_vs_nifty=rs, fundamentals=f, indicators=ind, warnings=tuple(warnings),
-                                reason_text=_long_reason(leg, v, bp, cc, f),
-                            )
-                        )
+                        plan = plan_long(close, float(df["low"].iloc[-2]), atr, regime, cfg, leg_high=leg.leg_high, daily_for_weekly=inp.daily) if atr is not None else None
+                        warnings = [] if plan else ["no_plan:risk per share not positive or ATR unavailable"]
+                        out.append(Candidate(
+                            symbol=sym, side=Side.LONG, sector=sector, name=name, close=close, last_bar_date=last_date, score=sc, plan=plan,
+                            cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g, leg=leg, vcp=v, bar_pattern=bp,
+                            colour_change=cc, rs_vs_nifty=rs, fundamentals=f, indicators=ind, warnings=tuple(warnings), reason_text=_long_reason(leg, v, bp, cc, f),
+                        ))
 
-    # ---------------- short path ----------------
     if regime.shorts_allowed:
         g = short_gate(f, cfg)
         if not g.passed:
@@ -167,43 +180,40 @@ def scan_symbol(
                 sc = score_short(s, cfg)
                 if sc.raw < cfg.min_score_short:
                     reasons.append(f"short:score {sc.raw:g} < {cfg.min_score_short:g}")
+                elif ban_list is not None and sym in ban_list:
+                    reasons.append("short:banned")
+                    banned_short = True
+                elif ban_list is None and cfg.require_ban_list:
+                    reasons.append("short:ban_list_unavailable (require_ban_list=true)")
                 else:
-                    warnings = []
-                    banned = ban_list is not None and sym in ban_list
-                    if banned:
-                        reasons.append("short:banned")
-                        return out, SymbolStatus(sym, "ban_check", SymbolOutcome.BANNED, tuple(reasons)) if not out else SymbolStatus(sym, "plan", SymbolOutcome.CANDIDATE, tuple(reasons))
-                    if ban_list is None:
-                        if cfg.require_ban_list:
-                            reasons.append("short:ban_list_unavailable (require_ban_list=true)")
-                            s = None
-                        else:
-                            warnings.append("ban_list_unavailable: F&O ban status could not be verified")
-                    if s is not None:
-                        plan = plan_short(close, atr, regime, cfg) if atr is not None else None
-                        if plan is None:
-                            warnings.append("no_plan:risk_per_share<=0 or ATR unavailable")
-                        out.append(
-                            Candidate(
-                                symbol=sym, side=Side.SHORT, sector=sector, name=name, close=close, last_bar_date=last_date,
-                                score=sc, plan=plan, gate=g, short_signals=s, fundamentals=f, indicators=ind,
-                                warnings=tuple(warnings), reason_text=_short_reason(s),
-                            )
-                        )
+                    warnings = [] if ban_list is not None else ["ban_list_unavailable: F&O ban status could not be verified"]
+                    recent_low = float(df["low"].iloc[-cfg.short_target_lookback_bars :].min())
+                    plan = plan_short(close, atr, regime, cfg, recent_low=recent_low) if atr is not None else None
+                    if plan is None:
+                        warnings.append("no_plan:risk per share not positive or ATR unavailable")
+                    out.append(Candidate(
+                        symbol=sym, side=Side.SHORT, sector=sector, name=name, close=close, last_bar_date=last_date, score=sc, plan=plan,
+                        cap_bucket=bucket, market_cap_cr=mcap, multibagger=mb, context=ctx, gate=g, short_signals=s, rs_vs_nifty=rs, fundamentals=f,
+                        indicators=ind, warnings=tuple(warnings), reason_text=_short_reason(s),
+                    ))
 
     if out:
-        return out, SymbolStatus(sym, "plan", SymbolOutcome.CANDIDATE, tuple(reasons))
-    if excluded:
-        return out, SymbolStatus(sym, "gates", SymbolOutcome.FUNDAMENTALS_MISSING, tuple(reasons))
-    if stage == "gates":
-        return out, SymbolStatus(sym, stage, SymbolOutcome.REJECTED_GATE, tuple(reasons))
-    if stage == "scoring":
-        return out, SymbolStatus(sym, stage, SymbolOutcome.BELOW_MIN_SCORE, tuple(reasons))
-    return out, SymbolStatus(sym, stage, SymbolOutcome.NO_SETUP, tuple(reasons))
+        st = SymbolStatus(sym, "plan", SymbolOutcome.CANDIDATE, tuple(reasons))
+    elif banned_short:
+        st = SymbolStatus(sym, "ban_check", SymbolOutcome.BANNED, tuple(reasons))
+    elif excluded:
+        st = SymbolStatus(sym, "gates", SymbolOutcome.FUNDAMENTALS_MISSING, tuple(reasons))
+    elif stage == "gates":
+        st = SymbolStatus(sym, stage, SymbolOutcome.REJECTED_GATE, tuple(reasons))
+    elif stage == "scoring":
+        st = SymbolStatus(sym, stage, SymbolOutcome.BELOW_MIN_SCORE, tuple(reasons))
+    else:
+        st = SymbolStatus(sym, stage, SymbolOutcome.NO_SETUP, tuple(reasons))
+    side = out[0].side if out else None
+    return out, st, _universe_row(inp, df, st.outcome, nifty_close, cfg, side)
 
 
-def scan_universe(inputs: ScanInputs, cfg: ScanConfig, open_positions: list[OpenPosition] | None = None) -> ScanResult:
-    open_positions = open_positions or []
+def scan_universe(inputs: ScanInputs, cfg: ScanConfig) -> ScanResult:
     regime = classify_regime(inputs.nifty_daily, inputs.vix_close, inputs.smallcap_daily, cfg)
     warnings: list[str] = []
     session = inputs.session_date.isoformat()
@@ -214,19 +224,19 @@ def scan_universe(inputs: ScanInputs, cfg: ScanConfig, open_positions: list[Open
     if regime.regime is Regime.UNKNOWN:
         statuses = tuple(SymbolStatus(s.symbol, "regime", SymbolOutcome.NO_SETUP, ("not_scanned:regime_unknown",)) for s in sorted(inputs.symbols, key=lambda s: s.symbol))
         warnings.append("regime_unknown:no_scan")
-        return ScanResult(session, regime, (), statuses, {"universe": inputs.universe_size, "scanned": 0}, tuple(warnings), ban_available, False, None)
+        return ScanResult(session, regime, (), statuses, (), {"universe": inputs.universe_size, "scanned": 0}, tuple(warnings), ban_available, False)
 
     nifty_close = inputs.nifty_daily["close"] if inputs.nifty_daily is not None else None
     cands: list[Candidate] = []
     statuses: list[SymbolStatus] = []
+    rows: list[UniverseRow] = []
     for inp in sorted(inputs.symbols, key=lambda s: s.symbol):
-        c, st = scan_symbol(inp, regime, nifty_close, inputs.ban_list, inputs.session_date, cfg)
+        c, st, row = scan_symbol(inp, regime, nifty_close, inputs.ban_list, inputs.session_date, cfg)
         cands.extend(c)
         statuses.append(st)
+        rows.append(row)
 
-    ranked = rank_candidates(cands, cfg)
-    final, budget = apply_portfolio_constraints(ranked, open_positions, cfg)
-
+    final = rank_candidates(cands, cfg)
     usable = sum(1 for s in statuses if s.outcome is not SymbolOutcome.DATA_UNAVAILABLE)
     coverage = (usable / inputs.universe_size * 100.0) if inputs.universe_size else 0.0
     if coverage < cfg.min_universe_coverage_pct:
@@ -246,6 +256,8 @@ def scan_universe(inputs: ScanInputs, cfg: ScanConfig, open_positions: list[Open
         "candidates_short": sum(1 for c in final if c.side is Side.SHORT),
         "ranked_long": sum(1 for c in final if c.side is Side.LONG and c.rank_status is not None and c.rank_status.value == "ranked"),
         "ranked_short": sum(1 for c in final if c.side is Side.SHORT and c.rank_status is not None and c.rank_status.value == "ranked"),
-        "deferred": sum(1 for c in final if c.rank_status is not None and c.rank_status.value.startswith("deferred")),
+        "swing_suitable": sum(1 for r in rows if r.swing_suitable),
+        "multibagger_strong": sum(1 for r in rows if r.multibagger and r.multibagger.level.value == "strong"),
+        "multibagger_watch": sum(1 for r in rows if r.multibagger and r.multibagger.level.value == "watch"),
     }
-    return ScanResult(session, regime, tuple(final), tuple(statuses), counts, tuple(warnings), ban_available, True, budget)
+    return ScanResult(session, regime, tuple(final), tuple(statuses), tuple(rows), counts, tuple(warnings), ban_available, True)

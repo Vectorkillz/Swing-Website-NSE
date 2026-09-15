@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 332.7332,
     "entry_max": null,
-    "stop": 340.843648
+    "extended_target": 308.401856,
+    "stop": 340.843648,
+    "target": 321.0
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 8099401.9
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "NTPC",
   "weekly": [
     {

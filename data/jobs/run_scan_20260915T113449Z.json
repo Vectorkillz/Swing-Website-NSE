@@ -1,0 +1,30 @@
+{
+  "counters": {
+    "banned": 0,
+    "below_min_score": 0,
+    "candidates_long": 0,
+    "candidates_short": 32,
+    "data_unavailable": 2,
+    "fundamentals_missing": 0,
+    "multibagger_strong": 13,
+    "multibagger_watch": 1,
+    "no_setup": 87,
+    "ranked_long": 0,
+    "ranked_short": 10,
+    "rejected_gate": 90,
+    "scanned": 211,
+    "swing_suitable": 188,
+    "universe": 211,
+    "usable": 209,
+    "warnings": []
+  },
+  "duration_s": 12.2,
+  "errors": [],
+  "finished_at": "2026-09-15T11:35:01+00:00",
+  "job": "run_scan",
+  "n_errors": 0,
+  "run_id": "2026-09-11_v002_3e02a4a9",
+  "session_date": "2026-09-11",
+  "started_at": "2026-09-15T11:34:49+00:00",
+  "status": "ok"
+}

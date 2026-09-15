@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 182.634,
     "entry_max": null,
-    "stop": 187.575
+    "extended_target": 167.811,
+    "stop": 187.575,
+    "target": 172.752
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 28918013.35
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "TATASTEEL",
   "weekly": [
     {

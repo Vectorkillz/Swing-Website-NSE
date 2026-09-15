@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 363.9207,
     "entry_max": null,
-    "stop": 373.76625
+    "extended_target": 334.38405,
+    "stop": 373.76625,
+    "target": 347.0
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 5323783.45
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "TATAPOWER",
   "weekly": [
     {

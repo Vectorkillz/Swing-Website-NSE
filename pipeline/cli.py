@@ -2,7 +2,7 @@
 
 Offline (Phase 1):   scan --data <dir>      scan a local data directory (see tests/fixtures/mini_repo)
 Live (Phase 2):      refresh-universe, ingest, refresh-fundamentals, run-scan, calendar-check
-Utilities:           export-schema, export-vectors
+Utilities:           export-schema
 
 Local data directory layout for `scan --data`:
   ohlcv/daily/{SYMBOL}.csv            date,open,high,low,close,volume
@@ -173,23 +173,6 @@ def export_schema(out: Path = typer.Option(paths.CONFIG_OUT)) -> None:
     write_text(out / "active.json", paths.ACTIVE_FILE.read_text(encoding="utf-8"))
     write_text(out / "profiles" / "index.json", dumps_pretty({"versions": [p.stem for p in sorted(paths.PROFILES_DIR.glob("*.json"))]}))
     typer.echo(f"schema written to {out}")
-
-
-@app.command("export-vectors")
-def export_vectors(out: Path = typer.Option(paths.TEST_VECTORS), check: bool = typer.Option(False, help="Fail if committed vectors differ.")) -> None:
-    """Generate shared test vectors for the TypeScript port of apply_portfolio_constraints."""
-    from pipeline.vectors import generate
-
-    text = dumps_pretty(generate())
-    target = out / "portfolio_constraints.json"
-    if check:
-        if not target.exists() or target.read_text(encoding="utf-8") != text:
-            typer.echo("test vectors are stale; run nse-scan export-vectors", err=True)
-            raise typer.Exit(1)
-        typer.echo("test vectors up to date")
-        return
-    write_text(target, text)
-    typer.echo(f"vectors written to {target}")
 
 
 def main() -> None:  # pragma: no cover

@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 1474.046,
     "entry_max": null,
-    "stop": 1513.925
+    "extended_target": 1354.409,
+    "stop": 1513.925,
+    "target": 1394.288
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 673456.75
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "MFSL",
   "weekly": [
     {

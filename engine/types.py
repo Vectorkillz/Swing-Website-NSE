@@ -1,8 +1,4 @@
-"""Data structures for all engine inputs and outputs.
-
-Everything here is a frozen dataclass or enum so results are immutable and
-serialise deterministically through `engine.canonical`.
-"""
+"""Data structures for all engine inputs and outputs (frozen dataclasses and enums)."""
 
 from __future__ import annotations
 
@@ -34,6 +30,26 @@ class StopRule(str, Enum):
     FLOOR = "floor"
 
 
+class TargetRule(str, Enum):
+    STRUCTURE = "structure"   # leg high (long) / lowest low (short)
+    MIN_RR = "min_rr"         # structural level too close (below target_min_rr); target_fallback_r x R used instead
+    FALLBACK = "fallback"     # no structural level beyond entry; target_fallback_r x R
+
+
+class CapBucket(str, Enum):
+    LARGE = "large"
+    MID = "mid"
+    SMALL = "small"
+    MICRO = "micro"
+    UNKNOWN = "unknown"
+
+
+class MultibaggerLevel(str, Enum):
+    STRONG = "strong"
+    WATCH = "watch"
+    NONE = "none"
+
+
 class SymbolOutcome(str, Enum):
     DATA_UNAVAILABLE = "data_unavailable"
     FUNDAMENTALS_MISSING = "fundamentals_missing"
@@ -48,11 +64,6 @@ class SymbolOutcome(str, Enum):
 class RankStatus(str, Enum):
     RANKED = "ranked"
     NOT_IN_TOP_N = "not_in_top_n"
-    DEFERRED_RISK_BUDGET = "deferred_risk_budget"
-    DEFERRED_GROSS_EXPOSURE = "deferred_gross_exposure"
-    DEFERRED_SECTOR_CAP = "deferred_sector_cap"
-    DEFERRED_MAX_POSITIONS = "deferred_max_positions"
-    ALREADY_HELD = "already_held"
 
 
 class Band(str, Enum):
@@ -63,11 +74,8 @@ class Band(str, Enum):
 
 @dataclass(frozen=True)
 class Fundamentals:
-    """Provider-normalised fundamentals. All optional; None means MISSING.
-
-    Units: market_cap_cr in INR crore; debt_equity as a RATIO; roe, revenue_growth,
-    eps_growth in percent.
-    """
+    """Provider-normalised fundamentals. None means MISSING.
+    Units: market_cap_cr INR crore; debt_equity RATIO; roe, revenue_growth, eps_growth percent."""
 
     market_cap_cr: Optional[float] = None
     avg_volume: Optional[float] = None
@@ -81,7 +89,7 @@ class Fundamentals:
     name: Optional[str] = None
     fetched_at: Optional[str] = None
     source: Optional[str] = None
-    roe_source: Optional[str] = None  # e.g. "returnOnEquity" or "derived:netIncomeToCommon/(bookValue*sharesOutstanding)"
+    roe_source: Optional[str] = None
 
 
 @dataclass(frozen=True)
@@ -98,7 +106,7 @@ class GateResult:
     passed: bool
     checks: tuple[GateCheck, ...]
     reason: Optional[str]
-    excluded: bool = False  # treat_missing_fundamental_as == exclude and a field was missing
+    excluded: bool = False
 
 
 @dataclass(frozen=True)
@@ -106,7 +114,6 @@ class RegimeResult:
     regime: Regime
     longs_allowed: bool
     shorts_allowed: bool
-    size_multiplier: Optional[float]
     nifty_close: Optional[float] = None
     nifty_ema_fast: Optional[float] = None
     nifty_ema_slow: Optional[float] = None
@@ -127,7 +134,7 @@ class MomentumLeg:
     max_daily_pct: Optional[float] = None
     leg_high: Optional[float] = None
     leg_mean_volume: Optional[float] = None
-    start_idx: Optional[int] = None  # positions in the full frame
+    start_idx: Optional[int] = None
     end_idx: Optional[int] = None
     start_date: Optional[str] = None
     end_date: Optional[str] = None
@@ -207,6 +214,8 @@ class ScoreBreakdown:
 
 @dataclass(frozen=True)
 class TradePlan:
+    """Price levels only. No quantities, no capital."""
+
     side: Side
     entry: float
     entry_max: Optional[float]
@@ -215,34 +224,49 @@ class TradePlan:
     floor_applied: bool
     stop_candidates: dict[str, float]
     stop_distance_pct: float
-    risk_per_share: float
-    sizing_price: float
+    r_value: float  # risk per share at the worst-case entry (entry_max for longs)
+    risk_reference_price: float
+    target: float
+    target_rule: TargetRule
+    target_structure_level: Optional[float]
+    reward_risk: float
+    target_pct: float
+    extended_target: float
+    extended_target_r: float
     atr14: float
-    prev_bar_low: Optional[float]
-    qty_raw: int
-    qty_after_regime: int
-    qty: int
-    regime_multiplier: float
-    caps_applied: tuple[str, ...]
-    position_value: float
-    risk_amount: float
-    r_value: float
+    prev_bar_low: Optional[float] = None
     breakeven_trigger: Optional[float] = None
-    partial_1_price: Optional[float] = None
-    partial_1_pct: Optional[float] = None
-    partial_2_price: Optional[float] = None
-    partial_2_pct: Optional[float] = None
     trail_weekly_ema: Optional[float] = None
     trail_weekly_sma: Optional[float] = None
     trail_weekly_ema_len: Optional[int] = None
     trail_weekly_sma_len: Optional[int] = None
     weekly_bars_available: Optional[int] = None
     multibagger_arm_price: Optional[float] = None
-    target_1_price: Optional[float] = None
-    target_1_pct: Optional[float] = None
-    target_2_price: Optional[float] = None
-    target_2_pct: Optional[float] = None
     notes: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class MultibaggerTag:
+    """Heuristic 'could run a long way' tag. Criteria follow the widely published trend-template
+    approach (Stage 2 structure, distance from 52-week low/high, relative strength) plus growth.
+    Not backtested yet; the engine only reports which criteria hold."""
+
+    level: MultibaggerLevel
+    technical_met: int
+    technical_total: int
+    growth_met: bool
+    criteria: dict[str, Optional[bool]]
+
+
+@dataclass(frozen=True)
+class PriceContext:
+    high_52w: Optional[float]
+    low_52w: Optional[float]
+    pct_from_52w_high: Optional[float]  # negative = below high
+    pct_above_52w_low: Optional[float]
+    atr_pct: Optional[float]
+    roc_20: Optional[float]
+    avg_volume_20: Optional[float]
 
 
 @dataclass(frozen=True)
@@ -255,6 +279,10 @@ class Candidate:
     last_bar_date: str
     score: ScoreBreakdown
     plan: Optional[TradePlan]
+    cap_bucket: CapBucket = CapBucket.UNKNOWN
+    market_cap_cr: Optional[float] = None
+    multibagger: Optional[MultibaggerTag] = None
+    context: Optional[PriceContext] = None
     gate: Optional[GateResult] = None
     leg: Optional[MomentumLeg] = None
     vcp: Optional[VcpResult] = None
@@ -272,6 +300,29 @@ class Candidate:
 
 
 @dataclass(frozen=True)
+class UniverseRow:
+    """One line of the universe screen: every usable F&O symbol with its swing context."""
+
+    symbol: str
+    name: Optional[str]
+    sector: Optional[str]
+    cap_bucket: CapBucket
+    market_cap_cr: Optional[float]
+    close: Optional[float]
+    last_bar_date: Optional[str]
+    outcome: SymbolOutcome
+    stage: Optional[str]  # "stage2" | "stage4" | "transition" | None
+    above_ema50: Optional[bool]
+    above_ema200: Optional[bool]
+    rs_vs_nifty: Optional[float]
+    context: Optional[PriceContext]
+    multibagger: Optional[MultibaggerTag]
+    swing_suitable: Optional[bool]
+    swing_notes: tuple[str, ...]
+    setup_side: Optional[Side]  # side of a candidate produced this run, if any
+
+
+@dataclass(frozen=True)
 class SymbolStatus:
     symbol: str
     stage_reached: str
@@ -280,38 +331,7 @@ class SymbolStatus:
 
 
 @dataclass(frozen=True)
-class OpenPosition:
-    """An open journal position. Only the browser knows these; the pipeline passes []."""
-
-    symbol: str
-    side: Side
-    sector: Optional[str]
-    qty: int
-    entry: float
-    stop: float
-    position_value: float
-    risk_amount: float
-
-
-@dataclass(frozen=True)
-class PortfolioBudget:
-    capital: float
-    open_positions: int
-    open_gross_value: float
-    open_risk_amount: float
-    accepted_positions: int
-    accepted_gross_value: float
-    accepted_risk_amount: float
-    gross_cap: float
-    risk_cap: float
-    per_sector: dict[str, int]
-
-
-@dataclass(frozen=True)
 class SymbolInput:
-    """All data the engine needs for one symbol. Frames are daily OHLCV with lowercase columns
-    open, high, low, close, volume and a DatetimeIndex sorted ascending."""
-
     symbol: str
     daily: Optional[pd.DataFrame]
     fundamentals: Optional[Fundamentals]
@@ -326,7 +346,7 @@ class ScanInputs:
     nifty_daily: Optional[pd.DataFrame]
     vix_close: Optional[float]
     smallcap_daily: Optional[pd.DataFrame]
-    ban_list: Optional[frozenset[str]]  # None => unavailable
+    ban_list: Optional[frozenset[str]]
     universe_size: int
 
 
@@ -336,8 +356,8 @@ class ScanResult:
     regime: RegimeResult
     candidates: tuple[Candidate, ...]
     symbol_status: tuple[SymbolStatus, ...]
+    universe: tuple[UniverseRow, ...]
     counts: dict[str, int]
     warnings: tuple[str, ...]
     ban_list_available: bool
     scan_performed: bool
-    budget: Optional[PortfolioBudget]

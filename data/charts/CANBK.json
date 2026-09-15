@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 123.752,
     "entry_max": null,
-    "stop": 127.1
+    "extended_target": 113.708,
+    "stop": 127.1,
+    "target": 117.056
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 11811890.95
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "CANBK",
   "weekly": [
     {

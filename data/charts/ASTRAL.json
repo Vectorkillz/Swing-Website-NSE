@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 1408.5772,
     "entry_max": null,
-    "stop": 1446.685
+    "extended_target": 1294.2538,
+    "stop": 1446.685,
+    "target": 1332.3616
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 1130100.35
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "ASTRAL",
   "weekly": [
     {

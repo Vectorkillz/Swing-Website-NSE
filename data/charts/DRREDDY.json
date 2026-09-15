@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 1163.169,
     "entry_max": null,
-    "stop": 1194.6375
+    "extended_target": 1068.7635,
+    "stop": 1194.6375,
+    "target": 1130.0
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 1176593.25
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "DRREDDY",
   "weekly": [
     {

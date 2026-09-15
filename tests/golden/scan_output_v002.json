@@ -1,20 +1,5 @@
 {
   "ban_list_available": true,
-  "budget": {
-    "accepted_gross_value": 399706.81,
-    "accepted_positions": 4,
-    "accepted_risk_amount": 8649.47,
-    "capital": 500000.0,
-    "gross_cap": 500000.0,
-    "open_gross_value": 0.0,
-    "open_positions": 0,
-    "open_risk_amount": 0.0,
-    "per_sector": {
-      "Pharma": 2,
-      "Tech": 2
-    },
-    "risk_cap": 50000.0
-  },
   "candidates": [
     {
       "bar_pattern": {
@@ -24,8 +9,18 @@
         "pattern_low": 151.9436,
         "trigger": 153.2735
       },
+      "cap_bucket": "small",
       "close": 152.7415,
       "colour_change": true,
+      "context": {
+        "atr_pct": 1.490092,
+        "avg_volume_20": 269845.15,
+        "high_52w": 167.8489,
+        "low_52w": 99.1659,
+        "pct_above_52w_low": 54.026233,
+        "pct_from_52w_high": -9.000595,
+        "roc_20": -8.268487
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -108,33 +103,39 @@
         "start_date": "2026-07-15",
         "start_idx": 218
       },
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 2.275988,
         "breakeven_trigger": 158.606083,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 153.046983,
         "entry_max": 153.963432,
+        "extended_target": 161.385633,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": 214.265776,
         "notes": [],
-        "partial_1_pct": 25.0,
-        "partial_1_price": 158.606083,
-        "partial_2_pct": 25.0,
-        "partial_2_price": 183.65638,
-        "position_value": 99922.267368,
         "prev_bar_low": 151.9436,
-        "qty": 649,
-        "qty_after_regime": 3597,
-        "qty_raw": 3597,
         "r_value": 2.77955,
-        "regime_multiplier": 1.0,
-        "risk_amount": 1803.92795,
-        "risk_per_share": 2.77955,
+        "reward_risk": 5.325293,
+        "risk_reference_price": 153.963432,
         "side": "long",
-        "sizing_price": 153.963432,
         "stop": 151.183882,
         "stop_candidates": {
           "atr": 149.633001,
@@ -143,10 +144,10 @@
         },
         "stop_distance_pct": 1.217339,
         "stop_rule": "prev_low",
-        "target_1_pct": null,
-        "target_1_price": null,
-        "target_2_pct": null,
-        "target_2_price": null,
+        "target": 167.8489,
+        "target_pct": 9.671486,
+        "target_rule": "structure",
+        "target_structure_level": 167.8489,
         "trail_weekly_ema": 139.991751,
         "trail_weekly_ema_len": 20,
         "trail_weekly_sma": 130.501337,
@@ -308,8 +309,18 @@
         "pattern_low": 144.9036,
         "trigger": 146.6874
       },
+      "cap_bucket": "small",
       "close": 145.9097,
       "colour_change": true,
+      "context": {
+        "atr_pct": 1.869059,
+        "avg_volume_20": 781268.5,
+        "high_52w": 160.0249,
+        "low_52w": 95.3478,
+        "pct_above_52w_low": 53.028911,
+        "pct_from_52w_high": -8.820627,
+        "roc_20": 4.447492
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -392,33 +403,39 @@
         "start_date": "2026-07-31",
         "start_idx": 230
       },
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 2.727138,
         "breakeven_trigger": 151.538218,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 146.201519,
         "entry_max": 147.076978,
+        "extended_target": 154.206567,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": 204.682127,
         "notes": [],
-        "partial_1_pct": 25.0,
-        "partial_1_price": 151.538218,
-        "partial_2_pct": 25.0,
-        "partial_2_price": 175.441823,
-        "position_value": 99865.26779,
         "prev_bar_low": 145.1343,
-        "qty": 679,
-        "qty_after_regime": 3747,
-        "qty_raw": 3747,
         "r_value": 2.668349,
-        "regime_multiplier": 1.0,
-        "risk_amount": 1811.809039,
-        "risk_per_share": 2.668349,
+        "reward_risk": 4.859889,
+        "risk_reference_price": 147.076978,
         "side": "long",
-        "sizing_price": 147.076978,
         "stop": 144.408628,
         "stop_candidates": {
           "atr": 142.110812,
@@ -427,10 +444,10 @@
         },
         "stop_distance_pct": 1.226315,
         "stop_rule": "prev_low",
-        "target_1_pct": null,
-        "target_1_price": null,
-        "target_2_pct": null,
-        "target_2_price": null,
+        "target": 159.1694,
+        "target_pct": 8.869867,
+        "target_rule": "structure",
+        "target_structure_level": 159.1694,
         "trail_weekly_ema": 129.231866,
         "trail_weekly_ema_len": 20,
         "trail_weekly_sma": 118.496903,
@@ -592,8 +609,18 @@
         "pattern_low": 133.0721,
         "trigger": 134.9469
       },
+      "cap_bucket": "small",
       "close": 134.197,
       "colour_change": true,
+      "context": {
+        "atr_pct": 2.09734,
+        "avg_volume_20": 779103.0,
+        "high_52w": 148.5151,
+        "low_52w": 101.005,
+        "pct_above_52w_low": 32.86174,
+        "pct_from_52w_high": -9.640838,
+        "roc_20": 3.650959
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -676,33 +703,39 @@
         "start_date": "2026-07-31",
         "start_idx": 230
       },
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 2.814567,
         "breakeven_trigger": 140.193067,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 134.465394,
         "entry_max": 135.270576,
+        "extended_target": 143.056903,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": 188.251552,
         "notes": [],
-        "partial_1_pct": 25.0,
-        "partial_1_price": 140.193067,
-        "partial_2_pct": 25.0,
-        "partial_2_price": 161.358473,
-        "position_value": 99964.955664,
         "prev_bar_low": 133.0721,
-        "qty": 739,
-        "qty_after_regime": 3491,
-        "qty_raw": 3491,
         "r_value": 2.863836,
-        "regime_multiplier": 1.0,
-        "risk_amount": 2116.375173,
-        "risk_per_share": 2.863836,
+        "reward_risk": 4.905904,
+        "risk_reference_price": 135.270576,
         "side": "long",
-        "sizing_price": 135.270576,
         "stop": 132.40674,
         "stop_candidates": {
           "atr": 130.243544,
@@ -711,10 +744,10 @@
         },
         "stop_distance_pct": 1.530992,
         "stop_rule": "prev_low",
-        "target_1_pct": null,
-        "target_1_price": null,
-        "target_2_pct": null,
-        "target_2_price": null,
+        "target": 148.5151,
+        "target_pct": 10.448566,
+        "target_rule": "structure",
+        "target_structure_level": 148.5151,
         "trail_weekly_ema": 124.164065,
         "trail_weekly_ema_len": 20,
         "trail_weekly_sma": 118.138273,
@@ -722,8 +755,8 @@
         "weekly_bars_available": 53
       },
       "rank": 3,
-      "rank_reason": "max_positions_per_sector 2 reached for Tech",
-      "rank_status": "deferred_sector_cap",
+      "rank_reason": null,
+      "rank_status": "ranked",
       "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +24.6% (2026-07-31 to 2026-08-31) | Pullback 9.6% from leg high | Volume 39% of leg average | IB trigger at 134.95 | Colour change (green after two reds, above EMA50) | Revenue +22.0% YoY | EPS +30.0% YoY | ROE 18.0% | FCF positive",
       "rs_vs_nifty": 2.490289,
       "score": {
@@ -876,8 +909,18 @@
         "pattern_low": 149.539,
         "trigger": 165.2799
       },
+      "cap_bucket": "small",
       "close": 166.8809,
       "colour_change": false,
+      "context": {
+        "atr_pct": 2.932715,
+        "avg_volume_20": 795183.75,
+        "high_52w": 184.354,
+        "low_52w": 99.2657,
+        "pct_above_52w_low": 68.115371,
+        "pct_from_52w_high": -9.478015,
+        "roc_20": 5.642954
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -960,33 +1003,39 @@
         "start_date": "2026-07-31",
         "start_idx": 230
       },
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 4.894141,
         "breakeven_trigger": 174.12962,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 167.214662,
         "entry_max": 168.215947,
+        "extended_target": 177.587099,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": 234.100527,
         "notes": [],
-        "partial_1_pct": 25.0,
-        "partial_1_price": 174.12962,
-        "partial_2_pct": 25.0,
-        "partial_2_price": 200.657594,
-        "position_value": 99920.272637,
         "prev_bar_low": 165.5864,
-        "qty": 594,
-        "qty_after_regime": 2892,
-        "qty_raw": 2892,
         "r_value": 3.457479,
-        "regime_multiplier": 1.0,
-        "risk_amount": 2053.742645,
-        "risk_per_share": 3.457479,
+        "reward_risk": 4.859129,
+        "risk_reference_price": 168.215947,
         "side": "long",
-        "sizing_price": 168.215947,
         "stop": 164.758468,
         "stop_candidates": {
           "atr": 159.87345,
@@ -995,10 +1044,10 @@
         },
         "stop_distance_pct": 1.468887,
         "stop_rule": "prev_low",
-        "target_1_pct": null,
-        "target_1_price": null,
-        "target_2_pct": null,
-        "target_2_price": null,
+        "target": 184.015,
+        "target_pct": 10.047168,
+        "target_rule": "structure",
+        "target_structure_level": 184.015,
         "trail_weekly_ema": 145.750187,
         "trail_weekly_ema_len": 20,
         "trail_weekly_sma": 135.074453,
@@ -1006,8 +1055,8 @@
         "weekly_bars_available": 53
       },
       "rank": 4,
-      "rank_reason": "max_positions_per_sector 2 reached for Tech",
-      "rank_status": "deferred_sector_cap",
+      "rank_reason": null,
+      "rank_status": "ranked",
       "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +28.5% (2026-07-31 to 2026-08-31) | Pullback 9.3% from leg high | Volume 43% of leg average | MB trigger at 165.28 | Revenue +22.0% YoY | EPS +30.0% YoY | ROE 18.0% | FCF positive",
       "rs_vs_nifty": 4.482285,
       "score": {
@@ -1160,8 +1209,18 @@
         "pattern_low": 156.0863,
         "trigger": 156.8675
       },
+      "cap_bucket": "small",
       "close": 156.2426,
       "colour_change": false,
+      "context": {
+        "atr_pct": 1.912535,
+        "avg_volume_20": 767011.4,
+        "high_52w": 172.2339,
+        "low_52w": 98.0686,
+        "pct_above_52w_low": 59.319701,
+        "pct_from_52w_high": -9.284641,
+        "roc_20": 5.097592
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -1244,35 +1303,41 @@
         "start_date": "2026-07-30",
         "start_idx": 229
       },
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 2.988195,
         "breakeven_trigger": 161.561098,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 156.555085,
         "entry_max": 157.492541,
+        "extended_target": 164.064105,
+        "extended_target_r": 3.0,
         "floor_applied": true,
         "multibagger_arm_price": 219.177119,
         "notes": [
-          "stop distance floored at 1% of entry (defect 7.1 guard)"
+          "stop distance floored at 1% of entry"
         ],
-        "partial_1_pct": 25.0,
-        "partial_1_price": 161.561098,
-        "partial_2_pct": 25.0,
-        "partial_2_price": 187.866102,
-        "position_value": 99850.270867,
         "prev_bar_low": 156.0863,
-        "qty": 634,
-        "qty_after_regime": 3995,
-        "qty_raw": 3995,
         "r_value": 2.503006,
-        "regime_multiplier": 1.0,
-        "risk_amount": 1586.906091,
-        "risk_per_share": 2.503006,
+        "reward_risk": 5.677658,
+        "risk_reference_price": 157.492541,
         "side": "long",
-        "sizing_price": 157.492541,
         "stop": 154.989534,
         "stop_candidates": {
           "atr": 152.072793,
@@ -1281,10 +1346,10 @@
         },
         "stop_distance_pct": 1.0,
         "stop_rule": "floor",
-        "target_1_pct": null,
-        "target_1_price": null,
-        "target_2_pct": null,
-        "target_2_price": null,
+        "target": 170.7663,
+        "target_pct": 9.077453,
+        "target_rule": "structure",
+        "target_structure_level": 170.7663,
         "trail_weekly_ema": 141.299731,
         "trail_weekly_ema_len": 20,
         "trail_weekly_sma": 131.683787,
@@ -1292,8 +1357,8 @@
         "weekly_bars_available": 53
       },
       "rank": 5,
-      "rank_reason": "max_positions_per_sector 2 reached for Tech",
-      "rank_status": "deferred_sector_cap",
+      "rank_reason": null,
+      "rank_status": "ranked",
       "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +26.1% (2026-07-30 to 2026-08-28) | Pullback 8.5% from leg high | Volume 38% of leg average | IB trigger at 156.87 | Revenue +22.0% YoY | EPS +30.0% YoY | ROE 18.0% | FCF positive",
       "rs_vs_nifty": 3.936923,
       "score": {
@@ -1440,8 +1505,18 @@
     },
     {
       "bar_pattern": null,
+      "cap_bucket": "small",
       "close": 318.9609,
       "colour_change": null,
+      "context": {
+        "atr_pct": 2.48969,
+        "avg_volume_20": 440209.8,
+        "high_52w": 516.559,
+        "low_52w": 317.0297,
+        "pct_above_52w_low": 0.609154,
+        "pct_from_52w_high": -38.252765,
+        "roc_20": -3.674789
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -1482,33 +1557,41 @@
       },
       "last_bar_date": "2026-09-10",
       "leg": null,
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 7.941138,
         "breakeven_trigger": null,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 318.322978,
         "entry_max": null,
+        "extended_target": 292.487145,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": null,
-        "notes": [],
-        "partial_1_pct": null,
-        "partial_1_price": null,
-        "partial_2_pct": null,
-        "partial_2_price": null,
-        "position_value": 99953.415155,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
         "prev_bar_low": null,
-        "qty": 314,
-        "qty_after_regime": 1161,
-        "qty_raw": 1161,
         "r_value": 8.611944,
-        "regime_multiplier": 1.0,
-        "risk_amount": 2704.15051,
-        "risk_per_share": 8.611944,
+        "reward_risk": 2.0,
+        "risk_reference_price": 318.322978,
         "side": "short",
-        "sizing_price": 318.322978,
         "stop": 326.934922,
         "stop_candidates": {
           "atr": 330.234685,
@@ -1516,10 +1599,10 @@
         },
         "stop_distance_pct": 2.705411,
         "stop_rule": "pct",
-        "target_1_pct": 50.0,
-        "target_1_price": 301.09909,
-        "target_2_pct": 50.0,
-        "target_2_price": 292.487145,
+        "target": 301.09909,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 317.0297,
         "trail_weekly_ema": null,
         "trail_weekly_ema_len": null,
         "trail_weekly_sma": null,
@@ -1530,7 +1613,7 @@
       "rank_reason": null,
       "rank_status": "ranked",
       "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.15) | Low volume on bounce | Red confirmation candle",
-      "rs_vs_nifty": null,
+      "rs_vs_nifty": -4.835459,
       "score": {
         "band": "B",
         "components": [
@@ -1625,8 +1708,18 @@
     },
     {
       "bar_pattern": null,
+      "cap_bucket": "small",
       "close": 274.4279,
       "colour_change": null,
+      "context": {
+        "atr_pct": 1.550477,
+        "avg_volume_20": 465956.15,
+        "high_52w": 499.898,
+        "low_52w": 272.7663,
+        "pct_above_52w_low": 0.609166,
+        "pct_from_52w_high": -45.103221,
+        "roc_20": -3.674798
+      },
       "fundamentals": {
         "avg_volume": 900000,
         "debt_equity": 0.4,
@@ -1667,33 +1760,41 @@
       },
       "last_bar_date": "2026-09-10",
       "leg": null,
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
       "name": "Test Co",
       "plan": {
         "atr14": 4.254942,
         "breakeven_trigger": null,
-        "caps_applied": [
-          "max_position_pct_of_capital 20% (value cap 100000 INR)"
-        ],
         "entry": 273.879044,
         "entry_max": null,
+        "extended_target": 254.731807,
+        "extended_target_r": 3.0,
         "floor_applied": false,
         "multibagger_arm_price": null,
-        "notes": [],
-        "partial_1_pct": null,
-        "partial_1_price": null,
-        "partial_2_pct": null,
-        "partial_2_price": null,
-        "position_value": 99965.851133,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
         "prev_bar_low": null,
-        "qty": 365,
-        "qty_after_regime": 1566,
-        "qty_raw": 1566,
         "r_value": 6.382412,
-        "regime_multiplier": 1.0,
-        "risk_amount": 2329.580506,
-        "risk_per_share": 6.382412,
+        "reward_risk": 2.0,
+        "risk_reference_price": 273.879044,
         "side": "short",
-        "sizing_price": 273.879044,
         "stop": 280.261457,
         "stop_candidates": {
           "atr": 280.261457,
@@ -1701,10 +1802,10 @@
         },
         "stop_distance_pct": 2.330376,
         "stop_rule": "atr",
-        "target_1_pct": 50.0,
-        "target_1_price": 261.11422,
-        "target_2_pct": 50.0,
-        "target_2_price": 254.731807,
+        "target": 261.11422,
+        "target_pct": -4.660753,
+        "target_rule": "min_rr",
+        "target_structure_level": 272.7663,
         "trail_weekly_ema": null,
         "trail_weekly_ema_len": null,
         "trail_weekly_sma": null,
@@ -1715,7 +1816,7 @@
       "rank_reason": null,
       "rank_status": "ranked",
       "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Lower highs and lower lows | Weak bounce (ratio -0.14) | Low volume on bounce | Red confirmation candle",
-      "rs_vs_nifty": null,
+      "rs_vs_nifty": -4.835467,
       "score": {
         "band": "B",
         "components": [
@@ -1815,13 +1916,15 @@
     "candidates_long": 5,
     "candidates_short": 2,
     "data_unavailable": 4,
-    "deferred": 3,
     "fundamentals_missing": 0,
+    "multibagger_strong": 7,
+    "multibagger_watch": 0,
     "no_setup": 1,
-    "ranked_long": 2,
+    "ranked_long": 5,
     "ranked_short": 2,
     "rejected_gate": 2,
     "scanned": 14,
+    "swing_suitable": 8,
     "universe": 14,
     "usable": 10
   },
@@ -1837,7 +1940,6 @@
     "roc_18m": 30.200572,
     "roc_bars_used": 378,
     "shorts_allowed": true,
-    "size_multiplier": 1.0,
     "smallcap_close": 30352.9566,
     "smallcap_confirms": false,
     "smallcap_ema_fast": 30591.421819,
@@ -1960,6 +2062,517 @@
         "nonpositive_price@2026-07-31"
       ],
       "stage_reached": "quality",
+      "symbol": "ZERO"
+    }
+  ],
+  "universe": [
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 145.9097,
+      "context": {
+        "atr_pct": 1.869059,
+        "avg_volume_20": 781268.5,
+        "high_52w": 160.0249,
+        "low_52w": 95.3478,
+        "pct_above_52w_low": 53.028911,
+        "pct_from_52w_high": -8.820627,
+        "roc_20": 4.447492
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": 3.286823,
+      "sector": "Tech",
+      "setup_side": "long",
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "COLOUR"
+    },
+    {
+      "above_ema200": null,
+      "above_ema50": null,
+      "cap_bucket": "small",
+      "close": null,
+      "context": null,
+      "last_bar_date": null,
+      "market_cap_cr": 12000,
+      "multibagger": null,
+      "name": "Test Co",
+      "outcome": "data_unavailable",
+      "rs_vs_nifty": null,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": null,
+      "swing_notes": [
+        "data unavailable"
+      ],
+      "swing_suitable": null,
+      "symbol": "FEW"
+    },
+    {
+      "above_ema200": null,
+      "above_ema50": null,
+      "cap_bucket": "small",
+      "close": null,
+      "context": null,
+      "last_bar_date": null,
+      "market_cap_cr": 12000,
+      "multibagger": null,
+      "name": "Test Co",
+      "outcome": "data_unavailable",
+      "rs_vs_nifty": null,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": null,
+      "swing_notes": [
+        "data unavailable"
+      ],
+      "swing_suitable": null,
+      "symbol": "GAP"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 134.197,
+      "context": {
+        "atr_pct": 2.09734,
+        "avg_volume_20": 779103.0,
+        "high_52w": 148.5151,
+        "low_52w": 101.005,
+        "pct_above_52w_low": 32.86174,
+        "pct_from_52w_high": -9.640838,
+        "roc_20": 3.650959
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": 2.490289,
+      "sector": "Tech",
+      "setup_side": "long",
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "LONGOK"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 134.197,
+      "context": {
+        "atr_pct": 2.09734,
+        "avg_volume_20": 779103.0,
+        "high_52w": 148.5151,
+        "low_52w": 101.005,
+        "pct_above_52w_low": 32.86174,
+        "pct_from_52w_high": -9.640838,
+        "roc_20": 3.650959
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "rejected_gate",
+      "rs_vs_nifty": 2.490289,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "MISSDE"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 166.8809,
+      "context": {
+        "atr_pct": 2.932715,
+        "avg_volume_20": 795183.75,
+        "high_52w": 184.354,
+        "low_52w": 99.2657,
+        "pct_above_52w_low": 68.115371,
+        "pct_from_52w_high": -9.478015,
+        "roc_20": 5.642954
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": 4.482285,
+      "sector": "Tech",
+      "setup_side": "long",
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "MOTHER"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 179.0532,
+      "context": {
+        "atr_pct": 1.454172,
+        "avg_volume_20": 816026.5,
+        "high_52w": 183.0733,
+        "low_52w": 103.2226,
+        "pct_above_52w_low": 73.463176,
+        "pct_from_52w_high": -2.195896,
+        "roc_20": 13.852278
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "no_setup",
+      "rs_vs_nifty": 12.691608,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": "stage2",
+      "swing_notes": [
+        "ATR 1.5% too low"
+      ],
+      "swing_suitable": false,
+      "symbol": "NOPULL"
+    },
+    {
+      "above_ema200": false,
+      "above_ema50": false,
+      "cap_bucket": "small",
+      "close": 318.9609,
+      "context": {
+        "atr_pct": 2.48969,
+        "avg_volume_20": 440209.8,
+        "high_52w": 516.559,
+        "low_52w": 317.0297,
+        "pct_above_52w_low": 0.609154,
+        "pct_from_52w_high": -38.252765,
+        "roc_20": -3.674789
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": -4.835459,
+      "sector": "Pharma",
+      "setup_side": "short",
+      "stage": "stage4",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "SHORTDB"
+    },
+    {
+      "above_ema200": false,
+      "above_ema50": false,
+      "cap_bucket": "small",
+      "close": 274.4279,
+      "context": {
+        "atr_pct": 1.550477,
+        "avg_volume_20": 465956.15,
+        "high_52w": 499.898,
+        "low_52w": 272.7663,
+        "pct_above_52w_low": 0.609166,
+        "pct_from_52w_high": -45.103221,
+        "roc_20": -3.674798
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": -4.835467,
+      "sector": "Pharma",
+      "setup_side": "short",
+      "stage": "stage4",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "SHORTDT"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 152.7415,
+      "context": {
+        "atr_pct": 1.490092,
+        "avg_volume_20": 269845.15,
+        "high_52w": 167.8489,
+        "low_52w": 99.1659,
+        "pct_above_52w_low": 54.026233,
+        "pct_from_52w_high": -9.000595,
+        "roc_20": -8.268487
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": -9.429157,
+      "sector": "Tech",
+      "setup_side": "long",
+      "stage": "stage2",
+      "swing_notes": [
+        "avg volume 269,845 < 300,000",
+        "ATR 1.5% too low"
+      ],
+      "swing_suitable": false,
+      "symbol": "STALE"
+    },
+    {
+      "above_ema200": null,
+      "above_ema50": null,
+      "cap_bucket": "small",
+      "close": null,
+      "context": null,
+      "last_bar_date": null,
+      "market_cap_cr": 12000,
+      "multibagger": null,
+      "name": "Test Co",
+      "outcome": "data_unavailable",
+      "rs_vs_nifty": null,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": null,
+      "swing_notes": [
+        "data unavailable"
+      ],
+      "swing_suitable": null,
+      "symbol": "STALEBAR"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 156.2426,
+      "context": {
+        "atr_pct": 1.912535,
+        "avg_volume_20": 767011.4,
+        "high_52w": 172.2339,
+        "low_52w": 98.0686,
+        "pct_above_52w_low": 59.319701,
+        "pct_from_52w_high": -9.284641,
+        "roc_20": 5.097592
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "candidate",
+      "rs_vs_nifty": 3.936923,
+      "sector": "Tech",
+      "setup_side": "long",
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "TINY"
+    },
+    {
+      "above_ema200": true,
+      "above_ema50": true,
+      "cap_bucket": "small",
+      "close": 134.197,
+      "context": {
+        "atr_pct": 2.09734,
+        "avg_volume_20": 779103.0,
+        "high_52w": 148.5151,
+        "low_52w": 101.005,
+        "pct_above_52w_low": 32.86174,
+        "pct_from_52w_high": -9.640838,
+        "roc_20": 3.650959
+      },
+      "last_bar_date": "2026-09-10",
+      "market_cap_cr": 12000,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "strong",
+        "technical_met": 7,
+        "technical_total": 7
+      },
+      "name": "Test Co",
+      "outcome": "rejected_gate",
+      "rs_vs_nifty": 2.490289,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": "stage2",
+      "swing_notes": [],
+      "swing_suitable": true,
+      "symbol": "WEAKROE"
+    },
+    {
+      "above_ema200": null,
+      "above_ema50": null,
+      "cap_bucket": "small",
+      "close": null,
+      "context": null,
+      "last_bar_date": null,
+      "market_cap_cr": 12000,
+      "multibagger": null,
+      "name": "Test Co",
+      "outcome": "data_unavailable",
+      "rs_vs_nifty": null,
+      "sector": "Tech",
+      "setup_side": null,
+      "stage": null,
+      "swing_notes": [
+        "data unavailable"
+      ],
+      "swing_suitable": null,
       "symbol": "ZERO"
     }
   ],

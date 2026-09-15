@@ -40,11 +40,11 @@ def test_smallcap_confirmation_reported_and_optionally_gating(fx, cfg):
 
 
 def test_regime_table(cfg):
-    assert regime_effects(Regime.BULL, cfg) == (True, True, 1.0)
-    assert regime_effects(Regime.BULL_HIGH_VIX, cfg) == (True, False, 0.5)
-    assert regime_effects(Regime.NEUTRAL, cfg) == (True, True, 0.75)
-    assert regime_effects(Regime.BEAR, cfg) == (False, True, 1.0)
-    assert regime_effects(Regime.UNKNOWN, cfg) == (False, False, None)
+    assert regime_effects(Regime.BULL, cfg) == (True, True)
+    assert regime_effects(Regime.BULL_HIGH_VIX, cfg) == (True, False)
+    assert regime_effects(Regime.NEUTRAL, cfg) == (True, True)
+    assert regime_effects(Regime.BEAR, cfg) == (False, True)
+    assert regime_effects(Regime.UNKNOWN, cfg) == (False, False)
 
 
 def test_quality_gates(fx, cfg):

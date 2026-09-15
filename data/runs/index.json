@@ -1,16 +1,16 @@
 {
   "runs": [
     {
-      "config_version": "v001",
+      "config_version": "v002",
       "coverage_pct": 99.05,
-      "generated_at": "2026-09-15T05:59:14+00:00",
+      "generated_at": "2026-09-15T11:34:57+00:00",
       "n_longs": 0,
-      "n_shorts": 5,
+      "n_shorts": 10,
       "regime": "NEUTRAL",
-      "run_id": "2026-09-11_v001_2a585efd",
+      "run_id": "2026-09-11_v002_3e02a4a9",
       "session_date": "2026-09-11",
       "status": "ok"
     }
   ],
-  "schema_version": 1
+  "schema_version": 2
 }

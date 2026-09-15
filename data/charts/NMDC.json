@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 82.2352,
     "entry_max": null,
-    "stop": 84.46
+    "extended_target": 75.5608,
+    "stop": 84.46,
+    "target": 77.7856
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 17459596.65
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "NMDC",
   "weekly": [
     {

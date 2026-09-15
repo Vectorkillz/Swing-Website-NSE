@@ -23,7 +23,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def cfg() -> ScanConfig:
-    return load_profile(ROOT / "config" / "profiles" / "v001.json")[1]
+    return load_profile(ROOT / "config" / "profiles" / "v002.json")[1]
 
 
 def load_fixture(name: str) -> pd.DataFrame:
@@ -47,5 +47,5 @@ def good_fundamentals() -> Fundamentals:
 def make_regime(regime: Regime, cfg: ScanConfig) -> RegimeResult:
     from engine.regime import regime_effects
 
-    longs, shorts, mult = regime_effects(regime, cfg)
-    return RegimeResult(regime=regime, longs_allowed=longs, shorts_allowed=shorts, size_multiplier=mult, vix=15.0)
+    longs, shorts = regime_effects(regime, cfg)
+    return RegimeResult(regime=regime, longs_allowed=longs, shorts_allowed=shorts, vix=15.0)

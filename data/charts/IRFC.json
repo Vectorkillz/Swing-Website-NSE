@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 80.92782,
     "entry_max": null,
-    "stop": 83.063117
+    "extended_target": 74.52193,
+    "stop": 83.063117,
+    "target": 76.657226
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 7308070.3
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "IRFC",
   "weekly": [
     {

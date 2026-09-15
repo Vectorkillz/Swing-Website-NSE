@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 263.1726,
     "entry_max": null,
-    "stop": 270.2925
+    "extended_target": 241.8129,
+    "stop": 270.2925,
+    "target": 248.9328
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 11014066.95
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "VEDL",
   "weekly": [
     {

@@ -2,7 +2,9 @@
   "annotations": {
     "entry": 1162.67,
     "entry_max": null,
-    "stop": 1194.125
+    "extended_target": 1068.305,
+    "stop": 1194.125,
+    "target": 1099.76
   },
   "as_of": "2026-09-11",
   "daily": [
@@ -4507,7 +4509,7 @@
       "vol20": 983320.15
     }
   ],
-  "schema_version": 1,
+  "schema_version": 2,
   "symbol": "VOLTAS",
   "weekly": [
     {
