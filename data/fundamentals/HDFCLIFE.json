@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3392942.0,
+  "debt_equity": 0.15885,
+  "eps_growth": 11.899999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:07+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 113619.8811648,
+  "name": "HDFC Life Insurance Company Limited",
+  "revenue_growth": 14.299999999999999,
+  "roe": 10.828,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12192031.0,
+  "debt_equity": 0.09541000000000001,
+  "eps_growth": 5.3,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T05:50:39+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 439660.0000512,
+  "name": "Infosys Limited",
+  "revenue_growth": 2.9000000000000004,
+  "roe": 32.0,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

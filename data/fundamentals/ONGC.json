@@ -1,0 +1,14 @@
+{
+  "avg_volume": 13291457.0,
+  "debt_equity": 0.42548,
+  "eps_growth": 21.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:11+00:00",
+  "industry": "Oil & Gas Integrated",
+  "market_cap_cr": 296580.0747008,
+  "name": "Oil and Natural Gas Corporation Limited",
+  "revenue_growth": 25.7,
+  "roe": null,
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

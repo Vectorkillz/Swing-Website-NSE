@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1526592.0,
+  "debt_equity": 0.34899,
+  "eps_growth": 11.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:54+00:00",
+  "industry": "Household & Personal Products",
+  "market_cap_cr": 89129.8643968,
+  "name": "Godrej Consumer Products Limited",
+  "revenue_growth": 15.4,
+  "roe": 15.128029905372205,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

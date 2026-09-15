@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6238181.0,
+  "debt_equity": null,
+  "eps_growth": 32.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:45+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 84167.7602816,
+  "name": "The Federal Bank Limited",
+  "revenue_growth": 21.4,
+  "roe": 11.671169830400759,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

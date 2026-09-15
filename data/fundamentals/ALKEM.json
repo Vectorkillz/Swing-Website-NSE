@@ -1,0 +1,15 @@
+{
+  "avg_volume": 138331.0,
+  "debt_equity": 0.14267,
+  "eps_growth": -21.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:28+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 63106.4100864,
+  "name": "Alkem Laboratories Limited",
+  "revenue_growth": 10.9,
+  "roe": 15.61131993476482,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

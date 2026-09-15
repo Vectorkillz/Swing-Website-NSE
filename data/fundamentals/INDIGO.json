@@ -1,0 +1,15 @@
+{
+  "avg_volume": 917447.0,
+  "debt_equity": 8.66462,
+  "eps_growth": -77.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:35+00:00",
+  "industry": "Airlines",
+  "market_cap_cr": 188461.2984832,
+  "name": "InterGlobe Aviation Limited",
+  "revenue_growth": 6.2,
+  "roe": 46.06814399144733,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

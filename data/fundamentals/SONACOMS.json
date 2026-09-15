@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2331034.0,
+  "debt_equity": 0.07213,
+  "eps_growth": 44.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:54+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 48816.2066432,
+  "name": "Sona BLW Precision Forgings Limited",
+  "revenue_growth": 52.400000000000006,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

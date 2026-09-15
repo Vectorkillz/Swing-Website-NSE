@@ -1,0 +1,14 @@
+{
+  "avg_volume": 4858048.0,
+  "debt_equity": 0.49078000000000005,
+  "eps_growth": 16.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:41+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 42509.3922816,
+  "name": "Rail Vikas Nigam Limited",
+  "revenue_growth": 10.6,
+  "roe": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

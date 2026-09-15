@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2164593.0,
+  "debt_equity": 0.19567,
+  "eps_growth": 13.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:20+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 15370.5480192,
+  "name": "PG Electroplast Limited",
+  "revenue_growth": 35.3,
+  "roe": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

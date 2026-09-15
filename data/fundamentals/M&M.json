@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2396108.0,
+  "debt_equity": 1.25278,
+  "eps_growth": 33.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:35+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 371443.7873664,
+  "name": "Mahindra & Mahindra Limited",
+  "revenue_growth": 27.500000000000004,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

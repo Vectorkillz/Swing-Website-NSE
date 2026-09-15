@@ -1,0 +1,14 @@
+{
+  "avg_volume": 13799832.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:20+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 135496.5057536,
+  "name": "Union Bank of India",
+  "revenue_growth": null,
+  "roe": 15.798001000000001,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4982244.0,
+  "debt_equity": 0.72598,
+  "eps_growth": 75.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:10+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 214813.6517632,
+  "name": "Hindalco Industries Limited",
+  "revenue_growth": 32.1,
+  "roe": 12.007349210559598,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

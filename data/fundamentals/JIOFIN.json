@@ -1,0 +1,12 @@
+{
+  "avg_volume": 15902399.0,
+  "debt_equity": 0.16286,
+  "eps_growth": 170.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:49+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 151793.0283008,
+  "name": "Jio Financial Services Limited",
+  "revenue_growth": 208.2,
+  "roe": 1.48014326419823,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*share

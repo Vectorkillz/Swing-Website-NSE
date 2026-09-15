@@ -1,0 +1,15 @@
+{
+  "avg_volume": 891778.0,
+  "debt_equity": 0.0016,
+  "eps_growth": 14.899999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:00+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 317220.0087552,
+  "name": "Hindustan Aeronautics Limited",
+  "revenue_growth": 14.399999999999999,
+  "roe": 22.712612216692587,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

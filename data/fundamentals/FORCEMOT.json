@@ -1,0 +1,15 @@
+{
+  "avg_volume": 94446.0,
+  "debt_equity": null,
+  "eps_growth": 22.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:46+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 22976.765952,
+  "name": "Force Motors Limited",
+  "revenue_growth": 6.2,
+  "roe": 30.37735558301175,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

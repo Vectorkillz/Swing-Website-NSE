@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5018804.0,
+  "debt_equity": 0.00818,
+  "eps_growth": 11.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:30+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 10039.3107456,
+  "name": "Indian Energy Exchange Limited",
+  "revenue_growth": 10.100000000000001,
+  "roe": 37.390307770229576,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1049663.0,
+  "debt_equity": 0.02801,
+  "eps_growth": -16.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:01+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 68805.8597376,
+  "name": "Havells India Limited",
+  "revenue_growth": 19.5,
+  "roe": 17.26438594797225,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

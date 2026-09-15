@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2172848.0,
+  "debt_equity": 3.46548,
+  "eps_growth": 18.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:24+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 209174.9081088,
+  "name": "Adani Green Energy Limited",
+  "revenue_growth": 16.6,
+  "roe": 8.869843805355087,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

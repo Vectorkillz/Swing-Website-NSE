@@ -1,0 +1,15 @@
+{
+  "avg_volume": 817648.0,
+  "debt_equity": 1.35044,
+  "eps_growth": 51.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:57+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 217305.382912,
+  "name": "Grasim Industries Limited",
+  "revenue_growth": 21.4,
+  "roe": 5.501428061212059,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2016306.0,
+  "debt_equity": 0.32366999999999996,
+  "eps_growth": 4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:42+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 100601.3448192,
+  "name": "Max Healthcare Institute Limited",
+  "revenue_growth": 16.7,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

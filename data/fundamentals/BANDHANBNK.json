@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12609716.0,
+  "debt_equity": null,
+  "eps_growth": 34.599999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:53+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 28536.6419456,
+  "name": "Bandhan Bank Limited",
+  "revenue_growth": 21.6,
+  "roe": 5.28384662319254,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

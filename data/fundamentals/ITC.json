@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14010536.0,
+  "debt_equity": 0.03293,
+  "eps_growth": -16.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:46+00:00",
+  "industry": "Tobacco",
+  "market_cap_cr": 327277.9235328,
+  "name": "ITC Limited",
+  "revenue_growth": -11.1,
+  "roe": 27.361446145524905,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

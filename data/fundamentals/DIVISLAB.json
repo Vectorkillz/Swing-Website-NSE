@@ -1,0 +1,15 @@
+{
+  "avg_volume": 462992.0,
+  "debt_equity": 0.00042,
+  "eps_growth": 65.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:35+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 245399.158784,
+  "name": "Divi's Laboratories Limited",
+  "revenue_growth": 27.800000000000004,
+  "roe": 17.451230840078328,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

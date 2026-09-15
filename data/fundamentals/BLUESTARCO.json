@@ -1,0 +1,15 @@
+{
+  "avg_volume": 491761.0,
+  "debt_equity": 0.23588,
+  "eps_growth": -15.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:06+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 31301.4779904,
+  "name": "Blue Star Limited",
+  "revenue_growth": 13.3,
+  "roe": 14.839994816743399,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

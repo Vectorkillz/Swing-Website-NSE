@@ -1,0 +1,14 @@
+{
+  "avg_volume": 134037.0,
+  "debt_equity": 0.01663,
+  "eps_growth": 123.50000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:32+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 135009.6912384,
+  "name": "Hitachi Energy India Limited",
+  "revenue_growth": 68.60000000000001,
+  "roe": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,79 @@
+name: Daily scan
+
+on:
+  schedule:
+    - cron: "0 11 * * 1-5"   # 16:30 IST (IST has no DST)
+  workflow_dispatch:
+    inputs:
+      session_date:
+        description: "Session date YYYY-MM-DD (blank = expected last session)"
+        required: false
+        default: ""
+      full_ingest:
+        description: "Refetch full history"
+        type: boolean
+        default: false
+
+concurrency:
+  group: data-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      trading_day: ${{ steps.cal.outputs.trading_day }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[pipeline,dev]"
+      - id: cal
+        name: Trading-day check
+        run: |
+          set +e
+          out=$(python -m pipeline.cli calendar-check ${{ inputs.session_date && format('--date {0}', inputs.session_date) || '' }})
+          code=$?
+          echo "$out"
+          if [ "$code" = "78" ]; then echo "trading_day=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ "$code" != "0" ]; then exit $code; fi
+          echo "trading_day=true" >> "$GITHUB_OUTPUT"
+      - name: Ingest OHLCV (delta)
+        if: steps.cal.outputs.trading_day == 'true'
+        run: |
+          python -m pipeline.cli ingest ${{ inputs.full_ingest == true && '--full' || '' }} ${{ inputs.session_date && format('--as-of {0}', inputs.session_date) || '' }}
+      - name: Run scan
+        if: steps.cal.outputs.trading_day == 'true'
+        run: |
+          python -m pipeline.cli run-scan ${{ inputs.session_date && format('--date {0}', inputs.session_date) || '' }}
+      - name: Export config schema
+        if: steps.cal.outputs.trading_day == 'true'
+        run: python -m pipeline.cli export-schema
+      - name: Commit data
+        if: steps.cal.outputs.trading_day == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "data: scan $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase && git push && break
+            sleep 10
+          done
+
+  deploy:
+    needs: scan
+    if: needs.scan.outputs.trading_day == 'true'
+    uses: ./.github/workflows/pages.yml
+    secrets: inherit

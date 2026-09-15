@@ -1,0 +1,14 @@
+{
+  "avg_volume": 4765720.0,
+  "debt_equity": 1.68051,
+  "eps_growth": 10.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:05+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 117908.0327168,
+  "name": "The Tata Power Company Limited",
+  "revenue_growth": 5.6000000000000005,
+  "roe": null,
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

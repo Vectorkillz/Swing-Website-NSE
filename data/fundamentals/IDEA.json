@@ -1,0 +1,15 @@
+{
+  "avg_volume": 401233220.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:27+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 158939.2310272,
+  "name": "Vodafone Idea Limited",
+  "revenue_growth": 6.1,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

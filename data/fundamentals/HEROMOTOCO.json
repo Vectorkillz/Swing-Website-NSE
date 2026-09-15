@@ -1,0 +1,15 @@
+{
+  "avg_volume": 703762.0,
+  "debt_equity": 0.035699999999999996,
+  "eps_growth": -17.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:08+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 105284.2786816,
+  "name": "Hero MotoCorp Limited",
+  "revenue_growth": 34.9,
+  "roe": 25.206376951745906,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

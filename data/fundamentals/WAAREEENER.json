@@ -1,0 +1,14 @@
+{
+  "avg_volume": 737051.0,
+  "debt_equity": 0.21402000000000002,
+  "eps_growth": 14.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:31+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 75278.352384,
+  "name": "Waaree Energies Limited",
+  "revenue_growth": 79.2,
+  "roe": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

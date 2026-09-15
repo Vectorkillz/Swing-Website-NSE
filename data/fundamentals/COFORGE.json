@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3196344.0,
+  "debt_equity": 0.07518,
+  "eps_growth": 30.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:25+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 80595.4322432,
+  "name": "Coforge Limited",
+  "revenue_growth": 49.9,
+  "roe": 13.966996573588942,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

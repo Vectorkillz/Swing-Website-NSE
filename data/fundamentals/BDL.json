@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1446520.0,
+  "debt_equity": 7.000000000000001e-05,
+  "eps_growth": 548.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:57+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 42337.9697664,
+  "name": "Bharat Dynamics Limited",
+  "revenue_growth": 130.8,
+  "roe": 12.270451766639711,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

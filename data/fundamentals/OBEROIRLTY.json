@@ -1,0 +1,14 @@
+{
+  "avg_volume": 544712.0,
+  "debt_equity": 0.15765,
+  "eps_growth": 28.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:07+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 62306.87744,
+  "name": "Oberoi Realty Limited",
+  "revenue_growth": 31.7,
+  "roe": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

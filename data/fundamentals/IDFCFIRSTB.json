@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20431517.0,
+  "debt_equity": null,
+  "eps_growth": -23.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:29+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 74081.9140608,
+  "name": "IDFC First Bank Limited",
+  "revenue_growth": -1.0999999999999999,
+  "roe": 2.0882319506783222,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

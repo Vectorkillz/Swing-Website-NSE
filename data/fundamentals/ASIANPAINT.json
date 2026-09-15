@@ -1,0 +1,15 @@
+{
+  "avg_volume": 954115.0,
+  "debt_equity": 0.17847000000000002,
+  "eps_growth": 39.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:38+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 233640.7683072,
+  "name": "Asian Paints Limited",
+  "revenue_growth": 17.9,
+  "roe": 22.308023684803942,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

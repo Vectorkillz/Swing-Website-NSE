@@ -1,0 +1,15 @@
+{
+  "avg_volume": 345748.0,
+  "debt_equity": 0.03757,
+  "eps_growth": -44.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:53+00:00",
+  "industry": "Tobacco",
+  "market_cap_cr": 30049.8845696,
+  "name": "Godfrey Phillips India Limited",
+  "revenue_growth": -18.9,
+  "roe": 22.010594931591406,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

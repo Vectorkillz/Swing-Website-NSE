@@ -1,0 +1,14 @@
+{
+  "avg_volume": 5250944.0,
+  "debt_equity": 3.6019099999999997,
+  "eps_growth": 288.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:37+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 30359.3455616,
+  "name": "Manappuram Finance Limited",
+  "revenue_growth": 80.10000000000001,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

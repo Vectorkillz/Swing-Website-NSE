@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6445450.0,
+  "debt_equity": 1.00415,
+  "eps_growth": 35.099999999999994,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T05:49:02+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 1143171.710976,
+  "name": "Bharti Airtel Limited",
+  "revenue_growth": 18.4,
+  "roe": 20.151,
+  "roe_source": "returnOnEquity",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

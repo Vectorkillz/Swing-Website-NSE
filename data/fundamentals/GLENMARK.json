@@ -1,0 +1,15 @@
+{
+  "avg_volume": 534569.0,
+  "debt_equity": 0.056459999999999996,
+  "eps_growth": 930.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:50+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 67282.3640064,
+  "name": "Glenmark Pharmaceuticals Limited",
+  "revenue_growth": 23.1,
+  "roe": 17.103082343384354,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

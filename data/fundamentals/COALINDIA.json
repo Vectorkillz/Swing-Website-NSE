@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7879766.0,
+  "debt_equity": 0.11628999999999999,
+  "eps_growth": 1.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:22+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 261268.8846848,
+  "name": "Coal India Limited",
+  "revenue_growth": 45.1,
+  "roe": 26.151044423875934,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

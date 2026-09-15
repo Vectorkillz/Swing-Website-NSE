@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33790292.0,
+  "debt_equity": 0.14826,
+  "eps_growth": 233.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:43+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 293744.1222656,
+  "name": "Eternal Limited",
+  "revenue_growth": 182.0,
+  "roe": 1.390453227783513,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

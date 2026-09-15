@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6125303.0,
+  "debt_equity": null,
+  "eps_growth": 21.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:45+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 384539.2695296,
+  "name": "Axis Bank Limited",
+  "revenue_growth": 14.000000000000002,
+  "roe": 13.352998999999999,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

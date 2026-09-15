@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11820750.0,
+  "debt_equity": 0.0027300000000000002,
+  "eps_growth": 8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:59+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 283619.4131968,
+  "name": "Bharat Electronics Limited",
+  "revenue_growth": 24.9,
+  "roe": 25.622401791082634,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

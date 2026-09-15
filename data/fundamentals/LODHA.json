@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2604772.0,
+  "debt_equity": 0.42238,
+  "eps_growth": 103.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:28+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 109195.1198208,
+  "name": "Lodha Developers Limited",
+  "revenue_growth": 43.1,
+  "roe": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

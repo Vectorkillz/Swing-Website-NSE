@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2109333.0,
+  "debt_equity": 0.18986999999999998,
+  "eps_growth": 20.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:32+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 105016.3412992,
+  "name": "The Indian Hotels Company Limited",
+  "revenue_growth": 15.1,
+  "roe": 16.177482133431596,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 5850374.0,
+  "debt_equity": 3.9344200000000003,
+  "eps_growth": 28.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:31+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 76218.1844992,
+  "name": "L&T Finance Limited",
+  "revenue_growth": 29.299999999999997,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

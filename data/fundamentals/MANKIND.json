@@ -1,0 +1,14 @@
+{
+  "avg_volume": 406323.0,
+  "debt_equity": 0.38110999999999995,
+  "eps_growth": 29.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:39+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 94211.4471936,
+  "name": "Mankind Pharma Limited",
+  "revenue_growth": 12.9,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4890083.0,
+  "debt_equity": 0.25819,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:41+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 62804.7020032,
+  "name": "Ather Energy Limited",
+  "revenue_growth": 88.8,
+  "roe": -14.646097869506391,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

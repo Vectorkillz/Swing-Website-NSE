@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1751551.0,
+  "debt_equity": 0.04922,
+  "eps_growth": 92.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:28+00:00",
+  "industry": "Insurance Brokers",
+  "market_cap_cr": 82715.8757376,
+  "name": "PB Fintech Limited",
+  "revenue_growth": 40.1,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

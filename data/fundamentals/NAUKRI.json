@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2224736.0,
+  "debt_equity": 0.0064,
+  "eps_growth": 50.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:55+00:00",
+  "industry": "Internet Content & Information",
+  "market_cap_cr": 83804.291072,
+  "name": "Info Edge (India) Limited",
+  "revenue_growth": 11.4,
+  "roe": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

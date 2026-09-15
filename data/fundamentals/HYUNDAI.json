@@ -1,0 +1,15 @@
+{
+  "avg_volume": 726413.0,
+  "debt_equity": 0.05484,
+  "eps_growth": -35.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:16+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 177182.7232768,
+  "name": "Hyundai Motor India Limited",
+  "revenue_growth": -0.5,
+  "roe": 24.741020916278693,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

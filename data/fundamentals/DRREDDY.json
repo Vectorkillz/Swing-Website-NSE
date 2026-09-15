@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2003860.0,
+  "debt_equity": 0.18605,
+  "eps_growth": -68.7,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T05:49:41+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 96385.1124736,
+  "name": "Dr. Reddy's Laboratories Limited",
+  "revenue_growth": -5.6000000000000005,
+  "roe": 8.836999500000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1945181.0,
+  "debt_equity": null,
+  "eps_growth": 71.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:36+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 74938.1353472,
+  "name": "IndusInd Bank Limited",
+  "revenue_growth": 1.0,
+  "roe": 2.010375572024317,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

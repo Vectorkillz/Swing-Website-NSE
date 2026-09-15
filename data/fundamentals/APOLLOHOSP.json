@@ -1,0 +1,15 @@
+{
+  "avg_volume": 320923.0,
+  "debt_equity": 0.85146,
+  "eps_growth": 34.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:35+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 126889.9643392,
+  "name": "Apollo Hospitals Enterprise Limited",
+  "revenue_growth": 20.599999999999998,
+  "roe": 22.041970240998705,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

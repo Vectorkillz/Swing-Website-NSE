@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12588147.0,
+  "debt_equity": 0.20631,
+  "eps_growth": -38.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:40+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 12937.588736,
+  "name": "Inox Wind Limited",
+  "revenue_growth": -1.5,
+  "roe": 4.654327103662086,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

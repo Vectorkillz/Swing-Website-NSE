@@ -1,0 +1,14 @@
+{
+  "avg_volume": 10247607.0,
+  "debt_equity": 0.70364,
+  "eps_growth": -80.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:13+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 115882.1838848,
+  "name": "Tata Motors Passenger Vehicles Limited",
+  "revenue_growth": -8.200000000000001,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

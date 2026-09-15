@@ -1,0 +1,14 @@
+{
+  "avg_volume": 326381.0,
+  "debt_equity": 0.27724,
+  "eps_growth": -14.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:10+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 50245.566464,
+  "name": "Tube Investments of India Limited",
+  "revenue_growth": 20.7,
+  "roe": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,776 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "allow_pyramiding": {
+      "default": false,
+      "description": "Allow a new long in a symbol already held open in the journal.",
+      "title": "Allow Pyramiding",
+      "type": "boolean",
+      "x-group": "risk",
+      "x-unit": "flag"
+    },
+    "allow_shorts_in_bull_high_vix": {
+      "default": false,
+      "description": "Reference behaviour disables shorts in BULL_HIGH_VIX (defect 7.2). Set true to allow them.",
+      "title": "Allow Shorts In Bull High Vix",
+      "type": "boolean",
+      "x-group": "regime",
+      "x-unit": "flag"
+    },
+    "band_a_min": {
+      "default": 85.0,
+      "description": "Raw score at or above this is band A.",
+      "title": "Band A Min",
+      "type": "number",
+      "x-group": "scoring",
+      "x-unit": "points (raw)"
+    },
+    "band_b_min": {
+      "default": 70.0,
+      "description": "Raw score at or above this (and below A) is band B. Below is C.",
+      "title": "Band B Min",
+      "type": "number",
+      "x-group": "scoring",
+      "x-unit": "points (raw)"
+    },
+    "bar_pattern_lookback": {
+      "default": 5,
+      "description": "Bars scanned for inside bar / mother bar.",
+      "minimum": 3,
+      "title": "Bar Pattern Lookback",
+      "type": "integer",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "breakeven_at_r": {
+      "default": 2.0,
+      "description": "Move stop to breakeven once price reaches entry + N x R.",
+      "exclusiveMinimum": 0,
+      "title": "Breakeven At R",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "R"
+    },
+    "capital": {
+      "default": 500000,
+      "description": "Trading capital used for sizing.",
+      "exclusiveMinimum": 0,
+      "title": "Capital",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "INR"
+    },
+    "chart_bars": {
+      "default": 300,
+      "description": "Daily bars exported per chart file.",
+      "minimum": 50,
+      "title": "Chart Bars",
+      "type": "integer",
+      "x-group": "output",
+      "x-unit": "bars"
+    },
+    "clip_score_display_at_100": {
+      "default": true,
+      "description": "Reference clipped the score at 100 (defect 7.10). Only the display value is clipped; raw and normalised are stored unclipped.",
+      "title": "Clip Score Display At 100",
+      "type": "boolean",
+      "x-group": "scoring",
+      "x-unit": "flag"
+    },
+    "double_top_tolerance_pct": {
+      "default": 3.0,
+      "description": "Two peaks within this percentage form a double top.",
+      "exclusiveMinimum": 0,
+      "title": "Double Top Tolerance Pct",
+      "type": "number",
+      "x-group": "short",
+      "x-unit": "pct"
+    },
+    "ema_support_tolerance_pct": {
+      "default": 1.0,
+      "description": "Close must be at least EMA20 x (1 - N%) for VCP support.",
+      "minimum": 0,
+      "title": "Ema Support Tolerance Pct",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct"
+    },
+    "keep_runs": {
+      "default": 60,
+      "description": "Run directories kept in the repo (older pruned; git history retains them).",
+      "minimum": 1,
+      "title": "Keep Runs",
+      "type": "integer",
+      "x-group": "output",
+      "x-unit": "runs"
+    },
+    "leg_lookback_bars": {
+      "default": 42,
+      "description": "Bars searched for the momentum leg.",
+      "minimum": 23,
+      "title": "Leg Lookback Bars",
+      "type": "integer",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "leg_window_bars": {
+      "default": 22,
+      "description": "Momentum leg window length.",
+      "minimum": 5,
+      "title": "Leg Window Bars",
+      "type": "integer",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "long_entry_max_offset_pct": {
+      "default": 0.8,
+      "description": "Do-not-chase limit: entry_max = close x (1 + N%). Sizing uses this worst case.",
+      "minimum": 0,
+      "title": "Long Entry Max Offset Pct",
+      "type": "number",
+      "x-group": "entry",
+      "x-unit": "pct"
+    },
+    "long_entry_offset_pct": {
+      "default": 0.2,
+      "description": "Long entry = close x (1 + N%).",
+      "minimum": 0,
+      "title": "Long Entry Offset Pct",
+      "type": "number",
+      "x-group": "entry",
+      "x-unit": "pct"
+    },
+    "lookback_daily_days": {
+      "default": 1095,
+      "description": "Daily history retained per symbol (3 years; weekly trails need it).",
+      "minimum": 400,
+      "title": "Lookback Daily Days",
+      "type": "integer",
+      "x-group": "output",
+      "x-unit": "calendar days"
+    },
+    "low_volume_bounce_factor": {
+      "default": 0.8,
+      "description": "Mean volume of last 5 bars below factor x vol20 counts as low-volume bounce.",
+      "exclusiveMinimum": 0,
+      "title": "Low Volume Bounce Factor",
+      "type": "number",
+      "x-group": "short",
+      "x-unit": "x 20-day avg volume"
+    },
+    "max_concurrent_positions": {
+      "default": 6,
+      "description": "Maximum open + accepted positions.",
+      "maximum": 100,
+      "minimum": 1,
+      "title": "Max Concurrent Positions",
+      "type": "integer",
+      "x-group": "risk",
+      "x-unit": "count"
+    },
+    "max_debt_equity": {
+      "default": 2.5,
+      "description": "Maximum debt to equity RATIO. yfinance reports percentage points; the provider divides by 100.",
+      "minimum": 0,
+      "title": "Max Debt Equity",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "ratio (debt / equity)"
+    },
+    "max_gap_sessions": {
+      "default": 5,
+      "description": "Reject a symbol whose bars skip more than N expected sessions.",
+      "minimum": 1,
+      "title": "Max Gap Sessions",
+      "type": "integer",
+      "x-group": "data",
+      "x-unit": "sessions"
+    },
+    "max_gross_exposure_pct": {
+      "default": 100.0,
+      "description": "Cap on sum of open + accepted position values as % of capital.",
+      "exclusiveMinimum": 0,
+      "maximum": 300,
+      "title": "Max Gross Exposure Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "max_leg_age_bars": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Leg window must end within N bars of the last bar (defect 7.5). null = disabled (reference behaviour).",
+      "title": "Max Leg Age Bars",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "max_portfolio_risk_pct": {
+      "default": 10.0,
+      "description": "Cap on sum of open + accepted risk amounts as % of capital. Enforced, candidates beyond it are deferred.",
+      "exclusiveMinimum": 0,
+      "maximum": 100,
+      "title": "Max Portfolio Risk Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "max_position_pct_of_capital": {
+      "default": 20.0,
+      "description": "Cap on a single position's value as % of capital.",
+      "exclusiveMinimum": 0,
+      "maximum": 100,
+      "title": "Max Position Pct Of Capital",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "max_positions_per_sector": {
+      "default": 2,
+      "description": "Maximum open + accepted positions per sector.",
+      "maximum": 100,
+      "minimum": 1,
+      "title": "Max Positions Per Sector",
+      "type": "integer",
+      "x-group": "risk",
+      "x-unit": "count"
+    },
+    "min_avg_volume": {
+      "default": 300000,
+      "description": "Minimum average daily volume for longs. Shorts use 0.5x.",
+      "minimum": 0,
+      "title": "Min Avg Volume",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "shares/day"
+    },
+    "min_daily_bars": {
+      "default": 100,
+      "description": "Minimum daily bars required per symbol.",
+      "minimum": 60,
+      "title": "Min Daily Bars",
+      "type": "integer",
+      "x-group": "data",
+      "x-unit": "bars"
+    },
+    "min_daily_candle_pct": {
+      "default": 6.5,
+      "description": "Leg also qualifies if largest single-day move in the window is at least this.",
+      "title": "Min Daily Candle Pct",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct"
+    },
+    "min_eps_growth": {
+      "default": 10.0,
+      "description": "EPS growth threshold used in scoring (not gated, as in reference).",
+      "title": "Min Eps Growth",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "pct YoY"
+    },
+    "min_market_cap_cr": {
+      "default": 500.0,
+      "description": "Minimum market capitalisation.",
+      "minimum": 0,
+      "title": "Min Market Cap Cr",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "INR crore"
+    },
+    "min_momentum_pct": {
+      "default": 20.0,
+      "description": "Leg qualifies if window move is at least this.",
+      "title": "Min Momentum Pct",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct"
+    },
+    "min_revenue_growth": {
+      "default": 8.0,
+      "description": "Minimum revenue growth.",
+      "title": "Min Revenue Growth",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "pct YoY"
+    },
+    "min_roe": {
+      "default": 10.0,
+      "description": "Minimum return on equity.",
+      "title": "Min Roe",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "pct"
+    },
+    "min_samples_for_calibration": {
+      "default": 100,
+      "description": "Journal outcomes required before empirical hit rates are shown.",
+      "minimum": 1,
+      "title": "Min Samples For Calibration",
+      "type": "integer",
+      "x-group": "scoring",
+      "x-unit": "closed trades"
+    },
+    "min_score_long": {
+      "default": 60.0,
+      "description": "Minimum raw long score.",
+      "minimum": 0,
+      "title": "Min Score Long",
+      "type": "number",
+      "x-group": "scoring",
+      "x-unit": "points (raw)"
+    },
+    "min_score_short": {
+      "default": 60.0,
+      "description": "Minimum raw short score.",
+      "minimum": 0,
+      "title": "Min Score Short",
+      "type": "number",
+      "x-group": "scoring",
+      "x-unit": "points (raw)"
+    },
+    "min_stop_distance_pct": {
+      "default": 1.0,
+      "description": "Floor on stop distance from entry. Prevents size blow-up on tiny ranges (defect 7.1).",
+      "exclusiveMinimum": 0,
+      "maximum": 10,
+      "title": "Min Stop Distance Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "min_universe_coverage_pct": {
+      "default": 90.0,
+      "description": "Run marked degraded when fewer symbols than this have usable data.",
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Min Universe Coverage Pct",
+      "type": "number",
+      "x-group": "data",
+      "x-unit": "pct"
+    },
+    "multibagger_arm_pct": {
+      "default": 40.0,
+      "description": "Gain after which the 30-week SMA trail replaces the weekly EMA20 trail.",
+      "exclusiveMinimum": 0,
+      "title": "Multibagger Arm Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct"
+    },
+    "partial_exit_1_pct": {
+      "default": 25.0,
+      "description": "Quantity sold at partial exit 1.",
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Partial Exit 1 Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct of qty"
+    },
+    "partial_exit_1_r": {
+      "default": 2.0,
+      "description": "First partial exit at entry + N x R.",
+      "exclusiveMinimum": 0,
+      "title": "Partial Exit 1 R",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "R"
+    },
+    "partial_exit_2_gain_pct": {
+      "default": 20.0,
+      "description": "Second partial exit at entry x (1 + N%).",
+      "exclusiveMinimum": 0,
+      "title": "Partial Exit 2 Gain Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct"
+    },
+    "partial_exit_2_pct": {
+      "default": 25.0,
+      "description": "Quantity sold at partial exit 2.",
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Partial Exit 2 Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct of qty"
+    },
+    "pledge_max_pct": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Reserved. Not gated in v1 (no data source).",
+      "title": "Pledge Max Pct",
+      "x-group": "gates",
+      "x-unit": "pct"
+    },
+    "prev_low_stop_buffer_pct": {
+      "default": 0.5,
+      "description": "Previous-bar-low stop candidate = prev_low x (1 - N%).",
+      "minimum": 0,
+      "title": "Prev Low Stop Buffer Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "promoter_min_pct": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Reserved. Not gated in v1 (no data source).",
+      "title": "Promoter Min Pct",
+      "x-group": "gates",
+      "x-unit": "pct"
+    },
+    "regime_ema_fast": {
+      "default": 10,
+      "description": "Fast EMA on Nifty for regime.",
+      "minimum": 2,
+      "title": "Regime Ema Fast",
+      "type": "integer",
+      "x-group": "regime",
+      "x-unit": "bars"
+    },
+    "regime_ema_slow": {
+      "default": 20,
+      "description": "Slow EMA on Nifty for regime.",
+      "minimum": 2,
+      "title": "Regime Ema Slow",
+      "type": "integer",
+      "x-group": "regime",
+      "x-unit": "bars"
+    },
+    "regime_roc_bars": {
+      "default": 378,
+      "description": "Lookback for the 18-month ROC on Nifty (uses min(N, len-1)).",
+      "minimum": 20,
+      "title": "Regime Roc Bars",
+      "type": "integer",
+      "x-group": "regime",
+      "x-unit": "bars"
+    },
+    "require_ban_list": {
+      "default": true,
+      "description": "No short plans when the F&O ban list is unavailable.",
+      "title": "Require Ban List",
+      "type": "boolean",
+      "x-group": "data",
+      "x-unit": "flag"
+    },
+    "require_smallcap_confirmation_for_bull": {
+      "default": false,
+      "description": "Require Nifty Smallcap 100 close > EMA10 and > EMA20 for BULL. Always displayed.",
+      "title": "Require Smallcap Confirmation For Bull",
+      "type": "boolean",
+      "x-group": "regime",
+      "x-unit": "flag"
+    },
+    "risk_per_trade_pct": {
+      "default": 2.0,
+      "description": "Capital risked per trade (entry to stop).",
+      "exclusiveMinimum": 0,
+      "maximum": 10,
+      "title": "Risk Per Trade Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "roc_bull_max": {
+      "default": 45.0,
+      "description": "BULL requires ROC(18m) below this (overextension guard).",
+      "title": "Roc Bull Max",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "pct"
+    },
+    "roc_bull_min": {
+      "default": 0.0,
+      "description": "BULL requires ROC(18m) above this.",
+      "title": "Roc Bull Min",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "pct"
+    },
+    "rs_lookback_bars": {
+      "default": 20,
+      "description": "Lookback for relative strength vs Nifty (symbol ROC minus Nifty ROC).",
+      "minimum": 2,
+      "title": "Rs Lookback Bars",
+      "type": "integer",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "rs_score_weight": {
+      "default": 0.0,
+      "description": "Points awarded when rs_vs_nifty > 0. Default 0 so enabling is explicit.",
+      "minimum": 0,
+      "title": "Rs Score Weight",
+      "type": "number",
+      "x-group": "scoring",
+      "x-unit": "points"
+    },
+    "short_avg_volume_factor": {
+      "default": 0.5,
+      "description": "Short gate volume = factor x min_avg_volume.",
+      "exclusiveMinimum": 0,
+      "title": "Short Avg Volume Factor",
+      "type": "number",
+      "x-group": "gates",
+      "x-unit": "x"
+    },
+    "short_entry_offset_pct": {
+      "default": 0.2,
+      "description": "Short entry = close x (1 - N%).",
+      "minimum": 0,
+      "title": "Short Entry Offset Pct",
+      "type": "number",
+      "x-group": "entry",
+      "x-unit": "pct"
+    },
+    "short_target_1_pct": {
+      "default": 50.0,
+      "description": "Quantity covered at short target 1.",
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Short Target 1 Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct of qty"
+    },
+    "short_target_1_r": {
+      "default": 2.0,
+      "description": "Short target 1 in R.",
+      "exclusiveMinimum": 0,
+      "title": "Short Target 1 R",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "R"
+    },
+    "short_target_2_pct": {
+      "default": 50.0,
+      "description": "Quantity covered at short target 2.",
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Short Target 2 Pct",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "pct of qty"
+    },
+    "short_target_2_r": {
+      "default": 3.0,
+      "description": "Short target 2 in R.",
+      "exclusiveMinimum": 0,
+      "title": "Short Target 2 R",
+      "type": "number",
+      "x-group": "exits",
+      "x-unit": "R"
+    },
+    "size_mult_bear": {
+      "default": 1.0,
+      "description": "Size multiplier in BEAR.",
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Size Mult Bear",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "x"
+    },
+    "size_mult_bull": {
+      "default": 1.0,
+      "description": "Size multiplier in BULL.",
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Size Mult Bull",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "x"
+    },
+    "size_mult_bull_high_vix": {
+      "default": 0.5,
+      "description": "Size multiplier in BULL_HIGH_VIX.",
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Size Mult Bull High Vix",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "x"
+    },
+    "size_mult_neutral": {
+      "default": 0.75,
+      "description": "Size multiplier in NEUTRAL.",
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Size Mult Neutral",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "x"
+    },
+    "sl_atr_mult": {
+      "default": 1.5,
+      "description": "ATR multiple stop candidate.",
+      "exclusiveMinimum": 0,
+      "maximum": 10,
+      "title": "Sl Atr Mult",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "x ATR14"
+    },
+    "sl_pct": {
+      "default": 2.5,
+      "description": "Percentage stop candidate below/above entry.",
+      "exclusiveMinimum": 0,
+      "maximum": 20,
+      "title": "Sl Pct",
+      "type": "number",
+      "x-group": "risk",
+      "x-unit": "pct"
+    },
+    "top_n_longs": {
+      "default": 5,
+      "description": "Long candidates kept after sorting by raw score.",
+      "minimum": 0,
+      "title": "Top N Longs",
+      "type": "integer",
+      "x-group": "ranking",
+      "x-unit": "count"
+    },
+    "top_n_shorts": {
+      "default": 5,
+      "description": "Short candidates kept after sorting by raw score.",
+      "minimum": 0,
+      "title": "Top N Shorts",
+      "type": "integer",
+      "x-group": "ranking",
+      "x-unit": "count"
+    },
+    "trail_ema_weeks": {
+      "default": 20,
+      "description": "Weekly EMA length for the Stage 2 trail. Computed from real weekly bars.",
+      "minimum": 2,
+      "title": "Trail Ema Weeks",
+      "type": "integer",
+      "x-group": "exits",
+      "x-unit": "weeks"
+    },
+    "trail_sma_weeks": {
+      "default": 30,
+      "description": "Weekly SMA length for the multibagger trail. Computed from real weekly bars.",
+      "minimum": 2,
+      "title": "Trail Sma Weeks",
+      "type": "integer",
+      "x-group": "exits",
+      "x-unit": "weeks"
+    },
+    "treat_missing_fundamental_as": {
+      "default": "reject",
+      "description": "Uniform handling of a missing fundamental field: reject the symbol, pass the gate, or exclude from run with status fundamentals_missing.",
+      "enum": [
+        "reject",
+        "pass",
+        "exclude"
+      ],
+      "title": "Treat Missing Fundamental As",
+      "type": "string",
+      "x-group": "gates",
+      "x-unit": "enum"
+    },
+    "universe_stale_days": {
+      "default": 7,
+      "description": "Warn when the universe snapshot is older than this.",
+      "minimum": 1,
+      "title": "Universe Stale Days",
+      "type": "integer",
+      "x-group": "data",
+      "x-unit": "days"
+    },
+    "vcp_depth_max": {
+      "default": 25.0,
+      "description": "Maximum pullback depth from leg high.",
+      "exclusiveMinimum": 0,
+      "title": "Vcp Depth Max",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct"
+    },
+    "vcp_depth_min": {
+      "default": 8.0,
+      "description": "Minimum pullback depth from leg high.",
+      "minimum": 0,
+      "title": "Vcp Depth Min",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct"
+    },
+    "vcp_recent_volume_bars": {
+      "default": 10,
+      "description": "Bars used for the recent-volume mean in the dry-up test.",
+      "minimum": 2,
+      "title": "Vcp Recent Volume Bars",
+      "type": "integer",
+      "x-group": "long",
+      "x-unit": "bars"
+    },
+    "vix_long_suppress": {
+      "default": 25.0,
+      "description": "BULL with India VIX above this becomes BULL_HIGH_VIX (size x0.5).",
+      "exclusiveMinimum": 0,
+      "title": "Vix Long Suppress",
+      "type": "number",
+      "x-group": "regime",
+      "x-unit": "index points"
+    },
+    "volume_dry_pct": {
+      "default": 50.0,
+      "description": "Mean volume of last 10 bars must be below this share of leg mean volume.",
+      "exclusiveMinimum": 0,
+      "title": "Volume Dry Pct",
+      "type": "number",
+      "x-group": "long",
+      "x-unit": "pct of leg mean volume"
+    },
+    "weak_bounce_max_ratio": {
+      "default": 0.3,
+      "description": "Bounce counts as weak when retrace ratio is below this.",
+      "exclusiveMinimum": 0,
+      "maximum": 1,
+      "title": "Weak Bounce Max Ratio",
+      "type": "number",
+      "x-group": "short",
+      "x-unit": "ratio"
+    },
+    "weak_bounce_method": {
+      "default": "single_bar_high",
+      "description": "single_bar_high = reference formula using high[-40] as denominator. swing_high = highest high between pivot swing start and swing low (defect 7.6 correction).",
+      "enum": [
+        "single_bar_high",
+        "swing_high"
+      ],
+      "title": "Weak Bounce Method",
+      "type": "string",
+      "x-group": "short",
+      "x-unit": "enum"
+    }
+  },
+  "title": "ScanConfig",
+  "type": "object"
+}

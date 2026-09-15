@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3844550.0,
+  "debt_equity": 4.95936,
+  "eps_growth": 39.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:20+00:00",
+  "industry": "Financial Conglomerates",
+  "market_cap_cr": 105468.5855744,
+  "name": "Aditya Birla Capital Limited",
+  "revenue_growth": 31.4,
+  "roe": 11.398494891837295,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1168629.0,
+  "debt_equity": 2.56404,
+  "eps_growth": 12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:49+00:00",
+  "industry": "Financial Conglomerates",
+  "market_cap_cr": 300077.8883072,
+  "name": "Bajaj Finserv Ltd.",
+  "revenue_growth": 19.3,
+  "roe": 13.007434256401329,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 9021854.0,
+  "debt_equity": 1.50813,
+  "eps_growth": -0.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:31+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 246838.0147712,
+  "name": "Power Grid Corporation of India Limited",
+  "revenue_growth": 2.7,
+  "roe": null,
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

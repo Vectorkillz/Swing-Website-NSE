@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4251745.0,
+  "debt_equity": 0.006730000000000001,
+  "eps_growth": 4.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:38+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 155944.6290432,
+  "name": "DLF Limited",
+  "revenue_growth": -52.900000000000006,
+  "roe": 10.102,
+  "roe_source": "returnOnEquity",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

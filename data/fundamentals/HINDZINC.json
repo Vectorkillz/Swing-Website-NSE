@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5002615.0,
+  "debt_equity": 0.39033999999999996,
+  "eps_growth": 144.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:15+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 239660.0926208,
+  "name": "Hindustan Zinc Limited",
+  "revenue_growth": 71.7,
+  "roe": 75.42052447145679,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

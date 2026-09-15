@@ -1,0 +1,14 @@
+{
+  "avg_volume": 899888.0,
+  "debt_equity": 0.29388000000000003,
+  "eps_growth": 16.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:33+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 94864.375808,
+  "name": "Lupin Limited",
+  "revenue_growth": 32.0,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

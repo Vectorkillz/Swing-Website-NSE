@@ -1,0 +1,15 @@
+{
+  "avg_volume": 303165.0,
+  "debt_equity": 0.01547,
+  "eps_growth": 3.0,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T05:48:18+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 150020.5285376,
+  "name": "ABB India Limited",
+  "revenue_growth": 12.1,
+  "roe": 19.131,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

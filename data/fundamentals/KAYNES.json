@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1268954.0,
+  "debt_equity": 0.19168,
+  "eps_growth": -0.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:17+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 23276.4588032,
+  "name": "Kaynes Technology India Limited",
+  "revenue_growth": 40.5,
+  "roe": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

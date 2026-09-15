@@ -1,0 +1,14 @@
+{
+  "avg_volume": 565458.0,
+  "debt_equity": 0.24675,
+  "eps_growth": 10.7,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T04:53:50+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 45756.0195072,
+  "name": "Mphasis Limited",
+  "revenue_growth": 17.5,
+  "roe": 17.743999,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

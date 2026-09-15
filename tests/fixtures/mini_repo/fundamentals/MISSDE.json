@@ -1,0 +1,13 @@
+{
+  "avg_volume": 900000,
+  "debt_equity": null,
+  "eps_growth": 30.0,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-10T10:00:00",
+  "market_cap_cr": 12000,
+  "name": "Missde Ltd",
+  "revenue_growth": 22.0,
+  "roe": 18.0,
+  "sector": "Technology",
+  "source": "fixture"
+}

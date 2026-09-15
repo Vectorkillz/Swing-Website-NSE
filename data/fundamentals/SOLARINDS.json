@@ -1,0 +1,14 @@
+{
+  "avg_volume": 145277.0,
+  "debt_equity": 0.23271,
+  "eps_growth": 92.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:53+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 185414.12352,
+  "name": "Solar Industries India Limited",
+  "revenue_growth": 70.3,
+  "roe": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 15358458.0,
+  "debt_equity": 1.13111,
+  "eps_growth": 2.8000000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:59+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 77145.86624,
+  "name": "NHPC Limited",
+  "revenue_growth": 18.5,
+  "roe": null,
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

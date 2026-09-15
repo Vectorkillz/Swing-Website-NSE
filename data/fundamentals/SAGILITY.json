@@ -1,0 +1,14 @@
+{
+  "avg_volume": 24596471.0,
+  "debt_equity": 0.11497,
+  "eps_growth": 43.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:43+00:00",
+  "industry": "Health Information Services",
+  "market_cap_cr": 21524.7486976,
+  "name": "Sagility Limited",
+  "revenue_growth": 27.6,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

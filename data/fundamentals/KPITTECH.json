@@ -1,0 +1,14 @@
+{
+  "avg_volume": 3454392.0,
+  "debt_equity": 0.23623999999999998,
+  "eps_growth": -31.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:22+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 15659.8714368,
+  "name": "KPIT Technologies Limited",
+  "revenue_growth": 8.9,
+  "roe": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

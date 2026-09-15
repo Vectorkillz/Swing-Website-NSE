@@ -1,0 +1,14 @@
+{
+  "avg_volume": 740794.0,
+  "debt_equity": 0.12673,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:46+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 50046.0945408,
+  "name": "Max Financial Services Limited",
+  "revenue_growth": -40.2,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

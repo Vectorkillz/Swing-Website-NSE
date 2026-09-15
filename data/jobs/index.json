@@ -1,0 +1,100 @@
+{
+  "jobs": [
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
+        "candidates_long": 0,
+        "candidates_short": 32,
+        "data_unavailable": 2,
+        "deferred": 0,
+        "fundamentals_missing": 0,
+        "no_setup": 10,
+        "ranked_long": 0,
+        "ranked_short": 5,
+        "rejected_gate": 167,
+        "scanned": 211,
+        "universe": 211,
+        "usable": 209,
+        "warnings": []
+      },
+      "duration_s": 16.2,
+      "finished_at": "2026-09-15T05:45:58+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-11_v001_726fc0c0",
+      "started_at": "2026-09-15T05:45:42+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "failed": 1,
+        "fetched": 210,
+        "shard": "0/1",
+        "skipped_fresh": 0,
+        "symbols": 211
+      },
+      "duration_s": 283.3,
+      "finished_at": "2026-09-15T04:55:35+00:00",
+      "job": "refresh_fundamentals",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-15T04:50:51+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
+        "bars_added": 151771,
+        "failed": 1,
+        "ok": 210,
+        "symbols": 211
+      },
+      "duration_s": 251843.1,
+      "finished_at": "2026-09-15T04:50:42+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 2,
+      "run_id": null,
+      "started_at": "2026-09-12T06:53:24+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
+        "n_symbols": 211,
+        "source": "live"
+      },
+      "duration_s": 1.6,
+      "finished_at": "2026-09-12T06:50:14+00:00",
+      "job": "refresh_universe",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-09-12T06:50:13+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "bars_added": 3707,
+        "failed": 0,
+        "ok": 3,
+        "symbols": 3
+      },
+      "duration_s": 11.9,
+      "finished_at": "2026-09-11T14:25:22+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-11T14:25:10+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {},
+      "duration_s": 0.9,
+      "finished_at": "2026-09-11T14:25:07+00:00",
+      "job": "refresh_universe",
+      "n_errors": 2,
+      "run_id": null,
+      "started_at": "2026-09-11T14:25:06+00:00",
+      "status": "failed"
+    }
+  ],
+  "schema_version": 1
+}

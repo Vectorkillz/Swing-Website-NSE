@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2632517.0,
+  "debt_equity": 0.00113,
+  "eps_growth": 103.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:45+00:00",
+  "industry": "Financial Data & Stock Exchanges",
+  "market_cap_cr": 81622.6697216,
+  "name": "Multi Commodity Exchange of India Limited",
+  "revenue_growth": 85.3,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

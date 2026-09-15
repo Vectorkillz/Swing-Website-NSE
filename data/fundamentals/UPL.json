@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2203045.0,
+  "debt_equity": 0.57128,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:24+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 48075.5351552,
+  "name": "UPL Limited",
+  "revenue_growth": 10.5,
+  "roe": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

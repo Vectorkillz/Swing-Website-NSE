@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1360144.0,
+  "debt_equity": 0.34149999999999997,
+  "eps_growth": 2.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:47+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 66859.0931968,
+  "name": "Fortis Healthcare Limited",
+  "revenue_growth": 17.5,
+  "roe": 10.589457924987446,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4684431.0,
+  "debt_equity": 5.65671,
+  "eps_growth": 33.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:43+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 30940.872704,
+  "name": "Indian Renewable Energy Development Agency Limited",
+  "revenue_growth": 23.7,
+  "roe": 2.324954770306477,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16662950.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:51+00:00",
+  "industry": "Airports & Air Services",
+  "market_cap_cr": 99613.376512,
+  "name": "GMR Airports Limited",
+  "revenue_growth": 23.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

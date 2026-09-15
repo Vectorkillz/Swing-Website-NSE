@@ -1,0 +1,14 @@
+{
+  "avg_volume": 16440834.0,
+  "debt_equity": 0.48044,
+  "eps_growth": 72.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:27+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 101505.3287424,
+  "name": "Vedanta Limited",
+  "revenue_growth": -37.3,
+  "roe": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

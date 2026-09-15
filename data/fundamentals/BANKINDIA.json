@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7732790.0,
+  "debt_equity": null,
+  "eps_growth": 80.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:56+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 63259.3186816,
+  "name": "Bank of India",
+  "revenue_growth": 18.5,
+  "roe": 13.697000000000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

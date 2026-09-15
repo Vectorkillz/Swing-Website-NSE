@@ -1,0 +1,6465 @@
+{
+  "cases": [
+    {
+      "candidates": [
+        {
+          "position_value": 236322.95,
+          "qty": 95,
+          "raw": 105.0,
+          "risk_amount": 3230.95,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 336655.0,
+          "qty": 275,
+          "raw": 83.0,
+          "risk_amount": 11825.0,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 41189.12,
+          "qty": 128,
+          "raw": 97.0,
+          "risk_amount": 1634.56,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 342180.0,
+          "qty": 180,
+          "raw": 87.0,
+          "risk_amount": 4998.6,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 585229.08,
+          "qty": 246,
+          "raw": 99.0,
+          "risk_amount": 21603.72,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 559737.75,
+          "qty": 325,
+          "raw": 98.0,
+          "risk_amount": 9392.5,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 566331.48,
+          "qty": 193,
+          "raw": 105.0,
+          "risk_amount": 5847.9,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM06"
+        }
+      ],
+      "case": 0,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 3,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 3,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 300000.0,
+          "gross_cap": 120000.0,
+          "open_gross_value": 617593.52,
+          "open_positions": 3,
+          "open_risk_amount": 18527.8,
+          "per_sector": {
+            "Banks": 1,
+            "Energy": 1,
+            "Pharma": 1
+          },
+          "risk_cap": 18000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "already_held",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 241.09,
+          "position_value": 20733.74,
+          "qty": 86,
+          "risk_amount": 622.01,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 233.8573,
+          "symbol": "SYM03"
+        },
+        {
+          "entry": 1453.87,
+          "position_value": 252973.38,
+          "qty": 174,
+          "risk_amount": 7589.2,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 1410.2539,
+          "symbol": "OPEN1"
+        },
+        {
+          "entry": 2645.28,
+          "position_value": 343886.4,
+          "qty": 130,
+          "risk_amount": 10316.59,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 2565.9216,
+          "symbol": "SYM04"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 374308.9,
+          "qty": 161,
+          "raw": 67.0,
+          "risk_amount": 17520.02,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 181621.38,
+          "qty": 114,
+          "raw": 80.0,
+          "risk_amount": 5614.5,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 269801.28,
+          "qty": 378,
+          "raw": 104.0,
+          "risk_amount": 4169.34,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 111305.88,
+          "qty": 126,
+          "raw": 75.0,
+          "risk_amount": 1282.68,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 93783.15,
+          "qty": 381,
+          "raw": 89.0,
+          "risk_amount": 2762.25,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 84838.2,
+          "qty": 30,
+          "raw": 93.0,
+          "risk_amount": 1399.5,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        }
+      ],
+      "case": 1,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 5,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 178621.35,
+          "accepted_positions": 2,
+          "accepted_risk_amount": 4161.75,
+          "capital": 300000.0,
+          "gross_cap": 180000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Banks": 1,
+            "Energy": 1
+          },
+          "risk_cap": 18000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 149760.6,
+          "qty": 55,
+          "raw": 90.0,
+          "risk_amount": 4393.4,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 316463.28,
+          "qty": 113,
+          "raw": 75.0,
+          "risk_amount": 11059.31,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 194970.81,
+          "qty": 177,
+          "raw": 97.0,
+          "risk_amount": 8000.4,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 76782.42,
+          "qty": 157,
+          "raw": 71.0,
+          "risk_amount": 2667.43,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 40303.41,
+          "qty": 217,
+          "raw": 62.0,
+          "risk_amount": 420.98,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 529711.0,
+          "qty": 364,
+          "raw": 70.0,
+          "risk_amount": 6639.36,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 87417.26,
+          "qty": 83,
+          "raw": 77.0,
+          "risk_amount": 3944.16,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 320124.99,
+          "qty": 141,
+          "raw": 99.0,
+          "risk_amount": 7085.25,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM07"
+        }
+      ],
+      "case": 2,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 2,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 149760.6,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 4393.4,
+          "capital": 300000.0,
+          "gross_cap": 180000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Pharma": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 536425.2,
+          "qty": 216,
+          "raw": 68.0,
+          "risk_amount": 22027.68,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 611484.5,
+          "qty": 365,
+          "raw": 65.0,
+          "risk_amount": 6351.0,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 78574.16,
+          "qty": 56,
+          "raw": 82.0,
+          "risk_amount": 1741.04,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 110034.99,
+          "qty": 141,
+          "raw": 81.0,
+          "risk_amount": 1706.1,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 106228.98,
+          "qty": 39,
+          "raw": 96.0,
+          "risk_amount": 4523.22,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 625060.76,
+          "qty": 278,
+          "raw": 69.0,
+          "risk_amount": 24975.52,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 404640.81,
+          "qty": 157,
+          "raw": 86.0,
+          "risk_amount": 9993.05,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 69451.52,
+          "qty": 64,
+          "raw": 76.0,
+          "risk_amount": 2846.08,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        }
+      ],
+      "case": 3,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 1,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 1000000.0,
+          "gross_cap": 600000.0,
+          "open_gross_value": 125418.63,
+          "open_positions": 2,
+          "open_risk_amount": 3762.56,
+          "per_sector": {
+            "Auto": 1,
+            "Banks": 1
+          },
+          "risk_cap": 60000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2118.88,
+          "position_value": 108062.88,
+          "qty": 51,
+          "risk_amount": 3241.89,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 2055.3136,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 1157.05,
+          "position_value": 17355.75,
+          "qty": 15,
+          "risk_amount": 520.67,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 1122.3385,
+          "symbol": "SYM06"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 943115.8,
+          "qty": 374,
+          "raw": 102.0,
+          "risk_amount": 9652.94,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 388620.24,
+          "qty": 344,
+          "raw": 97.0,
+          "risk_amount": 18751.44,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 88573.32,
+          "qty": 66,
+          "raw": 81.0,
+          "risk_amount": 1861.2,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 328046.4,
+          "qty": 380,
+          "raw": 94.0,
+          "risk_amount": 7068.0,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 121525.66,
+          "qty": 58,
+          "raw": 62.0,
+          "risk_amount": 3674.88,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 55971.96,
+          "qty": 66,
+          "raw": 71.0,
+          "risk_amount": 2715.9,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 397254.0,
+          "qty": 312,
+          "raw": 71.0,
+          "risk_amount": 19184.88,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 522050.88,
+          "qty": 354,
+          "raw": 86.0,
+          "risk_amount": 23732.16,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 30892.4,
+          "qty": 44,
+          "raw": 62.0,
+          "risk_amount": 1485.44,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 4,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 6,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 2,
+        "top_n_shorts": 0
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 179722.95,
+          "open_positions": 1,
+          "open_risk_amount": 5391.69,
+          "per_sector": {
+            "Tech": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1089.23,
+          "position_value": 179722.95,
+          "qty": 165,
+          "risk_amount": 5391.69,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 1056.5531,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 442029.6,
+          "qty": 348,
+          "raw": 105.0,
+          "risk_amount": 11101.2,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 21804.1,
+          "qty": 142,
+          "raw": 62.0,
+          "risk_amount": 565.16,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 234107.2,
+          "qty": 80,
+          "raw": 83.0,
+          "risk_amount": 6423.2,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 361494.55,
+          "qty": 383,
+          "raw": 72.0,
+          "risk_amount": 16978.39,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 6800.64,
+          "qty": 56,
+          "raw": 97.0,
+          "risk_amount": 328.72,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM04"
+        }
+      ],
+      "case": 5,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 2,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 6800.64,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 328.72,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Auto": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 484523.27,
+          "qty": 373,
+          "raw": 76.0,
+          "risk_amount": 16904.36,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 15518.79,
+          "qty": 63,
+          "raw": 92.0,
+          "risk_amount": 674.1,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 93640.37,
+          "qty": 233,
+          "raw": 90.0,
+          "risk_amount": 2975.41,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 62549.4,
+          "qty": 244,
+          "raw": 98.0,
+          "risk_amount": 2720.6,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 912935.11,
+          "qty": 307,
+          "raw": 105.0,
+          "risk_amount": 18662.53,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 144278.25,
+          "qty": 75,
+          "raw": 76.0,
+          "risk_amount": 2358.0,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 87215.2,
+          "qty": 82,
+          "raw": 67.0,
+          "risk_amount": 2207.44,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 282409.47,
+          "qty": 189,
+          "raw": 105.0,
+          "risk_amount": 3434.13,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 1591.8,
+          "qty": 3,
+          "raw": 61.0,
+          "risk_amount": 54.57,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 6,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 6,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 6,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 393160.43,
+          "accepted_positions": 4,
+          "accepted_risk_amount": 7138.21,
+          "capital": 500000.0,
+          "gross_cap": 500000.0,
+          "open_gross_value": 81619.72,
+          "open_positions": 1,
+          "open_risk_amount": 2448.59,
+          "per_sector": {
+            "Auto": 1,
+            "Banks": 1,
+            "Energy": 1,
+            "Tech": 2
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 6,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2914.99,
+          "position_value": 81619.72,
+          "qty": 28,
+          "risk_amount": 2448.59,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 2827.5403,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 62532.75,
+          "qty": 129,
+          "raw": 68.0,
+          "risk_amount": 1001.04,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 77709.87,
+          "qty": 217,
+          "raw": 81.0,
+          "risk_amount": 3339.63,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 420819.08,
+          "qty": 164,
+          "raw": 79.0,
+          "risk_amount": 20996.92,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 504618.62,
+          "qty": 341,
+          "raw": 95.0,
+          "risk_amount": 10120.88,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 7752.0,
+          "qty": 12,
+          "raw": 79.0,
+          "risk_amount": 274.32,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 613721.2,
+          "qty": 232,
+          "raw": 101.0,
+          "risk_amount": 25172.0,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 781020.58,
+          "qty": 263,
+          "raw": 76.0,
+          "risk_amount": 7950.49,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 419386.17,
+          "qty": 329,
+          "raw": 101.0,
+          "risk_amount": 11886.77,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 36327.64,
+          "qty": 164,
+          "raw": 95.0,
+          "risk_amount": 1771.2,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 73820.88,
+          "qty": 302,
+          "raw": 62.0,
+          "risk_amount": 3566.62,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM09"
+        },
+        {
+          "position_value": 255385.48,
+          "qty": 194,
+          "raw": 79.0,
+          "risk_amount": 9230.52,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM10"
+        }
+      ],
+      "case": 7,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 300000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 3,
+        "top_n_shorts": 0
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 36327.64,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 1771.2,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 42559.6,
+          "open_positions": 2,
+          "open_risk_amount": 1276.79,
+          "per_sector": {
+            "Auto": 1,
+            "Energy": 1,
+            "Pharma": 1
+          },
+          "risk_cap": 12000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM10"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM09"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 464.97,
+          "position_value": 3719.76,
+          "qty": 8,
+          "risk_amount": 111.59,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 451.0209,
+          "symbol": "SYM02"
+        },
+        {
+          "entry": 273.52,
+          "position_value": 38839.84,
+          "qty": 142,
+          "risk_amount": 1165.2,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 265.3144,
+          "symbol": "SYM04"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 111458.4,
+          "qty": 60,
+          "raw": 71.0,
+          "risk_amount": 3096.6,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 560983.8,
+          "qty": 236,
+          "raw": 97.0,
+          "risk_amount": 18934.28,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 271243.9,
+          "qty": 271,
+          "raw": 87.0,
+          "risk_amount": 8818.34,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 353466.12,
+          "qty": 133,
+          "raw": 82.0,
+          "risk_amount": 9028.04,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 263031.3,
+          "qty": 315,
+          "raw": 64.0,
+          "risk_amount": 8933.4,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 151848.14,
+          "qty": 362,
+          "raw": 102.0,
+          "risk_amount": 2602.78,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 208828.48,
+          "qty": 224,
+          "raw": 75.0,
+          "risk_amount": 9582.72,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 281897.25,
+          "qty": 129,
+          "raw": 86.0,
+          "risk_amount": 9825.93,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 830394.46,
+          "qty": 371,
+          "raw": 101.0,
+          "risk_amount": 9764.72,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 877716.0,
+          "qty": 324,
+          "raw": 98.0,
+          "risk_amount": 18309.24,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM09"
+        }
+      ],
+      "case": 8,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 6,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 433745.39,
+          "accepted_positions": 2,
+          "accepted_risk_amount": 12428.71,
+          "capital": 500000.0,
+          "gross_cap": 500000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Auto": 1,
+            "Energy": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 5,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 6,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 449916.33,
+          "qty": 373,
+          "raw": 86.0,
+          "risk_amount": 9518.96,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 266666.4,
+          "qty": 312,
+          "raw": 87.0,
+          "risk_amount": 10801.44,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 690102.0,
+          "qty": 315,
+          "raw": 75.0,
+          "risk_amount": 15658.65,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 529168.2,
+          "qty": 220,
+          "raw": 90.0,
+          "risk_amount": 7013.6,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 471971.52,
+          "qty": 174,
+          "raw": 79.0,
+          "risk_amount": 19463.64,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        }
+      ],
+      "case": 9,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 4,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 311241.07,
+          "open_positions": 2,
+          "open_risk_amount": 9337.23,
+          "per_sector": {
+            "Auto": 1,
+            "Banks": 1
+          },
+          "risk_cap": 12000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1177.27,
+          "position_value": 72990.74,
+          "qty": 62,
+          "risk_amount": 2189.72,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 1141.9519,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 2313.11,
+          "position_value": 238250.33,
+          "qty": 103,
+          "risk_amount": 7147.51,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2243.7167,
+          "symbol": "OPEN1"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 105100.25,
+          "qty": 239,
+          "raw": 98.0,
+          "risk_amount": 1536.77,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 329448.0,
+          "qty": 148,
+          "raw": 95.0,
+          "risk_amount": 6769.52,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 32400.48,
+          "qty": 84,
+          "raw": 90.0,
+          "risk_amount": 845.88,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 399373.52,
+          "qty": 182,
+          "raw": 96.0,
+          "risk_amount": 12215.84,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        }
+      ],
+      "case": 10,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 2,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 1000000.0,
+          "gross_cap": 600000.0,
+          "open_gross_value": 245978.83,
+          "open_positions": 3,
+          "open_risk_amount": 7379.37,
+          "per_sector": {
+            "Banks": 1,
+            "Pharma": 2
+          },
+          "risk_cap": 60000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1443.08,
+          "position_value": 160181.88,
+          "qty": 111,
+          "risk_amount": 4805.46,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 1399.7876,
+          "symbol": "SYM00"
+        },
+        {
+          "entry": 647.7,
+          "position_value": 11658.6,
+          "qty": 18,
+          "risk_amount": 349.76,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 628.269,
+          "symbol": "OPEN1"
+        },
+        {
+          "entry": 518.45,
+          "position_value": 74138.35,
+          "qty": 143,
+          "risk_amount": 2224.15,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 502.8965,
+          "symbol": "OPEN2"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 56101.68,
+          "qty": 57,
+          "raw": 105.0,
+          "risk_amount": 1521.33,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 371618.18,
+          "qty": 146,
+          "raw": 73.0,
+          "risk_amount": 14957.7,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 160270.44,
+          "qty": 132,
+          "raw": 70.0,
+          "risk_amount": 3878.16,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 406917.6,
+          "qty": 172,
+          "raw": 73.0,
+          "risk_amount": 9625.12,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 84645.6,
+          "qty": 60,
+          "raw": 89.0,
+          "risk_amount": 2857.8,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        }
+      ],
+      "case": 11,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 2,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 547664.88,
+          "accepted_positions": 3,
+          "accepted_risk_amount": 14004.25,
+          "capital": 1000000.0,
+          "gross_cap": 600000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Auto": 1,
+            "Banks": 1,
+            "Pharma": 1
+          },
+          "risk_cap": 60000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 463249.32,
+          "qty": 258,
+          "raw": 71.0,
+          "risk_amount": 12236.94,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 379475.7,
+          "qty": 255,
+          "raw": 83.0,
+          "risk_amount": 6910.5,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 165015.0,
+          "qty": 375,
+          "raw": 64.0,
+          "risk_amount": 6258.75,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 734271.44,
+          "qty": 301,
+          "raw": 64.0,
+          "risk_amount": 12632.97,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 82972.92,
+          "qty": 178,
+          "raw": 99.0,
+          "risk_amount": 3894.64,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 207398.0,
+          "qty": 200,
+          "raw": 65.0,
+          "risk_amount": 6126.0,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 201912.3,
+          "qty": 279,
+          "raw": 70.0,
+          "risk_amount": 6271.92,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 16245.95,
+          "qty": 35,
+          "raw": 81.0,
+          "risk_amount": 443.1,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 828770.67,
+          "qty": 379,
+          "raw": 92.0,
+          "risk_amount": 17009.52,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 12,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 5,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 1000000.0,
+          "gross_cap": 1000000.0,
+          "open_gross_value": 638651.87,
+          "open_positions": 2,
+          "open_risk_amount": 19159.55,
+          "per_sector": {
+            "Auto": 1,
+            "Banks": 1
+          },
+          "risk_cap": 40000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2856.3,
+          "position_value": 562691.1,
+          "qty": 197,
+          "risk_amount": 16880.73,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2770.611,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 1069.87,
+          "position_value": 75960.77,
+          "qty": 71,
+          "risk_amount": 2278.82,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 1037.7739,
+          "symbol": "OPEN1"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 326525.32,
+          "qty": 166,
+          "raw": 92.0,
+          "risk_amount": 15421.4,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 15874.32,
+          "qty": 66,
+          "raw": 63.0,
+          "risk_amount": 750.42,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 80087.54,
+          "qty": 178,
+          "raw": 90.0,
+          "risk_amount": 2052.34,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 58117.56,
+          "qty": 372,
+          "raw": 64.0,
+          "risk_amount": 1272.24,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 531005.54,
+          "qty": 247,
+          "raw": 73.0,
+          "risk_amount": 10341.89,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 322901.54,
+          "qty": 169,
+          "raw": 92.0,
+          "risk_amount": 3413.8,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 180867.6,
+          "qty": 360,
+          "raw": 83.0,
+          "risk_amount": 2358.0,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 495349.8,
+          "qty": 242,
+          "raw": 74.0,
+          "risk_amount": 24047.54,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM07"
+        }
+      ],
+      "case": 13,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 5,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 3,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 138205.1,
+          "accepted_positions": 2,
+          "accepted_risk_amount": 3324.58,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Banks": 1,
+            "Pharma": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 71616.6,
+          "qty": 220,
+          "raw": 88.0,
+          "risk_amount": 1788.6,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 5871.96,
+          "qty": 9,
+          "raw": 86.0,
+          "risk_amount": 66.06,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 91628.65,
+          "qty": 37,
+          "raw": 102.0,
+          "risk_amount": 2474.93,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 269328.45,
+          "qty": 255,
+          "raw": 85.0,
+          "risk_amount": 8392.05,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 44471.24,
+          "qty": 22,
+          "raw": 83.0,
+          "risk_amount": 1348.6,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        }
+      ],
+      "case": 14,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 300000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 2,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 300000.0,
+          "gross_cap": 120000.0,
+          "open_gross_value": 357374.17,
+          "open_positions": 2,
+          "open_risk_amount": 10721.23,
+          "per_sector": {
+            "Auto": 1,
+            "Tech": 1
+          },
+          "risk_cap": 12000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 157.91,
+          "position_value": 3000.29,
+          "qty": 19,
+          "risk_amount": 90.01,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 153.1727,
+          "symbol": "SYM02"
+        },
+        {
+          "entry": 2201.08,
+          "position_value": 354373.88,
+          "qty": 161,
+          "risk_amount": 10631.22,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2135.0476,
+          "symbol": "OPEN1"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 22903.11,
+          "qty": 279,
+          "raw": 63.0,
+          "risk_amount": 312.48,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 641651.64,
+          "qty": 372,
+          "raw": 67.0,
+          "risk_amount": 8894.52,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 199996.44,
+          "qty": 84,
+          "raw": 101.0,
+          "risk_amount": 8205.12,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 270020.58,
+          "qty": 177,
+          "raw": 88.0,
+          "risk_amount": 12593.55,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 14426.3,
+          "qty": 10,
+          "raw": 89.0,
+          "risk_amount": 337.0,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 410349.44,
+          "qty": 244,
+          "raw": 69.0,
+          "risk_amount": 18207.28,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 468734.12,
+          "qty": 212,
+          "raw": 69.0,
+          "risk_amount": 16870.96,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 711962.2,
+          "qty": 241,
+          "raw": 68.0,
+          "risk_amount": 8625.39,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 385858.2,
+          "qty": 222,
+          "raw": 93.0,
+          "risk_amount": 7843.26,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 643658.68,
+          "qty": 356,
+          "raw": 87.0,
+          "risk_amount": 23332.24,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM09"
+        },
+        {
+          "position_value": 129474.8,
+          "qty": 130,
+          "raw": 76.0,
+          "risk_amount": 2401.1,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM10"
+        }
+      ],
+      "case": 15,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 6,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 214422.74,
+          "accepted_positions": 2,
+          "accepted_risk_amount": 8542.12,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Energy": 2
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM10"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 6,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM09"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 401878.26,
+          "qty": 378,
+          "raw": 70.0,
+          "risk_amount": 18113.76,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 613985.44,
+          "qty": 376,
+          "raw": 78.0,
+          "risk_amount": 23804.56,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 822427.62,
+          "qty": 282,
+          "raw": 101.0,
+          "risk_amount": 37080.18,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 265199.2,
+          "qty": 115,
+          "raw": 88.0,
+          "risk_amount": 4194.05,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 288945.58,
+          "qty": 121,
+          "raw": 80.0,
+          "risk_amount": 8525.66,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 145026.14,
+          "qty": 334,
+          "raw": 79.0,
+          "risk_amount": 5771.52,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        }
+      ],
+      "case": 16,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 2,
+        "top_n_shorts": 0
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 288945.58,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 8525.66,
+          "capital": 1000000.0,
+          "gross_cap": 400000.0,
+          "open_gross_value": 104923.88,
+          "open_positions": 3,
+          "open_risk_amount": 3147.71,
+          "per_sector": {
+            "Energy": 1,
+            "Pharma": 2,
+            "Tech": 1
+          },
+          "risk_cap": 40000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1108.32,
+          "position_value": 25491.36,
+          "qty": 23,
+          "risk_amount": 764.74,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 1075.0704,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 1578.65,
+          "position_value": 18943.8,
+          "qty": 12,
+          "risk_amount": 568.31,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 1531.2905,
+          "symbol": "OPEN1"
+        },
+        {
+          "entry": 889.54,
+          "position_value": 60488.72,
+          "qty": 68,
+          "risk_amount": 1814.66,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 862.8538,
+          "symbol": "OPEN2"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 114478.35,
+          "qty": 217,
+          "raw": 62.0,
+          "risk_amount": 5698.42,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 62465.52,
+          "qty": 39,
+          "raw": 72.0,
+          "risk_amount": 2878.2,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 79364.24,
+          "qty": 172,
+          "raw": 75.0,
+          "risk_amount": 2512.92,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        }
+      ],
+      "case": 17,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 3,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 62465.52,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 2878.2,
+          "capital": 300000.0,
+          "gross_cap": 180000.0,
+          "open_gross_value": 94658.62,
+          "open_positions": 1,
+          "open_risk_amount": 2839.76,
+          "per_sector": {
+            "Auto": 1,
+            "Energy": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "already_held",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1063.58,
+          "position_value": 94658.62,
+          "qty": 89,
+          "risk_amount": 2839.76,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 1031.6726,
+          "symbol": "SYM02"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 1025697.06,
+          "qty": 387,
+          "raw": 89.0,
+          "risk_amount": 51176.88,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 671385.6,
+          "qty": 310,
+          "raw": 77.0,
+          "risk_amount": 28954.0,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 359834.8,
+          "qty": 260,
+          "raw": 85.0,
+          "risk_amount": 11785.8,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 237654.56,
+          "qty": 88,
+          "raw": 85.0,
+          "risk_amount": 5032.72,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 19639.44,
+          "qty": 18,
+          "raw": 63.0,
+          "risk_amount": 937.44,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 235231.19,
+          "qty": 167,
+          "raw": 68.0,
+          "risk_amount": 4268.52,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 240795.63,
+          "qty": 167,
+          "raw": 79.0,
+          "risk_amount": 3769.19,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 174749.04,
+          "qty": 326,
+          "raw": 95.0,
+          "risk_amount": 7312.18,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 835166.85,
+          "qty": 285,
+          "raw": 86.0,
+          "risk_amount": 34644.6,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 34818.24,
+          "qty": 24,
+          "raw": 63.0,
+          "risk_amount": 1490.88,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM09"
+        }
+      ],
+      "case": 18,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 1,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 174749.04,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 7312.18,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Pharma": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM09"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 89267.76,
+          "qty": 36,
+          "raw": 79.0,
+          "risk_amount": 2329.2,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 4479.54,
+          "qty": 26,
+          "raw": 82.0,
+          "risk_amount": 70.2,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 146425.28,
+          "qty": 148,
+          "raw": 61.0,
+          "risk_amount": 5394.6,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 208740.37,
+          "qty": 229,
+          "raw": 84.0,
+          "risk_amount": 7435.63,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 224506.98,
+          "qty": 174,
+          "raw": 75.0,
+          "risk_amount": 2437.74,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 81529.47,
+          "qty": 33,
+          "raw": 77.0,
+          "risk_amount": 2163.48,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM05"
+        }
+      ],
+      "case": 19,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 300000.0,
+        "max_concurrent_positions": 6,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 1,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 4479.54,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 70.2,
+          "capital": 300000.0,
+          "gross_cap": 180000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Auto": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 343005.9,
+          "qty": 230,
+          "raw": 89.0,
+          "risk_amount": 13188.2,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 755089.92,
+          "qty": 256,
+          "raw": 67.0,
+          "risk_amount": 16926.72,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 854256.6,
+          "qty": 386,
+          "raw": 76.0,
+          "risk_amount": 28502.24,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 479280.93,
+          "qty": 173,
+          "raw": 66.0,
+          "risk_amount": 19294.69,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 24415.68,
+          "qty": 58,
+          "raw": 62.0,
+          "risk_amount": 630.46,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 118230.64,
+          "qty": 44,
+          "raw": 76.0,
+          "risk_amount": 5169.56,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        }
+      ],
+      "case": 20,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 5,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 477343.44,
+          "open_positions": 1,
+          "open_risk_amount": 14320.3,
+          "per_sector": {
+            "Tech": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "already_held",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2841.33,
+          "position_value": 477343.44,
+          "qty": 168,
+          "risk_amount": 14320.3,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 2756.0901,
+          "symbol": "SYM02"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 260038.79,
+          "qty": 163,
+          "raw": 64.0,
+          "risk_amount": 10663.46,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 268187.92,
+          "qty": 91,
+          "raw": 75.0,
+          "risk_amount": 3263.26,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 14686.21,
+          "qty": 77,
+          "raw": 70.0,
+          "risk_amount": 721.49,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 191178.68,
+          "qty": 154,
+          "raw": 87.0,
+          "risk_amount": 4951.1,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 31790.8,
+          "qty": 47,
+          "raw": 102.0,
+          "risk_amount": 399.5,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        }
+      ],
+      "case": 21,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 6,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 1000000.0,
+          "gross_cap": 400000.0,
+          "open_gross_value": 117420.33,
+          "open_positions": 2,
+          "open_risk_amount": 3522.61,
+          "per_sector": {
+            "Auto": 1,
+            "Energy": 1
+          },
+          "risk_cap": 100000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 711.1,
+          "position_value": 4977.7,
+          "qty": 7,
+          "risk_amount": 149.33,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 689.767,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 1540.31,
+          "position_value": 112442.63,
+          "qty": 73,
+          "risk_amount": 3373.28,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 1494.1007,
+          "symbol": "SYM00"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 745789.34,
+          "qty": 331,
+          "raw": 92.0,
+          "risk_amount": 18307.61,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 682802.96,
+          "qty": 289,
+          "raw": 63.0,
+          "risk_amount": 28073.46,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 417067.7,
+          "qty": 370,
+          "raw": 97.0,
+          "risk_amount": 16546.4,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 825390.88,
+          "qty": 368,
+          "raw": 100.0,
+          "risk_amount": 15058.56,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 535810.56,
+          "qty": 192,
+          "raw": 94.0,
+          "risk_amount": 7397.76,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 548743.56,
+          "qty": 228,
+          "raw": 68.0,
+          "risk_amount": 26614.44,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 434216.41,
+          "qty": 179,
+          "raw": 101.0,
+          "risk_amount": 6467.27,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 30682.05,
+          "qty": 105,
+          "raw": 99.0,
+          "risk_amount": 652.05,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM07"
+        }
+      ],
+      "case": 22,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 5,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 3,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 469122.28,
+          "open_positions": 2,
+          "open_risk_amount": 14073.67,
+          "per_sector": {
+            "Auto": 2
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 896.53,
+          "position_value": 60964.04,
+          "qty": 68,
+          "risk_amount": 1828.92,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 869.6341,
+          "symbol": "SYM00"
+        },
+        {
+          "entry": 2082.44,
+          "position_value": 408158.24,
+          "qty": 196,
+          "risk_amount": 12244.75,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2019.9668,
+          "symbol": "OPEN1"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 261460.5,
+          "qty": 175,
+          "raw": 64.0,
+          "risk_amount": 11184.25,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 385084.8,
+          "qty": 160,
+          "raw": 91.0,
+          "risk_amount": 14548.8,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 161727.72,
+          "qty": 161,
+          "raw": 94.0,
+          "risk_amount": 5691.35,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 12923.04,
+          "qty": 6,
+          "raw": 62.0,
+          "risk_amount": 498.72,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 24850.0,
+          "qty": 175,
+          "raw": 84.0,
+          "risk_amount": 929.25,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 146259.84,
+          "qty": 102,
+          "raw": 104.0,
+          "risk_amount": 3213.0,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 414890.01,
+          "qty": 181,
+          "raw": 76.0,
+          "risk_amount": 8097.94,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 262364.84,
+          "qty": 106,
+          "raw": 64.0,
+          "risk_amount": 12847.2,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM07"
+        }
+      ],
+      "case": 23,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 5,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 4,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 184032.88,
+          "accepted_positions": 3,
+          "accepted_risk_amount": 4640.97,
+          "capital": 500000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 115161.93,
+          "open_positions": 1,
+          "open_risk_amount": 3454.86,
+          "per_sector": {
+            "Auto": 1,
+            "Pharma": 1,
+            "Tech": 2
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2952.87,
+          "position_value": 115161.93,
+          "qty": 39,
+          "risk_amount": 3454.86,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 2864.2839,
+          "symbol": "SYM02"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 123141.85,
+          "qty": 65,
+          "raw": 101.0,
+          "risk_amount": 4726.15,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 403273.8,
+          "qty": 180,
+          "raw": 89.0,
+          "risk_amount": 5365.8,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 514415.88,
+          "qty": 342,
+          "raw": 77.0,
+          "risk_amount": 14100.66,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 273996.0,
+          "qty": 354,
+          "raw": 70.0,
+          "risk_amount": 11593.5,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 741627.81,
+          "qty": 309,
+          "raw": 72.0,
+          "risk_amount": 7944.39,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 61917.1,
+          "qty": 35,
+          "raw": 91.0,
+          "risk_amount": 1943.9,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 55877.04,
+          "qty": 36,
+          "raw": 90.0,
+          "risk_amount": 1389.6,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 393748.48,
+          "qty": 256,
+          "raw": 90.0,
+          "risk_amount": 17433.6,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 122223.3,
+          "qty": 106,
+          "raw": 86.0,
+          "risk_amount": 2292.78,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 24,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 6,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 6,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 981162.68,
+          "accepted_positions": 4,
+          "accepted_risk_amount": 27036.08,
+          "capital": 1000000.0,
+          "gross_cap": 1000000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Banks": 3,
+            "Pharma": 1
+          },
+          "risk_cap": 40000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 6,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 803555.64,
+          "qty": 333,
+          "raw": 72.0,
+          "risk_amount": 20915.73,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 83715.0,
+          "qty": 100,
+          "raw": 62.0,
+          "risk_amount": 3948.0,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 262978.89,
+          "qty": 93,
+          "raw": 76.0,
+          "risk_amount": 7359.09,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 403108.7,
+          "qty": 229,
+          "raw": 82.0,
+          "risk_amount": 18475.72,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 122811.15,
+          "qty": 155,
+          "raw": 97.0,
+          "risk_amount": 5197.15,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 56416.36,
+          "qty": 91,
+          "raw": 98.0,
+          "risk_amount": 2314.13,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 259059.12,
+          "qty": 284,
+          "raw": 73.0,
+          "risk_amount": 7844.08,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 9934.0,
+          "qty": 50,
+          "raw": 81.0,
+          "risk_amount": 228.0,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 261461.1,
+          "qty": 123,
+          "raw": 61.0,
+          "risk_amount": 3113.13,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 25,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 5,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 500000.0,
+          "open_gross_value": 410280.12,
+          "open_positions": 2,
+          "open_risk_amount": 12308.4,
+          "per_sector": {
+            "Energy": 2
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "already_held",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 357.45,
+          "position_value": 357.45,
+          "qty": 1,
+          "risk_amount": 10.72,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 346.7265,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 2578.13,
+          "position_value": 409922.67,
+          "qty": 159,
+          "risk_amount": 12297.68,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 2500.7861,
+          "symbol": "SYM05"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 293612.58,
+          "qty": 106,
+          "raw": 90.0,
+          "risk_amount": 11172.4,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 162141.95,
+          "qty": 115,
+          "raw": 84.0,
+          "risk_amount": 4069.85,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 448578.83,
+          "qty": 343,
+          "raw": 99.0,
+          "risk_amount": 19506.41,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 113371.65,
+          "qty": 387,
+          "raw": 93.0,
+          "risk_amount": 2341.35,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 35476.07,
+          "qty": 41,
+          "raw": 61.0,
+          "risk_amount": 1245.58,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 16464.47,
+          "qty": 121,
+          "raw": 105.0,
+          "risk_amount": 774.4,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 641163.15,
+          "qty": 303,
+          "raw": 91.0,
+          "risk_amount": 13198.68,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM06"
+        }
+      ],
+      "case": 26,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 1,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 16464.47,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 774.4,
+          "capital": 300000.0,
+          "gross_cap": 120000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Energy": 1
+          },
+          "risk_cap": 12000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 42132.6,
+          "qty": 45,
+          "raw": 84.0,
+          "risk_amount": 1551.6,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 876610.56,
+          "qty": 372,
+          "raw": 96.0,
+          "risk_amount": 17930.4,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 47953.36,
+          "qty": 182,
+          "raw": 66.0,
+          "risk_amount": 505.96,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 719636.2,
+          "qty": 356,
+          "raw": 72.0,
+          "risk_amount": 33748.8,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 48022.47,
+          "qty": 101,
+          "raw": 80.0,
+          "risk_amount": 1734.17,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 562002.37,
+          "qty": 223,
+          "raw": 66.0,
+          "risk_amount": 17612.54,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 108299.52,
+          "qty": 112,
+          "raw": 82.0,
+          "risk_amount": 4491.2,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 96951.47,
+          "qty": 287,
+          "raw": 79.0,
+          "risk_amount": 3885.98,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 838699.92,
+          "qty": 324,
+          "raw": 66.0,
+          "risk_amount": 24319.44,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 27,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 7,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 5,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 192927.3,
+          "accepted_positions": 3,
+          "accepted_risk_amount": 6126.11,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Auto": 1,
+            "Energy": 1,
+            "Tech": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 4,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 596917.98,
+          "qty": 226,
+          "raw": 60.0,
+          "risk_amount": 21838.38,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 118820.07,
+          "qty": 69,
+          "raw": 72.0,
+          "risk_amount": 3478.29,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 460176.4,
+          "qty": 155,
+          "raw": 77.0,
+          "risk_amount": 21893.75,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 5748.89,
+          "qty": 7,
+          "raw": 84.0,
+          "risk_amount": 255.29,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 363633.57,
+          "qty": 153,
+          "raw": 105.0,
+          "risk_amount": 5532.48,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 950211.12,
+          "qty": 393,
+          "raw": 77.0,
+          "risk_amount": 19756.11,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 80885.09,
+          "qty": 229,
+          "raw": 71.0,
+          "risk_amount": 2225.88,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 432937.28,
+          "qty": 184,
+          "raw": 67.0,
+          "risk_amount": 9115.36,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 216381.78,
+          "qty": 243,
+          "raw": 66.0,
+          "risk_amount": 3377.7,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 1425.84,
+          "qty": 13,
+          "raw": 69.0,
+          "risk_amount": 37.96,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM09"
+        }
+      ],
+      "case": 28,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 2,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 88059.82,
+          "accepted_positions": 3,
+          "accepted_risk_amount": 2519.13,
+          "capital": 1000000.0,
+          "gross_cap": 1000000.0,
+          "open_gross_value": 544654.0,
+          "open_positions": 3,
+          "open_risk_amount": 16339.62,
+          "per_sector": {
+            "Auto": 2,
+            "Banks": 2,
+            "Energy": 1,
+            "Pharma": 1
+          },
+          "risk_cap": 40000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1896.4,
+          "position_value": 290149.2,
+          "qty": 153,
+          "risk_amount": 8704.48,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 1839.508,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 1229.8,
+          "position_value": 196768.0,
+          "qty": 160,
+          "risk_amount": 5903.04,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 1192.906,
+          "symbol": "SYM05"
+        },
+        {
+          "entry": 656.1,
+          "position_value": 57736.8,
+          "qty": 88,
+          "risk_amount": 1732.1,
+          "sector": "Pharma",
+          "side": "long",
+          "stop": 636.417,
+          "symbol": "SYM03"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 532644.58,
+          "qty": 299,
+          "raw": 100.0,
+          "risk_amount": 26291.07,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 162027.0,
+          "qty": 100,
+          "raw": 76.0,
+          "risk_amount": 4973.0,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 131801.88,
+          "qty": 82,
+          "raw": 105.0,
+          "risk_amount": 3825.3,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 238179.25,
+          "qty": 205,
+          "raw": 85.0,
+          "risk_amount": 9257.8,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 628228.85,
+          "qty": 335,
+          "raw": 82.0,
+          "risk_amount": 17590.85,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 505120.21,
+          "qty": 173,
+          "raw": 80.0,
+          "risk_amount": 9080.77,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 469128.19,
+          "qty": 241,
+          "raw": 61.0,
+          "risk_amount": 11898.17,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 251726.06,
+          "qty": 214,
+          "raw": 74.0,
+          "risk_amount": 7650.5,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 262960.6,
+          "qty": 332,
+          "raw": 67.0,
+          "risk_amount": 8973.96,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 54645.5,
+          "qty": 130,
+          "raw": 99.0,
+          "risk_amount": 1073.8,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM09"
+        },
+        {
+          "position_value": 129067.38,
+          "qty": 234,
+          "raw": 92.0,
+          "risk_amount": 4066.92,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM10"
+        }
+      ],
+      "case": 29,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 1000000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 6,
+        "top_n_shorts": 3
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 162027.0,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 4973.0,
+          "capital": 1000000.0,
+          "gross_cap": 1000000.0,
+          "open_gross_value": 535988.7,
+          "open_positions": 3,
+          "open_risk_amount": 16079.66,
+          "per_sector": {
+            "Banks": 2,
+            "Energy": 2
+          },
+          "risk_cap": 40000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM10"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 5,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 6,
+            "rank_status": "deferred_max_positions",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2106.84,
+          "position_value": 80059.92,
+          "qty": 38,
+          "risk_amount": 2401.8,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 2043.6348,
+          "symbol": "SYM09"
+        },
+        {
+          "entry": 1415.72,
+          "position_value": 79280.32,
+          "qty": 56,
+          "risk_amount": 2378.41,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 1373.2484,
+          "symbol": "SYM09"
+        },
+        {
+          "entry": 2255.38,
+          "position_value": 376648.46,
+          "qty": 167,
+          "risk_amount": 11299.45,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 2187.7186,
+          "symbol": "SYM08"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 319246.2,
+          "qty": 260,
+          "raw": 90.0,
+          "risk_amount": 8751.6,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 762071.0,
+          "qty": 361,
+          "raw": 100.0,
+          "risk_amount": 10136.88,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 89386.82,
+          "qty": 199,
+          "raw": 80.0,
+          "risk_amount": 2983.01,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        }
+      ],
+      "case": 30,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 5,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 5,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 89386.82,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 2983.01,
+          "capital": 500000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Tech": 1
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 72944.08,
+          "qty": 44,
+          "raw": 67.0,
+          "risk_amount": 1378.08,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 405877.29,
+          "qty": 317,
+          "raw": 92.0,
+          "risk_amount": 16607.63,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 322984.89,
+          "qty": 261,
+          "raw": 71.0,
+          "risk_amount": 13154.4,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 75592.84,
+          "qty": 394,
+          "raw": 93.0,
+          "risk_amount": 1851.8,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 43625.25,
+          "qty": 135,
+          "raw": 74.0,
+          "risk_amount": 847.8,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 96705.7,
+          "qty": 130,
+          "raw": 71.0,
+          "risk_amount": 2723.5,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 121348.0,
+          "qty": 230,
+          "raw": 103.0,
+          "risk_amount": 5694.8,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 226921.94,
+          "qty": 266,
+          "raw": 90.0,
+          "risk_amount": 11238.5,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 88483.04,
+          "qty": 284,
+          "raw": 64.0,
+          "risk_amount": 2939.4,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 36459.12,
+          "qty": 73,
+          "raw": 94.0,
+          "risk_amount": 871.62,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM09"
+        },
+        {
+          "position_value": 834899.46,
+          "qty": 309,
+          "raw": 100.0,
+          "risk_amount": 8349.18,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM10"
+        },
+        {
+          "position_value": 55180.84,
+          "qty": 286,
+          "raw": 81.0,
+          "risk_amount": 1026.74,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM11"
+        }
+      ],
+      "case": 31,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 4,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 55180.84,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 1026.74,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 41462.55,
+          "open_positions": 1,
+          "open_risk_amount": 1243.88,
+          "per_sector": {
+            "Auto": 1,
+            "Tech": 1
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM10"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 4,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM11"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_max_positions",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM09"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 307.13,
+          "position_value": 41462.55,
+          "qty": 135,
+          "risk_amount": 1243.88,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 297.9161,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 513941.44,
+          "qty": 184,
+          "raw": 61.0,
+          "risk_amount": 5424.32,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 137166.15,
+          "qty": 55,
+          "raw": 100.0,
+          "risk_amount": 2396.9,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 163300.32,
+          "qty": 144,
+          "raw": 95.0,
+          "risk_amount": 7299.36,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 31720.92,
+          "qty": 44,
+          "raw": 97.0,
+          "risk_amount": 1152.8,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 152392.25,
+          "qty": 115,
+          "raw": 68.0,
+          "risk_amount": 2926.75,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 124063.8,
+          "qty": 271,
+          "raw": 66.0,
+          "risk_amount": 2086.7,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM05"
+        }
+      ],
+      "case": 32,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 2,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 1,
+        "top_n_shorts": 0
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 137166.15,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 2396.9,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Pharma": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 30208.24,
+          "qty": 107,
+          "raw": 103.0,
+          "risk_amount": 1044.32,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 175071.89,
+          "qty": 133,
+          "raw": 103.0,
+          "risk_amount": 5272.12,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 51824.79,
+          "qty": 333,
+          "raw": 105.0,
+          "risk_amount": 1162.17,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 736759.65,
+          "qty": 303,
+          "raw": 105.0,
+          "risk_amount": 22218.99,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 345542.12,
+          "qty": 196,
+          "raw": 87.0,
+          "risk_amount": 3892.56,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 116793.57,
+          "qty": 51,
+          "raw": 64.0,
+          "risk_amount": 1678.41,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 327546.95,
+          "qty": 205,
+          "raw": 80.0,
+          "risk_amount": 8513.65,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 130254.0,
+          "qty": 50,
+          "raw": 95.0,
+          "risk_amount": 4226.0,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 112240.29,
+          "qty": 303,
+          "raw": 105.0,
+          "risk_amount": 2042.22,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 185968.53,
+          "qty": 363,
+          "raw": 92.0,
+          "risk_amount": 7249.11,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM09"
+        }
+      ],
+      "case": 33,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 5,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 250745.12,
+          "open_positions": 1,
+          "open_risk_amount": 7522.35,
+          "per_sector": {
+            "Auto": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2365.52,
+          "position_value": 250745.12,
+          "qty": 106,
+          "risk_amount": 7522.35,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2294.5544,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 330378.9,
+          "qty": 138,
+          "raw": 80.0,
+          "risk_amount": 14201.58,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 541815.75,
+          "qty": 315,
+          "raw": 93.0,
+          "risk_amount": 18043.2,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 26736.38,
+          "qty": 22,
+          "raw": 65.0,
+          "risk_amount": 679.8,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 100028.88,
+          "qty": 36,
+          "raw": 84.0,
+          "risk_amount": 3675.24,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 216303.12,
+          "qty": 124,
+          "raw": 89.0,
+          "risk_amount": 6002.84,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 432774.15,
+          "qty": 265,
+          "raw": 81.0,
+          "risk_amount": 7515.4,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 25956.34,
+          "qty": 262,
+          "raw": 79.0,
+          "risk_amount": 290.82,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 211073.54,
+          "qty": 269,
+          "raw": 86.0,
+          "risk_amount": 4217.92,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 254846.1,
+          "qty": 395,
+          "raw": 81.0,
+          "risk_amount": 9839.45,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM08"
+        }
+      ],
+      "case": 34,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 500000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 4.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 5,
+        "top_n_shorts": 2
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 284940.07,
+          "open_positions": 3,
+          "open_risk_amount": 8548.21,
+          "per_sector": {
+            "Banks": 2,
+            "Tech": 1
+          },
+          "risk_cap": 20000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 5,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1444.88,
+          "position_value": 193613.92,
+          "qty": 134,
+          "risk_amount": 5808.42,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 1401.5336,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 195.67,
+          "position_value": 17414.63,
+          "qty": 89,
+          "risk_amount": 522.44,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 189.7999,
+          "symbol": "OPEN1"
+        },
+        {
+          "entry": 901.36,
+          "position_value": 73911.52,
+          "qty": 82,
+          "risk_amount": 2217.35,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 874.3192,
+          "symbol": "SYM08"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 255787.5,
+          "qty": 95,
+          "raw": 103.0,
+          "risk_amount": 3851.3,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 9075.69,
+          "qty": 13,
+          "raw": 95.0,
+          "risk_amount": 114.14,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 51859.83,
+          "qty": 87,
+          "raw": 92.0,
+          "risk_amount": 2244.6,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 186509.94,
+          "qty": 393,
+          "raw": 75.0,
+          "risk_amount": 4778.88,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 66341.16,
+          "qty": 61,
+          "raw": 60.0,
+          "risk_amount": 2620.56,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 857792.94,
+          "qty": 327,
+          "raw": 68.0,
+          "risk_amount": 34684.89,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 402342.92,
+          "qty": 262,
+          "raw": 76.0,
+          "risk_amount": 6188.44,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 69753.18,
+          "qty": 42,
+          "raw": 71.0,
+          "risk_amount": 2600.64,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 405859.2,
+          "qty": 160,
+          "raw": 84.0,
+          "risk_amount": 14624.0,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 208709.68,
+          "qty": 76,
+          "raw": 104.0,
+          "risk_amount": 4266.64,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM09"
+        },
+        {
+          "position_value": 775873.54,
+          "qty": 377,
+          "raw": 72.0,
+          "risk_amount": 28078.96,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM10"
+        },
+        {
+          "position_value": 42036.55,
+          "qty": 95,
+          "raw": 83.0,
+          "risk_amount": 2070.05,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM11"
+        }
+      ],
+      "case": 35,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 2,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 236452.11,
+          "open_positions": 1,
+          "open_risk_amount": 7093.56,
+          "per_sector": {
+            "Auto": 1
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM10"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM11"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2341.11,
+          "position_value": 236452.11,
+          "qty": 101,
+          "risk_amount": 7093.56,
+          "sector": "Auto",
+          "side": "long",
+          "stop": 2270.8767,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 204964.82,
+          "qty": 118,
+          "raw": 74.0,
+          "risk_amount": 4859.24,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 453254.4,
+          "qty": 183,
+          "raw": 95.0,
+          "risk_amount": 22532.79,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 90602.55,
+          "qty": 243,
+          "raw": 103.0,
+          "risk_amount": 1589.22,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 295897.96,
+          "qty": 211,
+          "raw": 100.0,
+          "risk_amount": 8729.07,
+          "sector": "Pharma",
+          "side": "short",
+          "symbol": "SYM03"
+        }
+      ],
+      "case": 36,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 60.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 2,
+        "top_n_longs": 1,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 500000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 218246.93,
+          "open_positions": 2,
+          "open_risk_amount": 6547.41,
+          "per_sector": {
+            "Banks": 2
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 1046.87,
+          "position_value": 57577.85,
+          "qty": 55,
+          "risk_amount": 1727.34,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 1015.4639,
+          "symbol": "SYM03"
+        },
+        {
+          "entry": 1029.93,
+          "position_value": 160669.08,
+          "qty": 156,
+          "risk_amount": 4820.07,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 999.0321,
+          "symbol": "OPEN1"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 676453.92,
+          "qty": 276,
+          "raw": 104.0,
+          "risk_amount": 6861.36,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 89330.22,
+          "qty": 62,
+          "raw": 74.0,
+          "risk_amount": 967.82,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 854580.87,
+          "qty": 299,
+          "raw": 73.0,
+          "risk_amount": 40421.81,
+          "sector": "Banks",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 196762.3,
+          "qty": 185,
+          "raw": 70.0,
+          "risk_amount": 7128.05,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 954276.16,
+          "qty": 337,
+          "raw": 74.0,
+          "risk_amount": 39718.82,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 109445.7,
+          "qty": 266,
+          "raw": 104.0,
+          "risk_amount": 1441.72,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 46346.9,
+          "qty": 359,
+          "raw": 92.0,
+          "risk_amount": 1471.9,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM06"
+        },
+        {
+          "position_value": 121427.04,
+          "qty": 84,
+          "raw": 104.0,
+          "risk_amount": 6006.0,
+          "sector": "Pharma",
+          "side": "long",
+          "symbol": "SYM07"
+        },
+        {
+          "position_value": 141899.16,
+          "qty": 169,
+          "raw": 91.0,
+          "risk_amount": 1963.78,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM08"
+        },
+        {
+          "position_value": 342798.3,
+          "qty": 249,
+          "raw": 78.0,
+          "risk_amount": 12858.36,
+          "sector": "Auto",
+          "side": "short",
+          "symbol": "SYM09"
+        }
+      ],
+      "case": 37,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 500000.0,
+        "max_concurrent_positions": 8,
+        "max_gross_exposure_pct": 40.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 3,
+        "top_n_shorts": 4
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 109445.7,
+          "accepted_positions": 1,
+          "accepted_risk_amount": 1441.72,
+          "capital": 500000.0,
+          "gross_cap": 200000.0,
+          "open_gross_value": 76101.66,
+          "open_positions": 1,
+          "open_risk_amount": 2283.05,
+          "per_sector": {
+            "Banks": 1,
+            "Energy": 1
+          },
+          "risk_cap": 50000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM07"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM08"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": 2,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM06"
+          },
+          {
+            "rank": 3,
+            "rank_status": "deferred_gross_exposure",
+            "side": "short",
+            "symbol": "SYM09"
+          },
+          {
+            "rank": 4,
+            "rank_status": "deferred_sector_cap",
+            "side": "short",
+            "symbol": "SYM03"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 2818.58,
+          "position_value": 76101.66,
+          "qty": 27,
+          "risk_amount": 2283.05,
+          "sector": "Banks",
+          "side": "long",
+          "stop": 2734.0226,
+          "symbol": "OPEN0"
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 36559.71,
+          "qty": 99,
+          "raw": 61.0,
+          "risk_amount": 649.44,
+          "sector": "Energy",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 13986.01,
+          "qty": 113,
+          "raw": 61.0,
+          "risk_amount": 569.52,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 519972.4,
+          "qty": 212,
+          "raw": 69.0,
+          "risk_amount": 21740.6,
+          "sector": "Energy",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 44033.55,
+          "qty": 165,
+          "raw": 76.0,
+          "risk_amount": 1671.45,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        }
+      ],
+      "case": 38,
+      "config": {
+        "allow_pyramiding": true,
+        "capital": 300000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 10.0,
+        "max_positions_per_sector": 3,
+        "top_n_longs": 2,
+        "top_n_shorts": 1
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 58019.56,
+          "accepted_positions": 2,
+          "accepted_risk_amount": 2240.97,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 0.0,
+          "open_positions": 0,
+          "open_risk_amount": 0.0,
+          "per_sector": {
+            "Energy": 1,
+            "Tech": 1
+          },
+          "risk_cap": 30000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_gross_exposure",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": 2,
+            "rank_status": "ranked",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": 1,
+            "rank_status": "ranked",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          }
+        ]
+      },
+      "open_positions": []
+    },
+    {
+      "candidates": [
+        {
+          "position_value": 569799.55,
+          "qty": 205,
+          "raw": 73.0,
+          "risk_amount": 26736.1,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM00"
+        },
+        {
+          "position_value": 813392.28,
+          "qty": 292,
+          "raw": 94.0,
+          "risk_amount": 32485.0,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM01"
+        },
+        {
+          "position_value": 106351.54,
+          "qty": 82,
+          "raw": 75.0,
+          "risk_amount": 3982.74,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM02"
+        },
+        {
+          "position_value": 947033.36,
+          "qty": 364,
+          "raw": 62.0,
+          "risk_amount": 32734.52,
+          "sector": "Tech",
+          "side": "short",
+          "symbol": "SYM03"
+        },
+        {
+          "position_value": 87881.36,
+          "qty": 278,
+          "raw": 73.0,
+          "risk_amount": 998.02,
+          "sector": "Tech",
+          "side": "long",
+          "symbol": "SYM04"
+        },
+        {
+          "position_value": 310695.3,
+          "qty": 219,
+          "raw": 86.0,
+          "risk_amount": 9134.49,
+          "sector": "Auto",
+          "side": "long",
+          "symbol": "SYM05"
+        },
+        {
+          "position_value": 2813.4,
+          "qty": 27,
+          "raw": 89.0,
+          "risk_amount": 65.07,
+          "sector": "Banks",
+          "side": "short",
+          "symbol": "SYM06"
+        }
+      ],
+      "case": 39,
+      "config": {
+        "allow_pyramiding": false,
+        "capital": 300000.0,
+        "max_concurrent_positions": 4,
+        "max_gross_exposure_pct": 100.0,
+        "max_portfolio_risk_pct": 6.0,
+        "max_positions_per_sector": 1,
+        "top_n_longs": 1,
+        "top_n_shorts": 0
+      },
+      "expected": {
+        "budget": {
+          "accepted_gross_value": 0.0,
+          "accepted_positions": 0,
+          "accepted_risk_amount": 0.0,
+          "capital": 300000.0,
+          "gross_cap": 300000.0,
+          "open_gross_value": 182978.58,
+          "open_positions": 3,
+          "open_risk_amount": 5489.36,
+          "per_sector": {
+            "Energy": 1,
+            "Tech": 2
+          },
+          "risk_cap": 18000.0
+        },
+        "results": [
+          {
+            "rank": 1,
+            "rank_status": "deferred_sector_cap",
+            "side": "long",
+            "symbol": "SYM01"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM02"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM04"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "long",
+            "symbol": "SYM05"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM00"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM03"
+          },
+          {
+            "rank": null,
+            "rank_status": "not_in_top_n",
+            "side": "short",
+            "symbol": "SYM06"
+          }
+        ]
+      },
+      "open_positions": [
+        {
+          "entry": 309.7,
+          "position_value": 59772.1,
+          "qty": 193,
+          "risk_amount": 1793.16,
+          "sector": "Energy",
+          "side": "long",
+          "stop": 300.409,
+          "symbol": "OPEN0"
+        },
+        {
+          "entry": 204.92,
+          "position_value": 38524.96,
+          "qty": 188,
+          "risk_amount": 1155.75,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 198.7724,
+          "symbol": "OPEN1"
+        },
+        {
+          "entry": 1099.76,
+          "position_value": 84681.52,
+          "qty": 77,
+          "risk_amount": 2540.45,
+          "sector": "Tech",
+          "side": "long",
+          "stop": 1066.7672,
+          "symbol": "SYM06"
+        }
+      ]
+    }
+  ],
+  "schema_version": 1
+}

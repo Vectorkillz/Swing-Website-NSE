@@ -1,0 +1,14 @@
+{
+  "avg_volume": 444535.0,
+  "debt_equity": 0.00096,
+  "eps_growth": -9.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:41+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 389041.7238016,
+  "name": "Maruti Suzuki India Limited",
+  "revenue_growth": 35.9,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 7313849.0,
+  "debt_equity": 5.36837,
+  "eps_growth": 2.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:19+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 115074.5444352,
+  "name": "Power Finance Corporation Limited",
+  "revenue_growth": 0.8,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,12 @@
+{
+  "avg_volume": 1603658.0,
+  "debt_equity": 0.9537399999999999,
+  "eps_growth": 112.99999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:52+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 304804.921344,
+  "name": "JSW Steel Limited",
+  "revenue_growth": 9.8,
+  "roe": 24.76835857207031,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sh

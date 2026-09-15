@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1986146.0,
+  "debt_equity": 0.0739,
+  "eps_growth": 0.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:28+00:00",
+  "industry": "Railroads",
+  "market_cap_cr": 37486.8344832,
+  "name": "Container Corporation of India Limited",
+  "revenue_growth": 0.3,
+  "roe": 9.596420184935376,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,19 @@
+{
+  "counters": {},
+  "duration_s": 0.9,
+  "errors": [
+    {
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nseindia.com/api/equity-stockIndices?index=SECURITIES%20IN%20F%26O",
+      "stage": "live_fetch"
+    },
+    {
+      "error": "no committed universe CSV; upload data/universe/fno_universe.csv",
+      "stage": "fallback"
+    }
+  ],
+  "finished_at": "2026-09-11T14:25:07+00:00",
+  "job": "refresh_universe",
+  "n_errors": 2,
+  "started_at": "2026-09-11T14:25:06+00:00",
+  "status": "failed"
+}

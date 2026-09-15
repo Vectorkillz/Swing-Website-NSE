@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10130474.0,
+  "debt_equity": null,
+  "eps_growth": -48.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:55+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 121495.9845376,
+  "name": "Bank of Baroda Limited",
+  "revenue_growth": 18.0,
+  "roe": 11.3170005,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

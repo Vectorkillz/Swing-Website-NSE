@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1359507.0,
+  "debt_equity": 0.28466,
+  "eps_growth": -19.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:24+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 35173.9019264,
+  "name": "Cochin Shipyard Limited",
+  "revenue_growth": 2.4,
+  "roe": 11.584530293021308,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

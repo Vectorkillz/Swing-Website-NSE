@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5890960.0,
+  "debt_equity": 0.85369,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:11+00:00",
+  "industry": "Oil & Gas Refining & Marketing",
+  "market_cap_cr": 74580.1777152,
+  "name": "Hindustan Petroleum Corporation Limited",
+  "revenue_growth": 26.900000000000002,
+  "roe": 2.549810345489676,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

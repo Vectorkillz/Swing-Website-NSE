@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1331587.0,
+  "debt_equity": 0.36034,
+  "eps_growth": 20.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:16+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 148947.7828608,
+  "name": "Trent Limited",
+  "revenue_growth": 17.8,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

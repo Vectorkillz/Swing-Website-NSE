@@ -1,0 +1,15 @@
+{
+  "avg_volume": 968455.0,
+  "debt_equity": 0.06168,
+  "eps_growth": 48.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:40+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 37272.5252096,
+  "name": "Astral Limited",
+  "revenue_growth": 15.9,
+  "roe": 14.18218759920096,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

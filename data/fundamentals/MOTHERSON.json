@@ -1,0 +1,14 @@
+{
+  "avg_volume": 18623568.0,
+  "debt_equity": 0.43908,
+  "eps_growth": 104.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:48+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 171364.18816,
+  "name": "Samvardhana Motherson International Limited",
+  "revenue_growth": 16.6,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

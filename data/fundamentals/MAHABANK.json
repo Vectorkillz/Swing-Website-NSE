@@ -1,0 +1,14 @@
+{
+  "avg_volume": 16147911.0,
+  "debt_equity": null,
+  "eps_growth": 34.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:36+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 63824.52736,
+  "name": "Bank of Maharashtra",
+  "revenue_growth": 21.8,
+  "roe": 22.961001,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

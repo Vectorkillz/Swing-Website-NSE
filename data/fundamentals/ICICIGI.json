@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1065726.0,
+  "debt_equity": null,
+  "eps_growth": -46.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:19+00:00",
+  "industry": "Insurance - Diversified",
+  "market_cap_cr": 71987.1606784,
+  "name": "ICICI Lombard General Insurance Company Limited",
+  "revenue_growth": 10.9,
+  "roe": 14.63,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

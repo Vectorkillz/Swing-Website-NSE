@@ -1,0 +1,15 @@
+{
+  "avg_volume": 826986.0,
+  "debt_equity": 0.023639999999999998,
+  "eps_growth": 11.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:04+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 102811.6185088,
+  "name": "HDFC Asset Management Company Limited",
+  "revenue_growth": 13.4,
+  "roe": 31.909273247256348,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

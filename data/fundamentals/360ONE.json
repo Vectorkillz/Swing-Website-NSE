@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1094533.0,
+  "debt_equity": 1.61977,
+  "eps_growth": 12.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:17+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 43165.155328,
+  "name": "360 One Wam Limited",
+  "revenue_growth": 29.9,
+  "roe": 12.767400938632287,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

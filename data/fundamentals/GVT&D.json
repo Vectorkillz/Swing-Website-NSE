@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1061617.0,
+  "debt_equity": 0.00892,
+  "eps_growth": 24.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:58+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 110816.9326592,
+  "name": "GE Vernova T&D India Limited",
+  "revenue_growth": 38.0,
+  "roe": 48.5038912622467,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

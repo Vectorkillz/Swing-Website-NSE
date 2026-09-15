@@ -1,0 +1,15 @@
+{
+  "avg_volume": 467539.0,
+  "debt_equity": 0.00431,
+  "eps_growth": 0.8999999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:31+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 137144.696832,
+  "name": "Cummins India Limited",
+  "revenue_growth": 17.9,
+  "roe": 27.93041993936866,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

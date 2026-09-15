@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8616940.0,
+  "debt_equity": 0.27809,
+  "eps_growth": 97.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:49+00:00",
+  "industry": "Utilities - Regulated Gas",
+  "market_cap_cr": 112447.0095872,
+  "name": "GAIL (India) Limited",
+  "revenue_growth": 16.7,
+  "roe": 11.084073610086845,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

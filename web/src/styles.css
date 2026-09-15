@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-bg text-text antialiased;
+  font-feature-settings: "tnum" 1;
+}
+
+.card {
+  @apply rounded-lg border border-line bg-panel p-4;
+}
+
+.label {
+  @apply text-xs uppercase tracking-wide text-muted;
+}
+
+.mono {
+  @apply font-mono tabular-nums;
+}
+
+.btn {
+  @apply inline-flex items-center gap-1 rounded-md border border-line bg-panel px-3 py-1.5 text-sm hover:border-accent focus:outline-none focus:ring-2 focus:ring-accent disabled:opacity-50;
+}
+
+.btn-primary {
+  @apply border-accent bg-accent/20;
+}
+
+.badge {
+  @apply inline-block rounded px-1.5 py-0.5 text-xs font-medium;
+}
+
+.input {
+  @apply w-full rounded-md border border-line bg-bg px-2 py-1 text-sm focus:border-accent focus:outline-none;
+}
+
+table.data {
+  @apply w-full text-sm;
+}
+table.data th {
+  @apply label px-2 py-2 text-left font-medium;
+}
+table.data td {
+  @apply border-t border-line px-2 py-2 align-top;
+}
+table.data tr:focus-within,
+table.data tr[data-selected="true"] {
+  @apply bg-accent/10;
+}
+
+.tip {
+  @apply relative cursor-help border-b border-dotted border-muted;
+}
+.tip:hover::after,
+.tip:focus::after {
+  content: attr(data-tip);
+  @apply absolute left-0 top-full z-20 mt-1 w-64 whitespace-normal rounded border border-line bg-bg p-2 text-xs text-text shadow-lg;
+}

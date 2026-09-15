@@ -1,0 +1,14 @@
+{
+  "avg_volume": 26112349.0,
+  "debt_equity": 0.8901699999999999,
+  "eps_growth": 11.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:07+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 229552.3704832,
+  "name": "Tata Steel Limited",
+  "revenue_growth": 14.299999999999999,
+  "roe": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

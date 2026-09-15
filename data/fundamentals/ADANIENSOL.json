@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2956505.0,
+  "debt_equity": 1.945,
+  "eps_growth": 124.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:21+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 165991.6255232,
+  "name": "Adani Energy Solutions Limited",
+  "revenue_growth": 42.4,
+  "roe": 11.276708703698802,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

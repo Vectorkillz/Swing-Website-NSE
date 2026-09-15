@@ -1,0 +1,14 @@
+{
+  "avg_volume": 559647.0,
+  "debt_equity": 0.85446,
+  "eps_growth": -8.200000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:14+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 186779.6447232,
+  "name": "Torrent Pharmaceuticals Limited",
+  "revenue_growth": 54.800000000000004,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

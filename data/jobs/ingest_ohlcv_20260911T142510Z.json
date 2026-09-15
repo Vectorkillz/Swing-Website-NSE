@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-09-10",
+  "counters": {
+    "bars_added": 3707,
+    "failed": 0,
+    "ok": 3,
+    "symbols": 3
+  },
+  "duration_s": 11.9,
+  "errors": [
+    {
+      "error": "no_data_returned",
+      "stage": "ingest_index",
+      "symbol": "SMALLCAP"
+    }
+  ],
+  "finished_at": "2026-09-11T14:25:22+00:00",
+  "job": "ingest_ohlcv",
+  "n_errors": 1,
+  "started_at": "2026-09-11T14:25:10+00:00",
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 5057109.0,
+  "debt_equity": null,
+  "eps_growth": 367.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:37+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 63557.4943744,
+  "name": "RBL Bank Limited",
+  "revenue_growth": 40.8,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

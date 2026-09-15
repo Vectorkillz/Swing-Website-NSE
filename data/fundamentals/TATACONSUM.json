@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1420117.0,
+  "debt_equity": 0.12159,
+  "eps_growth": 27.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:03+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 98909.618176,
+  "name": "Tata Consumer Products Limited",
+  "revenue_growth": 11.899999999999999,
+  "roe": null,
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

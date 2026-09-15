@@ -1,0 +1,15 @@
+{
+  "avg_volume": 354954.0,
+  "debt_equity": 0.56352,
+  "eps_growth": 45.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:47+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 316683.9504896,
+  "name": "Bajaj Auto Limited",
+  "revenue_growth": 64.0,
+  "roe": 30.800042743781336,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

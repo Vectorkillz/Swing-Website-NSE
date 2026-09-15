@@ -1,0 +1,15 @@
+{
+  "avg_volume": 19354373.0,
+  "debt_equity": 3.4473700000000003,
+  "eps_growth": 1.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:37+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 93423.6585984,
+  "name": "Ashok Leyland Limited",
+  "revenue_growth": 11.600000000000001,
+  "roe": 24.405502927027005,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

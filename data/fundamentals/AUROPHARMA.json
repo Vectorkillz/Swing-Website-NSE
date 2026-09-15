@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1124509.0,
+  "debt_equity": 0.21309999999999998,
+  "eps_growth": 25.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:44+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 95973.0352128,
+  "name": "Aurobindo Pharma Limited",
+  "revenue_growth": 16.3,
+  "roe": 9.890365424424242,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

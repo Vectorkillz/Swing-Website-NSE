@@ -1,0 +1,14 @@
+{
+  "avg_volume": 10194807.0,
+  "debt_equity": 1.18127,
+  "eps_growth": -1.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:04+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 318535.499776,
+  "name": "NTPC Limited",
+  "revenue_growth": 8.0,
+  "roe": null,
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

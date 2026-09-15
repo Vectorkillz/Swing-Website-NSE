@@ -1,0 +1,14 @@
+{
+  "avg_volume": 64642073.0,
+  "debt_equity": 0.028069999999999998,
+  "eps_growth": -8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:00+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 60467.6947968,
+  "name": "Suzlon Energy Limited",
+  "revenue_growth": 22.5,
+  "roe": 39.366,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

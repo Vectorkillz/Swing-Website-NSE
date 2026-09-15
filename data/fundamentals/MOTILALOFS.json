@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1161234.0,
+  "debt_equity": 1.6580000000000001,
+  "eps_growth": 8.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:49+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 60214.6668544,
+  "name": "Motilal Oswal Financial Services Limited",
+  "revenue_growth": 23.9,
+  "roe": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

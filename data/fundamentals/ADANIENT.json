@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1772359.0,
+  "debt_equity": 1.1956,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:22+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 427190.8585472,
+  "name": "Adani Enterprises Limited",
+  "revenue_growth": 49.9,
+  "roe": 8.48333014312111,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

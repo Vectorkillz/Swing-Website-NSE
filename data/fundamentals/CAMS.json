@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1285723.0,
+  "debt_equity": 0.04863000000000001,
+  "eps_growth": 17.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:49:13+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 17871.2199168,
+  "name": "Computer Age Management Services Limited",
+  "revenue_growth": 11.5,
+  "roe": 37.4033874303652,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

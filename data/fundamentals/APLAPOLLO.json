@@ -1,0 +1,15 @@
+{
+  "avg_volume": 654325.0,
+  "debt_equity": 0.09396,
+  "eps_growth": 11.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:34+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 58952.4303872,
+  "name": "APL Apollo Tubes Limited",
+  "revenue_growth": 8.5,
+  "roe": 23.20802637056115,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

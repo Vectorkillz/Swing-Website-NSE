@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2760540.0,
+  "debt_equity": 0.46369,
+  "eps_growth": 125.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:53:23+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 105150.152704,
+  "name": "Laurus Labs Limited",
+  "revenue_growth": 29.099999999999998,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,14 @@
+{
+  "avg_volume": 810186.0,
+  "debt_equity": 0.3774,
+  "eps_growth": 1.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:23+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 69122.8246016,
+  "name": "Uno Minda Limited",
+  "revenue_growth": 23.799999999999997,
+  "roe": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

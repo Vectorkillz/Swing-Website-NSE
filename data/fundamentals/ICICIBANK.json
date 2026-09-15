@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11227076.0,
+  "debt_equity": null,
+  "eps_growth": 13.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:18+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 973080.8348672,
+  "name": "ICICI Bank Limited",
+  "revenue_growth": 11.4,
+  "roe": 16.073999,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

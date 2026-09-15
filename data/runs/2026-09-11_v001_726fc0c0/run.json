@@ -1,0 +1,85 @@
+{
+  "ban_list": {
+    "as_of": "2026-09-15",
+    "available": true,
+    "fetch_status": "ok",
+    "live_error": null,
+    "n": 5,
+    "source": "live"
+  },
+  "budget": {
+    "accepted_gross_value": 494903.66,
+    "accepted_positions": 5,
+    "accepted_risk_amount": 13389.18,
+    "capital": 500000.0,
+    "gross_cap": 500000.0,
+    "open_gross_value": 0.0,
+    "open_positions": 0,
+    "open_risk_amount": 0.0,
+    "per_sector": {
+      "Communication Services": 1,
+      "Consumer Cyclical": 1,
+      "Consumer Defensive": 1,
+      "Financial Services": 1,
+      "Industrials": 1
+    },
+    "risk_cap": 50000.0
+  },
+  "config_hash": "efe78db5dbcf3fd3a2ef74dc19d906f4ce0aac30145f871b7610a7a7bb35b81f",
+  "config_version": "v001",
+  "counts": {
+    "banned": 0,
+    "below_min_score": 0,
+    "candidates_long": 0,
+    "candidates_short": 32,
+    "data_unavailable": 2,
+    "deferred": 0,
+    "fundamentals_missing": 0,
+    "no_setup": 10,
+    "ranked_long": 0,
+    "ranked_short": 5,
+    "rejected_gate": 167,
+    "scanned": 211,
+    "universe": 211,
+    "usable": 209
+  },
+  "coverage_pct": 99.05,
+  "engine_version": "0.1.0",
+  "failures": [],
+  "generated_at": "2026-09-15T05:45:54+00:00",
+  "input_hash": "726fc0c0f2d920d40c7cf46e503e2281dd56fcbb564f23f82e0955f7833e91d1",
+  "open_positions_applied": 0,
+  "regime": {
+    "longs_allowed": true,
+    "nifty_close": 23398.0996,
+    "nifty_ema_fast": 23706.939329,
+    "nifty_ema_slow": 23898.061166,
+    "reasons": [
+      "smallcap_unavailable",
+      "neither BULL nor BEAR conditions met"
+    ],
+    "regime": "NEUTRAL",
+    "roc_18m": 5.75556,
+    "roc_bars_used": 378,
+    "shorts_allowed": true,
+    "size_multiplier": 0.75,
+    "smallcap_close": null,
+    "smallcap_confirms": null,
+    "smallcap_ema_fast": null,
+    "smallcap_ema_slow": null,
+    "vix": 12.29
+  },
+  "run_id": "2026-09-11_v001_726fc0c0",
+  "scan_performed": true,
+  "schema_version": 1,
+  "session_date": "2026-09-11",
+  "status": "ok",
+  "universe": {
+    "age_days": 3,
+    "as_of": "2026-09-12",
+    "n_symbols": 211,
+    "source": "live",
+    "stale": false
+  },
+  "warnings": []
+}

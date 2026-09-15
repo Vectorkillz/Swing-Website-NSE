@@ -1,0 +1,14 @@
+{
+  "avg_volume": 2576032.0,
+  "debt_equity": 0.07269,
+  "eps_growth": 28.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:55:09+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 143161.1375616,
+  "name": "Tech Mahindra Limited",
+  "revenue_growth": 17.7,
+  "roe": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

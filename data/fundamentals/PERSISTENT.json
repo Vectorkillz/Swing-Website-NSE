@@ -1,0 +1,14 @@
+{
+  "avg_volume": 727588.0,
+  "debt_equity": 0.0694,
+  "eps_growth": 12.1,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T04:54:16+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 88067.4340864,
+  "name": "Persistent Systems Limited",
+  "revenue_growth": 29.099999999999998,
+  "roe": 25.202999999999996,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

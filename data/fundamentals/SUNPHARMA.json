@@ -1,0 +1,14 @@
+{
+  "avg_volume": 1977569.0,
+  "debt_equity": 0.055170000000000004,
+  "eps_growth": 27.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:57+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 440181.981184,
+  "name": "Sun Pharmaceutical Industries Limited",
+  "revenue_growth": 10.5,
+  "roe": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

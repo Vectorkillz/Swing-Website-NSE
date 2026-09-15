@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3398346.0,
+  "debt_equity": 0.07058,
+  "eps_growth": 8.4,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T05:50:03+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 347041.6150528,
+  "name": "HCL Technologies Limited",
+  "revenue_growth": 3.0,
+  "roe": 24.067,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

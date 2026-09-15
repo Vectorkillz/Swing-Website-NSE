@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6575657.0,
+  "debt_equity": 1.29314,
+  "eps_growth": 100.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:32+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 27658.7446272,
+  "name": "Angel One Limited",
+  "revenue_growth": 23.0,
+  "roe": 16.810681957516426,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

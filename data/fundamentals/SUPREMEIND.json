@@ -1,0 +1,14 @@
+{
+  "avg_volume": 209652.0,
+  "debt_equity": 0.01473,
+  "eps_growth": 38.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:59+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 43231.952896,
+  "name": "The Supreme Industries Limited",
+  "revenue_growth": 4.2,
+  "roe": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

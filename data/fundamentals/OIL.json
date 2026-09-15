@@ -1,0 +1,14 @@
+{
+  "avg_volume": 3230678.0,
+  "debt_equity": 0.58741,
+  "eps_growth": 91.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T04:54:09+00:00",
+  "industry": "Oil & Gas Integrated",
+  "market_cap_cr": 79557.3878784,
+  "name": "Oil India Limited",
+  "revenue_growth": 57.699999999999996,
+  "roe": null,
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

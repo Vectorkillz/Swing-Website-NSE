@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10296100.0,
+  "debt_equity": 7.73347,
+  "eps_growth": 9.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:50:45+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 104979.3134592,
+  "name": "Indian Railway Finance Corporation Limited",
+  "revenue_growth": 10.299999999999999,
+  "roe": 12.659744385598252,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

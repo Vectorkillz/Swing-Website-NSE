@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1745767.0,
+  "debt_equity": null,
+  "eps_growth": 35.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:43+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 78044.168192,
+  "name": "AU Small Finance Bank Limited",
+  "revenue_growth": 29.799999999999997,
+  "roe": 1.1324935908929237,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

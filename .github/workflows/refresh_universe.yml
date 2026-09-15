@@ -1,0 +1,33 @@
+name: Refresh universe
+
+on:
+  schedule:
+    - cron: "30 2 * * 0"   # Sunday 08:00 IST
+  workflow_dispatch:
+
+concurrency:
+  group: data-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[pipeline]"
+      - run: python -m pipeline.cli refresh-universe
+        continue-on-error: true   # fallback_csv is reported in data/jobs; a hard failure still commits the job log
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "data: refresh universe [skip ci]" && git pull --rebase && git push)

@@ -1,0 +1,36 @@
+[project]
+name = "nse-swing-scanner"
+version = "0.1.0"
+description = "End-of-day rule-based swing setup scanner for NSE equities. Pure engine + GitHub Actions pipeline + static site."
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "pydantic>=2.7",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+pipeline = [
+  "yfinance>=0.2.40",
+  "requests>=2.31",
+  "tenacity>=8.2",
+]
+dev = [
+  "pytest>=8",
+  "hypothesis>=6.100",
+]
+
+[project.scripts]
+nse-scan = "pipeline.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["engine*", "ingestion*", "pipeline*", "backtest*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

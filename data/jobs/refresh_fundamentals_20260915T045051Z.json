@@ -1,0 +1,22 @@
+{
+  "counters": {
+    "failed": 1,
+    "fetched": 210,
+    "shard": "0/1",
+    "skipped_fresh": 0,
+    "symbols": 211
+  },
+  "duration_s": 283.3,
+  "errors": [
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "NIFTYFPI"
+    }
+  ],
+  "finished_at": "2026-09-15T04:55:35+00:00",
+  "job": "refresh_fundamentals",
+  "n_errors": 1,
+  "started_at": "2026-09-15T04:50:51+00:00",
+  "status": "partial"
+}

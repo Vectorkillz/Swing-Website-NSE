@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7977606.0,
+  "debt_equity": 3.14833,
+  "eps_growth": 27.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T05:48:52+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 629183.1914496,
+  "name": "Bajaj Finance Limited",
+  "revenue_growth": 26.1,
+  "roe": 17.80154972603853,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}
