@@ -3,12 +3,13 @@
   "debt_equity": 6.07463,
   "eps_growth": -6.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:38+00:00",
+  "fetched_at": "2026-09-15T05:52:40+00:00",
   "industry": "Credit Services",
-  "market_cap_cr": 82564.7300608,
+  "market_cap_cr": 82406.7489792,
   "name": "REC Limited",
   "revenue_growth": 25.2,
-  "roe": null,
+  "roe": 19.04200834829561,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

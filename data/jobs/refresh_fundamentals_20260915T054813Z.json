@@ -1,0 +1,27 @@
+{
+  "counters": {
+    "failed": 2,
+    "fetched": 209,
+    "shard": "0/1",
+    "skipped_fresh": 0,
+    "symbols": 211
+  },
+  "duration_s": 626.2,
+  "errors": [
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "NIFTYFPI"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TATAELXSI"
+    }
+  ],
+  "finished_at": "2026-09-15T05:58:39+00:00",
+  "job": "refresh_fundamentals",
+  "n_errors": 2,
+  "started_at": "2026-09-15T05:48:13+00:00",
+  "status": "partial"
+}

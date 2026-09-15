@@ -3,12 +3,13 @@
   "debt_equity": 0.08621000000000001,
   "eps_growth": 48.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:58+00:00",
+  "fetched_at": "2026-09-15T05:51:48+00:00",
   "industry": "Packaged Foods",
-  "market_cap_cr": 265972.4034048,
+  "market_cap_cr": 263851.2652288,
   "name": "Nestl\u00e9 India Limited",
   "revenue_growth": 25.2,
-  "roe": null,
+  "roe": 73.90441071499,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Defensive",
   "source": "yfinance.Ticker.info"
 }

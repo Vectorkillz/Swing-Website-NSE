@@ -9,6 +9,48 @@
         "data_unavailable": 2,
         "deferred": 0,
         "fundamentals_missing": 0,
+        "no_setup": 87,
+        "ranked_long": 0,
+        "ranked_short": 5,
+        "rejected_gate": 90,
+        "scanned": 211,
+        "universe": 211,
+        "usable": 209,
+        "warnings": []
+      },
+      "duration_s": 14.2,
+      "finished_at": "2026-09-15T05:59:17+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-11_v001_2a585efd",
+      "started_at": "2026-09-15T05:59:03+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "failed": 2,
+        "fetched": 209,
+        "shard": "0/1",
+        "skipped_fresh": 0,
+        "symbols": 211
+      },
+      "duration_s": 626.2,
+      "finished_at": "2026-09-15T05:58:39+00:00",
+      "job": "refresh_fundamentals",
+      "n_errors": 2,
+      "run_id": null,
+      "started_at": "2026-09-15T05:48:13+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
+        "candidates_long": 0,
+        "candidates_short": 32,
+        "data_unavailable": 2,
+        "deferred": 0,
+        "fundamentals_missing": 0,
         "no_setup": 10,
         "ranked_long": 0,
         "ranked_short": 5,

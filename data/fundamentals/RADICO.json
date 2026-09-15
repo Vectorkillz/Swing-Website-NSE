@@ -3,12 +3,13 @@
   "debt_equity": 0.20939,
   "eps_growth": 62.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:36+00:00",
+  "fetched_at": "2026-09-15T05:52:38+00:00",
   "industry": "Beverages - Wineries & Distilleries",
-  "market_cap_cr": 58424.3675136,
+  "market_cap_cr": 58684.2898432,
   "name": "Radico Khaitan Limited",
   "revenue_growth": 19.5,
-  "roe": null,
+  "roe": 15.58521114534387,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Defensive",
   "source": "yfinance.Ticker.info"
 }

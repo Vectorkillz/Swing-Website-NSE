@@ -3,12 +3,13 @@
   "debt_equity": 2.80206,
   "eps_growth": 19.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:45+00:00",
+  "fetched_at": "2026-09-15T05:52:48+00:00",
   "industry": "Credit Services",
-  "market_cap_cr": 60572.0805376,
+  "market_cap_cr": 59929.72288,
   "name": "SBI Cards and Payment Services Limited",
   "revenue_growth": 23.400000000000002,
-  "roe": null,
+  "roe": 14.474092976950903,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

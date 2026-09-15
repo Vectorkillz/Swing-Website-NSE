@@ -3,12 +3,13 @@
   "debt_equity": 0.037759999999999995,
   "eps_growth": 29.599999999999998,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:23+00:00",
+  "fetched_at": "2026-09-15T05:52:22+00:00",
   "industry": "Specialty Chemicals",
-  "market_cap_cr": 158595.8354944,
+  "market_cap_cr": 157567.7722624,
   "name": "Pidilite Industries Limited",
   "revenue_growth": 21.3,
-  "roe": null,
+  "roe": 24.451429942763514,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

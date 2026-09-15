@@ -3,12 +3,13 @@
   "debt_equity": 2.7621499999999997,
   "eps_growth": 29.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:51+00:00",
+  "fetched_at": "2026-09-15T05:52:53+00:00",
   "industry": "Credit Services",
-  "market_cap_cr": 235163.3268736,
+  "market_cap_cr": 233657.3620224,
   "name": "Shriram Finance Limited",
   "revenue_growth": 42.8,
   "roe": 18.495001,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

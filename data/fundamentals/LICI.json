@@ -3,12 +3,13 @@
   "debt_equity": 0.00431,
   "eps_growth": 40.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:26+00:00",
+  "fetched_at": "2026-09-15T05:51:08+00:00",
   "industry": "Insurance - Life",
-  "market_cap_cr": 503343.3235456,
+  "market_cap_cr": 499991.0785024,
   "name": "Life Insurance Corporation of India",
   "revenue_growth": 6.800000000000001,
-  "roe": null,
+  "roe": 36.761289347709905,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

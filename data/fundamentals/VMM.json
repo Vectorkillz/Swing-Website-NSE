@@ -3,12 +3,13 @@
   "debt_equity": 0.26817,
   "eps_growth": 25.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:28+00:00",
+  "fetched_at": "2026-09-15T05:58:32+00:00",
   "industry": "Department Stores",
-  "market_cap_cr": 47518.0138496,
+  "market_cap_cr": 47058.9014016,
   "name": "Vishal Mega Mart Limited",
   "revenue_growth": 18.7,
-  "roe": null,
+  "roe": 11.979304134582152,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

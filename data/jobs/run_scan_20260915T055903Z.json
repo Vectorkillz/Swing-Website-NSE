@@ -1,0 +1,28 @@
+{
+  "counters": {
+    "banned": 0,
+    "below_min_score": 0,
+    "candidates_long": 0,
+    "candidates_short": 32,
+    "data_unavailable": 2,
+    "deferred": 0,
+    "fundamentals_missing": 0,
+    "no_setup": 87,
+    "ranked_long": 0,
+    "ranked_short": 5,
+    "rejected_gate": 90,
+    "scanned": 211,
+    "universe": 211,
+    "usable": 209,
+    "warnings": []
+  },
+  "duration_s": 14.2,
+  "errors": [],
+  "finished_at": "2026-09-15T05:59:17+00:00",
+  "job": "run_scan",
+  "n_errors": 0,
+  "run_id": "2026-09-11_v001_2a585efd",
+  "session_date": "2026-09-11",
+  "started_at": "2026-09-15T05:59:03+00:00",
+  "status": "ok"
+}

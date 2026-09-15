@@ -3,12 +3,13 @@
   "debt_equity": 0.01738,
   "eps_growth": 32.5,
   "fcf_positive": true,
-  "fetched_at": "2026-09-15T04:54:29+00:00",
+  "fetched_at": "2026-09-15T05:52:30+00:00",
   "industry": "Electrical Equipment & Parts",
-  "market_cap_cr": 123181.8194944,
+  "market_cap_cr": 122842.8935168,
   "name": "Polycab India Limited",
   "revenue_growth": 39.0,
   "roe": 25.549,
+  "roe_source": "returnOnEquity",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

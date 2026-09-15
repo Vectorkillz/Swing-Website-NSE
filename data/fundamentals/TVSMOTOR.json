@@ -3,12 +3,13 @@
   "debt_equity": 3.0608999999999997,
   "eps_growth": 67.10000000000001,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:17+00:00",
+  "fetched_at": "2026-09-15T05:58:21+00:00",
   "industry": "Auto Manufacturers",
-  "market_cap_cr": 194324.7650816,
+  "market_cap_cr": 193331.5407872,
   "name": "TVS Motor Company Limited",
   "revenue_growth": 34.300000000000004,
-  "roe": null,
+  "roe": 102.63904282711806,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

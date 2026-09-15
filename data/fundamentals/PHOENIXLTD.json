@@ -3,12 +3,13 @@
   "debt_equity": 0.37211,
   "eps_growth": 23.3,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:21+00:00",
+  "fetched_at": "2026-09-15T05:52:21+00:00",
   "industry": "Real Estate - Diversified",
-  "market_cap_cr": 66889.3380608,
+  "market_cap_cr": 66638.9577728,
   "name": "The Phoenix Mills Limited",
   "revenue_growth": 12.8,
-  "roe": null,
+  "roe": 11.645099463992036,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Real Estate",
   "source": "yfinance.Ticker.info"
 }

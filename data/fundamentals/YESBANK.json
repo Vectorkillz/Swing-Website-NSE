@@ -3,12 +3,13 @@
   "debt_equity": null,
   "eps_growth": 11.799999999999999,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:33+00:00",
+  "fetched_at": "2026-09-15T05:58:38+00:00",
   "industry": "Banks - Regional",
-  "market_cap_cr": 72852.5832192,
+  "market_cap_cr": 72287.5973632,
   "name": "Yes Bank Limited",
   "revenue_growth": 19.8,
   "roe": 7.4650005,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

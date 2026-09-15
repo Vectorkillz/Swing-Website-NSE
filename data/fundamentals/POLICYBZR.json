@@ -3,12 +3,13 @@
   "debt_equity": 0.04922,
   "eps_growth": 92.30000000000001,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:28+00:00",
+  "fetched_at": "2026-09-15T05:52:28+00:00",
   "industry": "Insurance Brokers",
-  "market_cap_cr": 82715.8757376,
+  "market_cap_cr": 82336.9596928,
   "name": "PB Fintech Limited",
   "revenue_growth": 40.1,
-  "roe": null,
+  "roe": 10.23428221304265,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

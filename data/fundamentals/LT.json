@@ -3,12 +3,13 @@
   "debt_equity": 0.9764,
   "eps_growth": 14.000000000000002,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:29+00:00",
+  "fetched_at": "2026-09-15T05:51:12+00:00",
   "industry": "Engineering & Construction",
-  "market_cap_cr": 530809.1465728,
+  "market_cap_cr": 528263.7807616,
   "name": "Larsen & Toubro Limited",
   "revenue_growth": 8.1,
-  "roe": null,
+  "roe": 16.75267856980689,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

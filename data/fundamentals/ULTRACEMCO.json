@@ -3,12 +3,13 @@
   "debt_equity": 0.29431999999999997,
   "eps_growth": 16.8,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:18+00:00",
+  "fetched_at": "2026-09-15T05:58:22+00:00",
   "industry": "Building Materials",
-  "market_cap_cr": 317732.6313472,
+  "market_cap_cr": 316055.8534656,
   "name": "UltraTech Cement Limited",
   "revenue_growth": 15.9,
-  "roe": null,
+  "roe": 11.142571773390083,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

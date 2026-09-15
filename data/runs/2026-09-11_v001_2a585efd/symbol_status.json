@@ -1,14 +1,14 @@
 {
-  "run_id": "2026-09-11_v001_726fc0c0",
+  "run_id": "2026-09-11_v001_2a585efd",
   "schema_version": 1,
   "statuses": [
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 45 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "360ONE"
     },
     {
@@ -30,18 +30,18 @@
       "symbol": "ABCAPITAL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ADANIENSOL"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 8.48333 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -57,21 +57,21 @@
       "symbol": "ADANIGREEN"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ADANIPORTS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ADANIPOWER"
     },
     {
@@ -86,7 +86,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 2.19229 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -95,37 +95,37 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth -7.7 not >= 8",
+        "long:roe 7.43587 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "AMBUJACEM"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ANGELONE"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 5.5%,vol 96%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "APLAPOLLO"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "APOLLOHOSP"
     },
     {
@@ -138,18 +138,18 @@
       "symbol": "ASHOKLEY"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ASIANPAINT"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_vcp:vol 182%,below EMA20"
       ],
       "stage_reached": "plan",
       "symbol": "ASTRAL"
@@ -157,7 +157,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe -14.6461 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -166,7 +166,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:debt_equity,roe (treat_missing_fundamental_as=reject)",
+        "long:roe 1.13249 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -175,7 +175,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 9.89037 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -190,12 +190,12 @@
       "symbol": "AXISBANK"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BAJAJ-AUTO"
     },
     {
@@ -228,7 +228,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:debt_equity,roe (treat_missing_fundamental_as=reject)",
+        "long:roe 5.28385 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -252,27 +252,27 @@
       "symbol": "BANKINDIA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BDL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 45 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BEL"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 7.37226 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -289,7 +289,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 9.30325 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -298,19 +298,19 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 1.44755 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "BIOCON"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BLUESTARCO"
     },
     {
@@ -323,12 +323,12 @@
       "symbol": "BOSCHLTD"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BPCL"
     },
     {
@@ -340,21 +340,21 @@
       "symbol": "BRITANNIA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "BSE"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "CAMS"
     },
     {
@@ -375,12 +375,12 @@
       "symbol": "CDSL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth -1.0%,vol 96%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "CGPOWER"
     },
     {
@@ -395,18 +395,18 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:revenue_growth 3.5 not >= 8"
+        "long:roe 9.78841 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "CIPLA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "COALINDIA"
     },
     {
@@ -419,27 +419,27 @@
       "symbol": "COCHINSHIP"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 2.4%,vol 85%,below EMA20",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "COFORGE"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "COLPAL"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:revenue_growth 0.3 not >= 8"
+        "long:roe 9.59642 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "CONCOR"
@@ -447,25 +447,25 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe -7.55076 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "CROMPTON"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "CUMMINSIND"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "DABUR"
@@ -473,28 +473,28 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 0.961808 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "DELHIVERY"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth -3.1%,vol 93%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "DIVISLAB"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "DIXON"
     },
     {
@@ -509,7 +509,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "DMART"
@@ -523,18 +523,18 @@
       "symbol": "DRREDDY"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "EICHERMOT"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 1.39045 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -543,7 +543,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:debt_equity,roe (treat_missing_fundamental_as=reject)",
+        "long:missing:debt_equity (treat_missing_fundamental_as=reject)",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -558,30 +558,30 @@
       "symbol": "FORCEMOT"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "FORTIS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "GAIL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "GLENMARK"
     },
     {
@@ -603,18 +603,18 @@
       "symbol": "GODFRYPHLP"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "GODREJCP"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 8.35309 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -623,37 +623,37 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 5.50143 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "GRASIM"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 5.1%,vol 104%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "GVT&D"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "HAL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 45 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "HAVELLS"
     },
     {
@@ -668,7 +668,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "HDFCAMC"
@@ -691,27 +691,27 @@
       "symbol": "HDFCLIFE"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "HEROMOTOCO"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "HINDALCO"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 2.54981 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -727,12 +727,12 @@
       "symbol": "HINDUNILVR"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "HINDZINC"
     },
     {
@@ -782,28 +782,28 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth -1.1 not >= 8",
+        "long:roe 2.08823 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "IDFCFIRSTB"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "IEX"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "INDHOTEL"
     },
     {
@@ -826,7 +826,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth 1 not >= 8",
+        "long:roe 2.01038 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -853,7 +853,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth -1.5 not >= 8",
+        "long:roe 4.65433 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -862,7 +862,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "IOC"
@@ -895,7 +895,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 5.33931 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -904,7 +904,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 1.48014 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -913,90 +913,90 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth 1.2 not >= 8",
+        "long:roe 6.13098 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "JSWENERGY"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "JSWSTEEL"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_vcp:below EMA20"
       ],
       "stage_reached": "plan",
       "symbol": "JUBLFOOD"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 7.4%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "KALYANKJIL"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 7.41731 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "KAYNES"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:vol 198%,below EMA20",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "KEI"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:below EMA20",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "KFINTECH"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:debt_equity,roe (treat_missing_fundamental_as=reject)",
+        "long:missing:debt_equity (treat_missing_fundamental_as=reject)",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "KOTAKBANK"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "KPITTECH"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth -5.2%,vol 233%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "LAURUSLABS"
     },
     {
@@ -1017,21 +1017,21 @@
       "symbol": "LICI"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:vol 80%,below EMA20",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "LODHA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 45 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "LT"
     },
     {
@@ -1053,21 +1053,21 @@
       "symbol": "LTM"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "LUPIN"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "M&M"
     },
     {
@@ -1089,83 +1089,83 @@
       "symbol": "MANAPPURAM"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MANKIND"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MARICO"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MARUTI"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MAXHEALTH"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MAZDOCK"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 3.6%,vol 71%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MCX"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:revenue_growth -40.2 not >= 8"
+        "long:roe 3.95686 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "MFSL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 4.4%,vol 57%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MOTHERSON"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:depth 2.5%,vol 60%",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "MOTILALOFS"
     },
     {
@@ -1187,27 +1187,27 @@
       "symbol": "MUTHOOTFIN"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "NAM-INDIA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_vcp:vol 71%,below EMA20",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "NATIONALUM"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 4.21919 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1223,18 +1223,18 @@
       "symbol": "NBCC"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "NESTLEIND"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 9.18508 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1259,27 +1259,27 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "NTPC"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "NYKAA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "OBEROIRLTY"
     },
     {
@@ -1292,21 +1292,21 @@
       "symbol": "OFSS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "OIL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ONGC"
     },
     {
@@ -1319,18 +1319,18 @@
       "symbol": "PAGEIND"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:score 55 < 60"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "PATANJALI"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 4.05579 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1366,28 +1366,28 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 6.73292 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "PGEL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "PHOENIXLTD"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "PIDILITIND"
     },
     {
@@ -1418,12 +1418,12 @@
       "symbol": "PNBHOUSING"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "POLICYBZR"
     },
     {
@@ -1456,7 +1456,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "PREMIERENE"
@@ -1471,18 +1471,18 @@
       "symbol": "PRESTIGE"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "RADICO"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:debt_equity,roe (treat_missing_fundamental_as=reject)",
+        "long:roe 1.71717 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1500,7 +1500,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:roe 8.26599 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "RELIANCE"
@@ -1508,24 +1508,24 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:roe 9.15831 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "RVNL"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "SAGILITY"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth 1.3 not >= 8",
+        "long:roe 7.08431 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1577,12 +1577,12 @@
       "symbol": "SHRIRAMFIN"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "SIEMENS"
     },
     {
@@ -1595,30 +1595,30 @@
       "symbol": "SOLARINDS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "SONACOMS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "SRF"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "SUNPHARMA"
     },
     {
@@ -1642,7 +1642,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe -20.3562 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1651,7 +1651,7 @@
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 7.5039 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1669,7 +1669,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:revenue_growth 5.6 not >= 8"
+        "long:roe 9.78631 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "TATAPOWER"
@@ -1677,7 +1677,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_leg:below_thresholds"
       ],
       "stage_reached": "plan",
       "symbol": "TATASTEEL"
@@ -1692,56 +1692,56 @@
       "symbol": "TCS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "TECHM"
     },
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:roe 7.71292 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "TIINDIA"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "TITAN"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:revenue_growth -8.2 not >= 8",
+        "long:roe -3.01114 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
       "symbol": "TMPV"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "TORNTPHARM"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "TRENT"
     },
     {
@@ -1781,18 +1781,18 @@
       "symbol": "UNITDSPR"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "UNOMINDA"
     },
     {
       "outcome": "rejected_gate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:roe 5.62024 not >= 10",
         "short:no_setup"
       ],
       "stage_reached": "gates",
@@ -1818,7 +1818,7 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:no_vcp:vol 65%,below EMA20"
       ],
       "stage_reached": "plan",
       "symbol": "VMM"
@@ -1826,18 +1826,18 @@
     {
       "outcome": "candidate",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)"
+        "long:roe 7.04462 not >= 10"
       ],
       "stage_reached": "plan",
       "symbol": "VOLTAS"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "WAAREEENER"
     },
     {
@@ -1859,12 +1859,12 @@
       "symbol": "YESBANK"
     },
     {
-      "outcome": "rejected_gate",
+      "outcome": "no_setup",
       "reasons": [
-        "long:missing:roe (treat_missing_fundamental_as=reject)",
+        "long:no_leg:below_thresholds",
         "short:no_setup"
       ],
-      "stage_reached": "gates",
+      "stage_reached": "detectors",
       "symbol": "ZYDUSLIFE"
     }
   ]

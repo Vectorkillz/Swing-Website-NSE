@@ -3,11 +3,11 @@
     {
       "config_version": "v001",
       "coverage_pct": 99.05,
-      "generated_at": "2026-09-15T05:45:54+00:00",
+      "generated_at": "2026-09-15T05:59:14+00:00",
       "n_longs": 0,
       "n_shorts": 5,
       "regime": "NEUTRAL",
-      "run_id": "2026-09-11_v001_726fc0c0",
+      "run_id": "2026-09-11_v001_2a585efd",
       "session_date": "2026-09-11",
       "status": "ok"
     }

@@ -3,12 +3,13 @@
   "debt_equity": 3.9356,
   "eps_growth": 38.800000000000004,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:52+00:00",
+  "fetched_at": "2026-09-15T05:51:40+00:00",
   "industry": "Credit Services",
-  "market_cap_cr": 111258.959872,
+  "market_cap_cr": 110620.6261248,
   "name": "Muthoot Finance Limited",
   "revenue_growth": 35.3,
   "roe": 31.735000000000003,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

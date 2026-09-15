@@ -9,4 +9,7 @@
   "name": "JSW Steel Limited",
   "revenue_growth": 9.8,
   "roe": 24.76835857207031,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sh
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

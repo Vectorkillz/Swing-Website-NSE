@@ -3,12 +3,13 @@
   "debt_equity": 0.36195,
   "eps_growth": 75.6,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:56+00:00",
+  "fetched_at": "2026-09-15T05:52:59+00:00",
   "industry": "Conglomerates",
-  "market_cap_cr": 73283.4234368,
+  "market_cap_cr": 72942.55104,
   "name": "SRF Limited",
   "revenue_growth": 31.8,
-  "roe": null,
+  "roe": 15.394875789614446,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

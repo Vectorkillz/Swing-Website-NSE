@@ -3,12 +3,13 @@
   "debt_equity": 6.42522,
   "eps_growth": 9.9,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:25+00:00",
+  "fetched_at": "2026-09-15T05:51:06+00:00",
   "industry": "Mortgage Finance",
-  "market_cap_cr": 30443.2349184,
+  "market_cap_cr": 30313.9684352,
   "name": "LIC Housing Finance Limited",
   "revenue_growth": 14.499999999999998,
-  "roe": null,
+  "roe": 13.853713649548972,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

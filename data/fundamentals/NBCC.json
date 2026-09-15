@@ -3,12 +3,13 @@
   "debt_equity": 8e-05,
   "eps_growth": 16.3,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:57+00:00",
+  "fetched_at": "2026-09-15T05:51:47+00:00",
   "industry": "Engineering & Construction",
-  "market_cap_cr": 22161.5996928,
+  "market_cap_cr": 22026.600448,
   "name": "NBCC (India) Limited",
   "revenue_growth": -5.8999999999999995,
-  "roe": null,
+  "roe": 24.726827572201415,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

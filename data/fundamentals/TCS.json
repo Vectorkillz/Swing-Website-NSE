@@ -3,12 +3,13 @@
   "debt_equity": 0.10211,
   "eps_growth": 4.6,
   "fcf_positive": true,
-  "fetched_at": "2026-09-15T04:55:08+00:00",
+  "fetched_at": "2026-09-15T05:58:11+00:00",
   "industry": "Information Technology Services",
-  "market_cap_cr": 832775.1794688,
+  "market_cap_cr": 837370.0919296,
   "name": "Tata Consultancy Services Limited",
   "revenue_growth": 13.900000000000002,
   "roe": 47.743,
+  "roe_source": "returnOnEquity",
   "sector": "Technology",
   "source": "yfinance.Ticker.info"
 }

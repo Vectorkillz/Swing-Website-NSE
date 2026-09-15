@@ -29,6 +29,28 @@ market regime -> universe -> eligibility gates -> pattern detection
 | `web/` | React + TypeScript site (Phase 2). |
 | `docs/` | Data contract, runbook, config versioning. |
 
+## Deploying to GitHub Pages
+
+1. Create an empty GitHub repository and push this repo to its `main` branch.
+2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+3. Settings → Actions → General → Workflow permissions: **Read and write permissions**.
+4. Actions → *Deploy site* → Run workflow. The site appears at `https://<user>.github.io/<repo>/`.
+5. The *Daily scan* workflow then runs every trading day at 16:30 IST and redeploys.
+
+See `docs/runbook.md` for manual operations and failure modes.
+
+## Local web development
+
+```powershell
+cd web
+npm install
+# stage the committed data into the dev server
+Copy-Item -Recurse ..\data public\data
+npm run dev          # http://localhost:5173
+npm test -- --run    # vitest: TS portfolio port vs shared vectors
+npm run build; npx playwright test
+```
+
 ## Quick start (Phase 1: engine + CLI, offline)
 
 ```powershell
@@ -86,13 +108,26 @@ These were confirmed with the owner before implementation.
   fetched separately, so daily and weekly series can never disagree.
 * **Indicators.** EMA is SMA-seeded (pandas_ta default); ATR uses Wilder smoothing with an SMA
   seed. Values are unit-tested against hand-computed tables, not against pandas_ta.
+* **NSE sources.** The notebook's `equity-stockIndices?index=SECURITIES IN F&O` and ban-list API
+  paths return 404 (verified 2026-09-12). The universe now comes from the NSE archive
+  `fo_mktlots.csv` (with lot sizes, `master-quote` as a second source) and the ban list from
+  `fo_secban.csv`, which carries the trade date it applies to. Both still fall back to committed CSVs.
+* **Derived ROE.** yfinance omits `returnOnEquity` for most NSE names (174 of 210 in the first
+  live refresh) while providing net income, book value per share and shares outstanding. The
+  provider derives ROE from those and records `roe_source = "derived:..."` on the record. This is a
+  computation on provider data, not a default; a symbol without the inputs still reads MISSING.
+* **Smallcap confirmation.** Yahoo no longer serves a Nifty Smallcap 100 series (`^CNXSC` returns
+  one stale bar). The regime banner reports it as unavailable. It is display-only unless
+  `require_smallcap_confirmation_for_bull` is enabled.
+* **Portable tooling.** Development here used a per-user Node zip and a per-user Git install
+  because the machine has no admin rights; nothing in the repo depends on that.
 
 ## Phase status
 
 | Phase | Status |
 |---|---|
 | 1. Engine, config, tests, offline CLI | done |
-| 2. Ingestion (yfinance), GitHub Actions, React site on Pages | pending |
+| 2. Ingestion (yfinance), GitHub Actions, React site on Pages | built and verified locally; awaiting first push and Pages deploy |
 | 3. Backtest and calibration | pending |
 | 4. Hardening | pending |
 

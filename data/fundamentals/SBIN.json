@@ -3,12 +3,13 @@
   "debt_equity": null,
   "eps_growth": 9.9,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:48+00:00",
+  "fetched_at": "2026-09-15T05:52:51+00:00",
   "industry": "Banks - Regional",
-  "market_cap_cr": 905523.5997696,
+  "market_cap_cr": 905338.945536,
   "name": "State Bank of India",
   "revenue_growth": 10.299999999999999,
   "roe": 15.177,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

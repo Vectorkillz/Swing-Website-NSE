@@ -3,12 +3,13 @@
   "debt_equity": null,
   "eps_growth": 1.9,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:25+00:00",
+  "fetched_at": "2026-09-15T05:52:25+00:00",
   "industry": "Banks - Regional",
-  "market_cap_cr": 133168.7325696,
+  "market_cap_cr": 132938.8716032,
   "name": "Punjab National Bank",
   "revenue_growth": 15.2,
   "roe": 14.965999,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

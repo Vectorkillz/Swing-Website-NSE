@@ -3,12 +3,13 @@
   "debt_equity": 0.0027700000000000003,
   "eps_growth": 91.10000000000001,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:54+00:00",
+  "fetched_at": "2026-09-15T05:51:44+00:00",
   "industry": "Aluminum",
-  "market_cap_cr": 65751.416832,
+  "market_cap_cr": 65301.4401024,
   "name": "National Aluminium Company Limited",
   "revenue_growth": 39.300000000000004,
-  "roe": null,
+  "roe": 31.241835671741043,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

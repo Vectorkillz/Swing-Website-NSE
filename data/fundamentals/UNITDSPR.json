@@ -3,12 +3,13 @@
   "debt_equity": 0.04611,
   "eps_growth": 11.200000000000001,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:21+00:00",
+  "fetched_at": "2026-09-15T05:58:25+00:00",
   "industry": "Beverages - Wineries & Distilleries",
-  "market_cap_cr": 99322.5539584,
+  "market_cap_cr": 98534.3852544,
   "name": "United Spirits Limited",
   "revenue_growth": -10.2,
-  "roe": null,
+  "roe": 18.865148258976582,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Defensive",
   "source": "yfinance.Ticker.info"
 }

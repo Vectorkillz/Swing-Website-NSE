@@ -4,8 +4,9 @@ export default defineConfig({
   testDir: "./e2e",
   timeout: 60_000,
   retries: 0,
-  use: { baseURL: "http://127.0.0.1:4173", viewport: { width: 1280, height: 900 } },
-  webServer: { command: "npx vite preview --port 4173 --strictPort", port: 4173, reuseExistingServer: true, timeout: 60_000 },
+  // PLAYWRIGHT_CHANNEL=chrome reuses an installed Chrome (useful where the bundled Chromium cannot be downloaded).
+  use: { baseURL: "http://127.0.0.1:4173", viewport: { width: 1280, height: 900 }, channel: process.env.PLAYWRIGHT_CHANNEL || undefined },
+  webServer: { command: "npx vite preview --host 127.0.0.1 --port 4173 --strictPort", url: "http://127.0.0.1:4173", reuseExistingServer: true, timeout: 60_000 },
   reporter: [["list"]],
   outputDir: "./test-results",
 });

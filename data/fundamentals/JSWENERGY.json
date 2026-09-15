@@ -9,4 +9,7 @@
   "name": "JSW Energy Limited",
   "revenue_growth": 1.2,
   "roe": 6.130977574017587,
-  "roe_source": "derived:netIncomeToCommon/(book
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

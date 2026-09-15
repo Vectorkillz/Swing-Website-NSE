@@ -3,12 +3,13 @@
   "debt_equity": 0.00567,
   "eps_growth": 120.19999999999999,
   "fcf_positive": true,
-  "fetched_at": "2026-09-15T04:54:08+00:00",
+  "fetched_at": "2026-09-15T05:52:06+00:00",
   "industry": "Software - Infrastructure",
-  "market_cap_cr": 104194.965504,
+  "market_cap_cr": 103837.9188224,
   "name": "Oracle Financial Services Software Limited",
   "revenue_growth": 68.7,
   "roe": 49.897000000000006,
+  "roe_source": "returnOnEquity",
   "sector": "Technology",
   "source": "yfinance.Ticker.info"
 }

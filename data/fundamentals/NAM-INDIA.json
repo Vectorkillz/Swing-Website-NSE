@@ -3,12 +3,13 @@
   "debt_equity": 0.01617,
   "eps_growth": 26.400000000000002,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:53+00:00",
+  "fetched_at": "2026-09-15T05:51:42+00:00",
   "industry": "Asset Management",
-  "market_cap_cr": 76102.0153856,
+  "market_cap_cr": 75628.576768,
   "name": "Nippon Life India Asset Management Limited",
   "revenue_growth": 24.5,
-  "roe": null,
+  "roe": 35.04291431977069,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

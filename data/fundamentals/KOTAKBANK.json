@@ -3,12 +3,13 @@
   "debt_equity": null,
   "eps_growth": 22.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:21+00:00",
+  "fetched_at": "2026-09-15T05:51:01+00:00",
   "industry": "Banks - Regional",
-  "market_cap_cr": 411285.848064,
+  "market_cap_cr": 410688.9986048,
   "name": "Kotak Mahindra Bank Limited",
   "revenue_growth": 21.0,
-  "roe": null,
+  "roe": 11.198056217904186,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

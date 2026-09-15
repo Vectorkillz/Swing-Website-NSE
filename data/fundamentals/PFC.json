@@ -3,12 +3,13 @@
   "debt_equity": 5.36837,
   "eps_growth": 2.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:19+00:00",
+  "fetched_at": "2026-09-15T05:52:18+00:00",
   "industry": "Credit Services",
-  "market_cap_cr": 115074.5444352,
+  "market_cap_cr": 114678.5366016,
   "name": "Power Finance Corporation Limited",
   "revenue_growth": 0.8,
-  "roe": null,
+  "roe": 18.223221685297162,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

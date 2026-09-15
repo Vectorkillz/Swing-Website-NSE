@@ -9,4 +9,7 @@
   "name": "Jio Financial Services Limited",
   "revenue_growth": 208.2,
   "roe": 1.48014326419823,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*share
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

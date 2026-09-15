@@ -3,12 +3,13 @@
   "debt_equity": 0.13929,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:02+00:00",
+  "fetched_at": "2026-09-15T05:53:05+00:00",
   "industry": "Internet Retail",
-  "market_cap_cr": 73464.8467456,
+  "market_cap_cr": 72875.3504256,
   "name": "Swiggy Limited",
   "revenue_growth": 37.3,
-  "roe": null,
+  "roe": -20.356221714923368,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

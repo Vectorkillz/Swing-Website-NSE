@@ -3,12 +3,13 @@
   "debt_equity": 0.1551,
   "eps_growth": 52.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:55:29+00:00",
+  "fetched_at": "2026-09-15T05:58:33+00:00",
   "industry": "Furnishings, Fixtures & Appliances",
-  "market_cap_cr": 38769.7639424,
+  "market_cap_cr": 38591.0898688,
   "name": "Voltas Limited",
   "revenue_growth": 18.7,
-  "roe": null,
+  "roe": 7.044618134356343,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

@@ -3,12 +3,13 @@
   "debt_equity": 0.36652999999999997,
   "eps_growth": -22.400000000000002,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:40+00:00",
+  "fetched_at": "2026-09-15T05:52:42+00:00",
   "industry": "Oil & Gas Refining & Marketing",
-  "market_cap_cr": 1700625.7504256,
+  "market_cap_cr": 1699137.191936,
   "name": "Reliance Industries Limited",
   "revenue_growth": 29.7,
-  "roe": null,
+  "roe": 8.265985906294896,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Energy",
   "source": "yfinance.Ticker.info"
 }

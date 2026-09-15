@@ -3,12 +3,13 @@
   "debt_equity": 0.18802,
   "eps_growth": 0.4,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:03+00:00",
+  "fetched_at": "2026-09-15T05:51:55+00:00",
   "industry": "Steel",
-  "market_cap_cr": 71943.4416128,
+  "market_cap_cr": 71706.0571136,
   "name": "NMDC Limited",
   "revenue_growth": 0.8,
-  "roe": null,
+  "roe": 21.86038319265113,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

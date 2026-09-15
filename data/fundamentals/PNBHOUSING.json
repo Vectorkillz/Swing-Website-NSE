@@ -3,12 +3,13 @@
   "debt_equity": 2.87733,
   "eps_growth": 4.3,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:27+00:00",
+  "fetched_at": "2026-09-15T05:52:27+00:00",
   "industry": "Mortgage Finance",
-  "market_cap_cr": 30055.0455296,
+  "market_cap_cr": 29895.9536128,
   "name": "PNB Housing Finance Limited",
   "revenue_growth": 5.800000000000001,
-  "roe": null,
+  "roe": 12.033961983662211,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

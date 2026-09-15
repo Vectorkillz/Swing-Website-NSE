@@ -3,12 +3,13 @@
   "debt_equity": 0.026549999999999997,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:53:14+00:00",
+  "fetched_at": "2026-09-15T05:50:53+00:00",
   "industry": "Restaurants",
-  "market_cap_cr": 30904.1266688,
+  "market_cap_cr": 30637.768704,
   "name": "Jubilant FoodWorks Limited",
   "revenue_growth": 20.3,
-  "roe": null,
+  "roe": 16.11009952886335,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

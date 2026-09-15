@@ -3,12 +3,13 @@
   "debt_equity": null,
   "eps_growth": 21.8,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T04:54:47+00:00",
+  "fetched_at": "2026-09-15T05:52:49+00:00",
   "industry": "Insurance - Life",
-  "market_cap_cr": 168061.0557952,
+  "market_cap_cr": 167840.31744,
   "name": "SBI Life Insurance Company Limited",
   "revenue_growth": 18.8,
   "roe": 13.703000000000001,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }
