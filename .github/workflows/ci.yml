@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -e ".[dev]"
+      - run: pip install -e ".[dev,pipeline]"
       - run: python -m pytest -q
       - run: python -m pipeline.cli export-vectors --check
 
