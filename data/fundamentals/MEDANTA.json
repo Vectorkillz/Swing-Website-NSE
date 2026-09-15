@@ -1,0 +1,15 @@
+{
+  "avg_volume": 272989.0,
+  "debt_equity": 0.29869,
+  "eps_growth": -0.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:52+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 38107.0180352,
+  "name": "Global Health Limited",
+  "revenue_growth": 26.5,
+  "roe": 14.034892650914,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

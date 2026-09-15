@@ -1,0 +1,15 @@
+{
+  "avg_volume": 214970.0,
+  "debt_equity": 0.7213299999999999,
+  "eps_growth": -21.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:00+00:00",
+  "industry": "Pharmaceutical Retailers",
+  "market_cap_cr": 7881.3503488,
+  "name": "MedPlus Health Services Limited",
+  "revenue_growth": 21.8,
+  "roe": 10.650680202355762,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

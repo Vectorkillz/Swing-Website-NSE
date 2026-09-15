@@ -1,0 +1,15 @@
+{
+  "avg_volume": 416966.0,
+  "debt_equity": 0.00265,
+  "eps_growth": 32.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:49+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 9070.8107264,
+  "name": "Kirloskar Pneumatic Company Limited",
+  "revenue_growth": 7.6,
+  "roe": 21.052276148783573,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1382687.0,
+  "debt_equity": 0.49162,
+  "eps_growth": -34.599999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:05+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 3409.1257856,
+  "name": "KNR Constructions Limited",
+  "revenue_growth": -4.0,
+  "roe": 7.926566032244492,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

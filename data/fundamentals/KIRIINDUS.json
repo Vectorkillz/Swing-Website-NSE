@@ -1,0 +1,15 @@
+{
+  "avg_volume": 856406.0,
+  "debt_equity": 0.00649,
+  "eps_growth": 2465.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:41+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 3407.3088,
+  "name": "Kiri Industries Limited",
+  "revenue_growth": 54.50000000000001,
+  "roe": 85.27796888723329,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

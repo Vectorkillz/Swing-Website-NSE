@@ -1,0 +1,15 @@
+{
+  "avg_volume": 203944.0,
+  "debt_equity": 0.042660000000000003,
+  "eps_growth": -33.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:20+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 2792.2044928,
+  "name": "Marathon Nextgen Realty Limited",
+  "revenue_growth": 40.300000000000004,
+  "roe": 8.34361422547525,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

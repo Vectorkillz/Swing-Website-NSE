@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2513220.0,
+  "debt_equity": 0.1702,
+  "eps_growth": -25.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:53+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 105.0838336,
+  "name": "Narmada Agrobase Limited",
+  "revenue_growth": 100.89999999999999,
+  "roe": 6.053409200307977,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

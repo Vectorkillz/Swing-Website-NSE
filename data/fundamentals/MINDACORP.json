@@ -1,0 +1,15 @@
+{
+  "avg_volume": 467329.0,
+  "debt_equity": 0.55351,
+  "eps_growth": 215.79999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:24+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 15979.8296576,
+  "name": "Minda Corporation Limited",
+  "revenue_growth": 33.2,
+  "roe": 18.98669016009494,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

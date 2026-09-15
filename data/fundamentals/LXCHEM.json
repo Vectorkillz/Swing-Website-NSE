@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1572371.0,
+  "debt_equity": 0.27344,
+  "eps_growth": 221.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:19+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 4664.242176,
+  "name": "Laxmi Organic Industries Limited",
+  "revenue_growth": 39.7,
+  "roe": 6.312465718578214,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

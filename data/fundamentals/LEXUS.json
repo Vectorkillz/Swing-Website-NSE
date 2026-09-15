@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33985.0,
+  "debt_equity": 3.05089,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:35+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 25.7431728,
+  "name": "Lexus Granito (India) Limited",
+  "revenue_growth": -80.2,
+  "roe": -12.510242223798548,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

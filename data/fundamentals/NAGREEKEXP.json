@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57503.0,
+  "debt_equity": 1.0851300000000001,
+  "eps_growth": 13.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:45+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 67.529632,
+  "name": "Nagreeka Exports Limited",
+  "revenue_growth": 92.5,
+  "roe": 1.959019400242519,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

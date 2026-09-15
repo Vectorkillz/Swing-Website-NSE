@@ -1,0 +1,15 @@
+{
+  "avg_volume": 145145.0,
+  "debt_equity": 0.54516,
+  "eps_growth": 20.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:35+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 139.5307136,
+  "name": "Kritika Wires Limited",
+  "revenue_growth": -21.8,
+  "roe": 6.366104861557975,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11999.0,
+  "debt_equity": 2.64432,
+  "eps_growth": 200.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:02+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 125.714944,
+  "name": "Lagnam Spintex Limited",
+  "revenue_growth": 18.4,
+  "roe": 13.5200551515834,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

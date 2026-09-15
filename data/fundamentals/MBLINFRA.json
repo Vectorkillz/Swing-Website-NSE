@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32700.0,
+  "debt_equity": 1.03497,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:45+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 351.663616,
+  "name": "MBL Infrastructure Limited",
+  "revenue_growth": 35.6,
+  "roe": -1.5308248426800084,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

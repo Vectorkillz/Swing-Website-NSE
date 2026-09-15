@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53666.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:55+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 3072.631808,
+  "name": "Kewal Kiran Clothing Limited",
+  "revenue_growth": null,
+  "roe": 14.948,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

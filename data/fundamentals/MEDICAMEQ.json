@@ -1,0 +1,15 @@
+{
+  "avg_volume": 46092.0,
+  "debt_equity": 0.17341,
+  "eps_growth": 15.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:55+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 431.5687936,
+  "name": "Medicamen Biotech Limited",
+  "revenue_growth": 12.1,
+  "roe": 3.0228133060044198,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

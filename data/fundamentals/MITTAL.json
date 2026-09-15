@@ -1,0 +1,15 @@
+{
+  "avg_volume": 832598.0,
+  "debt_equity": 0.29486,
+  "eps_growth": 1500.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:30+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 34.1803584,
+  "name": "Mittal Life Style Limited",
+  "revenue_growth": -9.9,
+  "roe": 4.588376735674548,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3375100.0,
+  "debt_equity": 0.11248,
+  "eps_growth": 169.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:24+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 14177.2275712,
+  "name": "Marksans Pharma Limited",
+  "revenue_growth": 35.6,
+  "roe": 17.093120233785736,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

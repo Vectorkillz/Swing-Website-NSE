@@ -1,0 +1,15 @@
+{
+  "avg_volume": 159270.0,
+  "debt_equity": 0.06382,
+  "eps_growth": 17.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:54+00:00",
+  "industry": "Healthcare Plans",
+  "market_cap_cr": 2315.010048,
+  "name": "Medi Assist Healthcare Services Limited",
+  "revenue_growth": 24.099999999999998,
+  "roe": 10.840665176390099,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

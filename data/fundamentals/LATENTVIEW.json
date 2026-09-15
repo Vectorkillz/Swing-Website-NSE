@@ -1,0 +1,15 @@
+{
+  "avg_volume": 924460.0,
+  "debt_equity": 0.01863,
+  "eps_growth": -5.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:19+00:00",
+  "industry": "Consulting Services",
+  "market_cap_cr": 5237.1349504,
+  "name": "Latent View Analytics Limited",
+  "revenue_growth": 21.5,
+  "roe": 11.124811390600287,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

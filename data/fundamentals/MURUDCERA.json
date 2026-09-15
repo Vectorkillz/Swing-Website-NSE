@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22631.0,
+  "debt_equity": 0.37491,
+  "eps_growth": -59.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:34+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 175.581248,
+  "name": "Murudeshwar Ceramics Ltd.",
+  "revenue_growth": 8.6,
+  "roe": 2.2201214367372346,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

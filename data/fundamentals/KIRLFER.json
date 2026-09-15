@@ -1,0 +1,15 @@
+{
+  "avg_volume": 239604.0,
+  "debt_equity": 0.12218,
+  "eps_growth": 44.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:43+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 7671.3271296,
+  "name": "Kirloskar Ferrous Industries Limited",
+  "revenue_growth": 29.9,
+  "roe": 9.096092172998212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

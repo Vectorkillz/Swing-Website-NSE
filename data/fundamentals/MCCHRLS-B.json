@@ -1,0 +1,15 @@
+{
+  "avg_volume": 639.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:46+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": null,
+  "name": "Mac Charles (India) Limited",
+  "revenue_growth": 47.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

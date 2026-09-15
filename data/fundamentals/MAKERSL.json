@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14004.0,
+  "debt_equity": 0.049980000000000004,
+  "eps_growth": 244.60000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:48+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 102.5308352,
+  "name": "Makers Laboratories Limited",
+  "revenue_growth": 22.2,
+  "roe": 4.688310322652427,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

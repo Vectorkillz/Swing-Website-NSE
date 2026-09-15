@@ -1,0 +1,15 @@
+{
+  "avg_volume": 21477.0,
+  "debt_equity": 1.53423,
+  "eps_growth": -47.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:40+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 927.2633344,
+  "name": "Laxmi Goldorna House Limited",
+  "revenue_growth": 30.5,
+  "roe": 4.744267058211909,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

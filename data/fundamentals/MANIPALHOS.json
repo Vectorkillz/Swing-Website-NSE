@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3837768.0,
+  "debt_equity": 1.46192,
+  "eps_growth": -9.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:08+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 92300.017664,
+  "name": "Manipal Health Enterprises Limited",
+  "revenue_growth": 38.1,
+  "roe": 9.298861911557289,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1278262.0,
+  "debt_equity": 0.57353,
+  "eps_growth": 539.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:58+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": null,
+  "name": "Kusumgar Limited",
+  "revenue_growth": 101.89999999999999,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 510330.0,
+  "debt_equity": 0.07742,
+  "eps_growth": -56.99999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:55+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 14939.6586496,
+  "name": "NATCO Pharma Limited",
+  "revenue_growth": -44.7,
+  "roe": 12.407347444306986,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

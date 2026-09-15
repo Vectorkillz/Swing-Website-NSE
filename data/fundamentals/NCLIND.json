@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58656.0,
+  "debt_equity": 0.31936,
+  "eps_growth": -14.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:09+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 782.6178048,
+  "name": "NCL Industries Limited",
+  "revenue_growth": 1.5,
+  "roe": 12.005047456939101,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

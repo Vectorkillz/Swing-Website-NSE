@@ -1,0 +1,15 @@
+{
+  "avg_volume": 93789.0,
+  "debt_equity": 0.53253,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:37+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 1162.6775552,
+  "name": "MMP Industries Limited",
+  "revenue_growth": 26.900000000000002,
+  "roe": 14.470993836424856,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

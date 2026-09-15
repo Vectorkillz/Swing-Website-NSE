@@ -1,0 +1,15 @@
+{
+  "avg_volume": 52432.0,
+  "debt_equity": 0.07695,
+  "eps_growth": 49.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:04+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 764.1110528,
+  "name": "Mangal Electrical Industries Limited",
+  "revenue_growth": 40.300000000000004,
+  "roe": 7.843483678057436,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

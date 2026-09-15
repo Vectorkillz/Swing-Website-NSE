@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14038.0,
+  "debt_equity": 0.7159399999999999,
+  "eps_growth": -67.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:51+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": null,
+  "name": "LKP Securities Limited",
+  "revenue_growth": -6.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

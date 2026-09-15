@@ -1,0 +1,15 @@
+{
+  "avg_volume": 355680.0,
+  "debt_equity": 0.39740000000000003,
+  "eps_growth": 55.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:48+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 7174.311936,
+  "name": "KSH International Limited",
+  "revenue_growth": 108.4,
+  "roe": 16.03245096112054,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

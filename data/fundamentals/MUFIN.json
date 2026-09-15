@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1090429.0,
+  "debt_equity": 2.4319,
+  "eps_growth": 268.40000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:23+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 2625.451008,
+  "name": "Mufin Green Finance Limited",
+  "revenue_growth": 49.0,
+  "roe": 5.9946348989932385,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

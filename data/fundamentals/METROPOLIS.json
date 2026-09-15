@@ -1,0 +1,15 @@
+{
+  "avg_volume": 296741.0,
+  "debt_equity": 0.15212,
+  "eps_growth": 12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:12+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 11876.7353856,
+  "name": "Metropolis Healthcare Limited",
+  "revenue_growth": 16.6,
+  "roe": 13.316615414074228,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

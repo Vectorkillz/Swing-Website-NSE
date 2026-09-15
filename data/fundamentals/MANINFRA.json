@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2137388.0,
+  "debt_equity": 0.02766,
+  "eps_growth": 21.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:07+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 5020.1305088,
+  "name": "Man Infraconstruction Limited",
+  "revenue_growth": 19.400000000000002,
+  "roe": 9.5949754974451,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

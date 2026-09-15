@@ -1,0 +1,15 @@
+{
+  "avg_volume": 911195.0,
+  "debt_equity": 1.5876499999999998,
+  "eps_growth": -17.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:20+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 5478.4786432,
+  "name": "KPI Green Energy Limited",
+  "revenue_growth": 15.1,
+  "roe": 15.068228276375361,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

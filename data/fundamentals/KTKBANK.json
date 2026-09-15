@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2566176.0,
+  "debt_equity": null,
+  "eps_growth": 43.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:55+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 11948.6439424,
+  "name": "The Karnataka Bank Limited",
+  "revenue_growth": 26.1,
+  "roe": 10.864258788499173,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

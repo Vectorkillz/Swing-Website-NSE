@@ -1,0 +1,15 @@
+{
+  "avg_volume": 83182.0,
+  "debt_equity": 0.83446,
+  "eps_growth": -60.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:21+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 1447.0189056,
+  "name": "Meghna Infracon Infrastructure Limited",
+  "revenue_growth": -20.599999999999998,
+  "roe": 16.63316976970121,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

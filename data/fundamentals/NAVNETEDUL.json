@@ -1,0 +1,15 @@
+{
+  "avg_volume": 212801.0,
+  "debt_equity": 0.051449999999999996,
+  "eps_growth": -10.100000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:04+00:00",
+  "industry": "Publishing",
+  "market_cap_cr": 2745.2555264,
+  "name": "Navneet Education Limited",
+  "revenue_growth": -0.8,
+  "roe": 16.338372858869505,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

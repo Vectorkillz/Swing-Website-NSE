@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4486598.0,
+  "debt_equity": 4.29851,
+  "eps_growth": 64.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:21+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 47566.8348928,
+  "name": "Mahindra & Mahindra Financial Services Limited",
+  "revenue_growth": 36.7,
+  "roe": 12.20600903902526,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

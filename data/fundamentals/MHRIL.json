@@ -1,0 +1,15 @@
+{
+  "avg_volume": 164456.0,
+  "debt_equity": 4.88662,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:17+00:00",
+  "industry": "Resorts & Casinos",
+  "market_cap_cr": 3880.2612224,
+  "name": "Mahindra Holidays & Resorts India Limited",
+  "revenue_growth": 4.5,
+  "roe": 6.810342108741659,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

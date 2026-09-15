@@ -1,0 +1,15 @@
+{
+  "avg_volume": 196.0,
+  "debt_equity": 0.01191,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:29+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 42.96512,
+  "name": "Mask Investments Limited",
+  "revenue_growth": -14.2,
+  "roe": 0.13111191181218992,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

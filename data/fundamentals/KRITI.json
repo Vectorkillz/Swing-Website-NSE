@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16036.0,
+  "debt_equity": 0.40997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:34+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 324.60736,
+  "name": "Kriti Industries (India) Limited",
+  "revenue_growth": -22.7,
+  "roe": -3.638967380128149,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

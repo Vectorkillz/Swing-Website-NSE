@@ -1,0 +1,15 @@
+{
+  "avg_volume": 106263.0,
+  "debt_equity": 0.52018,
+  "eps_growth": -63.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:25+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 474.041856,
+  "name": "Credo Brands Marketing Limited",
+  "revenue_growth": 4.3999999999999995,
+  "roe": 9.892103664173503,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

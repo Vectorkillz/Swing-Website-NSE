@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9544.0,
+  "debt_equity": 0.79119,
+  "eps_growth": -98.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:13+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 19.8386736,
+  "name": "Mahalaxmi Fabric Mills Limited",
+  "revenue_growth": -9.6,
+  "roe": -2.631459140977592,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

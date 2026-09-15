@@ -1,0 +1,15 @@
+{
+  "avg_volume": 476055.0,
+  "debt_equity": 0.0783,
+  "eps_growth": 27.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:09+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 31832.6439936,
+  "name": "Dr. Lal PathLabs Limited",
+  "revenue_growth": 19.1,
+  "roe": 21.604816450003778,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

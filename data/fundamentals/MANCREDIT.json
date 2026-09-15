@@ -1,0 +1,15 @@
+{
+  "avg_volume": 369072.0,
+  "debt_equity": 1.9209800000000001,
+  "eps_growth": 80.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:01+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 454.710784,
+  "name": "Mangal Credit and Fincorp Limited",
+  "revenue_growth": 53.1,
+  "roe": 10.421810939253284,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

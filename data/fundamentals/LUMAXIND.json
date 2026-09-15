@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18677.0,
+  "debt_equity": 1.06063,
+  "eps_growth": 41.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:14+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 5390.3695872,
+  "name": "Lumax Industries Limited",
+  "revenue_growth": 32.6,
+  "roe": 20.420843765049508,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

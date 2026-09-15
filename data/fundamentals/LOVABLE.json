@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20903.0,
+  "debt_equity": 0.01512,
+  "eps_growth": -1.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:07+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 104.9468032,
+  "name": "Lovable Lingerie Limited",
+  "revenue_growth": -22.2,
+  "roe": 4.381353891747295,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

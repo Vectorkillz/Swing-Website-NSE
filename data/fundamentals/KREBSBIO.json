@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10891.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:27+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 121.3214208,
+  "name": "Krebs Biochemicals & Industries Limited",
+  "revenue_growth": 27.400000000000002,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

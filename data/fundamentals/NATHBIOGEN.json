@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18396.0,
+  "debt_equity": 0.20354,
+  "eps_growth": -13.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:56+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 279.3856512,
+  "name": "Nath Bio-Genes (India) Limited",
+  "revenue_growth": 15.8,
+  "roe": 7.885770737770457,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

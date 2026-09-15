@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20217.0,
+  "debt_equity": 0.19664,
+  "eps_growth": 25.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:20+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 3523.1481856,
+  "name": "Midwest Limited",
+  "revenue_growth": 34.8,
+  "roe": 11.07857979132006,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

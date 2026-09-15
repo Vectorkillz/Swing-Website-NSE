@@ -1,0 +1,15 @@
+{
+  "avg_volume": 56712.0,
+  "debt_equity": 0.63989,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:01+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 1145.1355136,
+  "name": "Monte Carlo Fashions Limited",
+  "revenue_growth": 7.6,
+  "roe": 11.55748142157794,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

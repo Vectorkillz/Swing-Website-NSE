@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1728.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:34+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 2115.6456448,
+  "name": "Kalyani Investment Company Limited",
+  "revenue_growth": 2.9000000000000004,
+  "roe": 0.35669597677432274,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

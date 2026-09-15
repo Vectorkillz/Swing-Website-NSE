@@ -1,0 +1,15 @@
+{
+  "avg_volume": 715882.0,
+  "debt_equity": 0.09054999999999999,
+  "eps_growth": 412.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:02+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 1378.4547328,
+  "name": "Navkar Corporation Limited",
+  "revenue_growth": 38.3,
+  "roe": 2.041917822273978,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

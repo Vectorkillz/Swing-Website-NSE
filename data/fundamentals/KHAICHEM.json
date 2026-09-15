@@ -1,0 +1,15 @@
+{
+  "avg_volume": 178364.0,
+  "debt_equity": 1.0522,
+  "eps_growth": -48.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:30+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 490.765312,
+  "name": "Khaitan Chemicals and Fertilizers Limited",
+  "revenue_growth": -5.7,
+  "roe": 20.04455378288856,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

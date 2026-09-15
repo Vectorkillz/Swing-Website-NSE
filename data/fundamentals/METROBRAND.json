@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57408.0,
+  "debt_equity": 0.77476,
+  "eps_growth": -5.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:09+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 25745.0213376,
+  "name": "Metro Brands Limited",
+  "revenue_growth": 14.7,
+  "roe": 20.38181646917199,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

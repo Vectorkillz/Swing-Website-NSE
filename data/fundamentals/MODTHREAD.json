@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13070.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:47+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 181.2829184,
+  "name": "Modern Threads (India) Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

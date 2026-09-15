@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67464.0,
+  "debt_equity": 0.0008799999999999999,
+  "eps_growth": -47.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:45+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 877.1625984,
+  "name": "Likhitha Infrastructure Limited",
+  "revenue_growth": -30.5,
+  "roe": 7.949414248483183,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

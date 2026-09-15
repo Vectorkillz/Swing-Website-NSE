@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5915.0,
+  "debt_equity": 0.00815,
+  "eps_growth": 25.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:10+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 165.6629888,
+  "name": "MetroGlobal Limited",
+  "revenue_growth": 25.6,
+  "roe": 4.5212022263549905,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

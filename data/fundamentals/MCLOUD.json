@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8507654.0,
+  "debt_equity": 0.42501,
+  "eps_growth": -14.899999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:51+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1506.8337152,
+  "name": "Magellanic Cloud Limited",
+  "revenue_growth": 10.0,
+  "roe": 15.97653115850392,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39850.0,
+  "debt_equity": 0.11417,
+  "eps_growth": -27.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:08+00:00",
+  "industry": "Business Equipment & Supplies",
+  "market_cap_cr": 772.3393024,
+  "name": "Kokuyo Camlin Limited",
+  "revenue_growth": 0.8,
+  "roe": 2.871742762901366,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

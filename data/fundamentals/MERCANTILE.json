@@ -1,0 +1,15 @@
+{
+  "avg_volume": 154505.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:05+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": null,
+  "name": "Mercantile Ventures Limited",
+  "revenue_growth": 9.3,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

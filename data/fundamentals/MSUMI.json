@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13847554.0,
+  "debt_equity": 0.10788,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:20+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 23250.608128,
+  "name": "Motherson Sumi Wiring India Limited",
+  "revenue_growth": 36.4,
+  "roe": 29.021401817939406,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

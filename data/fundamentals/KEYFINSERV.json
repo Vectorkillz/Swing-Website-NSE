@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1639.0,
+  "debt_equity": 0.02866,
+  "eps_growth": -7.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:29+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 137.2732672,
+  "name": "Keynote Financial Services Limited",
+  "revenue_growth": 20.200000000000003,
+  "roe": 3.930096157533145,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

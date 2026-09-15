@@ -1,0 +1,15 @@
+{
+  "avg_volume": 803282.0,
+  "debt_equity": 1.54864,
+  "eps_growth": -19.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:46+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 29709.3332992,
+  "name": "Kirloskar Oil Engines Limited",
+  "revenue_growth": 13.4,
+  "roe": 15.06834485800754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

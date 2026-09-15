@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48240671.0,
+  "debt_equity": 0.07795,
+  "eps_growth": 37.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:06+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1759.7227008,
+  "name": "Motisons Jewellers Limited",
+  "revenue_growth": 23.3,
+  "roe": 12.197845239390576,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

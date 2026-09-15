@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58081.0,
+  "debt_equity": null,
+  "eps_growth": 35.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:32+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 501.0573312,
+  "name": "Munjal Showa Limited",
+  "revenue_growth": 21.5,
+  "roe": 3.6600004664119425,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

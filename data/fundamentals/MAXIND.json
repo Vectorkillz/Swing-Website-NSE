@@ -1,0 +1,15 @@
+{
+  "avg_volume": 134069.0,
+  "debt_equity": 0.23562999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:38+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 783.5332608,
+  "name": "Max India Limited",
+  "revenue_growth": 66.0,
+  "roe": -30.26024010099394,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

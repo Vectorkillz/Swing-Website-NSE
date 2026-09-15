@@ -1,0 +1,15 @@
+{
+  "avg_volume": 63665197.0,
+  "debt_equity": 0.7670399999999999,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:25:16+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 3141.7759744,
+  "name": "LUMINO INDUSTRIES LIMITED",
+  "revenue_growth": null,
+  "roe": 24.611999,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

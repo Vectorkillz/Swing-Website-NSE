@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1497499.0,
+  "debt_equity": 0.1805,
+  "eps_growth": 25.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:12+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 396.404736,
+  "name": "Nandan Denim Limited",
+  "revenue_growth": -40.6,
+  "roe": 5.640421011090402,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

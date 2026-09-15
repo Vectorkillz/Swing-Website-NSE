@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13155.0,
+  "debt_equity": 0.14865,
+  "eps_growth": 89.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:03+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 114.5856512,
+  "name": "Lahoti Overseas Limited",
+  "revenue_growth": 2.9000000000000004,
+  "roe": 7.290965534356037,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

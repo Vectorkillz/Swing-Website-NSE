@@ -1,0 +1,15 @@
+{
+  "avg_volume": 152355.0,
+  "debt_equity": 0.6869,
+  "eps_growth": -17.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:27+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 210.8127872,
+  "name": "Madhav Infra Projects Limited",
+  "revenue_growth": 0.8999999999999999,
+  "roe": 10.915376666204176,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 138975.0,
+  "debt_equity": 0.19056,
+  "eps_growth": -37.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:53+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 83.8327168,
+  "name": "Moksh Ornaments Limited",
+  "revenue_growth": 77.60000000000001,
+  "roe": 8.138811745892967,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

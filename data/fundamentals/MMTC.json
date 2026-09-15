@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5370910.0,
+  "debt_equity": 0.00114,
+  "eps_growth": 130.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:38+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 9115.4997248,
+  "name": "MMTC Limited",
+  "revenue_growth": -50.0,
+  "roe": 21.100891467383615,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

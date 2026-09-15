@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5688.0,
+  "debt_equity": null,
+  "eps_growth": 383.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:58+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 18271.1353344,
+  "name": "LMW Limited",
+  "revenue_growth": 24.0,
+  "roe": 6.0972883938200395,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23232.0,
+  "debt_equity": null,
+  "eps_growth": -57.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:14+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 400.2545664,
+  "name": "NDL Ventures Limited",
+  "revenue_growth": null,
+  "roe": 1.150892933315077,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

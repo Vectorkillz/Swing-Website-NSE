@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5937.0,
+  "debt_equity": 0.30528,
+  "eps_growth": 20.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:17+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 6586.1476352,
+  "name": "Kovai Medical Center and Hospital Limited",
+  "revenue_growth": 15.299999999999999,
+  "roe": 19.42900376898321,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

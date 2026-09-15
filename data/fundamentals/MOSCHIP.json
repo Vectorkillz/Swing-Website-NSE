@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3402650.0,
+  "debt_equity": 0.21561,
+  "eps_growth": -77.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:04+00:00",
+  "industry": "Semiconductor Equipment & Materials",
+  "market_cap_cr": 3955.8557696,
+  "name": "MosChip Technologies Limited",
+  "revenue_growth": -14.299999999999999,
+  "roe": 6.505528434118754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

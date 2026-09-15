@@ -1,0 +1,15 @@
+{
+  "avg_volume": 81275.0,
+  "debt_equity": null,
+  "eps_growth": -10.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:51+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 4071.5915264,
+  "name": "Kalyani Steels Limited",
+  "revenue_growth": -10.2,
+  "roe": 5.7678446458242405,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

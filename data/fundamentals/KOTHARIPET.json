@@ -1,0 +1,15 @@
+{
+  "avg_volume": 121076.0,
+  "debt_equity": 0.00601,
+  "eps_growth": -3.3000000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:12+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 767.0628352,
+  "name": "Kothari Petrochemicals Limited",
+  "revenue_growth": -8.799999999999999,
+  "roe": 19.32490442875392,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

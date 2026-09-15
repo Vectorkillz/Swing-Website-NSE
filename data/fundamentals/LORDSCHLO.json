@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18533.0,
+  "debt_equity": 0.7171299999999999,
+  "eps_growth": 32.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:02+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 375.6521216,
+  "name": "Lords Chloro Alkali Limited",
+  "revenue_growth": 6.1,
+  "roe": 13.61946742493528,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

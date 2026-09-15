@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1072354.0,
+  "debt_equity": 0.17661000000000002,
+  "eps_growth": 48.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:21+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 5272.406016,
+  "name": "Marine Electricals (India) Limited",
+  "revenue_growth": 55.2,
+  "roe": 12.89823070573034,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

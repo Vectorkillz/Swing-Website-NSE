@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35998.0,
+  "debt_equity": 0.7421500000000001,
+  "eps_growth": 112.99999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:59+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 724.0887296,
+  "name": "Lokesh Machines Limited",
+  "revenue_growth": 15.4,
+  "roe": 1.7698640150428868,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 341.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:11+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 265.5500032,
+  "name": "Naga Dhunseri Group Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

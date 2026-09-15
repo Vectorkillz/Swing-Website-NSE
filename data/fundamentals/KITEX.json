@@ -1,0 +1,15 @@
+{
+  "avg_volume": 690651.0,
+  "debt_equity": 0.96813,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:52+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 2376.6433792,
+  "name": "Kitex Garments Limited",
+  "revenue_growth": -19.5,
+  "roe": -2.271474486691789,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

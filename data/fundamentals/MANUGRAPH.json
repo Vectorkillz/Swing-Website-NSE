@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10443.0,
+  "debt_equity": 0.05168999999999999,
+  "eps_growth": 8.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:14+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 45.9091424,
+  "name": "Manugraph India Limited",
+  "revenue_growth": -18.8,
+  "roe": 9.631100540244725,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

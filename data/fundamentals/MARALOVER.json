@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22495.0,
+  "debt_equity": 3.64667,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:18+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 249.0480128,
+  "name": "Maral Overseas Limited",
+  "revenue_growth": 16.7,
+  "roe": 19.677012069073804,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4902625.0,
+  "debt_equity": 0.34389000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:55+00:00",
+  "industry": "Medical Devices",
+  "market_cap_cr": 15635.7640192,
+  "name": "Molbio Diagnostics Limited",
+  "revenue_growth": 309.6,
+  "roe": 20.840344845879624,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

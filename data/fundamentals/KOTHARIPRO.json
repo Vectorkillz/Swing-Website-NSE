@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9165.0,
+  "debt_equity": 0.0851,
+  "eps_growth": -58.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:14+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 388.1492992,
+  "name": "Kothari Products Limited",
+  "revenue_growth": 8.6,
+  "roe": 1.7333291767323227,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

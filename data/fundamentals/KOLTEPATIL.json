@@ -1,0 +1,15 @@
+{
+  "avg_volume": 337387.0,
+  "debt_equity": 0.98241,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:09+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 3731.6583424,
+  "name": "Kolte-Patil Developers Limited",
+  "revenue_growth": 1016.4999999999999,
+  "roe": 10.322383486772331,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

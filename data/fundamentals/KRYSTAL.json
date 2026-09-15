@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35443.0,
+  "debt_equity": 0.23987999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:42+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 849.215232,
+  "name": "Krystal Integrated Services Limited",
+  "revenue_growth": 11.600000000000001,
+  "roe": 13.086954277224647,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24813.0,
+  "debt_equity": 0.10719,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:37+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 5432.6751232,
+  "name": "L.G. Balakrishnan & Bros Limited",
+  "revenue_growth": 21.6,
+  "roe": 14.802619500636174,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

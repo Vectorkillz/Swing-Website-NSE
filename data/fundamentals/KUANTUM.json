@@ -1,0 +1,15 @@
+{
+  "avg_volume": 127431.0,
+  "debt_equity": 0.70808,
+  "eps_growth": -48.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:56+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 663.1163392,
+  "name": "Kuantum Papers Limited",
+  "revenue_growth": 36.3,
+  "roe": 2.940594960607711,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

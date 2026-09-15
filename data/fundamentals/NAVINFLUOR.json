@@ -1,0 +1,15 @@
+{
+  "avg_volume": 201047.0,
+  "debt_equity": 0.32091000000000003,
+  "eps_growth": 100.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:00+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 42216.3152896,
+  "name": "Navin Fluorine International Limited",
+  "revenue_growth": 44.1,
+  "roe": 19.84883721665108,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

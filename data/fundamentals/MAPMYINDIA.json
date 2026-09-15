@@ -1,0 +1,15 @@
+{
+  "avg_volume": 593133.0,
+  "debt_equity": 0.0077800000000000005,
+  "eps_growth": 7.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:16+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 4861.6865792,
+  "name": "C. E. Info Systems Limited",
+  "revenue_growth": 14.899999999999999,
+  "roe": 15.229599088784218,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

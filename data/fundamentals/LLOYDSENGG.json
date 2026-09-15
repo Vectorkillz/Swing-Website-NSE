@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16690641.0,
+  "debt_equity": 0.0645,
+  "eps_growth": 91.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:53+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 12351.5256832,
+  "name": "Lloyds Engineering Works Limited",
+  "revenue_growth": 142.9,
+  "roe": 12.81128946616108,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

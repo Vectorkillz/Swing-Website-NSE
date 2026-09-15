@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1417399.0,
+  "debt_equity": 0.27836,
+  "eps_growth": 21.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:32+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1077.0051072,
+  "name": "Master Trust Limited",
+  "revenue_growth": 15.7,
+  "roe": 15.983424588897504,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

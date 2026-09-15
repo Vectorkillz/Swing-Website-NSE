@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53686.0,
+  "debt_equity": 0.00584,
+  "eps_growth": 30.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:48+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1206.99136,
+  "name": "Lincoln Pharmaceuticals Limited",
+  "revenue_growth": 15.1,
+  "roe": 12.727928733168808,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

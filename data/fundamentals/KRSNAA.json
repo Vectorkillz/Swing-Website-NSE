@@ -1,0 +1,15 @@
+{
+  "avg_volume": 65250.0,
+  "debt_equity": 0.54501,
+  "eps_growth": -19.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:41+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 1757.0408448,
+  "name": "Krsnaa Diagnostics Limited",
+  "revenue_growth": 22.1,
+  "roe": 9.941599213082924,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

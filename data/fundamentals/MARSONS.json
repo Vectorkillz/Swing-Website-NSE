@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2293508.0,
+  "debt_equity": 0.00321,
+  "eps_growth": -27.700000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:26+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 2087.5730944,
+  "name": "Marsons Limited",
+  "revenue_growth": 4.8,
+  "roe": 20.385829756368413,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

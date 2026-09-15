@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6172.0,
+  "debt_equity": 0.16193000000000002,
+  "eps_growth": 55.900000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:32+00:00",
+  "industry": "Industrial Distribution",
+  "market_cap_cr": 79.8024704,
+  "name": "Khaitan (India) Limited",
+  "revenue_growth": 39.800000000000004,
+  "roe": 20.652907507877025,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

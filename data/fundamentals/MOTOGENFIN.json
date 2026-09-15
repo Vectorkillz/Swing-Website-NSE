@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23149.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:07+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 98.1295872,
+  "name": "The Motor & General Finance Limited",
+  "revenue_growth": null,
+  "roe": 0.5924274845883943,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

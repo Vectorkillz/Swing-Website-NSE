@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24365.0,
+  "debt_equity": 0.70182,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:22+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 21.6575072,
+  "name": "Laxmi Cotspin Limited",
+  "revenue_growth": -63.9,
+  "roe": -4.949978979251926,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

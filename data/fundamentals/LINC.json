@@ -1,0 +1,15 @@
+{
+  "avg_volume": 38422.0,
+  "debt_equity": 0.10275000000000001,
+  "eps_growth": -16.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:47+00:00",
+  "industry": "Business Equipment & Supplies",
+  "market_cap_cr": 565.4222336,
+  "name": "Linc Limited",
+  "revenue_growth": 1.4000000000000001,
+  "roe": 12.211367635438382,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

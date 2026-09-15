@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4858.0,
+  "debt_equity": 0.21765,
+  "eps_growth": 20.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:40+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": null,
+  "name": "Kiran Vyapar Limited",
+  "revenue_growth": 21.3,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

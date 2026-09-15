@@ -1,0 +1,15 @@
+{
+  "avg_volume": 54730.0,
+  "debt_equity": 0.01278,
+  "eps_growth": -4.3999999999999995,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:26+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 493.2453376,
+  "name": "Mindteck (India) Limited",
+  "revenue_growth": 2.7,
+  "roe": 10.254586148621438,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 869901.0,
+  "debt_equity": 0.30097,
+  "eps_growth": 95.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:05+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 6062.2733312,
+  "name": "Man Industries (India) Limited",
+  "revenue_growth": 41.9,
+  "roe": 9.481915610857762,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37000.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:57+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 35.576784,
+  "name": "Medi-Caps Limited",
+  "revenue_growth": 3.6999999999999997,
+  "roe": -1.5930168294921387,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

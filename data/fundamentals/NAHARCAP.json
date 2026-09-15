@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4215.0,
+  "debt_equity": 0.00603,
+  "eps_growth": 487.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:47+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 423.0918912,
+  "name": "Nahar Capital and Financial Services Limited",
+  "revenue_growth": 24.6,
+  "roe": 7.411076487064781,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

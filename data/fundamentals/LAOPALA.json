@@ -1,0 +1,15 @@
+{
+  "avg_volume": 298500.0,
+  "debt_equity": 0.01077,
+  "eps_growth": 3.5000000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:16+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 1782.9931008,
+  "name": "La Opala RG Limited",
+  "revenue_growth": 9.3,
+  "roe": 11.354525190630513,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

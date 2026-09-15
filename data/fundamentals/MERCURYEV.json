@@ -1,0 +1,15 @@
+{
+  "avg_volume": 326011.0,
+  "debt_equity": null,
+  "eps_growth": 22.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:07+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 776.41984,
+  "name": "Mercury Ev-Tech Limited",
+  "revenue_growth": 46.300000000000004,
+  "roe": 3.0949999999999998,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

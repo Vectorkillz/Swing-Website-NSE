@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32141.0,
+  "debt_equity": 0.33964,
+  "eps_growth": -6.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:18+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 3177.6743424,
+  "name": "Lux Industries Limited",
+  "revenue_growth": 0.8,
+  "roe": 5.58181168988947,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

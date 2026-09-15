@@ -1,0 +1,15 @@
+{
+  "avg_volume": 155972.0,
+  "debt_equity": 0.32633,
+  "eps_growth": 160.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:38+00:00",
+  "industry": "Electronic Components",
+  "market_cap_cr": 9910.41536,
+  "name": "KRN Heat Exchanger and Refrigeration Limited",
+  "revenue_growth": 118.9,
+  "roe": 16.073414385918827,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

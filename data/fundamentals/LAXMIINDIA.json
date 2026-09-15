@@ -1,0 +1,15 @@
+{
+  "avg_volume": 160049.0,
+  "debt_equity": 2.87301,
+  "eps_growth": 35.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:25+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 637.0474496,
+  "name": "Laxmi India Finance Limited",
+  "revenue_growth": 47.599999999999994,
+  "roe": 12.121009672718452,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

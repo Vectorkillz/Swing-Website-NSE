@@ -1,0 +1,15 @@
+{
+  "avg_volume": 116295.0,
+  "debt_equity": 0.84044,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:49+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 51.0532352,
+  "name": "Mohite Industries Limited",
+  "revenue_growth": -29.799999999999997,
+  "roe": 1.6784173667403246,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

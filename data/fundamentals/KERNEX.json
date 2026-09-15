@@ -1,0 +1,15 @@
+{
+  "avg_volume": 325797.0,
+  "debt_equity": 0.6552,
+  "eps_growth": 1372.3000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:28+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 2783.1840768,
+  "name": "Kernex Microsystems (India) Limited",
+  "revenue_growth": 800.4,
+  "roe": 76.73388335730374,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

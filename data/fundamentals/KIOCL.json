@@ -1,0 +1,15 @@
+{
+  "avg_volume": 169046.0,
+  "debt_equity": 0.11051,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:39+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 20712.1563648,
+  "name": "KIOCL Limited",
+  "revenue_growth": 73.8,
+  "roe": 2.239343251793777,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

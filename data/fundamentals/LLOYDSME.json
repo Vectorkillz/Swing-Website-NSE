@@ -1,0 +1,15 @@
+{
+  "avg_volume": 502979.0,
+  "debt_equity": 1.45214,
+  "eps_growth": 169.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:56+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 100073.4588928,
+  "name": "Lloyds Metals and Energy Limited",
+  "revenue_growth": 208.6,
+  "roe": 34.29647164209776,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

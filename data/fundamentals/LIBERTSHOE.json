@@ -1,0 +1,15 @@
+{
+  "avg_volume": 83728.0,
+  "debt_equity": 0.7114100000000001,
+  "eps_growth": -79.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:44+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 372.5284608,
+  "name": "Liberty Shoes Ltd.",
+  "revenue_growth": -1.7000000000000002,
+  "roe": 3.6307134858000176,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

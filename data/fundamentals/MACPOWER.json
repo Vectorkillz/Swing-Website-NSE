@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58656.0,
+  "debt_equity": 0.0038900000000000002,
+  "eps_growth": 110.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:23+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1883.0831616,
+  "name": "Macpower CNC Machines Limited",
+  "revenue_growth": 56.10000000000001,
+  "roe": 22.19870139502983,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

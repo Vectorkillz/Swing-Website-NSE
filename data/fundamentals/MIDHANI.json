@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1712130.0,
+  "debt_equity": 0.26557,
+  "eps_growth": 27.500000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:19+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 7603.1942656,
+  "name": "Mishra Dhatu Nigam Limited",
+  "revenue_growth": 40.5,
+  "roe": 8.806083271055359,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

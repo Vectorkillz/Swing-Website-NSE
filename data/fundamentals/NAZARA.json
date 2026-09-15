@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2477134.0,
+  "debt_equity": 0.06051,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:05+00:00",
+  "industry": "Electronic Gaming & Multimedia",
+  "market_cap_cr": 13749.0366464,
+  "name": "Nazara Technologies Limited",
+  "revenue_growth": -14.000000000000002,
+  "roe": -1.7218541993708436,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

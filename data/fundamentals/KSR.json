@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48396.0,
+  "debt_equity": 0.45357,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:54+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 81.6000192,
+  "name": "KSR Footwear Limited",
+  "revenue_growth": -0.7000000000000001,
+  "roe": -10.05859246696324,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

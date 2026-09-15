@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4083.0,
+  "debt_equity": 0.37784,
+  "eps_growth": -33.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:49+00:00",
+  "industry": "Security & Protection Services",
+  "market_cap_cr": 569.0568192,
+  "name": "Mallcom (India) Limited",
+  "revenue_growth": -10.6,
+  "roe": 8.403026168670461,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

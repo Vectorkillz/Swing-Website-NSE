@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1985869.0,
+  "debt_equity": 0.46995,
+  "eps_growth": 280.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:54+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 1496.89344,
+  "name": "Meghmani Organics Limited",
+  "revenue_growth": -11.5,
+  "roe": 4.1045610460535755,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 166248.0,
+  "debt_equity": 0.10101,
+  "eps_growth": -0.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:45+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 13721.8629632,
+  "name": "Kirloskar Brothers Limited",
+  "revenue_growth": 12.9,
+  "roe": 15.159333892592283,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

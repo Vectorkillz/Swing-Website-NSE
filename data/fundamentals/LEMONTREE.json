@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3432543.0,
+  "debt_equity": 0.96367,
+  "eps_growth": 20.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:32+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 8122.7726848,
+  "name": "Lemon Tree Hotels Limited",
+  "revenue_growth": 9.2,
+  "roe": 16.86867986316259,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

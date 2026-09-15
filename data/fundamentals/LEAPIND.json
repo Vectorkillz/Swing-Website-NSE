@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13465420.0,
+  "debt_equity": 1.14405,
+  "eps_growth": 62.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:29+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 5930.0610048,
+  "name": "LEAP India Limited",
+  "revenue_growth": 19.1,
+  "roe": 9.18015057733196,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

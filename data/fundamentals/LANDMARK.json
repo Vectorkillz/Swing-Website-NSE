@@ -1,0 +1,15 @@
+{
+  "avg_volume": 979088.0,
+  "debt_equity": 1.73699,
+  "eps_growth": 110.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:13+00:00",
+  "industry": "Auto & Truck Dealerships",
+  "market_cap_cr": 1950.302208,
+  "name": "Landmark Cars Limited",
+  "revenue_growth": 22.7,
+  "roe": 7.68026206716621,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

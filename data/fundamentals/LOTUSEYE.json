@@ -1,0 +1,15 @@
+{
+  "avg_volume": 19644.0,
+  "debt_equity": 0.26329,
+  "eps_growth": 15.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:05+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 229.9866112,
+  "name": "Lotus Eye Hospital and Institute Limited",
+  "revenue_growth": 26.200000000000003,
+  "roe": 0.25427326349121754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

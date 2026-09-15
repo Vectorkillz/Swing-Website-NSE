@@ -1,0 +1,15 @@
+{
+  "avg_volume": 118256.0,
+  "debt_equity": 0.00687,
+  "eps_growth": 37.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:39+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 3238.0878848,
+  "name": "Mayur Uniquoters Limited",
+  "revenue_growth": 24.7,
+  "roe": 18.286963853827544,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

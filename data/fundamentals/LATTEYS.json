@@ -1,0 +1,15 @@
+{
+  "avg_volume": 56712.0,
+  "debt_equity": 0.91364,
+  "eps_growth": 100.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:21+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 117.9814272,
+  "name": "Latteys Industries Limited",
+  "revenue_growth": 64.2,
+  "roe": 17.584459005354937,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

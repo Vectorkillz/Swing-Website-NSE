@@ -1,0 +1,15 @@
+{
+  "avg_volume": 229925.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:49+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 434.2224896,
+  "name": "McLeod Russel India Limited",
+  "revenue_growth": 21.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

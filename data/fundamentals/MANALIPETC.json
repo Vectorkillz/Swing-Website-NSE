@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3903941.0,
+  "debt_equity": 0.10691,
+  "eps_growth": 350.59999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:58+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1379.2618496,
+  "name": "Manali Petrochemicals Limited",
+  "revenue_growth": 17.1,
+  "roe": 14.030732564344481,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

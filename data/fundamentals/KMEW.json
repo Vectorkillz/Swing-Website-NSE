@@ -1,0 +1,15 @@
+{
+  "avg_volume": 121495.0,
+  "debt_equity": 0.38764000000000004,
+  "eps_growth": 392.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:22:59+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 6925.7265152,
+  "name": "Knowledge Marine & Engineering Works Limited",
+  "revenue_growth": 138.1,
+  "roe": 21.851927436936766,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

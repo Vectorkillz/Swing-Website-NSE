@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20764548.0,
+  "debt_equity": 0.16667,
+  "eps_growth": 415.00000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:03+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 5820.3643904,
+  "name": "Morepen Laboratories Limited",
+  "revenue_growth": 34.1,
+  "roe": 11.56942472258779,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 36983.0,
+  "debt_equity": 0.24484999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:38+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 285.3212928,
+  "name": "Mahindra EPC Irrigation Limited",
+  "revenue_growth": -12.7,
+  "roe": 5.17007041879706,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

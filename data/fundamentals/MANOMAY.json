@@ -1,0 +1,15 @@
+{
+  "avg_volume": 105846.0,
+  "debt_equity": 2.03436,
+  "eps_growth": 11.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:10+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 412.7926528,
+  "name": "Manomay Tex India Limited",
+  "revenue_growth": 20.5,
+  "roe": 11.777785532461014,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

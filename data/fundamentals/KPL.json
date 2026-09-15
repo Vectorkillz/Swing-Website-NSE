@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44679.0,
+  "debt_equity": 0.39618000000000003,
+  "eps_growth": 114.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:22+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": null,
+  "name": "Kwality Pharmaceuticals Limited",
+  "revenue_growth": 45.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 199584.0,
+  "debt_equity": 0.76199,
+  "eps_growth": -31.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:36+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 9306.0595712,
+  "name": "Max Estates Limited",
+  "revenue_growth": -0.1,
+  "roe": 0.36891313192019703,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

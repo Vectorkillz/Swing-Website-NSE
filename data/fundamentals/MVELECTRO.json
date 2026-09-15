@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6821187.0,
+  "debt_equity": 0.8982800000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:38+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 2119.8680064,
+  "name": "MV Electrosystems Limited",
+  "revenue_growth": -5.0,
+  "roe": -16.51750198201824,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

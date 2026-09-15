@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1111546.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:22+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 1493.100032,
+  "name": "Mahanagar Telephone Nigam Limited",
+  "revenue_growth": 229.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

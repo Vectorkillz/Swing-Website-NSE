@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28355.0,
+  "debt_equity": 0.45037,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:34+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 127.8607616,
+  "name": "Magnum Ventures Limited",
+  "revenue_growth": 6.6000000000000005,
+  "roe": -0.22100000000000003,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

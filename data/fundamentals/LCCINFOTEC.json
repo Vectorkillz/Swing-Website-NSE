@@ -1,0 +1,15 @@
+{
+  "avg_volume": 82968.0,
+  "debt_equity": 0.00786,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:26+00:00",
+  "industry": "Education & Training Services",
+  "market_cap_cr": 50.4094112,
+  "name": "LCC Infotech Limited",
+  "revenue_growth": 6.2,
+  "roe": -1.1016521428421864,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

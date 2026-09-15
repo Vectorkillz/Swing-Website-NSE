@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2893.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:07+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 584.6170624,
+  "name": "N.B.I. Industrial Finance Company Limited",
+  "revenue_growth": 419.5,
+  "roe": 0.5262866807679815,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

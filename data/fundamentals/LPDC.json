@@ -1,0 +1,15 @@
+{
+  "avg_volume": 77803.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:09+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 81.290752,
+  "name": "Landmark Property Development Company Limited",
+  "revenue_growth": null,
+  "roe": 19.507406581800225,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 80660.0,
+  "debt_equity": 0.19397999999999999,
+  "eps_growth": 43.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:52+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 597.9913216,
+  "name": "Ksolves India Limited",
+  "revenue_growth": 10.0,
+  "roe": 126.13387977896922,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

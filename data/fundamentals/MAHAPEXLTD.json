@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23192.0,
+  "debt_equity": 0.038130000000000004,
+  "eps_growth": -92.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:36+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 149.796864,
+  "name": "Maha Rashtra Apex Corporation Limited",
+  "revenue_growth": -0.8,
+  "roe": -2.9694893775805005,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

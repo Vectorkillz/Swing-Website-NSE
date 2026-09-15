@@ -1,0 +1,15 @@
+{
+  "avg_volume": 245269.0,
+  "debt_equity": 0.28795000000000004,
+  "eps_growth": -9.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:11+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 1206.6572288,
+  "name": "Kopran Limited",
+  "revenue_growth": 13.900000000000002,
+  "roe": 4.711227598318983,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

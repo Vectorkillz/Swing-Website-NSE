@@ -1,0 +1,15 @@
+{
+  "avg_volume": 147405.0,
+  "debt_equity": 0.01121,
+  "eps_growth": 22.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:32+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1534.8537344,
+  "name": "Krishna Defence and Allied Industries Limited",
+  "revenue_growth": -15.2,
+  "roe": 22.3612036391447,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44890.0,
+  "debt_equity": 0.04069,
+  "eps_growth": 69.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:57+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 445.6970752,
+  "name": "Manaksia Limited",
+  "revenue_growth": 28.499999999999996,
+  "roe": 8.688034820000617,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

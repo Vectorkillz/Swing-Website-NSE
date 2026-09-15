@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17018.0,
+  "debt_equity": 0.03972,
+  "eps_growth": -5.800000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:37+00:00",
+  "industry": "Packaged Foods",
+  "market_cap_cr": 404.7362304,
+  "name": "Kriti Nutrients Limited",
+  "revenue_growth": 7.9,
+  "roe": 14.520253994753798,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

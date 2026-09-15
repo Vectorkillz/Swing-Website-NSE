@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1229996.0,
+  "debt_equity": 0.31169,
+  "eps_growth": 23.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:17+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 1868.1618432,
+  "name": "MSP Steel & Power Limited",
+  "revenue_growth": 16.3,
+  "roe": 3.679940612488535,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

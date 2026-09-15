@@ -1,0 +1,15 @@
+{
+  "avg_volume": 21584.0,
+  "debt_equity": 4.82095,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:35+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 366.6155008,
+  "name": "Muthoot Capital Services Limited",
+  "revenue_growth": 64.0,
+  "roe": 3.574654417986186,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

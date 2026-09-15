@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1821833.0,
+  "debt_equity": 0.51207,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:41+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 1581.7106432,
+  "name": "One MobiKwik Systems Limited",
+  "revenue_growth": 3.6999999999999997,
+  "roe": -2.3179656619765274,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

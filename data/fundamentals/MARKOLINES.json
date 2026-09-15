@@ -1,0 +1,15 @@
+{
+  "avg_volume": 329927.0,
+  "debt_equity": 0.42552,
+  "eps_growth": 14.000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:23+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 359.443328,
+  "name": "Markolines Pavement Technologies Limited",
+  "revenue_growth": 4.3,
+  "roe": 13.25590837285769,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

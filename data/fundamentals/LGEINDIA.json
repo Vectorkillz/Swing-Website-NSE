@@ -1,0 +1,15 @@
+{
+  "avg_volume": 733263.0,
+  "debt_equity": 0.0599,
+  "eps_growth": 27.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:39+00:00",
+  "industry": "Consumer Electronics",
+  "market_cap_cr": 110612.7486976,
+  "name": "LG Electronics India Limited",
+  "revenue_growth": 15.5,
+  "roe": 23.803821365138123,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26562.0,
+  "debt_equity": null,
+  "eps_growth": 676.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:50+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 51852.8073728,
+  "name": "Linde India Limited",
+  "revenue_growth": 13.100000000000001,
+  "roe": 12.805880350502497,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

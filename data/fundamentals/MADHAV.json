@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4482.0,
+  "debt_equity": 0.06737,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:25+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 31.4755456,
+  "name": "Madhav Marbles and Granites Limited",
+  "revenue_growth": -1.5,
+  "roe": -0.18496922663993018,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 87249.0,
+  "debt_equity": 0.05704,
+  "eps_growth": -26.700000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:47+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 2928.7673856,
+  "name": "Maithan Alloys Limited",
+  "revenue_growth": -14.7,
+  "roe": 7.004142866871353,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

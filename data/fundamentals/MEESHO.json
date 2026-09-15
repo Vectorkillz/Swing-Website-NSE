@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18722497.0,
+  "debt_equity": 0.01428,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:01+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 98260.9231872,
+  "name": "Meesho Limited",
+  "revenue_growth": 48.3,
+  "roe": -27.352115127623023,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

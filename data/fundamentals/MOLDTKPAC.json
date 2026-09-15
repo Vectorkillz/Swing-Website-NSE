@@ -1,0 +1,15 @@
+{
+  "avg_volume": 93726.0,
+  "debt_equity": 0.31851,
+  "eps_growth": 14.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:57+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 2166.8573184,
+  "name": "Mold-Tek Packaging Limited",
+  "revenue_growth": 24.9,
+  "roe": 11.024747609633158,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

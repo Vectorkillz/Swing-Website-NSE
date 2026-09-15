@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28432.0,
+  "debt_equity": 0.17248000000000002,
+  "eps_growth": 20.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:15+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1605.0997248,
+  "name": "NDR Auto Components Limited",
+  "revenue_growth": 19.6,
+  "roe": 18.101326238750953,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

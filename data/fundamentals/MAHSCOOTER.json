@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3834.0,
+  "debt_equity": null,
+  "eps_growth": -90.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:44+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 14722.2806528,
+  "name": "Maharashtra Scooters Ltd.",
+  "revenue_growth": -81.5,
+  "roe": 1.0078600038937457,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

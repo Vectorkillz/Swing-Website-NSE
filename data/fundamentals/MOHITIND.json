@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35619.0,
+  "debt_equity": 0.6017199999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:50+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 33.5251392,
+  "name": "Mohit Industries Limited",
+  "revenue_growth": -23.0,
+  "roe": -0.6571854853544603,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

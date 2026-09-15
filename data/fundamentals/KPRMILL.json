@@ -1,0 +1,15 @@
+{
+  "avg_volume": 660060.0,
+  "debt_equity": 0.10462999999999999,
+  "eps_growth": 21.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:24+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 38369.3750272,
+  "name": "K.P.R. Mill Limited",
+  "revenue_growth": 9.6,
+  "roe": 16.01272053400122,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

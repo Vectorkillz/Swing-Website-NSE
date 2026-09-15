@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1786520.0,
+  "debt_equity": 0.4568,
+  "eps_growth": 36.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:43+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 3511.7760512,
+  "name": "NACL Industries Limited",
+  "revenue_growth": -14.499999999999998,
+  "roe": 1.8108611880605658,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

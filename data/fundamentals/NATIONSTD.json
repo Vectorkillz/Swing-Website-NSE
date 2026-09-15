@@ -1,0 +1,15 @@
+{
+  "avg_volume": 98124.0,
+  "debt_equity": null,
+  "eps_growth": 159.20000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:57+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 228.4999936,
+  "name": "National Standard (India) Limited",
+  "revenue_growth": null,
+  "roe": 3.98675171736997,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

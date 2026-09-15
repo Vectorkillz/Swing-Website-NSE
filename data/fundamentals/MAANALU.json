@@ -1,0 +1,15 @@
+{
+  "avg_volume": 61897.0,
+  "debt_equity": 0.19942000000000001,
+  "eps_growth": 4.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:22+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 636.6793216,
+  "name": "Maan Aluminium Limited",
+  "revenue_growth": 9.8,
+  "roe": 4.766256739104035,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

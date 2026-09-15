@@ -1,0 +1,15 @@
+{
+  "avg_volume": 61218.0,
+  "debt_equity": 0.20804999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:15+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 1367.7717504,
+  "name": "Kothari Industrial Corporation Limited",
+  "revenue_growth": 32.7,
+  "roe": -42.91518187859581,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

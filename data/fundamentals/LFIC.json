@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4852.0,
+  "debt_equity": null,
+  "eps_growth": 8.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:36+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 40.992,
+  "name": "Lakshmi Finance & Industrial Corporation Limited",
+  "revenue_growth": 12.2,
+  "roe": -0.7261604680127798,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

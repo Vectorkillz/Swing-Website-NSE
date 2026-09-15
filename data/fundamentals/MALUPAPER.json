@@ -1,0 +1,15 @@
+{
+  "avg_volume": 38221.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:51+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 57.5959616,
+  "name": "Malu Paper Mills Limited",
+  "revenue_growth": 30.8,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3920.0,
+  "debt_equity": 0.03356,
+  "eps_growth": -12.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:44+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 304.1423104,
+  "name": "Modi Rubber Limited",
+  "revenue_growth": 10.100000000000001,
+  "roe": 0.0012270212274767109,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

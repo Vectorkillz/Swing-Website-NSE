@@ -1,0 +1,15 @@
+{
+  "avg_volume": 217319.0,
+  "debt_equity": 0.0383,
+  "eps_growth": -0.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:27:58+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 2906.6504192,
+  "name": "Monarch Networth Capital Limited",
+  "revenue_growth": -8.3,
+  "roe": 18.6275558061811,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

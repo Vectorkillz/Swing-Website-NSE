@@ -1,0 +1,15 @@
+{
+  "avg_volume": 130170.0,
+  "debt_equity": 1.6935900000000002,
+  "eps_growth": 79.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:54+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 232.44928,
+  "name": "Manaksia Aluminium Company Limited",
+  "revenue_growth": 3.9,
+  "roe": 6.262942586012153,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

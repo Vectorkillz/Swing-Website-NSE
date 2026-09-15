@@ -1,0 +1,15 @@
+{
+  "avg_volume": 93997.0,
+  "debt_equity": 0.38569000000000003,
+  "eps_growth": 116.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:24:07+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 155.2901504,
+  "name": "Lorenzini Apparels Limited",
+  "revenue_growth": 81.6,
+  "roe": 10.787217507599559,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 292977.0,
+  "debt_equity": 0.46725,
+  "eps_growth": 28.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:25:42+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 3844.5174784,
+  "name": "Mahindra Logistics Limited",
+  "revenue_growth": 20.1,
+  "roe": 4.8770767244251925,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

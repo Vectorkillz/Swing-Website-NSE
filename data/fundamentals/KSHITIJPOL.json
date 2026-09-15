@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1691404.0,
+  "debt_equity": 0.29786,
+  "eps_growth": -40.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:23:49+00:00",
+  "industry": "Business Equipment & Supplies",
+  "market_cap_cr": 56.2993856,
+  "name": "Kshitij Polyline Limited",
+  "revenue_growth": 57.599999999999994,
+  "roe": 8.008197940643056,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

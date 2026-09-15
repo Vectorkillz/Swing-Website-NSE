@@ -1,0 +1,15 @@
+{
+  "avg_volume": 398.0,
+  "debt_equity": 0.54669,
+  "eps_growth": 1.7000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:28:16+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 153.7222144,
+  "name": "Mangalam Seeds Limited",
+  "revenue_growth": 25.8,
+  "roe": 9.083196483487136,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 200513.0,
+  "debt_equity": 0.14648,
+  "eps_growth": 15.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:26:30+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 5122.5632768,
+  "name": "Mastek Limited",
+  "revenue_growth": 7.7,
+  "roe": 13.512328152938528,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}
