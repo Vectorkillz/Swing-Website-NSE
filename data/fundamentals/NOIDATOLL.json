@@ -1,0 +1,15 @@
+{
+  "avg_volume": 101124.0,
+  "debt_equity": null,
+  "eps_growth": 31.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:16+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 74.6642048,
+  "name": "Noida Toll Bridge Company Limited",
+  "revenue_growth": 8.200000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58393.0,
+  "debt_equity": 0.17361000000000001,
+  "eps_growth": 15.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:56+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 440.951808,
+  "name": "W.S. Industries (India) Limited",
+  "revenue_growth": -98.3,
+  "roe": 0.7005025377035731,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

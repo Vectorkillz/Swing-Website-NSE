@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13436588.0,
+  "debt_equity": 1.2675400000000001,
+  "eps_growth": 38.1,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:40:13+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 1617.5284224,
+  "name": "SKYWAYS AIR SERVICES LTD",
+  "revenue_growth": 21.6,
+  "roe": 14.321999,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 588751.0,
+  "debt_equity": 0.0095,
+  "eps_growth": -27.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:22+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 14557.134848,
+  "name": "Zen Technologies Limited",
+  "revenue_growth": -10.5,
+  "roe": 10.023312977048567,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

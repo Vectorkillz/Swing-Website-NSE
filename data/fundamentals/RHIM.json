@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1790112.0,
+  "debt_equity": 0.12595,
+  "eps_growth": 121.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:30+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 7467.0915584,
+  "name": "RHI Magnesita India Limited",
+  "revenue_growth": 5.6000000000000005,
+  "roe": -9.931194810742435,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 235641.0,
+  "debt_equity": 0.033769999999999994,
+  "eps_growth": -62.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:12+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 2506.1996544,
+  "name": "Orient Cement Limited",
+  "revenue_growth": -30.3,
+  "roe": 9.771546444388429,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

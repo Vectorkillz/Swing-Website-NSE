@@ -1,0 +1,15 @@
+{
+  "avg_volume": 84936.0,
+  "debt_equity": 0.04968,
+  "eps_growth": 67.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:47+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 481.267968,
+  "name": "Plastiblends India Limited",
+  "revenue_growth": 11.0,
+  "roe": 9.519760194090559,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22323.0,
+  "debt_equity": 0.27068000000000003,
+  "eps_growth": 286.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:47+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 2731.5871744,
+  "name": "Ujaas Energy Limited",
+  "revenue_growth": 14.499999999999998,
+  "roe": 11.685863627079646,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

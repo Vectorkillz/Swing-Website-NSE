@@ -1,0 +1,15 @@
+{
+  "avg_volume": 452621.0,
+  "debt_equity": 0.54682,
+  "eps_growth": 43.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:26+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 3453.771776,
+  "name": "Solara Active Pharma Sciences Limited",
+  "revenue_growth": 19.6,
+  "roe": -0.11734746798171725,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

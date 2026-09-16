@@ -1,0 +1,15 @@
+{
+  "avg_volume": 252303.0,
+  "debt_equity": 0.47967,
+  "eps_growth": -38.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:01+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 756.2300416,
+  "name": "Scoda Tubes Limited",
+  "revenue_growth": 27.6,
+  "roe": 9.805426981492436,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

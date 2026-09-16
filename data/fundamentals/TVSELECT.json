@@ -1,0 +1,15 @@
+{
+  "avg_volume": 85773.0,
+  "debt_equity": 0.55935,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:34+00:00",
+  "industry": "Computer Hardware",
+  "market_cap_cr": 744.3335168,
+  "name": "TVS Electronics Limited",
+  "revenue_growth": 9.6,
+  "roe": -1.8863934448354998,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

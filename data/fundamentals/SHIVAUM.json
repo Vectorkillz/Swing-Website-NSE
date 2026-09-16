@@ -1,0 +1,15 @@
+{
+  "avg_volume": 36554.0,
+  "debt_equity": 0.80361,
+  "eps_growth": 149.10000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:10+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 639.2187904,
+  "name": "Shiv Aum Steels Limited",
+  "revenue_growth": 25.2,
+  "roe": 7.83513003738178,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

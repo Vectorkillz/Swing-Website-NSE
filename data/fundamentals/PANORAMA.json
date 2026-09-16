@@ -1,0 +1,15 @@
+{
+  "avg_volume": 441037.0,
+  "debt_equity": 0.59006,
+  "eps_growth": 156.29999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:45+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 1352.700928,
+  "name": "Panorama Studios International Limited",
+  "revenue_growth": 34.300000000000004,
+  "roe": 11.008094786302092,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

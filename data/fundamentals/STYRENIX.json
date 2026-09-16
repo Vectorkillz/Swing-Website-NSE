@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58870.0,
+  "debt_equity": 0.40115,
+  "eps_growth": 152.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:31+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 3579.4399232,
+  "name": "Styrenix Performance Materials Limited",
+  "revenue_growth": 7.1,
+  "roe": 19.70213680154047,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

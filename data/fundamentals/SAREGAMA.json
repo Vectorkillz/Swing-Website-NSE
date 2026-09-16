@@ -1,0 +1,15 @@
+{
+  "avg_volume": 700194.0,
+  "debt_equity": 0.042809999999999994,
+  "eps_growth": 41.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:34+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 9319.632896,
+  "name": "Saregama India Limited",
+  "revenue_growth": 27.500000000000004,
+  "roe": 13.342460809829134,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

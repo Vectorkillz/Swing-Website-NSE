@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33548.0,
+  "debt_equity": 1.8453600000000001,
+  "eps_growth": -80.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:49+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 148.8237952,
+  "name": "Vaswani Industries Limited",
+  "revenue_growth": 3.1,
+  "roe": -0.04068689917250152,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

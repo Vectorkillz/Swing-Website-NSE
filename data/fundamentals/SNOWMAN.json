@@ -1,0 +1,15 @@
+{
+  "avg_volume": 201160.0,
+  "debt_equity": 0.7768200000000001,
+  "eps_growth": 80.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:22+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 585.7465856,
+  "name": "Snowman Logistics Limited",
+  "revenue_growth": 9.2,
+  "roe": 1.3267983898187556,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

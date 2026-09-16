@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17582.0,
+  "debt_equity": 0.0060799999999999995,
+  "eps_growth": -14.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:11+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 250.1550336,
+  "name": "Star Paper Mills Limited",
+  "revenue_growth": 2.3,
+  "roe": 4.384144707523022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

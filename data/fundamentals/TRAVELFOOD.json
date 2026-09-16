@@ -1,0 +1,15 @@
+{
+  "avg_volume": 64979.0,
+  "debt_equity": 0.16722,
+  "eps_growth": 38.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:06+00:00",
+  "industry": "Restaurants",
+  "market_cap_cr": 15855.2686592,
+  "name": "Travel Food Services Limited",
+  "revenue_growth": 20.599999999999998,
+  "roe": 32.997350935462215,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2471717.0,
+  "debt_equity": 0.43555999999999995,
+  "eps_growth": -6.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:32+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 3315.47648,
+  "name": "Pace Digitek Limited",
+  "revenue_growth": 51.300000000000004,
+  "roe": 12.584319854467793,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

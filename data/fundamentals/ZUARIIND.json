@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57607.0,
+  "debt_equity": 0.72104,
+  "eps_growth": 900.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:33+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 762.9939712,
+  "name": "Zuari Industries Limited",
+  "revenue_growth": 21.2,
+  "roe": 2.9971708180529943,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

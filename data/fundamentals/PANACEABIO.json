@@ -1,0 +1,15 @@
+{
+  "avg_volume": 230181.0,
+  "debt_equity": 0.02786,
+  "eps_growth": -12.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:41+00:00",
+  "industry": "Biotechnology",
+  "market_cap_cr": 2301.4967296,
+  "name": "Panacea Biotec Limited",
+  "revenue_growth": 1.0,
+  "roe": -0.9889584864593631,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

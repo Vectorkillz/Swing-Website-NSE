@@ -1,0 +1,15 @@
+{
+  "avg_volume": 140320.0,
+  "debt_equity": 0.66496,
+  "eps_growth": 31.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:10+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 571.4912256,
+  "name": "Pyramid Technoplast Limited",
+  "revenue_growth": 35.8,
+  "roe": 11.023581001952964,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 131366.0,
+  "debt_equity": 0.6903400000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:40+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 4951.3754624,
+  "name": "Saatvik Green Energy Limited",
+  "revenue_growth": -44.2,
+  "roe": 17.047288477781166,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

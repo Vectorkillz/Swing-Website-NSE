@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23209.0,
+  "debt_equity": 0.72329,
+  "eps_growth": -89.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:49+00:00",
+  "industry": "Biotechnology",
+  "market_cap_cr": 37.6796864,
+  "name": "Vivo Bio Tech Limited",
+  "revenue_growth": 14.099999999999998,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

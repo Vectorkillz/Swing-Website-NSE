@@ -1,0 +1,15 @@
+{
+  "avg_volume": 36647.0,
+  "debt_equity": 0.20663,
+  "eps_growth": 118.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:55+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 251.38944,
+  "name": "Shankar Lal Rampal Dye-Chem Limited",
+  "revenue_growth": 10.9,
+  "roe": 15.0321481946366,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

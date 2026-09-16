@@ -1,0 +1,15 @@
+{
+  "avg_volume": 98825.0,
+  "debt_equity": 0.33610999999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:43+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 1898.0370432,
+  "name": "Nibe Limited",
+  "revenue_growth": -23.599999999999998,
+  "roe": -1.9644461596593363,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

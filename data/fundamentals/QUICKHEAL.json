@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67819.0,
+  "debt_equity": 0.00025,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:16+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 861.91872,
+  "name": "Quick Heal Technologies Limited",
+  "revenue_growth": -21.4,
+  "roe": -2.5155582506706864,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

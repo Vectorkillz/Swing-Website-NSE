@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1566408.0,
+  "debt_equity": 0.07686,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:34+00:00",
+  "industry": "Steel",
+  "market_cap_cr": null,
+  "name": "Welspun Specialty Solutions Limited",
+  "revenue_growth": -3.8,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

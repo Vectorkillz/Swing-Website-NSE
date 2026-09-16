@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2543.0,
+  "debt_equity": 0.36972,
+  "eps_growth": -26.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:00+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 240.6375168,
+  "name": "Indo National Limited",
+  "revenue_growth": 7.3,
+  "roe": -1.7694101002187508,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7085.0,
+  "debt_equity": 0.22157,
+  "eps_growth": 73.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:24+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 674.4183808,
+  "name": "ZF Steering Gear (India) Limited",
+  "revenue_growth": 7.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

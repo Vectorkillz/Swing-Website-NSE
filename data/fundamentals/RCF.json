@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1714916.0,
+  "debt_equity": 0.80607,
+  "eps_growth": 34.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:03+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 5990.7813376,
+  "name": "Rashtriya Chemicals and Fertilizers Limited",
+  "revenue_growth": 6.4,
+  "roe": 8.731282087229213,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

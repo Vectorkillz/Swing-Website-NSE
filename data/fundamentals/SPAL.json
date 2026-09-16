@@ -1,0 +1,15 @@
+{
+  "avg_volume": 243332.0,
+  "debt_equity": 0.44595999999999997,
+  "eps_growth": 19.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:41+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 2448.024576,
+  "name": "S.P. Apparels Limited",
+  "revenue_growth": -0.6,
+  "roe": 11.104587802550151,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7503.0,
+  "debt_equity": 2.89853,
+  "eps_growth": 81.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:35+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 25128.2735104,
+  "name": "TVS Holdings Limited",
+  "revenue_growth": 35.699999999999996,
+  "roe": 30.474366247187902,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

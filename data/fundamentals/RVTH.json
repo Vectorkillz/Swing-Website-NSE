@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1036.0,
+  "debt_equity": 0.48324,
+  "eps_growth": 255.10000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:37+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 208.705472,
+  "name": "Revathi Equipment India Limited",
+  "revenue_growth": 34.9,
+  "roe": 10.896770848638889,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

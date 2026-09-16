@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23912.0,
+  "debt_equity": 0.71619,
+  "eps_growth": -26.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:52+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 2382.9663744,
+  "name": "Rane Holdings Limited",
+  "revenue_growth": 18.4,
+  "roe": 7.319970902555732,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 201387.0,
+  "debt_equity": 0.05195,
+  "eps_growth": 49.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:12+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 10495.2233984,
+  "name": "Quality Power Electrical Equipments Limited",
+  "revenue_growth": 31.7,
+  "roe": 24.59359989834121,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

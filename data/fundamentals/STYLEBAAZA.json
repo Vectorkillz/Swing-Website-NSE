@@ -1,0 +1,15 @@
+{
+  "avg_volume": 804061.0,
+  "debt_equity": 2.21076,
+  "eps_growth": 3.5999999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:29+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 2862.3929344,
+  "name": "Baazar Style Retail Limited",
+  "revenue_growth": 28.7,
+  "roe": 10.23439429741635,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

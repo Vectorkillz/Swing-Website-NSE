@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12854.0,
+  "debt_equity": 0.01743,
+  "eps_growth": 11.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:02+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 286.5761024,
+  "name": "Poddar Pigments Limited",
+  "revenue_growth": -1.2,
+  "roe": 4.34775490756344,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

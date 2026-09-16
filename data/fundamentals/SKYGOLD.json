@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1228879.0,
+  "debt_equity": 0.72072,
+  "eps_growth": 124.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:12+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 12225.744896,
+  "name": "Sky Gold and Diamonds Limited",
+  "revenue_growth": 77.9,
+  "roe": 27.96180916942995,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

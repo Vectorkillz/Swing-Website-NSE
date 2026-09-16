@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37020.0,
+  "debt_equity": 0.00942,
+  "eps_growth": -32.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:34+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 1833.2944384,
+  "name": "Nucleus Software Exports Limited",
+  "revenue_growth": -3.3000000000000003,
+  "roe": 11.619819997966657,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

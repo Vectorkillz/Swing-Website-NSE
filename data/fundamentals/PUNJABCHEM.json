@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23383.0,
+  "debt_equity": 0.36418,
+  "eps_growth": 7.000000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:02+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1276.7386624,
+  "name": "Punjab Chemicals and Crop Protection Limited",
+  "revenue_growth": 8.7,
+  "roe": 15.443845708103964,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

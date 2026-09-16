@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1121421.0,
+  "debt_equity": 0.63958,
+  "eps_growth": 389.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:51+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 6681.6745472,
+  "name": "Omnitech Engineering Limited",
+  "revenue_growth": 61.5,
+  "roe": 13.666820860573212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

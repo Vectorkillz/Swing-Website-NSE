@@ -1,0 +1,15 @@
+{
+  "avg_volume": 849508.0,
+  "debt_equity": 2.24567,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:24+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 24842.887168,
+  "name": "Prime Focus Limited",
+  "revenue_growth": 23.799999999999997,
+  "roe": 5.52081226079436,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

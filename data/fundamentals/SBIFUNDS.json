@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4952753.0,
+  "debt_equity": 0.0219,
+  "eps_growth": 3.4000000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:52+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 109275.8011904,
+  "name": "SBI Funds Management Limited",
+  "revenue_growth": 4.6,
+  "roe": 51.96686863472828,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

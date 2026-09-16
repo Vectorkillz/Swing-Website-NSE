@@ -1,0 +1,15 @@
+{
+  "avg_volume": 90777.0,
+  "debt_equity": 0.03137,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:45+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 113.2189312,
+  "name": "Standard Industries Limited",
+  "revenue_growth": 1734.9,
+  "roe": 53.802200230848754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

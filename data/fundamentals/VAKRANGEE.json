@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1129317.0,
+  "debt_equity": 0.01705,
+  "eps_growth": -33.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:39+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 560.2234368,
+  "name": "Vakrangee Limited",
+  "revenue_growth": -18.8,
+  "roe": 4.706559077170732,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

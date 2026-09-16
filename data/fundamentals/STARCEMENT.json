@@ -1,0 +1,15 @@
+{
+  "avg_volume": 283018.0,
+  "debt_equity": 0.18924,
+  "eps_growth": -24.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:08+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 7474.507776,
+  "name": "Star Cement Limited",
+  "revenue_growth": 3.4000000000000004,
+  "roe": 11.59773810044662,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

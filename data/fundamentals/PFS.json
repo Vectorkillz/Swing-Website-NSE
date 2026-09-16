@@ -1,0 +1,15 @@
+{
+  "avg_volume": 503193.0,
+  "debt_equity": null,
+  "eps_growth": -62.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:26+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 1702.6930688,
+  "name": "PTC India Financial Services Limited",
+  "revenue_growth": -55.50000000000001,
+  "roe": 7.952233526134448,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15172.0,
+  "debt_equity": 0.6637000000000001,
+  "eps_growth": -32.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:33+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 722.242816,
+  "name": "Tuticorin Alkali Chemicals and Fertilizers Limited",
+  "revenue_growth": 6.0,
+  "roe": 18.51560509183979,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

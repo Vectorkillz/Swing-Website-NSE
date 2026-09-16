@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58900.0,
+  "debt_equity": 0.66889,
+  "eps_growth": 7.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:20+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 2072.7007232,
+  "name": "RACL Geartech Limited",
+  "revenue_growth": 31.5,
+  "roe": 13.896827210197543,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

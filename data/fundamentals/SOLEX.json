@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37434.0,
+  "debt_equity": 1.32242,
+  "eps_growth": -67.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:29+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 722.5785344,
+  "name": "Solex Energy Limited",
+  "revenue_growth": 0.5,
+  "roe": 31.553217613968986,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

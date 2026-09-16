@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15385253.0,
+  "debt_equity": 2.43153,
+  "eps_growth": 28.799999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:35+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 7721.8177024,
+  "name": "Paisalo Digital Limited",
+  "revenue_growth": 20.7,
+  "roe": 13.845322723773837,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

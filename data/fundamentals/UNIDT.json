@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9171.0,
+  "debt_equity": 0.01153,
+  "eps_growth": 47.599999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:01+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 418.3459072,
+  "name": "United Drilling Tools Limited",
+  "revenue_growth": 8.9,
+  "roe": 7.052697045327837,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

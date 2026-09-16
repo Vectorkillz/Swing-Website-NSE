@@ -1,0 +1,15 @@
+{
+  "avg_volume": 189412.0,
+  "debt_equity": 0.15598,
+  "eps_growth": 34.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:15+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 8347.205632,
+  "name": "Waaree Renewable Technologies Limited",
+  "revenue_growth": 53.2,
+  "roe": -0.4293999756717448,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

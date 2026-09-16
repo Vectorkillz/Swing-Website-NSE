@@ -1,0 +1,15 @@
+{
+  "avg_volume": 319709.0,
+  "debt_equity": 0.07281,
+  "eps_growth": 74.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:06+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 3721.9151872,
+  "name": "Vardhman Special Steels Limited",
+  "revenue_growth": 12.1,
+  "roe": 11.74719042309943,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

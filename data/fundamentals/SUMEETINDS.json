@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5598931.0,
+  "debt_equity": 0.7610399999999999,
+  "eps_growth": -99.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:43+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 711.423488,
+  "name": "Sumeet Industries Limited",
+  "revenue_growth": 9.6,
+  "roe": 6.961667493445159,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

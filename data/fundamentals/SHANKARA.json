@@ -1,0 +1,15 @@
+{
+  "avg_volume": 175412.0,
+  "debt_equity": 0.4293,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:38:41+00:00",
+  "industry": "Home Improvement Retail",
+  "market_cap_cr": 363.3276672,
+  "name": "Shankara Building Products Limited",
+  "revenue_growth": null,
+  "roe": 0.895,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

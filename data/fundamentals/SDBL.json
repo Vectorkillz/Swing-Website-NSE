@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1623124.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:02+00:00",
+  "industry": "Beverages - Brewers",
+  "market_cap_cr": 1416.431616,
+  "name": "Som Distilleries & Breweries Limited",
+  "revenue_growth": -79.3,
+  "roe": -3.870089119505691,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

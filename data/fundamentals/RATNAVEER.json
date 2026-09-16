@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6482453.0,
+  "debt_equity": 0.5005299999999999,
+  "eps_growth": -9.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:56+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 2430.5072128,
+  "name": "Ratnaveer Precision Engineering Limited",
+  "revenue_growth": 18.9,
+  "roe": 8.182506368595922,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

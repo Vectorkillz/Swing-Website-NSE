@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2010.0,
+  "debt_equity": 0.07901,
+  "eps_growth": -69.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:54:57+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 66.6647744,
+  "name": "Touchwood Entertainment Limited",
+  "revenue_growth": -76.6,
+  "roe": 6.9839133839826735,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

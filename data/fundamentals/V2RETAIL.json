@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1085225.0,
+  "debt_equity": 1.10224,
+  "eps_growth": 61.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:31+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 7550.550016,
+  "name": "V2 Retail Limited",
+  "revenue_growth": 57.699999999999996,
+  "roe": 19.865391614543473,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

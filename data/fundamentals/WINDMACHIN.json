@@ -1,0 +1,15 @@
+{
+  "avg_volume": 128217.0,
+  "debt_equity": 0.17493999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:48+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 3004.4614656,
+  "name": "Windsor Machines Limited",
+  "revenue_growth": 31.4,
+  "roe": 1.1467239197600276,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

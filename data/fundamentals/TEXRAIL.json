@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2352510.0,
+  "debt_equity": 0.37094,
+  "eps_growth": 68.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:47+00:00",
+  "industry": "Railroads",
+  "market_cap_cr": 4504.397824,
+  "name": "Texmaco Rail & Engineering Limited",
+  "revenue_growth": -16.900000000000002,
+  "roe": 9.049484814241065,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 339916.0,
+  "debt_equity": 0.15717,
+  "eps_growth": -11.200000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:01+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 617.7125888,
+  "name": "Onward Technologies Limited",
+  "revenue_growth": 12.2,
+  "roe": 17.49424887215145,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

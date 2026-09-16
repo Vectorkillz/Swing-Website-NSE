@@ -1,0 +1,15 @@
+{
+  "avg_volume": 237975.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:47+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 15.2204272,
+  "name": "Visagar Polytex Limited",
+  "revenue_growth": 109.00000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 43101.0,
+  "debt_equity": 0.10456,
+  "eps_growth": -5.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:46+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 7506.8768256,
+  "name": "Safari Industries (India) Limited",
+  "revenue_growth": 11.5,
+  "roe": 14.80335279300265,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

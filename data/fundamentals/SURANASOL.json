@@ -1,0 +1,15 @@
+{
+  "avg_volume": 69151.0,
+  "debt_equity": null,
+  "eps_growth": 3600.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:16+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 123.1149184,
+  "name": "Surana Solar Limited",
+  "revenue_growth": 722.0,
+  "roe": 11.34428013880164,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

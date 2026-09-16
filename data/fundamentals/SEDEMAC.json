@@ -1,0 +1,15 @@
+{
+  "avg_volume": 151046.0,
+  "debt_equity": 0.16126000000000001,
+  "eps_growth": 90.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:08+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 13032.5037056,
+  "name": "SEDEMAC Mechatronics Limited",
+  "revenue_growth": 42.5,
+  "roe": 26.46739077198389,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

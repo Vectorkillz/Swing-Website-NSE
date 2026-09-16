@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27783.0,
+  "debt_equity": null,
+  "eps_growth": -49.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:55+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 4665.6569344,
+  "name": "Shilchar Technologies Limited",
+  "revenue_growth": -15.2,
+  "roe": 28.019297121438058,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

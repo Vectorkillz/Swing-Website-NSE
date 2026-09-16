@@ -1,0 +1,15 @@
+{
+  "avg_volume": 215252.0,
+  "debt_equity": 0.3243,
+  "eps_growth": 85.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:48+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 742.0553728,
+  "name": "Prostarm Info Systems Limited",
+  "revenue_growth": 38.5,
+  "roe": 12.470327961212087,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

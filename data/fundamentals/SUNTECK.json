@@ -1,0 +1,15 @@
+{
+  "avg_volume": 308943.0,
+  "debt_equity": 0.17310999999999999,
+  "eps_growth": 26.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:02+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 4055.77728,
+  "name": "Sunteck Realty Limited",
+  "revenue_growth": 1.7000000000000002,
+  "roe": 5.894920298485775,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

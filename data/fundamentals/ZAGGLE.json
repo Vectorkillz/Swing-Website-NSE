@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2490976.0,
+  "debt_equity": 0.03884,
+  "eps_growth": -33.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:12+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 2391.2101888,
+  "name": "Zaggle Prepaid Ocean Services Limited",
+  "revenue_growth": 27.500000000000004,
+  "roe": 9.911296987957554,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

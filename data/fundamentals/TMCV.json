@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8020246.0,
+  "debt_equity": 0.44095,
+  "eps_growth": 83.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:54:45+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 154824.4615168,
+  "name": "Tata Motors Limited",
+  "revenue_growth": 19.3,
+  "roe": 32.923835147942626,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

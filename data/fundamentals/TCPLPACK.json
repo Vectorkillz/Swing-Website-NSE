@@ -1,0 +1,15 @@
+{
+  "avg_volume": 19600.0,
+  "debt_equity": 0.8819199999999999,
+  "eps_growth": 79.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:23+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 3352.7609344,
+  "name": "TCPL Packaging Limited",
+  "revenue_growth": 16.1,
+  "roe": 16.100667918862317,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

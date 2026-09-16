@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3488.0,
+  "debt_equity": 0.86867,
+  "eps_growth": -87.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:58+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": null,
+  "name": "Parnax Lab Limited",
+  "revenue_growth": 6.4,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

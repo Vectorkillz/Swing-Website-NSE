@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1467406.0,
+  "debt_equity": 0.4865,
+  "eps_growth": 64.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:08+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 5294.8619264,
+  "name": "Rashi Peripherals Limited",
+  "revenue_growth": 61.9,
+  "roe": 15.631874410297053,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

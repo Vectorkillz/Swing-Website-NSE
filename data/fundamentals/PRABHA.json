@@ -1,0 +1,15 @@
+{
+  "avg_volume": 511231.0,
+  "debt_equity": 0.37627000000000005,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:19+00:00",
+  "industry": "Oil & Gas E&P",
+  "market_cap_cr": 3737.0273792,
+  "name": "Prabha Energy Limited",
+  "revenue_growth": 49.3,
+  "roe": 0.16466264889120763,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

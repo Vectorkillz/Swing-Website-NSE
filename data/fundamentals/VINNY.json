@@ -1,0 +1,15 @@
+{
+  "avg_volume": 337627.0,
+  "debt_equity": 0.19671,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:28+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 46.5246624,
+  "name": "Vinny Overseas Limited",
+  "revenue_growth": 32.2,
+  "roe": 0.9191688926104924,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

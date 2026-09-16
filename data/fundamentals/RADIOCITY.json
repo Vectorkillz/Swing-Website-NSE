@@ -1,0 +1,15 @@
+{
+  "avg_volume": 78416.0,
+  "debt_equity": 0.053079999999999995,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:26+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 211.8605312,
+  "name": "Music Broadcast Limited",
+  "revenue_growth": -9.700000000000001,
+  "roe": -9.396316530447471,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

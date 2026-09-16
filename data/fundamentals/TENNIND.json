@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1949628.0,
+  "debt_equity": 0.04289,
+  "eps_growth": -45.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:40+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 20700.8661504,
+  "name": "Tenneco Clean Air India Limited",
+  "revenue_growth": 20.1,
+  "roe": 50.1411894187375,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 557082.0,
+  "debt_equity": 0.36591,
+  "eps_growth": 1.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:38+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 750.3389184,
+  "name": "Visaka Industries Limited",
+  "revenue_growth": 16.7,
+  "roe": 10.388663327632553,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

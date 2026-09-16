@@ -1,0 +1,15 @@
+{
+  "avg_volume": 83531.0,
+  "debt_equity": 0.07549,
+  "eps_growth": -43.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:55+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 18864.5605376,
+  "name": "Ratnamani Metals & Tubes Limited",
+  "revenue_growth": -8.5,
+  "roe": 10.531090972043323,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

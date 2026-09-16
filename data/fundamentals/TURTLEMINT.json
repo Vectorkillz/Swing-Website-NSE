@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2003100.0,
+  "debt_equity": 0.06062,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:31+00:00",
+  "industry": "Insurance Brokers",
+  "market_cap_cr": null,
+  "name": "Turtlemint Fintech Solutions Limited",
+  "revenue_growth": 38.1,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

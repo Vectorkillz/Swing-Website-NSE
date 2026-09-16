@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4721488.0,
+  "debt_equity": 0.27925,
+  "eps_growth": 47.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:50+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 4315.2396288,
+  "name": "Share India Securities Limited",
+  "revenue_growth": 32.9,
+  "roe": 13.965949321088871,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

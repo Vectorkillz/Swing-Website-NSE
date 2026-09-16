@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7175.0,
+  "debt_equity": 0.7224200000000001,
+  "eps_growth": 135.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:32+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 787.3199616,
+  "name": "Precot Limited",
+  "revenue_growth": 19.1,
+  "roe": 10.640678428670801,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

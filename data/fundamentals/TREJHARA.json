@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28718.0,
+  "debt_equity": 0.0764,
+  "eps_growth": 334.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:10+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 335.2228864,
+  "name": "Trejhara Solutions Limited",
+  "revenue_growth": 682.3000000000001,
+  "roe": 4.032567211397796,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

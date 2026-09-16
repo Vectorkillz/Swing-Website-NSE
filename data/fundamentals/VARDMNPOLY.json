@@ -1,0 +1,15 @@
+{
+  "avg_volume": 298447.0,
+  "debt_equity": null,
+  "eps_growth": 160975.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:42+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 291.5001088,
+  "name": "Vardhman Polytex Limited",
+  "revenue_growth": 2.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

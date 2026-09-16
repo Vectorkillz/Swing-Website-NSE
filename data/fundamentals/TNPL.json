@@ -1,0 +1,15 @@
+{
+  "avg_volume": 286348.0,
+  "debt_equity": 0.69638,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:54:49+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 1038.0205056,
+  "name": "Tamil Nadu Newsprint and Papers Limited",
+  "revenue_growth": 0.4,
+  "roe": 11.265240667626362,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

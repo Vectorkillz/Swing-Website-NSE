@@ -1,0 +1,15 @@
+{
+  "avg_volume": 32925.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:06+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 219.6028928,
+  "name": "Shivam Autotech Limited",
+  "revenue_growth": 20.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9353.0,
+  "debt_equity": 1.72893,
+  "eps_growth": -25.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:08+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": null,
+  "name": "Sambandam Spinning Mills Limited",
+  "revenue_growth": -6.2,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

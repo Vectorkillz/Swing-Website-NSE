@@ -1,0 +1,15 @@
+{
+  "avg_volume": 142924.0,
+  "debt_equity": 0.6907899999999999,
+  "eps_growth": 8.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:06+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 6585.2944384,
+  "name": "Suprajit Engineering Limited",
+  "revenue_growth": 23.9,
+  "roe": 13.010967347477575,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

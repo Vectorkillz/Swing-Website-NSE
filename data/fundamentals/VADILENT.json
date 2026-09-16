@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53.0,
+  "debt_equity": 1.8791200000000001,
+  "eps_growth": 15.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:35+00:00",
+  "industry": "Food Distribution",
+  "market_cap_cr": 896.3120128,
+  "name": "Vadilal Enterprises Limited",
+  "revenue_growth": 36.199999999999996,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 79.0,
+  "debt_equity": 0.15309,
+  "eps_growth": -38.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:42+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 266.252416,
+  "name": "SAB Industries Limited",
+  "revenue_growth": -1.0,
+  "roe": -5.778551679644622,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

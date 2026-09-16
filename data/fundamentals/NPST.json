@@ -1,0 +1,15 @@
+{
+  "avg_volume": 46036.0,
+  "debt_equity": 0.031190000000000002,
+  "eps_growth": 42.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:24+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 3420.5708288,
+  "name": "Network People Services Technologies Limited",
+  "revenue_growth": 68.0,
+  "roe": 16.45897078473589,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

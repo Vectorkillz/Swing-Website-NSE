@@ -7,6 +7,41 @@
         "candidates_long": 1,
         "candidates_short": 37,
         "data_unavailable": 251,
+        "fundamentals_missing": 56,
+        "grade_a": 28,
+        "grade_ap": 9,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 1,
+        "multibagger_strong": 92,
+        "multibagger_watch": 25,
+        "no_setup": 354,
+        "ranked_long": 1,
+        "ranked_short": 10,
+        "rejected_gate": 1608,
+        "scanned": 2307,
+        "swing_suitable": 864,
+        "universe": 2307,
+        "usable": 2056,
+        "warnings": [
+          "degraded:coverage 89.1% < 90%"
+        ]
+      },
+      "duration_s": 202.4,
+      "finished_at": "2026-09-16T05:03:46+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-15_v003_0d84dc6e",
+      "started_at": "2026-09-16T05:00:24+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
+        "candidates_long": 1,
+        "candidates_short": 37,
+        "data_unavailable": 251,
         "fundamentals_missing": 1126,
         "grade_a": 28,
         "grade_ap": 9,
@@ -69,6 +104,22 @@
       "run_id": "2026-09-15_v003_b600f6cb",
       "started_at": "2026-09-15T14:06:31+00:00",
       "status": "degraded"
+    },
+    {
+      "counters": {
+        "failed": 26,
+        "fetched": 2071,
+        "shard": "0/1",
+        "skipped_fresh": 210,
+        "symbols": 2307
+      },
+      "duration_s": 54137.7,
+      "finished_at": "2026-09-16T04:59:35+00:00",
+      "job": "refresh_fundamentals",
+      "n_errors": 26,
+      "run_id": null,
+      "started_at": "2026-09-15T13:57:22+00:00",
+      "status": "partial"
     },
     {
       "counters": {

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 215281.0,
+  "debt_equity": 0.63733,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:29+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 168.93536,
+  "name": "T.T. Limited",
+  "revenue_growth": -3.5999999999999996,
+  "roe": 0.4156674986585721,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

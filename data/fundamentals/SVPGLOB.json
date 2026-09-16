@@ -1,0 +1,15 @@
+{
+  "avg_volume": 34770.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:31+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 42.8835008,
+  "name": "SVP Global Textiles Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

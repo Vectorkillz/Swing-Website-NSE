@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1622349.0,
+  "debt_equity": 0.41552,
+  "eps_growth": 301.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:27+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1630.0700672,
+  "name": "Renaissance Global Limited",
+  "revenue_growth": 47.199999999999996,
+  "roe": 7.228145293916648,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

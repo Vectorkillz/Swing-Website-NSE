@@ -1,0 +1,15 @@
+{
+  "avg_volume": 120044.0,
+  "debt_equity": 0.23806999999999998,
+  "eps_growth": 23.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:45+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 176.804928,
+  "name": "Texmo Pipes and Products Limited",
+  "revenue_growth": 11.600000000000001,
+  "roe": 5.633129985111487,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

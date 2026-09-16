@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1387989.0,
+  "debt_equity": 0.10365,
+  "eps_growth": 25.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:22+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 8872.3914752,
+  "name": "Standard Engineering Technology Limited",
+  "revenue_growth": 43.1,
+  "roe": 10.868237202300454,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

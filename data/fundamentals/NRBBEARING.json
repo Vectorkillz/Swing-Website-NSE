@@ -1,0 +1,15 @@
+{
+  "avg_volume": 509002.0,
+  "debt_equity": 0.15653,
+  "eps_growth": 14.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:27+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 4660.5234176,
+  "name": "NRB Bearings Limited",
+  "revenue_growth": 19.2,
+  "roe": 15.322676942392757,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

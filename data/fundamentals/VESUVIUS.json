@@ -1,0 +1,15 @@
+{
+  "avg_volume": 85166.0,
+  "debt_equity": 0.00821,
+  "eps_growth": -7.3999999999999995,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:04+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 8128.5799936,
+  "name": "Vesuvius India Limited",
+  "revenue_growth": 2.3,
+  "roe": 14.660917695826939,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 126603.0,
+  "debt_equity": 0.26499,
+  "eps_growth": 59.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:56+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 3021.2595712,
+  "name": "Nilkamal Limited",
+  "revenue_growth": -7.199999999999999,
+  "roe": 7.9025967413602665,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

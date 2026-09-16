@@ -1,0 +1,15 @@
+{
+  "avg_volume": 288017095.0,
+  "debt_equity": 0.14271,
+  "eps_growth": 43.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:11+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 12570.5019392,
+  "name": "PC Jeweller Limited",
+  "revenue_growth": 21.0,
+  "roe": 7.429163320611609,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

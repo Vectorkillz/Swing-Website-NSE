@@ -1,0 +1,15 @@
+{
+  "avg_volume": 36985.0,
+  "debt_equity": 2.0192099999999997,
+  "eps_growth": -6.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:15+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 122.2040064,
+  "name": "Sampann Utpadan India Limited",
+  "revenue_growth": 27.6,
+  "roe": 20.729,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

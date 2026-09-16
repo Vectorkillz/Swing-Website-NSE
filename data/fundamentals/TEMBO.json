@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2134388.0,
+  "debt_equity": 0.78443,
+  "eps_growth": -9.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:37+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 1074.6006528,
+  "name": "Tembo Global Industries Limited",
+  "revenue_growth": 21.9,
+  "roe": 17.336423655979395,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

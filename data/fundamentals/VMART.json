@@ -1,0 +1,15 @@
+{
+  "avg_volume": 150307.0,
+  "debt_equity": 1.00682,
+  "eps_growth": 40.400000000000006,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:54+00:00",
+  "industry": "Department Stores",
+  "market_cap_cr": 6210.8594176,
+  "name": "V-Mart Retail Limited",
+  "revenue_growth": 23.0,
+  "roe": 14.447220958130833,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

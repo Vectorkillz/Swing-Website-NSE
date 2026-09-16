@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44923.0,
+  "debt_equity": 0.51503,
+  "eps_growth": 80.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:58+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 206.5963264,
+  "name": "Sintercom India Limited",
+  "revenue_growth": 17.9,
+  "roe": 1.6370919409231193,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

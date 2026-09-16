@@ -1,0 +1,15 @@
+{
+  "avg_volume": 38827.0,
+  "debt_equity": null,
+  "eps_growth": -70.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:27+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 460.823296,
+  "name": "Oswal Agro Mills Limited",
+  "revenue_growth": -76.9,
+  "roe": -3.828679455009773,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

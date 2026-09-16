@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13817.0,
+  "debt_equity": 5.09488,
+  "eps_growth": 74.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:30+00:00",
+  "industry": "Trucking",
+  "market_cap_cr": 908.46208,
+  "name": "Shree Vasu Logistics Limited",
+  "revenue_growth": 30.2,
+  "roe": 17.957687843664367,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

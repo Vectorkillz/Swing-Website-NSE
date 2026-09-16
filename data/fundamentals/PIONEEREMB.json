@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16856.0,
+  "debt_equity": 0.58416,
+  "eps_growth": -88.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:40+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 64.3734592,
+  "name": "Pioneer Embroideries Limited",
+  "revenue_growth": 12.3,
+  "roe": -0.21445060656606904,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

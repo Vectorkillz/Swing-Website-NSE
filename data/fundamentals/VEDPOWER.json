@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33693445.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-16T04:56:53+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 12180.9657856,
+  "name": "Vedanta Power Limited",
+  "revenue_growth": 31.0,
+  "roe": 0.8750000000000001,
+  "roe_source": "returnOnEquity",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

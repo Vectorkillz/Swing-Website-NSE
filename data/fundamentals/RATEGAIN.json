@@ -1,0 +1,15 @@
+{
+  "avg_volume": 508226.0,
+  "debt_equity": 0.47296,
+  "eps_growth": 101.49999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:53+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 10405.462016,
+  "name": "RateGain Travel Technologies Limited",
+  "revenue_growth": 187.6,
+  "roe": 12.049432365446458,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

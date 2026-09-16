@@ -1,0 +1,15 @@
+{
+  "avg_volume": 186869.0,
+  "debt_equity": 0.14644000000000001,
+  "eps_growth": 26.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:47+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 180.7598848,
+  "name": "Silgo Retail Limited",
+  "revenue_growth": 10.7,
+  "roe": 4.911475832365852,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

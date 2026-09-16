@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3102155.0,
+  "debt_equity": 0.37962,
+  "eps_growth": -0.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:36+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 7786.2281216,
+  "name": "Sonata Software Limited",
+  "revenue_growth": 10.6,
+  "roe": 24.317677342803478,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

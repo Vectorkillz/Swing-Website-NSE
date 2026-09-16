@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7957277.0,
+  "debt_equity": 0.69977,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:18+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 26960.1521664,
+  "name": "Piramal Pharma Limited",
+  "revenue_growth": 17.4,
+  "roe": -3.848507310883224,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

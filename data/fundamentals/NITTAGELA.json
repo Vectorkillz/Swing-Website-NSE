@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11606.0,
+  "debt_equity": 0.008199999999999999,
+  "eps_growth": 31.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:09+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1537.101824,
+  "name": "Nitta Gelatin India Limited",
+  "revenue_growth": -0.3,
+  "roe": 20.318259873129783,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 158896.0,
+  "debt_equity": 0.30705,
+  "eps_growth": 19.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:32+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 879.8114816,
+  "name": "Zuari Agro Chemicals Limited",
+  "revenue_growth": -50.6,
+  "roe": 37.13942232136344,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

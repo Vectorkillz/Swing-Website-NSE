@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33702.0,
+  "debt_equity": 0.64482,
+  "eps_growth": 164.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:39+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 3593.836544,
+  "name": "TVS Srichakra Limited",
+  "revenue_growth": 30.3,
+  "roe": 7.761507021598277,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

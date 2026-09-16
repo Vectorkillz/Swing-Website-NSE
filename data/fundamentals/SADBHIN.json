@@ -1,0 +1,15 @@
+{
+  "avg_volume": 147749.0,
+  "debt_equity": null,
+  "eps_growth": 179.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:45+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 86.9996288,
+  "name": "Sadbhav Infrastructure Project Limited",
+  "revenue_growth": 7.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

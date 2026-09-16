@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22466.0,
+  "debt_equity": 0.26995,
+  "eps_growth": -0.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:43+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 298.220544,
+  "name": "Tera Software Limited",
+  "revenue_growth": 52.300000000000004,
+  "roe": 16.99040033447928,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

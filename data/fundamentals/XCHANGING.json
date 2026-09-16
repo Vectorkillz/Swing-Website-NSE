@@ -1,0 +1,15 @@
+{
+  "avg_volume": 105359.0,
+  "debt_equity": 0.17954,
+  "eps_growth": 9.700000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:59+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 700.729344,
+  "name": "Xchanging Solutions Limited",
+  "revenue_growth": 7.3,
+  "roe": 15.327831385802126,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

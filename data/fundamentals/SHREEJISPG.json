@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1048512.0,
+  "debt_equity": 0.36166,
+  "eps_growth": 7.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:18+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 11143.6087296,
+  "name": "Shreeji Shipping Global Limited",
+  "revenue_growth": 29.599999999999998,
+  "roe": 20.739583719360095,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

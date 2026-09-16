@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10712.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:04+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1265.4563328,
+  "name": "Uniphos Enterprises Limited",
+  "revenue_growth": -97.2,
+  "roe": 0.4139601875624388,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

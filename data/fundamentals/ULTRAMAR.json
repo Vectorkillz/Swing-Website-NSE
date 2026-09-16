@@ -1,0 +1,15 @@
+{
+  "avg_volume": 84115.0,
+  "debt_equity": 0.09891,
+  "eps_growth": 56.599999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:56+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1226.6919936,
+  "name": "Ultramarine & Pigments Limited",
+  "revenue_growth": 30.099999999999998,
+  "roe": 10.595892756126567,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

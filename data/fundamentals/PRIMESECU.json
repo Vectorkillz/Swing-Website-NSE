@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37993.0,
+  "debt_equity": 0.00582,
+  "eps_growth": -78.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:40+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 942.398976,
+  "name": "Prime Securities Limited",
+  "revenue_growth": -28.799999999999997,
+  "roe": 2.7219458478576763,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

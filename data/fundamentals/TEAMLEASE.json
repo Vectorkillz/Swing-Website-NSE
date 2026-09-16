@@ -1,0 +1,15 @@
+{
+  "avg_volume": 34042.0,
+  "debt_equity": 0.10971,
+  "eps_growth": 31.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:27+00:00",
+  "industry": "Staffing & Employment Services",
+  "market_cap_cr": 1879.0008832,
+  "name": "TeamLease Services Limited",
+  "revenue_growth": 5.0,
+  "roe": 15.571903988173318,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

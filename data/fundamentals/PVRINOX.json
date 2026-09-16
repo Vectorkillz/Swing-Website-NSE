@@ -1,0 +1,15 @@
+{
+  "avg_volume": 484416.0,
+  "debt_equity": 0.91874,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:06+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 11990.2150656,
+  "name": "PVR INOX Limited",
+  "revenue_growth": 10.4,
+  "roe": 3.810002404939884,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

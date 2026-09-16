@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2326051.0,
+  "debt_equity": 0.25007999999999997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:55+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 4335.1293952,
+  "name": "Sindhu Trade Links Limited",
+  "revenue_growth": -21.9,
+  "roe": 3.5159999999999996,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

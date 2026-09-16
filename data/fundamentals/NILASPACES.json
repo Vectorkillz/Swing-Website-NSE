@@ -1,0 +1,15 @@
+{
+  "avg_volume": 803148.0,
+  "debt_equity": 0.46031,
+  "eps_growth": 40.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:53+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 481.7265152,
+  "name": "Nila Spaces Limited",
+  "revenue_growth": 14.299999999999999,
+  "roe": 17.743811722567422,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

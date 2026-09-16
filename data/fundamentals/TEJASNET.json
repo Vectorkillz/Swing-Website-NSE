@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3768760.0,
+  "debt_equity": 1.4252,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:35+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 9271.271424,
+  "name": "Tejas Networks Limited",
+  "revenue_growth": 99.1,
+  "roe": -31.274599856856465,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

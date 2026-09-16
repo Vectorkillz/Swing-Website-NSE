@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9868.0,
+  "debt_equity": 0.20434999999999998,
+  "eps_growth": 51.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:32+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 303.0023936,
+  "name": "Robust Hotels Limited",
+  "revenue_growth": 1.7999999999999998,
+  "roe": 3.614502285317384,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

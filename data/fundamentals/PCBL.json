@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2142223.0,
+  "debt_equity": 1.24132,
+  "eps_growth": 58.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:10+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 12356.6923776,
+  "name": "PCBL Chemical Limited",
+  "revenue_growth": 17.0,
+  "roe": 6.459551861275958,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

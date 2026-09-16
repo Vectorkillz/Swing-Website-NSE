@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1328235.0,
+  "debt_equity": 1.16754,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:21+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 1815.7637632,
+  "name": "STL Networks Limited",
+  "revenue_growth": -9.2,
+  "roe": -12.313584938252072,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

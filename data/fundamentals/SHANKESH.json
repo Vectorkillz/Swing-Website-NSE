@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16740376.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:38:42+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1387.241472,
+  "name": "Shankesh Jewellers Limited",
+  "revenue_growth": null,
+  "roe": 68.821,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

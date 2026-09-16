@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16289.0,
+  "debt_equity": 0.37099,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:05+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 187.2375808,
+  "name": "Superhouse Limited",
+  "revenue_growth": 0.1,
+  "roe": 1.5101299520959088,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

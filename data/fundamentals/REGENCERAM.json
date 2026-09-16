@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12010.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:10+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 89.9013952,
+  "name": "Regency Ceramics Limited",
+  "revenue_growth": 172.70000000000002,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

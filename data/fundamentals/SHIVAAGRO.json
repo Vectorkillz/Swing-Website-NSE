@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5441.0,
+  "debt_equity": 0.21163,
+  "eps_growth": -15.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:02+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 37.873472,
+  "name": "Shiva Global Agro Industries Limited",
+  "revenue_growth": 17.4,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

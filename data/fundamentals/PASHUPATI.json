@@ -1,0 +1,15 @@
+{
+  "avg_volume": 93272.0,
+  "debt_equity": 0.6010300000000001,
+  "eps_growth": 265.09999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:00+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 1263.3513984,
+  "name": "Pashupati Cotspin Limited",
+  "revenue_growth": 9.700000000000001,
+  "roe": 9.164849521039113,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

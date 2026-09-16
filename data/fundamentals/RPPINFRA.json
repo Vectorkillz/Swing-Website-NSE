@@ -1,0 +1,15 @@
+{
+  "avg_volume": 189252.0,
+  "debt_equity": 0.19713999999999998,
+  "eps_growth": -74.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:06+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 271.3341696,
+  "name": "R.P.P. Infra Projects Limited",
+  "revenue_growth": 0.0,
+  "roe": -0.11591850831118003,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

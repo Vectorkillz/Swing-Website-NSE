@@ -1,0 +1,15 @@
+{
+  "avg_volume": 172237.0,
+  "debt_equity": 0.21739,
+  "eps_growth": 119.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:57+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2496.9121792,
+  "name": "Sakar Healthcare Limited",
+  "revenue_growth": 38.4,
+  "roe": 11.266041926652488,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

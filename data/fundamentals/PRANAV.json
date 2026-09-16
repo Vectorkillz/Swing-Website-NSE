@@ -1,0 +1,15 @@
+{
+  "avg_volume": null,
+  "debt_equity": 1.11199,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:33:26+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": null,
+  "name": null,
+  "revenue_growth": null,
+  "roe": 33.778998,
+  "roe_source": "returnOnEquity",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

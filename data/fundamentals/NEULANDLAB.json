@@ -1,0 +1,15 @@
+{
+  "avg_volume": 65569.0,
+  "debt_equity": 0.16072,
+  "eps_growth": 962.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:31+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 28989.1352576,
+  "name": "Neuland Laboratories Limited",
+  "revenue_growth": 119.19999999999999,
+  "roe": 0.7392906763783519,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

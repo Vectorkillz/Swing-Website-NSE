@@ -1,0 +1,15 @@
+{
+  "avg_volume": 184298.0,
+  "debt_equity": 0.02626,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:44+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 1453.5550976,
+  "name": "Texmaco Infrastructure & Holdings Limited",
+  "revenue_growth": -10.8,
+  "roe": 0.8093179481800037,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

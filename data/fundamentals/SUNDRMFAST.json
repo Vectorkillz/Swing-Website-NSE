@@ -1,0 +1,15 @@
+{
+  "avg_volume": 206910.0,
+  "debt_equity": 0.14532,
+  "eps_growth": 13.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:52+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 25999.1846912,
+  "name": "Sundram Fasteners Limited",
+  "revenue_growth": 20.4,
+  "roe": 14.297408274992286,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 461725.0,
+  "debt_equity": 2.82325,
+  "eps_growth": 15.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:35+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 30769.7975296,
+  "name": "Nuvama Wealth Management Limited",
+  "revenue_growth": 22.5,
+  "roe": 25.925631645076386,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

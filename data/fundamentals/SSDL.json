@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53722.0,
+  "debt_equity": 0.0032,
+  "eps_growth": 5.6000000000000005,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:03+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": 238.4699904,
+  "name": "Saraswati Saree Depot Limited",
+  "revenue_growth": 1.9,
+  "roe": 12.482554632731466,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

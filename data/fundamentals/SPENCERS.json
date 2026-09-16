@@ -1,0 +1,15 @@
+{
+  "avg_volume": 49864.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:47+00:00",
+  "industry": "Department Stores",
+  "market_cap_cr": 251.8288384,
+  "name": "Spencer's Retail Limited",
+  "revenue_growth": 12.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

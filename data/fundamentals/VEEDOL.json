@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12138.0,
+  "debt_equity": 0.01534,
+  "eps_growth": 56.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:54+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 2331.0149632,
+  "name": "Veedol Corporation Limited",
+  "revenue_growth": 18.5,
+  "roe": 21.230951583233615,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

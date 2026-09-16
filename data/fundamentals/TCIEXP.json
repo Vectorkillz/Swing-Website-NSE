@@ -1,0 +1,15 @@
+{
+  "avg_volume": 207362.0,
+  "debt_equity": 0.07738,
+  "eps_growth": 1.4000000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:20+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 1900.2949632,
+  "name": "TCI Express Limited",
+  "revenue_growth": 9.3,
+  "roe": 10.063008788741497,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

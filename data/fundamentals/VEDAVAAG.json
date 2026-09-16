@@ -1,0 +1,15 @@
+{
+  "avg_volume": 97927.0,
+  "debt_equity": 0.009000000000000001,
+  "eps_growth": -48.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:51+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 48.1720032,
+  "name": "Vedavaag Systems Limited",
+  "revenue_growth": -28.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

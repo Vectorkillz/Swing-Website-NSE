@@ -1,0 +1,15 @@
+{
+  "avg_volume": 116856.0,
+  "debt_equity": 0.40676,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:01+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 2948.585472,
+  "name": "Xpro India Limited",
+  "revenue_growth": 20.4,
+  "roe": 4.299189167706071,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

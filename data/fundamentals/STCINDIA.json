@@ -1,0 +1,15 @@
+{
+  "avg_volume": 122162.0,
+  "debt_equity": null,
+  "eps_growth": 922.1999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:14+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 667.5600384,
+  "name": "The State Trading Corporation of India Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

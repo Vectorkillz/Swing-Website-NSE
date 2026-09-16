@@ -1,0 +1,15 @@
+{
+  "avg_volume": 405954.0,
+  "debt_equity": 18.549590000000002,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:40+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 9209.1785216,
+  "name": "WeWork India Management Limited",
+  "revenue_growth": 27.700000000000003,
+  "roe": 27.34277471089801,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

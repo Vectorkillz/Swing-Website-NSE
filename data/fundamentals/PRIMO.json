@@ -1,0 +1,15 @@
+{
+  "avg_volume": 205665.0,
+  "debt_equity": 0.32291,
+  "eps_growth": 11.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:41+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 540.6676992,
+  "name": "Primo Chemicals Limited",
+  "revenue_growth": -1.2,
+  "roe": 3.943955432535685,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

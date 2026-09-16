@@ -1,0 +1,15 @@
+{
+  "avg_volume": 317827.0,
+  "debt_equity": 0.5889,
+  "eps_growth": 12.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:34+00:00",
+  "industry": "Beverages - Wineries & Distilleries",
+  "market_cap_cr": 5772.8405504,
+  "name": "Piccadily Agro Industries Limited",
+  "revenue_growth": 17.4,
+  "roe": 15.309142480507518,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

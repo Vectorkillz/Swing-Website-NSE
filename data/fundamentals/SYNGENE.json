@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1042028.0,
+  "debt_equity": 0.09473000000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:44+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 15248.8329216,
+  "name": "Syngene International Limited",
+  "revenue_growth": -15.8,
+  "roe": 4.560142712051607,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

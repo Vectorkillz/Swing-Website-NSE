@@ -1,0 +1,15 @@
+{
+  "avg_volume": 109772.0,
+  "debt_equity": 0.26131,
+  "eps_growth": 4109.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:56+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 3255.780352,
+  "name": "PSP Projects Limited",
+  "revenue_growth": 64.8,
+  "roe": 6.166711636653309,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

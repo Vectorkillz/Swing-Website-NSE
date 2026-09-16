@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23091.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-16T04:54:51+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 41.0672192,
+  "name": "Tamilnadu Telecommunications Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

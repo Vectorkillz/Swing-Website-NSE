@@ -1,0 +1,15 @@
+{
+  "avg_volume": 113190.0,
+  "debt_equity": 0.1235,
+  "eps_growth": 9.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:21+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 590.3289856,
+  "name": "Shree Rama Multi-Tech Limited",
+  "revenue_growth": 45.5,
+  "roe": 15.363828383460874,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

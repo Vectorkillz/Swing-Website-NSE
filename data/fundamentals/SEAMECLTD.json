@@ -1,0 +1,15 @@
+{
+  "avg_volume": 96167.0,
+  "debt_equity": 0.27069,
+  "eps_growth": 7.199999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:04+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 4431.5295744,
+  "name": "Seamec Limited",
+  "revenue_growth": 40.8,
+  "roe": 19.73391053103676,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

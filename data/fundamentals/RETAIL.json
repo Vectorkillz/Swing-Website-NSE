@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5765.0,
+  "debt_equity": 0.39832,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:26+00:00",
+  "industry": "Grocery Stores",
+  "market_cap_cr": 14.5713696,
+  "name": "JHS Svendgaard Retail Ventures Limited",
+  "revenue_growth": 21.5,
+  "roe": -0.27664330055455777,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

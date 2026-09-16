@@ -1,0 +1,15 @@
+{
+  "avg_volume": 241082.0,
+  "debt_equity": 0.47897,
+  "eps_growth": -63.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:44+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 20310.5107968,
+  "name": "The Ramco Cements Limited",
+  "revenue_growth": 9.6,
+  "roe": 7.967494994811839,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

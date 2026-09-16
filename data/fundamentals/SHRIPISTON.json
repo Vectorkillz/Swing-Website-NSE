@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68235.0,
+  "debt_equity": null,
+  "eps_growth": -50.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:27+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 19831.9865856,
+  "name": "SPR Auto Technologies Limited",
+  "revenue_growth": -5.3,
+  "roe": 4.773646106225855,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

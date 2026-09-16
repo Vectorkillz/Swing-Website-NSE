@@ -1,0 +1,15 @@
+{
+  "avg_volume": 69630.0,
+  "debt_equity": 0.01647,
+  "eps_growth": 39.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:40+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 618.8828672,
+  "name": "T.V. Today Network Limited",
+  "revenue_growth": 4.6,
+  "roe": 2.5947671856239993,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

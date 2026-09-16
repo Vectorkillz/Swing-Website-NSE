@@ -1,0 +1,15 @@
+{
+  "avg_volume": 176333.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:36+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 500.0580096,
+  "name": "VISA Chrome Limited",
+  "revenue_growth": 27.700000000000003,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

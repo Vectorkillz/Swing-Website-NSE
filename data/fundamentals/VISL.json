@@ -1,0 +1,15 @@
+{
+  "avg_volume": 51869287.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:43+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 12133.9338752,
+  "name": "Vedanta Iron and Steel Limited",
+  "revenue_growth": 12.3,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

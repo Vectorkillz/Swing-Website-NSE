@@ -1,0 +1,15 @@
+{
+  "avg_volume": 79786.0,
+  "debt_equity": 0.78095,
+  "eps_growth": -7.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:44+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": null,
+  "name": "Uday Jewellery Industries Limited",
+  "revenue_growth": 26.900000000000002,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3304.0,
+  "debt_equity": 1.0274299999999998,
+  "eps_growth": 537.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:17+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": null,
+  "name": "Triton Valves Limited",
+  "revenue_growth": 38.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1518334.0,
+  "debt_equity": 0.23908000000000001,
+  "eps_growth": 6.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:11+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 30831.5160576,
+  "name": "Tata Technologies Limited",
+  "revenue_growth": 33.800000000000004,
+  "roe": 14.195921084998774,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

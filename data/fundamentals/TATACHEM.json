@@ -1,0 +1,15 @@
+{
+  "avg_volume": 678482.0,
+  "debt_equity": 0.36081,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:07+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 18722.0393984,
+  "name": "Tata Chemicals Limited",
+  "revenue_growth": 14.399999999999999,
+  "roe": -10.209379937072212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

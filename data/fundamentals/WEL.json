@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3479294.0,
+  "debt_equity": 1.07754,
+  "eps_growth": 275.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:30+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 940.870144,
+  "name": "Wonder Electricals Limited",
+  "revenue_growth": 50.9,
+  "roe": 13.38610038924176,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

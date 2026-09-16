@@ -1,0 +1,15 @@
+{
+  "avg_volume": 70803.0,
+  "debt_equity": 0.74399,
+  "eps_growth": 36.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:47+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 13485.2263936,
+  "name": "Privi Speciality Chemicals Limited",
+  "revenue_growth": 19.2,
+  "roe": 24.76662886534655,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

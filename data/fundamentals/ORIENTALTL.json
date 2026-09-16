@@ -1,0 +1,15 @@
+{
+  "avg_volume": 86081.0,
+  "debt_equity": 0.028730000000000002,
+  "eps_growth": 36.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:10+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 36.9006464,
+  "name": "Oriental Trimex Limited",
+  "revenue_growth": 363.9,
+  "roe": 1.2521925175377022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

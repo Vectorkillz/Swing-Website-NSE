@@ -1,0 +1,15 @@
+{
+  "avg_volume": 635.0,
+  "debt_equity": 0.54304,
+  "eps_growth": 292.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:53+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 89.925408,
+  "name": "Shervani Industrial Syndicate Limited",
+  "revenue_growth": -36.7,
+  "roe": 0.19740843960384313,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

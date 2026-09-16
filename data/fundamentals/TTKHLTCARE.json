@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35223.0,
+  "debt_equity": 0.021869999999999997,
+  "eps_growth": 63.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:26+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 1517.17376,
+  "name": "TTK Healthcare Limited",
+  "revenue_growth": 13.700000000000001,
+  "roe": 6.6340987089247765,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

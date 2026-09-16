@@ -1,0 +1,15 @@
+{
+  "avg_volume": 139363.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:29+00:00",
+  "industry": "Specialty Retail",
+  "market_cap_cr": 79.5276288,
+  "name": "Praxis Home Retail Limited",
+  "revenue_growth": 13.200000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

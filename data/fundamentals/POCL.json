@@ -1,0 +1,15 @@
+{
+  "avg_volume": 594701.0,
+  "debt_equity": 0.19293,
+  "eps_growth": 34.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:01+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 3320.3900416,
+  "name": "Pondy Oxides And Chemicals Limited",
+  "revenue_growth": 55.1,
+  "roe": 18.08495080755802,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

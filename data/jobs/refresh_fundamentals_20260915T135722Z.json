@@ -1,0 +1,147 @@
+{
+  "counters": {
+    "failed": 26,
+    "fetched": 2071,
+    "shard": "0/1",
+    "skipped_fresh": 210,
+    "symbols": 2307
+  },
+  "duration_s": 54137.7,
+  "errors": [
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "NIFTYFPI"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TFL"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TGBHOTELS"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TGVSL"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THACKER"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THAKDEV"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THANGAMAYL"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THEINVEST"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THEJO"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THELEELA"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THEMISMED"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THERMAX"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THOMASCOOK"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THOMASCOTT"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "THYROCARE"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TI"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIGERLOGS"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIIL"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIMETECHNO"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIMEX"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIMKEN"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TINNARUBR"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIPSFILMS"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIPSMUSIC"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TIRUMALCHM"
+    },
+    {
+      "error": "no_data",
+      "stage": "fundamentals",
+      "symbol": "TITAGARH"
+    }
+  ],
+  "finished_at": "2026-09-16T04:59:35+00:00",
+  "job": "refresh_fundamentals",
+  "n_errors": 26,
+  "started_at": "2026-09-15T13:57:22+00:00",
+  "status": "partial"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2025.0,
+  "debt_equity": 0.00018999999999999998,
+  "eps_growth": 3.5000000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:28+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 2778.4073216,
+  "name": "Nalwa Sons Investments Limited",
+  "revenue_growth": -7.3,
+  "roe": 0.36473947424609976,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

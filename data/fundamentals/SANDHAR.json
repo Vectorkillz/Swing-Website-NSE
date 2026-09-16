@@ -1,0 +1,15 @@
+{
+  "avg_volume": 262325.0,
+  "debt_equity": 0.86084,
+  "eps_growth": 33.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:19+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 3682.5669632,
+  "name": "Sandhar Technologies Limited",
+  "revenue_growth": 26.8,
+  "roe": 15.602384667782953,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

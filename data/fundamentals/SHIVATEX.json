@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7580.0,
+  "debt_equity": 0.5043500000000001,
+  "eps_growth": -24.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:09+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 247.9917056,
+  "name": "Shiva Texyarn Limited",
+  "revenue_growth": -3.1,
+  "roe": 6.618066569398764,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

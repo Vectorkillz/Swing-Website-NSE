@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26076.0,
+  "debt_equity": 0.83572,
+  "eps_growth": -66.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:37+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 856.6682112,
+  "name": "Swelect Energy Systems Limited",
+  "revenue_growth": -26.200000000000003,
+  "roe": 4.526708429778581,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

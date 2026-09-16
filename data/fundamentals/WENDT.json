@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10996.0,
+  "debt_equity": 0.00075,
+  "eps_growth": 63.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:36+00:00",
+  "industry": "Tools & Accessories",
+  "market_cap_cr": 1695.2999936,
+  "name": "Wendt (India) Limited",
+  "revenue_growth": 36.6,
+  "roe": 6.6766455272383505,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

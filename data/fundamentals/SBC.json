@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10294886.0,
+  "debt_equity": 2.83225,
+  "eps_growth": 185.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:47+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 2272.8548352,
+  "name": "SBC Exports Limited",
+  "revenue_growth": 66.3,
+  "roe": 40.84700388497857,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 757551.0,
+  "debt_equity": 0.7146899999999999,
+  "eps_growth": 78.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:19+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 1645.5092224,
+  "name": "Servotech Renewable Power System Limited",
+  "revenue_growth": 57.8,
+  "roe": 13.101201008135583,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

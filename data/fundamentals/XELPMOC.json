@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10915.0,
+  "debt_equity": 0.00922,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:00+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 111.1674112,
+  "name": "Xelpmoc Design and Tech Limited",
+  "revenue_growth": 22.5,
+  "roe": -10.24465290030442,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

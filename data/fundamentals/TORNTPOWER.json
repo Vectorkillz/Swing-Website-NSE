@@ -1,0 +1,15 @@
+{
+  "avg_volume": 376375.0,
+  "debt_equity": 0.7088500000000001,
+  "eps_growth": -12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:54:55+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 64373.6797184,
+  "name": "Torrent Power Limited",
+  "revenue_growth": 2.8000000000000003,
+  "roe": 12.182443704906376,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

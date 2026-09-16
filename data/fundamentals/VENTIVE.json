@@ -1,0 +1,15 @@
+{
+  "avg_volume": 23054.0,
+  "debt_equity": 0.38079,
+  "eps_growth": 200.89999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:58+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 13167.0761472,
+  "name": "Ventive Hospitality Limited",
+  "revenue_growth": 7.000000000000001,
+  "roe": 8.70786215313469,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

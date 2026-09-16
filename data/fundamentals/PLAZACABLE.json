@@ -1,0 +1,15 @@
+{
+  "avg_volume": 66253.0,
+  "debt_equity": 0.24764,
+  "eps_growth": 312.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:51+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 268.550272,
+  "name": "Plaza Wires Limited",
+  "revenue_growth": 38.1,
+  "roe": 8.297713923724997,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

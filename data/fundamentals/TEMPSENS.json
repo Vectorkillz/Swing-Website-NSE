@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9945981.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:43:38+00:00",
+  "industry": "Scientific & Technical Instruments",
+  "market_cap_cr": null,
+  "name": "TEMPSENS INST (INDIA) LTD",
+  "revenue_growth": null,
+  "roe": 14.696000000000002,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2024.0,
+  "debt_equity": 0.46915999999999997,
+  "eps_growth": 5.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:18+00:00",
+  "industry": "Farm Products",
+  "market_cap_cr": 100.2594432,
+  "name": "Norben Tea & Exports Limited",
+  "revenue_growth": 4.6,
+  "roe": -1.3650789004923927,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

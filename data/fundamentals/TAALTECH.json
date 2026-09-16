@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10284.0,
+  "debt_equity": 0.0037199999999999998,
+  "eps_growth": 41.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:46+00:00",
+  "industry": "Airports & Air Services",
+  "market_cap_cr": null,
+  "name": "TAAL Tech Limited",
+  "revenue_growth": 41.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

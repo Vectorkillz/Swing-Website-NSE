@@ -1,0 +1,15 @@
+{
+  "avg_volume": 260437.0,
+  "debt_equity": 3.35612,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:32+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 4185.6118784,
+  "name": "V.I.P. Industries Limited",
+  "revenue_growth": 3.0,
+  "roe": -81.56357421264364,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1640625.0,
+  "debt_equity": 0.00453,
+  "eps_growth": 61.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:15+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 3066.5777152,
+  "name": "NOCIL Limited",
+  "revenue_growth": 19.900000000000002,
+  "roe": 3.7290218973885967,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 78921.0,
+  "debt_equity": 0.42734,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:26+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 696.6729728,
+  "name": "ZIM Laboratories Limited",
+  "revenue_growth": 31.2,
+  "roe": 1.2469439789149237,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

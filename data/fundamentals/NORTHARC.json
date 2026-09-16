@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1392768.0,
+  "debt_equity": 3.1496,
+  "eps_growth": 40.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:20+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 4755.4494464,
+  "name": "Northern Arc Capital Limited",
+  "revenue_growth": 43.9,
+  "roe": 11.272021041441338,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

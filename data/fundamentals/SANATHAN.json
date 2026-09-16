@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67414.0,
+  "debt_equity": 0.8077,
+  "eps_growth": -41.099999999999994,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:16+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 3894.403072,
+  "name": "Sanathan Textiles Limited",
+  "revenue_growth": 79.10000000000001,
+  "roe": 3.238908461115428,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

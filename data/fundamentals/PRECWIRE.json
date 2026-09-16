@@ -1,0 +1,15 @@
+{
+  "avg_volume": 702046.0,
+  "debt_equity": 0.39377,
+  "eps_growth": 67.10000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:33+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 8044.4645376,
+  "name": "Precision Wires India Limited",
+  "revenue_growth": 60.4,
+  "roe": 22.61100985776443,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

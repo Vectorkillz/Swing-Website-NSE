@@ -1,0 +1,15 @@
+{
+  "avg_volume": 532587.0,
+  "debt_equity": 0.19451000000000002,
+  "eps_growth": 148.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:50+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1897.838592,
+  "name": "Silver Touch Technologies Limited",
+  "revenue_growth": 22.3,
+  "roe": 24.627274795453886,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

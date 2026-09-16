@@ -1,0 +1,15 @@
+{
+  "avg_volume": 900895.0,
+  "debt_equity": 0.42284,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:51+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 32272.5707776,
+  "name": "Wockhardt Limited",
+  "revenue_growth": 25.900000000000002,
+  "roe": 8.26792023405548,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

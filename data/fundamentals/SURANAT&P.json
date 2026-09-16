@@ -1,0 +1,15 @@
+{
+  "avg_volume": 79536.0,
+  "debt_equity": 0.34438,
+  "eps_growth": 350.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:17+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 214.6365184,
+  "name": "Surana Telecom and Power Limited",
+  "revenue_growth": -15.6,
+  "roe": 20.369395324161683,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

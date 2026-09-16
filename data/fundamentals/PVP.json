@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1879049.0,
+  "debt_equity": 0.64735,
+  "eps_growth": 4500.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:05+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 1603.5658752,
+  "name": "PVP Ventures Limited",
+  "revenue_growth": 165.2,
+  "roe": 2.2888109456889008,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

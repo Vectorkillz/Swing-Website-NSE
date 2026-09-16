@@ -1,0 +1,15 @@
+{
+  "avg_volume": 54910.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:03+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": null,
+  "name": "Shiva Cement Limited",
+  "revenue_growth": 43.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

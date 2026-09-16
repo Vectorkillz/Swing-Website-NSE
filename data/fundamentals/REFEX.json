@@ -1,0 +1,15 @@
+{
+  "avg_volume": 629577.0,
+  "debt_equity": 0.14917999999999998,
+  "eps_growth": 207.10000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:08+00:00",
+  "industry": "Thermal Coal",
+  "market_cap_cr": 3648.2207744,
+  "name": "Refex Industries Limited",
+  "revenue_growth": 139.1,
+  "roe": 18.99441244941385,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

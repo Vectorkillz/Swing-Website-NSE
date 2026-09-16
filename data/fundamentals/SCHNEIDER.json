@@ -1,0 +1,15 @@
+{
+  "avg_volume": 446498.0,
+  "debt_equity": 0.70795,
+  "eps_growth": -69.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:57+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 28527.5029504,
+  "name": "Schneider Electric Infrastructure Limited",
+  "revenue_growth": 4.8,
+  "roe": 23.699027251520658,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

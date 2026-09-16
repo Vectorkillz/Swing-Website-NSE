@@ -1,0 +1,15 @@
+{
+  "avg_volume": 234227.0,
+  "debt_equity": 3.15597,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:58+00:00",
+  "industry": "Confectioners",
+  "market_cap_cr": 225.537792,
+  "name": "Sakthi Sugars Limited",
+  "revenue_growth": 24.6,
+  "roe": -78.26616866585206,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

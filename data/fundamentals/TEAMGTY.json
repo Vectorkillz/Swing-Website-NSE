@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3473.0,
+  "debt_equity": null,
+  "eps_growth": 67.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:25+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 211.410944,
+  "name": "Team India Guaranty Limited",
+  "revenue_growth": 124.50000000000001,
+  "roe": 2.4267852455964705,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

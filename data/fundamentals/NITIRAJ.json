@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5111.0,
+  "debt_equity": 0.00028000000000000003,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:30:07+00:00",
+  "industry": "Scientific & Technical Instruments",
+  "market_cap_cr": 231.5803392,
+  "name": "Nitiraj Engineers Limited",
+  "revenue_growth": -63.800000000000004,
+  "roe": 1.284,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

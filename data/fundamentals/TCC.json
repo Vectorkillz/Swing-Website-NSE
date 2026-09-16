@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2458893.0,
+  "debt_equity": 0.17689,
+  "eps_growth": -7.199999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:17+00:00",
+  "industry": "",
+  "market_cap_cr": null,
+  "name": "TCC Concept Limited",
+  "revenue_growth": 480.19999999999993,
+  "roe": null,
+  "roe_source": null,
+  "sector": "",
+  "source": "yfinance.Ticker.info"
+}

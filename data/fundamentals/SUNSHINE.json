@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4461965.0,
+  "debt_equity": 0.10916000000000001,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:42:01+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 1040.2137088,
+  "name": "Sunshine Pictures Limited",
+  "revenue_growth": null,
+  "roe": 32.256,
+  "roe_source": "returnOnEquity",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1800472.0,
+  "debt_equity": 1.07377,
+  "eps_growth": -3.3000000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:15+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 5513.6280576,
+  "name": "Senco Gold Limited",
+  "revenue_growth": 67.30000000000001,
+  "roe": 22.695047340878972,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

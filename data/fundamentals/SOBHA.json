@@ -1,0 +1,15 @@
+{
+  "avg_volume": 170070.0,
+  "debt_equity": 0.2462,
+  "eps_growth": 274.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:23+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 12756.3833344,
+  "name": "Sobha Limited",
+  "revenue_growth": 50.0,
+  "roe": 4.8873745109124735,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

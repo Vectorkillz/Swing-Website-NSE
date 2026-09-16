@@ -1,0 +1,15 @@
+{
+  "avg_volume": 10154374.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:41+00:00",
+  "industry": "Insurance - Diversified",
+  "market_cap_cr": 30555.570176,
+  "name": "The New India Assurance Company Limited",
+  "revenue_growth": 1.5,
+  "roe": 1.995981136815872,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

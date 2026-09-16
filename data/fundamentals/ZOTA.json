@@ -1,0 +1,15 @@
+{
+  "avg_volume": 74346.0,
+  "debt_equity": 0.38847000000000004,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:30+00:00",
+  "industry": "Biotechnology",
+  "market_cap_cr": 3823.437824,
+  "name": "Zota Health Care Limited",
+  "revenue_growth": 67.60000000000001,
+  "roe": -14.877708535674246,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

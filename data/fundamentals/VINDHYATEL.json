@@ -1,0 +1,15 @@
+{
+  "avg_volume": 82180.0,
+  "debt_equity": 0.34118000000000004,
+  "eps_growth": 76.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:25+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 3022.3255552,
+  "name": "Vindhya Telelinks Limited",
+  "revenue_growth": -20.8,
+  "roe": 5.511133765643189,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

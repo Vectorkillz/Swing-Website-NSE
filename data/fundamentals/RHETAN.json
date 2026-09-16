@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11861673.0,
+  "debt_equity": 0.38419,
+  "eps_growth": 300.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:29+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 1817.6718848,
+  "name": "Rhetan TMT Limited",
+  "revenue_growth": -19.3,
+  "roe": 11.691027577575417,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

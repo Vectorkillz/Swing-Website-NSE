@@ -1,0 +1,15 @@
+{
+  "avg_volume": 650.0,
+  "debt_equity": 2.09909,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:10+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 325.4349056,
+  "name": "RDB Real Estate Constructions Limited",
+  "revenue_growth": 98.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

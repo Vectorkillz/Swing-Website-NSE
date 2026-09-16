@@ -1,0 +1,15 @@
+{
+  "avg_volume": 605982.0,
+  "debt_equity": 3.6624,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:17+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 2956.5865984,
+  "name": "Ravindra Energy Limited",
+  "revenue_growth": -34.0,
+  "roe": 12.76508605777791,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

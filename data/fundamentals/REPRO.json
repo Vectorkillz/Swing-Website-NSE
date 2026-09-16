@@ -1,0 +1,15 @@
+{
+  "avg_volume": 20869.0,
+  "debt_equity": 0.53066,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:23+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 425.1958016,
+  "name": "Repro India Limited",
+  "revenue_growth": 20.1,
+  "roe": 28.027551732390354,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

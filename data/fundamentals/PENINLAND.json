@@ -1,0 +1,15 @@
+{
+  "avg_volume": 119889.0,
+  "debt_equity": 4.607200000000001,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:19+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 496.9288704,
+  "name": "Peninsula Land Limited",
+  "revenue_growth": -37.5,
+  "roe": -219.36638405901024,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

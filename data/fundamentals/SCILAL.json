@@ -1,0 +1,15 @@
+{
+  "avg_volume": 207834.0,
+  "debt_equity": 3e-05,
+  "eps_growth": -3.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:59+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 1739.2934912,
+  "name": "Shipping Corporation of India Land and Assets Limited",
+  "revenue_growth": 37.7,
+  "roe": 0.8552464741379545,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

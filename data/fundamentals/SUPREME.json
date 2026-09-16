@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67194.0,
+  "debt_equity": 0.0106,
+  "eps_growth": 400.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:07+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 127.9708416,
+  "name": "Supreme Holdings & Hospitality (India) Limited",
+  "revenue_growth": 1284.1,
+  "roe": 0.1786154617378042,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

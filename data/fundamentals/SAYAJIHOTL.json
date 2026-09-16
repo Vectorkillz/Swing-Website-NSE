@@ -1,0 +1,15 @@
+{
+  "avg_volume": 239.0,
+  "debt_equity": 0.81223,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:44+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 565.305088,
+  "name": "Sayaji Hotels Limited",
+  "revenue_growth": -43.7,
+  "roe": -0.5724632590826331,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

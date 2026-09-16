@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1452817.0,
+  "debt_equity": 0.34127,
+  "eps_growth": -99.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:57+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 6628.1897984,
+  "name": "Raymond Limited",
+  "revenue_growth": 15.5,
+  "roe": 1.3034539943935466,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

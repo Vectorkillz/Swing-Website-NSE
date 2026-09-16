@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1303954.0,
+  "debt_equity": 1.63316,
+  "eps_growth": 23.200000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:16+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1715.823616,
+  "name": "SMC Global Securities Limited",
+  "revenue_growth": 24.8,
+  "roe": 8.347716914474969,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

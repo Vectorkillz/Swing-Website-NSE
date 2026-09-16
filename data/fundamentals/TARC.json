@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1731330.0,
+  "debt_equity": 1.7838,
+  "eps_growth": -58.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:59+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 3736.2143232,
+  "name": "TARC Limited",
+  "revenue_growth": 186.1,
+  "roe": -1.2940315648429603,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

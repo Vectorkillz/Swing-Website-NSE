@@ -1,0 +1,15 @@
+{
+  "avg_volume": 845983.0,
+  "debt_equity": 0.07548,
+  "eps_growth": 625.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:42+00:00",
+  "industry": "Oil & Gas Refining & Marketing",
+  "market_cap_cr": 2726.7489792,
+  "name": "Panama Petrochem Limited",
+  "revenue_growth": 150.29999999999998,
+  "roe": 32.5999829489654,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

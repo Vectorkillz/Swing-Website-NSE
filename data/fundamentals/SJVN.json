@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2040883.0,
+  "debt_equity": 2.2652799999999997,
+  "eps_growth": -1.7000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:05+00:00",
+  "industry": "Utilities - Renewable",
+  "market_cap_cr": 25378.6177536,
+  "name": "SJVN Limited",
+  "revenue_growth": 52.0,
+  "roe": 4.492638526177831,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 50162.0,
+  "debt_equity": 0.16566,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:33+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 110.6624128,
+  "name": "Somi Conveyor Beltings Limited",
+  "revenue_growth": -40.5,
+  "roe": 5.418708672679135,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

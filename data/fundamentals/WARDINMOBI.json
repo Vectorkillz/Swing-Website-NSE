@@ -1,0 +1,15 @@
+{
+  "avg_volume": 309841.0,
+  "debt_equity": 1.01625,
+  "eps_growth": -75.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:22+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": null,
+  "name": "Wardwizard Innovations & Mobility Limited",
+  "revenue_growth": 67.10000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

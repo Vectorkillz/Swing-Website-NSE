@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27386.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:58+00:00",
+  "industry": null,
+  "market_cap_cr": 328.4185088,
+  "name": "Nimbus Projects Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": null,
+  "source": "yfinance.Ticker.info"
+}

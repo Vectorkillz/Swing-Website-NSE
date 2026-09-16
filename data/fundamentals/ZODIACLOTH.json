@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14133.0,
+  "debt_equity": 0.5875,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:28+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 189.7356928,
+  "name": "Zodiac Clothing Company Limited",
+  "revenue_growth": -14.799999999999999,
+  "roe": -18.255957255001796,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

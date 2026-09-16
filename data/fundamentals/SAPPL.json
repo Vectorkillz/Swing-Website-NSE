@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1305.0,
+  "debt_equity": 0.9219499999999999,
+  "eps_growth": 162.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:32+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 255.8264576,
+  "name": "Shree Ajit Pulp and Paper Limited",
+  "revenue_growth": 13.600000000000001,
+  "roe": 14.938638038322196,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

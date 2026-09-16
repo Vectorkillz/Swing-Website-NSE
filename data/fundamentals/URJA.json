@@ -1,0 +1,15 @@
+{
+  "avg_volume": 928375.0,
+  "debt_equity": 0.24759,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:21+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 489.2268544,
+  "name": "Urja Global Limited",
+  "revenue_growth": -26.6,
+  "roe": 0.6745917934871661,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

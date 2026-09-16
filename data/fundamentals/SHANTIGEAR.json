@@ -1,0 +1,15 @@
+{
+  "avg_volume": 369074.0,
+  "debt_equity": null,
+  "eps_growth": -56.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:45+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 5212.5855744,
+  "name": "Shanthi Gears Limited",
+  "revenue_growth": -14.399999999999999,
+  "roe": 14.5026510135016,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

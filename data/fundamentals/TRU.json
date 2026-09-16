@@ -1,0 +1,15 @@
+{
+  "avg_volume": 140225.0,
+  "debt_equity": 6.495259999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:22+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 49.3276768,
+  "name": "TruCap Finance Limited",
+  "revenue_growth": -90.9,
+  "roe": -153.68485705806677,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

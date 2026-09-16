@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11388112.0,
+  "debt_equity": null,
+  "eps_growth": 216.29999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:41+00:00",
+  "industry": "Aluminum",
+  "market_cap_cr": 158176.8638464,
+  "name": "Vedanta Aluminium Metal Limited",
+  "revenue_growth": 46.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 958899.0,
+  "debt_equity": 0.10656,
+  "eps_growth": 59.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:14+00:00",
+  "industry": "Staffing & Employment Services",
+  "market_cap_cr": 5110.4923648,
+  "name": "Quess Corp Limited",
+  "revenue_growth": 14.499999999999998,
+  "roe": 21.622225669156332,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 854115.0,
+  "debt_equity": 0.02476,
+  "eps_growth": -21.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:19+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 17128.3693568,
+  "name": "Triveni Turbine Limited",
+  "revenue_growth": 19.2,
+  "roe": 23.224187934156056,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

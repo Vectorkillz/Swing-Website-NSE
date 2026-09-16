@@ -1,0 +1,15 @@
+{
+  "avg_volume": 247647.0,
+  "debt_equity": 0.24755,
+  "eps_growth": 16.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:36+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 14634.7687936,
+  "name": "Shaily Engineering Plastics Limited",
+  "revenue_growth": 13.8,
+  "roe": 24.648261244897945,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6565.0,
+  "debt_equity": 0.55906,
+  "eps_growth": -38.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:20+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": null,
+  "name": "Permanent Magnets Limited",
+  "revenue_growth": 18.099999999999998,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

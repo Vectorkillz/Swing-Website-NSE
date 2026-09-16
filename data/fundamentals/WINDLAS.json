@@ -1,0 +1,15 @@
+{
+  "avg_volume": 142249.0,
+  "debt_equity": 0.06067,
+  "eps_growth": -0.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:47+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2209.211392,
+  "name": "Windlas Biotech Limited",
+  "revenue_growth": 18.099999999999998,
+  "roe": 11.699888845117966,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

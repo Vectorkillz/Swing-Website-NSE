@@ -1,0 +1,15 @@
+{
+  "avg_volume": 201675.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:19+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 221.4575104,
+  "name": "Nectar Lifesciences Limited",
+  "revenue_growth": -100.0,
+  "roe": -12.996148973197762,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

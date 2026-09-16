@@ -1,0 +1,15 @@
+{
+  "avg_volume": 359557.0,
+  "debt_equity": null,
+  "eps_growth": -9.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:43+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 5126.2906368,
+  "name": "Wheels India Limited",
+  "revenue_growth": 2.5,
+  "roe": 6.859179694475951,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

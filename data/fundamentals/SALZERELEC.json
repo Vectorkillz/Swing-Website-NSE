@@ -1,0 +1,15 @@
+{
+  "avg_volume": 47967.0,
+  "debt_equity": 0.88776,
+  "eps_growth": -54.300000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:07+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 939.7490688,
+  "name": "Salzer Electronics Limited",
+  "revenue_growth": 12.9,
+  "roe": 7.3734577701904165,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

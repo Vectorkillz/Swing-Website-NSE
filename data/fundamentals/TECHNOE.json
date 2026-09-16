@@ -1,0 +1,15 @@
+{
+  "avg_volume": 189635.0,
+  "debt_equity": 0.01744,
+  "eps_growth": -31.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:29+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 11055.4374144,
+  "name": "Techno Electric & Engineering Company Limited",
+  "revenue_growth": 19.8,
+  "roe": 10.366342907842194,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

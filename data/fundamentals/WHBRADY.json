@@ -1,0 +1,15 @@
+{
+  "avg_volume": 82.0,
+  "debt_equity": 0.0755,
+  "eps_growth": -4.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:42+00:00",
+  "industry": "Industrial Distribution",
+  "market_cap_cr": 123.6749952,
+  "name": "W. H. Brady & Company Limited",
+  "revenue_growth": -17.599999999999998,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

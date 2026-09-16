@@ -1,0 +1,15 @@
+{
+  "avg_volume": 25330.0,
+  "debt_equity": 0.00528,
+  "eps_growth": -12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:12+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 973.5555072,
+  "name": "Saint-Gobain Sekurit India Limited",
+  "revenue_growth": 10.8,
+  "roe": 18.267577029731264,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

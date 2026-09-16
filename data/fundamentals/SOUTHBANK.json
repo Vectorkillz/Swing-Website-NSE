@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13504352.0,
+  "debt_equity": null,
+  "eps_growth": 17.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:38+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 11786.8552192,
+  "name": "The South Indian Bank Limited",
+  "revenue_growth": 8.6,
+  "roe": 13.596,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

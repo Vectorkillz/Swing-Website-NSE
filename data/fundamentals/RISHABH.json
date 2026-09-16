@@ -1,0 +1,15 @@
+{
+  "avg_volume": 316408.0,
+  "debt_equity": 0.10752,
+  "eps_growth": -4.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:37+00:00",
+  "industry": "Scientific & Technical Instruments",
+  "market_cap_cr": 3016.4289536,
+  "name": "Rishabh Instruments Limited",
+  "revenue_growth": 4.2,
+  "roe": 10.811444195171587,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

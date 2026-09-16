@@ -1,0 +1,15 @@
+{
+  "avg_volume": 254800.0,
+  "debt_equity": 0.060090000000000005,
+  "eps_growth": 1.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:33+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 4452.6661632,
+  "name": "Subros Limited",
+  "revenue_growth": 17.5,
+  "roe": 14.023104949063454,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

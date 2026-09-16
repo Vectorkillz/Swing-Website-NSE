@@ -1,0 +1,15 @@
+{
+  "avg_volume": 66335.0,
+  "debt_equity": 0.59122,
+  "eps_growth": 38.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:39+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 1475.2684032,
+  "name": "Shalby Limited",
+  "revenue_growth": 11.700000000000001,
+  "roe": 3.8735760664340555,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

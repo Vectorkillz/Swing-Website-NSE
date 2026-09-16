@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12614.0,
+  "debt_equity": 0.9786,
+  "eps_growth": -38.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:08+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 214.237696,
+  "name": "Vibhor Steel Tubes Limited",
+  "revenue_growth": 27.200000000000003,
+  "roe": 3.8420632405675095,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 83832.0,
+  "debt_equity": 0.80156,
+  "eps_growth": 30.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:13+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 966.0307456,
+  "name": "United Polyfab Gujarat Limited",
+  "revenue_growth": 23.0,
+  "roe": 19.580639317065582,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

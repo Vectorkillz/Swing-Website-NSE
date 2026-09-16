@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2250312.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:32:22+00:00",
+  "industry": "Apparel Retail",
+  "market_cap_cr": null,
+  "name": "PURPLE STYLE LABS LIMITED",
+  "revenue_growth": null,
+  "roe": -875.202,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

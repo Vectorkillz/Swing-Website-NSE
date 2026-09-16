@@ -1,0 +1,15 @@
+{
+  "avg_volume": 43840.0,
+  "debt_equity": 0.01288,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:16+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 160.085824,
+  "name": "Trigyn Technologies Limited",
+  "revenue_growth": 12.6,
+  "roe": 1.238319121478034,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

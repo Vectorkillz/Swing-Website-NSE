@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2324470.0,
+  "debt_equity": 0.055869999999999996,
+  "eps_growth": 1400.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:31+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 2436.232192,
+  "name": "Shukra Pharmaceuticals Limited",
+  "revenue_growth": 336.3,
+  "roe": 36.8222876546112,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

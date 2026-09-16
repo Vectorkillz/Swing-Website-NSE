@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1489999.0,
+  "debt_equity": 0.78759,
+  "eps_growth": 32.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:42+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": null,
+  "name": "Advit Jewels Limited",
+  "revenue_growth": 37.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

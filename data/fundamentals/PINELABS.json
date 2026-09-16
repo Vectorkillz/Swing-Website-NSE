@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26376232.0,
+  "debt_equity": 0.07474,
+  "eps_growth": 264.40000000000003,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:39+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 22361.7695744,
+  "name": "Pine Labs Limited",
+  "revenue_growth": 19.6,
+  "roe": 2.136102084183318,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

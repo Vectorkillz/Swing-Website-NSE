@@ -1,0 +1,15 @@
+{
+  "avg_volume": 176687.0,
+  "debt_equity": 0.49796999999999997,
+  "eps_growth": 69.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:34+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 2462.901248,
+  "name": "Rajratan Global Wire Limited",
+  "revenue_growth": 29.099999999999998,
+  "roe": 12.230135899129175,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

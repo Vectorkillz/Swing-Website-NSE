@@ -1,0 +1,15 @@
+{
+  "avg_volume": 134156.0,
+  "debt_equity": null,
+  "eps_growth": 107.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:21+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 1531.2944128,
+  "name": "Seshasayee Paper and Boards Limited",
+  "revenue_growth": 27.700000000000003,
+  "roe": 4.6303408362488145,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

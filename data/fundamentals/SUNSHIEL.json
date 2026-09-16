@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2562.0,
+  "debt_equity": null,
+  "eps_growth": 65.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:59+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": null,
+  "name": "Sunshield Chemicals Limited",
+  "revenue_growth": 11.899999999999999,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 211022.0,
+  "debt_equity": 0.17186,
+  "eps_growth": 45.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:08+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 7419.9834624,
+  "name": "Unimech Aerospace and Manufacturing Limited",
+  "revenue_growth": 70.89999999999999,
+  "roe": 9.76319248977421,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

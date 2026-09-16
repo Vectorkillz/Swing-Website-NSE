@@ -1,0 +1,15 @@
+{
+  "avg_volume": 157765.0,
+  "debt_equity": 0.53533,
+  "eps_growth": 38.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:14+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 1682.468864,
+  "name": "Suraksha Diagnostic Limited",
+  "revenue_growth": 20.7,
+  "roe": 14.57083101803415,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

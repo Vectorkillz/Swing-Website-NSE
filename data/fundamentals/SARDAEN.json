@@ -1,0 +1,15 @@
+{
+  "avg_volume": 761977.0,
+  "debt_equity": 0.35204,
+  "eps_growth": 5.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:33+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 17666.6361856,
+  "name": "Sarda Energy & Minerals Limited",
+  "revenue_growth": -1.5,
+  "roe": 15.341026642726522,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

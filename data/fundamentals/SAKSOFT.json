@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6223252.0,
+  "debt_equity": 0.05607,
+  "eps_growth": -9.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:00+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1828.3278336,
+  "name": "Saksoft Limited",
+  "revenue_growth": -0.2,
+  "roe": 16.626480144686727,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

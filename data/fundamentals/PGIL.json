@@ -1,0 +1,15 @@
+{
+  "avg_volume": 351159.0,
+  "debt_equity": 0.65567,
+  "eps_growth": 48.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:31+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 10544.377856,
+  "name": "Pearl Global Industries Limited",
+  "revenue_growth": 24.5,
+  "roe": 21.2383110298555,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

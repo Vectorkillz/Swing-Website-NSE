@@ -1,0 +1,15 @@
+{
+  "avg_volume": 204532.0,
+  "debt_equity": 0.49060000000000004,
+  "eps_growth": 1527.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:56+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 2237.0154496,
+  "name": "Sai Parenteral's Limited",
+  "revenue_growth": 435.1,
+  "roe": 3.13477406060787,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

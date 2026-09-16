@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2971.0,
+  "debt_equity": 0.22788,
+  "eps_growth": 10.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:25+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 657.4323712,
+  "name": "SoftTech Engineers Limited",
+  "revenue_growth": 23.200000000000003,
+  "roe": 2.9351867911425926,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

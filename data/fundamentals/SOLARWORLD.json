@@ -1,0 +1,15 @@
+{
+  "avg_volume": 614050.0,
+  "debt_equity": 0.30132000000000003,
+  "eps_growth": -37.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:27+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 1139.052032,
+  "name": "Solarworld Energy Solutions Limited",
+  "revenue_growth": 146.8,
+  "roe": 13.806887106086313,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7057.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:20+00:00",
+  "industry": "Asset Management",
+  "market_cap_cr": 1103.4486784,
+  "name": "STEL Holdings Limited",
+  "revenue_growth": -86.2,
+  "roe": 1.2045908167086041,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

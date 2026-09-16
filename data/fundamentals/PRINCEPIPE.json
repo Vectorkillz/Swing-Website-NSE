@@ -1,0 +1,15 @@
+{
+  "avg_volume": 244840.0,
+  "debt_equity": 0.08837999999999999,
+  "eps_growth": 593.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:43+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 2864.6330368,
+  "name": "Prince Pipes and Fittings Limited",
+  "revenue_growth": 5.0,
+  "roe": 6.339400469059744,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

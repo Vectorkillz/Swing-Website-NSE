@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3066744.0,
+  "debt_equity": 0.29454,
+  "eps_growth": 75.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:58+00:00",
+  "industry": "Marine Shipping",
+  "market_cap_cr": 12532.3214848,
+  "name": "The Shipping Corporation of India Limited",
+  "revenue_growth": 40.300000000000004,
+  "roe": 0.4493250930223708,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

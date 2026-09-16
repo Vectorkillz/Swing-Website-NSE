@@ -1,0 +1,15 @@
+{
+  "avg_volume": 337583.0,
+  "debt_equity": 0.24131,
+  "eps_growth": 82.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:24+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 29974.1249536,
+  "name": "Rubicon Research Limited",
+  "revenue_growth": 51.6,
+  "roe": 22.362621718972438,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

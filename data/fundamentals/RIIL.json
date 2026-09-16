@@ -1,0 +1,15 @@
+{
+  "avg_volume": 117178.0,
+  "debt_equity": null,
+  "eps_growth": -8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:35+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 1052.8475136,
+  "name": "Reliance Industrial Infrastructure Limited",
+  "revenue_growth": -30.7,
+  "roe": 2.559555129483526,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

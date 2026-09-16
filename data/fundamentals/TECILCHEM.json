@@ -1,0 +1,15 @@
+{
+  "avg_volume": 27149.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:33+00:00",
+  "industry": "Shell Companies",
+  "market_cap_cr": 17.5793504,
+  "name": "Tecil Chemicals and Hydro Power Ltd.",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

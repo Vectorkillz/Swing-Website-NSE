@@ -1,0 +1,15 @@
+{
+  "avg_volume": 666121.0,
+  "debt_equity": 0.14779,
+  "eps_growth": 44.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:48+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 5876.7806464,
+  "name": "Shivalik Bimetal Controls Limited",
+  "revenue_growth": 33.4,
+  "roe": 21.95062978703409,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9233.0,
+  "debt_equity": 2.44748,
+  "eps_growth": 18.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:03+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 5412.9401856,
+  "name": "Nirlon Limited",
+  "revenue_growth": 3.3000000000000003,
+  "roe": 76.20143162176282,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

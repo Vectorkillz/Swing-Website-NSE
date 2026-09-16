@@ -1,0 +1,15 @@
+{
+  "avg_volume": 318365.0,
+  "debt_equity": 0.08801,
+  "eps_growth": 123.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:27+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 7474.9403136,
+  "name": "TTK Prestige Limited",
+  "revenue_growth": 33.6,
+  "roe": 9.761582108382223,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5270937.0,
+  "debt_equity": 1.30481,
+  "eps_growth": 389.40000000000003,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:34:29+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 6617.2649472,
+  "name": "Rain Industries Limited",
+  "revenue_growth": 17.4,
+  "roe": 8.547,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 80073.0,
+  "debt_equity": 0.010700000000000001,
+  "eps_growth": -68.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:13+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 1017.8342912,
+  "name": "Indosolar Limited",
+  "revenue_growth": -64.9,
+  "roe": 58.015218997273934,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

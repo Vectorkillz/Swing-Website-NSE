@@ -1,0 +1,15 @@
+{
+  "avg_volume": 384825.0,
+  "debt_equity": 0.08621000000000001,
+  "eps_growth": -29.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:44+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 9407.9705088,
+  "name": "Whirlpool of India Limited",
+  "revenue_growth": 12.1,
+  "roe": 6.031598725723501,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

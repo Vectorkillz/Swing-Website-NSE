@@ -1,0 +1,15 @@
+{
+  "avg_volume": 456839.0,
+  "debt_equity": 0.51403,
+  "eps_growth": 30.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:23+00:00",
+  "industry": "Rental & Leasing Services",
+  "market_cap_cr": 3476.0265728,
+  "name": "Sanghvi Movers Limited",
+  "revenue_growth": 38.9,
+  "roe": 15.19895170453337,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

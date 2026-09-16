@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1846306.0,
+  "debt_equity": 0.9347,
+  "eps_growth": 26.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:52+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 5644.6406656,
+  "name": "Prism Johnson Limited",
+  "revenue_growth": -0.8,
+  "roe": 12.587922796851137,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

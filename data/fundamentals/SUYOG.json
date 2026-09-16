@@ -1,0 +1,15 @@
+{
+  "avg_volume": 37824.0,
+  "debt_equity": 0.75812,
+  "eps_growth": -19.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:27+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 754.113792,
+  "name": "Suyog Telematics Limited",
+  "revenue_growth": 30.0,
+  "roe": 12.325094438730092,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

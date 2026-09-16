@@ -1,0 +1,15 @@
+{
+  "avg_volume": 21116.0,
+  "debt_equity": 1.0063,
+  "eps_growth": 111.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:25+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 1087.2651776,
+  "name": "N R Agarwal Industries Limited",
+  "revenue_growth": 43.1,
+  "roe": 7.619077590277801,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

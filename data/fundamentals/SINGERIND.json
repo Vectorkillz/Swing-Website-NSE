@@ -1,0 +1,15 @@
+{
+  "avg_volume": 146615.0,
+  "debt_equity": 0.027999999999999997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:57+00:00",
+  "industry": "",
+  "market_cap_cr": null,
+  "name": "Singer India Limited",
+  "revenue_growth": 56.89999999999999,
+  "roe": null,
+  "roe_source": null,
+  "sector": "",
+  "source": "yfinance.Ticker.info"
+}

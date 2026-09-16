@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1896944.0,
+  "debt_equity": 0.24561,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:33+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 9171.7492736,
+  "name": "Swan Corp Limited",
+  "revenue_growth": -16.400000000000002,
+  "roe": 2.9666864442129413,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

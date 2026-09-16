@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1112256.0,
+  "debt_equity": 0.021179999999999997,
+  "eps_growth": 22.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:55+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 6477.7478144,
+  "name": "Tanla Platforms Limited",
+  "revenue_growth": 17.8,
+  "roe": 21.511053950185612,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

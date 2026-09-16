@@ -1,0 +1,15 @@
+{
+  "avg_volume": 172740.0,
+  "debt_equity": 0.00104,
+  "eps_growth": -38.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:47+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 6797.2124672,
+  "name": "Sharda Cropchem Limited",
+  "revenue_growth": 4.9,
+  "roe": 19.962374874738916,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

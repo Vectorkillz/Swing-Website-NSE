@@ -1,0 +1,15 @@
+{
+  "avg_volume": 173173.0,
+  "debt_equity": 1.70915,
+  "eps_growth": 61.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:24+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 6325.9881472,
+  "name": "Neogen Chemicals Limited",
+  "revenue_growth": 34.0,
+  "roe": 4.199593807704105,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

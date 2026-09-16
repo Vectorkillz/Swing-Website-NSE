@@ -1,0 +1,15 @@
+{
+  "avg_volume": 45039.0,
+  "debt_equity": 0.37048000000000003,
+  "eps_growth": -63.800000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:29+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 314.6855168,
+  "name": "Ruchira Papers Limited",
+  "revenue_growth": 3.8,
+  "roe": 6.73605874249001,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

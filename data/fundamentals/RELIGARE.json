@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1195751.0,
+  "debt_equity": 0.1272,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:16+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 8533.8832896,
+  "name": "Religare Enterprises Limited",
+  "revenue_growth": 26.0,
+  "roe": 1.6450079093335914,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

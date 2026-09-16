@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5174588.0,
+  "debt_equity": 0.0168,
+  "eps_growth": 0.8999999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:20+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 10233.1916288,
+  "name": "Zensar Technologies Limited",
+  "revenue_growth": 8.9,
+  "roe": 16.444756526995175,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40108.0,
+  "debt_equity": 0.09176999999999999,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:57+00:00",
+  "industry": "Education & Training Services",
+  "market_cap_cr": 11.788332,
+  "name": "Usha Martin Education & Solutions Limited",
+  "revenue_growth": -9.4,
+  "roe": 3.044897487058328,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

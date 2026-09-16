@@ -1,0 +1,15 @@
+{
+  "avg_volume": 40937.0,
+  "debt_equity": 0.28588,
+  "eps_growth": 252.89999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:02+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 164.636992,
+  "name": "Niraj Cement Structurals Limited",
+  "revenue_growth": 10.6,
+  "roe": 8.884863077511392,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

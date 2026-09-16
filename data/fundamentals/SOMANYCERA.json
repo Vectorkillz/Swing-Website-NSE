@@ -1,0 +1,15 @@
+{
+  "avg_volume": 178522.0,
+  "debt_equity": 0.40692,
+  "eps_growth": 242.89999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:30+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 2258.9853696,
+  "name": "Somany Ceramics Limited",
+  "revenue_growth": 24.0,
+  "roe": 12.626297127353581,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

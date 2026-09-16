@@ -1,0 +1,15 @@
+{
+  "avg_volume": 98288.0,
+  "debt_equity": 0.02213,
+  "eps_growth": 67.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:01+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 7450.3774208,
+  "name": "Raghav Productivity Enhancers Limited",
+  "revenue_growth": 48.699999999999996,
+  "roe": 25.636018375419045,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

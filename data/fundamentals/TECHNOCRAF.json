@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3374657.0,
+  "debt_equity": 0.54943,
+  "eps_growth": 14.499999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:28+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 1680.689152,
+  "name": "Technocraft Ventures Limited",
+  "revenue_growth": 2.1999999999999997,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 64365.0,
+  "debt_equity": 0.03744,
+  "eps_growth": -13.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:49+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 5356.9998848,
+  "name": "Sharda Motor Industries Limited",
+  "revenue_growth": 33.7,
+  "roe": 25.279485976323183,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

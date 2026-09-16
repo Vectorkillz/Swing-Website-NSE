@@ -1,0 +1,15 @@
+{
+  "avg_volume": 467063.0,
+  "debt_equity": 0.25234,
+  "eps_growth": 48.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:36+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 3465.5744,
+  "name": "Vaibhav Global Limited",
+  "revenue_growth": 12.7,
+  "roe": 17.21722324985846,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

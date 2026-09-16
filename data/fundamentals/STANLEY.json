@@ -1,0 +1,15 @@
+{
+  "avg_volume": 159987.0,
+  "debt_equity": 0.65389,
+  "eps_growth": -94.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:05+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 771.3107456,
+  "name": "Stanley Lifestyles Limited",
+  "revenue_growth": -8.6,
+  "roe": 1.0000802468716616,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

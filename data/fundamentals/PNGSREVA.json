@@ -1,0 +1,15 @@
+{
+  "avg_volume": 369815.0,
+  "debt_equity": 0.32942,
+  "eps_growth": 151.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:00+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1566.5349632,
+  "name": "PNGS Reva Diamond Jewellery Limited",
+  "revenue_growth": 119.5,
+  "roe": 16.385273125722872,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

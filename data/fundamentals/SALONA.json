@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1551.0,
+  "debt_equity": 2.26372,
+  "eps_growth": 47.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:04+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 135.3226112,
+  "name": "Salona Cotspin Limited",
+  "revenue_growth": 25.1,
+  "roe": 2.7338419447626414,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2542.0,
+  "debt_equity": 0.23620999999999998,
+  "eps_growth": -29.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:22+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 21.987792,
+  "name": "Steel Strips Infrastructures Limited",
+  "revenue_growth": -30.0,
+  "roe": -19.906063011122026,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

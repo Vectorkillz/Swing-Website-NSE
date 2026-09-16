@@ -1,0 +1,15 @@
+{
+  "avg_volume": 171446.0,
+  "debt_equity": null,
+  "eps_growth": 46.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:23+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 28056.4727808,
+  "name": "ZF Commercial Vehicle Control Systems India Limited",
+  "revenue_growth": 32.7,
+  "roe": 13.52770230241463,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

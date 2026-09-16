@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24620.0,
+  "debt_equity": 0.03304,
+  "eps_growth": 17.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:03+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 4496.6273024,
+  "name": "RPG Life Sciences Limited",
+  "revenue_growth": 15.8,
+  "roe": 19.763790989722953,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12916694.0,
+  "debt_equity": 2.8565699999999996,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:02+00:00",
+  "industry": "Restaurants",
+  "market_cap_cr": 6781.1221504,
+  "name": "Restaurant Brands Asia Limited",
+  "revenue_growth": 17.9,
+  "roe": -19.694132887679583,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

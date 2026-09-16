@@ -1,0 +1,15 @@
+{
+  "avg_volume": 343468.0,
+  "debt_equity": 0.39376,
+  "eps_growth": 287.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:40+00:00",
+  "industry": "Oil & Gas Equipment & Services",
+  "market_cap_cr": 658.2199808,
+  "name": "South West Pinnacle Exploration Limited",
+  "revenue_growth": 53.400000000000006,
+  "roe": 17.93742549180714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Energy",
+  "source": "yfinance.Ticker.info"
+}

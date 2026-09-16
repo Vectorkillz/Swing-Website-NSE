@@ -1,0 +1,15 @@
+{
+  "avg_volume": 166322.0,
+  "debt_equity": 0.55669,
+  "eps_growth": -5.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:18+00:00",
+  "industry": "Auto Manufacturers",
+  "market_cap_cr": 9050.5674752,
+  "name": "SML Mahindra Limited",
+  "revenue_growth": 13.200000000000001,
+  "roe": 30.117169579568742,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57538.0,
+  "debt_equity": 2.2386500000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:08+00:00",
+  "industry": "Auto & Truck Dealerships",
+  "market_cap_cr": 697.2439552,
+  "name": "Popular Vehicles and Services Limited",
+  "revenue_growth": 44.1,
+  "roe": -0.37382138576588314,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

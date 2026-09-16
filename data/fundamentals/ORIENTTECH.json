@@ -1,0 +1,15 @@
+{
+  "avg_volume": 936160.0,
+  "debt_equity": 0.18579,
+  "eps_growth": -48.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:19+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1109.7857024,
+  "name": "Orient Technologies Limited",
+  "revenue_growth": -5.0,
+  "roe": -0.0845329420666408,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

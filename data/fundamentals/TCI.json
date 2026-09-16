@@ -1,0 +1,15 @@
+{
+  "avg_volume": 31052.0,
+  "debt_equity": 0.11991,
+  "eps_growth": -0.8999999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:18+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 6495.3049088,
+  "name": "Transport Corporation of India Limited",
+  "revenue_growth": 9.6,
+  "roe": 17.729187285906004,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

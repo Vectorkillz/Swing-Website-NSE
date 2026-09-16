@@ -1,0 +1,15 @@
+{
+  "avg_volume": 195106.0,
+  "debt_equity": 0.22681,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:59+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 4096.8278016,
+  "name": "Raymond Lifestyle Limited",
+  "revenue_growth": 5.8999999999999995,
+  "roe": 0.4505346359364667,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

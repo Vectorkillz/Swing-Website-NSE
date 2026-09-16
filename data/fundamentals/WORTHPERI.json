@@ -1,0 +1,15 @@
+{
+  "avg_volume": 19547.0,
+  "debt_equity": 0.20288,
+  "eps_growth": 21.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:54+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 226.4993792,
+  "name": "Worth Peripherals Limited",
+  "revenue_growth": 7.6,
+  "roe": 8.163331596780019,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

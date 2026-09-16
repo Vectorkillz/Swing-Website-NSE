@@ -1,0 +1,15 @@
+{
+  "avg_volume": 128886.0,
+  "debt_equity": 0.026389999999999997,
+  "eps_growth": 111.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:04+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 7455.1230464,
+  "name": "S.J.S. Enterprises Limited",
+  "revenue_growth": 24.5,
+  "roe": 24.042535686410346,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 9556256.0,
+  "debt_equity": 2.7303300000000004,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:14+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 16306.7592704,
+  "name": "Sammaan Capital Limited",
+  "revenue_growth": -24.5,
+  "roe": -27.185642573832446,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

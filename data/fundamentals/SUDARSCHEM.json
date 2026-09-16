@@ -1,0 +1,15 @@
+{
+  "avg_volume": 409047.0,
+  "debt_equity": 0.64172,
+  "eps_growth": 105.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:36+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 9419.1681536,
+  "name": "Sudarshan Chemical Industries Limited",
+  "revenue_growth": 5.4,
+  "roe": 2.072198948535478,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

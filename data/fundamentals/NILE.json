@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3246.0,
+  "debt_equity": 0.03785,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:55+00:00",
+  "industry": "Other Industrial Metals & Mining",
+  "market_cap_cr": 429.8420736,
+  "name": "Nile Limited",
+  "revenue_growth": 14.399999999999999,
+  "roe": 15.388835179139187,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

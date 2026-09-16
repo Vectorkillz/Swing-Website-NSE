@@ -1,0 +1,15 @@
+{
+  "avg_volume": 63874.0,
+  "debt_equity": 0.21319,
+  "eps_growth": 21.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:46+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 451.569408,
+  "name": "R K Swamy Limited",
+  "revenue_growth": 7.8,
+  "roe": 8.587892782777097,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

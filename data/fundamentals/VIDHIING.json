@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48090.0,
+  "debt_equity": 0.17578,
+  "eps_growth": 35.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:11+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1598.4897024,
+  "name": "Vidhi Specialty Food Ingredients Limited",
+  "revenue_growth": 66.4,
+  "roe": 16.297301360437427,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

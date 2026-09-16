@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11309423.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:27+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 2496.671744,
+  "name": "Utkarsh Small Finance Bank Limited",
+  "revenue_growth": 234.7,
+  "roe": -33.9516656003297,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

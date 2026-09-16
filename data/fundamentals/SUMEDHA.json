@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3035.0,
+  "debt_equity": null,
+  "eps_growth": 13.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:42+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": null,
+  "name": "Sumedha Fiscal Services Limited",
+  "revenue_growth": 13.3,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

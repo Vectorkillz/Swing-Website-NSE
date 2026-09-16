@@ -1,0 +1,15 @@
+{
+  "avg_volume": 609945.0,
+  "debt_equity": 0.03031,
+  "eps_growth": 76.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:21+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 4566.0012544,
+  "name": "Surya Roshni Limited",
+  "revenue_growth": 27.500000000000004,
+  "roe": 11.856424045883985,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

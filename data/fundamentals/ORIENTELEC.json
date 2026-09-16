@@ -1,0 +1,15 @@
+{
+  "avg_volume": 718861.0,
+  "debt_equity": 0.12281,
+  "eps_growth": 80.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:15+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 3609.9207168,
+  "name": "Orient Electric Limited",
+  "revenue_growth": 23.5,
+  "roe": 14.446884038525711,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

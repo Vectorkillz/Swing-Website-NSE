@@ -1,0 +1,15 @@
+{
+  "avg_volume": 25182.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:31:22+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 2326.739968,
+  "name": "The Orissa Minerals Development Company Limited",
+  "revenue_growth": 331.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

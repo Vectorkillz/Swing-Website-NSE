@@ -1,0 +1,15 @@
+{
+  "avg_volume": 813643.0,
+  "debt_equity": 0.00098,
+  "eps_growth": 414.79999999999995,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:37+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 4719.0134784,
+  "name": "Savita Oil Technologies Limited",
+  "revenue_growth": 49.6,
+  "roe": 22.79188368612574,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

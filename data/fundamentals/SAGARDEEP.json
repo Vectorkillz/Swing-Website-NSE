@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7963.0,
+  "debt_equity": 0.26417999999999997,
+  "eps_growth": 114.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:47+00:00",
+  "industry": "Copper",
+  "market_cap_cr": 40.3407488,
+  "name": "Sagardeep Alloys Limited",
+  "revenue_growth": 61.5,
+  "roe": 8.975199917517724,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

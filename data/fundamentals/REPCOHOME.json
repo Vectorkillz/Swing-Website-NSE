@@ -1,0 +1,15 @@
+{
+  "avg_volume": 137176.0,
+  "debt_equity": 3.18337,
+  "eps_growth": 2.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:21+00:00",
+  "industry": "Mortgage Finance",
+  "market_cap_cr": 2181.8273792,
+  "name": "Repco Home Finance Limited",
+  "revenue_growth": 13.3,
+  "roe": 11.404830498693961,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

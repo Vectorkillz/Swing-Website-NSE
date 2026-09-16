@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18873.0,
+  "debt_equity": 0.00345,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:36+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 240.1516032,
+  "name": "Ravinder Heights Limited",
+  "revenue_growth": -89.5,
+  "roe": 16.4415884841675,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

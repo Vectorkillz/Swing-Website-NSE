@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17629.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:07+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 56.0629952,
+  "name": "SecureKloud Technologies Limited",
+  "revenue_growth": 22.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

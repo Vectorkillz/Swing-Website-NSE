@@ -1,0 +1,15 @@
+{
+  "avg_volume": 473729.0,
+  "debt_equity": 0.18946000000000002,
+  "eps_growth": 49.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:14+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 1517.83936,
+  "name": "Rajputana Stainless Limited",
+  "revenue_growth": 32.4,
+  "roe": 13.50494166333248,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

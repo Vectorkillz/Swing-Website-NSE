@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5834992.0,
+  "debt_equity": 0.61757,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:42:40+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 6940.3025408,
+  "name": "SYMBIOTEC PHARMALAB LTD",
+  "revenue_growth": null,
+  "roe": 11.1899994,
+  "roe_source": "returnOnEquity",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16562.0,
+  "debt_equity": 0.86295,
+  "eps_growth": -36.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:39+00:00",
+  "industry": "Trucking",
+  "market_cap_cr": 119.2864256,
+  "name": "OBCL Limited",
+  "revenue_growth": -3.4000000000000004,
+  "roe": -10.105979758655469,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

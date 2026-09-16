@@ -1,0 +1,15 @@
+{
+  "avg_volume": 576130.0,
+  "debt_equity": 14.80222,
+  "eps_growth": -49.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:54+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 1373.2972544,
+  "name": "PNB Gilts Ltd.",
+  "revenue_growth": -48.1,
+  "roe": 5.994866176124193,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

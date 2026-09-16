@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3832.0,
+  "debt_equity": 0.14493,
+  "eps_growth": 36.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:32+00:00",
+  "industry": "Footwear & Accessories",
+  "market_cap_cr": 47.6823488,
+  "name": "Phoenix International Limited",
+  "revenue_growth": 22.0,
+  "roe": 0.6602428778542782,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

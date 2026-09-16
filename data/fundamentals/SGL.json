@@ -1,0 +1,15 @@
+{
+  "avg_volume": 12430.0,
+  "debt_equity": 0.48323,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:28+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 0.4510365,
+  "name": "STL Global Limited",
+  "revenue_growth": -19.1,
+  "roe": -311.4059756851644,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

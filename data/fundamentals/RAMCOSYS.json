@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1990986.0,
+  "debt_equity": 0.12101,
+  "eps_growth": -36.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:47+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 2134.7385344,
+  "name": "Ramco Systems Limited",
+  "revenue_growth": 7.1,
+  "roe": 11.790379238945246,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

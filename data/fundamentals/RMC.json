@@ -1,0 +1,15 @@
+{
+  "avg_volume": 75258.0,
+  "debt_equity": 0.80622,
+  "eps_growth": -49.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:47+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 212.6898688,
+  "name": "RMC Switchgears Limited",
+  "revenue_growth": -55.900000000000006,
+  "roe": 15.631338600137154,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

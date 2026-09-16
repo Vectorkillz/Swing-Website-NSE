@@ -1,0 +1,15 @@
+{
+  "avg_volume": 571361.0,
+  "debt_equity": 0.23312000000000002,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:50+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 55.9175744,
+  "name": "Sundaram Multi Pap Limited",
+  "revenue_growth": 22.0,
+  "roe": 5.379905954193465,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

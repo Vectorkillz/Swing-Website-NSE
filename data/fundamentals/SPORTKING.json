@@ -1,0 +1,15 @@
+{
+  "avg_volume": 678905.0,
+  "debt_equity": 0.42272,
+  "eps_growth": 115.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:54+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 2558.2655488,
+  "name": "Sportking India Limited",
+  "revenue_growth": 20.1,
+  "roe": 14.642009731453387,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

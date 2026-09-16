@@ -1,0 +1,15 @@
+{
+  "avg_volume": 296811.0,
+  "debt_equity": 0.02611,
+  "eps_growth": 142.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:40+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 461.4596608,
+  "name": "Sigma Solve Limited",
+  "revenue_growth": 11.5,
+  "roe": 40.74182731388227,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

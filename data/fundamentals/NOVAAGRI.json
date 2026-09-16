@@ -1,0 +1,15 @@
+{
+  "avg_volume": 52450.0,
+  "debt_equity": 0.21663,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:21+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 202.4545664,
+  "name": "Nova Agritech Limited",
+  "revenue_growth": 28.4,
+  "roe": 6.758034712143633,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

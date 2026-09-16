@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1482671.0,
+  "debt_equity": 1.33606,
+  "eps_growth": -70.39999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:37+00:00",
+  "industry": "Integrated Freight & Logistics",
+  "market_cap_cr": 5559.4196992,
+  "name": "TVS Supply Chain Solutions Limited",
+  "revenue_growth": 28.7,
+  "roe": 3.1667730023700322,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

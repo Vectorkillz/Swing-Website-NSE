@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28699.0,
+  "debt_equity": 1.88639,
+  "eps_growth": 9.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:07+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 2744.0211968,
+  "name": "RPSG Ventures Limited",
+  "revenue_growth": 20.4,
+  "roe": -5.18724990716934,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

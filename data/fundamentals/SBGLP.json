@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33904.0,
+  "debt_equity": 0.7518600000000001,
+  "eps_growth": 71.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:51+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 369.8972928,
+  "name": "Suratwwala Business Group Limited",
+  "revenue_growth": 164.0,
+  "roe": 40.4564781350807,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

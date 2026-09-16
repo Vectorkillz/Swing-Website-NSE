@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7441397.0,
+  "debt_equity": null,
+  "eps_growth": 8.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:43+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 29869.228032,
+  "name": "UCO Bank",
+  "revenue_growth": 53.0,
+  "roe": 8.541001,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

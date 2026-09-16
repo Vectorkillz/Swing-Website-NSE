@@ -1,0 +1,15 @@
+{
+  "avg_volume": 410723.0,
+  "debt_equity": 3.3585399999999996,
+  "eps_growth": -29.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:08+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 49838.669824,
+  "name": "Tata Communications Limited",
+  "revenue_growth": 10.5,
+  "roe": 27.430318100647817,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

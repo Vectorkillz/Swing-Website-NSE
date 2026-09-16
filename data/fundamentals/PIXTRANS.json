@@ -1,0 +1,15 @@
+{
+  "avg_volume": 111679.0,
+  "debt_equity": 0.034769999999999995,
+  "eps_growth": 89.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:45+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 2362.609664,
+  "name": "PIX Transmissions Limited",
+  "revenue_growth": 22.8,
+  "roe": 18.914697507576655,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

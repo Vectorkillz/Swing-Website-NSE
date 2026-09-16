@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2443917.0,
+  "debt_equity": 0.82,
+  "eps_growth": -12.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:13+00:00",
+  "industry": "Utilities - Regulated Electric",
+  "market_cap_cr": 36198.1476864,
+  "name": "NLC India Limited",
+  "revenue_growth": -0.3,
+  "roe": 14.906702183450083,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 271117.0,
+  "debt_equity": 0.08121,
+  "eps_growth": -75.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:49+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 1993.489408,
+  "name": "Protean eGov Technologies Limited",
+  "revenue_growth": 19.0,
+  "roe": 7.625893860575392,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

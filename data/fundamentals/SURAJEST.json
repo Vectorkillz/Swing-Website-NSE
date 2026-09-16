@@ -1,0 +1,15 @@
+{
+  "avg_volume": 109063.0,
+  "debt_equity": 0.6498,
+  "eps_growth": 9.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:11+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 814.3614976,
+  "name": "Suraj Estate Developers Limited",
+  "revenue_growth": 9.2,
+  "roe": 8.972522252694759,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

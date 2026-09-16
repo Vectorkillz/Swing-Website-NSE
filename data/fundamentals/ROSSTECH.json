@@ -1,0 +1,15 @@
+{
+  "avg_volume": 266147.0,
+  "debt_equity": 2.6436900000000003,
+  "eps_growth": 117.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:57+00:00",
+  "industry": "Aerospace & Defense",
+  "market_cap_cr": 4788.3071488,
+  "name": "Rossell Techsys Limited",
+  "revenue_growth": 77.10000000000001,
+  "roe": 16.57744816816914,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

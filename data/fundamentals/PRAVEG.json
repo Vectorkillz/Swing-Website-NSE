@@ -1,0 +1,15 @@
+{
+  "avg_volume": 77388.0,
+  "debt_equity": 0.36488,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:28+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 669.071104,
+  "name": "Praveg Limited",
+  "revenue_growth": 16.8,
+  "roe": -4.259022053468894,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

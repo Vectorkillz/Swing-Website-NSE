@@ -1,0 +1,15 @@
+{
+  "avg_volume": 610772.0,
+  "debt_equity": 0.11614000000000001,
+  "eps_growth": 20.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:54+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 32740.5666304,
+  "name": "Sai Life Sciences Limited",
+  "revenue_growth": 11.700000000000001,
+  "roe": 14.498627346827329,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

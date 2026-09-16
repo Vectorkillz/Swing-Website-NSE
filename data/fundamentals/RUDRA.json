@@ -1,0 +1,15 @@
+{
+  "avg_volume": 153315.0,
+  "debt_equity": 0.9714700000000001,
+  "eps_growth": -7.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:30+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 202.2931456,
+  "name": "Rudra Global Infra Products Limited",
+  "revenue_growth": 6.7,
+  "roe": 9.916554826295078,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 572729.0,
+  "debt_equity": 0.46454999999999996,
+  "eps_growth": -3.5000000000000004,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:21+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 3841.1378688,
+  "name": "SMS Pharmaceuticals Limited",
+  "revenue_growth": 5.6000000000000005,
+  "roe": 13.032172281188927,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

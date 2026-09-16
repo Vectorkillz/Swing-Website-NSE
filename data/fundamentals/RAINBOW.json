@@ -1,0 +1,15 @@
+{
+  "avg_volume": 95238.0,
+  "debt_equity": 0.53558,
+  "eps_growth": 13.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:30+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 14747.8069248,
+  "name": "Rainbow Children's Medicare Limited",
+  "revenue_growth": 33.2,
+  "roe": 17.32649944917611,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

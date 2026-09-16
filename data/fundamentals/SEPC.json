@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22862198.0,
+  "debt_equity": 0.18404,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:18+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 994.9812736,
+  "name": "SEPC Limited",
+  "revenue_growth": 35.4,
+  "roe": 1.4008465908546082,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

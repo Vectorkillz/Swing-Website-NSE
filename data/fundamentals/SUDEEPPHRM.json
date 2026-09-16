@@ -1,0 +1,15 @@
+{
+  "avg_volume": 293129.0,
+  "debt_equity": 0.16749,
+  "eps_growth": 28.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:37+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 12906.6385408,
+  "name": "Sudeep Pharma Limited",
+  "revenue_growth": 26.700000000000003,
+  "roe": 20.67562323186737,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

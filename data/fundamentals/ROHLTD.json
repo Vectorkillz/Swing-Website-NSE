@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24280.0,
+  "debt_equity": 2.32509,
+  "eps_growth": -41.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:50+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 818.642688,
+  "name": "Royal Orchid Hotels Limited",
+  "revenue_growth": 36.1,
+  "roe": 10.70415706337288,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

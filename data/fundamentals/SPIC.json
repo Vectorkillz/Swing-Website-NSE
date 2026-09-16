@@ -1,0 +1,15 @@
+{
+  "avg_volume": 426112.0,
+  "debt_equity": 0.51296,
+  "eps_growth": -9.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:48+00:00",
+  "industry": "Agricultural Inputs",
+  "market_cap_cr": 1372.1285632,
+  "name": "Southern Petrochemical Industries Corporation Limited",
+  "revenue_growth": 8.7,
+  "roe": 14.940194702997925,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

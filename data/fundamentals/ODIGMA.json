@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17709.0,
+  "debt_equity": null,
+  "eps_growth": 66.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:41+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 69.0499136,
+  "name": "Odigma Consultancy Solutions Limited",
+  "revenue_growth": 87.5,
+  "roe": -2.0218051017624856,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

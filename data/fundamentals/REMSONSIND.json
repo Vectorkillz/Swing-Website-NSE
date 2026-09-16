@@ -1,0 +1,15 @@
+{
+  "avg_volume": 127844.0,
+  "debt_equity": 0.6278900000000001,
+  "eps_growth": -21.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:19+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 323.0824448,
+  "name": "Remsons Industries Limited",
+  "revenue_growth": 20.200000000000003,
+  "roe": 11.601088134845481,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

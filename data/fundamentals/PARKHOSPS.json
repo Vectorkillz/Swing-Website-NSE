@@ -1,0 +1,15 @@
+{
+  "avg_volume": 801909.0,
+  "debt_equity": 0.17306999999999997,
+  "eps_growth": 20.599999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:55+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 12057.350144,
+  "name": "Park Medi World Limited",
+  "revenue_growth": 19.3,
+  "roe": 12.884152624705628,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

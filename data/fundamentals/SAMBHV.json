@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1552576.0,
+  "debt_equity": 0.35435,
+  "eps_growth": 36.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:11+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 3800.0828416,
+  "name": "Sambhv Steel Tubes Limited",
+  "revenue_growth": 31.1,
+  "roe": 15.63493175756408,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

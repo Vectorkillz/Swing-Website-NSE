@@ -1,0 +1,15 @@
+{
+  "avg_volume": 154798.0,
+  "debt_equity": 0.27784,
+  "eps_growth": -14.299999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:56+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 2279.4770432,
+  "name": "Apeejay Surrendra Park Hotels Limited",
+  "revenue_growth": 8.1,
+  "roe": 4.647048709839847,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

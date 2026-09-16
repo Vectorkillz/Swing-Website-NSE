@@ -1,0 +1,15 @@
+{
+  "avg_volume": 137866.0,
+  "debt_equity": 0.13008,
+  "eps_growth": -28.999999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:30+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1079.8939136,
+  "name": "Precision Camshafts Limited",
+  "revenue_growth": -8.9,
+  "roe": 4.891691831387221,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

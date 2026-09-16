@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2016358.0,
+  "debt_equity": 0.20729,
+  "eps_growth": 14.399999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:27+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 3155.934208,
+  "name": "Websol Energy System Limited",
+  "revenue_growth": 70.3,
+  "roe": 51.850666574836126,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

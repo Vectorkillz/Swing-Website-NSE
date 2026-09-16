@@ -1,0 +1,15 @@
+{
+  "avg_volume": 432130.0,
+  "debt_equity": 0.40802,
+  "eps_growth": -21.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:28+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 12656.6285312,
+  "name": "Fujiyama Power Systems Limited",
+  "revenue_growth": 125.29999999999998,
+  "roe": 22.368351364001718,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 85787.0,
+  "debt_equity": 0.35133000000000003,
+  "eps_growth": -5.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:04+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 103.49136,
+  "name": "Optimus Finance Limited",
+  "revenue_growth": 50.6,
+  "roe": 8.43581225711302,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

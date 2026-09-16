@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16995.0,
+  "debt_equity": 0.30736,
+  "eps_growth": 23.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:10+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 1435.5571712,
+  "name": "Yuken India Limited",
+  "revenue_growth": 28.499999999999996,
+  "roe": 4.190629876109826,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

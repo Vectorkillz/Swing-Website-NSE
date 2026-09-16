@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2634.0,
+  "debt_equity": 0.21036000000000002,
+  "eps_growth": 29.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:21+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 78.9407808,
+  "name": "RTS Power Corporation Limited",
+  "revenue_growth": -12.9,
+  "roe": 1.801627325212658,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

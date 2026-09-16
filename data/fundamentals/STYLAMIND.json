@@ -1,0 +1,15 @@
+{
+  "avg_volume": 78458.0,
+  "debt_equity": 0.03605,
+  "eps_growth": 71.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:28+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 5564.5003776,
+  "name": "Stylam Industries Limited",
+  "revenue_growth": 15.4,
+  "roe": 21.24063670570518,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

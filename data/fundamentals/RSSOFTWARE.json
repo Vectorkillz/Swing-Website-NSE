@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26689.0,
+  "debt_equity": 0.62438,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:36:15+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 76.4603904,
+  "name": "R S Software (India) Limited",
+  "revenue_growth": -24.3,
+  "roe": -82.664,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

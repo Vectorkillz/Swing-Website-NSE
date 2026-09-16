@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1976106.0,
+  "debt_equity": 0.07133,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:16+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 143.0006656,
+  "name": "Vikas Ecotech Limited",
+  "revenue_growth": 15.1,
+  "roe": 0.05494483952628694,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

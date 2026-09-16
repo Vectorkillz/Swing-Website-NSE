@@ -1,0 +1,15 @@
+{
+  "avg_volume": 14980859.0,
+  "debt_equity": 0.80012,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:20+00:00",
+  "industry": "Utilities - Independent Power Producers",
+  "market_cap_cr": 3753.7038336,
+  "name": "RattanIndia Power Limited",
+  "revenue_growth": -2.8000000000000003,
+  "roe": 2.3951587595930044,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Utilities",
+  "source": "yfinance.Ticker.info"
+}

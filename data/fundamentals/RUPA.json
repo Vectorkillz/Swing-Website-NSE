@@ -1,0 +1,15 @@
+{
+  "avg_volume": 216991.0,
+  "debt_equity": 0.24224,
+  "eps_growth": 50.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:32+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 1061.8389504,
+  "name": "Rupa & Company Limited",
+  "revenue_growth": 10.100000000000001,
+  "roe": 7.061065789059022,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

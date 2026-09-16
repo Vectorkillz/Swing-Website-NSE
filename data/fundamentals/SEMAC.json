@@ -1,0 +1,15 @@
+{
+  "avg_volume": 594.0,
+  "debt_equity": 0.32273,
+  "eps_growth": -62.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:14+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 83.855584,
+  "name": "Semac Construction Limited",
+  "revenue_growth": -41.0,
+  "roe": 8.478021008784776,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

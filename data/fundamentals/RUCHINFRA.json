@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68680.0,
+  "debt_equity": 0.40879,
+  "eps_growth": -51.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:27+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 127.6894848,
+  "name": "Ruchi Infrastructure Limited",
+  "revenue_growth": 6.800000000000001,
+  "roe": 3.614394685264144,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

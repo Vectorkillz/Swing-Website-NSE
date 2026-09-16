@@ -1,0 +1,15 @@
+{
+  "avg_volume": 114044.0,
+  "debt_equity": 0.92783,
+  "eps_growth": 10.5,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:42:56+00:00",
+  "industry": "Farm & Heavy Construction Machinery",
+  "market_cap_cr": 371.3441024,
+  "name": "Tara Chand Infralogistic Solutions Limited",
+  "revenue_growth": 9.700000000000001,
+  "roe": 20.599999999999998,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

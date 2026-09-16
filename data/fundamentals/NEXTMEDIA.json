@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44865.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:34+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 25.619984,
+  "name": "Next Mediaworks Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

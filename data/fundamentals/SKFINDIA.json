@@ -1,0 +1,15 @@
+{
+  "avg_volume": 71066.0,
+  "debt_equity": 0.00219,
+  "eps_growth": -47.699999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:07+00:00",
+  "industry": "Tools & Accessories",
+  "market_cap_cr": 7457.7166336,
+  "name": "SKF India Limited",
+  "revenue_growth": -54.2,
+  "roe": 15.76990054065912,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

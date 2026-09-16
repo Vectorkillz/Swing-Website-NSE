@@ -1,0 +1,15 @@
+{
+  "avg_volume": 104.0,
+  "debt_equity": 0.7646599999999999,
+  "eps_growth": -69.19999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:34+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 133.3836544,
+  "name": "Sonal Mercantile Limited",
+  "revenue_growth": -55.900000000000006,
+  "roe": 4.613326160280291,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

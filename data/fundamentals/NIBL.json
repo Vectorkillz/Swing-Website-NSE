@@ -1,0 +1,15 @@
+{
+  "avg_volume": 39818.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:44+00:00",
+  "industry": "Tools & Accessories",
+  "market_cap_cr": 75.2603968,
+  "name": "NRB Industrial Bearings Limited",
+  "revenue_growth": 1.9,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

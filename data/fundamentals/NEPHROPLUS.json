@@ -1,0 +1,15 @@
+{
+  "avg_volume": 196292.0,
+  "debt_equity": 0.07139000000000001,
+  "eps_growth": 15.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:25+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 7390.584832,
+  "name": "Nephrocare Health Services Limited",
+  "revenue_growth": 23.7,
+  "roe": 7.606441200737221,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

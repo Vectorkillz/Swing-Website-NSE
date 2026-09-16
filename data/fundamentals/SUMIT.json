@@ -1,0 +1,15 @@
+{
+  "avg_volume": 70862.0,
+  "debt_equity": null,
+  "eps_growth": 11.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:46+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 242.2131456,
+  "name": "Sumit Woods Limited",
+  "revenue_growth": 6.9,
+  "roe": 6.0960002,
+  "roe_source": "returnOnEquity",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

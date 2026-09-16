@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4005.0,
+  "debt_equity": 1.8745699999999998,
+  "eps_growth": 28.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:13+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 91.0508032,
+  "name": "Reliance Chemotex Industries Limited",
+  "revenue_growth": 7.000000000000001,
+  "roe": 3.905709647663116,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

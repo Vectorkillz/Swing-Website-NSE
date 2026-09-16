@@ -1,0 +1,15 @@
+{
+  "avg_volume": 48002.0,
+  "debt_equity": 0.15218,
+  "eps_growth": 1.7000000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:01+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 150.1061248,
+  "name": "Shree Ram Twistex Limited",
+  "revenue_growth": 46.6,
+  "roe": 5.484775129958344,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

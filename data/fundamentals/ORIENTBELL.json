@@ -1,0 +1,15 @@
+{
+  "avg_volume": 26797.0,
+  "debt_equity": 0.09489,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:11+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 574.37056,
+  "name": "Orient Bell Limited",
+  "revenue_growth": 42.6,
+  "roe": 6.422629638772726,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

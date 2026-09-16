@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1727821.0,
+  "debt_equity": 0.36138,
+  "eps_growth": 53.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:46+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 1902.2948352,
+  "name": "Shanti Gold International Limited",
+  "revenue_growth": 144.70000000000002,
+  "roe": 22.478078226908558,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

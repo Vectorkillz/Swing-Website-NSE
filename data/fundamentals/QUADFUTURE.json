@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1330594.0,
+  "debt_equity": 0.10233,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:13+00:00",
+  "industry": "Railroads",
+  "market_cap_cr": 1938.4000512,
+  "name": "Quadrant Future Tek Limited",
+  "revenue_growth": 41.3,
+  "roe": -13.762360831656606,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

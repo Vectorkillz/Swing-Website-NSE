@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7177.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:34+00:00",
+  "industry": "Communication Equipment",
+  "market_cap_cr": 12.8201136,
+  "name": "Shyam Telecom Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

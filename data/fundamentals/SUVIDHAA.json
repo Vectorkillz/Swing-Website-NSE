@@ -1,0 +1,15 @@
+{
+  "avg_volume": 129342.0,
+  "debt_equity": 0.0464,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:42:25+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 48.513488,
+  "name": "Suvidhaa Infoserve Limited",
+  "revenue_growth": -60.0,
+  "roe": -30.3,
+  "roe_source": "returnOnEquity",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

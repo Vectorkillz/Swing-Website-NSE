@@ -1,0 +1,15 @@
+{
+  "avg_volume": 338869.0,
+  "debt_equity": 0.55821,
+  "eps_growth": 57.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:07+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 10605.391872,
+  "name": "Strides Pharma Science Limited",
+  "revenue_growth": 13.0,
+  "roe": 19.742105113396214,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

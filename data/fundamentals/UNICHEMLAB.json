@@ -1,0 +1,15 @@
+{
+  "avg_volume": 434575.0,
+  "debt_equity": 0.18405000000000002,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:00+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 3659.6908032,
+  "name": "Unichem Laboratories Limited",
+  "revenue_growth": 20.1,
+  "roe": 11.212724825419794,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

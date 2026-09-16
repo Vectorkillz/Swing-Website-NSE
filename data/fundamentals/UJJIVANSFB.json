@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18816849.0,
+  "debt_equity": null,
+  "eps_growth": 201.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:54+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 12560.900096,
+  "name": "Ujjivan Small Finance Bank Limited",
+  "revenue_growth": 49.6,
+  "roe": 13.235483385787331,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

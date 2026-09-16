@@ -1,0 +1,15 @@
+{
+  "avg_volume": 617933.0,
+  "debt_equity": null,
+  "eps_growth": 109.60000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:10+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 31820.8606208,
+  "name": "Star Health and Allied Insurance Company Limited",
+  "revenue_growth": 1407.8,
+  "roe": 7.507,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

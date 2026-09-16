@@ -1,0 +1,15 @@
+{
+  "avg_volume": 221575.0,
+  "debt_equity": 0.12646000000000002,
+  "eps_growth": 23.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:52+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 258.7852288,
+  "name": "Nila Infrastructures Limited",
+  "revenue_growth": -19.900000000000002,
+  "roe": 13.353389982667652,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

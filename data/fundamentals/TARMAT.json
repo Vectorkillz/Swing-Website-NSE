@@ -1,0 +1,15 @@
+{
+  "avg_volume": 53441.0,
+  "debt_equity": 0.08047,
+  "eps_growth": 106.69999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:02+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 146.0995456,
+  "name": "Tarmat Limited",
+  "revenue_growth": 43.6,
+  "roe": 3.7928691929442775,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

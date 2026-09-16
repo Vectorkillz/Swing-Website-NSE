@@ -1,0 +1,15 @@
+{
+  "avg_volume": 761513.0,
+  "debt_equity": 0.028679999999999997,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:29+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 2218.1728256,
+  "name": "Sanstar Limited",
+  "revenue_growth": 22.1,
+  "roe": 5.76734797598906,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

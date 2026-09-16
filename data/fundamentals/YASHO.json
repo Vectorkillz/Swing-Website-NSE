@@ -1,0 +1,15 @@
+{
+  "avg_volume": 56352.0,
+  "debt_equity": 1.25684,
+  "eps_growth": 890.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:05+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 4749.8924032,
+  "name": "Yasho Industries Limited",
+  "revenue_growth": 54.900000000000006,
+  "roe": 12.98787334400108,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

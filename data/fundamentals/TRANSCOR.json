@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3507.0,
+  "debt_equity": 1.13343,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:02+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": null,
+  "name": "Transcorp International Limited",
+  "revenue_growth": -8.7,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

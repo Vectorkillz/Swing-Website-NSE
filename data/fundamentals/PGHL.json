@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16198.0,
+  "debt_equity": 0.01771,
+  "eps_growth": -4.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:29+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 8976.9459712,
+  "name": "Procter & Gamble Health Limited",
+  "revenue_growth": 7.3999999999999995,
+  "roe": 68.03561838374011,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

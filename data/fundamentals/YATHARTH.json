@@ -1,0 +1,15 @@
+{
+  "avg_volume": 350526.0,
+  "debt_equity": 0.14614000000000002,
+  "eps_growth": 11.899999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:59:06+00:00",
+  "industry": "Medical Care Facilities",
+  "market_cap_cr": 9333.8468352,
+  "name": "Yatharth Hospital & Trauma Care Services Limited",
+  "revenue_growth": 52.300000000000004,
+  "roe": 10.13559381300963,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

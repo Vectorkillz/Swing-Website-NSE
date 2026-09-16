@@ -1,0 +1,15 @@
+{
+  "avg_volume": 80693.0,
+  "debt_equity": 0.34493,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:21+00:00",
+  "industry": "Real Estate - Development",
+  "market_cap_cr": 150.4318848,
+  "name": "Prajay Engineers Syndicate Limited",
+  "revenue_growth": -67.0,
+  "roe": -3.734757106620291,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 13628.0,
+  "debt_equity": 0.00419,
+  "eps_growth": 11.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:34+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 4336.5298176,
+  "name": "Swaraj Engines Limited",
+  "revenue_growth": 21.5,
+  "roe": 41.288100541084624,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

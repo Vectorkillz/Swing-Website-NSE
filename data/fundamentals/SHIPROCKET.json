@@ -1,0 +1,15 @@
+{
+  "avg_volume": 34328776.0,
+  "debt_equity": 0.22619,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:00+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 9299.8967296,
+  "name": "Shiprocket Limited",
+  "revenue_growth": 25.6,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

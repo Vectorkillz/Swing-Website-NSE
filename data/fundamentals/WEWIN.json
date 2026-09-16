@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2000.0,
+  "debt_equity": 0.10825,
+  "eps_growth": 40.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:39+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 41.4873664,
+  "name": "We Win Limited",
+  "revenue_growth": 15.8,
+  "roe": 40.8776987404517,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

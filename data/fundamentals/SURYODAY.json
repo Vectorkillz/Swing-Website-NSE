@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2071732.0,
+  "debt_equity": null,
+  "eps_growth": 112.99999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:23+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 1539.2817152,
+  "name": "Suryoday Small Finance Bank Limited",
+  "revenue_growth": 45.4,
+  "roe": 9.231604289812811,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

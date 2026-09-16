@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1515808.0,
+  "debt_equity": 4.68058,
+  "eps_growth": 337.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:13+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 38065.176576,
+  "name": "Poonawalla Fincorp Limited",
+  "revenue_growth": 100.29999999999998,
+  "roe": 7.015061495488063,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

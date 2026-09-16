@@ -1,0 +1,15 @@
+{
+  "avg_volume": 159029.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:01+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 332.3094272,
+  "name": "Tracxn Technologies Limited",
+  "revenue_growth": -0.6,
+  "roe": -22.828091569104153,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

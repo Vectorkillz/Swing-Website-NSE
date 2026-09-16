@@ -1,0 +1,15 @@
+{
+  "avg_volume": 266318.0,
+  "debt_equity": 0.26086,
+  "eps_growth": -83.8,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-16T04:56:46+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 663.1677952,
+  "name": "Vascon Engineers Limited",
+  "revenue_growth": -34.699999999999996,
+  "roe": 4.362,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

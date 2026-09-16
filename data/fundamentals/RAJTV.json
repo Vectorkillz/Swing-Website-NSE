@@ -1,0 +1,15 @@
+{
+  "avg_volume": 65699.0,
+  "debt_equity": 0.16564,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:37+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 44.7493024,
+  "name": "Raj Television Network Limited",
+  "revenue_growth": -9.700000000000001,
+  "roe": -0.48345392773984097,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 297988.0,
+  "debt_equity": 0.11119,
+  "eps_growth": -45.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:43+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 590.232064,
+  "name": "Saurashtra Cement Limited",
+  "revenue_growth": 7.8,
+  "roe": 0.7052547502602644,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

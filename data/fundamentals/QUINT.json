@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15260.0,
+  "debt_equity": 0.39011,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:17+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": null,
+  "name": "Quint Digital Limited",
+  "revenue_growth": 335.8,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

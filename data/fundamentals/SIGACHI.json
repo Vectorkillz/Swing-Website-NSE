@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2261972.0,
+  "debt_equity": 0.30681,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:38+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 1205.2114432,
+  "name": "Sigachi Industries Limited",
+  "revenue_growth": -5.4,
+  "roe": 4.902402713158874,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

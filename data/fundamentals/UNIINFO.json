@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3150.0,
+  "debt_equity": 0.16826,
+  "eps_growth": 550.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:06+00:00",
+  "industry": "Telecom Services",
+  "market_cap_cr": 12.40402,
+  "name": "Uniinfo Telecom Services Limited",
+  "revenue_growth": -1.4000000000000001,
+  "roe": -3.3928432687469834,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

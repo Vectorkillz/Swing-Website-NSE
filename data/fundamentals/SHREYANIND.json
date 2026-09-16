@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7497.0,
+  "debt_equity": 0.14387,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:23+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 174.4243456,
+  "name": "Shreyans Industries Limited",
+  "revenue_growth": 4.2,
+  "roe": -3.288637910961132,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

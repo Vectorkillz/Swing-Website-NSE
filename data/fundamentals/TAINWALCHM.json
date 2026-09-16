@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11979.0,
+  "debt_equity": null,
+  "eps_growth": -99.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:48+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 191.9591936,
+  "name": "Tainwala Chemicals and Plastics (India) Limited",
+  "revenue_growth": -5.7,
+  "roe": 4.645232301505385,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

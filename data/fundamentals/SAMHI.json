@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1181260.0,
+  "debt_equity": 0.8110200000000001,
+  "eps_growth": 51.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:12+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 3396.0992768,
+  "name": "SAMHI Hotels Limited",
+  "revenue_growth": 12.1,
+  "roe": 33.11589713796161,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

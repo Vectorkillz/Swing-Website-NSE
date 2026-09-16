@@ -1,0 +1,15 @@
+{
+  "avg_volume": 770.0,
+  "debt_equity": null,
+  "eps_growth": -18.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:09+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 1077.2391936,
+  "name": "Vardhman Holdings Limited",
+  "revenue_growth": -11.4,
+  "roe": 6.165542739646047,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

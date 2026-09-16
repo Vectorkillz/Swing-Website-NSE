@@ -1,0 +1,15 @@
+{
+  "avg_volume": 293757.0,
+  "debt_equity": 0.45354999999999995,
+  "eps_growth": 46.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:03+00:00",
+  "industry": "Electronics & Computer Distribution",
+  "market_cap_cr": 5454.6194432,
+  "name": "Optiemus Infracom Limited",
+  "revenue_growth": 102.8,
+  "roe": 9.202883827898019,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

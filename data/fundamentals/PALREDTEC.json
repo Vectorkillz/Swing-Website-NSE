@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5731.0,
+  "debt_equity": 1.61322,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:40+00:00",
+  "industry": "Consumer Electronics",
+  "market_cap_cr": 60.9304128,
+  "name": "Palred Technologies Limited",
+  "revenue_growth": 63.9,
+  "roe": -8.603695610467112,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

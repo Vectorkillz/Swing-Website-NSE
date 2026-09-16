@@ -1,0 +1,15 @@
+{
+  "avg_volume": 249505.0,
+  "debt_equity": 0.4415,
+  "eps_growth": 37.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:14+00:00",
+  "industry": "Diagnostics & Research",
+  "market_cap_cr": 14450.5782272,
+  "name": "Vijaya Diagnostic Centre Limited",
+  "revenue_growth": 22.8,
+  "roe": 19.560493250857338,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

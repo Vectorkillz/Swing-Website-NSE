@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6869.0,
+  "debt_equity": 0.0417,
+  "eps_growth": 26.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:40:19+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 85.1228672,
+  "name": "Sarthak Metals Limited",
+  "revenue_growth": 19.400000000000002,
+  "roe": 3.956,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

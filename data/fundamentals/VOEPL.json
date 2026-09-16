@@ -1,0 +1,15 @@
+{
+  "avg_volume": 171728.0,
+  "debt_equity": 0.83556,
+  "eps_growth": 31.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:56+00:00",
+  "industry": "Consumer Electronics",
+  "market_cap_cr": 1644.051456,
+  "name": "Virtuoso Optoelectronics Limited",
+  "revenue_growth": 85.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

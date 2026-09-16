@@ -1,0 +1,15 @@
+{
+  "avg_volume": 399.0,
+  "debt_equity": 0.00049,
+  "eps_growth": 0.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:59+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": null,
+  "name": "Voith Paper Fabrics India Limited",
+  "revenue_growth": -1.2,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

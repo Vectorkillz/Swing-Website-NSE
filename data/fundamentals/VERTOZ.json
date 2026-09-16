@@ -1,0 +1,15 @@
+{
+  "avg_volume": 50280.0,
+  "debt_equity": 0.38592,
+  "eps_growth": 13.200000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:02+00:00",
+  "industry": "Software - Infrastructure",
+  "market_cap_cr": 319.527296,
+  "name": "Vertoz Limited",
+  "revenue_growth": 15.8,
+  "roe": 12.216752071335865,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

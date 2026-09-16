@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1897.0,
+  "debt_equity": null,
+  "eps_growth": -35.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:26+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 883.4060288,
+  "name": "Wealth First Portfolio Managers Limited",
+  "revenue_growth": -23.799999999999997,
+  "roe": 21.947794086401796,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

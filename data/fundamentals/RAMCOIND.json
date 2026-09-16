@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1083366.0,
+  "debt_equity": 0.037919999999999995,
+  "eps_growth": 31.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:45+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 2765.0353152,
+  "name": "Ramco Industries Limited",
+  "revenue_growth": 17.299999999999997,
+  "roe": 7.236198287429859,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

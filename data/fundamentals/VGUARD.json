@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1222747.0,
+  "debt_equity": 0.06964000000000001,
+  "eps_growth": 76.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:08+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 13947.7467136,
+  "name": "V-Guard Industries Limited",
+  "revenue_growth": 23.5,
+  "roe": 15.366488230347674,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

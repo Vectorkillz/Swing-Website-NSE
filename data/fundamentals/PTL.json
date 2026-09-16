@@ -1,0 +1,15 @@
+{
+  "avg_volume": 44769.0,
+  "debt_equity": 0.00642,
+  "eps_growth": -5.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:00+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 505.0182656,
+  "name": "PTL Enterprises Limited",
+  "revenue_growth": 0.0,
+  "roe": 5.426875407458201,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

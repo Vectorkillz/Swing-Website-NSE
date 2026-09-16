@@ -1,0 +1,15 @@
+{
+  "avg_volume": 672971.0,
+  "debt_equity": 0.6975199999999999,
+  "eps_growth": 22.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:43+00:00",
+  "industry": "Advertising Agencies",
+  "market_cap_cr": 1414.5542144,
+  "name": "Signpost India Limited",
+  "revenue_growth": 10.6,
+  "roe": 25.480178978899303,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1000695.0,
+  "debt_equity": 0.47642,
+  "eps_growth": 72.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:55+00:00",
+  "industry": "Specialty Business Services",
+  "market_cap_cr": 1490.3256064,
+  "name": "One Point One Solutions Limited",
+  "revenue_growth": 129.4,
+  "roe": 10.170567397089716,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

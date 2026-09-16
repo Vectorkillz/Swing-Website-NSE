@@ -1,0 +1,15 @@
+{
+  "avg_volume": 111925.0,
+  "debt_equity": 0.03735,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:07+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 334.0604416,
+  "name": "Varvee Global Limited",
+  "revenue_growth": null,
+  "roe": -25.436954407943883,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

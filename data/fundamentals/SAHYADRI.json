@@ -1,0 +1,15 @@
+{
+  "avg_volume": 19716.0,
+  "debt_equity": 0.04085,
+  "eps_growth": 146.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:52+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 397.51488,
+  "name": "Sahyadri Industries Limited",
+  "revenue_growth": 20.5,
+  "roe": 11.019718832333497,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 260283.0,
+  "debt_equity": null,
+  "eps_growth": 28.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:43+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 131.5948032,
+  "name": "Sadbhav Engineering Limited",
+  "revenue_growth": -8.1,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 725245.0,
+  "debt_equity": 0.1752,
+  "eps_growth": 49.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:58:11+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 15906.6963968,
+  "name": "Vardhman Textiles Limited",
+  "revenue_growth": 13.3,
+  "roe": 7.929147385519693,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

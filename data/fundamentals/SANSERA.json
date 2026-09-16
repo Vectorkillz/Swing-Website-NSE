@@ -1,0 +1,15 @@
+{
+  "avg_volume": 263933.0,
+  "debt_equity": 0.19023,
+  "eps_growth": 38.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:37:27+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 24160.78848,
+  "name": "Sansera Engineering Limited",
+  "revenue_growth": 33.300000000000004,
+  "roe": 11.253935252949086,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

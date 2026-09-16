@@ -1,0 +1,15 @@
+{
+  "avg_volume": 11787.0,
+  "debt_equity": 2.25406,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:26+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 917.9631616,
+  "name": "Synergy Green Industries Limited",
+  "revenue_growth": -10.100000000000001,
+  "roe": -7.949258767898559,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

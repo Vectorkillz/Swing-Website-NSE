@@ -1,0 +1,15 @@
+{
+  "avg_volume": 7227.0,
+  "debt_equity": 0.6190599999999999,
+  "eps_growth": 163.39999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:45+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 129.335936,
+  "name": "Vital Chemtech Limited",
+  "revenue_growth": 51.5,
+  "roe": 2.595479193593048,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

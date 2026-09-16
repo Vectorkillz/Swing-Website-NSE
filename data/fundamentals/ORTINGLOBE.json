@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16095.0,
+  "debt_equity": 0.81238,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:25+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 13.5143744,
+  "name": "Ortin Global Limited",
+  "revenue_growth": -59.8,
+  "roe": -83.48781862332153,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

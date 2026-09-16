@@ -1,0 +1,15 @@
+{
+  "avg_volume": 749523.0,
+  "debt_equity": 0.39929000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:33+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 457.4368256,
+  "name": "Rushil D\u00e9cor Limited",
+  "revenue_growth": 27.800000000000004,
+  "roe": 3.535923497372688,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

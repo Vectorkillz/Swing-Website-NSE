@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16765.0,
+  "debt_equity": 0.00413,
+  "eps_growth": 50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:34+00:00",
+  "industry": "Apparel Manufacturing",
+  "market_cap_cr": 627.480832,
+  "name": "Virat Industries Limited",
+  "revenue_growth": 9.9,
+  "roe": 4.732937667383983,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

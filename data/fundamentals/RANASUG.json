@@ -1,0 +1,15 @@
+{
+  "avg_volume": 474129.0,
+  "debt_equity": 0.53558,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:34:51+00:00",
+  "industry": "Confectioners",
+  "market_cap_cr": 227.5875072,
+  "name": "Rana Sugars Limited",
+  "revenue_growth": -12.5,
+  "roe": 0.9946040437370682,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}

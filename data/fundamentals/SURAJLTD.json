@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2113.0,
+  "debt_equity": 0.43774,
+  "eps_growth": 30.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:13+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 359.477248,
+  "name": "Suraj Limited",
+  "revenue_growth": -22.5,
+  "roe": 6.036667910670277,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

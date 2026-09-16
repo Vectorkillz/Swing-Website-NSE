@@ -1,0 +1,15 @@
+{
+  "avg_volume": 229601.0,
+  "debt_equity": null,
+  "eps_growth": 19.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:41:16+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 3165.0299904,
+  "name": "Steelcast Limited",
+  "revenue_growth": 17.0,
+  "roe": 22.958276411294428,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

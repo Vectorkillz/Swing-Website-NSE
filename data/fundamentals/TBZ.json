@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2941512.0,
+  "debt_equity": 1.05734,
+  "eps_growth": 61.8,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:16+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 3499.6875264,
+  "name": "Tribhovandas Bhimji Zaveri Limited",
+  "revenue_growth": 34.8,
+  "roe": 25.49161558379693,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

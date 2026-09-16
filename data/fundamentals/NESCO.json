@@ -1,0 +1,15 @@
+{
+  "avg_volume": 54501.0,
+  "debt_equity": 0.09068,
+  "eps_growth": 4.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:27+00:00",
+  "industry": "Conglomerates",
+  "market_cap_cr": 7663.9297536,
+  "name": "Nesco Limited",
+  "revenue_growth": 15.299999999999999,
+  "roe": 13.897793490738128,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

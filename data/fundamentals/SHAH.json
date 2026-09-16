@@ -1,0 +1,15 @@
+{
+  "avg_volume": 8848862.0,
+  "debt_equity": 0.7752800000000001,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:35+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 332.4453376,
+  "name": "Shah Metacorp Limited",
+  "revenue_growth": 102.1,
+  "roe": 3.9982727215985947,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

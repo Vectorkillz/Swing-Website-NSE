@@ -1,0 +1,15 @@
+{
+  "avg_volume": 419706.0,
+  "debt_equity": 0.06016,
+  "eps_growth": -50.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:05+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 54.7352128,
+  "name": "Orchasp Limited",
+  "revenue_growth": -73.1,
+  "roe": 0.6980576076429084,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

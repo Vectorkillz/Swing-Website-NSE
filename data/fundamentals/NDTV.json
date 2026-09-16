@@ -1,0 +1,15 @@
+{
+  "avg_volume": 228560.0,
+  "debt_equity": 1.99402,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:29:17+00:00",
+  "industry": "Broadcasting",
+  "market_cap_cr": 794.624512,
+  "name": "New Delhi Television Limited",
+  "revenue_growth": 8.9,
+  "roe": -260.3058262067585,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

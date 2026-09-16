@@ -1,0 +1,15 @@
+{
+  "avg_volume": 67137.0,
+  "debt_equity": 0.1523,
+  "eps_growth": 48.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:46+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 362.3563264,
+  "name": "Omax Autos Limited",
+  "revenue_growth": 22.400000000000002,
+  "roe": 11.678906352538023,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

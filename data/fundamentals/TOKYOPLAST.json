@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1683.0,
+  "debt_equity": 0.77168,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:54:52+00:00",
+  "industry": "Packaging & Containers",
+  "market_cap_cr": 68.6191104,
+  "name": "Tokyo Plast International Limited",
+  "revenue_growth": 8.9,
+  "roe": 0.5067593978466212,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

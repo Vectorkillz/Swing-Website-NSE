@@ -1,0 +1,15 @@
+{
+  "avg_volume": 280445.0,
+  "debt_equity": 0.0635,
+  "eps_growth": -7.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:13+00:00",
+  "industry": "Paper & Paper Products",
+  "market_cap_cr": 919.2109056,
+  "name": "Pudumjee Paper Products Limited",
+  "revenue_growth": 3.3000000000000003,
+  "roe": 13.603467298016565,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

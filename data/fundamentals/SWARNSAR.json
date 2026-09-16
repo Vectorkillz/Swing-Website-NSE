@@ -1,0 +1,15 @@
+{
+  "avg_volume": 33791.0,
+  "debt_equity": 0.5067900000000001,
+  "eps_growth": 76.9,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:35+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": null,
+  "name": "Swarnsarita Jewels India Limited",
+  "revenue_growth": 35.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

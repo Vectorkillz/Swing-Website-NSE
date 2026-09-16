@@ -1,0 +1,15 @@
+{
+  "avg_volume": 49167.0,
+  "debt_equity": 1.01226,
+  "eps_growth": -63.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:55+00:00",
+  "industry": "Steel",
+  "market_cap_cr": 238.7260928,
+  "name": "VMS TMT Limited",
+  "revenue_growth": 16.8,
+  "roe": 7.44106729275974,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

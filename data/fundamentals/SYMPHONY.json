@@ -1,0 +1,15 @@
+{
+  "avg_volume": 164749.0,
+  "debt_equity": 0.3164,
+  "eps_growth": -5.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:41+00:00",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "market_cap_cr": 3939.678208,
+  "name": "Symphony Limited",
+  "revenue_growth": 50.6,
+  "roe": -26.23727927006331,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

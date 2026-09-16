@@ -1,0 +1,15 @@
+{
+  "avg_volume": 678584.0,
+  "debt_equity": 0.14111,
+  "eps_growth": -43.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:31:30+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 3140.26496,
+  "name": "Oswal Pumps Limited",
+  "revenue_growth": -7.9,
+  "roe": 18.92158385697165,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

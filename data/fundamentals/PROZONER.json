@@ -1,0 +1,15 @@
+{
+  "avg_volume": 251050.0,
+  "debt_equity": 1.34619,
+  "eps_growth": 80.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:51+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 804.5223936,
+  "name": "Prozone Realty Limited",
+  "revenue_growth": -58.8,
+  "roe": 2.4924546776241363,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 119787.0,
+  "debt_equity": 0.82134,
+  "eps_growth": 30.099999999999998,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:43+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 4094.824448,
+  "name": "Pitti Engineering Limited",
+  "revenue_growth": 15.9,
+  "roe": 12.60725536411193,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

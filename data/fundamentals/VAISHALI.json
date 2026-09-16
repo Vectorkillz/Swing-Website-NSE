@@ -1,0 +1,15 @@
+{
+  "avg_volume": 128557.0,
+  "debt_equity": 0.27331,
+  "eps_growth": 18.5,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:38+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 113.7629824,
+  "name": "Vaishali Pharma Limited",
+  "revenue_growth": -3.5999999999999996,
+  "roe": 6.411710940283326,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

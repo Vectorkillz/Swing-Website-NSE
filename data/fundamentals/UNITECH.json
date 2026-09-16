@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5236146.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:56:11+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 1125.0095104,
+  "name": "Unitech Limited",
+  "revenue_growth": 1.0,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1477438.0,
+  "debt_equity": 1.4303299999999999,
+  "eps_growth": -97.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:36:18+00:00",
+  "industry": "Internet Retail",
+  "market_cap_cr": 3729.7774592,
+  "name": "RattanIndia Enterprises Limited",
+  "revenue_growth": 1.9,
+  "roe": -86.090618761944,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

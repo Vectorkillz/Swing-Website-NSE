@@ -1,0 +1,15 @@
+{
+  "avg_volume": 142056.0,
+  "debt_equity": 11.397129999999999,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:39:13+00:00",
+  "industry": "Department Stores",
+  "market_cap_cr": 4391.6955648,
+  "name": "Shoppers Stop Limited",
+  "revenue_growth": 11.200000000000001,
+  "roe": -11.880215714320803,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

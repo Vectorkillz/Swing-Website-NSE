@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2709837.0,
+  "debt_equity": 5.02931,
+  "eps_growth": 47.199999999999996,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:43:06+00:00",
+  "industry": "Credit Services",
+  "market_cap_cr": 148996.8431104,
+  "name": "Tata Capital Limited",
+  "revenue_growth": 40.300000000000004,
+  "roe": 11.782385671159714,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

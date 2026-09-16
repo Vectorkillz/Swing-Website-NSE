@@ -1,0 +1,15 @@
+{
+  "avg_volume": 18207.0,
+  "debt_equity": null,
+  "eps_growth": 468.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:42:28+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": null,
+  "name": "S V Global Mill Limited",
+  "revenue_growth": 294.5,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

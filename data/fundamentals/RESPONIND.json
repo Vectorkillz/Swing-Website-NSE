@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1890194.0,
+  "debt_equity": 0.12509,
+  "eps_growth": -57.599999999999994,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-15T14:35:24+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 4287.5990016,
+  "name": "Responsive Industries Limited",
+  "revenue_growth": 13.0,
+  "roe": 10.221,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

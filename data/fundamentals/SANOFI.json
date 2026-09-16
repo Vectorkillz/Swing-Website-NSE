@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22957.0,
+  "debt_equity": 0.0178,
+  "eps_growth": 20.1,
+  "fcf_positive": true,
+  "fetched_at": "2026-09-15T14:37:25+00:00",
+  "industry": "Drug Manufacturers - General",
+  "market_cap_cr": 7210.8875776,
+  "name": "Sanofi India Limited",
+  "revenue_growth": 7.7,
+  "roe": 40.271,
+  "roe_source": "returnOnEquity",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3392569.0,
+  "debt_equity": null,
+  "eps_growth": 22.400000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:51+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 4367.0593536,
+  "name": "Rolex Rings Limited",
+  "revenue_growth": 4.3999999999999995,
+  "roe": 13.009190148038662,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

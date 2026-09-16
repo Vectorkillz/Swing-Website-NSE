@@ -1,0 +1,15 @@
+{
+  "avg_volume": 2350067.0,
+  "debt_equity": 0.92781,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:35:33+00:00",
+  "industry": "Auto Parts",
+  "market_cap_cr": 1739.4944,
+  "name": "Rico Auto Industries Limited",
+  "revenue_growth": 38.9,
+  "roe": 3.9248622346571884,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

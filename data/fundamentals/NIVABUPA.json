@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1595665.0,
+  "debt_equity": 0.06799000000000001,
+  "eps_growth": 89.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:10+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 15074.6038272,
+  "name": "Niva Bupa Health Insurance Company Limited",
+  "revenue_growth": 27.900000000000002,
+  "roe": 12.1350005,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 59409.0,
+  "debt_equity": 0.56699,
+  "eps_growth": 0.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:35+00:00",
+  "industry": "Software - Application",
+  "market_cap_cr": 157.3394944,
+  "name": "Virinchi Limited",
+  "revenue_growth": -12.0,
+  "roe": -4.970964908910604,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

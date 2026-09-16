@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1160528.0,
+  "debt_equity": 0.29625,
+  "eps_growth": -48.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:38:38+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 5851.5316736,
+  "name": "Shakti Pumps (India) Limited",
+  "revenue_growth": 37.9,
+  "roe": 12.449889075907123,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

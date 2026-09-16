@@ -1,0 +1,15 @@
+{
+  "avg_volume": 5586517.0,
+  "debt_equity": 0.38323,
+  "eps_growth": 14.799999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:55:15+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 11745.32096,
+  "name": "Trident Limited",
+  "revenue_growth": 4.7,
+  "roe": 8.28865120510718,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

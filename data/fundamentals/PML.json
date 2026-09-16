@@ -1,0 +1,15 @@
+{
+  "avg_volume": 181.0,
+  "debt_equity": 0.01138,
+  "eps_growth": -96.89999999999999,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:32:52+00:00",
+  "industry": "Capital Markets",
+  "market_cap_cr": 153.7528192,
+  "name": "Paul Merchants Limited",
+  "revenue_growth": -2.5,
+  "roe": 2.28403522026362,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

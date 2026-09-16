@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1510595.0,
+  "debt_equity": null,
+  "eps_growth": 23.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:33:55+00:00",
+  "industry": "Banks - Regional",
+  "market_cap_cr": 15879.9200256,
+  "name": "Punjab & Sind Bank",
+  "revenue_growth": 10.9,
+  "roe": 9.786,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

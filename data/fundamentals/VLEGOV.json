@@ -1,0 +1,15 @@
+{
+  "avg_volume": 100790.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:51+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 111.4879616,
+  "name": "VL E-Governance & IT Solutions Limited",
+  "revenue_growth": -92.10000000000001,
+  "roe": -5.829180694065114,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

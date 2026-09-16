@@ -1,0 +1,15 @@
+{
+  "avg_volume": 4084226.0,
+  "debt_equity": 0.20366,
+  "eps_growth": -87.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-16T04:57:19+00:00",
+  "industry": "Solar",
+  "market_cap_cr": 5928.4799488,
+  "name": "Vikram Solar Limited",
+  "revenue_growth": 37.9,
+  "roe": 11.263857092316584,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

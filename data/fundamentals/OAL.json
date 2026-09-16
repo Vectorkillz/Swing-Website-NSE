@@ -1,0 +1,15 @@
+{
+  "avg_volume": 70869.0,
+  "debt_equity": 0.60585,
+  "eps_growth": 400.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-15T14:30:38+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 1719.529472,
+  "name": "Oriental Aromatics Limited",
+  "revenue_growth": 15.2,
+  "roe": 0.8006257142933499,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}
