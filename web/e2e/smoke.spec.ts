@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const ROUTES = ["/", "/universe", "/track-record", "/data"];
+const ROUTES = ["/", "/optionable", "/universe", "/track-record", "/data"];
 
 function collectErrors(page: Page): string[] {
   const errors: string[] = [];
@@ -23,19 +23,27 @@ for (const route of ROUTES) {
 
 test("scanner shows regime and either setup cards or an empty state", async ({ page }) => {
   await page.goto("/#/");
-  await expect(page.locator("text=/BULL|BEAR|NEUTRAL|UNKNOWN|No scan published/").first()).toBeVisible({ timeout: 15000 });
+  const badge = page.getByTestId("regime-badge").first();
+  const empty = page.getByText(/No scan published/);
+  await expect(badge.or(empty).first()).toBeVisible({ timeout: 15000 });
+  if (await badge.count()) await expect(badge).toHaveText(/BULL|BEAR|NEUTRAL|UNKNOWN/);
 });
 
-test("a setup card opens the detail view with a chart", async ({ page }) => {
+test("a setup card opens the reasoning drawer with a chart", async ({ page }) => {
   await page.goto("/#/");
   const card = page.locator("button[aria-label$='setup']").first();
   const empty = page.getByText(/No setups match|No scan published/);
   await Promise.race([card.waitFor({ timeout: 15000 }), empty.waitFor({ timeout: 15000 })]);
   if (await card.count()) {
     await card.click();
-    await expect(page.locator("canvas").first()).toBeVisible({ timeout: 15000 });
-    await expect(page.getByText("Price plan")).toBeVisible();
+    const drawer = page.getByTestId("drawer");
+    await expect(drawer).toBeVisible();
+    await expect(drawer.getByText("Technical reasoning")).toBeVisible();
+    await expect(drawer.getByText("Price plan")).toBeVisible();
+    await expect(drawer.locator("canvas").first()).toBeVisible({ timeout: 15000 });
     await page.screenshot({ path: "test-results/shot_detail.png", fullPage: false });
+    await page.keyboard.press("Escape");
+    await expect(drawer).toHaveCount(0);
   }
 });
 
@@ -45,6 +53,57 @@ test("cap filter pills toggle", async ({ page }) => {
   await pill.waitFor({ timeout: 15000 });
   await pill.click();
   await expect(pill).toHaveAttribute("aria-pressed", "true");
+});
+
+test("card sort control flips direction on second click", async ({ page }) => {
+  await page.goto("/#/");
+  const score = page.locator("[data-sort-key='score']").first();
+  await score.waitFor({ timeout: 15000 });
+  await score.click();
+  await expect(score).toHaveAttribute("data-sort-dir", "desc");
+  await score.click();
+  await expect(score).toHaveAttribute("data-sort-dir", "asc");
+});
+
+test("universe column headers sort highest-to-lowest then lowest-to-highest", async ({ page }) => {
+  await page.goto("/#/universe");
+  const table = page.getByTestId("universe-table");
+  await table.waitFor({ timeout: 20000 });
+  const atr = table.locator("th.sortable", { hasText: "ATR %" });
+  await atr.locator("button").click();
+  await expect(atr).toHaveAttribute("aria-sort", "descending");
+  const first = await table.locator("tbody tr").first().locator("td").nth(7).innerText();
+  await atr.locator("button").click();
+  await expect(atr).toHaveAttribute("aria-sort", "ascending");
+  const firstAsc = await table.locator("tbody tr").first().locator("td").nth(7).innerText();
+  const n = (s: string) => parseFloat(s.replace("%", ""));
+  if (!Number.isNaN(n(first)) && !Number.isNaN(n(firstAsc))) expect(n(firstAsc)).toBeLessThanOrEqual(n(first));
+});
+
+test("universe row opens a reasoning drawer", async ({ page }) => {
+  await page.goto("/#/universe");
+  const row = page.getByTestId("universe-table").locator("tbody tr").first();
+  await row.waitFor({ timeout: 20000 });
+  await row.click();
+  await expect(page.getByTestId("reasoning")).toBeVisible();
+  await page.getByRole("button", { name: "Close detail" }).click();
+  await expect(page.getByTestId("drawer")).toHaveCount(0);
+});
+
+test("refresh button spins then settles", async ({ page }) => {
+  await page.goto("/#/");
+  const btn = page.getByTestId("refresh-data");
+  await btn.waitFor({ timeout: 15000 });
+  await btn.click();
+  await expect(btn).toHaveAttribute("aria-busy", "false", { timeout: 15000 });
+  await expect(btn).toBeEnabled();
+});
+
+test("optionable tab only lists F&O names", async ({ page }) => {
+  await page.goto("/#/optionable");
+  await expect(page.getByRole("heading", { name: "Optionable Swing Moves" })).toBeVisible({ timeout: 15000 });
+  await page.waitForTimeout(1500);
+  expect(await page.getByText("Cash only").count()).toBe(0);
 });
 
 test("readable at 380px", async ({ page }) => {
@@ -57,7 +116,10 @@ test("readable at 380px", async ({ page }) => {
 });
 
 test("no advice wording in rendered UI", async ({ page }) => {
-  await page.goto("/#/");
-  const text = (await page.locator("body").innerText()).toLowerCase();
-  expect(text).not.toMatch(/recommend|probabilit|buy signal/);
+  for (const route of ["/", "/optionable"]) {
+    await page.goto(`/#${route}`);
+    await page.waitForTimeout(1000);
+    const text = (await page.locator("body").innerText()).toLowerCase();
+    expect(text).not.toMatch(/recommend|probabilit|buy signal/);
+  }
 });

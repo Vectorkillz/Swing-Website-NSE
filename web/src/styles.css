@@ -12,17 +12,29 @@ html { scroll-behavior: smooth; }
 body {
   @apply bg-bg text-text antialiased;
   font-feature-settings: "tnum" 1, "cv11" 1;
+  background-image: radial-gradient(1200px 600px at 80% -10%, rgba(0, 230, 118, 0.05), transparent 60%);
 }
+body[data-drawer-open="true"] { overflow: hidden; }
 
-* { scrollbar-width: thin; scrollbar-color: #2a3341 transparent; }
+* { scrollbar-width: thin; scrollbar-color: #2a2a34 transparent; }
 *::-webkit-scrollbar { height: 8px; width: 8px; }
-*::-webkit-scrollbar-thumb { background: #2a3341; border-radius: 999px; }
+*::-webkit-scrollbar-thumb { background: #2a2a34; border-radius: 999px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
 
 .card {
-  @apply rounded-2xl bg-panel p-4 shadow-[0_1px_0_rgba(255,255,255,0.03)_inset];
+  @apply rounded-2xl bg-panel p-4;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.035) inset, 0 0 0 1px rgba(255, 255, 255, 0.03);
   transition: background-color 200ms var(--ease), transform 200ms var(--ease), box-shadow 200ms var(--ease);
 }
-.card-hover:hover { @apply bg-panel2; transform: translateY(-2px); box-shadow: 0 12px 30px -18px rgba(0, 0, 0, 0.8); }
+.card-hover:hover { @apply bg-panel2; transform: translateY(-2px); box-shadow: 0 14px 34px -20px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.06); }
+
+/* Bento grid: dense modular tiles with a 12-column base. */
+.bento { @apply grid grid-cols-2 gap-3 md:grid-cols-12; }
+.bento > .tile { @apply card min-w-0; }
+.tile-kpi .kpi { @apply mono mt-1 text-2xl font-semibold tracking-tight md:text-3xl; }
 
 .label { @apply text-[11px] font-medium uppercase tracking-[0.12em] text-muted; }
 .mono { @apply font-mono tabular-nums; }
@@ -39,22 +51,37 @@ body {
 .badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-semibold; }
 
 .btn {
-  @apply inline-flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium;
+  @apply inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium;
   background: rgba(255, 255, 255, 0.06);
-  transition: background-color 160ms var(--ease), transform 160ms var(--ease);
+  transition: background-color 160ms var(--ease), transform 160ms var(--ease), box-shadow 160ms var(--ease);
 }
 .btn:hover { background: rgba(255, 255, 255, 0.12); }
 .btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.6; cursor: progress; }
 .btn-accent { @apply bg-accent text-bg; }
-.btn-accent:hover { filter: brightness(1.1); background: #1ed760; }
+.btn-accent:hover { filter: brightness(1.08); box-shadow: 0 0 0 1px rgba(0, 230, 118, 0.35), 0 8px 24px -10px rgba(0, 230, 118, 0.6); background: #00e676; }
 
 .input { @apply rounded-full bg-panel2 px-3 py-1.5 text-sm text-text placeholder:text-muted focus:outline-none focus:ring-2 focus:ring-accent/60; }
 
 table.data { @apply w-full text-sm; }
-table.data th { @apply label px-3 py-2 text-left font-medium; position: sticky; top: 0; background: #121722; z-index: 1; }
+table.data th { @apply label px-3 py-2 text-left font-medium; position: sticky; top: 0; background: #17171d; z-index: 1; }
 table.data td { @apply px-3 py-2 align-middle; border-top: 1px solid rgba(255, 255, 255, 0.04); }
 table.data tbody tr { transition: background-color 120ms var(--ease); }
 table.data tbody tr:hover, table.data tr[data-selected="true"] { background: rgba(255, 255, 255, 0.04); }
+table.data tbody tr.row-link { cursor: pointer; }
+
+/* Sortable column headers */
+th.sortable { padding: 0; }
+th.sortable > button {
+  @apply label flex w-full items-center gap-1 px-3 py-2 text-left font-medium;
+  transition: color 120ms var(--ease);
+}
+th.sortable.text-right > button { justify-content: flex-end; }
+th.sortable > button:hover { color: #fff; }
+th.sortable[aria-sort="ascending"] > button, th.sortable[aria-sort="descending"] > button { color: #f3f4f8; }
+th.sortable .sort-ico { opacity: 0.35; transition: opacity 120ms var(--ease), transform 160ms var(--ease); }
+th.sortable[aria-sort="ascending"] .sort-ico, th.sortable[aria-sort="descending"] .sort-ico { opacity: 1; color: #00e676; }
+th.sortable[aria-sort="ascending"] .sort-ico { transform: rotate(180deg); }
 
 .tip { @apply relative cursor-help; border-bottom: 1px dotted #5c6675; }
 .tip:hover::after, .tip:focus::after {
@@ -65,8 +92,17 @@ table.data tbody tr:hover, table.data tr[data-selected="true"] { background: rgb
 .fade-in { animation: fade-in 260ms var(--ease) both; }
 @keyframes fade-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
-.drawer { animation: drawer-in 280ms var(--ease) both; }
-@keyframes drawer-in { from { transform: translateX(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+.spin { animation: spin 900ms linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Slide-over drawer */
+.overlay { @apply fixed inset-0 z-40 bg-black/60 backdrop-blur-sm; animation: fade-in 200ms var(--ease) both; }
+.slideover {
+  @apply fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-bg p-4 md:w-[min(960px,92vw)] md:p-6;
+  box-shadow: -24px 0 60px -30px rgba(0, 0, 0, 0.9), -1px 0 0 rgba(255, 255, 255, 0.05);
+  animation: slide-in 280ms var(--ease) both;
+}
+@keyframes slide-in { from { transform: translateX(32px); opacity: 0; } to { transform: none; opacity: 1; } }
 
 .skeleton { @apply rounded-xl bg-panel2; animation: pulse 1.4s ease-in-out infinite; }
 @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 0.9; } }

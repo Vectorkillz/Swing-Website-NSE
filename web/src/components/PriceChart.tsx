@@ -2,7 +2,8 @@ import { useEffect, useRef } from "react";
 import { ColorType, CrosshairMode, LineStyle, createChart, type IChartApi, type Time } from "lightweight-charts";
 import type { ChartPayload } from "../lib/types";
 
-const COLORS = { ema10: "#f5b544", ema20: "#6ea8fe", ema50: "#c084fc", ema200: "#ff5d7a", sma150: "#8b95a7" };
+const COLORS = { ema10: "#f5b544", ema20: "#6ea8fe", ema50: "#c084fc", ema200: "#ff334b", sma150: "#8e93a3" };
+const UP = "#00e676", DOWN = "#ff334b", PANEL = "#17171d";
 
 export default function PriceChart({ data, height = 360 }: { data: ChartPayload; height?: number }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -13,7 +14,7 @@ export default function PriceChart({ data, height = 360 }: { data: ChartPayload;
     if (!el) return;
     const chart = createChart(el, {
       height,
-      layout: { background: { type: ColorType.Solid, color: "#141a23" }, textColor: "#8b95a7", fontFamily: "Inter, system-ui, sans-serif" },
+      layout: { background: { type: ColorType.Solid, color: PANEL }, textColor: "#8e93a3", fontFamily: "Inter, system-ui, sans-serif" },
       grid: { vertLines: { color: "rgba(255,255,255,0.04)" }, horzLines: { color: "rgba(255,255,255,0.04)" } },
       crosshair: { mode: CrosshairMode.Normal },
       rightPriceScale: { borderColor: "rgba(255,255,255,0.06)", scaleMargins: { top: 0.05, bottom: 0.28 } },
@@ -21,7 +22,7 @@ export default function PriceChart({ data, height = 360 }: { data: ChartPayload;
       autoSize: true,
     });
     chartRef.current = chart;
-    const candles = chart.addCandlestickSeries({ upColor: "#1db954", downColor: "#ff5d7a", borderVisible: false, wickUpColor: "#1db954", wickDownColor: "#ff5d7a" });
+    const candles = chart.addCandlestickSeries({ upColor: UP, downColor: DOWN, borderVisible: false, wickUpColor: UP, wickDownColor: DOWN });
     candles.setData(data.daily.map((b) => ({ time: b.d as Time, open: b.o, high: b.h, low: b.l, close: b.c })));
 
     for (const [key, title] of [["ema10", "EMA10"], ["ema20", "EMA20"], ["ema50", "EMA50"], ["ema200", "EMA200"], ["sma150", "SMA150"]] as [keyof typeof COLORS, string][]) {
@@ -36,9 +37,9 @@ export default function PriceChart({ data, height = 360 }: { data: ChartPayload;
     const a = data.annotations;
     const lines: [number | null | undefined, string, string, LineStyle][] = [
       [a.trigger, `Trigger (${a.trigger_kind ?? ""})`, "#f5b544", LineStyle.Dashed],
-      [a.entry, "Entry", "#1db954", LineStyle.Dashed],
-      [a.entry_max, "Entry max", "#1db954", LineStyle.Dotted],
-      [a.stop, "Stop", "#ff5d7a", LineStyle.Dashed],
+      [a.entry, "Entry", UP, LineStyle.Dashed],
+      [a.entry_max, "Entry max", UP, LineStyle.Dotted],
+      [a.stop, "Stop", DOWN, LineStyle.Dashed],
       [a.target, "Target", "#6ea8fe", LineStyle.Dashed],
       [a.extended_target, "Extended target", "#6ea8fe", LineStyle.Dotted],
     ];
@@ -48,8 +49,8 @@ export default function PriceChart({ data, height = 360 }: { data: ChartPayload;
     }
     const vol = chart.addHistogramSeries({ priceFormat: { type: "volume" }, priceScaleId: "vol", lastValueVisible: false, priceLineVisible: false });
     chart.priceScale("vol").applyOptions({ scaleMargins: { top: 0.78, bottom: 0 }, borderColor: "rgba(255,255,255,0.06)" });
-    vol.setData(data.daily.map((b) => ({ time: b.d as Time, value: b.v, color: b.c >= b.o ? "rgba(29,185,84,0.45)" : "rgba(255,93,122,0.45)" })));
-    const vol20 = chart.addLineSeries({ priceScaleId: "vol", color: "#8b95a7", lineWidth: 1, lastValueVisible: false, priceLineVisible: false, title: "Vol20" });
+    vol.setData(data.daily.map((b) => ({ time: b.d as Time, value: b.v, color: b.c >= b.o ? "rgba(0,230,118,0.4)" : "rgba(255,51,75,0.4)" })));
+    const vol20 = chart.addLineSeries({ priceScaleId: "vol", color: "#8e93a3", lineWidth: 1, lastValueVisible: false, priceLineVisible: false, title: "Vol20" });
     vol20.setData(data.daily.filter((b) => b.vol20 != null).map((b) => ({ time: b.d as Time, value: b.vol20 as number })));
     if (leg?.mean_volume != null) vol.createPriceLine({ price: leg.mean_volume, color: "#6ea8fe", lineWidth: 1, lineStyle: LineStyle.Dashed, axisLabelVisible: false, title: "Leg mean volume" });
     if (a.recent_mean_volume != null) vol.createPriceLine({ price: a.recent_mean_volume, color: "#f5b544", lineWidth: 1, lineStyle: LineStyle.Dotted, axisLabelVisible: false, title: "10-bar mean volume" });

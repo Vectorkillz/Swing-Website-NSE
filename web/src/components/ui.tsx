@@ -41,7 +41,7 @@ const REGIME_CLS: Record<Regime, string> = {
   BULL: "bg-long/20 text-long", BULL_HIGH_VIX: "bg-warn/20 text-warn", NEUTRAL: "bg-white/10 text-text", BEAR: "bg-short/20 text-short", UNKNOWN: "bg-white/5 text-muted",
 };
 export function RegimeBadge({ regime }: { regime: Regime }) {
-  return <span className={`badge ${REGIME_CLS[regime]}`}>{regime.replace("_", " ")}</span>;
+  return <span className={`badge ${REGIME_CLS[regime]}`} data-testid="regime-badge">{regime.replace("_", " ")}</span>;
 }
 
 export function SideBadge({ side }: { side: Side }) {

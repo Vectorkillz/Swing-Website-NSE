@@ -131,6 +131,13 @@ These were confirmed with the owner before implementation.
   was the one thing this project's build document banned from the start. The grade is instead a
   transparent function of raw score, regime alignment, and (for longs only) fundamentals strength;
   see `engine/grading.py`. Every grade a user sees comes with a `reasons` list.
+* **v4 UI (2026-09-16)**: bento-grid dark theme (`#0F0F12` ground, `#00E676` bullish / `#FF334B` bearish),
+  inline SVG icons, column-level sort on every numeric column (click a header to sort highest-to-lowest,
+  again to flip; setup cards have a matching sort bar), a "Refresh data" button that re-fetches every
+  loaded JSON/CSV with a spinning state, a new **Optionable Swing Moves** tab (F&O names only: full
+  setups plus a momentum screen where trend, RS and 20-bar move agree), and a slide-over drawer on every
+  card and universe row with a plain-language summary and technical reasoning built from the stored
+  detector fields (`web/src/lib/reasoning.ts`). Nothing is inferred client-side beyond restating engine output.
 * **Track record page**: pick a lookback window (this week / 2 weeks / month) and see every past
   session's published setups checked against what the price actually did since — stopped out,
   target hit, on track, or not yet triggered. Computed entirely client-side from already-published

@@ -2,7 +2,7 @@ import type { Candidate } from "../lib/types";
 import { fmtInr, fmtPct } from "../lib/format";
 import { CapBadge, FnoBadge, GradeBadge, Level, MultibaggerBadge, SideBadge } from "./ui";
 
-export default function SetupCard({ cand, selected, onOpen }: { cand: Candidate; selected: boolean; onOpen: () => void }) {
+export default function SetupCard({ cand, selected, onOpen, index = 0 }: { cand: Candidate; selected: boolean; onOpen: () => void; index?: number }) {
   const p = cand.plan;
   const long = cand.side === "long";
   return (
@@ -10,8 +10,10 @@ export default function SetupCard({ cand, selected, onOpen }: { cand: Candidate;
       type="button"
       onClick={onOpen}
       data-selected={selected}
+      style={{ animationDelay: `${Math.min(index, 12) * 35}ms`, borderLeft: `3px solid ${long ? "#00E676" : "#FF334B"}` }}
       className={`card card-hover fade-in w-full text-left focus:outline-none focus:ring-2 focus:ring-accent/60 ${selected ? "ring-2 ring-accent/60" : ""}`}
       aria-label={`${cand.symbol} ${cand.side} setup`}
+      title="Open summary and technical reasoning"
     >
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div className="min-w-0">
