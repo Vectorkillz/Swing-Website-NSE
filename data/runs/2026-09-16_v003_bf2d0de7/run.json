@@ -1,0 +1,79 @@
+{
+  "ban_list": {
+    "as_of": "2026-09-17",
+    "available": true,
+    "fetch_status": "ok",
+    "live_error": null,
+    "n": 5,
+    "source": "live"
+  },
+  "cap_buckets": {
+    "largecap_min_cr": 100000.0,
+    "midcap_min_cr": 33000.0,
+    "smallcap_min_cr": 5000.0
+  },
+  "config_hash": "568e68318c881670cc030916a6edecb439ac2f5614835c5226e44f5bd66c3f97",
+  "config_version": "v003",
+  "counts": {
+    "banned": 0,
+    "below_min_score": 0,
+    "candidates_long": 3,
+    "candidates_short": 32,
+    "data_unavailable": 251,
+    "fundamentals_missing": 765,
+    "grade_a": 14,
+    "grade_ap": 10,
+    "grade_app": 0,
+    "grade_b": 0,
+    "grade_bp": 11,
+    "multibagger_strong": 53,
+    "multibagger_watch": 15,
+    "no_setup": 245,
+    "ranked_long": 3,
+    "ranked_short": 10,
+    "rejected_gate": 1011,
+    "scanned": 2307,
+    "swing_suitable": 861,
+    "universe": 2307,
+    "usable": 2056
+  },
+  "coverage_pct": 89.12,
+  "engine_version": "0.1.0",
+  "failures": [],
+  "generated_at": "2026-09-16T15:31:02+00:00",
+  "input_hash": "bf2d0de79a14219a483f37aeb451a1d082d343a62e63a84a0cc6223117d9756b",
+  "regime": {
+    "longs_allowed": true,
+    "nifty_close": 23217.5996,
+    "nifty_ema_fast": 23530.446856,
+    "nifty_ema_slow": 23766.090814,
+    "reasons": [
+      "smallcap_unavailable",
+      "neither BULL nor BEAR conditions met"
+    ],
+    "regime": "NEUTRAL",
+    "roc_18m": 5.139552,
+    "roc_bars_used": 378,
+    "shorts_allowed": true,
+    "smallcap_close": null,
+    "smallcap_confirms": null,
+    "smallcap_ema_fast": null,
+    "smallcap_ema_slow": null,
+    "vix": 13.1675
+  },
+  "run_id": "2026-09-16_v003_bf2d0de7",
+  "scan_performed": true,
+  "schema_version": 2,
+  "session_date": "2026-09-16",
+  "status": "degraded",
+  "universe": {
+    "age_days": 4,
+    "as_of": "2026-09-12",
+    "n_symbols": 2307,
+    "source": "combined",
+    "stale": false
+  },
+  "warnings": [
+    "degraded:coverage 89.1% < 90%"
+  ]
+}

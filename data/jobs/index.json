@@ -4,6 +4,56 @@
       "counters": {
         "banned": 0,
         "below_min_score": 0,
+        "candidates_long": 3,
+        "candidates_short": 32,
+        "data_unavailable": 251,
+        "fundamentals_missing": 765,
+        "grade_a": 14,
+        "grade_ap": 10,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 11,
+        "multibagger_strong": 53,
+        "multibagger_watch": 15,
+        "no_setup": 245,
+        "ranked_long": 3,
+        "ranked_short": 10,
+        "rejected_gate": 1011,
+        "scanned": 2307,
+        "swing_suitable": 861,
+        "universe": 2307,
+        "usable": 2056,
+        "warnings": [
+          "degraded:coverage 89.1% < 90%"
+        ]
+      },
+      "duration_s": 30.6,
+      "finished_at": "2026-09-16T15:31:03+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-16_v003_bf2d0de7",
+      "started_at": "2026-09-16T15:30:33+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "bars_added": 3092,
+        "failed": 1,
+        "ok": 2306,
+        "symbols": 2307
+      },
+      "duration_s": 520.1,
+      "finished_at": "2026-09-16T15:30:32+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-16T15:21:52+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
         "candidates_long": 1,
         "candidates_short": 37,
         "data_unavailable": 251,
