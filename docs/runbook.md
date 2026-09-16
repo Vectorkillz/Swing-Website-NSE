@@ -26,6 +26,7 @@ Site URL: `https://<github-user>.github.io/<repo-name>/`
 | Full OHLCV refetch (combined universe) | `python -m pipeline.cli ingest --full` |
 | Refresh the F&O list (~211, short-eligible) | `python -m pipeline.cli refresh-universe` |
 | Refresh the full cash-equity list (~2,300, long-only) | `python -m pipeline.cli refresh-equity-list` |
+| Refresh Nifty 50 / 200 / Smallcap 250 membership (UI search scopes) | `python -m pipeline.cli refresh-index-membership` |
 | Upload F&O universe manually | edit `data/universe/fno_universe.csv` (symbol,name,sector,industry,isin,lot_size,fno_eligible) and `status.json` |
 | Upload equity list manually | edit `data/universe/nse_equity_list.csv` (same columns, `fno_eligible=false`) and `equity_status.json` |
 | Upload ban list manually | `data/ban_list/YYYY-MM-DD.csv` with a `symbol` column, dated by the trade date it applies to |

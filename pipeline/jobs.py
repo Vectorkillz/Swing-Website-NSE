@@ -122,6 +122,30 @@ def job_refresh_equity_list(live_enabled: bool = True) -> str:
     return _finish(job, "failed")
 
 
+def job_refresh_index_membership(live_enabled: bool = True) -> str:
+    """Nifty 50 / Nifty 200 / Smallcap 250 constituent lists for UI search scoping (labels only)."""
+    from ingestion.index_membership import NseIndexMembershipProvider, load_membership, save_membership
+
+    job = JobLog(paths.JOBS, "refresh_index_membership")
+    sets = None
+    err = "live_disabled"
+    if live_enabled:
+        live = NseIndexMembershipProvider()
+        sets = live.fetch()
+        err = live.last_error
+    if sets is not None:
+        save_membership(paths.UNIVERSE, sets, "live", None)
+        job.counters.update({k: len(v) for k, v in sets.items()})
+        return _finish(job, "ok")
+    existing = load_membership(paths.UNIVERSE)
+    if existing is not None:
+        save_membership(paths.UNIVERSE, existing["sets"], existing.get("source", "csv"), err)
+        job.error(stage="live_fetch", error=err)
+        return _finish(job, "fallback_csv")
+    job.error(stage="live_fetch", error=err)
+    return _finish(job, "failed")
+
+
 def job_refresh_ban_list(session: date, live_enabled: bool = True) -> tuple[Optional[BanListSnapshot], Optional[str]]:
     from ingestion.csv_providers import applicable
 

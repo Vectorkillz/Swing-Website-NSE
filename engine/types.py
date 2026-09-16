@@ -292,6 +292,13 @@ class PriceContext:
     atr_pct: Optional[float]
     roc_20: Optional[float]
     avg_volume_20: Optional[float]
+    # Screener fields (v4). All optional so older fixtures/goldens keep loading.
+    rsi14: Optional[float] = None
+    vol_ratio_20: Optional[float] = None  # last bar volume / 20-day average volume
+    dist_ema20_pct: Optional[float] = None  # (close / ema20 - 1) * 100
+    dist_ema50_pct: Optional[float] = None
+    pct_from_20d_high: Optional[float] = None  # close vs highest high of the prior 20 bars; >0 = breakout above it
+    higher_highs_lows: Optional[bool] = None  # last 20 bars made a higher high AND higher low than the 20 before
 
 
 @dataclass(frozen=True)

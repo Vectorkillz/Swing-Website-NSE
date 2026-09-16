@@ -69,6 +69,10 @@ export default function DataPage() {
         <p className="mt-3 text-xs text-muted">Long setups are scanned across both lists combined. Short setups are only ever generated for the F&amp;O list — NSE does not allow shorting a plain cash-equity position the way it allows shorting an F&amp;O name.</p>
       </Card>
 
+      <Card title="Browser cache">
+        <p className="text-sm text-muted">Every data file is cached in this browser (IndexedDB) with its fetch time. A cached copy is reused for 5 minutes during NSE market hours (09:00–16:30 IST, Mon–Fri) and 6 hours otherwise, then re-fetched. If a re-fetch fails you keep the cached copy and see a notice. <b>Refresh data</b> on any page bypasses the cache. The watchlist and theme live in localStorage. Nothing leaves your browser.</p>
+      </Card>
+
       <Card title="Refreshing the data">
         <ol className="space-y-3 text-sm">
           <li><b>Automatic.</b> A GitHub Actions job runs every trading day at 16:30 IST: it pulls the day's prices (yfinance) for the combined universe, the F&amp;O ban list (NSE archive), runs the scan and republishes this site. Nothing to do.</li>

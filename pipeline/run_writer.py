@@ -100,7 +100,7 @@ def chart_payload(symbol: str, daily: pd.DataFrame, cand: Candidate | None, cfg:
     bars = [
         {
             "d": pd.Timestamp(ts).strftime("%Y-%m-%d"), "o": row["open"], "h": row["high"], "l": row["low"], "c": row["close"], "v": row["volume"],
-            "ema10": row["ema10"], "ema20": row["ema20"], "ema50": row["ema50"], "ema200": row["ema200"], "sma150": row["sma150"], "atr14": row["atr14"], "vol20": row["vol20"],
+            "ema10": row["ema10"], "ema20": row["ema20"], "ema50": row["ema50"], "ema200": row["ema200"], "sma150": row["sma150"], "atr14": row["atr14"], "vol20": row["vol20"], "rsi14": row.get("rsi14"),
         }
         for ts, row in tail.iterrows()
     ]

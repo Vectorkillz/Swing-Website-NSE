@@ -113,6 +113,16 @@ def test_fno_and_equity_status_files_dont_collide(tmp_path):
     assert CsvEquityUniverseProvider(tmp_path).fetch().as_of == date(2026, 9, 2)
 
 
+def test_index_membership_parse_and_roundtrip(tmp_path):
+    from ingestion.index_membership import load_membership, parse_index_csv, save_membership
+
+    text = "Company Name,Industry,Symbol,Series,ISIN Code\nReliance Industries Ltd.,Oil Gas,RELIANCE,EQ,INE002A01018\nSome Fund,Fin,SOMEFUND,BE,INE0\n"
+    assert parse_index_csv(text) == ["RELIANCE"]
+    save_membership(tmp_path, {"NIFTY50": ["RELIANCE", "TCS"]}, "live", None)
+    doc = load_membership(tmp_path)
+    assert doc["sets"]["NIFTY50"] == ["RELIANCE", "TCS"] and doc["source"] == "live" and doc["live_error"] is None
+
+
 def test_parse_equity_list_keeps_only_eq_series():
     csv_text = (
         "SYMBOL,NAME OF COMPANY,SERIES,DATE OF LISTING,PAID UP VALUE,MARKET LOT,ISIN NUMBER,FACE VALUE\n"

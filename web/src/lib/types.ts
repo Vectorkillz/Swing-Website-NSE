@@ -97,6 +97,21 @@ export interface PriceContext {
   atr_pct: number | null;
   roc_20: number | null;
   avg_volume_20: number | null;
+  // v4 screener fields (absent in runs written before 2026-09-16)
+  rsi14?: number | null;
+  vol_ratio_20?: number | null;
+  dist_ema20_pct?: number | null;
+  dist_ema50_pct?: number | null;
+  pct_from_20d_high?: number | null;
+  higher_highs_lows?: boolean | null;
+}
+
+export type IndexSet = "NIFTY50" | "NIFTY200" | "SMALLCAP250";
+export interface IndexMembership {
+  as_of: string;
+  source: string;
+  live_error: string | null;
+  sets: Record<IndexSet, string[]>;
 }
 
 export interface MomentumLeg {
@@ -240,6 +255,7 @@ export interface ChartBar {
   d: string; o: number; h: number; l: number; c: number; v: number;
   ema10: number | null; ema20: number | null; ema50: number | null; ema200: number | null;
   sma150: number | null; atr14: number | null; vol20: number | null;
+  rsi14?: number | null;
 }
 
 export interface ChartPayload {

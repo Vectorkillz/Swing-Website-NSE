@@ -154,6 +154,17 @@ def refresh_equity_list(live: bool = typer.Option(True, help="Attempt nseindia.c
         raise typer.Exit(1)
 
 
+@app.command("refresh-index-membership")
+def refresh_index_membership(live: bool = typer.Option(True, help="Attempt nsearchives.nseindia.com; keep the committed JSON otherwise.")) -> None:
+    """Refresh data/universe/index_membership.json (Nifty 50 / 200 / Smallcap 250 constituents, UI labels only)."""
+    from pipeline.jobs import job_refresh_index_membership
+
+    status = job_refresh_index_membership(live)
+    typer.echo(f"refresh_index_membership: {status}")
+    if status == "failed":
+        raise typer.Exit(1)
+
+
 @app.command("refresh-fundamentals")
 def refresh_fundamentals(shard: str = typer.Option("0/1", help="k/n shard of the universe."), force: bool = False, profile: Optional[str] = None) -> None:
     """Refresh fundamentals (24h TTL) for a shard of the universe."""

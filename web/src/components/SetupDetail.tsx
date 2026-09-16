@@ -7,6 +7,7 @@ import Drawer from "./Drawer";
 import PriceChart from "./PriceChart";
 import ReasoningPanel from "./Reasoning";
 import ScoreBars from "./ScoreBars";
+import StarButton from "./StarButton";
 import { CapBadge, Empty, FnoBadge, GradeBadge, Level, MultibaggerBadge, Notice, SideBadge, Skeleton } from "./ui";
 
 function Row({ k, v, rule }: { k: string; v: string; rule?: string }) {
@@ -27,6 +28,7 @@ export default function SetupDetail({ cand, onClose }: { cand: Candidate; onClos
   const title = (
     <div className="flex flex-wrap items-center gap-2">
       <h2 className="text-2xl font-bold tracking-tight">{cand.symbol}</h2>
+      <StarButton symbol={cand.symbol} size={18} />
       <SideBadge side={cand.side} />
       {cand.grade && <GradeBadge grade={cand.grade.grade} reasons={cand.grade.reasons} />}
       <CapBadge bucket={cand.cap_bucket} />
@@ -98,7 +100,14 @@ export default function SetupDetail({ cand, onClose }: { cand: Candidate; onClos
             {cand.bar_pattern?.kind && <Row k={`Trigger (${cand.bar_pattern.kind})`} v={fmtInr(cand.bar_pattern.trigger)} />}
           </div>
           <div className="card text-sm">
-            <h3 className="mb-2 text-sm font-semibold">Multibagger checklist</h3>
+            <h3 className="mb-2 text-sm font-semibold">Fundamentals &amp; multibagger checklist</h3>
+            {cand.fundamentals ? (
+              <div className="mb-3 grid grid-cols-2 gap-x-4 gap-y-1 text-xs sm:grid-cols-3">
+                {([["Market cap", cand.fundamentals.market_cap_cr == null ? "—" : `${fmtNum(cand.fundamentals.market_cap_cr, 0)} Cr`], ["ROE", fmtPct(cand.fundamentals.roe)], ["Revenue growth", fmtPct(cand.fundamentals.revenue_growth)], ["EPS growth", fmtPct(cand.fundamentals.eps_growth)], ["Debt / equity", cand.fundamentals.debt_equity == null ? "—" : cand.fundamentals.debt_equity.toFixed(2)], ["Free cash flow", cand.fundamentals.fcf_positive == null ? "—" : cand.fundamentals.fcf_positive ? "positive" : "negative"]] as [string, string][]).map(([k, v]) => (
+                  <div key={k} className="rounded-lg bg-bg/50 p-2"><div className="label">{k}</div><div className="mono mt-0.5 text-sm">{v}</div></div>
+                ))}
+              </div>
+            ) : <p className="mb-3 text-xs text-muted">No fundamentals stored for this symbol.</p>}
             {cand.multibagger ? (
               <ul className="space-y-1">
                 {Object.entries(cand.multibagger.criteria).map(([k, v]) => (
@@ -107,15 +116,6 @@ export default function SetupDetail({ cand, onClose }: { cand: Candidate; onClos
               </ul>
             ) : <Empty>Not computed.</Empty>}
             <p className="mt-3 text-[11px] text-muted">Heuristic trend-template criteria. Not backtested; use as a checklist, not a forecast.</p>
-            {cand.fundamentals && (
-              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
-                <span>Mcap {fmtNum(cand.fundamentals.market_cap_cr, 0)} Cr</span>
-                <span>ROE {fmtPct(cand.fundamentals.roe)}</span>
-                <span>Rev {fmtPct(cand.fundamentals.revenue_growth)}</span>
-                <span>EPS {fmtPct(cand.fundamentals.eps_growth)}</span>
-                <span>D/E {cand.fundamentals.debt_equity == null ? "—" : cand.fundamentals.debt_equity.toFixed(2)}</span>
-              </div>
-            )}
           </div>
         </div>
       </div>

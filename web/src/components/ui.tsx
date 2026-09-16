@@ -30,7 +30,7 @@ export function Notice({ children, level = "warn" }: { children: ReactNode; leve
 }
 
 export function Empty({ children }: { children: ReactNode }) {
-  return <div className="rounded-2xl border border-dashed border-white/10 p-8 text-center text-sm text-muted">{children}</div>;
+  return <div className="rounded-2xl border border-dashed border-ink/10 p-8 text-center text-sm text-muted">{children}</div>;
 }
 
 export function Skeleton({ h = 80 }: { h?: number }) {
@@ -38,7 +38,7 @@ export function Skeleton({ h = 80 }: { h?: number }) {
 }
 
 const REGIME_CLS: Record<Regime, string> = {
-  BULL: "bg-long/20 text-long", BULL_HIGH_VIX: "bg-warn/20 text-warn", NEUTRAL: "bg-white/10 text-text", BEAR: "bg-short/20 text-short", UNKNOWN: "bg-white/5 text-muted",
+  BULL: "bg-long/20 text-long", BULL_HIGH_VIX: "bg-warn/20 text-warn", NEUTRAL: "bg-ink/10 text-text", BEAR: "bg-short/20 text-short", UNKNOWN: "bg-ink/5 text-muted",
 };
 export function RegimeBadge({ regime }: { regime: Regime }) {
   return <span className={`badge ${REGIME_CLS[regime]}`} data-testid="regime-badge">{regime.replace("_", " ")}</span>;
@@ -49,12 +49,12 @@ export function SideBadge({ side }: { side: Side }) {
 }
 
 export function BandBadge({ band }: { band: Band }) {
-  const cls = band === "A" ? "bg-long/20 text-long" : band === "B" ? "bg-blue/20 text-blue" : "bg-white/10 text-muted";
+  const cls = band === "A" ? "bg-long/20 text-long" : band === "B" ? "bg-blue/20 text-blue" : "bg-ink/10 text-muted";
   return <span className={`badge ${cls}`} title="Ordinal band from raw score thresholds. A label, not a likelihood estimate.">Band {band}</span>;
 }
 
 const GRADE_CLS: Record<Grade, string> = {
-  "A++": "bg-long/30 text-long", "A+": "bg-long/20 text-long", "A": "bg-blue/20 text-blue", "B+": "bg-white/10 text-text", "B": "bg-white/5 text-muted",
+  "A++": "bg-long/30 text-long", "A+": "bg-long/20 text-long", "A": "bg-blue/20 text-blue", "B+": "bg-ink/10 text-text", "B": "bg-ink/5 text-muted",
 };
 export function GradeBadge({ grade, reasons }: { grade: Grade; reasons?: string[] }) {
   return (
@@ -65,12 +65,12 @@ export function GradeBadge({ grade, reasons }: { grade: Grade; reasons?: string[
 }
 
 export function FnoBadge({ eligible }: { eligible: boolean }) {
-  return eligible ? <span className="badge bg-white/10 text-muted" title="Eligible for short setups (NSE F&O list)">F&amp;O</span> : <span className="badge bg-white/5 text-muted" title="Cash-equity only: long setups only, cannot be shorted on NSE">Cash only</span>;
+  return eligible ? <span className="badge bg-ink/10 text-muted" title="Eligible for short setups (NSE F&O list)">F&amp;O</span> : <span className="badge bg-ink/5 text-muted" title="Cash-equity only: long setups only, cannot be shorted on NSE">Cash only</span>;
 }
 
 export const CAP_LABEL: Record<CapBucket, string> = { large: "Large cap", mid: "Mid cap", small: "Small cap", micro: "Micro cap", unknown: "Cap unknown" };
 export function CapBadge({ bucket }: { bucket: CapBucket }) {
-  return <span className="badge bg-white/10 text-muted">{CAP_LABEL[bucket]}</span>;
+  return <span className="badge bg-ink/10 text-muted">{CAP_LABEL[bucket]}</span>;
 }
 
 export function MultibaggerBadge({ level, met, total }: { level: MultibaggerLevel; met?: number; total?: number }) {
@@ -81,6 +81,6 @@ export function MultibaggerBadge({ level, met, total }: { level: MultibaggerLeve
 }
 
 export function StatusBadge({ status }: { status: string }) {
-  const cls = status === "ok" ? "bg-long/20 text-long" : status === "failed" ? "bg-short/20 text-short" : status.includes("degraded") || status.includes("unavailable") || status === "partial" ? "bg-warn/20 text-warn" : "bg-white/10 text-muted";
+  const cls = status === "ok" ? "bg-long/20 text-long" : status === "failed" ? "bg-short/20 text-short" : status.includes("degraded") || status.includes("unavailable") || status === "partial" ? "bg-warn/20 text-warn" : "bg-ink/10 text-muted";
   return <span className={`badge ${cls}`}>{status}</span>;
 }

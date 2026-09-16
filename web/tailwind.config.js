@@ -1,28 +1,29 @@
 /** @type {import('tailwindcss').Config} */
+// Colours are CSS variables (see styles.css) so the light theme is a single attribute flip on <html>.
+const v = (name) => `rgb(var(${name}) / <alpha-value>)`;
+
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
-  darkMode: "class",
+  darkMode: ["selector", '[data-theme="dark"]'],
   theme: {
     extend: {
       colors: {
-        bg: "#0F0F12",
-        panel: "#17171D",
-        panel2: "#1F1F27",
-        line: "#2A2A34",
-        muted: "#8E93A3",
-        text: "#F3F4F8",
-        long: "#00E676",
-        short: "#FF334B",
-        warn: "#F5B544",
-        accent: "#00E676",
-        blue: "#6EA8FE",
+        bg: v("--c-bg"),
+        panel: v("--c-panel"),
+        panel2: v("--c-panel2"),
+        line: v("--c-line"),
+        muted: v("--c-muted"),
+        text: v("--c-text"),
+        ink: v("--c-ink"),
+        long: v("--c-long"),
+        short: v("--c-short"),
+        warn: v("--c-warn"),
+        accent: v("--c-accent"),
+        blue: v("--c-blue"),
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
         mono: ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
-      },
-      boxShadow: {
-        glow: "0 0 0 1px rgba(0,230,118,0.25), 0 8px 30px -12px rgba(0,230,118,0.35)",
       },
     },
   },

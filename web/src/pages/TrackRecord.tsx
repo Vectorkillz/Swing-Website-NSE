@@ -13,7 +13,7 @@ const WINDOWS = [
 ] as const;
 
 const STATUS_CLS: Record<OutcomeStatus, string> = {
-  target_hit: "bg-long/25 text-long", on_track: "bg-long/15 text-long", pending: "bg-white/10 text-muted", stopped_out: "bg-short/20 text-short", insufficient_data: "bg-white/5 text-muted",
+  target_hit: "bg-long/25 text-long", on_track: "bg-long/15 text-long", pending: "bg-ink/10 text-muted", stopped_out: "bg-short/20 text-short", insufficient_data: "bg-ink/5 text-muted",
 };
 
 interface Row {

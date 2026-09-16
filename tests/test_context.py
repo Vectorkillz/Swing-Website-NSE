@@ -22,6 +22,30 @@ def test_price_context_and_stage(fx):
     assert stage_label(add_indicators(fx("short_stage4_downtrend"))) == "stage4"
 
 
+def test_price_context_screener_fields(fx):
+    df = add_indicators(fx("long_vcp_ok"))
+    ctx = price_context(df)
+    assert ctx.rsi14 is not None and 0.0 <= ctx.rsi14 <= 100.0
+    assert ctx.vol_ratio_20 is not None and ctx.vol_ratio_20 > 0
+    assert ctx.dist_ema20_pct is not None and ctx.dist_ema50_pct is not None
+    prior_high = df["high"].iloc[-21:-1].max()
+    assert abs(ctx.pct_from_20d_high - (df["close"].iloc[-1] / prior_high - 1.0) * 100.0) < 1e-9
+    assert ctx.higher_highs_lows in (True, False)
+
+
+def test_rsi_wilder_hand_values():
+    import pandas as pd
+    from engine.indicators import rsi_wilder
+
+    up = pd.Series([float(i) for i in range(1, 30)])
+    assert rsi_wilder(up, 14).iloc[-1] == 100.0
+    flat_then_down = pd.Series([10.0] * 15 + [9.0] * 15)
+    r = rsi_wilder(flat_then_down, 14)
+    assert r.iloc[14] == 50.0  # no gains, no losses in the seed window
+    assert r.iloc[-1] < 50.0
+    assert rsi_wilder(pd.Series([1.0, 2.0]), 14).isna().all()
+
+
 def test_multibagger_tag_levels(fx, cfg):
     df = add_indicators(fx("long_vcp_ok"))
     ctx = price_context(df)

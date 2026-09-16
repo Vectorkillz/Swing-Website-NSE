@@ -15,16 +15,39 @@ export function cmpStr(a: string | null | undefined, b: string | null | undefine
   const r = (a ?? "").localeCompare(b ?? "");
   return dir === "asc" ? r : -r;
 }
+export function cmpBool(a: boolean | null | undefined, b: boolean | null | undefined, dir: SortDir): number {
+  return cmpNum(a == null ? null : a ? 1 : 0, b == null ? null : b ? 1 : 0, dir);
+}
+
+/** Chain comparators: first non-zero wins. */
+export function chain<T>(...cmps: ((a: T, b: T) => number)[]): (a: T, b: T) => number {
+  return (a, b) => { for (const c of cmps) { const r = c(a, b); if (r !== 0) return r; } return 0; };
+}
 
 /**
- * Column-sort state. Clicking a new column sorts by that column in its natural "best first" direction
- * (given per column); clicking the same column again flips the direction.
+ * Multi-column sort state. A plain click on a column makes it the only sort key (in that column's
+ * natural "best first" direction); clicking the same column again flips it. A shift-click adds the
+ * column as a secondary key (or flips it if already present), so "Change % then Volume" is two clicks.
  */
 export function useSort<K extends string>(initial: SortState<K>, defaultDir: Partial<Record<K, SortDir>> = {}) {
-  const [sort, setSort] = useState<SortState<K>>(initial);
-  const toggle = useCallback((key: K) => {
-    setSort((s) => (s.key === key ? { key, dir: s.dir === "asc" ? "desc" : "asc" } : { key, dir: defaultDir[key] ?? "desc" }));
+  const [sorts, setSorts] = useState<SortState<K>[]>([initial]);
+  const toggle = useCallback((key: K, additive = false) => {
+    setSorts((cur) => {
+      const i = cur.findIndex((s) => s.key === key);
+      const flipped = (s: SortState<K>): SortState<K> => ({ key, dir: s.dir === "asc" ? "desc" : "asc" });
+      const fresh: SortState<K> = { key, dir: defaultDir[key] ?? "desc" };
+      if (!additive) return i === 0 ? [flipped(cur[0]), ...cur.slice(1)] : i > 0 ? [flipped(cur[i]), ...cur.filter((_, j) => j !== i)] : [fresh];
+      if (i >= 0) return cur.map((s, j) => (j === i ? flipped(s) : s));
+      return [...cur, fresh];
+    });
   }, [defaultDir]);
-  const ariaSort = useCallback((key: K): "ascending" | "descending" | "none" => (sort.key !== key ? "none" : sort.dir === "asc" ? "ascending" : "descending"), [sort]);
-  return useMemo(() => ({ sort, setSort, toggle, ariaSort }), [sort, toggle, ariaSort]);
+  const ariaSort = useCallback((key: K): "ascending" | "descending" | "none" => {
+    const s = sorts.find((x) => x.key === key);
+    return !s ? "none" : s.dir === "asc" ? "ascending" : "descending";
+  }, [sorts]);
+  const rank = useCallback((key: K) => sorts.findIndex((s) => s.key === key) + 1, [sorts]);
+  const sort = sorts[0];
+  const setSort = useCallback((s: SortState<K>) => setSorts([s]), []);
+  return useMemo(() => ({ sort, sorts, setSort, toggle, ariaSort, rank }), [sort, sorts, setSort, toggle, ariaSort, rank]);
 }
+export type Sorter<K extends string> = ReturnType<typeof useSort<K>>;

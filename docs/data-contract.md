@@ -21,12 +21,14 @@ NaN is never emitted (missing values are `null`). Keys are sorted.
 
 ## Charts
 
-`data/charts/{SYMBOL}.json` — `{symbol, as_of, daily: [{d,o,h,l,c,v,ema10,ema20,ema50,ema200,sma150,atr14,vol20}], weekly: [{d,c,ema,sma}], annotations: {leg{start,end,high,mean_volume}, vcp_depth_pct, recent_mean_volume, trigger, trigger_kind, entry, entry_max, stop}}`. Written for every candidate symbol of the latest run.
+`data/charts/{SYMBOL}.json` — `{symbol, as_of, daily: [{d,o,h,l,c,v,ema10,ema20,ema50,ema200,sma150,atr14,vol20,rsi14}], weekly: [{d,c,ema,sma}], annotations: {leg{start,end,high,mean_volume}, vcp_depth_pct, recent_mean_volume, trigger, trigger_kind, entry, entry_max, stop}}`. Written for every candidate symbol of the latest run.
 
 ## Universe
 
 * `data/universe/fno_universe.csv` + `status.json` — the ~211-symbol F&O list. Every row is short-eligible.
 * `data/universe/nse_equity_list.csv` + `equity_status.json` — the ~2,300-symbol full NSE cash-equity list. Long-only (`fno_eligible=false`).
+* `data/universe/index_membership.json` — `{schema_version, as_of, source, live_error, sets: {NIFTY50[], NIFTY200[], SMALLCAP250[]}}` from the NSE archive constituent CSVs. UI labels for search scoping only; never affects the scan.
+* `PriceContext` (on every `UniverseRow.context` and `Candidate.context`) carries, since 2026-09-16: `rsi14`, `vol_ratio_20` (last volume ÷ 20-day average), `dist_ema20_pct`, `dist_ema50_pct`, `pct_from_20d_high` (close vs highest high of the prior 20 bars), `higher_highs_lows` (last 20 bars vs the 20 before). Older runs lack them (`undefined`); the UI shows blanks.
 * `runs/{id}/universe.json` — `{rows: UniverseRow[]}`, one row per scanned symbol: cap bucket, `fno_eligible`, trend stage, relative strength, 52-week context, multibagger tag, swing-tradability, and which side (if any) produced a setup that session. Powers the Universe page.
 * `data/ohlcv/daily/{SYMBOL}.csv` — deployed as static files (`date,open,high,low,close,volume`) so the browser can look up price history for any symbol directly, without a new endpoint. Used by the Track Record page.
 

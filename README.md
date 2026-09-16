@@ -138,6 +138,27 @@ These were confirmed with the owner before implementation.
   setups plus a momentum screen where trend, RS and 20-bar move agree), and a slide-over drawer on every
   card and universe row with a plain-language summary and technical reasoning built from the stored
   detector fields (`web/src/lib/reasoning.ts`). Nothing is inferred client-side beyond restating engine output.
+* **v4.1 (2026-09-16)** — production-readiness pass:
+  * *Data layer*: every file the site reads is cached in IndexedDB with a stale-while-revalidate
+    policy (5 min during NSE hours, 6 h otherwise); a failed re-fetch falls back to the cached copy
+    with a toast; "Refresh data" bypasses the cache (`web/src/lib/dataClient.ts`, `idb.ts`, `toast.tsx`).
+    The site still reads only pipeline-committed files — no client-side calls to Yahoo or proxies.
+  * *Tables*: sticky header + sticky symbol column, dense rows, multi-column sort (shift-click adds a
+    key), fuzzy search across symbol/company/sector, scope pills for Nifty 50 / Nifty 200 / Smallcap 250
+    (from `data/universe/index_membership.json`, refreshed weekly by `refresh-index-membership`), F&O and
+    watchlist. CSV/JSON export of whatever is on screen.
+  * *Charts*: EMA 20/50/200 + SMA150 toggles, anchored VWAP from daily bars (labelled as such), a synced
+    RSI(14) pane. Raw-bar charts compute indicators in-browser with the engine's definitions.
+  * *Screeners page*: Volume breakout (≥2× 20-day volume and close above the prior 20-day high), EMA
+    pullback (Stage 2, within 3% of EMA20/50, RSI ≥ 50), Custom rules (price range, min volume, sector,
+    trend alignment incl. higher-highs/higher-lows, cap, RSI band). Powered by new per-symbol fields on
+    `UniverseRow.context`: `rsi14`, `vol_ratio_20`, `dist_ema20_pct`, `dist_ema50_pct`,
+    `pct_from_20d_high`, `higher_highs_lows`.
+  * *Optionable tab*: the Upward / Downward momentum tiles are buttons that filter and scroll to the list.
+  * *Watchlist*: star any symbol (localStorage), filter by it everywhere, export it with the rows.
+  * *Theme*: dark default, light toggle (CSS variables), persisted. Legal footer on every page.
+  * *Pipeline fix*: rescanning a past session now truncates every price series at that session; before,
+    every symbol failed the future-bar check and the rerun came out empty.
 * **Track record page**: pick a lookback window (this week / 2 weeks / month) and see every past
   session's published setups checked against what the price actually did since — stopped out,
   target hit, on track, or not yet triggered. Computed entirely client-side from already-published

@@ -74,19 +74,28 @@ def build_inputs_from_repo(
     short setups are attempted for it."""
     failures: list[dict[str, Any]] = []
     symbols = []
+    cutoff = pd.Timestamp(session)
+
+    def upto(df: Optional[pd.DataFrame]) -> Optional[pd.DataFrame]:
+        # Rescanning a past session must only see bars up to that session, otherwise every
+        # symbol fails the future-bar quality check and the run comes out empty.
+        if df is None or len(df) == 0:
+            return df
+        return df.loc[:cutoff]
+
     for row in sorted(universe.rows, key=lambda r: r.symbol):
         try:
-            daily = daily_store.load(row.symbol)
+            daily = upto(daily_store.load(row.symbol))
         except (ValueError, KeyError, OSError) as exc:
             failures.append({"symbol": row.symbol, "stage": "load_ohlcv", "error": f"{type(exc).__name__}: {exc}"})
             daily = None
         symbols.append(SymbolInput(row.symbol, daily, fundamentals.load(row.symbol), sector=row.sector, name=row.name, fno_eligible=row.fno_eligible))
-    nifty = index_store.load("NIFTY")
-    vix_df = index_store.load("INDIAVIX")
+    nifty = upto(index_store.load("NIFTY"))
+    vix_df = upto(index_store.load("INDIAVIX"))
     vix = None
     if vix_df is not None and len(vix_df) and pd.Timestamp(vix_df.index[-1]).date() >= session - pd.Timedelta(days=5).to_pytimedelta():
         vix = float(vix_df["close"].iloc[-1])
-    smallcap = index_store.load("SMALLCAP")
+    smallcap = upto(index_store.load("SMALLCAP"))
     inputs = ScanInputs(session, tuple(symbols), nifty, vix, smallcap, ban.symbols if ban else None, universe_size=len(symbols))
     return inputs, failures
 

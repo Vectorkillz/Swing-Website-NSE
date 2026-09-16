@@ -31,6 +31,14 @@ def price_context(df: pd.DataFrame) -> PriceContext:
     hi = float(tail["high"].max())
     lo = float(tail["low"].min())
     atr = last(df, "atr14")
+    vol20 = last(df, "vol20")
+    last_vol = float(df["volume"].iloc[-1])
+    e20, e50 = last(df, "ema20"), last(df, "ema50")
+    prior20_high = float(df["high"].iloc[-21:-1].max()) if len(df) >= 21 else None
+    hh_hl: bool | None = None
+    if len(df) >= 40:
+        recent, earlier = df.iloc[-20:], df.iloc[-40:-20]
+        hh_hl = bool(recent["high"].max() > earlier["high"].max() and recent["low"].min() > earlier["low"].min())
     return PriceContext(
         high_52w=hi,
         low_52w=lo,
@@ -38,7 +46,13 @@ def price_context(df: pd.DataFrame) -> PriceContext:
         pct_above_52w_low=(close / lo - 1.0) * 100.0 if lo > 0 else None,
         atr_pct=(atr / close * 100.0) if atr is not None and close > 0 else None,
         roc_20=roc_point(df["close"], 20),
-        avg_volume_20=last(df, "vol20"),
+        avg_volume_20=vol20,
+        rsi14=last(df, "rsi14"),
+        vol_ratio_20=(last_vol / vol20) if vol20 is not None and vol20 > 0 else None,
+        dist_ema20_pct=(close / e20 - 1.0) * 100.0 if e20 is not None and e20 > 0 else None,
+        dist_ema50_pct=(close / e50 - 1.0) * 100.0 if e50 is not None and e50 > 0 else None,
+        pct_from_20d_high=(close / prior20_high - 1.0) * 100.0 if prior20_high is not None and prior20_high > 0 else None,
+        higher_highs_lows=hh_hl,
     )
 
 

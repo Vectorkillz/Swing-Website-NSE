@@ -66,13 +66,41 @@ def roc_point(s: pd.Series, n: int) -> float | None:
     return (float(s.iloc[-1]) / base - 1.0) * 100.0
 
 
+def rsi_wilder(close: pd.Series, n: int = 14) -> pd.Series:
+    """Wilder RSI: first average gain/loss is the simple mean of the first n changes, then
+    recursive `(prev*(n-1) + change)/n`. NaN until n+1 closes are available."""
+    values = close.to_numpy(dtype=float)
+    out = np.full(len(values), np.nan)
+    if len(values) <= n:
+        return pd.Series(out, index=close.index)
+    delta = np.diff(values)
+    gain = np.where(delta > 0, delta, 0.0)
+    loss = np.where(delta < 0, -delta, 0.0)
+    avg_gain = gain[:n].mean()
+    avg_loss = loss[:n].mean()
+
+    def _rsi(g: float, l: float) -> float:
+        if l == 0:
+            return 100.0 if g > 0 else 50.0
+        rs = g / l
+        return 100.0 - 100.0 / (1.0 + rs)
+
+    out[n] = _rsi(avg_gain, avg_loss)
+    for i in range(n, len(delta)):
+        avg_gain = (avg_gain * (n - 1) + gain[i]) / n
+        avg_loss = (avg_loss * (n - 1) + loss[i]) / n
+        out[i + 1] = _rsi(avg_gain, avg_loss)
+    return pd.Series(out, index=close.index)
+
+
 REQUIRED_COLUMNS = ("open", "high", "low", "close", "volume")
 
 
 def add_indicators(df: pd.DataFrame) -> pd.DataFrame:
-    """Return a copy with ema10/20/50/200, sma150, atr14, vol20, vol50 columns."""
+    """Return a copy with ema10/20/50/200, sma150, atr14, rsi14, vol20, vol50 columns."""
     out = df.copy()
     c = out["close"]
+    out["rsi14"] = rsi_wilder(c, 14)
     out["ema10"] = ema(c, 10)
     out["ema20"] = ema(c, 20)
     out["ema50"] = ema(c, 50)

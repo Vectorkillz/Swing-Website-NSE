@@ -1,14 +1,17 @@
 import type { Candidate } from "../lib/types";
 import { fmtInr, fmtPct } from "../lib/format";
+import StarButton from "./StarButton";
 import { CapBadge, FnoBadge, GradeBadge, Level, MultibaggerBadge, SideBadge } from "./ui";
 
 export default function SetupCard({ cand, selected, onOpen, index = 0 }: { cand: Candidate; selected: boolean; onOpen: () => void; index?: number }) {
   const p = cand.plan;
   const long = cand.side === "long";
   return (
-    <button
-      type="button"
+    <div
+      role="button"
+      tabIndex={0}
       onClick={onOpen}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onOpen(); } }}
       data-selected={selected}
       style={{ animationDelay: `${Math.min(index, 12) * 35}ms`, borderLeft: `3px solid ${long ? "#00E676" : "#FF334B"}` }}
       className={`card card-hover fade-in w-full text-left focus:outline-none focus:ring-2 focus:ring-accent/60 ${selected ? "ring-2 ring-accent/60" : ""}`}
@@ -19,9 +22,10 @@ export default function SetupCard({ cand, selected, onOpen, index = 0 }: { cand:
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-lg font-bold tracking-tight">{cand.symbol}</span>
+            <StarButton symbol={cand.symbol} />
             <SideBadge side={cand.side} />
             {cand.grade && <GradeBadge grade={cand.grade.grade} reasons={cand.grade.reasons} />}
-            {cand.rank != null && <span className="badge bg-white/10 text-muted">#{cand.rank}</span>}
+            {cand.rank != null && <span className="badge bg-ink/10 text-muted">#{cand.rank}</span>}
           </div>
           <div className="mt-0.5 truncate text-xs text-muted">{cand.name ?? ""}{cand.sector ? ` · ${cand.sector}` : ""}</div>
         </div>
@@ -46,9 +50,9 @@ export default function SetupCard({ cand, selected, onOpen, index = 0 }: { cand:
         <CapBadge bucket={cand.cap_bucket} />
         {cand.side === "long" && <FnoBadge eligible={cand.fno_eligible} />}
         {cand.multibagger && <MultibaggerBadge level={cand.multibagger.level} />}
-        {cand.rs_vs_nifty != null && <span className={`badge ${cand.rs_vs_nifty >= 0 ? "bg-long/10 text-long" : "bg-white/5 text-muted"}`} title="Relative strength vs Nifty over 20 bars (percentage points)">RS {cand.rs_vs_nifty >= 0 ? "+" : ""}{cand.rs_vs_nifty.toFixed(1)}</span>}
+        {cand.rs_vs_nifty != null && <span className={`badge ${cand.rs_vs_nifty >= 0 ? "bg-long/10 text-long" : "bg-ink/5 text-muted"}`} title="Relative strength vs Nifty over 20 bars (percentage points)">RS {cand.rs_vs_nifty >= 0 ? "+" : ""}{cand.rs_vs_nifty.toFixed(1)}</span>}
         {cand.warnings.length > 0 && <span className="badge bg-warn/20 text-warn" title={cand.warnings.join("; ")}>⚠</span>}
       </div>
-    </button>
+    </div>
   );
 }

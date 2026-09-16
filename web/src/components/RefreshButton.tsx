@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useIsFetching, useQueryClient } from "@tanstack/react-query";
+import { forceFresh } from "../lib/dataClient";
+import { toast } from "../lib/toast";
 import { IconRefresh } from "./icons";
 
 /**
@@ -13,11 +15,12 @@ export default function RefreshButton({ compact = false }: { compact?: boolean }
   const [last, setLast] = useState<Date | null>(null);
 
   useEffect(() => {
-    if (busy && fetching === 0) { setBusy(false); setLast(new Date()); }
+    if (busy && fetching === 0) { setBusy(false); setLast(new Date()); toast("success", "Data refreshed", "Every loaded file was re-fetched from the published site.", 3000); }
   }, [busy, fetching]);
 
   async function refresh() {
     setBusy(true);
+    forceFresh();
     await qc.invalidateQueries({ refetchType: "active" });
   }
 

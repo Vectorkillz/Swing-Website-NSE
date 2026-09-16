@@ -25,9 +25,11 @@ jobs:
       - run: pip install -e ".[pipeline]"
       - run: python -m pipeline.cli refresh-equity-list
         continue-on-error: true
+      - run: python -m pipeline.cli refresh-index-membership
+        continue-on-error: true
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || (git commit -m "data: refresh equity list [skip ci]" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "data: refresh equity list + index membership [skip ci]" && git pull --rebase && git push)

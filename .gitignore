@@ -12,3 +12,6 @@ web/public/data/
 web/playwright-report/
 web/test-results/
 .env
+
+web/dist-demo/
+

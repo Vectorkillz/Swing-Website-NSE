@@ -3,12 +3,14 @@ import { useParams } from "react-router-dom";
 import { useCandidates, useLatestRun, useRunIndex } from "../lib/dataClient";
 import { fmtDateTime, fmtNum, fmtPct } from "../lib/format";
 import { useSort } from "../lib/sort";
+import { downloadCsv, downloadJson } from "../lib/export";
+import { useWatchlist } from "../lib/watchlist";
 import type { Candidate, CapBucket, Grade, Side } from "../lib/types";
 import CardSortBar, { CARD_SORT_DEFAULT_DIR, candidateComparator, type CardSortKey } from "../components/CardSortBar";
 import RefreshButton from "../components/RefreshButton";
 import SetupCard from "../components/SetupCard";
 import SetupDetail from "../components/SetupDetail";
-import { IconBolt, IconClock, IconGauge, IconLayers } from "../components/icons";
+import { IconBolt, IconClock, IconDownload, IconGauge, IconLayers } from "../components/icons";
 import { CAP_LABEL, Empty, Notice, RegimeBadge, Skeleton } from "../components/ui";
 
 const CAPS: CapBucket[] = ["large", "mid", "small", "micro"];
@@ -40,6 +42,8 @@ export default function Scanner() {
   const [sectors, setSectors] = useState<Set<string>>(new Set());
   const [mbOnly, setMbOnly] = useState(false);
   const [rankedOnly, setRankedOnly] = useState(true);
+  const [watchOnly, setWatchOnly] = useState(false);
+  const watchlist = useWatchlist();
   const [open, setOpen] = useState<string | null>(null);
   const [cursor, setCursor] = useState(0);
   const sorter = useSort<CardSortKey>({ key: "grade", dir: "desc" }, CARD_SORT_DEFAULT_DIR);
@@ -54,11 +58,12 @@ export default function Scanner() {
       (grades.size === 0 || (c.grade && grades.has(c.grade.grade))) &&
       (sectors.size === 0 || sectors.has(c.sector ?? "Unknown")) &&
       (!mbOnly || (c.multibagger && c.multibagger.level !== "none")) &&
-      (!rankedOnly || c.rank_status === "ranked"),
+      (!rankedOnly || c.rank_status === "ranked") &&
+      (!watchOnly || watchlist.includes(c.symbol)),
     );
     const cmp = candidateComparator(sorter.sort);
     return f.sort((a, b) => (a.side !== b.side && side === "all" ? (a.side === "long" ? -1 : 1) : cmp(a, b)));
-  }, [all, side, caps, grades, sectors, mbOnly, rankedOnly, sorter.sort]);
+  }, [all, side, caps, grades, sectors, mbOnly, rankedOnly, watchOnly, watchlist, sorter.sort]);
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -116,13 +121,18 @@ export default function Scanner() {
       <section className="card space-y-3">
         <div className="flex flex-wrap gap-2">
           {(["all", "long", "short"] as const).map((s) => <Pill key={s} on={side === s} onClick={() => setSide(s)}>{s === "all" ? "All" : s === "long" ? "Long" : "Short"}</Pill>)}
-          <span className="mx-1 self-center text-white/10">|</span>
+          <span className="mx-1 self-center text-ink/10">|</span>
           {GRADES.map((g) => <Pill key={g} on={grades.has(g)} onClick={() => toggle(grades, g, setGrades)}>{g}</Pill>)}
-          <span className="mx-1 self-center text-white/10">|</span>
+          <span className="mx-1 self-center text-ink/10">|</span>
           {CAPS.map((c) => <Pill key={c} on={caps.has(c)} onClick={() => toggle(caps, c, setCaps)}>{CAP_LABEL[c]}</Pill>)}
-          <span className="mx-1 self-center text-white/10">|</span>
+          <span className="mx-1 self-center text-ink/10">|</span>
           <Pill on={mbOnly} onClick={() => setMbOnly(!mbOnly)}>✦ Multibagger potential</Pill>
           <Pill on={!rankedOnly} onClick={() => setRankedOnly(!rankedOnly)}>Show all matches</Pill>
+          <Pill on={watchOnly} onClick={() => setWatchOnly(!watchOnly)}>★ Watchlist{watchlist.length ? ` (${watchlist.length})` : ""}</Pill>
+          <span className="ml-auto flex gap-1">
+            <button type="button" className="btn btn-sm" onClick={() => downloadCsv(`setups_${r.session_date}.csv`, rows.map((c) => ({ symbol: c.symbol, side: c.side, grade: c.grade?.grade, score: c.score.raw, rank: c.rank, close: c.close, entry: c.plan?.entry, entry_max: c.plan?.entry_max, stop: c.plan?.stop, target: c.plan?.target, reward_risk: c.plan?.reward_risk, extended_target: c.plan?.extended_target, cap: c.cap_bucket, sector: c.sector, fno_eligible: c.fno_eligible, rs_vs_nifty: c.rs_vs_nifty, multibagger: c.multibagger?.level })))} title="Download the setups shown as CSV"><IconDownload size={14} /> CSV</button>
+            <button type="button" className="btn btn-sm" onClick={() => downloadJson(`setups_${r.session_date}.json`, rows)} title="Download the setups shown as JSON"><IconDownload size={14} /> JSON</button>
+          </span>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-2">
           <CardSortBar sort={sorter.sort} onToggle={sorter.toggle} />
