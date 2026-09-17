@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-09-16",
+  "counters": {
+    "bars_added": 3092,
+    "failed": 1,
+    "ok": 2306,
+    "symbols": 2307
+  },
+  "duration_s": 520.1,
+  "errors": [
+    {
+      "error": "no_data_returned",
+      "stage": "ingest",
+      "symbol": "NIFTYFPI"
+    }
+  ],
+  "finished_at": "2026-09-16T15:30:32+00:00",
+  "job": "ingest_ohlcv",
+  "n_errors": 1,
+  "started_at": "2026-09-16T15:21:52+00:00",
+  "status": "partial"
+}
