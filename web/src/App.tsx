@@ -1,18 +1,22 @@
-import type { ReactNode } from "react";
+import { Suspense, lazy, type ReactNode } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import Scanner from "./pages/Scanner";
-import Universe from "./pages/Universe";
-import Optionable from "./pages/Optionable";
-import Screeners from "./pages/Screeners";
-import TrackRecord from "./pages/TrackRecord";
-import DataPage from "./pages/Data";
+import { Skeleton } from "./components/ui";
+// Route-level code splitting: only the Scanner ships in the first paint; other pages load on demand.
+const Universe = lazy(() => import("./pages/Universe"));
+const Optionable = lazy(() => import("./pages/Optionable"));
+const Screeners = lazy(() => import("./pages/Screeners"));
+const Analytics = lazy(() => import("./pages/Analytics"));
+const TrackRecord = lazy(() => import("./pages/TrackRecord"));
+const DataPage = lazy(() => import("./pages/Data"));
 import { useTheme } from "./lib/theme";
-import { IconBolt, IconCheck, IconDatabase, IconFilter, IconGrid, IconMoon, IconScan, IconSun, Logo } from "./components/icons";
+import { IconBolt, IconCheck, IconDatabase, IconFilter, IconGauge, IconGrid, IconMoon, IconScan, IconSun, Logo } from "./components/icons";
 
 const NAV: [string, string, string, ReactNode][] = [
   ["/", "Scanner", "Scanner", <IconScan key="s" />],
   ["/optionable", "Optionable Swing Moves", "Optionable", <IconBolt key="o" />],
   ["/screeners", "Screeners", "Screens", <IconFilter key="f" />],
+  ["/analytics", "Analytics", "Analytics", <IconGauge key="a" />],
   ["/universe", "Universe", "Universe", <IconGrid key="u" />],
   ["/track-record", "Track record", "Record", <IconCheck key="t" />],
   ["/data", "Data", "Data", <IconDatabase key="d" />],
@@ -57,15 +61,18 @@ export default function App() {
           <ThemeToggle compact />
         </header>
         <main className="mx-auto max-w-6xl px-4 pb-28 pt-2 md:px-8 md:pb-14 md:pt-6">
-          <Routes>
-            <Route path="/" element={<Scanner />} />
-            <Route path="/run/:runId" element={<Scanner />} />
-            <Route path="/optionable" element={<Optionable />} />
-            <Route path="/screeners" element={<Screeners />} />
-            <Route path="/universe" element={<Universe />} />
-            <Route path="/track-record" element={<TrackRecord />} />
-            <Route path="/data" element={<DataPage />} />
-          </Routes>
+          <Suspense fallback={<div className="space-y-3"><Skeleton h={60} /><Skeleton h={120} /><Skeleton h={300} /></div>}>
+            <Routes>
+              <Route path="/" element={<Scanner />} />
+              <Route path="/run/:runId" element={<Scanner />} />
+              <Route path="/optionable" element={<Optionable />} />
+              <Route path="/screeners" element={<Screeners />} />
+              <Route path="/analytics" element={<Analytics />} />
+              <Route path="/universe" element={<Universe />} />
+              <Route path="/track-record" element={<TrackRecord />} />
+              <Route path="/data" element={<DataPage />} />
+            </Routes>
+          </Suspense>
         </main>
         <footer className="fixed inset-x-0 bottom-14 z-10 hidden border-t border-ink/5 bg-bg/90 px-4 py-1.5 text-center backdrop-blur md:left-[14rem] md:bottom-0 md:block" data-testid="legal-footer">
           <span className="legal">{LEGAL}</span>

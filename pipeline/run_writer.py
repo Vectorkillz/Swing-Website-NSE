@@ -10,7 +10,7 @@ from typing import Any
 import pandas as pd
 
 from engine import ENGINE_VERSION
-from engine.canonical import dumps_pretty, to_jsonable
+from engine.canonical import dumps, dumps_pretty, to_jsonable
 from engine.config import ScanConfig, config_hash
 from engine.indicators import add_indicators, ema as _ema, resample_weekly, sma as _sma
 from engine.types import Candidate, ScanResult
@@ -68,8 +68,8 @@ def write_run(
     run_dir = out_dir / run_id
     write_text(run_dir / "run.json", dumps_pretty(run))
     write_text(run_dir / "candidates.json", dumps_pretty({"schema_version": SCHEMA_VERSION, "run_id": run_id, "candidates": list(res.candidates)}))
-    write_text(run_dir / "symbol_status.json", dumps_pretty({"schema_version": SCHEMA_VERSION, "run_id": run_id, "statuses": list(res.symbol_status)}))
-    write_text(run_dir / "universe.json", dumps_pretty({"schema_version": SCHEMA_VERSION, "run_id": run_id, "rows": list(res.universe)}))
+    write_text(run_dir / "symbol_status.json", dumps({"schema_version": SCHEMA_VERSION, "run_id": run_id, "statuses": list(res.symbol_status)}))
+    write_text(run_dir / "universe.json", dumps({"schema_version": SCHEMA_VERSION, "run_id": run_id, "rows": list(res.universe)}))
     return run_id
 
 

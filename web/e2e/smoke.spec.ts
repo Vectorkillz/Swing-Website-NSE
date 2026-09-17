@@ -1,6 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 
-const ROUTES = ["/", "/optionable", "/screeners", "/universe", "/track-record", "/data"];
+const ROUTES = ["/", "/optionable", "/screeners", "/analytics", "/universe", "/track-record", "/data"];
 
 function collectErrors(page: Page): string[] {
   const errors: string[] = [];
@@ -180,6 +180,43 @@ test("theme toggle switches to light and persists", async ({ page }) => {
   await page.reload();
   expect(await page.evaluate(() => document.documentElement.dataset.theme)).toBe("light");
   await page.getByTestId("theme-toggle").first().click();
+});
+
+test("analytics shows the mood meter with components, breadth tiles and sector bars", async ({ page }) => {
+  await page.goto("/#/analytics");
+  const meter = page.getByTestId("mood-meter");
+  await expect(meter).toBeVisible({ timeout: 20000 });
+  await expect(meter.getByRole("img", { name: /Market mood/ })).toBeVisible();
+  await expect(meter.getByText(/Nifty trend/)).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Sector strength" })).toBeVisible();
+  await expect(page.getByText(/Above 200-day EMA/i)).toBeVisible();
+  const text = (await page.locator("body").innerText()).toLowerCase();
+  expect(text).not.toMatch(/recommend|probabilit|buy signal/);
+  await page.screenshot({ path: "test-results/shot_analytics.png", fullPage: true });
+});
+
+test("scanner shows a mood chip that links to analytics", async ({ page }) => {
+  await page.goto("/#/");
+  const chip = page.getByTestId("mood-chip");
+  await chip.waitFor({ timeout: 15000 });
+  await chip.click();
+  await expect(page).toHaveURL(/#\/analytics/);
+});
+
+test("track record tiles filter the table by outcome", async ({ page }) => {
+  await page.goto("/#/track-record");
+  await page.getByRole("button", { name: "Last month" }).click();
+  const tile = page.getByTestId("tile-stopped_out");
+  await tile.waitFor({ timeout: 30000 });
+  await tile.click();
+  await expect(tile).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByText(/Stopped out only/)).toBeVisible();
+  const badges = page.locator("tbody td .badge", { hasText: /Target hit|On track|Below entry|Above entry|Too new/ });
+  expect(await badges.count()).toBe(0);
+  await page.getByTestId("tile-target_hit").click();
+  await expect(page.getByText(/Target hit only/)).toBeVisible();
+  await page.getByTestId("tile-target_hit").click();
+  await expect(page.getByText(/All setups in range/)).toBeVisible();
 });
 
 test("legal footer is present", async ({ page }) => {

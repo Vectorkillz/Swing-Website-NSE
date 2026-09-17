@@ -159,6 +159,14 @@ These were confirmed with the owner before implementation.
   * *Theme*: dark default, light toggle (CSS variables), persisted. Legal footer on every page.
   * *Pipeline fix*: rescanning a past session now truncates every price series at that session; before,
     every symbol failed the future-bar check and the rerun came out empty.
+* **v4.2 (2026-09-17)** — Analytics: a **Market Mood** gauge (0–100, fear→greed) built from Nifty vs
+  its 20-day EMA, India VIX and breadth aggregates the engine now records in `run.json` (share above
+  EMA50/200, Stage 2 vs 4, 20-bar advancers, median RSI, 52-week highs vs lows). Not Tickertape's MMI
+  and none of its inputs; same zone convention. Plus breadth tiles, RSI histogram, sector RS bars,
+  grade mix, setups per session and a mood history line, all inline SVG (no chart library added).
+  Track record tiles are clickable filters (Target hit / Stopped out / …) and rows open the setup
+  drawer. Perf: `universe.json` and `symbol_status.json` are written compact (−33%), pages are
+  code-split so the first paint ships only the Scanner.
 * **Track record page**: pick a lookback window (this week / 2 weeks / month) and see every past
   session's published setups checked against what the price actually did since — stopped out,
   target hit, on track, or not yet triggered. Computed entirely client-side from already-published

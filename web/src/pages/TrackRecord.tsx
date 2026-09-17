@@ -5,6 +5,8 @@ import type { OhlcvBar } from "../lib/csv";
 import { fmtInr } from "../lib/format";
 import type { Candidate } from "../lib/types";
 import { Empty, GradeBadge, RegimeBadge, SideBadge, Skeleton } from "../components/ui";
+import SetupDetail from "../components/SetupDetail";
+import StarButton from "../components/StarButton";
 
 const WINDOWS = [
   { key: "week", label: "This week", days: 7 },
@@ -26,6 +28,8 @@ interface Row {
 export default function TrackRecord() {
   const [windowKey, setWindowKey] = useState<(typeof WINDOWS)[number]["key"]>("week");
   const [rankedOnly, setRankedOnly] = useState(true);
+  const [filter, setFilter] = useState<OutcomeStatus | "held" | "all">("all");
+  const [open, setOpen] = useState<string | null>(null);
   const index = useRunIndex();
 
   const win = WINDOWS.find((w) => w.key === windowKey)!;
@@ -74,6 +78,9 @@ export default function TrackRecord() {
   }, [evaluated]);
   const decided = evaluated.length - counts.insufficient_data;
   const heldCount = counts.target_hit + counts.on_track;
+  const shown = useMemo(() => evaluated.filter((e) => filter === "all" || (filter === "held" ? e.outcome?.heldTrue : e.outcome?.status === filter)).sort((a, b) => b.sessionDate.localeCompare(a.sessionDate)), [evaluated, filter]);
+  const openRow = open ? evaluated.find((e) => `${e.runId}:${e.cand.symbol}:${e.cand.side}` === open) : undefined;
+  const pick = (f: typeof filter) => setFilter((cur) => (cur === f ? "all" : f));
 
   return (
     <div className="space-y-4">
@@ -94,20 +101,22 @@ export default function TrackRecord() {
         <Empty>No setups were published in this window{index.data && index.data.runs.length < 2 ? " yet — the track record fills in as more daily scans run." : "."}</Empty>
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-3 md:grid-cols-5">
-            <div className="card text-center"><div className="mono text-2xl font-bold">{decided ? `${Math.round((heldCount / decided) * 100)}%` : "—"}</div><div className="label mt-1">Held true{decided ? ` (${heldCount}/${decided})` : ""}</div></div>
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-5" role="group" aria-label="Filter by outcome">
+            <button type="button" className="tile text-center" aria-pressed={filter === "held"} onClick={() => pick("held")} data-testid="tile-held" title="Show setups that held true"><div className="mono text-2xl font-bold">{decided ? `${Math.round((heldCount / decided) * 100)}%` : "—"}</div><div className="label mt-1">Held true{decided ? ` (${heldCount}/${decided})` : ""}</div></button>
             {(["target_hit", "on_track", "pending", "stopped_out"] as const).map((s) => (
-              <div key={s} className="card text-center"><div className="mono text-2xl font-bold">{counts[s]}</div><div className="label mt-1">{s === "pending" ? "Not triggered" : OUTCOME_LABEL[s]}</div></div>
+              <button key={s} type="button" className="tile text-center" aria-pressed={filter === s} onClick={() => pick(s)} data-testid={`tile-${s}`} title={`Show only: ${OUTCOME_LABEL[s]}`}><div className={`mono text-2xl font-bold ${s === "stopped_out" && counts[s] ? "text-short" : s === "target_hit" && counts[s] ? "text-long" : ""}`}>{counts[s]}</div><div className="label mt-1">{s === "pending" ? "Not triggered" : OUTCOME_LABEL[s]}</div></button>
             ))}
           </div>
+          <div className="flex items-center justify-between text-xs text-muted"><span>{filter === "all" ? "All setups in range" : filter === "held" ? "Held true only" : `${OUTCOME_LABEL[filter]} only`} · {shown.length} rows · click a row for its chart and reasoning</span>{filter !== "all" && <button type="button" className="btn btn-sm" onClick={() => setFilter("all")}>Clear filter</button>}</div>
 
           <div className="card overflow-x-auto p-0">
             <table className="data">
-              <thead><tr><th>Symbol</th><th>Setup date</th><th>Regime</th><th>Grade</th><th className="text-right">Entry</th><th className="text-right">Target</th><th className="text-right">Stop</th><th className="text-right">Last close</th><th>Days</th><th>Outcome</th></tr></thead>
+              <thead><tr><th>Symbol</th><th>Setup date</th><th><span className="tip" data-tip="Market regime on the setup date, from Nifty vs its 10/20-day EMAs, 18-month return and India VIX. It decides which sides were scanned and feeds the grade." tabIndex={0}>Regime</span></th><th>Grade</th><th className="text-right">Entry</th><th className="text-right">Target</th><th className="text-right">Stop</th><th className="text-right">Last close</th><th>Days</th><th>Outcome</th><th>On</th></tr></thead>
               <tbody>
-                {evaluated.sort((a, b) => b.sessionDate.localeCompare(a.sessionDate)).map((e, i) => (
-                  <tr key={`${e.runId}:${e.cand.symbol}:${e.cand.side}:${i}`}>
-                    <td><span className="font-semibold">{e.cand.symbol}</span> <SideBadge side={e.cand.side} /></td>
+                {shown.length === 0 && <tr><td colSpan={11} className="py-6 text-center text-muted">No setups with this outcome in the window.</td></tr>}
+                {shown.map((e, i) => (
+                  <tr key={`${e.runId}:${e.cand.symbol}:${e.cand.side}:${i}`} className="row-link" tabIndex={0} onClick={() => setOpen(`${e.runId}:${e.cand.symbol}:${e.cand.side}`)} onKeyDown={(ev) => { if (ev.key === "Enter") setOpen(`${e.runId}:${e.cand.symbol}:${e.cand.side}`); }}>
+                    <td><span className="inline-flex items-center gap-1"><StarButton symbol={e.cand.symbol} /><span className="font-semibold">{e.cand.symbol}</span> <SideBadge side={e.cand.side} /></span></td>
                     <td className="text-xs text-muted">{e.sessionDate}</td>
                     <td><RegimeBadge regime={e.regime} /></td>
                     <td>{e.cand.grade && <GradeBadge grade={e.cand.grade.grade} />}</td>
@@ -117,6 +126,7 @@ export default function TrackRecord() {
                     <td className="mono text-right">{e.outcome?.lastClose != null ? fmtInr(e.outcome.lastClose) : "—"}</td>
                     <td className="mono text-xs">{e.outcome?.daysElapsed ?? "—"}</td>
                     <td>{e.outcome && <span className={`badge ${STATUS_CLS[e.outcome.status]}`}>{outcomeLabel(e.outcome.status, e.cand.side)}</span>}</td>
+                    <td className="text-xs text-muted">{e.outcome?.targetReachedOn ?? e.outcome?.stopBreachedOn ?? "—"}</td>
                   </tr>
                 ))}
               </tbody>
@@ -124,6 +134,7 @@ export default function TrackRecord() {
           </div>
         </>
       )}
+      {openRow && <SetupDetail cand={openRow.cand} onClose={() => setOpen(null)} />}
       <p className="text-[11px] text-muted">Computed from each session's published plan levels and the symbol's price history since. Past setups holding up is not a guarantee of future ones doing the same.</p>
     </div>
   );

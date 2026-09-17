@@ -396,7 +396,7 @@ class ScanResult:
     candidates: tuple[Candidate, ...]
     symbol_status: tuple[SymbolStatus, ...]
     universe: tuple[UniverseRow, ...]
-    counts: dict[str, int]
+    counts: dict[str, float]  # ints plus a few breadth medians
     warnings: tuple[str, ...]
     ban_list_available: bool
     scan_performed: bool

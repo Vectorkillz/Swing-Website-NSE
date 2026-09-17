@@ -63,6 +63,8 @@ def test_universe_scan_bull(fx, good_fundamentals, cfg):
     tiny = next(c for c in longs if c.symbol == "TINY")
     assert tiny.plan.floor_applied
     assert res.counts["data_unavailable"] == 4
+    assert res.counts["breadth_n"] > 0 and res.counts["breadth_above_ema200"] <= res.counts["breadth_n"]
+    assert 0.0 <= res.counts["breadth_median_rsi14"] <= 100.0
     for c in res.candidates:
         assert c.plan.reward_risk >= cfg.target_min_rr - 1e-9
         assert c.cap_bucket.value == "small"  # good_fundamentals market cap is 12,000 Cr

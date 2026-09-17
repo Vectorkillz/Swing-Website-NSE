@@ -129,6 +129,12 @@ export function useOhlcvBatch(symbols: string[]) {
   });
 }
 
+export function useRuns(runIds: string[]) {
+  return useQueries({
+    queries: runIds.map((id) => ({ queryKey: ["run", id], queryFn: () => getJson<Run>(`runs/${id}/run.json`), staleTime: STALE, retry: false })),
+  });
+}
+
 export function useRunCandidates(runIds: string[]) {
   return useQueries({
     queries: runIds.map((id) => ({ queryKey: ["candidates", id], queryFn: () => getJson<{ candidates: Candidate[] }>(`runs/${id}/candidates.json`), staleTime: STALE, retry: false })),

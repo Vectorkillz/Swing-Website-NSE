@@ -217,6 +217,46 @@ def scan_symbol(
     return out, st, _universe_row(inp, df, st.outcome, nifty_close, cfg, side)
 
 
+def _median(xs: list[float]) -> float | None:
+    if not xs:
+        return None
+    xs = sorted(xs)
+    n = len(xs)
+    return xs[n // 2] if n % 2 else (xs[n // 2 - 1] + xs[n // 2]) / 2.0
+
+
+def _breadth_counts(rows: list[UniverseRow]) -> dict[str, float]:
+    """Market-breadth aggregates over the usable universe (rows with price context).
+
+    Stored in run.json so the site can show breadth and a mood gauge for any past run
+    without downloading that run's full universe file. Pure counts/medians; no modelling."""
+    live = [r for r in rows if r.context is not None and r.close is not None]
+    ctx = [r.context for r in live]
+    rs = [r.rs_vs_nifty for r in live if r.rs_vs_nifty is not None]
+    out: dict[str, float] = {
+        "breadth_n": len(live),
+        "breadth_above_ema50": sum(1 for r in live if r.above_ema50),
+        "breadth_above_ema200": sum(1 for r in live if r.above_ema200),
+        "breadth_stage2": sum(1 for r in live if r.stage == "stage2"),
+        "breadth_stage4": sum(1 for r in live if r.stage == "stage4"),
+        "breadth_rs_positive": sum(1 for x in rs if x > 0),
+        "breadth_near_52w_high": sum(1 for c in ctx if c.pct_from_52w_high is not None and c.pct_from_52w_high >= -5.0),
+        "breadth_near_52w_low": sum(1 for c in ctx if c.pct_above_52w_low is not None and c.pct_above_52w_low <= 5.0),
+        "breadth_roc20_positive": sum(1 for c in ctx if c.roc_20 is not None and c.roc_20 > 0),
+        "breadth_vol_surge": sum(1 for c in ctx if c.vol_ratio_20 is not None and c.vol_ratio_20 >= 2.0),
+        "breadth_hh_hl": sum(1 for c in ctx if c.higher_highs_lows),
+    }
+    for key, vals in (
+        ("breadth_median_rsi14", [c.rsi14 for c in ctx if c.rsi14 is not None]),
+        ("breadth_median_roc20", [c.roc_20 for c in ctx if c.roc_20 is not None]),
+        ("breadth_median_from_52w_high", [c.pct_from_52w_high for c in ctx if c.pct_from_52w_high is not None]),
+    ):
+        m = _median(vals)
+        if m is not None:
+            out[key] = round(m, 4)
+    return out
+
+
 def scan_universe(inputs: ScanInputs, cfg: ScanConfig) -> ScanResult:
     regime = classify_regime(inputs.nifty_daily, inputs.vix_close, inputs.smallcap_daily, cfg)
     warnings: list[str] = []
@@ -269,4 +309,5 @@ def scan_universe(inputs: ScanInputs, cfg: ScanConfig) -> ScanResult:
         "grade_bp": sum(1 for c in final if c.grade and c.grade.grade.value == "B+"),
         "grade_b": sum(1 for c in final if c.grade and c.grade.grade.value == "B"),
     }
+    counts.update(_breadth_counts(rows))
     return ScanResult(session, regime, tuple(final), tuple(statuses), tuple(rows), counts, tuple(warnings), ban_available, True)

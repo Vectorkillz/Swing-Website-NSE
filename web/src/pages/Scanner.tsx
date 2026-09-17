@@ -12,6 +12,8 @@ import SetupCard from "../components/SetupCard";
 import SetupDetail from "../components/SetupDetail";
 import { IconBolt, IconClock, IconDownload, IconGauge, IconLayers } from "../components/icons";
 import { CAP_LABEL, Empty, Notice, RegimeBadge, Skeleton } from "../components/ui";
+import { MoodChip } from "../components/MoodMeter";
+import { computeMood } from "../lib/mood";
 
 const CAPS: CapBucket[] = ["large", "mid", "small", "micro"];
 const GRADES: Grade[] = ["A++", "A+", "A", "B+", "B"];
@@ -88,6 +90,7 @@ export default function Scanner() {
   const r = run.data;
   const openCand: Candidate | undefined = open ? all.find((c) => `${c.symbol}:${c.side}` === open) : undefined;
   const nLong = all.filter((c) => c.side === "long").length, nShort = all.length - nLong;
+  const mood = computeMood(r);
 
   return (
     <div className="space-y-5">
@@ -107,7 +110,7 @@ export default function Scanner() {
       </section>
 
       <section className="bento">
-        <Tile icon={<IconGauge />} label="Market regime" value={<RegimeBadge regime={r.regime.regime} />} sub={<>Nifty {fmtNum(r.regime.nifty_close, 0)} · VIX {fmtNum(r.regime.vix, 2)} · 18-month {fmtPct(r.regime.roc_18m)}</>} span="col-span-2 md:col-span-4" />
+        <Tile icon={<IconGauge />} label="Market regime" value={<span className="flex flex-wrap items-center gap-2"><RegimeBadge regime={r.regime.regime} /><MoodChip mood={mood} /></span>} sub={<>Nifty {fmtNum(r.regime.nifty_close, 0)} · VIX {fmtNum(r.regime.vix, 2)} · 18-month {fmtPct(r.regime.roc_18m)}</>} span="col-span-2 md:col-span-4" />
         <Tile icon={<IconBolt />} label="Long setups" value={r.counts.ranked_long} sub={`${nLong} matched · ${r.counts.grade_app ?? 0} A++ · ${r.counts.grade_ap ?? 0} A+`} tone="text-long" span="md:col-span-2" />
         <Tile icon={<IconBolt />} label="Short setups" value={r.counts.ranked_short} sub={`${nShort} matched · F&O names only`} tone="text-short" span="md:col-span-2" />
         <Tile icon={<IconLayers />} label="Coverage" value={`${r.coverage_pct.toFixed(0)}%`} sub={`${fmtNum(r.counts.rejected_gate)} gate rejects · ${fmtNum(r.counts.no_setup)} no setup`} span="md:col-span-2" />

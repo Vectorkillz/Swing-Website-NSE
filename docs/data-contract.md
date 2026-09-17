@@ -12,7 +12,7 @@ NaN is never emitted (missing values are `null`). Keys are sorted.
   * `run_id` = `{session_date}_{config_version}_{input_hash[:8]}`
   * `status` ∈ `ok | degraded | ban_list_unavailable | no_scan_regime_unknown | failed`
   * `regime` — full `RegimeResult` (regime, allowed sides, size multiplier, Nifty close/EMAs, ROC and bars used, VIX, smallcap confirmation figures, reasons)
-  * `counts` — universe, scanned, usable, data_unavailable, fundamentals_missing, rejected_gate, no_setup, below_min_score, banned, candidates_long/short, ranked_long/short, deferred
+  * `counts` — universe, scanned, usable, data_unavailable, fundamentals_missing, rejected_gate, no_setup, below_min_score, banned, candidates_long/short, ranked_long/short, grade_*, swing_suitable, multibagger_*, plus (since 2026-09-17) market-breadth aggregates over rows with price context: `breadth_n`, `breadth_above_ema50/200`, `breadth_stage2/4`, `breadth_rs_positive`, `breadth_near_52w_high/low` (within 5%), `breadth_roc20_positive`, `breadth_vol_surge` (≥2× 20-day volume), `breadth_hh_hl`, and medians `breadth_median_rsi14/roc20/from_52w_high`. These power the Analytics page and the Market Mood gauge (`web/src/lib/mood.ts`), which is computed client-side from run.json alone.
   * `coverage_pct`, `ban_list {available, source, as_of, n}`, `universe {source, as_of, n_symbols, stale}`
   * `open_positions_applied` (always 0 from the pipeline), `budget` (`PortfolioBudget`), `warnings[]`, `failures[{symbol, stage, error}]`
   * `config_version`, `config_hash`, `input_hash`, `engine_version`, `generated_at`
