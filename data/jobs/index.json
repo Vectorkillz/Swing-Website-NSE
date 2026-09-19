@@ -2,6 +2,22 @@
   "jobs": [
     {
       "counters": {
+        "failed": 0,
+        "fetched": 116,
+        "shard": "0/20",
+        "skipped_fresh": 0,
+        "symbols": 116
+      },
+      "duration_s": 87.8,
+      "finished_at": "2026-09-19T07:39:03+00:00",
+      "job": "refresh_fundamentals",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-09-19T07:37:35+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "banned": 0,
         "below_min_score": 0,
         "breadth_above_ema200": 838,

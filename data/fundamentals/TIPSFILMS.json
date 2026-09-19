@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17911.0,
+  "debt_equity": 6.30103,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-09-19T07:38:55+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 138.4836608,
+  "name": "Tips Films Limited",
+  "revenue_growth": -49.7,
+  "roe": -167.42350640389319,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}
