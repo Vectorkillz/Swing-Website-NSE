@@ -1,0 +1,14 @@
+{
+  "counters": {
+    "NIFTY200": 200,
+    "NIFTY50": 50,
+    "SMALLCAP250": 249
+  },
+  "duration_s": 1.1,
+  "errors": [],
+  "finished_at": "2026-09-20T07:34:25+00:00",
+  "job": "refresh_index_membership",
+  "n_errors": 0,
+  "started_at": "2026-09-20T07:34:24+00:00",
+  "status": "ok"
+}

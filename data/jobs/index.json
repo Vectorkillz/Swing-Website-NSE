@@ -2,6 +2,33 @@
   "jobs": [
     {
       "counters": {
+        "NIFTY200": 200,
+        "NIFTY50": 50,
+        "SMALLCAP250": 249
+      },
+      "duration_s": 1.1,
+      "finished_at": "2026-09-20T07:34:25+00:00",
+      "job": "refresh_index_membership",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-09-20T07:34:24+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "n_symbols": 2302,
+        "source": "live"
+      },
+      "duration_s": 0.4,
+      "finished_at": "2026-09-20T07:34:23+00:00",
+      "job": "refresh_equity_list",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-09-20T07:34:23+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "failed": 0,
         "fetched": 116,
         "shard": "0/20",
