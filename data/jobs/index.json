@@ -2,6 +2,19 @@
   "jobs": [
     {
       "counters": {
+        "n_symbols": 211,
+        "source": "live"
+      },
+      "duration_s": 0.7,
+      "finished_at": "2026-09-20T07:54:02+00:00",
+      "job": "refresh_universe",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-09-20T07:54:02+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "NIFTY200": 200,
         "NIFTY50": 50,
         "SMALLCAP250": 249
