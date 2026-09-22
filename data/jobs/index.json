@@ -2,6 +2,71 @@
   "jobs": [
     {
       "counters": {
+        "banned": 1,
+        "below_min_score": 1,
+        "breadth_above_ema200": 814,
+        "breadth_above_ema50": 778,
+        "breadth_hh_hl": 532,
+        "breadth_median_from_52w_high": -24.6754,
+        "breadth_median_roc20": -2.5946,
+        "breadth_median_rsi14": 46.5025,
+        "breadth_n": 2046,
+        "breadth_near_52w_high": 138,
+        "breadth_near_52w_low": 197,
+        "breadth_roc20_positive": 729,
+        "breadth_rs_positive": 1140,
+        "breadth_stage2": 745,
+        "breadth_stage4": 1042,
+        "breadth_vol_surge": 168,
+        "candidates_long": 19,
+        "candidates_short": 25,
+        "data_unavailable": 257,
+        "fundamentals_missing": 56,
+        "grade_a": 21,
+        "grade_ap": 16,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 7,
+        "multibagger_strong": 96,
+        "multibagger_watch": 33,
+        "no_setup": 338,
+        "ranked_long": 15,
+        "ranked_short": 10,
+        "rejected_gate": 1606,
+        "scanned": 2303,
+        "swing_suitable": 846,
+        "universe": 2303,
+        "usable": 2046,
+        "warnings": [
+          "degraded:coverage 88.8% < 90%"
+        ]
+      },
+      "duration_s": 44.8,
+      "finished_at": "2026-09-22T15:35:20+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-22_v003_1b7504ba",
+      "started_at": "2026-09-22T15:34:35+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "bars_added": 2328,
+        "failed": 1,
+        "ok": 2302,
+        "split_or_adjustment_suspected": 1,
+        "symbols": 2303
+      },
+      "duration_s": 416.0,
+      "finished_at": "2026-09-22T15:34:34+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-22T15:27:38+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
         "banned": 0,
         "below_min_score": 2,
         "breadth_above_ema200": 827,
