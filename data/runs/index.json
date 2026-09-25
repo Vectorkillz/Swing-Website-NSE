@@ -2,6 +2,17 @@
   "runs": [
     {
       "config_version": "v003",
+      "coverage_pct": 88.8,
+      "generated_at": "2026-09-25T15:54:51+00:00",
+      "n_longs": 15,
+      "n_shorts": 10,
+      "regime": "NEUTRAL",
+      "run_id": "2026-09-25_v003_292919c7",
+      "session_date": "2026-09-25",
+      "status": "degraded"
+    },
+    {
+      "config_version": "v003",
       "coverage_pct": 88.88,
       "generated_at": "2026-09-24T15:53:09+00:00",
       "n_longs": 15,

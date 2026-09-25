@@ -2,6 +2,70 @@
   "jobs": [
     {
       "counters": {
+        "banned": 0,
+        "below_min_score": 1,
+        "breadth_above_ema200": 821,
+        "breadth_above_ema50": 783,
+        "breadth_hh_hl": 491,
+        "breadth_median_from_52w_high": -24.5685,
+        "breadth_median_roc20": -2.9234,
+        "breadth_median_rsi14": 46.3164,
+        "breadth_n": 2045,
+        "breadth_near_52w_high": 127,
+        "breadth_near_52w_low": 210,
+        "breadth_roc20_positive": 697,
+        "breadth_rs_positive": 1162,
+        "breadth_stage2": 762,
+        "breadth_stage4": 1028,
+        "breadth_vol_surge": 176,
+        "candidates_long": 16,
+        "candidates_short": 35,
+        "data_unavailable": 258,
+        "fundamentals_missing": 53,
+        "grade_a": 25,
+        "grade_ap": 13,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 13,
+        "multibagger_strong": 96,
+        "multibagger_watch": 33,
+        "no_setup": 339,
+        "ranked_long": 15,
+        "ranked_short": 10,
+        "rejected_gate": 1601,
+        "scanned": 2303,
+        "swing_suitable": 859,
+        "universe": 2303,
+        "usable": 2045,
+        "warnings": [
+          "degraded:coverage 88.8% < 90%"
+        ]
+      },
+      "duration_s": 36.6,
+      "finished_at": "2026-09-25T15:54:53+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-09-25_v003_292919c7",
+      "started_at": "2026-09-25T15:54:16+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "bars_added": 2302,
+        "failed": 1,
+        "ok": 2302,
+        "symbols": 2303
+      },
+      "duration_s": 503.9,
+      "finished_at": "2026-09-25T15:54:16+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-09-25T15:45:52+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
         "banned": 1,
         "below_min_score": 1,
         "breadth_above_ema200": 807,
