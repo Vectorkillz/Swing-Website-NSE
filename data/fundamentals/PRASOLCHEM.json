@@ -1,0 +1,15 @@
+{
+  "avg_volume": 982839.0,
+  "debt_equity": 0.33210999999999996,
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-09-26T08:05:43+00:00",
+  "industry": "Specialty Chemicals",
+  "market_cap_cr": 4474.267648,
+  "name": "PRASOL CHEMICALS LIMITED",
+  "revenue_growth": null,
+  "roe": 20.374,
+  "roe_source": "returnOnEquity",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

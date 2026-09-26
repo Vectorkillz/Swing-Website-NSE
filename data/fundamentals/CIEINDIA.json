@@ -1,15 +1,15 @@
 {
-  "avg_volume": 414871.0,
+  "avg_volume": 420593.0,
   "debt_equity": 0.0663,
   "eps_growth": 15.9,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:06:46+00:00",
+  "fcf_positive": true,
+  "fetched_at": "2026-09-26T08:04:58+00:00",
   "industry": "Auto Parts",
-  "market_cap_cr": 14226.0895744,
+  "market_cap_cr": 14825.480192,
   "name": "CIE Automotive India Limited",
   "revenue_growth": 10.6,
-  "roe": 4.9120321875366075,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "roe": 12.222,
+  "roe_source": "returnOnEquity",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

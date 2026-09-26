@@ -1,14 +1,14 @@
 {
-  "avg_volume": 973721.0,
+  "avg_volume": 716543.0,
   "debt_equity": 2.95147,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:12:12+00:00",
+  "fetched_at": "2026-09-26T08:05:07+00:00",
   "industry": "Agricultural Inputs",
-  "market_cap_cr": 48824.8180736,
+  "market_cap_cr": 50335.7308928,
   "name": "The Fertilisers and Chemicals Travancore Limited",
   "revenue_growth": 20.200000000000003,
-  "roe": 12.981105784151618,
+  "roe": -7.654075773740601,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
