@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-20",
+ "as_of": "2026-09-27",
  "live_error": null,
  "schema_version": 1,
  "sets": {
@@ -363,6 +363,7 @@
    "GRAVITA",
    "GRSE",
    "HBLENGINE",
+   "HEGAM",
    "HINDCOPPER",
    "HOMEFIRST",
    "HONASA",
