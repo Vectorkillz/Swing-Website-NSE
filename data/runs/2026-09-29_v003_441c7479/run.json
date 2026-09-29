@@ -1,0 +1,93 @@
+{
+  "ban_list": {
+    "as_of": "2026-09-30",
+    "available": true,
+    "fetch_status": "ok",
+    "live_error": null,
+    "n": 1,
+    "source": "live"
+  },
+  "cap_buckets": {
+    "largecap_min_cr": 100000.0,
+    "midcap_min_cr": 33000.0,
+    "smallcap_min_cr": 5000.0
+  },
+  "config_hash": "568e68318c881670cc030916a6edecb439ac2f5614835c5226e44f5bd66c3f97",
+  "config_version": "v003",
+  "counts": {
+    "banned": 0,
+    "below_min_score": 0,
+    "breadth_above_ema200": 750,
+    "breadth_above_ema50": 622,
+    "breadth_hh_hl": 448,
+    "breadth_median_from_52w_high": -25.9541,
+    "breadth_median_roc20": -3.9642,
+    "breadth_median_rsi14": 42.8314,
+    "breadth_n": 2060,
+    "breadth_near_52w_high": 108,
+    "breadth_near_52w_low": 296,
+    "breadth_roc20_positive": 614,
+    "breadth_rs_positive": 1236,
+    "breadth_stage2": 707,
+    "breadth_stage4": 1162,
+    "breadth_vol_surge": 281,
+    "candidates_long": 0,
+    "candidates_short": 35,
+    "data_unavailable": 258,
+    "fundamentals_missing": 0,
+    "grade_a": 23,
+    "grade_ap": 5,
+    "grade_app": 0,
+    "grade_b": 0,
+    "grade_bp": 7,
+    "multibagger_strong": 108,
+    "multibagger_watch": 27,
+    "no_setup": 0,
+    "ranked_long": 0,
+    "ranked_short": 10,
+    "rejected_gate": 2025,
+    "scanned": 2318,
+    "swing_suitable": 870,
+    "universe": 2318,
+    "usable": 2060
+  },
+  "coverage_pct": 88.87,
+  "engine_version": "0.1.0",
+  "failures": [],
+  "generated_at": "2026-09-29T16:57:41+00:00",
+  "input_hash": "441c74798cb2b4b5613ed14dad1ab0723ce1edab9aa8527ef7a39dc3083e2c20",
+  "regime": {
+    "longs_allowed": false,
+    "nifty_close": 22716.1992,
+    "nifty_ema_fast": 23132.520644,
+    "nifty_ema_slow": 23377.775608,
+    "reasons": [
+      "smallcap_unavailable",
+      "close<EMA10 and close<EMA20 and ROC(378)<0"
+    ],
+    "regime": "BEAR",
+    "roc_18m": -0.517211,
+    "roc_bars_used": 378,
+    "shorts_allowed": true,
+    "smallcap_close": null,
+    "smallcap_confirms": null,
+    "smallcap_ema_fast": null,
+    "smallcap_ema_slow": null,
+    "vix": 13.4125
+  },
+  "run_id": "2026-09-29_v003_441c7479",
+  "scan_performed": true,
+  "schema_version": 2,
+  "session_date": "2026-09-29",
+  "status": "degraded",
+  "universe": {
+    "age_days": 2,
+    "as_of": "2026-09-27",
+    "n_symbols": 2318,
+    "source": "combined",
+    "stale": false
+  },
+  "warnings": [
+    "degraded:coverage 88.9% < 90%"
+  ]
+}
