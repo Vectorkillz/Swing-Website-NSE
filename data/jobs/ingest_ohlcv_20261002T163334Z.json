@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-01",
+  "counters": {
+    "bars_added": 6,
+    "failed": 2,
+    "ok": 2316,
+    "symbols": 2318
+  },
+  "duration_s": 410.9,
+  "errors": [
+    {
+      "error": "no_data_returned",
+      "stage": "ingest",
+      "symbol": "NIFTYFPI"
+    },
+    {
+      "error": "no_data_returned",
+      "stage": "ingest",
+      "symbol": "SSRETAIL"
+    },
+    {
+      "error": "no_data_returned",
+      "stage": "ingest_index",
+      "symbol": "SMALLCAP"
+    }
+  ],
+  "finished_at": "2026-10-02T16:40:25+00:00",
+  "job": "ingest_ohlcv",
+  "n_errors": 3,
+  "started_at": "2026-10-02T16:33:34+00:00",
+  "status": "partial"
+}
