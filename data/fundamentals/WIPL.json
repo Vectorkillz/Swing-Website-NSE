@@ -1,14 +1,14 @@
 {
-  "avg_volume": 2905.0,
+  "avg_volume": 2331.0,
   "debt_equity": 0.20837,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-16T04:58:50+00:00",
+  "fetched_at": "2026-10-03T08:42:37+00:00",
   "industry": "Lumber & Wood Production",
-  "market_cap_cr": 140.4739584,
+  "market_cap_cr": 136.6461696,
   "name": "The Western India Plywoods Limited",
   "revenue_growth": -8.7,
-  "roe": -0.37934495061407936,
+  "roe": -0.5551602909083589,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

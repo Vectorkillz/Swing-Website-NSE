@@ -1,14 +1,14 @@
 {
-  "avg_volume": 3897764.0,
+  "avg_volume": 4187986.0,
   "debt_equity": 0.33579000000000003,
   "eps_growth": -1.6,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:11:34+00:00",
+  "fetched_at": "2026-10-03T08:41:27+00:00",
   "industry": "Packaging & Containers",
-  "market_cap_cr": 7556.210688,
+  "market_cap_cr": 7385.3034496,
   "name": "EPL Limited",
   "revenue_growth": 25.3,
-  "roe": 13.528094513429146,
+  "roe": 13.506715209664705,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"

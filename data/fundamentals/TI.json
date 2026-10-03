@@ -1,0 +1,15 @@
+{
+  "avg_volume": 907256.0,
+  "debt_equity": 0.7717700000000001,
+  "eps_growth": -72.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-03T08:42:29+00:00",
+  "industry": "Beverages - Wineries & Distilleries",
+  "market_cap_cr": 13485.645824,
+  "name": "Tilaknagar Industries Ltd.",
+  "revenue_growth": 155.7,
+  "roe": -1.2115503401015115,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Defensive",
+  "source": "yfinance.Ticker.info"
+}
