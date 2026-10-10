@@ -1,15 +1,15 @@
 {
-  "avg_volume": 189901.0,
-  "debt_equity": 0.08381,
-  "eps_growth": -37.5,
+  "avg_volume": 194512.0,
+  "debt_equity": 0.07492,
+  "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:17:34+00:00",
+  "fetched_at": "2026-10-10T09:12:19+00:00",
   "industry": "Lodging",
-  "market_cap_cr": 412.696704,
+  "market_cap_cr": 402.807808,
   "name": "HLV Limited",
-  "revenue_growth": 5.5,
-  "roe": 0.936,
-  "roe_source": "returnOnEquity",
+  "revenue_growth": 14.6,
+  "roe": 1.0162059321990082,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1470660.0,
+  "debt_equity": 0.21373,
+  "eps_growth": -0.6,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-10T09:13:11+00:00",
+  "industry": "Travel Services",
+  "market_cap_cr": 4508.3676672,
+  "name": "Thomas Cook (India) Limited",
+  "revenue_growth": -13.100000000000001,
+  "roe": 8.58513778286149,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

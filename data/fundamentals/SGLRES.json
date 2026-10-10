@@ -1,15 +1,15 @@
 {
-  "avg_volume": 54898.0,
+  "avg_volume": 53054.0,
   "debt_equity": 0.43543,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-10-03T08:42:18+00:00",
+  "fetched_at": "2026-10-10T09:13:00+00:00",
   "industry": "Software - Application",
-  "market_cap_cr": 56.8589184,
+  "market_cap_cr": 60.6161152,
   "name": "SGL Resources Limited",
   "revenue_growth": -71.1,
-  "roe": null,
-  "roe_source": null,
+  "roe": -0.2962231495574963,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Technology",
   "source": "yfinance.Ticker.info"
 }
