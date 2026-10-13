@@ -1,0 +1,92 @@
+{
+  "ban_list": {
+    "as_of": "2026-10-14",
+    "available": true,
+    "fetch_status": "ok",
+    "live_error": null,
+    "n": 2,
+    "source": "live"
+  },
+  "cap_buckets": {
+    "largecap_min_cr": 100000.0,
+    "midcap_min_cr": 33000.0,
+    "smallcap_min_cr": 5000.0
+  },
+  "config_hash": "568e68318c881670cc030916a6edecb439ac2f5614835c5226e44f5bd66c3f97",
+  "config_version": "v003",
+  "counts": {
+    "banned": 0,
+    "below_min_score": 0,
+    "breadth_above_ema200": 699,
+    "breadth_above_ema50": 573,
+    "breadth_hh_hl": 302,
+    "breadth_median_from_52w_high": -26.3725,
+    "breadth_median_roc20": -4.4227,
+    "breadth_median_rsi14": 43.2822,
+    "breadth_n": 2065,
+    "breadth_near_52w_high": 87,
+    "breadth_near_52w_low": 307,
+    "breadth_roc20_positive": 562,
+    "breadth_rs_positive": 843,
+    "breadth_stage2": 645,
+    "breadth_stage4": 1211,
+    "breadth_vol_surge": 162,
+    "candidates_long": 8,
+    "candidates_short": 30,
+    "data_unavailable": 271,
+    "fundamentals_missing": 98,
+    "grade_a": 17,
+    "grade_ap": 5,
+    "grade_app": 0,
+    "grade_b": 0,
+    "grade_bp": 16,
+    "multibagger_strong": 96,
+    "multibagger_watch": 29,
+    "no_setup": 354,
+    "ranked_long": 8,
+    "ranked_short": 10,
+    "rejected_gate": 1575,
+    "scanned": 2336,
+    "swing_suitable": 837,
+    "universe": 2336,
+    "usable": 2065
+  },
+  "coverage_pct": 88.4,
+  "engine_version": "0.1.0",
+  "failures": [],
+  "generated_at": "2026-10-13T18:10:03+00:00",
+  "input_hash": "9c9345f51051c6915bdc9acb1fe500d54548389bf0efbda892438a99a91472f1",
+  "regime": {
+    "longs_allowed": true,
+    "nifty_close": 22721.9492,
+    "nifty_ema_fast": 22630.490248,
+    "nifty_ema_slow": 22875.541585,
+    "reasons": [
+      "neither BULL nor BEAR conditions met"
+    ],
+    "regime": "NEUTRAL",
+    "roc_18m": -1.915548,
+    "roc_bars_used": 378,
+    "shorts_allowed": true,
+    "smallcap_close": 19447.4004,
+    "smallcap_confirms": false,
+    "smallcap_ema_fast": 19354.38804,
+    "smallcap_ema_slow": 19466.06728,
+    "vix": 14.12
+  },
+  "run_id": "2026-10-13_v003_9c9345f5",
+  "scan_performed": true,
+  "schema_version": 2,
+  "session_date": "2026-10-13",
+  "status": "degraded",
+  "universe": {
+    "age_days": 2,
+    "as_of": "2026-10-11",
+    "n_symbols": 2336,
+    "source": "combined",
+    "stale": false
+  },
+  "warnings": [
+    "degraded:coverage 88.4% < 90%"
+  ]
+}
