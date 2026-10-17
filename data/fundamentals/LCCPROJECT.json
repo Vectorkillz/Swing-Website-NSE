@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3539861.0,
+  "debt_equity": 0.96351,
+  "eps_growth": -17.299999999999997,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-17T07:17:27+00:00",
+  "industry": "Infrastructure Operations",
+  "market_cap_cr": 3934.89408,
+  "name": "LCC PROJECTS LIMITED",
+  "revenue_growth": -14.6,
+  "roe": 28.56855333548875,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

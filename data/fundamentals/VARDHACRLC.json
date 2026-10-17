@@ -1,0 +1,15 @@
+{
+  "avg_volume": 35099.0,
+  "debt_equity": null,
+  "eps_growth": 818.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-17T07:18:05+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 351.912832,
+  "name": "Vardhman Acrylics Limited",
+  "revenue_growth": 12.8,
+  "roe": 16.430027004313754,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

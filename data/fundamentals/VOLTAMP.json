@@ -1,14 +1,14 @@
 {
-  "avg_volume": 46042.0,
+  "avg_volume": 39304.0,
   "debt_equity": 0.0003,
   "eps_growth": 14.7,
   "fcf_positive": null,
-  "fetched_at": "2026-09-16T04:58:00+00:00",
+  "fetched_at": "2026-10-17T07:18:08+00:00",
   "industry": "Electrical Equipment & Parts",
-  "market_cap_cr": 10626.011136,
+  "market_cap_cr": 10746.404864,
   "name": "Voltamp Transformers Limited",
   "revenue_growth": 28.4,
-  "roe": 19.277253471530788,
+  "roe": 17.694918675512852,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

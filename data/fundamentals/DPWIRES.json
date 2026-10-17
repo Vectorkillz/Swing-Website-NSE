@@ -1,0 +1,15 @@
+{
+  "avg_volume": 68910.0,
+  "debt_equity": 0.00929,
+  "eps_growth": 31.900000000000002,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-17T07:17:04+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 316.3795712,
+  "name": "D.P. Wires Limited",
+  "revenue_growth": 3.6999999999999997,
+  "roe": 7.036258068695379,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

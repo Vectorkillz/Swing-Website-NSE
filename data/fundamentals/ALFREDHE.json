@@ -1,15 +1,15 @@
 {
-  "avg_volume": 66.0,
+  "avg_volume": 45.0,
   "debt_equity": 1e-05,
   "eps_growth": -98.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T13:59:43+00:00",
+  "fetched_at": "2026-10-17T07:16:46+00:00",
   "industry": "Specialty Industrial Machinery",
-  "market_cap_cr": null,
+  "market_cap_cr": 217.1881216,
   "name": "Alfred Herbert (India) Limited",
   "revenue_growth": 45.2,
-  "roe": null,
-  "roe_source": null,
+  "roe": 6.413112163999712,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

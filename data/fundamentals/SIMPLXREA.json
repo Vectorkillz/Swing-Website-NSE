@@ -1,15 +1,15 @@
 {
-  "avg_volume": 110.0,
+  "avg_volume": 163.0,
   "debt_equity": null,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:39:52+00:00",
+  "fetched_at": "2026-10-17T07:17:54+00:00",
   "industry": "Real Estate - Development",
-  "market_cap_cr": null,
+  "market_cap_cr": 41.1494496,
   "name": "Simplex Realty Limited",
   "revenue_growth": -91.7,
-  "roe": null,
-  "roe_source": null,
+  "roe": -2.4527255259443304,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Real Estate",
   "source": "yfinance.Ticker.info"
 }
