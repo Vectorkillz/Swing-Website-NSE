@@ -2,6 +2,22 @@
   "jobs": [
     {
       "counters": {
+        "failed": 0,
+        "fetched": 118,
+        "shard": "0/20",
+        "skipped_fresh": 0,
+        "symbols": 118
+      },
+      "duration_s": 99.3,
+      "finished_at": "2026-10-24T07:43:42+00:00",
+      "job": "refresh_fundamentals",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-10-24T07:42:03+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "banned": 0,
         "below_min_score": 0,
         "breadth_above_ema200": 435,
@@ -2507,21 +2523,6 @@
       "run_id": "2026-09-15_v003_9e2d339c",
       "started_at": "2026-09-15T13:55:23+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "bars_added": 1242448,
-        "failed": 1,
-        "ok": 2306,
-        "symbols": 2307
-      },
-      "duration_s": 1070.7,
-      "finished_at": "2026-09-15T13:55:19+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-09-15T13:37:29+00:00",
-      "status": "partial"
     },
     {
       "counters": {

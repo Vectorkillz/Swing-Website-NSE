@@ -1,0 +1,15 @@
+{
+  "avg_volume": 615967.0,
+  "debt_equity": 0.59044,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-24T07:42:50+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 345.4579712,
+  "name": "Kesoram Industries Limited",
+  "revenue_growth": 5.8999999999999995,
+  "roe": -2.4255879947187076,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

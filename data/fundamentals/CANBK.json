@@ -1,15 +1,15 @@
 {
-  "avg_volume": 21361879.0,
+  "avg_volume": 17335271.0,
   "debt_equity": null,
-  "eps_growth": 62.2,
+  "eps_growth": 10.8,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T05:49:15+00:00",
+  "fetched_at": "2026-10-24T07:42:21+00:00",
   "industry": "Banks - Regional",
-  "market_cap_cr": 111605.2914176,
+  "market_cap_cr": 105364.6913536,
   "name": "Canara Bank",
-  "revenue_growth": -12.9,
-  "roe": 15.314299942883306,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": -13.0,
+  "roe": 15.120000000000001,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

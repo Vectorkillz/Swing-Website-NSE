@@ -1,14 +1,14 @@
 {
-  "avg_volume": 217734.0,
+  "avg_volume": 212967.0,
   "debt_equity": 1.046,
   "eps_growth": 42.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:20:39+00:00",
+  "fetched_at": "2026-10-24T07:42:47+00:00",
   "industry": "Integrated Freight & Logistics",
-  "market_cap_cr": 92.946784,
+  "market_cap_cr": 88.6577216,
   "name": "Jet Freight Logistics Limited",
   "revenue_growth": 49.5,
-  "roe": 10.67754247878089,
+  "roe": 9.729867163866048,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 57984.0,
+  "debt_equity": 1.23995,
+  "eps_growth": 2241.3,
+  "fcf_positive": true,
+  "fetched_at": "2026-10-24T07:43:17+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 834.3592448,
+  "name": "RSWM Limited",
+  "revenue_growth": -9.1,
+  "roe": 3.9130002,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

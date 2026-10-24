@@ -1,14 +1,14 @@
 {
-  "avg_volume": 459938.0,
+  "avg_volume": 268995.0,
   "debt_equity": 0.58934,
   "eps_growth": 3.4000000000000004,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:15:06+00:00",
+  "fetched_at": "2026-10-24T07:42:36+00:00",
   "industry": "Apparel Manufacturing",
-  "market_cap_cr": 5446.7264512,
+  "market_cap_cr": 4941.5737344,
   "name": "Gokaldas Exports Limited",
   "revenue_growth": 20.7,
-  "roe": 4.763299536328952,
+  "roe": 4.763559564372675,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"

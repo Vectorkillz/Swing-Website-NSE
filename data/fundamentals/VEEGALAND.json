@@ -1,0 +1,15 @@
+{
+  "avg_volume": 864611.0,
+  "debt_equity": 0.32067999999999997,
+  "eps_growth": 123.30000000000001,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-24T07:43:37+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": null,
+  "name": "VEEGALAND DEVELOPERS LTD",
+  "revenue_growth": 79.10000000000001,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

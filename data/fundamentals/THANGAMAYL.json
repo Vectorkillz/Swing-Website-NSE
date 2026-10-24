@@ -1,0 +1,15 @@
+{
+  "avg_volume": 152760.0,
+  "debt_equity": 0.64492,
+  "eps_growth": 86.1,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-24T07:43:32+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 14579.0222336,
+  "name": "Thangamayil Jewellery Limited",
+  "revenue_growth": 71.2,
+  "roe": 27.615102126588965,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}
