@@ -2,6 +2,19 @@
   "jobs": [
     {
       "counters": {
+        "n_symbols": 214,
+        "source": "live"
+      },
+      "duration_s": 0.8,
+      "finished_at": "2026-10-25T07:46:19+00:00",
+      "job": "refresh_universe",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-10-25T07:46:18+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "NIFTY200": 200,
         "NIFTY50": 50,
         "SMALLCAP250": 247
@@ -2041,21 +2054,6 @@
       "run_id": "2026-09-17_v003_d99d15fb",
       "started_at": "2026-09-17T15:35:36+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "bars_added": 2558,
-        "failed": 1,
-        "ok": 2306,
-        "symbols": 2307
-      },
-      "duration_s": 417.0,
-      "finished_at": "2026-09-17T15:35:36+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-09-17T15:28:39+00:00",
-      "status": "partial"
     },
     {
       "counters": {
