@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-27",
+  "counters": {
+    "bars_added": 2409,
+    "failed": 2,
+    "ok": 2358,
+    "split_or_adjustment_suspected": 1,
+    "symbols": 2360
+  },
+  "duration_s": 518.9,
+  "errors": [
+    {
+      "error": "no_data_returned",
+      "stage": "ingest",
+      "symbol": "NIFTYFPI"
+    },
+    {
+      "error": "no_data_returned",
+      "stage": "ingest",
+      "symbol": "SMARTWORKS"
+    }
+  ],
+  "finished_at": "2026-10-27T16:25:07+00:00",
+  "job": "ingest_ohlcv",
+  "n_errors": 2,
+  "started_at": "2026-10-27T16:16:29+00:00",
+  "status": "partial"
+}
