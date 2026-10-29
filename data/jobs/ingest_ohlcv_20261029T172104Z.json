@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-29",
   "counters": {
-    "bars_added": 4625,
+    "bars_added": 2360,
     "failed": 1,
-    "ok": 2317,
-    "symbols": 2318
+    "ok": 2359,
+    "symbols": 2360
   },
-  "duration_s": 409.9,
+  "duration_s": 582.6,
   "errors": [
     {
       "error": "no_data_returned",
@@ -14,9 +14,9 @@
       "symbol": "NIFTYFPI"
     }
   ],
-  "finished_at": "2026-09-29T16:56:58+00:00",
+  "finished_at": "2026-10-29T17:30:46+00:00",
   "job": "ingest_ohlcv",
   "n_errors": 1,
-  "started_at": "2026-09-29T16:50:08+00:00",
+  "started_at": "2026-10-29T17:21:04+00:00",
   "status": "partial"
 }
