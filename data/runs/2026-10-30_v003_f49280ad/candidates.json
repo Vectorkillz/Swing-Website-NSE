@@ -1,0 +1,5898 @@
+{
+  "candidates": [
+    {
+      "bar_pattern": {
+        "bar_date": "2026-10-28",
+        "bar_idx": 742,
+        "kind": "IB",
+        "pattern_low": 569.15,
+        "trigger": 654.0
+      },
+      "cap_bucket": "small",
+      "close": 607.55,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.776442,
+        "avg_volume_20": 1417163.9,
+        "dist_ema20_pct": 0.838364,
+        "dist_ema50_pct": 7.980781,
+        "high_52w": 673.95,
+        "higher_highs_lows": true,
+        "low_52w": 447.2,
+        "pct_above_52w_low": 35.85644,
+        "pct_from_20d_high": -9.852363,
+        "pct_from_52w_high": -9.852363,
+        "roc_20": 0.421488,
+        "rsi14": 54.090079,
+        "vol_ratio_20": 0.302352
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 388729.0,
+        "debt_equity": 0.00837,
+        "eps_growth": 17.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:42:03+00:00",
+        "industry": "Broadcasting",
+        "market_cap_cr": 18295.378739,
+        "name": "Sun TV Network Limited",
+        "revenue_growth": 13.0,
+        "roe": 12.07019,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Communication Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 18295.378739
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 388729.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.00837
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 12.07019
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 13.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 84",
+          "regime alignment: partial",
+          "fundamentals data incomplete",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 29.019272,
+        "ema10": 614.102168,
+        "ema20": 602.498864,
+        "ema200": 545.171263,
+        "ema50": 562.646422,
+        "sma150": 533.879,
+        "vol20": 1417163.9
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": {
+        "age_bars": 14,
+        "end_date": "2026-10-09",
+        "end_idx": 730,
+        "found": true,
+        "leg_high": 663.9,
+        "leg_mean_volume": 3222430.181818,
+        "max_daily_pct": 9.353818,
+        "move_pct": 41.531271,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-09",
+        "start_idx": 709
+      },
+      "market_cap_cr": 18295.378739,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": true
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 5,
+        "technical_total": 7
+      },
+      "name": "Sun TV Network Limited",
+      "plan": {
+        "atr14": 29.019272,
+        "breakeven_trigger": 628.231002,
+        "entry": 608.7651,
+        "entry_max": 612.4104,
+        "extended_target": 637.963953,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 852.27114,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 615.0,
+        "r_value": 9.732951,
+        "reward_risk": 5.664767,
+        "risk_reference_price": 612.4104,
+        "side": "long",
+        "stop": 602.677449,
+        "stop_candidates": {
+          "atr": 565.236191,
+          "pct": 593.545972,
+          "prev_low": 611.925
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 663.9,
+        "target_pct": 9.056843,
+        "target_rule": "structure",
+        "target_structure_level": 663.9,
+        "trail_weekly_ema": 545.191108,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 533.645,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 1,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +41.5% (2026-09-09 to 2026-10-09) | Pullback 8.5% from leg high | Volume 27% of leg average | IB trigger at 654.00 | Revenue +13.0% YoY | EPS +17.0% YoY | ROE 12.1%",
+      "rs_vs_nifty": -1.491164,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 41.531271
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 8.487724
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 27.125252
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 654.0
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=8.0%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 13.0
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 17.0
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 12.07019
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -1.491164
+          }
+        ],
+        "display": 84.0,
+        "max_possible": 105.0,
+        "normalised": 0.8,
+        "raw": 84.0,
+        "side": "long"
+      },
+      "sector": "Communication Services",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "SUNTV",
+      "vcp": {
+        "above_ema10": false,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 8.487724,
+        "ema10": 614.102168,
+        "ema20": 602.498864,
+        "ema200": 545.171263,
+        "ema50": 562.646422,
+        "recent_mean_volume": 874092.3,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 27.125252
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-10-30",
+        "bar_idx": 280,
+        "kind": "IB",
+        "pattern_low": 267.12,
+        "trigger": 285.62
+      },
+      "cap_bucket": "micro",
+      "close": 273.61,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 6.257385,
+        "avg_volume_20": 6213358.0,
+        "dist_ema20_pct": 0.403962,
+        "dist_ema50_pct": 9.275758,
+        "high_52w": 335.48,
+        "higher_highs_lows": true,
+        "low_52w": 166.0,
+        "pct_above_52w_low": 64.825301,
+        "pct_from_20d_high": -18.442232,
+        "pct_from_52w_high": -18.442232,
+        "roc_20": 23.632009,
+        "rsi14": 53.753964,
+        "vol_ratio_20": 0.062033
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 640654.0,
+        "debt_equity": 0.27898,
+        "eps_growth": -10.6,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:39:26+00:00",
+        "industry": "Luxury Goods",
+        "market_cap_cr": 2035.198976,
+        "name": "Shringar House of Mangalsutra Limited",
+        "revenue_growth": 64.9,
+        "roe": 17.831388,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Cyclical",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 2035.198976
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 640654.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.27898
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 17.831388
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 64.9
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 79",
+          "regime alignment: partial",
+          "fundamentals data incomplete",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 17.12083,
+        "ema10": 282.426008,
+        "ema20": 272.509167,
+        "ema200": 226.86351,
+        "ema50": 250.384902,
+        "sma150": 221.940733,
+        "vol20": 6213358.0
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": {
+        "age_bars": 8,
+        "end_date": "2026-10-19",
+        "end_idx": 272,
+        "found": true,
+        "leg_high": 335.48,
+        "leg_mean_volume": 5646217.681818,
+        "max_daily_pct": 19.997287,
+        "move_pct": 51.511843,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-18",
+        "start_idx": 251
+      },
+      "market_cap_cr": 2035.198976,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": false,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "Shringar House of Mangalsutra Limited",
+      "plan": {
+        "atr14": 17.12083,
+        "breakeven_trigger": 291.148401,
+        "entry": 274.15722,
+        "entry_max": 275.79888,
+        "extended_target": 299.643991,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 383.820108,
+        "notes": [],
+        "prev_bar_low": 267.12,
+        "r_value": 8.49559,
+        "reward_risk": 7.218189,
+        "risk_reference_price": 275.79888,
+        "side": "long",
+        "stop": 267.30329,
+        "stop_candidates": {
+          "atr": 248.475974,
+          "pct": 267.30329,
+          "prev_low": 265.7844
+        },
+        "stop_distance_pct": 2.5,
+        "stop_rule": "pct",
+        "target": 335.48,
+        "target_pct": 22.367742,
+        "target_rule": "structure",
+        "target_structure_level": 335.48,
+        "trail_weekly_ema": 236.639669,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 223.668667,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 59
+      },
+      "rank": 2,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +51.5% (2026-09-18 to 2026-10-19) | Pullback 18.4% from leg high | Volume 26% of leg average | IB trigger at 285.62 | Revenue +64.9% YoY | EPS -10.6% YoY | ROE 17.8%",
+      "rs_vs_nifty": 21.719358,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 51.511843
+          },
+          {
+            "detail": "depth >15-20%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 18.442232
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 25.960276
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 285.62
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 64.9
+          },
+          {
+            "detail": null,
+            "label": "EPS growth",
+            "matched": false,
+            "max_points": 8.0,
+            "points": 0.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": -10.6
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 17.831388
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": 21.719358
+          }
+        ],
+        "display": 79.0,
+        "max_possible": 105.0,
+        "normalised": 0.752381,
+        "raw": 79.0,
+        "side": "long"
+      },
+      "sector": "Consumer Cyclical",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "SHRINGARMS",
+      "vcp": {
+        "above_ema10": false,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 18.442232,
+        "ema10": 282.426008,
+        "ema20": 272.509167,
+        "ema200": 226.86351,
+        "ema50": 250.384902,
+        "recent_mean_volume": 1465773.7,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 25.960276
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 2803.3,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.714529,
+        "avg_volume_20": 443121.65,
+        "dist_ema20_pct": -4.670524,
+        "dist_ema50_pct": -9.495852,
+        "high_52w": 3968.0,
+        "higher_highs_lows": false,
+        "low_52w": 2115.0,
+        "pct_above_52w_low": 32.543735,
+        "pct_from_20d_high": -17.765259,
+        "pct_from_52w_high": -29.352319,
+        "roc_20": -15.917816,
+        "rsi14": 36.750179,
+        "vol_ratio_20": 0.533865
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 564985.0,
+        "debt_equity": 0.04483,
+        "eps_growth": 67.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:11:26+00:00",
+        "industry": "Utilities - Renewable",
+        "market_cap_cr": 107858.218189,
+        "name": "Siemens Energy India Limited",
+        "revenue_growth": 39.3,
+        "roe": 30.924021,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Utilities",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 564985.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: partial",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 104.129381,
+        "ema10": 2846.578354,
+        "ema20": 2940.643447,
+        "ema200": 3195.790231,
+        "ema50": 3097.427103,
+        "sma150": 3282.649998,
+        "vol20": 443121.65
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 107858.218189,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "SIEMENS ENERGY INDIA LTD",
+      "plan": {
+        "atr14": 104.129381,
+        "breakeven_trigger": null,
+        "entry": 2797.6934,
+        "entry_max": null,
+        "extended_target": 2570.6261,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 75.6891,
+        "reward_risk": 2.255191,
+        "risk_reference_price": 2797.6934,
+        "side": "short",
+        "stop": 2873.3825,
+        "stop_candidates": {
+          "atr": 2953.887472,
+          "pct": 2873.3825
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 2627.0,
+        "target_pct": -6.101219,
+        "target_rule": "structure",
+        "target_structure_level": 2627.0,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 1,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.29) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -17.830468,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.287777
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Utilities",
+      "short_signals": {
+        "bounce_ratio": -0.287777,
+        "double_top": true,
+        "double_top_peak1": 3358.0,
+        "double_top_peak2": 3408.8999,
+        "downtrend": false,
+        "ema200": 3195.790231,
+        "ema50": 3097.427103,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 339558.8,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 443121.65,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "ENRIN",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "small",
+      "close": 493.7,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.295712,
+        "avg_volume_20": 2738124.0,
+        "dist_ema20_pct": -4.631829,
+        "dist_ema50_pct": -6.45575,
+        "high_52w": 598.2,
+        "higher_highs_lows": false,
+        "low_52w": 458.9,
+        "pct_above_52w_low": 7.583351,
+        "pct_from_20d_high": -13.080986,
+        "pct_from_52w_high": -17.469074,
+        "roc_20": -3.005894,
+        "rsi14": 38.767612,
+        "vol_ratio_20": 0.447532
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 2464817.0,
+        "debt_equity": 6.42522,
+        "eps_growth": 9.9,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-26T08:05:27+00:00",
+        "industry": "Mortgage Finance",
+        "market_cap_cr": 31133.564928,
+        "name": "LIC Housing Finance Limited",
+        "revenue_growth": 14.5,
+        "roe": 13.853714,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 2464817.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: partial",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 16.270931,
+        "ema10": 508.985354,
+        "ema20": 517.67796,
+        "ema200": 538.159969,
+        "ema50": 527.771619,
+        "sma150": 538.908,
+        "vol20": 2738124.0
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 31133.564928,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "LIC HOUSING FINANCE LTD",
+      "plan": {
+        "atr14": 16.270931,
+        "breakeven_trigger": null,
+        "entry": 492.7126,
+        "entry_max": null,
+        "extended_target": 452.7229,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 13.3299,
+        "reward_risk": 2.0,
+        "risk_reference_price": 492.7126,
+        "side": "short",
+        "stop": 506.0425,
+        "stop_candidates": {
+          "atr": 517.118997,
+          "pct": 506.0425
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 466.0528,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 485.2,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 2,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.47) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -4.918546,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.467466
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.467466,
+        "double_top": true,
+        "double_top_peak1": 579.4,
+        "double_top_peak2": 568.0,
+        "downtrend": false,
+        "ema200": 538.159969,
+        "ema50": 527.771619,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 1911693.8,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 2738124.0,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "LICHSGFIN",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 313.6,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.685029,
+        "avg_volume_20": 8451890.25,
+        "dist_ema20_pct": -3.883272,
+        "dist_ema50_pct": -8.372034,
+        "high_52w": 486.5,
+        "higher_highs_lows": false,
+        "low_52w": 310.3,
+        "pct_above_52w_low": 1.063487,
+        "pct_from_20d_high": -10.271817,
+        "pct_from_52w_high": -35.539568,
+        "roc_20": -1.383648,
+        "rsi14": 34.488015,
+        "vol_ratio_20": 0.46048
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 7313849.0,
+        "debt_equity": 5.36837,
+        "eps_growth": 2.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:52:18+00:00",
+        "industry": "Credit Services",
+        "market_cap_cr": 114678.536602,
+        "name": "Power Finance Corporation Limited",
+        "revenue_growth": 0.8,
+        "roe": 18.223222,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 7313849.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: partial",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 8.420251,
+        "ema10": 321.288157,
+        "ema20": 326.269949,
+        "ema200": 382.51588,
+        "ema50": 342.253585,
+        "sma150": 397.123333,
+        "vol20": 8451890.25
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 114678.536602,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "POWER FIN CORP LTD.",
+      "plan": {
+        "atr14": 8.420251,
+        "breakeven_trigger": null,
+        "entry": 312.9728,
+        "entry_max": null,
+        "extended_target": 287.5712,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 8.4672,
+        "reward_risk": 2.0,
+        "risk_reference_price": 312.9728,
+        "side": "short",
+        "stop": 321.44,
+        "stop_candidates": {
+          "atr": 325.603177,
+          "pct": 321.44
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 296.0384,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 310.3,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 3,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.80) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -3.296299,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.803681
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.803681,
+        "double_top": true,
+        "double_top_peak1": 359.15,
+        "double_top_peak2": 349.5,
+        "downtrend": false,
+        "ema200": 382.51588,
+        "ema50": 342.253585,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 5938634.4,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 8451890.25,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "PFC",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 351.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.331861,
+        "avg_volume_20": 5637452.5,
+        "dist_ema20_pct": -5.961243,
+        "dist_ema50_pct": -8.708987,
+        "high_52w": 429.6,
+        "higher_highs_lows": false,
+        "low_52w": 287.2,
+        "pct_above_52w_low": 22.214485,
+        "pct_from_20d_high": -17.216981,
+        "pct_from_52w_high": -18.296089,
+        "roc_20": -14.681575,
+        "rsi14": 35.12052,
+        "vol_ratio_20": 0.362543
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 4507447.0,
+        "debt_equity": null,
+        "eps_growth": 2.6,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-17T07:17:46+00:00",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 58715.045888,
+        "name": "RBL Bank Limited",
+        "revenue_growth": 23.1,
+        "roe": 4.045,
+        "roe_source": "returnOnEquity",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 4507447.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: partial",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 11.694831,
+        "ema10": 360.545903,
+        "ema20": 373.250362,
+        "ema200": 355.574344,
+        "ema50": 384.484726,
+        "sma150": 366.545667,
+        "vol20": 5637452.5
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 58715.045888,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "RBL BANK LIMITED",
+      "plan": {
+        "atr14": 11.694831,
+        "breakeven_trigger": null,
+        "entry": 350.298,
+        "entry_max": null,
+        "extended_target": 321.867,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 9.477,
+        "reward_risk": 1.239633,
+        "risk_reference_price": 350.298,
+        "side": "short",
+        "stop": 359.775,
+        "stop_candidates": {
+          "atr": 367.840247,
+          "pct": 359.775
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 338.55,
+        "target_pct": -3.353716,
+        "target_rule": "structure",
+        "target_structure_level": 338.55,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 4,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.70) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -16.594227,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.70232
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.70232,
+        "double_top": true,
+        "double_top_peak1": 429.6,
+        "double_top_peak2": 424.0,
+        "downtrend": false,
+        "ema200": 355.574344,
+        "ema50": 384.484726,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 3212118.8,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 5637452.5,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "RBLBANK",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 1341.9,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.607512,
+        "avg_volume_20": 366625.4,
+        "dist_ema20_pct": -3.3167,
+        "dist_ema50_pct": -5.099658,
+        "high_52w": 1768.7,
+        "higher_highs_lows": false,
+        "low_52w": 1311.6,
+        "pct_above_52w_low": 2.310156,
+        "pct_from_20d_high": -8.677011,
+        "pct_from_52w_high": -24.130717,
+        "roc_20": -0.15625,
+        "rsi14": 36.752755,
+        "vol_ratio_20": 0.820328
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 850258.0,
+        "debt_equity": 0.06168,
+        "eps_growth": 48.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-24T07:42:13+00:00",
+        "industry": "Building Products & Equipment",
+        "market_cap_cr": 36455.828685,
+        "name": "Astral Limited",
+        "revenue_growth": 15.9,
+        "roe": 14.182188,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 850258.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 34.99021,
+        "ema10": 1373.692265,
+        "ema20": 1387.933592,
+        "ema200": 1467.953865,
+        "ema50": 1414.009655,
+        "sma150": 1476.288,
+        "vol20": 366625.4
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 36455.828685,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "ASTRAL LIMITED",
+      "plan": {
+        "atr14": 34.99021,
+        "breakeven_trigger": null,
+        "entry": 1339.2162,
+        "entry_max": null,
+        "extended_target": 1230.5223,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 36.2313,
+        "reward_risk": 2.0,
+        "risk_reference_price": 1339.2162,
+        "side": "short",
+        "stop": 1375.4475,
+        "stop_candidates": {
+          "atr": 1391.701515,
+          "pct": 1375.4475
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1266.7536,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 1333.0,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 5,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.04) | Red confirmation candle",
+      "rs_vs_nifty": -2.068902,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.036364
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": -1.036364,
+        "double_top": true,
+        "double_top_peak1": 1509.9,
+        "double_top_peak2": 1469.4,
+        "downtrend": false,
+        "ema200": 1467.953865,
+        "ema50": 1414.009655,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 415512.2,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 366625.4,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "ASTRAL",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 117.54,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.575761,
+        "avg_volume_20": 21881635.6,
+        "dist_ema20_pct": -1.548323,
+        "dist_ema50_pct": -3.575316,
+        "high_52w": 162.89,
+        "higher_highs_lows": false,
+        "low_52w": 114.63,
+        "pct_above_52w_low": 2.538602,
+        "pct_from_20d_high": -7.060963,
+        "pct_from_52w_high": -27.840874,
+        "roc_20": -0.692802,
+        "rsi14": 44.695026,
+        "vol_ratio_20": 0.829158
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 17335271.0,
+        "debt_equity": null,
+        "eps_growth": 10.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-24T07:42:21+00:00",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 105364.691354,
+        "name": "Canara Bank",
+        "revenue_growth": -13.0,
+        "roe": 15.12,
+        "roe_source": "returnOnEquity",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 17335271.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 3.02755,
+        "ema10": 118.613417,
+        "ema20": 119.38852,
+        "ema200": 127.808487,
+        "ema50": 121.898248,
+        "sma150": 128.380933,
+        "vol20": 21881635.6
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 105364.691354,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "CANARA BANK",
+      "plan": {
+        "atr14": 3.02755,
+        "breakeven_trigger": null,
+        "entry": 117.30492,
+        "entry_max": null,
+        "extended_target": 107.78418,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 3.17358,
+        "reward_risk": 2.0,
+        "risk_reference_price": 117.30492,
+        "side": "short",
+        "stop": 120.4785,
+        "stop_candidates": {
+          "atr": 121.846245,
+          "pct": 120.4785
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 110.95776,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 114.63,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 6,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.08) | Red confirmation candle",
+      "rs_vs_nifty": -2.605453,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.083241
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.083241,
+        "double_top": true,
+        "double_top_peak1": 127.6,
+        "double_top_peak2": 126.47,
+        "downtrend": false,
+        "ema200": 127.808487,
+        "ema50": 121.898248,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 17574502.0,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 21881635.6,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "CANBK",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 804.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.440791,
+        "avg_volume_20": 2889680.5,
+        "dist_ema20_pct": -4.591705,
+        "dist_ema50_pct": -6.76284,
+        "high_52w": 980.9,
+        "higher_highs_lows": false,
+        "low_52w": 525.5,
+        "pct_above_52w_low": 52.997146,
+        "pct_from_20d_high": -11.96759,
+        "pct_from_52w_high": -18.034458,
+        "roc_20": -8.532423,
+        "rsi14": 37.593109,
+        "vol_ratio_20": 0.921532
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 3795841.0,
+        "debt_equity": 0.01446,
+        "eps_growth": 13.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:18+00:00",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 137245.333914,
+        "name": "CG Power and Industrial Solutions Limited",
+        "revenue_growth": 14.0,
+        "roe": 15.6537,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 3795841.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 27.663956,
+        "ema10": 829.590043,
+        "ema20": 842.694021,
+        "ema200": 829.941866,
+        "ema50": 862.317126,
+        "sma150": 869.240667,
+        "vol20": 2889680.5
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 137245.333914,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "CG POWER AND IND SOL LTD",
+      "plan": {
+        "atr14": 27.663956,
+        "breakeven_trigger": null,
+        "entry": 802.392,
+        "entry_max": null,
+        "extended_target": 737.268,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 21.708,
+        "reward_risk": 1.38852,
+        "risk_reference_price": 802.392,
+        "side": "short",
+        "stop": 824.1,
+        "stop_candidates": {
+          "atr": 843.887934,
+          "pct": 824.1
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 772.25,
+        "target_pct": -3.756518,
+        "target_rule": "structure",
+        "target_structure_level": 772.25,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 7,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.78) | Red confirmation candle",
+      "rs_vs_nifty": -10.445075,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.780669
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": -0.780669,
+        "double_top": true,
+        "double_top_peak1": 931.0,
+        "double_top_peak2": 913.3,
+        "downtrend": false,
+        "ema200": 829.941866,
+        "ema50": 862.317126,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 2456858.0,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 2889680.5,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "CGPOWER",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 389.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.415521,
+        "avg_volume_20": 6479146.05,
+        "dist_ema20_pct": -4.044924,
+        "dist_ema50_pct": -5.716042,
+        "high_52w": 491.25,
+        "higher_highs_lows": false,
+        "low_52w": 369.6,
+        "pct_above_52w_low": 5.248918,
+        "pct_from_20d_high": -9.723834,
+        "pct_from_52w_high": -20.814249,
+        "roc_20": -7.469077,
+        "rsi14": 34.089595,
+        "vol_ratio_20": 3.251537
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 7879766.0,
+        "debt_equity": 0.11629,
+        "eps_growth": 1.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:22+00:00",
+        "industry": "Thermal Coal",
+        "market_cap_cr": 261268.884685,
+        "name": "Coal India Limited",
+        "revenue_growth": 45.1,
+        "roe": 26.151044,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Energy",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 7879766.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 9.396378,
+        "ema10": 399.434594,
+        "ema20": 405.398043,
+        "ema200": 422.201902,
+        "ema50": 412.583442,
+        "sma150": 433.154333,
+        "vol20": 6479146.05
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 261268.884685,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "COAL INDIA LTD",
+      "plan": {
+        "atr14": 9.396378,
+        "breakeven_trigger": null,
+        "entry": 388.222,
+        "entry_max": null,
+        "extended_target": 356.713,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 10.503,
+        "reward_risk": 2.0,
+        "risk_reference_price": 388.222,
+        "side": "short",
+        "stop": 398.725,
+        "stop_candidates": {
+          "atr": 402.316566,
+          "pct": 398.725
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 367.216,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 380.4,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 8,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -35.25) | Red confirmation candle",
+      "rs_vs_nifty": -9.381729,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -35.25
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Energy",
+      "short_signals": {
+        "bounce_ratio": -35.25,
+        "double_top": true,
+        "double_top_peak1": 436.3,
+        "double_top_peak2": 430.9,
+        "downtrend": false,
+        "ema200": 422.201902,
+        "ema50": 412.583442,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 9512730.4,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 6479146.05,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "COALINDIA",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 1596.5,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.151623,
+        "avg_volume_20": 632500.55,
+        "dist_ema20_pct": -6.165981,
+        "dist_ema50_pct": -10.768422,
+        "high_52w": 2301.6001,
+        "higher_highs_lows": false,
+        "low_52w": 1576.8,
+        "pct_above_52w_low": 1.249366,
+        "pct_from_20d_high": -14.575419,
+        "pct_from_52w_high": -30.635213,
+        "roc_20": -7.982709,
+        "rsi14": 32.773055,
+        "vol_ratio_20": 0.857234
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 386251.0,
+        "debt_equity": 0.02993,
+        "eps_growth": 7.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:27+00:00",
+        "industry": "Household & Personal Products",
+        "market_cap_cr": 49659.137229,
+        "name": "Colgate-Palmolive (India) Limited",
+        "revenue_growth": 11.8,
+        "roe": 85.081184,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Defensive",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 386251.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 50.315654,
+        "ema10": 1651.906985,
+        "ema20": 1701.408525,
+        "ema200": 1983.285603,
+        "ema50": 1789.164812,
+        "sma150": 1963.796665,
+        "vol20": 632500.55
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 49659.137229,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "COLGATE PALMOLIVE LTD.",
+      "plan": {
+        "atr14": 50.315654,
+        "breakeven_trigger": null,
+        "entry": 1593.307,
+        "entry_max": null,
+        "extended_target": 1463.9905,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 43.1055,
+        "reward_risk": 2.0,
+        "risk_reference_price": 1593.307,
+        "side": "short",
+        "stop": 1636.4125,
+        "stop_candidates": {
+          "atr": 1668.780482,
+          "pct": 1636.4125
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1507.096,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 1576.8,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 9,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.88) | Red confirmation candle",
+      "rs_vs_nifty": -9.895361,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.875269
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Consumer Defensive",
+      "short_signals": {
+        "bounce_ratio": -1.875269,
+        "double_top": true,
+        "double_top_peak1": 1917.8,
+        "double_top_peak2": 1868.9,
+        "downtrend": false,
+        "ema200": 1983.285603,
+        "ema50": 1789.164812,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 527417.6,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 632500.55,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "COLPAL",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 2309.5,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.674304,
+        "avg_volume_20": 806867.8,
+        "dist_ema20_pct": -0.294048,
+        "dist_ema50_pct": -3.066402,
+        "high_52w": 2901.5,
+        "higher_highs_lows": false,
+        "low_52w": 2205.6001,
+        "pct_above_52w_low": 4.710732,
+        "pct_from_20d_high": -6.068247,
+        "pct_from_52w_high": -20.40324,
+        "roc_20": 0.060652,
+        "rsi14": 47.248075,
+        "vol_ratio_20": 0.988202
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 826986.0,
+        "debt_equity": 0.02364,
+        "eps_growth": 11.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:50:04+00:00",
+        "industry": "Asset Management",
+        "market_cap_cr": 102811.618509,
+        "name": "HDFC Asset Management Company Limited",
+        "revenue_growth": 13.4,
+        "roe": 31.909273,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 826986.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 61.763056,
+        "ema10": 2301.682609,
+        "ema20": 2316.311067,
+        "ema200": 2517.180398,
+        "ema50": 2382.558821,
+        "sma150": 2554.998667,
+        "vol20": 806867.8
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 102811.618509,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "HDFC AMC LIMITED",
+      "plan": {
+        "atr14": 61.763056,
+        "breakeven_trigger": null,
+        "entry": 2304.881,
+        "entry_max": null,
+        "extended_target": 2117.8115,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 62.3565,
+        "reward_risk": 1.431782,
+        "risk_reference_price": 2304.881,
+        "side": "short",
+        "stop": 2367.2375,
+        "stop_candidates": {
+          "atr": 2397.525585,
+          "pct": 2367.2375
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 2215.6001,
+        "target_pct": -3.873558,
+        "target_rule": "structure",
+        "target_structure_level": 2215.6001,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 10,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.75) | Low volume on bounce",
+      "rs_vs_nifty": -1.852,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.747485
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.747485,
+        "double_top": true,
+        "double_top_peak1": 2517.8,
+        "double_top_peak2": 2458.7,
+        "downtrend": false,
+        "ema200": 2517.180398,
+        "ema50": 2382.558821,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 626084.8,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 806867.8,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "HDFCAMC",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 1167.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.954253,
+        "avg_volume_20": 2064941.45,
+        "dist_ema20_pct": -6.340472,
+        "dist_ema50_pct": -11.504436,
+        "high_52w": 1553.0,
+        "higher_highs_lows": false,
+        "low_52w": 1147.4,
+        "pct_above_52w_low": 1.70821,
+        "pct_from_20d_high": -15.79479,
+        "pct_from_52w_high": -24.855119,
+        "roc_20": -10.759348,
+        "rsi14": 29.97402,
+        "vol_ratio_20": 0.808462
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 1916800.0,
+        "debt_equity": 0.08621,
+        "eps_growth": 48.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:51:48+00:00",
+        "industry": "Packaged Foods",
+        "market_cap_cr": 263851.265229,
+        "name": "Nestlé India Limited",
+        "revenue_growth": 25.2,
+        "roe": 73.904411,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Defensive",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 1916800.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 34.476131,
+        "ema10": 1203.889954,
+        "ema20": 1246.002436,
+        "ema200": 1349.723578,
+        "ema50": 1318.710174,
+        "sma150": 1394.089333,
+        "vol20": 2064941.45
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 263851.265229,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "NESTLE INDIA LIMITED",
+      "plan": {
+        "atr14": 34.476131,
+        "breakeven_trigger": null,
+        "entry": 1164.666,
+        "entry_max": null,
+        "extended_target": 1070.139,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 31.509,
+        "reward_risk": 2.0,
+        "risk_reference_price": 1164.666,
+        "side": "short",
+        "stop": 1196.175,
+        "stop_candidates": {
+          "atr": 1216.380196,
+          "pct": 1196.175
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1101.648,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 1147.4,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.64) | Red confirmation candle",
+      "rs_vs_nifty": -12.672,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.63754
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Consumer Defensive",
+      "short_signals": {
+        "bounce_ratio": -0.63754,
+        "double_top": true,
+        "double_top_peak1": 1420.0,
+        "double_top_peak2": 1385.9,
+        "downtrend": false,
+        "ema200": 1349.723578,
+        "ema50": 1318.710174,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 1670701.6,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 2064941.45,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "NESTLEIND",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 7787.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.331292,
+        "avg_volume_20": 431245.0,
+        "dist_ema20_pct": -2.014088,
+        "dist_ema50_pct": -5.777902,
+        "high_52w": 10126.0,
+        "higher_highs_lows": false,
+        "low_52w": 6663.0,
+        "pct_above_52w_low": 16.869278,
+        "pct_from_20d_high": -8.052899,
+        "pct_from_52w_high": -23.098953,
+        "roc_20": -2.540676,
+        "rsi14": 41.353776,
+        "vol_ratio_20": 0.803089
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 367550.0,
+        "debt_equity": 0.01738,
+        "eps_growth": 32.5,
+        "fcf_positive": true,
+        "fetched_at": "2026-09-15T05:52:30+00:00",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 122842.893517,
+        "name": "Polycab India Limited",
+        "revenue_growth": 39.0,
+        "roe": 25.549,
+        "roe_source": "returnOnEquity",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 367550.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 259.407704,
+        "ema10": 7810.167502,
+        "ema20": 7947.060796,
+        "ema200": 8353.000953,
+        "ema50": 8264.515656,
+        "sma150": 8764.716667,
+        "vol20": 431245.0
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 122842.893517,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "POLYCAB INDIA LIMITED",
+      "plan": {
+        "atr14": 259.407704,
+        "breakeven_trigger": null,
+        "entry": 7771.426,
+        "entry_max": null,
+        "extended_target": 7140.679,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 210.249,
+        "reward_risk": 1.897398,
+        "risk_reference_price": 7771.426,
+        "side": "short",
+        "stop": 7981.675,
+        "stop_candidates": {
+          "atr": 8160.537556,
+          "pct": 7981.675
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 7372.5,
+        "target_pct": -5.133241,
+        "target_rule": "structure",
+        "target_structure_level": 7372.5,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.54) | Low volume on bounce",
+      "rs_vs_nifty": -4.453328,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.537367
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": -1.537367,
+        "double_top": true,
+        "double_top_peak1": 8500.0,
+        "double_top_peak2": 8469.0,
+        "downtrend": false,
+        "ema200": 8353.000953,
+        "ema50": 8264.515656,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 309226.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 431245.0,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "POLYCAB",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 285.6,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.949991,
+        "avg_volume_20": 5907534.4,
+        "dist_ema20_pct": -4.296936,
+        "dist_ema50_pct": -7.676733,
+        "high_52w": 387.8,
+        "higher_highs_lows": false,
+        "low_52w": 283.1,
+        "pct_above_52w_low": 0.88308,
+        "pct_from_20d_high": -9.31894,
+        "pct_from_52w_high": -26.353791,
+        "roc_20": -0.747176,
+        "rsi14": 38.227837,
+        "vol_ratio_20": 0.637944
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 5524504.0,
+        "debt_equity": 6.07463,
+        "eps_growth": -6.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-19T07:38:39+00:00",
+        "industry": "Credit Services",
+        "market_cap_cr": 82156.58496,
+        "name": "REC Limited",
+        "revenue_growth": 25.2,
+        "roe": 19.042008,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 5524504.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 8.425175,
+        "ema10": 294.705616,
+        "ema20": 298.423047,
+        "ema200": 338.958544,
+        "ema50": 309.347807,
+        "sma150": 337.863,
+        "vol20": 5907534.4
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 82156.58496,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "REC LIMITED",
+      "plan": {
+        "atr14": 8.425175,
+        "breakeven_trigger": null,
+        "entry": 285.0288,
+        "entry_max": null,
+        "extended_target": 261.8952,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 7.7112,
+        "reward_risk": 2.0,
+        "risk_reference_price": 285.0288,
+        "side": "short",
+        "stop": 292.74,
+        "stop_candidates": {
+          "atr": 297.666562,
+          "pct": 292.74
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 269.6064,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 283.1,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.79) | Red confirmation candle",
+      "rs_vs_nifty": -2.659828,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.790323
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -1.790323,
+        "double_top": true,
+        "double_top_peak1": 321.4,
+        "double_top_peak2": 314.95,
+        "downtrend": false,
+        "ema200": 338.958544,
+        "ema50": 309.347807,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 5999470.2,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 5907534.4,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "RECLTD",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "small",
+      "close": 42.08,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.801963,
+        "avg_volume_20": 58541784.65,
+        "dist_ema20_pct": -5.203354,
+        "dist_ema50_pct": -4.799688,
+        "high_52w": 54.3,
+        "higher_highs_lows": false,
+        "low_52w": 35.83,
+        "pct_above_52w_low": 17.443483,
+        "pct_from_20d_high": -10.468085,
+        "pct_from_52w_high": -22.504604,
+        "roc_20": -2.524902,
+        "rsi14": 39.763693,
+        "vol_ratio_20": 13.209485
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 21823184.0,
+        "debt_equity": 0.11497,
+        "eps_growth": 43.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-17T07:17:49+00:00",
+        "industry": "Health Information Services",
+        "market_cap_cr": 21206.419046,
+        "name": "Sagility Limited",
+        "revenue_growth": 27.6,
+        "roe": 10.106897,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Healthcare",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 21823184.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 1.599866,
+        "ema10": 44.338089,
+        "ema20": 44.389756,
+        "ema200": 43.782819,
+        "ema50": 44.201536,
+        "sma150": 42.723667,
+        "vol20": 58541784.65
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 21206.419046,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "SAGILITY LIMITED",
+      "plan": {
+        "atr14": 1.599866,
+        "breakeven_trigger": null,
+        "entry": 41.99584,
+        "entry_max": null,
+        "extended_target": 38.58736,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 1.13616,
+        "reward_risk": 2.0,
+        "risk_reference_price": 41.99584,
+        "side": "short",
+        "stop": 43.132,
+        "stop_candidates": {
+          "atr": 44.395639,
+          "pct": 43.132
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 39.72352,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 41.75,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.63) | Red confirmation candle",
+      "rs_vs_nifty": -4.437553,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.634518
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Healthcare",
+      "short_signals": {
+        "bounce_ratio": -1.634518,
+        "double_top": true,
+        "double_top_peak1": 47.27,
+        "double_top_peak2": 47.0,
+        "downtrend": false,
+        "ema200": 43.782819,
+        "ema50": 44.201536,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 172480903.0,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 58541784.65,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "SAGILITY",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "small",
+      "close": 53.09,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 4.947702,
+        "avg_volume_20": 19920181.55,
+        "dist_ema20_pct": -11.420342,
+        "dist_ema50_pct": -15.41701,
+        "high_52w": 73.94,
+        "higher_highs_lows": false,
+        "low_52w": 49.24,
+        "pct_above_52w_low": 7.818846,
+        "pct_from_20d_high": -21.903501,
+        "pct_from_52w_high": -28.198539,
+        "roc_20": -19.070122,
+        "rsi14": 30.768742,
+        "vol_ratio_20": 1.040913
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 18816849.0,
+        "debt_equity": null,
+        "eps_growth": 201.9,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-16T04:55:54+00:00",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 12560.900096,
+        "name": "Ujjivan Small Finance Bank Limited",
+        "revenue_growth": 49.6,
+        "roe": 13.235483,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 18816849.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 2.626735,
+        "ema10": 57.434573,
+        "ema20": 59.934754,
+        "ema200": 60.527712,
+        "ema50": 62.766758,
+        "sma150": 61.8354,
+        "vol20": 19920181.55
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 12560.900096,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "UJJIVAN SMALL FINANC BANK",
+      "plan": {
+        "atr14": 2.626735,
+        "breakeven_trigger": null,
+        "entry": 52.98382,
+        "entry_max": null,
+        "extended_target": 48.68353,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "no structural level below entry; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 1.43343,
+        "reward_risk": 2.0,
+        "risk_reference_price": 52.98382,
+        "side": "short",
+        "stop": 54.41725,
+        "stop_candidates": {
+          "atr": 56.923922,
+          "pct": 54.41725
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 50.11696,
+        "target_pct": -5.410822,
+        "target_rule": "fallback",
+        "target_structure_level": 53.0,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -6.23) | Red confirmation candle",
+      "rs_vs_nifty": -20.982774,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -6.233129
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -6.233129,
+        "double_top": true,
+        "double_top_peak1": 68.3,
+        "double_top_peak2": 67.98,
+        "downtrend": false,
+        "ema200": 60.527712,
+        "ema50": 62.766758,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 21643744.4,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 19920181.55,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "UJJIVANSFB",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 11045.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.148016,
+        "avg_volume_20": 255031.35,
+        "dist_ema20_pct": 0.756168,
+        "dist_ema50_pct": -0.167718,
+        "high_52w": 13110.0,
+        "higher_highs_lows": false,
+        "low_52w": 10325.0,
+        "pct_above_52w_low": 6.973366,
+        "pct_from_20d_high": -1.55094,
+        "pct_from_52w_high": -15.751335,
+        "roc_20": 3.127918,
+        "rsi14": 52.529951,
+        "vol_ratio_20": 0.78237
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 262246.0,
+        "debt_equity": 0.29432,
+        "eps_growth": 16.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:58:22+00:00",
+        "industry": "Building Materials",
+        "market_cap_cr": 316055.853466,
+        "name": "UltraTech Cement Limited",
+        "revenue_growth": 15.9,
+        "roe": 11.142572,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Basic Materials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 262246.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 237.248422,
+        "ema10": 11021.628604,
+        "ema20": 10962.108087,
+        "ema200": 11453.374707,
+        "ema50": 11063.555559,
+        "sma150": 11413.906667,
+        "vol20": 255031.35
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 316055.853466,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": true,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "ULTRATECH CEMENT LIMITED",
+      "plan": {
+        "atr14": 237.248422,
+        "breakeven_trigger": null,
+        "entry": 11022.91,
+        "entry_max": null,
+        "extended_target": 10128.265,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 298.215,
+        "reward_risk": 2.00161,
+        "risk_reference_price": 11022.91,
+        "side": "short",
+        "stop": 11321.125,
+        "stop_candidates": {
+          "atr": 11378.782632,
+          "pct": 11321.125
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 10426.0,
+        "target_pct": -5.415176,
+        "target_rule": "structure",
+        "target_structure_level": 10426.0,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.26) | Red confirmation candle",
+      "rs_vs_nifty": 1.215266,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.26186
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Basic Materials",
+      "short_signals": {
+        "bounce_ratio": 0.26186,
+        "double_top": true,
+        "double_top_peak1": 11434.0,
+        "double_top_peak2": 11219.0,
+        "downtrend": false,
+        "ema200": 11453.374707,
+        "ema50": 11063.555559,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 223218.6,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 255031.35,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "ULTRACEMCO",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 2304.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.43858,
+        "avg_volume_20": 801254.25,
+        "dist_ema20_pct": -3.263928,
+        "dist_ema50_pct": -7.120678,
+        "high_52w": 3557.0,
+        "higher_highs_lows": false,
+        "low_52w": 2161.5,
+        "pct_above_52w_low": 6.592644,
+        "pct_from_20d_high": -10.569421,
+        "pct_from_52w_high": -35.226314,
+        "roc_20": -1.538462,
+        "rsi14": 40.736705,
+        "vol_ratio_20": 0.834138
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 676809.0,
+        "debt_equity": 0.21402,
+        "eps_growth": 14.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-24T07:43:40+00:00",
+        "industry": "Solar",
+        "market_cap_cr": 67739.005747,
+        "name": "Waaree Energies Limited",
+        "revenue_growth": 79.2,
+        "roe": 26.418213,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Technology",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 676809.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 79.224893,
+        "ema10": 2341.904274,
+        "ema20": 2381.738223,
+        "ema200": 2757.405216,
+        "ema50": 2480.63826,
+        "sma150": 2828.696668,
+        "vol20": 801254.25
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 67739.005747,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "WAAREE ENERGIES LIMITED",
+      "plan": {
+        "atr14": 79.224893,
+        "breakeven_trigger": null,
+        "entry": 2299.392,
+        "entry_max": null,
+        "extended_target": 2112.768,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 62.208,
+        "reward_risk": 2.216628,
+        "risk_reference_price": 2299.392,
+        "side": "short",
+        "stop": 2361.6,
+        "stop_candidates": {
+          "atr": 2418.22934,
+          "pct": 2361.6
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 2161.5,
+        "target_pct": -5.99689,
+        "target_rule": "structure",
+        "target_structure_level": 2161.5,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -3.09) | Red confirmation candle",
+      "rs_vs_nifty": -3.451113,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -3.08983
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Technology",
+      "short_signals": {
+        "bounce_ratio": -3.08983,
+        "double_top": true,
+        "double_top_peak1": 2653.0,
+        "double_top_peak2": 2576.3,
+        "downtrend": false,
+        "ema200": 2757.405216,
+        "ema50": 2480.63826,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 1218635.4,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 801254.25,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "WAAREEENER",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 1217.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.04226,
+        "avg_volume_20": 7036768.45,
+        "dist_ema20_pct": -1.182345,
+        "dist_ema50_pct": -1.948238,
+        "high_52w": 1418.3,
+        "higher_highs_lows": true,
+        "low_52w": 1150.3,
+        "pct_above_52w_low": 5.798487,
+        "pct_from_20d_high": -5.936002,
+        "pct_from_52w_high": -14.193048,
+        "roc_20": -0.008216,
+        "rsi14": 44.635748,
+        "vol_ratio_20": 0.514027
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 6125303.0,
+        "debt_equity": null,
+        "eps_growth": 21.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:48:45+00:00",
+        "industry": "Banks - Regional",
+        "market_cap_cr": 384539.26953,
+        "name": "Axis Bank Limited",
+        "revenue_growth": 14.0,
+        "roe": 13.352999,
+        "roe_source": "returnOnEquity",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 6125303.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 65",
+          "regime alignment: partial",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 24.854309,
+        "ema10": 1225.246227,
+        "ema20": 1231.561299,
+        "ema200": 1256.435317,
+        "ema50": 1241.181157,
+        "sma150": 1275.578,
+        "vol20": 7036768.45
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 384539.26953,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "AXIS BANK LIMITED",
+      "plan": {
+        "atr14": 24.854309,
+        "breakeven_trigger": null,
+        "entry": 1214.566,
+        "entry_max": null,
+        "extended_target": 1115.989,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 32.859,
+        "reward_risk": 2.0,
+        "risk_reference_price": 1214.566,
+        "side": "short",
+        "stop": 1247.425,
+        "stop_candidates": {
+          "atr": 1251.847463,
+          "pct": 1247.425
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1148.848,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 1196.9,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -1.920868,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": false,
+            "max_points": 15.0,
+            "points": 0.0,
+            "rule_id": "weak_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 65.0,
+        "max_possible": 100.0,
+        "normalised": 0.65,
+        "raw": 65.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": null,
+        "double_top": true,
+        "double_top_peak1": 1280.7,
+        "double_top_peak2": 1293.8,
+        "downtrend": false,
+        "ema200": 1256.435317,
+        "ema50": 1241.181157,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 5422006.8,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 7036768.45,
+        "weak_bounce": false,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "AXISBANK",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 3199.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.487567,
+        "avg_volume_20": 808960.6,
+        "dist_ema20_pct": -4.362935,
+        "dist_ema50_pct": -10.298731,
+        "high_52w": 4644.0,
+        "higher_highs_lows": false,
+        "low_52w": 3102.3,
+        "pct_above_52w_low": 3.117042,
+        "pct_from_20d_high": -17.551546,
+        "pct_from_52w_high": -31.115418,
+        "roc_20": -16.102806,
+        "rsi14": 31.915389,
+        "vol_ratio_20": 0.392228
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 579368.0,
+        "debt_equity": 0.09913,
+        "eps_growth": 11.4,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:39+00:00",
+        "industry": "Discount Stores",
+        "market_cap_cr": 241657.131827,
+        "name": "Avenue Supermarts Limited",
+        "revenue_growth": 14.9,
+        "roe": 12.47151,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Defensive",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 579368.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 79.577269,
+        "ema10": 3230.779004,
+        "ema20": 3344.937438,
+        "ema200": 3895.727411,
+        "ema50": 3566.281777,
+        "sma150": 4006.112001,
+        "vol20": 808960.6
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 241657.131827,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "AVENUE SUPERMARTS LIMITED",
+      "plan": {
+        "atr14": 79.577269,
+        "breakeven_trigger": null,
+        "entry": 3192.602,
+        "entry_max": null,
+        "extended_target": 2933.483,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 86.373,
+        "reward_risk": 1.045489,
+        "risk_reference_price": 3192.602,
+        "side": "short",
+        "stop": 3278.975,
+        "stop_candidates": {
+          "atr": 3311.967904,
+          "pct": 3278.975
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 3102.3,
+        "target_pct": -2.828477,
+        "target_rule": "structure",
+        "target_structure_level": 3102.3,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.33)",
+      "rs_vs_nifty": -18.015458,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.326559
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Consumer Defensive",
+      "short_signals": {
+        "bounce_ratio": -0.326559,
+        "double_top": true,
+        "double_top_peak1": 3880.0,
+        "double_top_peak2": 3813.0,
+        "downtrend": false,
+        "ema200": 3895.727411,
+        "ema50": 3566.281777,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 729464.2,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 808960.6,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "DMART",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 167.91,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.276385,
+        "avg_volume_20": 7205630.3,
+        "dist_ema20_pct": 0.064718,
+        "dist_ema50_pct": -1.119919,
+        "high_52w": 186.87,
+        "higher_highs_lows": false,
+        "low_52w": 134.36,
+        "pct_above_52w_low": 24.970229,
+        "pct_from_20d_high": -3.27765,
+        "pct_from_52w_high": -10.146091,
+        "roc_20": -1.933185,
+        "rsi14": 48.793031,
+        "vol_ratio_20": 1.968359
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 8616940.0,
+        "debt_equity": 0.27809,
+        "eps_growth": 97.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:49+00:00",
+        "industry": "Utilities - Regulated Gas",
+        "market_cap_cr": 112447.009587,
+        "name": "GAIL (India) Limited",
+        "revenue_growth": 16.7,
+        "roe": 11.084074,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Utilities",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 8616940.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 3.822278,
+        "ema10": 166.771286,
+        "ema20": 167.801403,
+        "ema200": 170.034629,
+        "ema50": 169.811755,
+        "sma150": 168.6888,
+        "vol20": 7205630.3
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 112447.009587,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "GAIL (INDIA) LTD",
+      "plan": {
+        "atr14": 3.822278,
+        "breakeven_trigger": null,
+        "entry": 167.57418,
+        "entry_max": null,
+        "extended_target": 153.97347,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 4.53357,
+        "reward_risk": 1.516284,
+        "risk_reference_price": 167.57418,
+        "side": "short",
+        "stop": 172.10775,
+        "stop_candidates": {
+          "atr": 173.307597,
+          "pct": 172.10775
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 160.7,
+        "target_pct": -4.102171,
+        "target_rule": "structure",
+        "target_structure_level": 160.7,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.03)",
+      "rs_vs_nifty": -3.845837,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.030794
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Utilities",
+      "short_signals": {
+        "bounce_ratio": -0.030794,
+        "double_top": true,
+        "double_top_peak1": 177.3,
+        "double_top_peak2": 173.6,
+        "downtrend": false,
+        "ema200": 170.034629,
+        "ema50": 169.811755,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 8307846.8,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 7205630.3,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "GAIL",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 818.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.841702,
+        "avg_volume_20": 1328302.5,
+        "dist_ema20_pct": -3.612086,
+        "dist_ema50_pct": -7.159546,
+        "high_52w": 1273.9,
+        "higher_highs_lows": false,
+        "low_52w": 777.2,
+        "pct_above_52w_low": 5.249614,
+        "pct_from_20d_high": -6.764689,
+        "pct_from_52w_high": -35.787738,
+        "roc_20": -2.619048,
+        "rsi14": 35.184665,
+        "vol_ratio_20": 7.20255
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 1526592.0,
+        "debt_equity": 0.34899,
+        "eps_growth": 11.5,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:49:54+00:00",
+        "industry": "Household & Personal Products",
+        "market_cap_cr": 89129.864397,
+        "name": "Godrej Consumer Products Limited",
+        "revenue_growth": 15.4,
+        "roe": 15.12803,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Defensive",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 1526592.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 23.245123,
+        "ema10": 838.620852,
+        "ema20": 848.654118,
+        "ema200": 1000.054421,
+        "ema50": 881.081427,
+        "sma150": 984.751,
+        "vol20": 1328302.5
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 89129.864397,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "GODREJ CONSUMER PRODUCTS",
+      "plan": {
+        "atr14": 23.245123,
+        "breakeven_trigger": null,
+        "entry": 816.364,
+        "entry_max": null,
+        "extended_target": 750.106,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 22.086,
+        "reward_risk": 1.77325,
+        "risk_reference_price": 816.364,
+        "side": "short",
+        "stop": 838.45,
+        "stop_candidates": {
+          "atr": 851.231684,
+          "pct": 838.45
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 777.2,
+        "target_pct": -4.79737,
+        "target_rule": "structure",
+        "target_structure_level": 777.2,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.48)",
+      "rs_vs_nifty": -4.531699,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.48
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Consumer Defensive",
+      "short_signals": {
+        "bounce_ratio": -1.48,
+        "double_top": true,
+        "double_top_peak1": 891.0,
+        "double_top_peak2": 877.35,
+        "downtrend": false,
+        "ema200": 1000.054421,
+        "ema50": 881.081427,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 2665011.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 1328302.5,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "GODREJCP",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 5167.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.018097,
+        "avg_volume_20": 511783.15,
+        "dist_ema20_pct": 0.08931,
+        "dist_ema50_pct": -0.923886,
+        "high_52w": 6388.5,
+        "higher_highs_lows": false,
+        "low_52w": 4671.5,
+        "pct_above_52w_low": 10.606871,
+        "pct_from_20d_high": -4.526977,
+        "pct_from_52w_high": -19.120294,
+        "roc_20": -0.01935,
+        "rsi14": 49.536467,
+        "vol_ratio_20": 1.120535
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 703762.0,
+        "debt_equity": 0.0357,
+        "eps_growth": -17.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:50:08+00:00",
+        "industry": "Auto Manufacturers",
+        "market_cap_cr": 105284.278682,
+        "name": "Hero MotoCorp Limited",
+        "revenue_growth": 34.9,
+        "roe": 25.206377,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Cyclical",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 703762.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 155.945069,
+        "ema10": 5164.154881,
+        "ema20": 5162.389495,
+        "ema200": 5229.406137,
+        "ema50": 5215.182354,
+        "sma150": 5173.292002,
+        "vol20": 511783.15
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 105284.278682,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "HERO MOTOCORP LIMITED",
+      "plan": {
+        "atr14": 155.945069,
+        "breakeven_trigger": null,
+        "entry": 5156.666,
+        "entry_max": null,
+        "extended_target": 4738.139,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 139.509,
+        "reward_risk": 2.377381,
+        "risk_reference_price": 5156.666,
+        "side": "short",
+        "stop": 5296.175,
+        "stop_candidates": {
+          "atr": 5390.583604,
+          "pct": 5296.175
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 4825.0,
+        "target_pct": -6.431791,
+        "target_rule": "structure",
+        "target_structure_level": 4825.0,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.59)",
+      "rs_vs_nifty": -1.932002,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.594872
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Consumer Cyclical",
+      "short_signals": {
+        "bounce_ratio": -0.594872,
+        "double_top": true,
+        "double_top_peak1": 5448.5,
+        "double_top_peak2": 5412.0,
+        "downtrend": false,
+        "ema200": 5229.406137,
+        "ema50": 5215.182354,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 612698.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 511783.15,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "HEROMOTOCO",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 1658.6,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.437421,
+        "avg_volume_20": 1253294.75,
+        "dist_ema20_pct": -0.719397,
+        "dist_ema50_pct": -2.953556,
+        "high_52w": 2132.0,
+        "higher_highs_lows": false,
+        "low_52w": 1607.7,
+        "pct_above_52w_low": 3.166014,
+        "pct_from_20d_high": -5.455167,
+        "pct_from_52w_high": -22.204503,
+        "roc_20": -3.659387,
+        "rsi14": 44.521669,
+        "vol_ratio_20": 0.988682
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 940764.0,
+        "debt_equity": null,
+        "eps_growth": 21.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:52:49+00:00",
+        "industry": "Insurance - Life",
+        "market_cap_cr": 167840.31744,
+        "name": "SBI Life Insurance Company Limited",
+        "revenue_growth": 18.8,
+        "roe": 13.703,
+        "roe_source": "returnOnEquity",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 940764.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 40.42706,
+        "ema10": 1656.373936,
+        "ema20": 1670.618377,
+        "ema200": 1797.030748,
+        "ema50": 1709.078599,
+        "sma150": 1791.818667,
+        "vol20": 1253294.75
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 167840.31744,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "SBI LIFE INSURANCE CO LTD",
+      "plan": {
+        "atr14": 40.42706,
+        "breakeven_trigger": null,
+        "entry": 1655.2828,
+        "entry_max": null,
+        "extended_target": 1520.9362,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 44.7822,
+        "reward_risk": 1.062538,
+        "risk_reference_price": 1655.2828,
+        "side": "short",
+        "stop": 1700.065,
+        "stop_candidates": {
+          "atr": 1715.92339,
+          "pct": 1700.065
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1607.7,
+        "target_pct": -2.874602,
+        "target_rule": "structure",
+        "target_structure_level": 1607.7,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.02)",
+      "rs_vs_nifty": -5.572038,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.015228
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": 0.015228,
+        "double_top": true,
+        "double_top_peak1": 1791.4,
+        "double_top_peak2": 1754.3,
+        "downtrend": false,
+        "ema200": 1797.030748,
+        "ema50": 1709.078599,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 1406313.2,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 1253294.75,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "SBILIFE",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 237.9,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.166342,
+        "avg_volume_20": 10679928.65,
+        "dist_ema20_pct": -2.138557,
+        "dist_ema50_pct": -7.515327,
+        "high_52w": 795.0,
+        "higher_highs_lows": false,
+        "low_52w": 221.6,
+        "pct_above_52w_low": 7.355596,
+        "pct_from_20d_high": -11.131864,
+        "pct_from_52w_high": -70.075472,
+        "roc_20": -5.613965,
+        "rsi14": 42.026121,
+        "vol_ratio_20": 1.120739
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 16440834.0,
+        "debt_equity": 0.48044,
+        "eps_growth": 72.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:58:30+00:00",
+        "industry": "Other Industrial Metals & Mining",
+        "market_cap_cr": 100724.368998,
+        "name": "Vedanta Limited",
+        "revenue_growth": -37.3,
+        "roe": 13.683264,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Basic Materials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 16440834.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "partial",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: partial",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 7.532728,
+        "ema10": 236.619995,
+        "ema20": 243.098807,
+        "ema200": 359.845442,
+        "ema50": 257.231813,
+        "sma150": 338.098333,
+        "vol20": 10679928.65
+      },
+      "last_bar_date": "2026-10-30",
+      "leg": null,
+      "market_cap_cr": 100724.368998,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 0,
+        "technical_total": 7
+      },
+      "name": "VEDANTA LIMITED",
+      "plan": {
+        "atr14": 7.532728,
+        "breakeven_trigger": null,
+        "entry": 237.4242,
+        "entry_max": null,
+        "extended_target": 218.1543,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 6.4233,
+        "reward_risk": 2.463562,
+        "risk_reference_price": 237.4242,
+        "side": "short",
+        "stop": 243.8475,
+        "stop_candidates": {
+          "atr": 248.723292,
+          "pct": 243.8475
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 221.6,
+        "target_pct": -6.664948,
+        "target_rule": "structure",
+        "target_structure_level": 221.6,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": null,
+      "rank_reason": "outside top 10",
+      "rank_status": "not_in_top_n",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.29)",
+      "rs_vs_nifty": -7.526617,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.288732
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Basic Materials",
+      "short_signals": {
+        "bounce_ratio": -0.288732,
+        "double_top": true,
+        "double_top_peak1": 275.75,
+        "double_top_peak2": 267.7,
+        "downtrend": false,
+        "ema200": 359.845442,
+        "ema50": 257.231813,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 11116524.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 10679928.65,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "VEDL",
+      "vcp": null,
+      "warnings": []
+    }
+  ],
+  "run_id": "2026-10-30_v003_f49280ad",
+  "schema_version": 2
+}
