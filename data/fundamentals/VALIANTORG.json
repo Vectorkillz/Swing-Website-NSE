@@ -1,0 +1,15 @@
+{
+  "avg_volume": 99538.0,
+  "debt_equity": 0.33698,
+  "eps_growth": 256.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-31T09:03:39+00:00",
+  "industry": "Chemicals",
+  "market_cap_cr": 1172.4073984,
+  "name": "Valiant Organics Limited",
+  "revenue_growth": 13.3,
+  "roe": 7.119112421333453,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

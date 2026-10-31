@@ -1,14 +1,14 @@
 {
-  "avg_volume": 39538.0,
+  "avg_volume": 17677.0,
   "debt_equity": 0.13283,
   "eps_growth": -23.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:22:48+00:00",
+  "fetched_at": "2026-10-31T09:02:58+00:00",
   "industry": "Metal Fabrication",
-  "market_cap_cr": 4029.3728256,
+  "market_cap_cr": 3307.288576,
   "name": "Kirloskar Industries Limited",
   "revenue_growth": 4.3,
-  "roe": 2.4338713969946504,
+  "roe": 2.4326899559156545,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

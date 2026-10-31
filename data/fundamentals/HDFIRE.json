@@ -1,0 +1,15 @@
+{
+  "avg_volume": 6236318.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": true,
+  "fetched_at": "2026-10-31T09:02:48+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 4672.507904,
+  "name": "HD Fire Protect Limited",
+  "revenue_growth": null,
+  "roe": 30.163,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

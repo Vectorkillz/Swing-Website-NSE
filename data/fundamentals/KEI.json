@@ -1,14 +1,14 @@
 {
-  "avg_volume": 506168.0,
+  "avg_volume": 564205.0,
   "debt_equity": 0.03796,
   "eps_growth": 40.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-19T07:38:17+00:00",
+  "fetched_at": "2026-10-31T09:02:57+00:00",
   "industry": "Electrical Equipment & Parts",
-  "market_cap_cr": 44454.2746624,
+  "market_cap_cr": 36058.3888896,
   "name": "KEI Industries Limited",
   "revenue_growth": 23.0,
-  "roe": 14.956030347626436,
+  "roe": 14.949208156361074,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

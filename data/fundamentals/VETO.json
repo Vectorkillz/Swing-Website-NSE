@@ -1,0 +1,15 @@
+{
+  "avg_volume": 58450.0,
+  "debt_equity": 0.07386,
+  "eps_growth": 72.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-31T09:03:40+00:00",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap_cr": 227.0474496,
+  "name": "Veto Switchgears and Cables Limited",
+  "revenue_growth": 37.7,
+  "roe": 9.454746891751652,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

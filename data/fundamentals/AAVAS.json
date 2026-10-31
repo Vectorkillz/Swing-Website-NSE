@@ -1,15 +1,15 @@
 {
-  "avg_volume": 95483.0,
-  "debt_equity": 3.10553,
-  "eps_growth": 23.3,
+  "avg_volume": 102030.0,
+  "debt_equity": 3.05373,
+  "eps_growth": 10.9,
   "fcf_positive": null,
-  "fetched_at": "2026-10-24T07:42:05+00:00",
+  "fetched_at": "2026-10-31T09:02:17+00:00",
   "industry": "Mortgage Finance",
-  "market_cap_cr": 8834.3519232,
+  "market_cap_cr": 8428.3572224,
   "name": "Aavas Financiers Limited",
-  "revenue_growth": 16.900000000000002,
-  "roe": 13.582321582812728,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 8.9,
+  "roe": 13.980999999999998,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

@@ -1,14 +1,14 @@
 {
-  "avg_volume": 62149.0,
+  "avg_volume": 51273.0,
   "debt_equity": 0.35851999999999995,
   "eps_growth": -16.0,
   "fcf_positive": null,
-  "fetched_at": "2026-09-16T04:57:31+00:00",
+  "fetched_at": "2026-10-31T09:03:41+00:00",
   "industry": "Apparel Manufacturing",
-  "market_cap_cr": 182.9629184,
+  "market_cap_cr": 159.7996288,
   "name": "VIP Clothing Limited",
   "revenue_growth": -1.2,
-  "roe": 4.992158011837138,
+  "roe": 4.894795283024898,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"

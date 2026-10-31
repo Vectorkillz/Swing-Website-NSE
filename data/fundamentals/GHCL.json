@@ -1,14 +1,14 @@
 {
-  "avg_volume": 170564.0,
+  "avg_volume": 133015.0,
   "debt_equity": 0.023450000000000002,
   "eps_growth": 39.6,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:14:01+00:00",
+  "fetched_at": "2026-10-31T09:02:43+00:00",
   "industry": "Chemicals",
-  "market_cap_cr": 3878.7784704,
+  "market_cap_cr": 3475.1684608,
   "name": "GHCL Limited",
   "revenue_growth": -2.7,
-  "roe": 14.324912255671734,
+  "roe": 14.252413912832548,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

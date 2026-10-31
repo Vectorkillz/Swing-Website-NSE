@@ -1,14 +1,14 @@
 {
-  "avg_volume": 506820.0,
+  "avg_volume": 517043.0,
   "debt_equity": 0.08132999999999999,
   "eps_growth": 20.7,
   "fcf_positive": null,
-  "fetched_at": "2026-09-19T07:38:47+00:00",
+  "fetched_at": "2026-10-31T09:03:27+00:00",
   "industry": "Steel",
-  "market_cap_cr": 30615.9222784,
+  "market_cap_cr": 32373.0866176,
   "name": "Shyam Metalics and Energy Limited",
   "revenue_growth": 23.5,
-  "roe": 9.977533733851285,
+  "roe": 9.975533154669655,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

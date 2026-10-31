@@ -1,0 +1,15 @@
+{
+  "avg_volume": 16226.0,
+  "debt_equity": 0.60354,
+  "eps_growth": 2.7,
+  "fcf_positive": null,
+  "fetched_at": "2026-10-31T09:02:51+00:00",
+  "industry": "Insurance Brokers",
+  "market_cap_cr": null,
+  "name": "IIRM Holdings India Limited",
+  "revenue_growth": 8.1,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

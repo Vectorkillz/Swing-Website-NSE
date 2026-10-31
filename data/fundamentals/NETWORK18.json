@@ -1,14 +1,14 @@
 {
-  "avg_volume": 4398918.0,
+  "avg_volume": 4895354.0,
   "debt_equity": 0.65925,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-10-03T08:42:00+00:00",
+  "fetched_at": "2026-10-31T09:03:09+00:00",
   "industry": "Entertainment",
-  "market_cap_cr": 3919.9096832,
+  "market_cap_cr": 3668.1580544,
   "name": "Network18 Media & Investments Limited",
   "revenue_growth": 10.299999999999999,
-  "roe": -0.6948088940877029,
+  "roe": -0.7021068491739068,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Communication Services",
   "source": "yfinance.Ticker.info"

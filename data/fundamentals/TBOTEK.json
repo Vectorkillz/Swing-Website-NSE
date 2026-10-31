@@ -1,14 +1,14 @@
 {
-  "avg_volume": 227149.0,
+  "avg_volume": 223512.0,
   "debt_equity": 0.48762,
   "eps_growth": 32.300000000000004,
   "fcf_positive": null,
-  "fetched_at": "2026-10-03T08:42:27+00:00",
+  "fetched_at": "2026-10-31T09:03:34+00:00",
   "industry": "Travel Services",
-  "market_cap_cr": 17929.0308608,
+  "market_cap_cr": 16398.6538496,
   "name": "TBO Tek Limited",
   "revenue_growth": 81.10000000000001,
-  "roe": 17.09445719178379,
+  "roe": 17.055665704034826,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
