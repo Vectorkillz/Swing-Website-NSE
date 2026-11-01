@@ -2,6 +2,33 @@
   "jobs": [
     {
       "counters": {
+        "NIFTY200": 200,
+        "NIFTY50": 50,
+        "SMALLCAP250": 247
+      },
+      "duration_s": 1.0,
+      "finished_at": "2026-11-01T08:54:13+00:00",
+      "job": "refresh_index_membership",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-01T08:54:12+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "n_symbols": 2357,
+        "source": "live"
+      },
+      "duration_s": 0.7,
+      "finished_at": "2026-11-01T08:54:12+00:00",
+      "job": "refresh_equity_list",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-01T08:54:11+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "failed": 0,
         "fetched": 118,
         "shard": "0/20",
@@ -1389,22 +1416,6 @@
     },
     {
       "counters": {
-        "bars_added": 6009,
-        "failed": 1,
-        "ok": 2319,
-        "split_or_adjustment_suspected": 1,
-        "symbols": 2320
-      },
-      "duration_s": 316.4,
-      "finished_at": "2026-10-06T17:10:08+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-06T17:04:51+00:00",
-      "status": "partial"
-    },
-    {
-      "counters": {
         "banned": 0,
         "below_min_score": 0,
         "breadth_above_ema200": 1,
@@ -1451,21 +1462,6 @@
       "run_id": "2026-10-05_v003_4cb9fa0b",
       "started_at": "2026-10-05T19:46:37+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "bars_added": 10453,
-        "failed": 1,
-        "ok": 2319,
-        "symbols": 2320
-      },
-      "duration_s": 509.6,
-      "finished_at": "2026-10-05T19:46:36+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-05T19:38:06+00:00",
-      "status": "partial"
     },
     {
       "counters": {
