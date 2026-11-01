@@ -1,0 +1,13 @@
+{
+  "counters": {
+    "n_symbols": 219,
+    "source": "live"
+  },
+  "duration_s": 0.7,
+  "errors": [],
+  "finished_at": "2026-11-01T09:35:43+00:00",
+  "job": "refresh_universe",
+  "n_errors": 0,
+  "started_at": "2026-11-01T09:35:42+00:00",
+  "status": "ok"
+}

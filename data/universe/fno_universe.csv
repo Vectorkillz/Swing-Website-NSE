@@ -1,7 +1,7 @@
 symbol,name,sector,industry,isin,lot_size,fno_eligible
 360ONE,360 ONE WAM LIMITED,Financial Services,Asset Management,,500,True
 ABB,ABB INDIA LIMITED,Industrials,Specialty Industrial Machinery,,125,True
-ABCAPITAL,ADITYA BIRLA CAPITAL LTD.,Financial Services,Financial Conglomerates,,3100,True
+ABCAPITAL,ADITYA BIRLA CAPITAL LTD.,Financial Services,Financial Conglomerates,,1550,True
 ADANIENSOL,ADANI ENERGY SOLUTION LTD,Utilities,Utilities - Independent Power Producers,,675,True
 ADANIENT,ADANI ENTERPRISES LIMITED,Energy,Thermal Coal,,309,True
 ADANIGREEN,ADANI GREEN ENERGY LTD,Utilities,Utilities - Renewable,,600,True
@@ -18,12 +18,11 @@ ASHOKLEY,ASHOK LEYLAND LTD,Industrials,Farm & Heavy Construction Machinery,,5000
 ASIANPAINT,ASIAN PAINTS LIMITED,Basic Materials,Specialty Chemicals,,250,True
 ASTRAL,ASTRAL LIMITED,Industrials,Building Products & Equipment,,425,True
 ATHERENERG,ATHER ENERGY LIMITED,Consumer Cyclical,Auto Manufacturers,,375,True
-AUBANK,AU SMALL FINANCE BANK LTD,Financial Services,Banks - Regional,,1000,True
+AUBANK,AU SMALL FINANCE BANK LTD,Financial Services,Banks - Regional,,500,True
 AUROPHARMA,AUROBINDO PHARMA LTD,Healthcare,Drug Manufacturers - Specialty & Generic,,550,True
 AXISBANK,AXIS BANK LIMITED,Financial Services,Banks - Regional,,625,True
 BAJAJ-AUTO,BAJAJ AUTO LIMITED,Consumer Cyclical,Auto Manufacturers,,75,True
 BAJAJFINSV,BAJAJ FINSERV LTD.,Financial Services,Financial Conglomerates,,300,True
-BAJAJHLDNG,BAJAJ HOLDINGS & INVS LTD,Financial Services,Asset Management,,75,True
 BAJFINANCE,BAJAJ FINANCE LIMITED,Financial Services,Credit Services,,750,True
 BANDHANBNK,BANDHAN BANK LIMITED,Financial Services,Banks - Regional,,3600,True
 BANKBARODA,BANK OF BARODA,Financial Services,Banks - Regional,,2925,True
@@ -50,9 +49,12 @@ COCHINSHIP,COCHIN SHIPYARD LIMITED,Industrials,Aerospace & Defense,,400,True
 COFORGE,COFORGE LIMITED,Technology,Information Technology Services,,475,True
 COLPAL,COLGATE PALMOLIVE LTD.,Consumer Defensive,Household & Personal Products,,275,True
 CONCOR,CONTAINER CORP OF IND LTD,Industrials,Railroads,,1250,True
+COROMANDEL,COROMANDEL INTERNTL. LTD,Basic Materials,Agricultural Inputs,,300,True
 CROMPTON,CROMPT GREA CON ELEC LTD,Consumer Cyclical,"Furnishings, Fixtures & Appliances",,2150,True
-CUMMINSIND,CUMMINS INDIA LTD,Industrials,Specialty Industrial Machinery,,200,True
+CUB,CITY UNION BANK LTD,Financial Services,Banks - Regional,,2325,True
+CUMMINSIND,CUMMINS INDIA LTD,Industrials,Specialty Industrial Machinery,,100,True
 DABUR,DABUR INDIA LTD,Consumer Defensive,Household & Personal Products,,1250,True
+DATAPATTNS,DATA PATTERNS INDIA LTD,Industrials,Aerospace & Defense,,125,True
 DELHIVERY,DELHIVERY LIMITED,Industrials,Integrated Freight & Logistics,,2075,True
 DIVISLAB,DIVI S LABORATORIES LTD,Healthcare,Drug Manufacturers - Specialty & Generic,,100,True
 DIXON,DIXON TECHNO (INDIA) LTD,Technology,Consumer Electronics,,50,True
@@ -108,12 +110,13 @@ JSWENERGY,JSW ENERGY LIMITED,Utilities,Utilities - Independent Power Producers,,
 JSWSTEEL,JSW STEEL LIMITED,Basic Materials,Steel,,675,True
 JUBLFOOD,JUBILANT FOODWORKS LTD,Consumer Cyclical,Restaurants,,1250,True
 KALYANKJIL,KALYAN JEWELLERS IND LTD,Consumer Cyclical,Luxury Goods,,1350,True
+KARURVYSYA,KARUR VYSYA BANK LTD,Financial Services,Banks - Regional,,1550,True
 KAYNES,KAYNES TECHNOLOGY IND LTD,Technology,Electronic Components,,150,True
 KEI,KEI INDUSTRIES LTD.,Industrials,Electrical Equipment & Parts,,175,True
 KFINTECH,KFIN TECHNOLOGIES LIMITED,Technology,Software - Application,,575,True
 KOTAKBANK,KOTAK MAHINDRA BANK LTD,Financial Services,Banks - Regional,,2000,True
 KPITTECH,KPIT TECHNOLOGIES LIMITED,Technology,Software - Application,,775,True
-LAURUSLABS,LAURUS LABS LIMITED,Healthcare,Drug Manufacturers - Specialty & Generic,,850,True
+LAURUSLABS,LAURUS LABS LIMITED,Healthcare,Drug Manufacturers - Specialty & Generic,,425,True
 LICHSGFIN,LIC HOUSING FINANCE LTD,Financial Services,Mortgage Finance,,1000,True
 LICI,LIFE INSURA CORP OF INDIA,Financial Services,Insurance - Life,,1400,True
 LODHA,LODHA DEVELOPERS LIMITED,Real Estate,Real Estate - Development,,625,True
@@ -138,6 +141,7 @@ MUTHOOTFIN,MUTHOOT FINANCE LIMITED,Financial Services,Credit Services,,275,True
 NAM-INDIA,NIPPON L I A M LTD,Financial Services,Asset Management,,625,True
 NATIONALUM,NATIONAL ALUMINIUM CO LTD,Basic Materials,Aluminum,,1875,True
 NAUKRI,INFO EDGE (I) LTD,Communication Services,Internet Content & Information,,550,True
+NAVINFLUOR,NAVIN FLUORINE INT. LTD,Basic Materials,Chemicals,,75,True
 NBCC,NBCC (INDIA) LIMITED,Industrials,Engineering & Construction,,6500,True
 NESTLEIND,NESTLE INDIA LIMITED,Consumer Defensive,Packaged Foods,,500,True
 NHPC,NHPC LTD,Utilities,Utilities - Renewable,,6950,True
@@ -146,7 +150,7 @@ NMDC,NMDC LTD.,Basic Materials,Steel,,6750,True
 NTPC,NTPC LTD,Utilities,Utilities - Regulated Electric,,1500,True
 NYKAA,FSN E COMMERCE VENTURES,Consumer Cyclical,Internet Retail,,3125,True
 OBEROIRLTY,OBEROI REALTY LIMITED,Real Estate,Real Estate - Development,,350,True
-OFSS,ORACLE FIN SERV SOFT LTD.,Technology,Software - Infrastructure,,100,True
+OFSS,ORACLE FIN SERV SOFT LTD.,Technology,Software - Infrastructure,,50,True
 OIL,OIL INDIA LTD,Energy,Oil & Gas Integrated,,1400,True
 ONGC,OIL AND NATURAL GAS CORP.,Energy,Oil & Gas Integrated,,2250,True
 PAGEIND,PAGE INDUSTRIES LTD,Consumer Cyclical,Apparel Manufacturing,,20,True
@@ -180,13 +184,14 @@ SBIN,STATE BANK OF INDIA,Financial Services,Banks - Regional,,750,True
 SHREECEM,SHREE CEMENT LIMITED,Basic Materials,Building Materials,,25,True
 SHRIRAMFIN,SHRIRAM FINANCE LIMITED,Financial Services,Credit Services,,825,True
 SIEMENS,SIEMENS LTD,Industrials,Specialty Industrial Machinery,,175,True
-SOLARINDS,SOLAR INDUSTRIES (I) LTD,Basic Materials,Specialty Chemicals,,50,True
+SOLARINDS,SOLAR INDUSTRIES (I) LTD,Basic Materials,Specialty Chemicals,,25,True
 SONACOMS,SONA BLW PRECISION FRGS L,Consumer Cyclical,Auto Parts,,1225,True
 SRF,SRF LTD,Industrials,Conglomerates,,200,True
 SUNPHARMA,SUN PHARMACEUTICAL IND L,Healthcare,Drug Manufacturers - Specialty & Generic,,350,True
 SUPREMEIND,SUPREME INDUSTRIES LTD,Industrials,Building Products & Equipment,,175,True
 SUZLON,SUZLON ENERGY LIMITED,Industrials,Specialty Industrial Machinery,,12700,True
 SWIGGY,SWIGGY LIMITED,Consumer Cyclical,Internet Retail,,1825,True
+SYRMA,SYRMA SGS TECHNOLOGY LTD,Technology,Electronic Components,,325,True
 TATACONSUM,TATA CONSUMER PRODUCT LTD,Consumer Defensive,Packaged Foods,,550,True
 TATAELXSI,TATA ELXSI LIMITED,Technology,Software - Application,,125,True
 TATAPOWER,TATA POWER CO LTD,Utilities,Utilities - Independent Power Producers,,1450,True
@@ -212,4 +217,4 @@ VOLTAS,VOLTAS LTD,Consumer Cyclical,"Furnishings, Fixtures & Appliances",,375,Tr
 WAAREEENER,WAAREE ENERGIES LIMITED,Technology,Solar,,175,True
 WIPRO,WIPRO LTD,Technology,Information Technology Services,,3000,True
 YESBANK,YES BANK LIMITED,Financial Services,Banks - Regional,,31100,True
-ZYDUSLIFE,ZYDUS LIFESCIENCES LTD,Healthcare,Drug Manufacturers - Specialty & Generic,,900,True
+ZYDUSLIFE,ZYDUS LIFESCIENCES LTD,Healthcare,Drug Manufacturers - Specialty & Generic,,450,True
