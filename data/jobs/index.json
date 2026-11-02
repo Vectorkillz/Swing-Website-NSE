@@ -2,6 +2,70 @@
   "jobs": [
     {
       "counters": {
+        "banned": 0,
+        "below_min_score": 0,
+        "breadth_above_ema200": 0,
+        "breadth_above_ema50": 1,
+        "breadth_hh_hl": 1,
+        "breadth_median_from_52w_high": -25.132,
+        "breadth_median_roc20": -2.6232,
+        "breadth_median_rsi14": 51.2811,
+        "breadth_n": 5,
+        "breadth_near_52w_high": 0,
+        "breadth_near_52w_low": 0,
+        "breadth_roc20_positive": 2,
+        "breadth_rs_positive": 2,
+        "breadth_stage2": 0,
+        "breadth_stage4": 2,
+        "breadth_vol_surge": 0,
+        "candidates_long": 0,
+        "candidates_short": 0,
+        "data_unavailable": 2353,
+        "fundamentals_missing": 2,
+        "grade_a": 0,
+        "grade_ap": 0,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 0,
+        "multibagger_strong": 0,
+        "multibagger_watch": 0,
+        "no_setup": 0,
+        "ranked_long": 0,
+        "ranked_short": 0,
+        "rejected_gate": 3,
+        "scanned": 2358,
+        "swing_suitable": 2,
+        "universe": 2358,
+        "usable": 5,
+        "warnings": [
+          "degraded:coverage 0.2% < 90%"
+        ]
+      },
+      "duration_s": 13.7,
+      "finished_at": "2026-11-02T20:50:04+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-11-02_v003_8dc43675",
+      "started_at": "2026-11-02T20:49:51+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "bars_added": 5019,
+        "failed": 1,
+        "ok": 2357,
+        "symbols": 2358
+      },
+      "duration_s": 611.6,
+      "finished_at": "2026-11-02T20:49:50+00:00",
+      "job": "ingest_ohlcv",
+      "n_errors": 1,
+      "run_id": null,
+      "started_at": "2026-11-02T20:39:39+00:00",
+      "status": "partial"
+    },
+    {
+      "counters": {
         "n_symbols": 219,
         "source": "live"
       },
@@ -1235,22 +1299,6 @@
     },
     {
       "counters": {
-        "bars_added": 3058,
-        "failed": 1,
-        "ok": 2319,
-        "split_or_adjustment_suspected": 1,
-        "symbols": 2320
-      },
-      "duration_s": 560.1,
-      "finished_at": "2026-10-09T17:32:30+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-09T17:23:10+00:00",
-      "status": "partial"
-    },
-    {
-      "counters": {
         "banned": 0,
         "below_min_score": 0,
         "breadth_above_ema200": 630,
@@ -1297,22 +1345,6 @@
       "run_id": "2026-10-08_v003_b495401e",
       "started_at": "2026-10-08T17:54:55+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "bars_added": 2725,
-        "failed": 1,
-        "ok": 2319,
-        "split_or_adjustment_suspected": 1,
-        "symbols": 2320
-      },
-      "duration_s": 469.7,
-      "finished_at": "2026-10-08T17:54:54+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-08T17:47:04+00:00",
-      "status": "partial"
     },
     {
       "counters": {
