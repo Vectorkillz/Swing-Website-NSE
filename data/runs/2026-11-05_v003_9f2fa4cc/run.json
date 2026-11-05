@@ -1,0 +1,92 @@
+{
+  "ban_list": {
+    "as_of": "2026-11-06",
+    "available": true,
+    "fetch_status": "ok",
+    "live_error": null,
+    "n": 1,
+    "source": "live"
+  },
+  "cap_buckets": {
+    "largecap_min_cr": 100000.0,
+    "midcap_min_cr": 33000.0,
+    "smallcap_min_cr": 5000.0
+  },
+  "config_hash": "568e68318c881670cc030916a6edecb439ac2f5614835c5226e44f5bd66c3f97",
+  "config_version": "v003",
+  "counts": {
+    "banned": 0,
+    "below_min_score": 0,
+    "breadth_above_ema200": 1,
+    "breadth_above_ema50": 1,
+    "breadth_hh_hl": 1,
+    "breadth_median_from_52w_high": -20.4857,
+    "breadth_median_roc20": -2.8366,
+    "breadth_median_rsi14": 48.912,
+    "breadth_n": 5,
+    "breadth_near_52w_high": 0,
+    "breadth_near_52w_low": 1,
+    "breadth_roc20_positive": 1,
+    "breadth_rs_positive": 1,
+    "breadth_stage2": 1,
+    "breadth_stage4": 1,
+    "breadth_vol_surge": 1,
+    "candidates_long": 0,
+    "candidates_short": 0,
+    "data_unavailable": 2353,
+    "fundamentals_missing": 2,
+    "grade_a": 0,
+    "grade_ap": 0,
+    "grade_app": 0,
+    "grade_b": 0,
+    "grade_bp": 0,
+    "multibagger_strong": 0,
+    "multibagger_watch": 0,
+    "no_setup": 0,
+    "ranked_long": 0,
+    "ranked_short": 0,
+    "rejected_gate": 3,
+    "scanned": 2358,
+    "swing_suitable": 2,
+    "universe": 2358,
+    "usable": 5
+  },
+  "coverage_pct": 0.21,
+  "engine_version": "0.1.0",
+  "failures": [],
+  "generated_at": "2026-11-05T18:41:10+00:00",
+  "input_hash": "9f2fa4ccdb462b34de3585673bd15a7e3ce13aed35cd24b1ea4b336dd81a7c8c",
+  "regime": {
+    "longs_allowed": true,
+    "nifty_close": 23960.5996,
+    "nifty_ema_fast": 23253.566698,
+    "nifty_ema_slow": 23081.522112,
+    "reasons": [
+      "neither BULL nor BEAR conditions met"
+    ],
+    "regime": "NEUTRAL",
+    "roc_18m": -0.327588,
+    "roc_bars_used": 378,
+    "shorts_allowed": true,
+    "smallcap_close": 19132.4492,
+    "smallcap_confirms": true,
+    "smallcap_ema_fast": 18762.751967,
+    "smallcap_ema_slow": 18842.953585,
+    "vix": 15.19
+  },
+  "run_id": "2026-11-05_v003_9f2fa4cc",
+  "scan_performed": true,
+  "schema_version": 2,
+  "session_date": "2026-11-05",
+  "status": "degraded",
+  "universe": {
+    "age_days": 4,
+    "as_of": "2026-11-01",
+    "n_symbols": 2358,
+    "source": "combined",
+    "stale": false
+  },
+  "warnings": [
+    "degraded:coverage 0.2% < 90%"
+  ]
+}
