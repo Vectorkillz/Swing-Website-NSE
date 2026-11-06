@@ -1,0 +1,4942 @@
+{
+  "candidates": [
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-06",
+        "bar_idx": 744,
+        "kind": "IB",
+        "pattern_low": 73.01,
+        "trigger": 78.0
+      },
+      "cap_bucket": "micro",
+      "close": 75.56,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 6.020096,
+        "avg_volume_20": 3178153.35,
+        "dist_ema20_pct": 1.57664,
+        "dist_ema50_pct": 7.219189,
+        "high_52w": 87.6,
+        "higher_highs_lows": true,
+        "low_52w": 40.58,
+        "pct_above_52w_low": 86.200099,
+        "pct_from_20d_high": -13.744292,
+        "pct_from_52w_high": -13.744292,
+        "roc_20": -3.683875,
+        "rsi14": 53.505769,
+        "vol_ratio_20": 0.63432
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 1000695.0,
+        "debt_equity": 0.47642,
+        "eps_growth": 72.2,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:30:55+00:00",
+        "industry": "Specialty Business Services",
+        "market_cap_cr": 1490.325606,
+        "name": "One Point One Solutions Limited",
+        "revenue_growth": 129.4,
+        "roe": 10.170567,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 1490.325606
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 1000695.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.47642
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 10.170567
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 129.4
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 87",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 4.548785,
+        "ema10": 74.405243,
+        "ema20": 74.387182,
+        "ema200": 60.692783,
+        "ema50": 70.47246,
+        "sma150": 61.141933,
+        "vol20": 3178153.35
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 17,
+        "end_date": "2026-10-13",
+        "end_idx": 727,
+        "found": true,
+        "leg_high": 86.03,
+        "leg_mean_volume": 4918216.272727,
+        "max_daily_pct": 8.243671,
+        "move_pct": 51.019684,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-14",
+        "start_idx": 706
+      },
+      "market_cap_cr": 1490.325606,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "One Point One Solutions Limited",
+      "plan": {
+        "atr14": 4.548785,
+        "breakeven_trigger": 80.403396,
+        "entry": 75.71112,
+        "entry_max": 76.16448,
+        "extended_target": 82.749534,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 105.995568,
+        "notes": [],
+        "prev_bar_low": 73.01,
+        "r_value": 2.346138,
+        "reward_risk": 4.398241,
+        "risk_reference_price": 76.16448,
+        "side": "long",
+        "stop": 73.818342,
+        "stop_candidates": {
+          "atr": 68.887943,
+          "pct": 73.818342,
+          "prev_low": 72.64495
+        },
+        "stop_distance_pct": 2.5,
+        "stop_rule": "pct",
+        "target": 86.03,
+        "target_pct": 13.629279,
+        "target_rule": "structure",
+        "target_structure_level": 86.03,
+        "trail_weekly_ema": 65.934696,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 61.668,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 1,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +51.0% (2026-09-14 to 2026-10-13) | Pullback 12.2% from leg high | Volume 45% of leg average | IB trigger at 78.00 | Revenue +129.4% YoY | EPS +72.2% YoY | ROE 10.2%",
+      "rs_vs_nifty": -16.271919,
+      "score": {
+        "band": "A",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 51.019684
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 12.170173
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 45.168365
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 78.0
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 129.4
+          },
+          {
+            "detail": ">=25%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 72.2
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 10.170567
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -16.271919
+          }
+        ],
+        "display": 87.0,
+        "max_possible": 105.0,
+        "normalised": 0.828571,
+        "raw": 87.0,
+        "side": "long"
+      },
+      "sector": "Industrials",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "ONEPOINT",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 12.170173,
+        "ema10": 74.405243,
+        "ema20": 74.387182,
+        "ema200": 60.692783,
+        "ema50": 70.47246,
+        "recent_mean_volume": 2221477.9,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 45.168365
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": null,
+        "bar_idx": null,
+        "kind": null,
+        "pattern_low": null,
+        "trigger": null
+      },
+      "cap_bucket": "mid",
+      "close": 338.9,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.279388,
+        "avg_volume_20": 14756371.65,
+        "dist_ema20_pct": 2.980436,
+        "dist_ema50_pct": 10.068971,
+        "high_52w": 368.95,
+        "higher_highs_lows": true,
+        "low_52w": 50.646,
+        "pct_above_52w_low": 569.154524,
+        "pct_from_20d_high": -8.144735,
+        "pct_from_52w_high": -8.144735,
+        "roc_20": -4.976868,
+        "rsi14": 58.02091,
+        "vol_ratio_20": 0.244728
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 32682759.0,
+        "debt_equity": 0.12506,
+        "eps_growth": 190.9,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:08:01+00:00",
+        "industry": "Household & Personal Products",
+        "market_cap_cr": 38242.14999,
+        "name": "Cupid Limited",
+        "revenue_growth": 158.7,
+        "roe": 30.432854,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Defensive",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 38242.14999
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 32682759.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.12506
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 30.432854
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 158.7
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 14.502845,
+        "ema10": 333.551958,
+        "ema20": 329.091634,
+        "ema200": 211.106286,
+        "ema50": 307.897853,
+        "sma150": 221.171067,
+        "vol20": 14756371.65
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 12,
+        "end_date": "2026-10-21",
+        "end_idx": 733,
+        "found": true,
+        "leg_high": 368.95,
+        "leg_mean_volume": 27002973.863636,
+        "max_daily_pct": 8.884688,
+        "move_pct": 35.594906,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-21",
+        "start_idx": 712
+      },
+      "market_cap_cr": 38242.14999,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "Cupid Limited",
+      "plan": {
+        "atr14": 14.502845,
+        "breakeven_trigger": 350.436156,
+        "entry": 339.5778,
+        "entry_max": 341.6112,
+        "extended_target": 355.865334,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 475.40892,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 340.0,
+        "r_value": 5.429178,
+        "reward_risk": 5.410064,
+        "risk_reference_price": 341.6112,
+        "side": "long",
+        "stop": 336.182022,
+        "stop_candidates": {
+          "atr": 317.823533,
+          "pct": 331.088355,
+          "prev_low": 338.3
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 368.95,
+        "target_pct": 8.649623,
+        "target_rule": "structure",
+        "target_structure_level": 368.95,
+        "trail_weekly_ema": 273.227871,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 226.296667,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 2,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +35.6% (2026-09-21 to 2026-10-21) | Pullback 8.1% from leg high | Volume 38% of leg average | Revenue +158.7% YoY | EPS +190.9% YoY | ROE 30.4%",
+      "rs_vs_nifty": -17.564912,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 35.594906
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 8.144735
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 38.302228
+          },
+          {
+            "detail": null,
+            "label": "Entry pattern (IB/MB)",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "entry_pattern",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 158.7
+          },
+          {
+            "detail": ">=25%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 190.9
+          },
+          {
+            "detail": ">=20%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 7.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 30.432854
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -17.564912
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 105.0,
+        "normalised": 0.761905,
+        "raw": 80.0,
+        "side": "long"
+      },
+      "sector": "Consumer Defensive",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "CUPID",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 8.144735,
+        "ema10": 333.551958,
+        "ema20": 329.091634,
+        "ema200": 211.106286,
+        "ema50": 307.897853,
+        "recent_mean_volume": 10342740.6,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 38.302228
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-02",
+        "bar_idx": 741,
+        "kind": "IB",
+        "pattern_low": 922.0,
+        "trigger": 947.0
+      },
+      "cap_bucket": "small",
+      "close": 1026.95,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.039715,
+        "avg_volume_20": 381006.05,
+        "dist_ema20_pct": 4.431402,
+        "dist_ema50_pct": 5.006715,
+        "high_52w": 1184.0,
+        "higher_highs_lows": false,
+        "low_52w": 538.25,
+        "pct_above_52w_low": 90.794241,
+        "pct_from_20d_high": -2.658768,
+        "pct_from_52w_high": -13.264358,
+        "roc_20": 1.257148,
+        "rsi14": 59.020953,
+        "vol_ratio_20": 0.529902
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 350526.0,
+        "debt_equity": 0.14614,
+        "eps_growth": 11.9,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-16T04:59:06+00:00",
+        "industry": "Medical Care Facilities",
+        "market_cap_cr": 9333.846835,
+        "name": "Yatharth Hospital & Trauma Care Services Limited",
+        "revenue_growth": 52.3,
+        "roe": 10.135594,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Healthcare",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 9333.846835
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 350526.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.14614
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 10.135594
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 52.3
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A+",
+        "reasons": [
+          "raw score 76",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A+"
+        ]
+      },
+      "indicators": {
+        "atr14": 41.485849,
+        "ema10": 985.758736,
+        "ema20": 983.372801,
+        "ema200": 864.543282,
+        "ema50": 977.985073,
+        "sma150": 889.550333,
+        "vol20": 381006.05
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 19,
+        "end_date": "2026-10-09",
+        "end_idx": 726,
+        "found": true,
+        "leg_high": 1184.0,
+        "leg_mean_volume": 799064.545455,
+        "max_daily_pct": 9.172351,
+        "move_pct": 4.604994,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-10",
+        "start_idx": 705
+      },
+      "market_cap_cr": 9333.846835,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "Yatharth Hospital & Trauma Care Services Limited",
+      "plan": {
+        "atr14": 41.485849,
+        "breakeven_trigger": 1092.777495,
+        "entry": 1029.0039,
+        "entry_max": 1035.1656,
+        "extended_target": 1124.664293,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 1440.60546,
+        "notes": [],
+        "prev_bar_low": 1007.3,
+        "r_value": 31.886797,
+        "reward_risk": 4.860824,
+        "risk_reference_price": 1035.1656,
+        "side": "long",
+        "stop": 1003.278803,
+        "stop_candidates": {
+          "atr": 966.775127,
+          "pct": 1003.278803,
+          "prev_low": 1002.2635
+        },
+        "stop_distance_pct": 2.5,
+        "stop_rule": "pct",
+        "target": 1184.0,
+        "target_pct": 15.062732,
+        "target_rule": "structure",
+        "target_structure_level": 1184.0,
+        "trail_weekly_ema": 941.752476,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 894.74,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 3,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +4.6% (2026-09-10 to 2026-10-09) | Pullback 13.3% from leg high | Volume 47% of leg average | IB trigger at 947.00 | Revenue +52.3% YoY | EPS +11.9% YoY | ROE 10.1%",
+      "rs_vs_nifty": -11.330895,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 9.172351
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 13.264358
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 47.011496
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 947.0
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 52.3
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 11.9
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 10.135594
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -11.330895
+          }
+        ],
+        "display": 76.0,
+        "max_possible": 105.0,
+        "normalised": 0.72381,
+        "raw": 76.0,
+        "side": "long"
+      },
+      "sector": "Healthcare",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "YATHARTH",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 13.264358,
+        "ema10": 985.758736,
+        "ema20": 983.372801,
+        "ema200": 864.543282,
+        "ema50": 977.985073,
+        "recent_mean_volume": 375652.2,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 47.011496
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": null,
+        "bar_idx": null,
+        "kind": null,
+        "pattern_low": null,
+        "trigger": null
+      },
+      "cap_bucket": "small",
+      "close": 595.45,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.524358,
+        "avg_volume_20": 785550.2,
+        "dist_ema20_pct": -0.691483,
+        "dist_ema50_pct": 4.740346,
+        "high_52w": 673.95,
+        "higher_highs_lows": true,
+        "low_52w": 447.2,
+        "pct_above_52w_low": 33.150716,
+        "pct_from_20d_high": -11.647748,
+        "pct_from_52w_high": -11.647748,
+        "roc_20": -3.052752,
+        "rsi14": 50.94825,
+        "vol_ratio_20": 0.182997
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 1538170.0,
+        "debt_equity": 0.00837,
+        "eps_growth": 17.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-31T09:03:32+00:00",
+        "industry": "Broadcasting",
+        "market_cap_cr": 23942.609306,
+        "name": "Sun TV Network Limited",
+        "revenue_growth": 13.0,
+        "roe": 12.07019,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Communication Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 23942.609306
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 1538170.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.00837
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 12.07019
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 13.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 74",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 26.940289,
+        "ema10": 602.259327,
+        "ema20": 599.596103,
+        "ema200": 547.586671,
+        "ema50": 568.501081,
+        "sma150": 534.22,
+        "vol20": 785550.2
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 19,
+        "end_date": "2026-10-09",
+        "end_idx": 725,
+        "found": true,
+        "leg_high": 663.9,
+        "leg_mean_volume": 3222430.181818,
+        "max_daily_pct": 9.353818,
+        "move_pct": 41.531271,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-09",
+        "start_idx": 704
+      },
+      "market_cap_cr": 23942.609306,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": true
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 5,
+        "technical_total": 7
+      },
+      "name": "Sun TV Network Limited",
+      "plan": {
+        "atr14": 26.940289,
+        "breakeven_trigger": 615.719118,
+        "entry": 596.6409,
+        "entry_max": 600.2136,
+        "extended_target": 625.258227,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 835.29726,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 594.0,
+        "r_value": 9.539109,
+        "reward_risk": 7.050879,
+        "risk_reference_price": 600.2136,
+        "side": "long",
+        "stop": 590.674491,
+        "stop_candidates": {
+          "atr": 556.230467,
+          "pct": 581.724878,
+          "prev_low": 591.03
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 663.9,
+        "target_pct": 11.272962,
+        "target_rule": "structure",
+        "target_structure_level": 663.9,
+        "trail_weekly_ema": 549.977673,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 533.556667,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 4,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +41.5% (2026-09-09 to 2026-10-09) | Pullback 10.3% from leg high | Volume 24% of leg average | Revenue +13.0% YoY | EPS +17.0% YoY | ROE 12.1%",
+      "rs_vs_nifty": -15.640795,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 41.531271
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 10.310288
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 24.321843
+          },
+          {
+            "detail": null,
+            "label": "Entry pattern (IB/MB)",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "entry_pattern",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=8.0%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 13.0
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 17.0
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 12.07019
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -15.640795
+          }
+        ],
+        "display": 74.0,
+        "max_possible": 105.0,
+        "normalised": 0.704762,
+        "raw": 74.0,
+        "side": "long"
+      },
+      "sector": "Communication Services",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "SUNTV",
+      "vcp": {
+        "above_ema10": false,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 10.310288,
+        "ema10": 602.259327,
+        "ema20": 599.596103,
+        "ema200": 547.586671,
+        "ema50": 568.501081,
+        "recent_mean_volume": 783754.4,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 24.321843
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-03",
+        "bar_idx": 742,
+        "kind": "IB",
+        "pattern_low": 68.0,
+        "trigger": 73.09
+      },
+      "cap_bucket": "micro",
+      "close": 75.54,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 6.036038,
+        "avg_volume_20": 1308558.15,
+        "dist_ema20_pct": -0.451966,
+        "dist_ema50_pct": -2.313901,
+        "high_52w": 93.0,
+        "higher_highs_lows": false,
+        "low_52w": 39.13,
+        "pct_above_52w_low": 93.048812,
+        "pct_from_20d_high": -16.70526,
+        "pct_from_52w_high": -18.774194,
+        "roc_20": -12.040056,
+        "rsi14": 47.675921,
+        "vol_ratio_20": 4.3375
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 4922606.0,
+        "debt_equity": 0.10691,
+        "eps_growth": 350.6,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-10T09:12:36+00:00",
+        "industry": "Specialty Chemicals",
+        "market_cap_cr": 1476.957491,
+        "name": "Manali Petrochemicals Limited",
+        "revenue_growth": 17.1,
+        "roe": 14.030733,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Basic Materials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 1476.957491
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 4922606.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.10691
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 14.030733
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 17.1
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 73",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 4.559623,
+        "ema10": 73.718392,
+        "ema20": 75.882965,
+        "ema200": 69.526195,
+        "ema50": 77.329324,
+        "sma150": 68.620067,
+        "vol20": 1308558.15
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 16,
+        "end_date": "2026-10-14",
+        "end_idx": 729,
+        "found": true,
+        "leg_high": 93.0,
+        "leg_mean_volume": 3415575.909091,
+        "max_daily_pct": 11.567498,
+        "move_pct": 6.983414,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-15",
+        "start_idx": 708
+      },
+      "market_cap_cr": 1476.957491,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 5,
+        "technical_total": 7
+      },
+      "name": "Manali Petrochemicals Limited",
+      "plan": {
+        "atr14": 4.559623,
+        "breakeven_trigger": 80.382114,
+        "entry": 75.69108,
+        "entry_max": 76.14432,
+        "extended_target": 82.727631,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 105.967512,
+        "notes": [],
+        "prev_bar_low": 72.03,
+        "r_value": 2.345517,
+        "reward_risk": 7.379576,
+        "risk_reference_price": 76.14432,
+        "side": "long",
+        "stop": 73.798803,
+        "stop_candidates": {
+          "atr": 68.851646,
+          "pct": 73.798803,
+          "prev_low": 71.66985
+        },
+        "stop_distance_pct": 2.5,
+        "stop_rule": "pct",
+        "target": 93.0,
+        "target_pct": 22.867847,
+        "target_rule": "structure",
+        "target_structure_level": 93.0,
+        "trail_weekly_ema": 73.606542,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 68.715667,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 5,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +7.0% (2026-09-15 to 2026-10-14) | Pullback 18.8% from leg high | Volume 37% of leg average | IB trigger at 73.09 | Revenue +17.1% YoY | EPS +350.6% YoY | ROE 14.0%",
+      "rs_vs_nifty": -24.6281,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 11.567498
+          },
+          {
+            "detail": "depth >15-20%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 18.774194
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 37.111416
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 73.09
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=8.0%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 17.1
+          },
+          {
+            "detail": ">=25%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 350.6
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 14.030733
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -24.6281
+          }
+        ],
+        "display": 73.0,
+        "max_possible": 105.0,
+        "normalised": 0.695238,
+        "raw": 73.0,
+        "side": "long"
+      },
+      "sector": "Basic Materials",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "MANALIPETC",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": false,
+        "depth_ok": true,
+        "depth_pct": 18.774194,
+        "ema10": 73.718392,
+        "ema20": 75.882965,
+        "ema200": 69.526195,
+        "ema50": 77.329324,
+        "recent_mean_volume": 1267568.6,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 37.111416
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": null,
+        "bar_idx": null,
+        "kind": null,
+        "pattern_low": null,
+        "trigger": null
+      },
+      "cap_bucket": "micro",
+      "close": 58.27,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 5.414752,
+        "avg_volume_20": 428510.7,
+        "dist_ema20_pct": 0.474741,
+        "dist_ema50_pct": 0.686063,
+        "high_52w": 68.0,
+        "higher_highs_lows": false,
+        "low_52w": 26.35,
+        "pct_above_52w_low": 121.13852,
+        "pct_from_20d_high": -11.712121,
+        "pct_from_52w_high": -14.308824,
+        "roc_20": -0.749446,
+        "rsi14": 49.884771,
+        "vol_ratio_20": 0.162313
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 1041482.0,
+        "debt_equity": 0.24205,
+        "eps_growth": 50.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:19:51+00:00",
+        "industry": "Apparel Manufacturing",
+        "market_cap_cr": 1105.635533,
+        "name": "Iris Clothings Limited",
+        "revenue_growth": 26.3,
+        "roe": 12.324791,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Consumer Cyclical",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 1105.635533
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 1041482.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.24205
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 12.324791
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 26.3
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 72",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 3.155176,
+        "ema10": 57.39925,
+        "ema20": 57.994676,
+        "ema200": 48.655111,
+        "ema50": 57.872955,
+        "sma150": 47.992467,
+        "vol20": 428510.7
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 14,
+        "end_date": "2026-10-16",
+        "end_idx": 727,
+        "found": true,
+        "leg_high": 68.0,
+        "leg_mean_volume": 753756.818182,
+        "max_daily_pct": 7.511172,
+        "move_pct": 10.587831,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-16",
+        "start_idx": 706
+      },
+      "market_cap_cr": 1105.635533,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 5,
+        "technical_total": 7
+      },
+      "name": "Iris Clothings Limited",
+      "plan": {
+        "atr14": 3.155176,
+        "breakeven_trigger": 60.81696,
+        "entry": 58.38654,
+        "entry_max": 58.73616,
+        "extended_target": 62.03217,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 81.741156,
+        "notes": [],
+        "prev_bar_low": 57.81,
+        "r_value": 1.21521,
+        "reward_risk": 7.910945,
+        "risk_reference_price": 58.73616,
+        "side": "long",
+        "stop": 57.52095,
+        "stop_candidates": {
+          "atr": 53.653776,
+          "pct": 56.926876,
+          "prev_low": 57.52095
+        },
+        "stop_distance_pct": 1.482516,
+        "stop_rule": "prev_low",
+        "target": 68.0,
+        "target_pct": 16.465199,
+        "target_rule": "structure",
+        "target_structure_level": 68.0,
+        "trail_weekly_ema": 54.664291,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 49.113333,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 6,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +10.6% (2026-09-16 to 2026-10-16) | Pullback 14.3% from leg high | Volume 28% of leg average | Revenue +26.3% YoY | EPS +50.0% YoY | ROE 12.3%",
+      "rs_vs_nifty": -13.33749,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 7.511172
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 14.308824
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 27.928928
+          },
+          {
+            "detail": null,
+            "label": "Entry pattern (IB/MB)",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "entry_pattern",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 26.3
+          },
+          {
+            "detail": ">=25%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 50.0
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 12.324791
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -13.33749
+          }
+        ],
+        "display": 72.0,
+        "max_possible": 105.0,
+        "normalised": 0.685714,
+        "raw": 72.0,
+        "side": "long"
+      },
+      "sector": "Consumer Cyclical",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "IRISDOREME",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 14.308824,
+        "ema10": 57.39925,
+        "ema20": 57.994676,
+        "ema200": 48.655111,
+        "ema50": 57.872955,
+        "recent_mean_volume": 210516.2,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 27.928928
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-05",
+        "bar_idx": 743,
+        "kind": "IB",
+        "pattern_low": 255.15,
+        "trigger": 282.45
+      },
+      "cap_bucket": "micro",
+      "close": 268.05,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.872012,
+        "avg_volume_20": 2831137.9,
+        "dist_ema20_pct": 4.137765,
+        "dist_ema50_pct": 5.194333,
+        "high_52w": 430.0,
+        "higher_highs_lows": false,
+        "low_52w": 213.52,
+        "pct_above_52w_low": 25.538591,
+        "pct_from_20d_high": -5.815179,
+        "pct_from_52w_high": -37.662791,
+        "roc_20": 10.376776,
+        "rsi14": 58.244613,
+        "vol_ratio_20": 0.203544
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 2685321.0,
+        "debt_equity": 0.28616,
+        "eps_growth": -26.6,
+        "fcf_positive": true,
+        "fetched_at": "2026-10-10T09:12:56+00:00",
+        "industry": "Information Technology Services",
+        "market_cap_cr": 3250.343936,
+        "name": "R Systems International Limited",
+        "revenue_growth": 30.5,
+        "roe": 17.333001,
+        "roe_source": "returnOnEquity",
+        "sector": "Technology",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 3250.343936
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 2685321.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.28616
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 17.333001
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 30.5
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": false,
+        "grade": "A",
+        "reasons": [
+          "raw score 71",
+          "regime alignment: full",
+          "fundamentals not top-tier",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 13.059429,
+        "ema10": 259.485176,
+        "ema20": 257.399417,
+        "ema200": 280.396884,
+        "ema50": 254.814107,
+        "sma150": 256.863333,
+        "vol20": 2831137.9
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 19,
+        "end_date": "2026-10-09",
+        "end_idx": 725,
+        "found": true,
+        "leg_high": 305.98,
+        "leg_mean_volume": 8488817.090909,
+        "max_daily_pct": 16.802479,
+        "move_pct": 12.755375,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-09",
+        "start_idx": 704
+      },
+      "market_cap_cr": 3250.343936,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "R Systems International Limited",
+      "plan": {
+        "atr14": 13.059429,
+        "breakeven_trigger": 277.174422,
+        "entry": 268.5861,
+        "entry_max": 270.1944,
+        "extended_target": 281.468583,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 376.02054,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 268.0,
+        "r_value": 4.294161,
+        "reward_risk": 8.708081,
+        "risk_reference_price": 270.1944,
+        "side": "long",
+        "stop": 265.900239,
+        "stop_candidates": {
+          "atr": 248.996957,
+          "pct": 261.871447,
+          "prev_low": 266.66
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 305.98,
+        "target_pct": 13.9225,
+        "target_rule": "structure",
+        "target_structure_level": 305.98,
+        "trail_weekly_ema": 257.611577,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 256.218,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 7,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Above EMA50 | Prior leg +12.8% (2026-09-09 to 2026-10-09) | Pullback 12.4% from leg high | Volume 14% of leg average | IB trigger at 282.45 | Revenue +30.5% YoY | EPS -26.6% YoY | ROE 17.3% | FCF positive",
+      "rs_vs_nifty": -2.211268,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": "close above EMA50 (within tolerance)",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 10.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 16.802479
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 12.396235
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 14.059934
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 282.45
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 30.5
+          },
+          {
+            "detail": null,
+            "label": "EPS growth",
+            "matched": false,
+            "max_points": 8.0,
+            "points": 0.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": -26.6
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 17.333001
+          },
+          {
+            "detail": null,
+            "label": "Free cash flow positive",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 7.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -2.211268
+          }
+        ],
+        "display": 71.0,
+        "max_possible": 105.0,
+        "normalised": 0.67619,
+        "raw": 71.0,
+        "side": "long"
+      },
+      "sector": "Technology",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "RSYSTEMS",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 12.396235,
+        "ema10": 259.485176,
+        "ema20": 257.399417,
+        "ema200": 280.396884,
+        "ema50": 254.814107,
+        "recent_mean_volume": 1193522.1,
+        "stage2": false,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 14.059934
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": null,
+        "bar_idx": null,
+        "kind": null,
+        "pattern_low": null,
+        "trigger": null
+      },
+      "cap_bucket": "small",
+      "close": 540.55,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 5.180906,
+        "avg_volume_20": 1438842.35,
+        "dist_ema20_pct": 1.143825,
+        "dist_ema50_pct": 3.454512,
+        "high_52w": 615.0,
+        "higher_highs_lows": true,
+        "low_52w": 305.0,
+        "pct_above_52w_low": 77.229508,
+        "pct_from_20d_high": -12.105691,
+        "pct_from_52w_high": -12.105691,
+        "roc_20": 8.806361,
+        "rsi14": 52.158828,
+        "vol_ratio_20": 0.249348
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 830817.0,
+        "debt_equity": 0.73233,
+        "eps_growth": 51.6,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:15:13+00:00",
+        "industry": "Steel",
+        "market_cap_cr": 5176.732058,
+        "name": "Goodluck India Limited",
+        "revenue_growth": 30.9,
+        "roe": 12.365682,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Basic Materials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 5176.732058
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 830817.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.73233
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 12.365682
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 30.9
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 69",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 28.00539,
+        "ema10": 533.169714,
+        "ema20": 534.436978,
+        "ema200": 465.647359,
+        "ema50": 522.50017,
+        "sma150": 481.099,
+        "vol20": 1438842.35
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 14,
+        "end_date": "2026-10-16",
+        "end_idx": 731,
+        "found": true,
+        "leg_high": 615.0,
+        "leg_mean_volume": 1267344.136364,
+        "max_daily_pct": 13.213393,
+        "move_pct": 16.341344,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-17",
+        "start_idx": 710
+      },
+      "market_cap_cr": 5176.732058,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "Goodluck India Limited",
+      "plan": {
+        "atr14": 28.00539,
+        "breakeven_trigger": 575.199255,
+        "entry": 541.6311,
+        "entry_max": 544.8744,
+        "extended_target": 591.983332,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": 758.28354,
+        "notes": [],
+        "prev_bar_low": 529.2,
+        "r_value": 16.784077,
+        "reward_risk": 4.371339,
+        "risk_reference_price": 544.8744,
+        "side": "long",
+        "stop": 528.090322,
+        "stop_candidates": {
+          "atr": 499.623016,
+          "pct": 528.090322,
+          "prev_low": 526.554
+        },
+        "stop_distance_pct": 2.5,
+        "stop_rule": "pct",
+        "target": 615.0,
+        "target_pct": 13.545917,
+        "target_rule": "structure",
+        "target_structure_level": 615.0,
+        "trail_weekly_ema": 500.476126,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 483.809443,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 8,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +16.3% (2026-09-17 to 2026-10-16) | Pullback 12.1% from leg high | Volume 45% of leg average | Revenue +30.9% YoY | EPS +51.6% YoY | ROE 12.4%",
+      "rs_vs_nifty": -3.781683,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 13.213393
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 12.105691
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 45.142206
+          },
+          {
+            "detail": null,
+            "label": "Entry pattern (IB/MB)",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "entry_pattern",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=20%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 30.9
+          },
+          {
+            "detail": ">=25%",
+            "label": "EPS growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 8.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": 51.6
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 12.365682
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -3.781683
+          }
+        ],
+        "display": 69.0,
+        "max_possible": 105.0,
+        "normalised": 0.657143,
+        "raw": 69.0,
+        "side": "long"
+      },
+      "sector": "Basic Materials",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "GOODLUCK",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 12.105691,
+        "ema10": 533.169714,
+        "ema20": 534.436978,
+        "ema200": 465.647359,
+        "ema50": 522.50017,
+        "recent_mean_volume": 572107.1,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 45.142206
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-02",
+        "bar_idx": 741,
+        "kind": "IB",
+        "pattern_low": 312.4,
+        "trigger": 323.9
+      },
+      "cap_bucket": "mid",
+      "close": 338.3,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 3.530909,
+        "avg_volume_20": 2154555.9,
+        "dist_ema20_pct": 1.869833,
+        "dist_ema50_pct": 1.142302,
+        "high_52w": 375.5,
+        "higher_highs_lows": false,
+        "low_52w": 233.42,
+        "pct_above_52w_low": 44.931882,
+        "pct_from_20d_high": -4.408025,
+        "pct_from_52w_high": -9.906791,
+        "roc_20": 1.363296,
+        "rsi14": 53.167828,
+        "vol_ratio_20": 0.380789
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 3705297.0,
+        "debt_equity": 0.59002,
+        "eps_growth": -10.3,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-10T09:12:27+00:00",
+        "industry": "Marine Shipping",
+        "market_cap_cr": 78426.105446,
+        "name": "JSW Infrastructure Limited",
+        "revenue_growth": 18.1,
+        "roe": 12.297975,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 78426.105446
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 3705297.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.59002
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 12.297975
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 18.1
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 68",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 11.945065,
+        "ema10": 331.655919,
+        "ema20": 332.090464,
+        "ema200": 313.959864,
+        "ema50": 334.479236,
+        "sma150": 315.3392,
+        "vol20": 2154555.9
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 16,
+        "end_date": "2026-10-14",
+        "end_idx": 729,
+        "found": true,
+        "leg_high": 375.5,
+        "leg_mean_volume": 4587413.363636,
+        "max_daily_pct": 6.612582,
+        "move_pct": 4.89489,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": false,
+        "rejected_reason": null,
+        "start_date": "2026-09-15",
+        "start_idx": 708
+      },
+      "market_cap_cr": 78426.105446,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": true,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": true
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 6,
+        "technical_total": 7
+      },
+      "name": "JSW Infrastructure Limited",
+      "plan": {
+        "atr14": 11.945065,
+        "breakeven_trigger": 349.815732,
+        "entry": 338.9766,
+        "entry_max": 341.0064,
+        "extended_target": 355.235298,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 474.56724,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 344.95,
+        "r_value": 5.419566,
+        "reward_risk": 6.739174,
+        "risk_reference_price": 341.0064,
+        "side": "long",
+        "stop": 335.586834,
+        "stop_candidates": {
+          "atr": 321.059003,
+          "pct": 330.502185,
+          "prev_low": 343.22525
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 375.5,
+        "target_pct": 10.774608,
+        "target_rule": "structure",
+        "target_structure_level": 375.5,
+        "trail_weekly_ema": 327.882,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 317.104,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 9,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 2 uptrend (close > EMA200, EMA50 > EMA200) | Prior leg +4.9% (2026-09-15 to 2026-10-14) | Pullback 9.9% from leg high | Volume 45% of leg average | IB trigger at 323.90 | Revenue +18.1% YoY | EPS -10.3% YoY | ROE 12.3%",
+      "rs_vs_nifty": -11.224748,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": "Stage 2: close > EMA200 and EMA50 > EMA200",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "single-day move >= 6.5%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 12.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 6.612582
+          },
+          {
+            "detail": "depth 8-15%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 9.906791
+          },
+          {
+            "detail": "<50%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 44.840585
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 323.9
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=8.0%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 18.1
+          },
+          {
+            "detail": null,
+            "label": "EPS growth",
+            "matched": false,
+            "max_points": 8.0,
+            "points": 0.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": -10.3
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 12.297975
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -11.224748
+          }
+        ],
+        "display": 68.0,
+        "max_possible": 105.0,
+        "normalised": 0.647619,
+        "raw": 68.0,
+        "side": "long"
+      },
+      "sector": "Industrials",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "JSWINFRA",
+      "vcp": {
+        "above_ema10": true,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 9.906791,
+        "ema10": 331.655919,
+        "ema20": 332.090464,
+        "ema200": 313.959864,
+        "ema50": 334.479236,
+        "recent_mean_volume": 2057023.0,
+        "stage2": true,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 44.840585
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": {
+        "bar_date": "2026-11-02",
+        "bar_idx": 741,
+        "kind": "IB",
+        "pattern_low": 296.0,
+        "trigger": 316.5
+      },
+      "cap_bucket": "small",
+      "close": 306.55,
+      "colour_change": false,
+      "context": {
+        "atr_pct": 4.765538,
+        "avg_volume_20": 6747293.55,
+        "dist_ema20_pct": -0.416694,
+        "dist_ema50_pct": 1.123873,
+        "high_52w": 372.0,
+        "higher_highs_lows": true,
+        "low_52w": 224.05,
+        "pct_above_52w_low": 36.822138,
+        "pct_from_20d_high": -15.036031,
+        "pct_from_52w_high": -17.594086,
+        "roc_20": 8.41733,
+        "rsi14": 50.287362,
+        "vol_ratio_20": 0.281748
+      },
+      "fno_eligible": false,
+      "fundamentals": {
+        "avg_volume": 3012077.0,
+        "debt_equity": 0.29595,
+        "eps_growth": -8.5,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T14:43:00+00:00",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 8343.109632,
+        "name": "Transformers and Rectifiers (India) Limited",
+        "revenue_growth": 8.1,
+        "roe": 16.700087,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "market_cap_cr",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 500.0,
+            "value": 8343.109632
+          },
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 300000.0,
+            "value": 3012077.0
+          },
+          {
+            "field": "debt_equity",
+            "op": "<=",
+            "outcome": "pass",
+            "threshold": 2.5,
+            "value": 0.29595
+          },
+          {
+            "field": "roe",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 10.0,
+            "value": 16.700087
+          },
+          {
+            "field": "revenue_growth",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 8.0,
+            "value": 8.1
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "full",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 66",
+          "regime alignment: full",
+          "fundamentals data incomplete",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 14.608758,
+        "ema10": 310.0925,
+        "ema20": 307.832719,
+        "ema200": 316.220652,
+        "ema50": 303.143057,
+        "sma150": 309.899667,
+        "vol20": 6747293.55
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": {
+        "age_bars": 16,
+        "end_date": "2026-10-14",
+        "end_idx": 729,
+        "found": true,
+        "leg_high": 360.8,
+        "leg_mean_volume": 7685045.363636,
+        "max_daily_pct": 14.967105,
+        "move_pct": 25.74204,
+        "qualifies_by_daily": true,
+        "qualifies_by_move": true,
+        "rejected_reason": null,
+        "start_date": "2026-09-15",
+        "start_idx": 708
+      },
+      "market_cap_cr": 8343.109632,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": true,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "Transformers And Rectifiers (India) Limited",
+      "plan": {
+        "atr14": 14.608758,
+        "breakeven_trigger": 316.984962,
+        "entry": 307.1631,
+        "entry_max": 309.0024,
+        "extended_target": 321.895893,
+        "extended_target_r": 3.0,
+        "floor_applied": true,
+        "multibagger_arm_price": 430.02834,
+        "notes": [
+          "stop distance floored at 1% of entry"
+        ],
+        "prev_bar_low": 313.9,
+        "r_value": 4.910931,
+        "reward_risk": 10.921941,
+        "risk_reference_price": 309.0024,
+        "side": "long",
+        "stop": 304.091469,
+        "stop_candidates": {
+          "atr": 285.249963,
+          "pct": 299.484022,
+          "prev_low": 312.3305
+        },
+        "stop_distance_pct": 1.0,
+        "stop_rule": "floor",
+        "target": 360.8,
+        "target_pct": 17.462026,
+        "target_rule": "structure",
+        "target_structure_level": 360.8,
+        "trail_weekly_ema": 302.960252,
+        "trail_weekly_ema_len": 20,
+        "trail_weekly_sma": 310.813333,
+        "trail_weekly_sma_len": 30,
+        "weekly_bars_available": 157
+      },
+      "rank": 10,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Above EMA50 | Prior leg +25.7% (2026-09-15 to 2026-10-14) | Pullback 15.0% from leg high | Volume 29% of leg average | IB trigger at 316.50 | Revenue +8.1% YoY | EPS -8.5% YoY | ROE 16.7%",
+      "rs_vs_nifty": -4.170714,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": "close above EMA50 (within tolerance)",
+            "label": "Trend (Stage 2 / above EMA50)",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 10.0,
+            "rule_id": "trend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "window move >= 20.0%",
+            "label": "Momentum leg",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "momentum",
+            "unit": "pct",
+            "value": 25.74204
+          },
+          {
+            "detail": "depth >15-20%",
+            "label": "VCP depth",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 7.0,
+            "rule_id": "vcp_depth",
+            "unit": "pct",
+            "value": 15.036031
+          },
+          {
+            "detail": "<35%",
+            "label": "Volume dry-up",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "volume_dry",
+            "unit": "pct of leg volume",
+            "value": 28.986271
+          },
+          {
+            "detail": "IB trigger",
+            "label": "Entry pattern (IB/MB)",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "entry_pattern",
+            "unit": "INR",
+            "value": 316.5
+          },
+          {
+            "detail": null,
+            "label": "Colour change",
+            "matched": false,
+            "max_points": 5.0,
+            "points": 0.0,
+            "rule_id": "colour_change",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": ">=8.0%",
+            "label": "Revenue growth",
+            "matched": true,
+            "max_points": 8.0,
+            "points": 5.0,
+            "rule_id": "revenue_growth",
+            "unit": "pct YoY",
+            "value": 8.1
+          },
+          {
+            "detail": null,
+            "label": "EPS growth",
+            "matched": false,
+            "max_points": 8.0,
+            "points": 0.0,
+            "rule_id": "eps_growth",
+            "unit": "pct YoY",
+            "value": -8.5
+          },
+          {
+            "detail": ">=10.0%",
+            "label": "Return on equity",
+            "matched": true,
+            "max_points": 7.0,
+            "points": 4.0,
+            "rule_id": "roe",
+            "unit": "pct",
+            "value": 16.700087
+          },
+          {
+            "detail": "missing",
+            "label": "Free cash flow positive",
+            "matched": false,
+            "max_points": 7.0,
+            "points": 0.0,
+            "rule_id": "fcf_positive",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": "weight 0 (disabled)",
+            "label": "Relative strength vs Nifty",
+            "matched": false,
+            "max_points": 0.0,
+            "points": 0.0,
+            "rule_id": "rs_vs_nifty",
+            "unit": "pct points",
+            "value": -4.170714
+          }
+        ],
+        "display": 66.0,
+        "max_possible": 105.0,
+        "normalised": 0.628571,
+        "raw": 66.0,
+        "side": "long"
+      },
+      "sector": "Industrials",
+      "short_signals": null,
+      "side": "long",
+      "symbol": "TARIL",
+      "vcp": {
+        "above_ema10": false,
+        "above_ema20": true,
+        "above_ema50": true,
+        "depth_ok": true,
+        "depth_pct": 15.036031,
+        "ema10": 310.0925,
+        "ema20": 307.832719,
+        "ema200": 316.220652,
+        "ema50": 303.143057,
+        "recent_mean_volume": 2227608.1,
+        "stage2": false,
+        "valid": true,
+        "vol_dry_ok": true,
+        "vol_dry_pct": 28.986271
+      },
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "small",
+      "close": 540.45,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.64641,
+        "avg_volume_20": 2681022.05,
+        "dist_ema20_pct": 1.933783,
+        "dist_ema50_pct": -0.258859,
+        "high_52w": 1284.9,
+        "higher_highs_lows": false,
+        "low_52w": 470.1,
+        "pct_above_52w_low": 14.964901,
+        "pct_from_20d_high": -5.416521,
+        "pct_from_52w_high": -57.938361,
+        "roc_20": 14.745223,
+        "rsi14": 54.103381,
+        "vol_ratio_20": 0.47856
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 3454392.0,
+        "debt_equity": 0.23624,
+        "eps_growth": -31.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:51:03+00:00",
+        "industry": "Software - Application",
+        "market_cap_cr": 15625.843507,
+        "name": "KPIT Technologies Limited",
+        "revenue_growth": 8.9,
+        "roe": 16.453888,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Technology",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 3454392.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 19.707024,
+        "ema10": 532.911622,
+        "ema20": 530.197135,
+        "ema200": 700.720931,
+        "ema50": 541.852635,
+        "sma150": 630.028333,
+        "vol20": 2681022.05
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 15625.843507,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": true,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "KPIT TECHNOLOGIES LIMITED",
+      "plan": {
+        "atr14": 19.707024,
+        "breakeven_trigger": null,
+        "entry": 539.3691,
+        "entry_max": null,
+        "extended_target": 495.59265,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 14.59215,
+        "reward_risk": 4.507156,
+        "risk_reference_price": 539.3691,
+        "side": "short",
+        "stop": 553.96125,
+        "stop_candidates": {
+          "atr": 568.929636,
+          "pct": 553.96125
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 473.6,
+        "target_pct": -12.193709,
+        "target_rule": "structure",
+        "target_structure_level": 473.6,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 1,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.20) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": 2.157179,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.201031
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Technology",
+      "short_signals": {
+        "bounce_ratio": 0.201031,
+        "double_top": true,
+        "double_top_peak1": 580.95,
+        "double_top_peak2": 571.4,
+        "downtrend": false,
+        "ema200": 700.720931,
+        "ema50": 541.852635,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 1364570.8,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 2681022.05,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "KPITTECH",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "small",
+      "close": 43.46,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.344796,
+        "avg_volume_20": 65024692.25,
+        "dist_ema20_pct": -1.088284,
+        "dist_ema50_pct": -1.275747,
+        "high_52w": 54.3,
+        "higher_highs_lows": false,
+        "low_52w": 35.83,
+        "pct_above_52w_low": 21.295004,
+        "pct_from_20d_high": -7.531915,
+        "pct_from_52w_high": -19.963168,
+        "roc_20": 0.253749,
+        "rsi14": 47.178747,
+        "vol_ratio_20": 0.443618
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 21823184.0,
+        "debt_equity": 0.11497,
+        "eps_growth": 43.8,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-17T07:17:49+00:00",
+        "industry": "Health Information Services",
+        "market_cap_cr": 21206.419046,
+        "name": "Sagility Limited",
+        "revenue_growth": 27.6,
+        "roe": 10.106897,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Healthcare",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 21823184.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 80",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 1.453648,
+        "ema10": 43.678154,
+        "ema20": 43.938172,
+        "ema200": 43.753994,
+        "ema50": 44.021604,
+        "sma150": 42.7592,
+        "vol20": 65024692.25
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 21206.419046,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": true,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 3,
+        "technical_total": 7
+      },
+      "name": "SAGILITY LIMITED",
+      "plan": {
+        "atr14": 1.453648,
+        "breakeven_trigger": null,
+        "entry": 43.37308,
+        "entry_max": null,
+        "extended_target": 39.85282,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 1.17342,
+        "reward_risk": 1.383205,
+        "risk_reference_price": 43.37308,
+        "side": "short",
+        "stop": 44.5465,
+        "stop_candidates": {
+          "atr": 45.553552,
+          "pct": 44.5465
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 41.75,
+        "target_pct": -3.742137,
+        "target_rule": "structure",
+        "target_structure_level": 41.75,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 2,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -1.04) | Low volume on bounce | Red confirmation candle",
+      "rs_vs_nifty": -12.334295,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -1.04
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 80.0,
+        "max_possible": 100.0,
+        "normalised": 0.8,
+        "raw": 80.0,
+        "side": "short"
+      },
+      "sector": "Healthcare",
+      "short_signals": {
+        "bounce_ratio": -1.04,
+        "double_top": true,
+        "double_top_peak1": 46.7,
+        "double_top_peak2": 47.0,
+        "downtrend": false,
+        "ema200": 43.753994,
+        "ema50": 44.021604,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 37306817.0,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 65024692.25,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "SAGILITY",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 1253.6,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.752238,
+        "avg_volume_20": 582897.55,
+        "dist_ema20_pct": -8.888021,
+        "dist_ema50_pct": -10.727533,
+        "high_52w": 1768.7,
+        "higher_highs_lows": false,
+        "low_52w": 1215.5,
+        "pct_above_52w_low": 3.134513,
+        "pct_from_20d_high": -14.686267,
+        "pct_from_52w_high": -29.123085,
+        "roc_20": -10.997515,
+        "rsi14": 31.734856,
+        "vol_ratio_20": 8.33571
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 850258.0,
+        "debt_equity": 0.06168,
+        "eps_growth": 48.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-24T07:42:13+00:00",
+        "industry": "Building Products & Equipment",
+        "market_cap_cr": 36455.828685,
+        "name": "Astral Limited",
+        "revenue_growth": 15.9,
+        "roe": 14.182188,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 850258.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 47.038057,
+        "ema10": 1360.042943,
+        "ema20": 1375.88934,
+        "ema200": 1462.78715,
+        "ema50": 1404.240353,
+        "sma150": 1470.238,
+        "vol20": 582897.55
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 36455.828685,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "ASTRAL LIMITED",
+      "plan": {
+        "atr14": 47.038057,
+        "breakeven_trigger": null,
+        "entry": 1251.0928,
+        "entry_max": null,
+        "extended_target": 1149.5512,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 33.8472,
+        "reward_risk": 1.051573,
+        "risk_reference_price": 1251.0928,
+        "side": "short",
+        "stop": 1284.94,
+        "stop_candidates": {
+          "atr": 1321.649885,
+          "pct": 1284.94
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 1215.5,
+        "target_pct": -2.844937,
+        "target_rule": "structure",
+        "target_structure_level": 1215.5,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 3,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.89) | Red confirmation candle",
+      "rs_vs_nifty": -23.585559,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.891589
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": -0.891589,
+        "double_top": true,
+        "double_top_peak1": 1456.0,
+        "double_top_peak2": 1469.4,
+        "downtrend": false,
+        "ema200": 1462.78715,
+        "ema50": 1404.240353,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 1269974.4,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 582897.55,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "ASTRAL",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 3988.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.82813,
+        "avg_volume_20": 596596.55,
+        "dist_ema20_pct": -2.884473,
+        "dist_ema50_pct": -10.221088,
+        "high_52w": 5899.0,
+        "higher_highs_lows": false,
+        "low_52w": 3666.1001,
+        "pct_above_52w_low": 8.780445,
+        "pct_from_20d_high": -16.128623,
+        "pct_from_52w_high": -32.395321,
+        "roc_20": -12.925764,
+        "rsi14": 40.226068,
+        "vol_ratio_20": 0.960374
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 564205.0,
+        "debt_equity": 0.03796,
+        "eps_growth": 40.0,
+        "fcf_positive": null,
+        "fetched_at": "2026-10-31T09:02:57+00:00",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 36058.38889,
+        "name": "KEI Industries Limited",
+        "revenue_growth": 23.0,
+        "roe": 14.949208,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 564205.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 152.665844,
+        "ema10": 3979.72032,
+        "ema20": 4106.449409,
+        "ema200": 4693.505101,
+        "ema50": 4442.023108,
+        "sma150": 4966.436678,
+        "vol20": 596596.55
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 36058.38889,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": false,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "KEI INDUSTRIES LTD.",
+      "plan": {
+        "atr14": 152.665844,
+        "breakeven_trigger": null,
+        "entry": 3980.024,
+        "entry_max": null,
+        "extended_target": 3656.996,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 107.676,
+        "reward_risk": 2.915449,
+        "risk_reference_price": 3980.024,
+        "side": "short",
+        "stop": 4087.7,
+        "stop_candidates": {
+          "atr": 4209.022765,
+          "pct": 4087.7
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 3666.1001,
+        "target_pct": -7.887488,
+        "target_rule": "structure",
+        "target_structure_level": 3666.1001,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 4,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.13) | Red confirmation candle",
+      "rs_vs_nifty": -25.513808,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.126519
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": 0.126519,
+        "double_top": true,
+        "double_top_peak1": 4760.0,
+        "double_top_peak2": 4754.8999,
+        "downtrend": false,
+        "ema200": 4693.505101,
+        "ema50": 4442.023108,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 528171.2,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 596596.55,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "KEI",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 7871.0,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.170306,
+        "avg_volume_20": 416873.35,
+        "dist_ema20_pct": -0.625549,
+        "dist_ema50_pct": -3.952887,
+        "high_52w": 10126.0,
+        "higher_highs_lows": false,
+        "low_52w": 6663.0,
+        "pct_above_52w_low": 18.129971,
+        "pct_from_20d_high": -7.061046,
+        "pct_from_52w_high": -22.269405,
+        "roc_20": -3.435161,
+        "rsi14": 45.608439,
+        "vol_ratio_20": 0.996015
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 367550.0,
+        "debt_equity": 0.01738,
+        "eps_growth": 32.5,
+        "fcf_positive": true,
+        "fetched_at": "2026-09-15T05:52:30+00:00",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap_cr": 122842.893517,
+        "name": "Polycab India Limited",
+        "revenue_growth": 39.0,
+        "roe": 25.549,
+        "roe_source": "returnOnEquity",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 367550.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 249.534752,
+        "ema10": 7853.210789,
+        "ema20": 7920.546862,
+        "ema200": 8329.947476,
+        "ema50": 8194.936555,
+        "sma150": 8789.58,
+        "vol20": 416873.35
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 122842.893517,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "POLYCAB INDIA LIMITED",
+      "plan": {
+        "atr14": 249.534752,
+        "breakeven_trigger": null,
+        "entry": 7855.258,
+        "entry_max": null,
+        "extended_target": 7217.707,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 212.517,
+        "reward_risk": 2.271621,
+        "risk_reference_price": 7855.258,
+        "side": "short",
+        "stop": 8067.775,
+        "stop_candidates": {
+          "atr": 8229.560129,
+          "pct": 8067.775
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 7372.5,
+        "target_pct": -6.145667,
+        "target_rule": "structure",
+        "target_structure_level": 7372.5,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 5,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.23) | Low volume on bounce",
+      "rs_vs_nifty": -16.023205,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.227586
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": 0.227586,
+        "double_top": true,
+        "double_top_peak1": 8463.0,
+        "double_top_peak2": 8469.0,
+        "downtrend": false,
+        "ema200": 8329.947476,
+        "ema50": 8194.936555,
+        "low_vol_bounce": true,
+        "recent_mean_volume": 267333.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 416873.35,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "POLYCAB",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 3156.8999,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 3.421812,
+        "avg_volume_20": 231438.4,
+        "dist_ema20_pct": -5.526765,
+        "dist_ema50_pct": -7.516025,
+        "high_52w": 4074.8,
+        "higher_highs_lows": false,
+        "low_52w": 3078.5,
+        "pct_above_52w_low": 2.546692,
+        "pct_from_20d_high": -13.601905,
+        "pct_from_52w_high": -22.526261,
+        "roc_20": -8.812828,
+        "rsi14": 37.290006,
+        "vol_ratio_20": 2.177927
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 209652.0,
+        "debt_equity": 0.01473,
+        "eps_growth": 38.7,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:53:02+00:00",
+        "industry": "Building Products & Equipment",
+        "market_cap_cr": 42627.045786,
+        "name": "The Supreme Industries Limited",
+        "revenue_growth": 4.2,
+        "roe": 16.735092,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Industrials",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 209652.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "A",
+        "reasons": [
+          "raw score 70",
+          "regime alignment: none",
+          "-> A"
+        ]
+      },
+      "indicators": {
+        "atr14": 108.023169,
+        "ema10": 3281.493944,
+        "ema20": 3341.581248,
+        "ema200": 3556.394309,
+        "ema50": 3413.456126,
+        "sma150": 3494.551984,
+        "vol20": 231438.4
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 42627.045786,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "SUPREME INDUSTRIES LTD",
+      "plan": {
+        "atr14": 108.023169,
+        "breakeven_trigger": null,
+        "entry": 3150.5861,
+        "entry_max": null,
+        "extended_target": 2894.877208,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [
+          "recent low inside 1R; target set at 2R"
+        ],
+        "prev_bar_low": null,
+        "r_value": 85.236297,
+        "reward_risk": 2.0,
+        "risk_reference_price": 3150.5861,
+        "side": "short",
+        "stop": 3235.822397,
+        "stop_candidates": {
+          "atr": 3312.620854,
+          "pct": 3235.822397
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 2980.113506,
+        "target_pct": -5.410822,
+        "target_rule": "min_rr",
+        "target_structure_level": 3078.5,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 6,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.37) | Red confirmation candle",
+      "rs_vs_nifty": -21.400872,
+      "score": {
+        "band": "B",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.373746
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": true,
+            "max_points": 10.0,
+            "points": 10.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 70.0,
+        "max_possible": 100.0,
+        "normalised": 0.7,
+        "raw": 70.0,
+        "side": "short"
+      },
+      "sector": "Industrials",
+      "short_signals": {
+        "bounce_ratio": -0.373746,
+        "double_top": true,
+        "double_top_peak1": 3631.8,
+        "double_top_peak2": 3653.8999,
+        "downtrend": false,
+        "ema200": 3556.394309,
+        "ema50": 3413.456126,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 202401.0,
+        "red_confirm": true,
+        "stage4": true,
+        "vol20": 231438.4,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "SUPREMEIND",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "large",
+      "close": 328.8,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.494365,
+        "avg_volume_20": 8665694.05,
+        "dist_ema20_pct": 1.042538,
+        "dist_ema50_pct": -2.977165,
+        "high_52w": 486.5,
+        "higher_highs_lows": false,
+        "low_52w": 310.3,
+        "pct_above_52w_low": 5.961972,
+        "pct_from_20d_high": -5.922747,
+        "pct_from_52w_high": -32.415211,
+        "roc_20": 1.575533,
+        "rsi14": 50.898358,
+        "vol_ratio_20": 0.749458
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 7313849.0,
+        "debt_equity": 5.36837,
+        "eps_growth": 2.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-15T05:52:18+00:00",
+        "industry": "Credit Services",
+        "market_cap_cr": 114678.536602,
+        "name": "Power Finance Corporation Limited",
+        "revenue_growth": 0.8,
+        "roe": 18.223222,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 7313849.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: none",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 8.201472,
+        "ema10": 323.453547,
+        "ema20": 325.407505,
+        "ema200": 379.64524,
+        "ema50": 338.889293,
+        "sma150": 394.365333,
+        "vol20": 8665694.05
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 114678.536602,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": false,
+          "near_52w_high": false,
+          "not_large_cap": false,
+          "rs_positive": false,
+          "sma150_above_ema200": true,
+          "stage2": false
+        },
+        "growth_met": false,
+        "level": "none",
+        "technical_met": 1,
+        "technical_total": 7
+      },
+      "name": "POWER FIN CORP LTD.",
+      "plan": {
+        "atr14": 8.201472,
+        "breakeven_trigger": null,
+        "entry": 328.1424,
+        "entry_max": null,
+        "extended_target": 301.5096,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 8.8776,
+        "reward_risk": 2.009822,
+        "risk_reference_price": 328.1424,
+        "side": "short",
+        "stop": 337.02,
+        "stop_candidates": {
+          "atr": 340.444608,
+          "pct": 337.02
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 310.3,
+        "target_pct": -5.437395,
+        "target_rule": "structure",
+        "target_structure_level": 310.3,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 7,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio 0.30)",
+      "rs_vs_nifty": -11.012511,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": 0.29872
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": 0.29872,
+        "double_top": true,
+        "double_top_peak1": 353.45,
+        "double_top_peak2": 349.5,
+        "downtrend": false,
+        "ema200": 379.64524,
+        "ema50": 338.889293,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 9119553.6,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 8665694.05,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "PFC",
+      "vcp": null,
+      "warnings": []
+    },
+    {
+      "bar_pattern": null,
+      "cap_bucket": "mid",
+      "close": 296.65,
+      "colour_change": null,
+      "context": {
+        "atr_pct": 2.744561,
+        "avg_volume_20": 5791911.95,
+        "dist_ema20_pct": 0.417774,
+        "dist_ema50_pct": -3.028355,
+        "high_52w": 387.8,
+        "higher_highs_lows": false,
+        "low_52w": 281.9,
+        "pct_above_52w_low": 5.232352,
+        "pct_from_20d_high": -5.810446,
+        "pct_from_52w_high": -23.504384,
+        "roc_20": 0.559322,
+        "rsi14": 49.095097,
+        "vol_ratio_20": 0.777881
+      },
+      "fno_eligible": true,
+      "fundamentals": {
+        "avg_volume": 5524504.0,
+        "debt_equity": 6.07463,
+        "eps_growth": -6.1,
+        "fcf_positive": null,
+        "fetched_at": "2026-09-19T07:38:39+00:00",
+        "industry": "Credit Services",
+        "market_cap_cr": 82156.58496,
+        "name": "REC Limited",
+        "revenue_growth": 25.2,
+        "roe": 19.042008,
+        "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+        "sector": "Financial Services",
+        "source": "yfinance.Ticker.info"
+      },
+      "gate": {
+        "checks": [
+          {
+            "field": "avg_volume",
+            "op": ">=",
+            "outcome": "pass",
+            "threshold": 150000.0,
+            "value": 5524504.0
+          }
+        ],
+        "excluded": false,
+        "passed": true,
+        "reason": null
+      },
+      "grade": {
+        "alignment": "none",
+        "fundamentals_strong": null,
+        "grade": "B+",
+        "reasons": [
+          "raw score 60",
+          "regime alignment: none",
+          "-> B+"
+        ]
+      },
+      "indicators": {
+        "atr14": 8.14174,
+        "ema10": 292.62434,
+        "ema20": 295.41583,
+        "ema200": 336.587028,
+        "ema50": 305.914168,
+        "sma150": 336.558667,
+        "vol20": 5791911.95
+      },
+      "last_bar_date": "2026-11-06",
+      "leg": null,
+      "market_cap_cr": 82156.58496,
+      "multibagger": {
+        "criteria": {
+          "above_52w_low": false,
+          "above_sma150": false,
+          "growth": true,
+          "near_52w_high": true,
+          "not_large_cap": true,
+          "rs_positive": false,
+          "sma150_above_ema200": false,
+          "stage2": false
+        },
+        "growth_met": true,
+        "level": "none",
+        "technical_met": 2,
+        "technical_total": 7
+      },
+      "name": "REC LIMITED",
+      "plan": {
+        "atr14": 8.14174,
+        "breakeven_trigger": null,
+        "entry": 296.0567,
+        "entry_max": null,
+        "extended_target": 272.02805,
+        "extended_target_r": 3.0,
+        "floor_applied": false,
+        "multibagger_arm_price": null,
+        "notes": [],
+        "prev_bar_low": null,
+        "r_value": 8.00955,
+        "reward_risk": 1.767478,
+        "risk_reference_price": 296.0567,
+        "side": "short",
+        "stop": 304.06625,
+        "stop_candidates": {
+          "atr": 308.269311,
+          "pct": 304.06625
+        },
+        "stop_distance_pct": 2.705411,
+        "stop_rule": "pct",
+        "target": 281.9,
+        "target_pct": -4.781753,
+        "target_rule": "structure",
+        "target_structure_level": 281.9,
+        "trail_weekly_ema": null,
+        "trail_weekly_ema_len": null,
+        "trail_weekly_sma": null,
+        "trail_weekly_sma_len": null,
+        "weekly_bars_available": null
+      },
+      "rank": 8,
+      "rank_reason": null,
+      "rank_status": "ranked",
+      "reason_text": "Stage 4 (close < EMA50 and < EMA200) | Double top structure | Weak bounce (ratio -0.09)",
+      "rs_vs_nifty": -12.028722,
+      "score": {
+        "band": "C",
+        "components": [
+          {
+            "detail": null,
+            "label": "Stage 4 (close < EMA50 and < EMA200)",
+            "matched": true,
+            "max_points": 25.0,
+            "points": 25.0,
+            "rule_id": "stage4",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Lower highs and lower lows (20 bars)",
+            "matched": false,
+            "max_points": 20.0,
+            "points": 0.0,
+            "rule_id": "downtrend",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Double top within tolerance",
+            "matched": true,
+            "max_points": 20.0,
+            "points": 20.0,
+            "rule_id": "double_top",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Weak bounce",
+            "matched": true,
+            "max_points": 15.0,
+            "points": 15.0,
+            "rule_id": "weak_bounce",
+            "unit": "ratio",
+            "value": -0.091988
+          },
+          {
+            "detail": null,
+            "label": "Low-volume bounce",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "low_vol_bounce",
+            "unit": null,
+            "value": null
+          },
+          {
+            "detail": null,
+            "label": "Red confirmation candle",
+            "matched": false,
+            "max_points": 10.0,
+            "points": 0.0,
+            "rule_id": "red_confirm",
+            "unit": null,
+            "value": null
+          }
+        ],
+        "display": 60.0,
+        "max_possible": 100.0,
+        "normalised": 0.6,
+        "raw": 60.0,
+        "side": "short"
+      },
+      "sector": "Financial Services",
+      "short_signals": {
+        "bounce_ratio": -0.091988,
+        "double_top": true,
+        "double_top_peak1": 315.5,
+        "double_top_peak2": 314.95,
+        "downtrend": false,
+        "ema200": 336.587028,
+        "ema50": 305.914168,
+        "low_vol_bounce": false,
+        "recent_mean_volume": 4660526.8,
+        "red_confirm": false,
+        "stage4": true,
+        "vol20": 5791911.95,
+        "weak_bounce": true,
+        "weak_bounce_method": "single_bar_high"
+      },
+      "side": "short",
+      "symbol": "RECLTD",
+      "vcp": null,
+      "warnings": []
+    }
+  ],
+  "run_id": "2026-11-06_v003_15ddf7ef",
+  "schema_version": 2
+}
