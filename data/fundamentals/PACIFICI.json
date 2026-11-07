@@ -1,14 +1,14 @@
 {
-  "avg_volume": 802.0,
+  "avg_volume": 737.0,
   "debt_equity": 0.13355,
   "eps_growth": 82.8,
   "fcf_positive": null,
-  "fetched_at": "2026-10-31T09:03:13+00:00",
+  "fetched_at": "2026-11-07T09:24:15+00:00",
   "industry": "Building Materials",
-  "market_cap_cr": 90.6728128,
+  "market_cap_cr": 91.6722432,
   "name": "Pacific Industries Limited",
   "revenue_growth": 28.7,
-  "roe": 0.6253610401982798,
+  "roe": 0.6209592256352139,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

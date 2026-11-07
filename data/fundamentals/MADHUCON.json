@@ -1,0 +1,15 @@
+{
+  "avg_volume": 24009.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-07T09:24:05+00:00",
+  "industry": "Engineering & Construction",
+  "market_cap_cr": 29.4441824,
+  "name": "Madhucon Projects Limited",
+  "revenue_growth": -68.2,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1491866.0,
+  "debt_equity": 0.17734000000000003,
+  "eps_growth": 26.6,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-07T09:23:52+00:00",
+  "industry": "Insurance - Life",
+  "market_cap_cr": 63694.5170432,
+  "name": "ICICI Life Insurance Limited",
+  "revenue_growth": 0.8,
+  "roe": 12.922,
+  "roe_source": "returnOnEquity",
+  "sector": "Financial Services",
+  "source": "yfinance.Ticker.info"
+}

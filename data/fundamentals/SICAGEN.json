@@ -1,14 +1,14 @@
 {
-  "avg_volume": 71316.0,
+  "avg_volume": 70182.0,
   "debt_equity": 0.32125,
   "eps_growth": 52.2,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:39:35+00:00",
+  "fetched_at": "2026-11-07T09:24:29+00:00",
   "industry": "Steel",
-  "market_cap_cr": 213.6079488,
+  "market_cap_cr": 218.752256,
   "name": "Sicagen India Limited",
   "revenue_growth": 39.800000000000004,
-  "roe": 4.122538202850271,
+  "roe": 4.133248919090529,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

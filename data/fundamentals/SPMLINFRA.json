@@ -1,14 +1,14 @@
 {
-  "avg_volume": 267410.0,
+  "avg_volume": 190372.0,
   "debt_equity": 0.37764000000000003,
   "eps_growth": 87.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-19T07:38:49+00:00",
+  "fetched_at": "2026-11-07T09:24:32+00:00",
   "industry": "Engineering & Construction",
-  "market_cap_cr": 1415.6540928,
+  "market_cap_cr": 1167.8765056,
   "name": "SPML Infra Limited",
   "revenue_growth": 82.3,
-  "roe": 8.56473463629486,
+  "roe": 8.494677558159625,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

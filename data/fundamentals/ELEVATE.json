@@ -1,0 +1,15 @@
+{
+  "avg_volume": 3175314.0,
+  "debt_equity": 4.3105,
+  "eps_growth": -76.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-07T09:23:41+00:00",
+  "industry": "Lodging",
+  "market_cap_cr": 4706.2294528,
+  "name": "Elevate Campuses Limited",
+  "revenue_growth": 31.3,
+  "roe": 1.2216746728136951,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

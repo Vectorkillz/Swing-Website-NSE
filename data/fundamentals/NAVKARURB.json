@@ -1,0 +1,15 @@
+{
+  "avg_volume": 589763.0,
+  "debt_equity": 0.035910000000000004,
+  "eps_growth": 24.2,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-07T09:24:11+00:00",
+  "industry": "Building Materials",
+  "market_cap_cr": 96.499776,
+  "name": "Navkar Urbanstructure Limited",
+  "revenue_growth": -70.5,
+  "roe": 1.8508542644851391,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Basic Materials",
+  "source": "yfinance.Ticker.info"
+}

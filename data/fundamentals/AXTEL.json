@@ -1,15 +1,15 @@
 {
-  "avg_volume": 4937.0,
+  "avg_volume": 4804.0,
   "debt_equity": null,
-  "eps_growth": 3.4000000000000004,
-  "fcf_positive": null,
-  "fetched_at": "2026-10-31T09:02:25+00:00",
+  "eps_growth": null,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-07T09:23:27+00:00",
   "industry": "Specialty Industrial Machinery",
-  "market_cap_cr": 665.8200576,
+  "market_cap_cr": 625.6753664,
   "name": "Axtel Industries Limited",
-  "revenue_growth": 18.7,
-  "roe": 25.046683189801705,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": -31.7,
+  "roe": 19.464001,
+  "roe_source": "returnOnEquity",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"
 }

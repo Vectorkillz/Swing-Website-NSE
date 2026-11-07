@@ -1,0 +1,15 @@
+{
+  "avg_volume": 174549.0,
+  "debt_equity": 0.22274999999999998,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-07T09:24:43+00:00",
+  "industry": "Real Estate - Diversified",
+  "market_cap_cr": 123.762432,
+  "name": "Vipul Limited",
+  "revenue_growth": 356.2,
+  "roe": -2.123330227266087,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}
