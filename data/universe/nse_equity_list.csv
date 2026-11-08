@@ -1,6 +1,5 @@
 symbol,name,sector,industry,isin,lot_size,fno_eligible
 20MICRONS,20 Microns Limited,,,INE144J01027,,False
-21STCENMGM,21st Century Management Services Limited,,,INE253B01015,,False
 360ONE,360 ONE WAM LIMITED,,,INE466L01038,,False
 3BBLACKBIO,3B Blackbio Dx Limited,,,INE994E01018,,False
 3MINDIA,3M India Limited,,,INE470A01017,,False
@@ -24,7 +23,7 @@ ABANSENT,Abans Enterprises Limited,,,INE365O01028,,False
 ABB,ABB India Limited,,,INE117A01022,,False
 ABBOTINDIA,Abbott India Limited,,,INE358A01014,,False
 ABCAPITAL,Aditya Birla Capital Limited,,,INE674K01013,,False
-ABCOTS,A B Cotspin India Limited,,,INE08PH01015,,False
+ABCIND,ABC Industries India Limited,,,INE08PH01015,,False
 ABDL,Allied Blenders and Distillers Limited,,,INE552Z01027,,False
 ABFRL,Aditya Birla Fashion and Retail Limited,,,INE647O01011,,False
 ABLBL,Aditya Birla Lifestyle Brands Limited,,,INE14LE01019,,False
@@ -151,6 +150,7 @@ APOLLOHOSP,Apollo Hospitals Enterprise Limited,,,INE437A01024,,False
 APOLLOPIPE,Apollo Pipes Limited,,,INE126J01016,,False
 APOLLOTYRE,Apollo Tyres Limited,,,INE438A01022,,False
 APOLSINHOT,Apollo Sindoori Hotels Limited,,,INE451F01024,,False
+APOORVA,Apoorva Leasing Finance and Investment Company Limited,,,INE217S01014,,False
 APTECHT,Aptech Limited,,,INE266F01018,,False
 APTUS,Aptus Value Housing Finance India Limited,,,INE852O01025,,False
 AQYLON,Aqylon Nexus Limited,,,INE416A01051,,False
@@ -180,10 +180,12 @@ ARVINDFASN,Arvind Fashions Limited,,,INE955V01021,,False
 ARVSMART,Arvind SmartSpaces Limited,,,INE034S01021,,False
 ARYAMAN,Aryaman Financial Services Limited,,,INE032E01017,,False
 ASAHIINDIA,Asahi India Glass Limited,,,INE439A01020,,False
+ASAHISONG,Asahi Songwon Colors Limited,,,INE228I01012,,False
 ASAL,Automotive Stampings and Assemblies Limited,,,INE900C01027,,False
 ASALCBR,Associated Alcohols & Breweries Ltd.,,,INE073G01016,,False
 ASHAPURMIN,Ashapura Minechem Limited,,,INE348A01023,,False
 ASHIANA,Ashiana Housing Limited,,,INE365D01021,,False
+ASHIKAG,Ashika Global Securities Limited,,,INE094B01013,,False
 ASHIMASYN,Ashima Limited,,,INE440A01010,,False
 ASHOKA,Ashoka Buildcon Limited,,,INE442H01029,,False
 ASHOKAMET,Ashoka Metcast Limited,,,INE760Y01011,,False
@@ -208,7 +210,6 @@ ATAM,Atam Valves Limited,,,INE09KD01013,,False
 ATGL,Adani Total Gas Limited,,,INE399L01023,,False
 ATHERENERG,Ather Energy Limited,,,INE0LEZ01016,,False
 ATL,Allcargo Terminals Limited,,,INE0NN701020,,False
-ATLANTAA,ATLANTAA LIMITED,,,INE285H01022,,False
 ATLANTAELE,Atlanta Electricals Limited,,,INE0Z4F01028,,False
 ATLASCYCLE,Atlas Cycles (Haryana) Limited,,,INE446A01025,,False
 ATUL,Atul Limited,,,INE100A01010,,False
@@ -245,6 +246,7 @@ AYMSYNTEX,AYM Syntex Limited,,,INE193B01039,,False
 AZAD,Azad Engineering Limited,,,INE02IJ01035,,False
 AZADIND,Azad India Mobility Limited,,,INE566M01025,,False
 BAGFILMS,B.A.G Films and Media Limited,,,INE116D01028,,False
+BAHETI,Baheti Recycling Industries Limited,,,INE029Q01017,,False
 BAIDFIN,Baid Finserv Limited,,,INE020D01022,,False
 BAJAJ-AUTO,Bajaj Auto Limited,,,INE917I01010,,False
 BAJAJCON,Bajaj Consumer Care Limited,,,INE933K01021,,False
@@ -339,6 +341,8 @@ BLIL,Balmer Lawrie Investments Limited,,,INE525F01025,,False
 BLKASHYAP,B. L. Kashyap and Sons Limited,,,INE350H01032,,False
 BLS,BLS International Services Limited,,,INE153T01027,,False
 BLSE,BLS E-Services Limited,,,INE0NLT01028,,False
+BLSPOLY,BLS Polymers Limited,,,INE0ZCQ01019,,False
+BLUECHIP,Blue Chip India Limited,,,INE657B01025,,False
 BLUECLOUDS,Blue Cloud Softech Solutions Limited,,,INE373T01047,,False
 BLUECOAST,Blue Coast Hotels Limited,,,INE472B01011,,False
 BLUEDART,Blue Dart Express Limited,,,INE233B01017,,False
@@ -348,6 +352,7 @@ BLUESTONE,BlueStone Jewellery and Lifestyle Limited,,,INE304W01038,,False
 BLUSPRING,Bluspring Enterprises Limited,,,INE0U4101014,,False
 BMWVENTLTD,BMW Ventures Limited,,,INE965W01036,,False
 BNAGROCHEM,BN Agrochem Limited,,,INE00HZ01011,,False
+BNALTD,B & A Limited,,,INE489D01011,,False
 BOHRAIND,Bohra Industries Limited,,,INE802W01023,,False
 BOMDYEING,Bombay Dyeing & Mfg Company Limited,,,INE032A01023,,False
 BONDADA,Bondada Engineering Limited,,,INE0Q8P01029,,False
@@ -366,6 +371,7 @@ BRAHMINFRA,Brahmaputra Infrastructure Limited,,,INE320I01017,,False
 BRIGADE,Brigade Enterprises Limited,,,INE791I01019,,False
 BRIGHOTEL,Brigade Hotel Ventures Limited,,,INE03NU01014,,False
 BRIGHTBR,Bright Brothers Limited,,,INE630D01010,,False
+BRIGHTOUTD,Bright Outdoor Media Limited,,,INE0OMI01019,,False
 BRITANNIA,Britannia Industries Limited,,,INE216A01030,,False
 BRNL,Bharat Road Network Limited,,,INE727S01012,,False
 BROOKS,Brooks Laboratories Limited,,,INE650L01011,,False
@@ -460,12 +466,14 @@ COMSYN,Commercial Syn Bags Limited,,,INE073V01015,,False
 CONCOR,Container Corporation of India Limited,,,INE111A01025,,False
 CONCORDBIO,Concord Biotech Limited,,,INE338H01029,,False
 CONFIPET,Confidence Petroleum India Limited,,,INE552D01024,,False
+CONSOFINVT,Consolidated Finvest & Holdings Limited,,,INE025A01027,,False
 CONTROLPR,Control Print Limited,,,INE663B01015,,False
 CORALFINAC,Coral India Finance & Housing Limited,,,INE558D01021,,False
 CORDELIA,Waterways Leisure Tourism Limited,,,INE0LZF01039,,False
 COROMANDEL,Coromandel International Limited,,,INE169A01031,,False
 CORONA,CORONA Remedies Limited,,,INE02ZQ01018,,False
 COSMOFIRST,COSMO FIRST LIMITED,,,INE757A01017,,False
+COUNCODOS,Country Condo's Limited,,,INE695B01025,,False
 CPEDU,Career Point Edutech Limited,,,INE0P6P01016,,False
 CPL,Captain Polyplast Limited,,,INE536P01021,,False
 CPPLUS,Aditya Infotech Limited,,,INE819V01029,,False
@@ -475,6 +483,7 @@ CRAVATEX,Cravatex Limited,,,INE145E01017,,False
 CREATIVEYE,Creative Eye Limited,,,INE230B01021,,False
 CREDITACC,CREDITACCESS GRAMEEN LIMITED,,,INE741K01010,,False
 CREST,Crest Ventures Limited,,,INE559D01011,,False
+CRESTO,CRESTO TECHNO LIMITED,,,INE203Y01012,,False
 CRISIL,Crisil Limited,,,INE007A01025,,False
 CRIZAC,Crizac Limited,,,INE0S4R01014,,False
 CROMPTON,Crompton Greaves Consumer Electricals Limited,,,INE299U01018,,False
@@ -485,6 +494,7 @@ CSM,CSM Technologies Limited,,,INE0ZK601013,,False
 CUB,City Union Bank Limited,,,INE491A01021,,False
 CUMMINSIND,Cummins India Limited,,,INE298A01020,,False
 CUPID,Cupid Limited,,,INE509F01029,,False
+CURAA,Cura Technologies Limited,,,INE117B01020,,False
 CYBERTECH,Cybertech Systems And Software Limited,,,INE214A01019,,False
 CYIENT,Cyient Limited,,,INE136B01020,,False
 CYIENTDLM,Cyient DLM Limited,,,INE055S01018,,False
@@ -510,7 +520,6 @@ DCM,DCM  Limited,,,INE498A01018,,False
 DCMFINSERV,DCM Financial Services Limited,,,INE891B01012,,False
 DCMSHRIRAM,DCM Shriram Limited,,,INE499A01024,,False
 DCMSIL,DCM Shriram International Limited,,,INE0OU201013,,False
-DCMSRIND,DCM Shriram Industries Limited,,,INE843D01027,,False
 DCW,DCW Limited,,,INE500A01029,,False
 DCXINDIA,DCX Systems Limited,,,INE0KL801015,,False
 DDEVPLSTIK,Ddev Plastiks Industries Limited,,,INE0HR601026,,False
@@ -539,6 +548,7 @@ DHATRE,Dhatre Udyog Limited,,,INE715T01031,,False
 DHOOTTRANS,Dhoot Transmission Limited,,,INE01NH01023,,False
 DHRUV,Dhruv Consultancy Services Limited,,,INE506Z01015,,False
 DHUNINV,Dhunseri Investments Limited,,,INE320L01011,,False
+DIACABS,Diamond Power Infrastructure Limited,,,INE989C01038,,False
 DIAMINESQ,Diamines & Chemicals Limited,,,INE591D01014,,False
 DIAMONDYD,Prataap Snacks Limited,,,INE393P01035,,False
 DICIND,DIC India Limited,,,INE303A01010,,False
@@ -546,6 +556,7 @@ DIFFNKG,Diffusion Engineers Limited,,,INE184O01015,,False
 DIGIDRIVE,Digidrive Distributors Limited,,,INE0PSC01024,,False
 DIGISPICE,DiGiSPICE Technologies Limited,,,INE927C01020,,False
 DIGITIDE,Digitide Solutions Limited,,,INE0U4701011,,False
+DIGJAMLMTD,Digjam Limited,,,INE731U01028,,False
 DISAQ,Disa India Limited,,,INE131C01011,,False
 DISHTV,Dish TV India Limited,,,INE836F01026,,False
 DIVGIITTS,Divgi Torqtransfer Systems Limited,,,INE753U01022,,False
@@ -564,26 +575,30 @@ DOLLEX,Dollex Agrotech Limited,,,INE0JHH01011,,False
 DOLPHIN,Dolphin Offshore Enterprises (India) Limited,,,INE920A01037,,False
 DOMS,DOMS Industries Limited,,,INE321T01012,,False
 DONEAR,Donear Industries Limited,,,INE668D01028,,False
-DPABHUSHAN,D. P. Abhushan Limited,,,INE266Y01019,,False
 DPWIRES,D P Wires Limited,,,INE864X01013,,False
 DRAGARWQ,Dr Agarwals Eye Hospital Limited,,,INE934C01018,,False
 DRCSYSTEMS,DRC Systems India Limited,,,INE03RS01027,,False
 DREAMFOLKS,Dreamfolks Services Limited,,,INE0JS101016,,False
 DREDGECORP,Dredging Corporation of India Limited,,,INE506A01018,,False
 DRREDDY,Dr. Reddy's Laboratories Limited,,,INE089A01031,,False
+DSFCL,DCM Shriram Fine Chemicals Limited,,,INE0OFM01015,,False
 DSSL,Dynacons Systems & Solutions Limited,,,INE417B01040,,False
+DTIL,Dhunseri Tea & Industries Limited,,,INE341R01014,,False
 DUCON,Ducon Infratechnologies Limited,,,INE741L01018,,False
 DVL,Dhunseri Ventures Limited,,,INE477B01010,,False
 DWARKESH,Dwarikesh Sugar Industries Limited,,,INE366A01041,,False
 DYCL,Dynamic Cables Limited,,,INE600Y01019,,False
 DYNAMATECH,Dynamatic Technologies Limited,,,INE221B01012,,False
 DYNPRO,Dynemic Products Limited,,,INE256H01015,,False
+E2E,E2E Networks Limited,,,INE255Z01027,,False
 EASEMYTRIP,Easy Trip Planners Limited,,,INE07O001026,,False
 EASTWEST,East West Freight Carriers Limited,,,INE595R01023,,False
 EBGNG,GNG Electronics Limited,,,INE18JU01028,,False
+EBIX,EBIX Limited,,,INE432F01032,,False
 ECLERX,eClerx Services Limited,,,INE738I01010,,False
 ECORECO,Eco Recycling Limited,,,INE316A01038,,False
 ECOSMOBLTY,Ecos (India) Mobility & Hospitality Limited,,,INE06HJ01020,,False
+EDELALTS,EAAA India Alternatives Limited,,,INE528L01027,,False
 EDELWEISS,Edelweiss Financial Services Limited,,,INE532F01054,,False
 EFCIL,EFC (I) Limited,,,INE886D01026,,False
 EICHERMOT,Eicher Motors Limited,,,INE066A01021,,False
@@ -594,6 +609,7 @@ EIHAHOTELS,EIH Associated Hotels Limited,,,INE276C01014,,False
 EIHOTEL,EIH Limited,,,INE230A01023,,False
 EIMCOELECO,Eimco Elecon (India) Limited,,,INE158B01016,,False
 EKC,Everest Kanto Cylinder Limited,,,INE184H01027,,False
+EKI,EKI Energy Services Limited,,,INE0CPR01018,,False
 ELANTAS,Elantas Beck India Limited,,,INE280B01018,,False
 ELDEHSG,Eldeco Housing And Industries Limited,,,INE668G01021,,False
 ELECON,Elecon Engineering Company Limited,,,INE205B01031,,False
@@ -633,6 +649,7 @@ EPL,EPL Limited,,,INE255A01020,,False
 EQUITASBNK,Equitas Small Finance Bank Limited,,,INE063P01018,,False
 ERIS,Eris Lifesciences Limited,,,INE406M01024,,False
 ESABINDIA,Esab India Limited,,,INE284A01012,,False
+ESAFSFB,ESAF Small Finance Bank Limited,,,INE818W01011,,False
 ESCORTS,Escorts Kubota Limited,,,INE042A01014,,False
 ESDS,ESDS Software Solution Limited,,,INE0DRI01029,,False
 ESSARSHPNG,Essar Shipping Limited,,,INE122M01019,,False
@@ -645,6 +662,7 @@ EUROBOND,Euro Panel Products Limited,,,INE505V01016,,False
 EUROPRATIK,Euro Pratik Sales Limited,,,INE198501012,,False
 EVEREADY,Eveready Industries India Limited,,,INE128A01029,,False
 EVERESTIND,Everest Industries Limited,,,INE295A01018,,False
+EVONILE,Evonile Pharma Limited,,,INE234A01025,,False
 EXCELINDUS,Excel Industries Limited,,,INE369A01029,,False
 EXCELSOFT,Excelsoft Technologies Limited,,,INE606N01019,,False
 EXICOM,Exicom Tele-Systems Limited,,,INE777F01014,,False
@@ -675,6 +693,7 @@ FIRSTCRY,Brainbees Solutions Limited,,,INE02RE01045,,False
 FISCHER,Fischer Medical Ventures Limited,,,INE771F01041,,False
 FIVESTAR,Five-Star Business Finance Limited,,,INE128S01021,,False
 FLAIR,Flair Writing Industries Limited,,,INE00Y201027,,False
+FLEXITUFF,Flexituff Ventures International Limited,,,INE060J01017,,False
 FLUOROCHEM,Gujarat Fluorochemicals Limited,,,INE09N301011,,False
 FMGOETZE,Federal-Mogul Goetze (India) Limited.,,,INE529A01010,,False
 FMNL,Future Market Networks Limited,,,INE360L01017,,False
@@ -699,12 +718,15 @@ GALLANTT,Gallantt Ispat Limited,,,INE297H01019,,False
 GANDHAR,Gandhar Oil Refinery (India) Limited,,,INE717W01049,,False
 GANDHITUBE,Gandhi Special Tubes Limited,,,INE524B01027,,False
 GANECOS,Ganesha Ecosphere Limited,,,INE845D01014,,False
+GANESHBE,Ganesh Benzoplast Limited,,,INE388A01029,,False
 GANESHCP,Ganesh Consumer Products Limited,,,INE652V01016,,False
 GANESHHOU,GANESH HOUSING LIMITED,,,INE460C01014,,False
 GANGAFORGE,Ganga Forging Limited,,,INE691Z01023,,False
 GANGESSECU,Ganges Securities Limited,,,INE335W01016,,False
 GARFIBRES,Garware Technical Fibres Limited,,,INE276A01018,,False
 GARUDA,Garuda Construction and Engineering Limited,,,INE0JVO01026,,False
+GATECH,GACM Technologies Limited,,,INE224E01028,,False
+GATECHDVR,GACM Technologies Limited,,,INE224E01036,,False
 GATEWAY,Gateway Distriparks Limited,,,INE079J01017,,False
 GAUDIUMIVF,Gaudium IVF and Women Health Limited,,,INE0P8B01020,,False
 GAYAHWS,Gayatri Highways Limited,,,INE287Z01012,,False
@@ -752,7 +774,7 @@ GMRAIRPORT,GMR AIRPORTS LIMITED,,,INE776C01039,,False
 GMRP&UI,GMR Power and Urban Infra Limited,,,INE0CU601026,,False
 GNA,GNA Axles Limited,,,INE934S01014,,False
 GNFC,Gujarat Narmada Valley Fertilizers and Chemicals Limited,,,INE113A01013,,False
-GNRL,Gujarat Natural Resources Limited,,,INE207H01018,,False
+GNRL,Gujarat Natural Resources Limited,,,INE207H01026,,False
 GOACARBON,Goa Carbon Limited,,,INE426D01013,,False
 GOCLCORP,GOCL Corporation Limited,,,INE077F01035,,False
 GOCOLORS,Go Fashion (India) Limited,,,INE0BJS01011,,False
@@ -809,6 +831,7 @@ GUJTHEM,Gujarat Themis Biosyn Limited,,,INE942C01045,,False
 GULFOILLUB,Gulf Oil Lubricants India Limited,,,INE635Q01029,,False
 GULPOLY,Gulshan Polyols Limited,,,INE255D01024,,False
 GVPIL,GE Power India Limited,,,INE878A01011,,False
+GVPTECH,GVP Infotech Limited,,,INE382T01030,,False
 GVT&D,GE Vernova T&D India Limited,,,INE200A01026,,False
 GYFTR,Gyftr Limited,,,INE724A01017,,False
 HAL,Hindustan Aeronautics Limited,,,INE066F01020,,False
@@ -876,6 +899,7 @@ HITECH,Hi-Tech Pipes Limited,,,INE106T01025,,False
 HLEGLAS,HLE Glascoat Limited,,,INE461D01028,,False
 HLVLTD,HLV LIMITED,,,INE102A01024,,False
 HMAAGRO,HMA Agro Industries Limited,,,INE0ECP01024,,False
+HMVL,Hindustan Media Ventures Limited,,,INE871K01015,,False
 HNDFDS,Hindustan Foods Limited,,,INE254N01026,,False
 HOMEFIRST,Home First Finance Company India Limited,,,INE481N01025,,False
 HONASA,Honasa Consumer Limited,,,INE0J5401028,,False
@@ -1095,6 +1119,7 @@ KARURVYSYA,Karur Vysya Bank Limited,,,INE036D01028,,False
 KAUSHALYA,Kaushalya Infrastructure Development Corporation Limited,,,INE234I01028,,False
 KAYNES,Kaynes Technology India Limited,,,INE918Z01012,,False
 KCP,KCP Limited,,,INE805C01028,,False
+KCPSUGIND,KCP Sugar and Industries Corporation Limited,,,INE790B01024,,False
 KDDL,KDDL Limited,,,INE291D01011,,False
 KDGREEN,KD Green Industries Limited,,,INE348N01042,,False
 KEC,KEC International Limited,,,INE389H01022,,False
@@ -1129,7 +1154,7 @@ KJMCFIN,KJMC Financial Services Limited,,,INE533C01018,,False
 KKCL,Kewal Kiran Clothing Limited,,,INE401H01017,,False
 KLBRENG-B,Kilburn Engineering Limited,,,INE338F01015,,False
 KMCSHIL,K M C Speciality Hospitals (India) Limited,,,INE879K01018,,False
-KMEW,Knowledge Marine & Engineering Works Limited,,,INE0CJD01029,,False
+KMEW,Knowledge Marine & Engineering Works Limited,,,INE0CJD01037,,False
 KMSUGAR,K.M.Sugar Mills Limited,,,INE157H01023,,False
 KNACK,Knack Packaging Limited,,,INE17QZ01016,,False
 KNAGRI,KN Agri Resources Limited,,,INE0KNW01016,,False
@@ -1190,17 +1215,17 @@ LAURUSLABS,Laurus Labs Limited,,,INE947Q01028,,False
 LAXMICOT,Laxmi Cotspin Limited,,,INE801V01019,,False
 LAXMIDENTL,Laxmi Dental Limited,,,INE0WO601020,,False
 LAXMIINDIA,Laxmi India Finance Limited,,,INE06WU01026,,False
+LCCINFOTEC,LCC Infotech Limited,,,INE938A01021,,False
 LCCPROJECT,LCC Projects Limited,,,INE1FPN01026,,False
 LCL,Lohia Corp Limited,,,INE0QJW01029,,False
 LEAPIND,LEAP India Limited,,,INE00GO01025,,False
-LEMERITE,Le Merite Exports Limited,,,INE0G1L01025,,False
+LEENEE,Lee & Nee Softwares Exports Limited,,,INE791B01014,,False
 LEMONTREE,Lemon Tree Hotels Limited,,,INE970X01018,,False
 LENSKART,Lenskart Solutions Limited,,,INE956O01016,,False
 LEXUS,Lexus Granito (India) Limited,,,INE500X01013,,False
 LFIC,Lakshmi Finance & Industrial Corporation Limited,,,INE850E01012,,False
 LGBBROSLTD,LG Balakrishnan & Bros Limited,,,INE337A01034,,False
 LGEINDIA,LG Electronics India Limited,,,INE324D01010,,False
-LGHL,Laxmi Goldorna House Limited,,,INE258Y01016,,False
 LIBAS,Libas Consumer Products Limited,,,INE908V01012,,False
 LIBERTSHOE,Liberty Shoes Limited,,,INE557B01019,,False
 LICHSGFIN,LIC Housing Finance Limited,,,INE115A01026,,False
@@ -1218,6 +1243,7 @@ LODHA,Lodha Developers Limited,,,INE670K01029,,False
 LOKESHMACH,Lokesh Machines Limited,,,INE397H01017,,False
 LORDSCHLO,Lords Chloro Alkali Limited,,,INE846D01012,,False
 LOTUSCHO,Lotus Chocolate Company Limited,,,INE026D01011,,False
+LOTUSDEV,Sri Lotus Developers and Realty Limited,,,INE0V9Q01010,,False
 LOTUSEYE,Lotus Eye Hospital and Institute Limited,,,INE947I01017,,False
 LOVABLE,Lovable Lingerie Limited,,,INE597L01014,,False
 LOYALTEX,Loyal Textile Mills Limited,,,INE970D01010,,False
@@ -1252,6 +1278,7 @@ MAHLIFE,Mahindra Lifespace Developers Limited,,,INE813A01018,,False
 MAHLOG,Mahindra Logistics Limited,,,INE766P01016,,False
 MAHSEAMLES,Maharashtra Seamless Limited,,,INE271B01025,,False
 MAITHANALL,Maithan Alloys Limited,,,INE683C01011,,False
+MAJESAUT,Majestic Auto Limited,,,INE201B01022,,False
 MAKERSL,Makers Laboratories Limited,,,INE987A01010,,False
 MALLCOM,Mallcom (India) Limited,,,INE389C01015,,False
 MALUPAPER,Malu Paper Mills Limited,,,INE383H01017,,False
@@ -1304,6 +1331,7 @@ MCLOUD,Magellanic Cloud Limited,,,INE613C01026,,False
 MCX,Multi Commodity Exchange of India Limited,,,INE745G01043,,False
 MEDANTA,Global Health Limited,,,INE474Q01031,,False
 MEDIASSIST,Medi Assist Healthcare Services Limited,,,INE456Z01021,,False
+MEDICAPQ,Medi Caps Limited,,,INE442D01010,,False
 MEDICO,Medico Remedies Limited,,,INE630Y01024,,False
 MEDPLUS,Medplus Health Services Limited,,,INE804L01022,,False
 MEESHO,Meesho Limited,,,INE0VDM01015,,False
@@ -1322,7 +1350,6 @@ MGL,Mahanagar Gas Limited,,,INE002S01010,,False
 MHRIL,Mahindra Holidays & Resorts India Limited,,,INE998I01010,,False
 MICEL,MIC Electronics Limited,,,INE287C01037,,False
 MIDHANI,Mishra Dhatu Nigam Limited,,,INE099Z01011,,False
-MIDWESTLTD,Midwest Limited,,,INE0XAD01024,,False
 MIIL,Meghna Infracon Infrastructure Limited,,,INE898Q01015,,False
 MINDACORP,Minda Corporation Limited,,,INE842C01021,,False
 MINDTECK,Mindteck (India) Limited,,,INE110B01017,,False
@@ -1330,12 +1357,12 @@ MIRZAINT,Mirza International Limited,,,INE771A01026,,False
 MITCON,MITCON Consultancy & Engineering Services Limited,,,INE828O01033,,False
 MITTAL,Mittal Life Style Limited,,,INE997Y01027,,False
 MKEXIM,M.K. Exim (India) Limited,,,INE227F01010,,False
+MKJEWELS,M. K. Sons Fine Jewels Limited,,,INE2IXO01012,,False
 MKPL,M K Proteins Limited,,,INE964W01021,,False
 MLKFOOD,Milkfood Limited,,,INE588G01021,,False
 MMFL,MM Forgings Limited,,,INE227C01017,,False
 MMP,MMP Industries Limited,,,INE511Y01018,,False
 MMTC,MMTC Limited,,,INE123F01029,,False
-MMWL,Media Matrix Worldwide Limited,,,INE200D01020,,False
 MOBIKWIK,One Mobikwik Systems Limited,,,INE0HLU01028,,False
 MODINATUR,Modi Naturals Limited,,,INE537F01012,,False
 MODIRUBBER,Modi Rubber Limited,,,INE832A01018,,False
@@ -1350,6 +1377,7 @@ MOLBIO,Molbio Diagnostics Limited,,,INE869T01028,,False
 MOLDTKPAC,Mold-Tek Packaging Limited,,,INE893J01029,,False
 MOMSBELIEF,Rays of Belief Limited,,,INE1FCO01014,,False
 MONARCH,Monarch Networth Capital Limited,,,INE903D01011,,False
+MONEYBOXX,Moneyboxx Finance Limited,,,INE296Q01012,,False
 MONEYVIEW,Moneyview Limited,,,INE0PTN01011,,False
 MONTECARLO,Monte Carlo Fashions Limited,,,INE950M01013,,False
 MOSCHIP,Moschip Technologies Limited,,,INE935B01025,,False
@@ -1391,6 +1419,7 @@ NAHARPOLY,Nahar Poly Films Limited,,,INE308A01027,,False
 NAHARSPING,Nahar Spinning Mills Limited,,,INE290A01027,,False
 NAM-INDIA,Nippon Life India Asset Management Limited,,,INE298J01013,,False
 NARMADA,Narmada Agrobase Limited,,,INE117Z01029,,False
+NATCAPSUQ,Natural Capsules Limited,,,INE936B01015,,False
 NATCOPHARM,Natco Pharma Limited,,,INE987B01026,,False
 NATHBIOGEN,Nath Bio-Genes (India) Limited,,,INE448G01010,,False
 NATIONALUM,National Aluminium Company Limited,,,INE139A01034,,False
@@ -1459,7 +1488,6 @@ NOIDATOLL,Noida Toll Bridge Company Limited,,,INE781B01015,,False
 NORBTEAEXP,Norben Tea & Exports Limited,,,INE369C01017,,False
 NORTHARC,Northern Arc Capital Limited,,,INE850M01015,,False
 NOVAAGRI,Nova Agritech Limited,,,INE02H701025,,False
-NOVARTIND,Novartis India Limited,,,INE234A01025,,False
 NPST,Network People Services Technologies Limited,,,INE0FFK01017,,False
 NRAIL,N R Agarwal Industries Limited,,,INE740D01017,,False
 NRBBEARING,NRB Bearing Limited,,,INE349A01021,,False
@@ -1479,13 +1507,12 @@ ODIGMA,Odigma Consultancy Solutions Limited,,,INE054301028,,False
 ODYCORP,Odyssey Corporation Limited,,,INE839E01023,,False
 OFSS,Oracle Financial Services Software Limited,,,INE881D01027,,False
 OIL,Oil India Limited,,,INE274J01014,,False
+OILCOUNTUB,Oil Country Tubular Limited,,,INE591A01010,,False
 OLAELEC,Ola Electric Mobility Limited,,,INE0LXG01040,,False
 OLECTRA,Olectra Greentech Limited,,,INE260D01016,,False
 OMAXAUTO,Omax Autos Limited,,,INE090B01011,,False
 OMAXE,Omaxe Limited,,,INE800H01010,,False
-OMFREIGHT,Om Freight Forwarders Limited,,,INE1BZC01019,,False
 OMINFRAL,OM INFRA LIMITED,,,INE239D01028,,False
-OMNI,Omnitech Engineering Limited,,,INE0UH301010,,False
 OMPOWER,Om Power Transmission Limited,,,INE25E901019,,False
 ONEGLOBAL,One Global Service Provider Limited,,,INE670O01013,,False
 ONEPOINT,One Point One Solutions Limited,,,INE840Y01029,,False
@@ -1507,6 +1534,7 @@ ORIENTCEM,Orient Cement Limited,,,INE876N01018,,False
 ORIENTCER,ORIENT CERATECH LIMITED,,,INE569C01020,,False
 ORIENTELEC,Orient Electric Limited,,,INE142Z01019,,False
 ORIENTHOT,Oriental Hotels Limited,,,INE750A01020,,False
+ORIENTLTD,Orient Press Limited,,,INE609C01024,,False
 ORIENTPPR,Orient Paper & Industries Limited,,,INE592A01026,,False
 ORIENTTECH,Orient Technologies Limited,,,INE0PPK01015,,False
 ORIRAIL,Oriental Rail Infrastructure Limited,,,INE457G01029,,False
@@ -1577,6 +1605,7 @@ PIIND,PI Industries Limited,,,INE603J01030,,False
 PILITA,PIL ITALICA LIFESTYLE LIMITED,,,INE600A01035,,False
 PINELABS,Pine Labs Limited,,,INE15B701018,,False
 PIONEEREMB,Pioneer Embroideries Limited,,,INE156C01018,,False
+PIONRINV,Pioneer Investcorp Limited,,,INE746D01014,,False
 PIRAMALFIN,Piramal Finance Limited,,,INE202B01038,,False
 PITTIENG,Pitti Engineering Limited,,,INE450D01021,,False
 PIXTRANS,Pix Transmissions Limited,,,INE751B01018,,False
@@ -1631,7 +1660,6 @@ PRICOLLTD,Pricol Limited,,,INE726V01018,,False
 PRIMESECU,Prime Securities Limited,,,INE032B01021,,False
 PRIMO,Primo Chemicals Limited,,,INE607A01022,,False
 PRINCEPIPE,Prince Pipes And Fittings Limited,,,INE689W01016,,False
-PRIORITY,Priority Jewels Limited,,,INE15EH01014,,False
 PRITI,Priti International Limited,,,INE974Z01015,,False
 PRITIKAUTO,Pritika Auto Industries Limited,,,INE583R01029,,False
 PRIVISCL,Privi Speciality Chemicals Limited,,,INE959A01019,,False
@@ -1671,10 +1699,10 @@ RAJOOENG,Rajoo Engineers Limited,,,INE535F01024,,False
 RAJPALAYAM,Rajapalayam Mills Limited,,,INE296E01026,,False
 RAJRATAN,Rajratan Global Wire Limited,,,INE451D01029,,False
 RAJSREESUG,Rajshree Sugars & Chemicals Limited,,,INE562B01019,,False
+RAJTV,Raj Television Network Limited,,,INE952H01027,,False
 RALLIS,Rallis India Limited,,,INE613A01020,,False
 RAMANEWS,Shree Rama Newsprint Limited,,,INE278B01020,,False
 RAMAPHO,Rama Phosphates Limited,,,INE809A01032,,False
-RAMBHAJO,Advit Jewels Limited,,,INE1SJO01012,,False
 RAMCOCEM,The Ramco Cements Limited,,,INE331A01037,,False
 RAMCOIND,Ramco Industries Limited,,,INE614A01028,,False
 RAMCOSYS,Ramco Systems Limited,,,INE246B01019,,False
@@ -1707,7 +1735,6 @@ REMSONSIND,Remsons Industries Limited,,,INE474C01023,,False
 RENTOMOJO,Rentomojo Limited,,,INE08T701025,,False
 RENUKA,Shree Renuka Sugars Limited,,,INE087H01022,,False
 REPCOHOME,Repco Home Finance Limited,,,INE612J01015,,False
-REPL,Rudrabhishek Enterprises Limited,,,INE364Z01019,,False
 REPRO,Repro India Limited,,,INE461B01014,,False
 RESPONIND,Responsive Industries Limited,,,INE688D01026,,False
 RGL,Renaissance Global Limited,,,INE722H01024,,False
@@ -1721,9 +1748,11 @@ RISHABH,Rishabh Instruments Limited,,,INE0N2P01017,,False
 RITCO,Ritco Logistics Limited,,,INE01EG01016,,False
 RITES,RITES Limited,,,INE320J01015,,False
 RKDL,Ravi Kumar Distilleries Limited,,,INE722J01012,,False
+RKEC,RKEC Projects Limited,,,INE786W01010,,False
 RKFORGE,Ramkrishna Forgings Limited,,,INE399G01023,,False
 RKSWAMY,R K Swamy Limited,,,INE0NQ801033,,False
 RMC,RMC Switchgears Limited,,,INE655V01019,,False
+RMDRIP,R M Drip and Sprinklers Systems Limited,,,INE219Y01026,,False
 RML,Rane (Madras) Limited,,,INE050H01012,,False
 ROHLTD,Royal Orchid Hotels Limited,,,INE283H01019,,False
 ROLEXRINGS,Rolex Rings Limited,,,INE645S01024,,False
@@ -1742,6 +1771,7 @@ RPTECH,Rashi Peripherals Limited,,,INE0J1F01024,,False
 RRECL,RDB Real Estate Constructions Limited,,,INE0AK901016,,False
 RRIL,RRIL Limited,,,INE951M01037,,False
 RRKABEL,R R Kabel Limited,,,INE777K01022,,False
+RSDFIN,RSD Finance Limited,,,INE616F01022,,False
 RSL,Rajputana Stainless Limited,,,INE313L01016,,False
 RSSOFTWARE,R. S. Software (India) Limited,,,INE165B01029,,False
 RSWM,RSWM Limited,,,INE611A01016,,False
@@ -1821,6 +1851,7 @@ SBICARD,SBI Cards and Payment Services Limited,,,INE018E01016,,False
 SBIFUNDS,SBI Funds Management Limited,,,INE640G01020,,False
 SBILIFE,SBI Life Insurance Company Limited,,,INE123W01016,,False
 SBIN,State Bank of India,,,INE062A01020,,False
+SCANSTL,Scan Steels Limited,,,INE099G01011,,False
 SCHAEFFLER,Schaeffler India Limited,,,INE513A01022,,False
 SCHAND,S Chand And Company Limited,,,INE807K01035,,False
 SCHNEIDER,Schneider Electric Infrastructure Limited,,,INE839M01018,,False
@@ -1843,6 +1874,7 @@ SERVOTECH,Servotech Renewable Power System Limited,,,INE782X01033,,False
 SESHAPAPER,Seshasayee Paper and Boards Limited,,,INE630A01024,,False
 SETCO,Setco Automotive Limited,,,INE878E01021,,False
 SETL,Standard Engineering Technology Limited,,,INE0M4D01010,,False
+SFCTECH,SFC Environmental Technologies Limited,,,INE0PKN01028,,False
 SFL,Sheela Foam Limited,,,INE916U01025,,False
 SGFIN,SG Finserve Limited,,,INE618R01015,,False
 SGIL,Synergy Green Industries Limited,,,INE00QT01015,,False
@@ -1856,6 +1888,7 @@ SHAHINVEST,Shah Investor's Home Limited,,,INE029N01014,,False
 SHAILY,Shaily Engineering Plastics Limited,,,INE151G01028,,False
 SHAKTIPUMP,Shakti Pumps (India) Limited,,,INE908D01010,,False
 SHALBY,Shalby Limited,,,INE597J01018,,False
+SHALPAINTS,Shalimar Paints Limited,,,INE849C01026,,False
 SHANKARA,Shankara Building Products Limited,,,INE274V01019,,False
 SHANKESH,Shankesh Jewellers Limited,,,INE1WFC01025,,False
 SHANTI,Shanti Overseas (India) Limited,,,INE933X01016,,False
@@ -1899,6 +1932,7 @@ SHYAMCENT,Shyam Century Ferrous Limited,,,INE979R01011,,False
 SHYAMMETL,Shyam Metalics and Energy Limited,,,INE810G01011,,False
 SHYAMTEL,Shyam Telecom Limited,,,INE635A01023,,False
 SICAGEN,Sicagen India Limited,,,INE176J01011,,False
+SICALLOG,Sical Logistics Limited,,,INE075B01020,,False
 SIEL,Superior Industrial Enterprises Limited,,,INE843L01012,,False
 SIEMENS,Siemens Limited,,,INE003A01024,,False
 SIGACHI,Sigachi Industries Limited,,,INE0D0K01022,,False
@@ -1930,7 +1964,6 @@ SMARTLINK,Smartlink Holdings Limited,,,INE178C01020,,False
 SMARTWORKS,Smartworks Coworking Spaces Limited,,,INE0NAZ01010,,False
 SMCGLOBAL,SMC Global Securities Limited,,,INE103C01036,,False
 SMLMAH,SML Mahindra Limited,,,INE294B01019,,False
-SMLT,Sarthak Metals Limited,,,INE017W01010,,False
 SMSPHARMA,SMS Pharmaceuticals Limited,,,INE812G01025,,False
 SMT,Sahajanand Medical Technologies Limited,,,INE356Y01018,,False
 SNOWMAN,Snowman Logistics Limited,,,INE734N01019,,False
@@ -1946,6 +1979,7 @@ SOMICONVEY,Somi Conveyor Beltings Limited,,,INE323J01019,,False
 SONA,Sonaselection India Limited,,,INE0LLZ01011,,False
 SONACOMS,Sona BLW Precision Forgings Limited,,,INE073K01018,,False
 SONAL,Sonal Mercantile Limited,,,INE321M01017,,False
+SONAMLTD,SONAM LIMITED,,,INE00LM01029,,False
 SONATSOFTW,Sonata Software Limited,,,INE269A01021,,False
 SOTL,Savita Oil Technologies Limited,,,INE035D01020,,False
 SOUTHBANK,The South Indian Bank Limited,,,INE683A01023,,False
@@ -1954,6 +1988,7 @@ SPAL,S. P. Apparels Limited,,,INE212I01016,,False
 SPANDANA,Spandana Sphoorty Financial Limited,,,INE572J01011,,False
 SPARC,Sun Pharma Advanced Research Company Limited,,,INE232I01014,,False
 SPCENET,Spacenet Enterprises India Limited,,,INE970N01027,,False
+SPECTRUM,Spectrum Electrical Industries Limited,,,INE01EO01010,,False
 SPENCERS,Spencer's Retail Limited,,,INE020801028,,False
 SPIC,Southern Petrochemicals Industries Corporation  Limited,,,INE147A01011,,False
 SPLIL,SPL Industries Limited,,,INE978G01016,,False
@@ -1970,6 +2005,7 @@ SRTL,Shree Ram Twistex Limited,,,INE19GK01015,,False
 SSDL,Saraswati Saree Depot Limited,,,INE0PQ101010,,False
 SSRETAIL,SS Retail Limited,,,INE1EQW01028,,False
 SSWL,Steel Strips Wheels Limited,,,INE802C01033,,False
+STALLION,Stallion India Fluorochemicals Limited,,,INE0RYC01010,,False
 STANLEY,Stanley Lifestyles Limited,,,INE01A001028,,False
 STAR,Strides Pharma Science Limited,,,INE939A01011,,False
 STARCEMENT,Star Cement Limited,,,INE460H01021,,False
@@ -2018,6 +2054,7 @@ SUNSHINE,Sunshine Pictures Limited,,,INE1B3O01011,,False
 SUNTECK,Sunteck Realty Limited,,,INE805D01034,,False
 SUNTV,Sun TV Network Limited,,,INE424H01027,,False
 SUPERHOUSE,Superhouse Limited,,,INE712B01010,,False
+SUPERSPIN,Super Spinning Mills Limited,,,INE662A01027,,False
 SUPRAJIT,Suprajit Engineering Limited,,,INE399C01030,,False
 SUPREME,Supreme Holdings & Hospitality (India) Limited,,,INE822E01011,,False
 SUPREMEIND,Supreme Industries Limited,,,INE195A01028,,False
@@ -2045,12 +2082,14 @@ SWARAJENG,Swaraj Engines Limited,,,INE277A01016,,False
 SWASTIKAIN,Swastika Infra Limited,,,INE1QJA01015,,False
 SWELECTES,Swelect Energy Systems Limited,,,INE409B01013,,False
 SWIGGY,Swiggy Limited,,,INE00H001014,,False
+SWISSMLTRY,Swiss Military Consumer Goods Limited,,,INE010C01025,,False
 SWSOLAR,Sterling and Wilson Renewable Energy Limited,,,INE00M201021,,False
 SYMBIOTEC,Symbiotec Pharmalab Limited,,,INE899I01028,,False
 SYMPHONY,Symphony Limited,,,INE225D01027,,False
 SYNCOMF,Syncom Formulations (India) Limited,,,INE312C01025,,False
 SYNGENE,Syngene International Limited,,,INE398R01022,,False
 SYRMA,Syrma SGS Technology Limited,,,INE0DYJ01015,,False
+SYSTMTXC,Systematix Corporate Services Limited,,,INE356B01024,,False
 TAALTECH,Taal Tech Limited,,,INE524T01029,,False
 TAINWALCHM,Tainwala Chemical and Plastic (I) Limited,,,INE123C01018,,False
 TAJGVK,Taj GVK Hotels & Resorts Limited,,,INE586B01026,,False
@@ -2120,6 +2159,7 @@ TICL,Twamev Construction and Infrastructure Limited,,,INE388G01026,,False
 TIGERLOGS,Tiger Logistics (India) Limited,,,INE906O01029,,False
 TIIL,Technocraft Industries (India) Limited,,,INE545H01011,,False
 TIINDIA,Tube Investments of India Limited,,,INE974X01010,,False
+TIL,TIL Limited,,,INE806C01018,,False
 TIMETECHNO,Time Technoplast Limited,,,INE508G01029,,False
 TIMEX,Timex Group India Limited,,,INE064A01026,,False
 TIMKEN,Timken India Limited,,,INE325A01013,,False
@@ -2144,6 +2184,7 @@ TOYAMSL,Toyam Sports Limited,,,INE457P01020,,False
 TPLPLASTEH,TPL Plastech Limited,,,INE413G01022,,False
 TRACXN,Tracxn Technologies Limited,,,INE0HMF01019,,False
 TRANSCOR,Transcorp International Limited,,,INE330E01023,,False
+TRANSPEK,Transpek Industry Limited,,,INE687A01016,,False
 TRANSRAILL,Transrail Lighting Limited,,,INE454P01035,,False
 TRANSWORLD,TRANSWORLD SHIPPING LINES LIMITED,,,INE757B01015,,False
 TRAVELFOOD,Travel Food Services Limited,,,INE103V01028,,False
@@ -2230,6 +2271,7 @@ VEDAVAAG,VEDAVAAG Systems Limited,,,INE359B01010,,False
 VEDL,Vedanta Limited,,,INE205A01025,,False
 VEDPOWER,Vedanta Power Limited,,,INE694L01019,,False
 VEEDOL,Veedol Corporation Limited,,,INE484C01030,,False
+VEEFIN,Veefin Solutions Limited,,,INE0Q0M01015,,False
 VEEGALAND,Veegaland Developers Limited,,,INE1JTV01015,,False
 VENKEYS,Venky's (India) Limited,,,INE398A01010,,False
 VENTIVE,Ventive Hospitality Limited,,,INE781S01027,,False
@@ -2259,8 +2301,8 @@ VINYLINDIA,Vinyl Chemicals (India) Limited,,,INE250B01029,,False
 VIPCLOTHNG,VIP Clothing Limited,,,INE450G01024,,False
 VIPIND,VIP Industries Limited,,,INE054A01027,,False
 VIPULLTD,Vipul Limited,,,INE946H01037,,False
-VIRAT,Virat Industries Limited,,,INE467D01017,,False
 VIRINCHI,Virinchi Limited,,,INE539B01017,,False
+VIRTUALG,Virtual Global Education Limited,,,INE247C01023,,False
 VISACHROME,VISA Chrome Limited,,,INE286H01012,,False
 VISHAL,Vishal Fabrics Limited,,,INE755Q01025,,False
 VISHNU,Vishnu Chemicals Limited,,,INE270I01022,,False
@@ -2339,7 +2381,6 @@ YUKEN,Yuken India Limited,,,INE384C01016,,False
 ZAGGLE,Zaggle Prepaid Ocean Services Limited,,,INE07K301024,,False
 ZEEL,Zee Entertainment Enterprises Limited,,,INE256A01028,,False
 ZEELEARN,Zee Learn Limited,,,INE565L01011,,False
-ZEEMEDIA,Zee Media Corporation Limited,,,INE966H01019,,False
 ZENITHEXPO,Zenith Exports Limited,,,INE058B01018,,False
 ZENITHSTL,Zenith Steel Pipes & Industries Limited,,,INE318D01020,,False
 ZENSARTECH,Zensar Technologies Limited,,,INE520A01027,,False

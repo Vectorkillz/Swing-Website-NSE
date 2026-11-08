@@ -2,6 +2,33 @@
   "jobs": [
     {
       "counters": {
+        "NIFTY200": 200,
+        "NIFTY50": 50,
+        "SMALLCAP250": 247
+      },
+      "duration_s": 0.3,
+      "finished_at": "2026-11-08T08:44:09+00:00",
+      "job": "refresh_index_membership",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-08T08:44:09+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "n_symbols": 2398,
+        "source": "live"
+      },
+      "duration_s": 0.2,
+      "finished_at": "2026-11-08T08:44:08+00:00",
+      "job": "refresh_equity_list",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-08T08:44:08+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "failed": 0,
         "fetched": 118,
         "shard": "0/20",
@@ -703,21 +730,6 @@
     },
     {
       "counters": {
-        "bars_added": 6487,
-        "failed": 1,
-        "ok": 2359,
-        "symbols": 2360
-      },
-      "duration_s": 547.6,
-      "finished_at": "2026-10-26T17:19:42+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-26T17:10:35+00:00",
-      "status": "partial"
-    },
-    {
-      "counters": {
         "n_symbols": 214,
         "source": "live"
       },
@@ -820,22 +832,6 @@
       "run_id": "2026-10-23_v003_f59db24c",
       "started_at": "2026-10-23T15:49:01+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "bars_added": 2442,
-        "failed": 1,
-        "ok": 2344,
-        "split_or_adjustment_suspected": 2,
-        "symbols": 2345
-      },
-      "duration_s": 502.3,
-      "finished_at": "2026-10-23T15:49:00+00:00",
-      "job": "ingest_ohlcv",
-      "n_errors": 1,
-      "run_id": null,
-      "started_at": "2026-10-23T15:40:38+00:00",
-      "status": "partial"
     },
     {
       "counters": {
