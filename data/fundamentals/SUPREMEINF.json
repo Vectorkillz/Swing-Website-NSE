@@ -1,14 +1,14 @@
 {
-  "avg_volume": 148767.0,
+  "avg_volume": 115774.0,
   "debt_equity": 6.32067,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:42:09+00:00",
+  "fetched_at": "2026-11-14T09:37:55+00:00",
   "industry": "Engineering & Construction",
-  "market_cap_cr": 793.6724992,
+  "market_cap_cr": 631.2134656,
   "name": "Supreme Infrastructure India Limited",
   "revenue_growth": 189.79999999999998,
-  "roe": 2114.283997797561,
+  "roe": 2153.8662558187048,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

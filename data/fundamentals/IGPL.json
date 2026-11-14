@@ -1,15 +1,15 @@
 {
-  "avg_volume": 75191.0,
-  "debt_equity": 0.27136,
+  "avg_volume": 94243.0,
+  "debt_equity": 0.21227000000000001,
   "eps_growth": null,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:18:22+00:00",
+  "fcf_positive": true,
+  "fetched_at": "2026-11-14T09:37:15+00:00",
   "industry": "Chemicals",
-  "market_cap_cr": 1617.4995456,
+  "market_cap_cr": 1736.8295424,
   "name": "I G Petrochemicals Limited",
-  "revenue_growth": 31.4,
-  "roe": 6.125596690959891,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 63.1,
+  "roe": 12.145001,
+  "roe_source": "returnOnEquity",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

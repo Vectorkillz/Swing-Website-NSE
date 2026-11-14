@@ -1,0 +1,15 @@
+{
+  "avg_volume": 47806.0,
+  "debt_equity": null,
+  "eps_growth": 112.9,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-14T09:37:29+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 568.7099904,
+  "name": "Mazda Limited",
+  "revenue_growth": 63.6,
+  "roe": 15.423,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

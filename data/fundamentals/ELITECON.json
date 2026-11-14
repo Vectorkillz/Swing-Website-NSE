@@ -1,15 +1,15 @@
 {
-  "avg_volume": 5126901.0,
+  "avg_volume": 5829440.0,
   "debt_equity": 0.7096899999999999,
   "eps_growth": -94.1,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:10:52+00:00",
+  "fetched_at": "2026-11-14T09:37:04+00:00",
   "industry": "Tobacco",
-  "market_cap_cr": null,
+  "market_cap_cr": 847.2050176,
   "name": "Elitecon International Limited",
   "revenue_growth": 1750.0,
-  "roe": null,
-  "roe_source": null,
+  "roe": 89.43826096553731,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Defensive",
   "source": "yfinance.Ticker.info"
 }

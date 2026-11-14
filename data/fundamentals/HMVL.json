@@ -1,0 +1,15 @@
+{
+  "avg_volume": 34602.0,
+  "debt_equity": 0.04324,
+  "eps_growth": 415.29999999999995,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-14T09:37:14+00:00",
+  "industry": "Publishing",
+  "market_cap_cr": 646.930432,
+  "name": "Hindustan Media Ventures Limited",
+  "revenue_growth": -0.1,
+  "roe": 11.849,
+  "roe_source": "returnOnEquity",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

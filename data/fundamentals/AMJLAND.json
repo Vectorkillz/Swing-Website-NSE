@@ -1,15 +1,15 @@
 {
-  "avg_volume": 13768.0,
+  "avg_volume": 15604.0,
   "debt_equity": null,
-  "eps_growth": -7.1,
-  "fcf_positive": null,
-  "fetched_at": "2026-10-17T07:16:47+00:00",
+  "eps_growth": 2.5,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-14T09:36:46+00:00",
   "industry": "Real Estate - Development",
-  "market_cap_cr": 145.2219904,
+  "market_cap_cr": 147.4359936,
   "name": "AMJ Land Holdings Limited",
-  "revenue_growth": 2.5,
-  "roe": 6.845339899895311,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 32.1,
+  "roe": 6.034,
+  "roe_source": "returnOnEquity",
   "sector": "Real Estate",
   "source": "yfinance.Ticker.info"
 }

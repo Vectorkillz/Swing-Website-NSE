@@ -1,0 +1,15 @@
+{
+  "avg_volume": 22107.0,
+  "debt_equity": 0.00188,
+  "eps_growth": 200.0,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-14T09:37:25+00:00",
+  "industry": "Information Technology Services",
+  "market_cap_cr": 38.818704,
+  "name": "Lee & Nee Softwares (Exports) Ltd.",
+  "revenue_growth": 40.8,
+  "roe": 0.5085861940573833,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Technology",
+  "source": "yfinance.Ticker.info"
+}

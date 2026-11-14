@@ -1,0 +1,15 @@
+{
+  "avg_volume": 28802.0,
+  "debt_equity": 0.386,
+  "eps_growth": -82.8,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-14T09:37:53+00:00",
+  "industry": "Tools & Accessories",
+  "market_cap_cr": 777.9524096,
+  "name": "Sterling Tools Limited",
+  "revenue_growth": 20.4,
+  "roe": 2.2689999999999997,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

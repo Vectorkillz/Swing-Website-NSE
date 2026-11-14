@@ -1,14 +1,14 @@
 {
-  "avg_volume": 47191.0,
+  "avg_volume": 13633.0,
   "debt_equity": 0.23327,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-10-10T09:12:19+00:00",
+  "fetched_at": "2026-11-14T09:37:13+00:00",
   "industry": "Specialty Business Services",
-  "market_cap_cr": 1654.0285952,
+  "market_cap_cr": 1586.3416832,
   "name": "Hinduja Global Solutions Limited",
   "revenue_growth": -0.6,
-  "roe": -1.6126001862034043,
+  "roe": -1.610773544161993,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Industrials",
   "source": "yfinance.Ticker.info"

@@ -1,0 +1,15 @@
+{
+  "avg_volume": 17456.0,
+  "debt_equity": 0.49198000000000003,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-14T09:37:32+00:00",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "market_cap_cr": 161.3728896,
+  "name": "Natural Capsules Limited",
+  "revenue_growth": 7.8,
+  "roe": -6.962857859838668,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Healthcare",
+  "source": "yfinance.Ticker.info"
+}

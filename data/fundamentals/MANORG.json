@@ -1,14 +1,14 @@
 {
-  "avg_volume": 9825.0,
+  "avg_volume": 9462.0,
   "debt_equity": 1.1272799999999998,
   "eps_growth": -40.5,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:26:12+00:00",
+  "fetched_at": "2026-11-14T09:37:28+00:00",
   "industry": "Specialty Chemicals",
-  "market_cap_cr": 389.082496,
+  "market_cap_cr": 382.1881344,
   "name": "Mangalam Organics Limited",
   "revenue_growth": 22.2,
-  "roe": 2.615554035362699,
+  "roe": 6.949635281960052,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

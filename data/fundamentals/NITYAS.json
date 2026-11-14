@@ -1,0 +1,15 @@
+{
+  "avg_volume": 957435.0,
+  "debt_equity": 0.2949,
+  "eps_growth": -49.3,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-14T09:37:34+00:00",
+  "industry": "Luxury Goods",
+  "market_cap_cr": 385.8747648,
+  "name": "Nityas Gems and Jewellery Limited",
+  "revenue_growth": 20.9,
+  "roe": 26.72969665406926,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

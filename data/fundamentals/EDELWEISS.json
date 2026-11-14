@@ -1,14 +1,14 @@
 {
-  "avg_volume": 5693070.0,
+  "avg_volume": 6322976.0,
   "debt_equity": 3.1998599999999997,
   "eps_growth": 27.3,
   "fcf_positive": null,
-  "fetched_at": "2026-09-15T14:10:19+00:00",
+  "fetched_at": "2026-11-14T09:37:03+00:00",
   "industry": "Financial Conglomerates",
-  "market_cap_cr": 12058.8132352,
+  "market_cap_cr": 12872.9595904,
   "name": "Edelweiss Financial Services Limited",
   "revenue_growth": 23.0,
-  "roe": 13.023213744033486,
+  "roe": 13.023083723932412,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"

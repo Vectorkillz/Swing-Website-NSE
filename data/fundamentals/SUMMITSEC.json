@@ -1,15 +1,15 @@
 {
-  "avg_volume": 3468.0,
+  "avg_volume": 2717.0,
   "debt_equity": null,
-  "eps_growth": 74.8,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-19T07:38:50+00:00",
+  "eps_growth": 6.9,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-14T09:37:54+00:00",
   "industry": "Capital Markets",
-  "market_cap_cr": 1545.6884736,
+  "market_cap_cr": 1578.5288704,
   "name": "Summit Securities Limited",
-  "revenue_growth": 48.5,
-  "roe": 1.3996429179453174,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 8.9,
+  "roe": 1.3259999,
+  "roe_source": "returnOnEquity",
   "sector": "Financial Services",
   "source": "yfinance.Ticker.info"
 }

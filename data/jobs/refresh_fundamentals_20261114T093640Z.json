@@ -1,0 +1,16 @@
+{
+  "counters": {
+    "failed": 0,
+    "fetched": 120,
+    "shard": "0/20",
+    "skipped_fresh": 0,
+    "symbols": 120
+  },
+  "duration_s": 86.1,
+  "errors": [],
+  "finished_at": "2026-11-14T09:38:06+00:00",
+  "job": "refresh_fundamentals",
+  "n_errors": 0,
+  "started_at": "2026-11-14T09:36:40+00:00",
+  "status": "ok"
+}

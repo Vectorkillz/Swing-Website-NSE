@@ -1,15 +1,15 @@
 {
-  "avg_volume": 2432.0,
+  "avg_volume": 6661.0,
   "debt_equity": 1.22977,
-  "eps_growth": null,
-  "fcf_positive": false,
-  "fetched_at": "2026-10-24T07:42:31+00:00",
+  "eps_growth": -8.4,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-14T09:37:04+00:00",
   "industry": "Auto Parts",
-  "market_cap_cr": 709.3792768,
+  "market_cap_cr": 718.9958656,
   "name": "Enkei Wheels (India) Limited",
-  "revenue_growth": 36.8,
-  "roe": 9.123999600000001,
-  "roe_source": "returnOnEquity",
+  "revenue_growth": 30.3,
+  "roe": 8.459403217093536,
+  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Consumer Cyclical",
   "source": "yfinance.Ticker.info"
 }

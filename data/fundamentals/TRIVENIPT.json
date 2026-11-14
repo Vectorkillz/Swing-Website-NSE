@@ -1,0 +1,15 @@
+{
+  "avg_volume": 182193.0,
+  "debt_equity": null,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-14T09:38:00+00:00",
+  "industry": "Specialty Industrial Machinery",
+  "market_cap_cr": 4724.420608,
+  "name": "Triveni Power Transmission Limited",
+  "revenue_growth": null,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}
