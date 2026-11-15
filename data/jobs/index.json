@@ -2,6 +2,19 @@
   "jobs": [
     {
       "counters": {
+        "n_symbols": 219,
+        "source": "live"
+      },
+      "duration_s": 0.3,
+      "finished_at": "2026-11-15T09:47:35+00:00",
+      "job": "refresh_universe",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-15T09:47:34+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "NIFTY200": 200,
         "NIFTY50": 50,
         "SMALLCAP250": 247
@@ -3038,19 +3051,6 @@
       "run_id": "2026-09-11_v003_0d8159a1",
       "started_at": "2026-09-15T13:36:53+00:00",
       "status": "degraded"
-    },
-    {
-      "counters": {
-        "n_symbols": 2306,
-        "source": "live"
-      },
-      "duration_s": 1.3,
-      "finished_at": "2026-09-15T13:36:32+00:00",
-      "job": "refresh_equity_list",
-      "n_errors": 0,
-      "run_id": null,
-      "started_at": "2026-09-15T13:36:31+00:00",
-      "status": "ok"
     },
     {
       "counters": {
