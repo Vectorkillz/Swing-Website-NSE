@@ -3,6 +3,17 @@
     {
       "config_version": "v003",
       "coverage_pct": 0.21,
+      "generated_at": "2026-11-18T19:26:38+00:00",
+      "n_longs": 0,
+      "n_shorts": 0,
+      "regime": "BULL",
+      "run_id": "2026-11-18_v003_bea40e0f",
+      "session_date": "2026-11-18",
+      "status": "degraded"
+    },
+    {
+      "config_version": "v003",
+      "coverage_pct": 0.21,
       "generated_at": "2026-11-17T19:47:11+00:00",
       "n_longs": 0,
       "n_shorts": 0,
