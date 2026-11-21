@@ -1,14 +1,14 @@
 {
-  "avg_volume": 43808.0,
+  "avg_volume": 16496.0,
   "debt_equity": 0.09920999999999999,
   "eps_growth": 51.7,
   "fcf_positive": null,
-  "fetched_at": "2026-09-16T04:58:03+00:00",
+  "fetched_at": "2026-11-21T10:25:51+00:00",
   "industry": "Steel",
-  "market_cap_cr": 406.8736,
+  "market_cap_cr": 423.8596352,
   "name": "Vraj Iron and Steel Limited",
   "revenue_growth": 40.1,
-  "roe": 8.358967724674242,
+  "roe": 8.358839431101611,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"

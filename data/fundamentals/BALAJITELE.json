@@ -1,14 +1,14 @@
 {
-  "avg_volume": 268939.0,
+  "avg_volume": 242033.0,
   "debt_equity": 0.03047,
   "eps_growth": null,
   "fcf_positive": null,
-  "fetched_at": "2026-11-07T09:23:28+00:00",
+  "fetched_at": "2026-11-21T10:24:32+00:00",
   "industry": "Entertainment",
-  "market_cap_cr": 1054.454784,
+  "market_cap_cr": 1161.2411904,
   "name": "Balaji Telefilms Limited",
   "revenue_growth": 229.9,
-  "roe": -3.298826472538104,
+  "roe": -3.3430710117328575,
   "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
   "sector": "Communication Services",
   "source": "yfinance.Ticker.info"

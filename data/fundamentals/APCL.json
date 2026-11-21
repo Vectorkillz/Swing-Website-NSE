@@ -1,15 +1,15 @@
 {
-  "avg_volume": 7650.0,
-  "debt_equity": 0.62349,
+  "avg_volume": 4802.0,
+  "debt_equity": 0.61952,
   "eps_growth": null,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-26T08:04:48+00:00",
+  "fcf_positive": false,
+  "fetched_at": "2026-11-21T10:24:27+00:00",
   "industry": "Building Materials",
-  "market_cap_cr": 280.5877248,
+  "market_cap_cr": 264.3435008,
   "name": "Anjani Portland Cement Limited",
-  "revenue_growth": -35.699999999999996,
-  "roe": -8.883164687409788,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 7.000000000000001,
+  "roe": -9.7440004,
+  "roe_source": "returnOnEquity",
   "sector": "Basic Materials",
   "source": "yfinance.Ticker.info"
 }

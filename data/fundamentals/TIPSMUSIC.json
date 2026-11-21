@@ -1,0 +1,15 @@
+{
+  "avg_volume": 506675.0,
+  "debt_equity": 0.012580000000000001,
+  "eps_growth": 23.799999999999997,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-21T10:25:45+00:00",
+  "industry": "Entertainment",
+  "market_cap_cr": 10274.4997888,
+  "name": "Tips Music Limited",
+  "revenue_growth": 34.599999999999994,
+  "roe": 78.121,
+  "roe_source": "returnOnEquity",
+  "sector": "Communication Services",
+  "source": "yfinance.Ticker.info"
+}

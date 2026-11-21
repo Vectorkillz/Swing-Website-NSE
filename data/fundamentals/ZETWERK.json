@@ -1,0 +1,15 @@
+{
+  "avg_volume": 15684055.0,
+  "debt_equity": 0.56977,
+  "eps_growth": null,
+  "fcf_positive": null,
+  "fetched_at": "2026-11-21T10:25:54+00:00",
+  "industry": "Metal Fabrication",
+  "market_cap_cr": 28903.9876096,
+  "name": "Zetwerk Manufacturing Businesses Limited",
+  "revenue_growth": 55.400000000000006,
+  "roe": null,
+  "roe_source": null,
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}
