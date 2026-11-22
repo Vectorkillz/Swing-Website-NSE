@@ -2,6 +2,33 @@
   "jobs": [
     {
       "counters": {
+        "NIFTY200": 200,
+        "NIFTY50": 50,
+        "SMALLCAP250": 247
+      },
+      "duration_s": 1.0,
+      "finished_at": "2026-11-22T09:29:52+00:00",
+      "job": "refresh_index_membership",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-22T09:29:51+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
+        "n_symbols": 2407,
+        "source": "live"
+      },
+      "duration_s": 0.1,
+      "finished_at": "2026-11-22T09:29:51+00:00",
+      "job": "refresh_equity_list",
+      "n_errors": 0,
+      "run_id": null,
+      "started_at": "2026-11-22T09:29:51+00:00",
+      "status": "ok"
+    },
+    {
+      "counters": {
         "failed": 0,
         "fetched": 120,
         "shard": "0/20",
@@ -588,19 +615,6 @@
     },
     {
       "counters": {
-        "n_symbols": 2398,
-        "source": "live"
-      },
-      "duration_s": 0.2,
-      "finished_at": "2026-11-08T08:44:08+00:00",
-      "job": "refresh_equity_list",
-      "n_errors": 0,
-      "run_id": null,
-      "started_at": "2026-11-08T08:44:08+00:00",
-      "status": "ok"
-    },
-    {
-      "counters": {
         "failed": 0,
         "fetched": 118,
         "shard": "0/20",
@@ -885,19 +899,6 @@
       "n_errors": 0,
       "run_id": null,
       "started_at": "2026-11-01T08:54:12+00:00",
-      "status": "ok"
-    },
-    {
-      "counters": {
-        "n_symbols": 2357,
-        "source": "live"
-      },
-      "duration_s": 0.7,
-      "finished_at": "2026-11-01T08:54:12+00:00",
-      "job": "refresh_equity_list",
-      "n_errors": 0,
-      "run_id": null,
-      "started_at": "2026-11-01T08:54:11+00:00",
       "status": "ok"
     },
     {
