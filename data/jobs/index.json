@@ -4,6 +4,55 @@
       "counters": {
         "banned": 0,
         "below_min_score": 0,
+        "breadth_above_ema200": 1,
+        "breadth_above_ema50": 1,
+        "breadth_hh_hl": 2,
+        "breadth_median_from_52w_high": -24.4163,
+        "breadth_median_roc20": 1.1607,
+        "breadth_median_rsi14": 44.7849,
+        "breadth_n": 9,
+        "breadth_near_52w_high": 0,
+        "breadth_near_52w_low": 1,
+        "breadth_roc20_positive": 5,
+        "breadth_rs_positive": 1,
+        "breadth_stage2": 1,
+        "breadth_stage4": 3,
+        "breadth_vol_surge": 1,
+        "candidates_long": 0,
+        "candidates_short": 0,
+        "data_unavailable": 2399,
+        "fundamentals_missing": 2,
+        "grade_a": 0,
+        "grade_ap": 0,
+        "grade_app": 0,
+        "grade_b": 0,
+        "grade_bp": 0,
+        "multibagger_strong": 0,
+        "multibagger_watch": 0,
+        "no_setup": 0,
+        "ranked_long": 0,
+        "ranked_short": 0,
+        "rejected_gate": 7,
+        "scanned": 2408,
+        "swing_suitable": 1,
+        "universe": 2408,
+        "usable": 9,
+        "warnings": [
+          "degraded:coverage 0.4% < 90%"
+        ]
+      },
+      "duration_s": 19.0,
+      "finished_at": "2026-11-25T20:35:25+00:00",
+      "job": "run_scan",
+      "n_errors": 0,
+      "run_id": "2026-11-25_v003_3cb3649a",
+      "started_at": "2026-11-25T20:35:06+00:00",
+      "status": "degraded"
+    },
+    {
+      "counters": {
+        "banned": 0,
+        "below_min_score": 0,
         "breadth_above_ema200": 0,
         "breadth_above_ema50": 0,
         "breadth_hh_hl": 0,
@@ -3399,22 +3448,6 @@
       "run_id": "2026-09-11_v001_2a585efd",
       "started_at": "2026-09-15T05:59:03+00:00",
       "status": "ok"
-    },
-    {
-      "counters": {
-        "failed": 2,
-        "fetched": 209,
-        "shard": "0/1",
-        "skipped_fresh": 0,
-        "symbols": 211
-      },
-      "duration_s": 626.2,
-      "finished_at": "2026-09-15T05:58:39+00:00",
-      "job": "refresh_fundamentals",
-      "n_errors": 2,
-      "run_id": null,
-      "started_at": "2026-09-15T05:48:13+00:00",
-      "status": "partial"
     },
     {
       "counters": {
