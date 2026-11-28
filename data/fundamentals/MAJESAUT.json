@@ -1,0 +1,15 @@
+{
+  "avg_volume": 1941.0,
+  "debt_equity": 0.02125,
+  "eps_growth": -74.6,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-28T11:03:02+00:00",
+  "industry": "Real Estate Services",
+  "market_cap_cr": 375.6088832,
+  "name": "Majestic Auto Limited",
+  "revenue_growth": -92.7,
+  "roe": 5.809,
+  "roe_source": "returnOnEquity",
+  "sector": "Real Estate",
+  "source": "yfinance.Ticker.info"
+}

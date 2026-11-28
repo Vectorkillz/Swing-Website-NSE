@@ -1,0 +1,15 @@
+{
+  "avg_volume": 69494.0,
+  "debt_equity": 0.34168,
+  "eps_growth": 32.7,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-28T11:03:39+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 482.8882944,
+  "name": "Thomas Scott (India) Limited",
+  "revenue_growth": 38.6,
+  "roe": 16.334,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}

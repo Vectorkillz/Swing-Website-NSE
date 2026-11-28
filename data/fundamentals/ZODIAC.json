@@ -1,15 +1,15 @@
 {
-  "avg_volume": 12602.0,
-  "debt_equity": 2.04711,
-  "eps_growth": 157.1,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-16T04:59:27+00:00",
+  "avg_volume": 14074.0,
+  "debt_equity": 1.53334,
+  "eps_growth": 237.1,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-28T11:03:49+00:00",
   "industry": "",
   "market_cap_cr": null,
   "name": "Zodiac Energy Limited",
-  "revenue_growth": 44.6,
-  "roe": null,
-  "roe_source": null,
+  "revenue_growth": 71.8,
+  "roe": 27.002,
+  "roe_source": "returnOnEquity",
   "sector": "",
   "source": "yfinance.Ticker.info"
 }

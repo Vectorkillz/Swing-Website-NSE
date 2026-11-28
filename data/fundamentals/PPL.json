@@ -1,0 +1,15 @@
+{
+  "avg_volume": 31946.0,
+  "debt_equity": 0.06541999999999999,
+  "eps_growth": 71.89999999999999,
+  "fcf_positive": false,
+  "fetched_at": "2026-11-28T11:03:18+00:00",
+  "industry": "Building Products & Equipment",
+  "market_cap_cr": 563.8230016,
+  "name": "Prakash Pipes Limited",
+  "revenue_growth": 43.1,
+  "roe": 11.649,
+  "roe_source": "returnOnEquity",
+  "sector": "Industrials",
+  "source": "yfinance.Ticker.info"
+}

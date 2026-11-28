@@ -1,15 +1,15 @@
 {
-  "avg_volume": 16329.0,
-  "debt_equity": 0.023639999999999998,
+  "avg_volume": 12479.0,
+  "debt_equity": 0.02313,
   "eps_growth": null,
-  "fcf_positive": null,
-  "fetched_at": "2026-09-19T07:38:35+00:00",
+  "fcf_positive": true,
+  "fetched_at": "2026-11-28T11:03:17+00:00",
   "industry": "Entertainment",
-  "market_cap_cr": 24.3913632,
+  "market_cap_cr": 24.9411072,
   "name": "PNC Media and Entertainment Limited",
-  "revenue_growth": -92.60000000000001,
-  "roe": -22.800302994549202,
-  "roe_source": "derived:netIncomeToCommon/(bookValue*sharesOutstanding)",
+  "revenue_growth": 382.7,
+  "roe": -18.378,
+  "roe_source": "returnOnEquity",
   "sector": "Communication Services",
   "source": "yfinance.Ticker.info"
 }

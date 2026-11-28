@@ -1,0 +1,15 @@
+{
+  "avg_volume": 55430.0,
+  "debt_equity": 0.7959,
+  "eps_growth": 27.500000000000004,
+  "fcf_positive": true,
+  "fetched_at": "2026-11-28T11:02:20+00:00",
+  "industry": "Textile Manufacturing",
+  "market_cap_cr": 170.8718976,
+  "name": "Bannari Amman Spinning Mills Ltd",
+  "revenue_growth": 15.5,
+  "roe": 5.3540003,
+  "roe_source": "returnOnEquity",
+  "sector": "Consumer Cyclical",
+  "source": "yfinance.Ticker.info"
+}
